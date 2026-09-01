@@ -1,32 +1,10 @@
 {
-  "updatedAt": "2026-09-01T02:27:14.482Z",
+  "updatedAt": "2026-09-01T06:06:55.472Z",
   "theatre": {
     "id": 1141,
     "name": "Galaxy Cinemas Nanaimo"
   },
   "auditoriums": {
-    "217584": {
-      "totalRows": 7,
-      "totalColumns": 25,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSS..",
-        "..CWWCSSSSSSWC...........",
-        "........................."
-      ]
-    },
     "217586": {
       "totalRows": 7,
       "totalColumns": 16,
@@ -1059,34 +1037,6 @@
         "........................."
       ]
     },
-    "217639": {
-      "totalRows": 10,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "...CWWCSSSSWC...",
-        "................"
-      ]
-    },
     "217640": {
       "totalRows": 10,
       "totalColumns": 16,
@@ -1174,62 +1124,6 @@
   },
   "days": [
     {
-      "date": "2026-08-31",
-      "movies": [
-        {
-          "title": "Buddy",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61883_320_470.jpg",
-          "runtimeMinutes": 96,
-          "sessions": [
-            {
-              "time": "19:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217639&a=0000000001&l=1141&m=buddy-2026&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAOOAAAA..",
-                "..AAAAAOOAAAAA..",
-                "..AAAAOO?OOAOO..",
-                "..OOOAAOOAAAAA..",
-                "..AAAAOOOAAAOO..",
-                "..AAAAOOOAOOOA..",
-                "...AAAAOOAAAA...",
-                "................"
-              ],
-              "layoutKey": "217639"
-            }
-          ]
-        },
-        {
-          "title": "Spa Weekend",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60676_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "19:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217584&a=0000000001&l=1141&m=spa-weekend&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAOOAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOAAAAAAAAAA..",
-                "..AAAAAAAAAAAA...........",
-                "........................."
-              ],
-              "layoutKey": "217584"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-01",
       "movies": [
         {
@@ -1265,7 +1159,7 @@
                 "..AAAAAAAAAAAAAAAAAA??..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAOOAAAAAAAAA..",
+                "..AAOOOOOAAOOAAAAAAAAA..",
                 "..AAAAAAAAAOOOOAAAAAA?..",
                 "...AAAAAAAAAAAAAAAAAA...",
                 "........................"
@@ -1375,9 +1269,9 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAOOOAAAA..",
                 "..AAAAAA?AAAOO..",
-                "..AAAAAAAAAAAA..",
+                "..AAOOOAAAAAAA..",
                 "..AAAAOOOAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAA...",
@@ -1401,7 +1295,7 @@
               "seats": [
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAA?AAA..",
+                "..AAAAOOAA?AAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "...AAAA?AAAAAA..",
@@ -1419,7 +1313,7 @@
                 "..AAAAAOOAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAA?AAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAOOAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "...AAAA?AAAAAA..",
                 "................"
@@ -1483,7 +1377,7 @@
               "seats": [
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAOOAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAA?A?A..",
@@ -1604,7 +1498,7 @@
               "seats": [
                 "..AAAAAAAAAAAAAAAAAA??..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOOAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA?..",
                 "...AAAAAAAAAAAAAAAAAA...",
@@ -1625,7 +1519,7 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA?..",
-                "...AAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAOOAAAAAAAA...",
                 "........................"
               ],
               "layoutKey": "217613"
@@ -1647,7 +1541,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOOAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA...........",
                 "........................."
@@ -1842,7 +1736,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAOOOOOOAAA..",
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAA?A?A..",
                 "................"
@@ -2201,7 +2095,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAOOOAAAA..",
                 "...AAAAAAA?A?A..",
                 "................"
               ],

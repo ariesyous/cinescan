@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T02:26:59.212Z",
+  "updatedAt": "2026-09-01T06:06:42.644Z",
   "theatre": {
     "id": 7257,
     "name": "Cineplex Odeon Devonshire Mall Cinemas"
@@ -3383,56 +3383,6 @@
         "..SSSSSSSSSSSSSSSSSSSSSSS...",
         "..SSSSSSSSSSSSSSSSSSSSSSS...",
         "..SSSSSSSSSSSSSSSSSSSSSSS..."
-      ]
-    },
-    "347479": {
-      "totalRows": 8,
-      "totalColumns": 21,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSS..",
-        ".....................",
-        "...SSSSSCW.WCCW.WC...",
-        "..SSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSS..."
-      ]
-    },
-    "347480": {
-      "totalRows": 10,
-      "totalColumns": 31,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSSSSSSSSSSSS.",
-        "...............................",
-        "...CWWSCW.WCSSCW.WCSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "...D.DD.DDD.DD.DDD.DD.DDD.DD..."
       ]
     },
     "347481": {
@@ -6930,88 +6880,6 @@
   },
   "days": [
     {
-      "date": "2026-08-31",
-      "movies": [
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "22:20",
-              "formats": [
-                "UltraAVX",
-                "3D",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=347480&a=0000000004&l=7257&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
-                "...............................",
-                "...AAAAAA.AAAAAA.AAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAOAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAOOAAAAAAAAAAAAA..",
-                "...AAOOOOAAAAAAAAAAAAAAAAOOOO..",
-                "...A.AA.A?A.OO.O??.AA.AAA.AA..."
-              ],
-              "layoutKey": "347480"
-            },
-            {
-              "time": "22:20",
-              "formats": [
-                "UltraAVX",
-                "3D",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=347480&a=0000000001&l=7257&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
-                "...............................",
-                "...AAAAAA.AAAAAA.AAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAOAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAOOAAAAAAAAAAAAA..",
-                "...AAOOOOAAAAAAAAAAAAAAAAOOOO..",
-                "...A.AA.A?A.OO.O??.AA.AAA.AA..."
-              ],
-              "layoutKey": "347480"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "22:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=347479&a=0000000001&l=7257&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAA..",
-                ".....................",
-                "...AAAAAAA.AAAA.AA...",
-                "..AAAAAAAA?AAAAAAA...",
-                "..AA?AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAA...",
-                "..AAAAAAOOOOAAAAAA...",
-                "..AAAAAAAAAAAAAAAA..."
-              ],
-              "layoutKey": "347479"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-01",
       "movies": [
         {
@@ -7159,8 +7027,8 @@
                 "..AAAAAAAA.AAAA.AAAA.AA...",
                 "..AAAAAAAAAAOOOAAAAAAAA...",
                 "..AAAAAAAAAAOOAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAOOOOO...",
-                "..AAAAAAAOOOOOOAAAAAAAA...",
+                "..AAAAAAAAAOOOOAAAOOOOO...",
+                "..AAAAAAAOOOOOOAAOOAAAA...",
                 "..AAAAAAOAAOOAA?AOOOOOO...",
                 "..AAAAAAAAOOOAA?AA?AAAA..."
               ],
@@ -7320,7 +7188,7 @@
                 "..AAAAAAOOAAOOOAAOOAAAAAA...",
                 "..AAAAAAOOOOOOOOOOAAAAAAA...",
                 "..AAAAAAAAAOOOOAAAAAAAAAA...",
-                "..AAAAAAAAOOOOOOOAAOOAAAA..."
+                "..AAAAOOOOOOOOOOOAAOOAAAA..."
               ],
               "layoutKey": "347505"
             },
@@ -7382,7 +7250,7 @@
                 "..AAAAAAAA?AAAAAAA...",
                 "..AA?AAAAAAAAAAAAA...",
                 "..AAAAAAAAAOOOAAAA...",
-                "..AAAAAAAOAAAAAAAA...",
+                "..AAAAAAAOOOAAAAAA...",
                 "..AAAAAAAAOAAAOOOO..."
               ],
               "layoutKey": "347501"
@@ -7401,7 +7269,7 @@
                 "..AA?AAAAAAAAAAAAA...",
                 "..AAAAAAAAOAAAAAAA...",
                 "..AAAOOOAAOOAAAOAA...",
-                "..OOAAAAAAAAAAAAAA..."
+                "..OOAAAAOOOOOOAAAA..."
               ],
               "layoutKey": "347513"
             },
@@ -7442,7 +7310,7 @@
                 "..AAAAAAAAAAAAA......",
                 "..AAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAA...",
+                "..AAAAAAOOAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA..."
               ],
@@ -7637,7 +7505,7 @@
                 "..AAAAAAAAOOOAAAAAAA....",
                 "..A??AAAAOOOOOAAAAAA....",
                 "..AAAAAAAAAOAAAAAAAA....",
-                "..AAAA?AAAOOAAAOOAAA...."
+                "..AAAA?AAAOOOOAOOAAA...."
               ],
               "layoutKey": "347515"
             },
@@ -7654,7 +7522,7 @@
                 "..AAAAAAAAAAAAAAA.......",
                 "..AAAAAAAAAAAAA?AAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
-                "..A??AAAOOOAAAAAAAAA....",
+                "..A??AAOOOOAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAA?AAAAAAAAAAAAA...."
               ],
@@ -7777,7 +7645,7 @@
                 ".AAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAA....",
+                ".OOOOOOAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAA...."
               ],
               "layoutKey": "347522"
@@ -7958,7 +7826,7 @@
                 ".AAAAAAAAAAAAA..",
                 "................",
                 "...AA.AAAA.AAAA.",
-                "...AAAAAAAAAAAA.",
+                "...AAAAOOAAAAAA.",
                 "...AAAAAAAAAAAA.",
                 "...AAAAAAAAAAAA.",
                 "...AAAOOOOOOAAA."
@@ -8020,7 +7888,7 @@
                 "...AAAA?AA.AAAA.AA...",
                 "..AAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAOOOAAAAA...",
-                "..AAAOOAAOOOAAAAAA...",
+                "..OOAOOAAOOOAAAAAA...",
                 "..AAAAAOOOOAAAAAAA...",
                 "..AAAAAAOOOOAAAAAA..."
               ],
@@ -8045,7 +7913,7 @@
                 "...AAAA?AA.AAAA.AA...",
                 "..AAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA...",
-                "..AAAAAAAOOAAAAAAA...",
+                "..OAAAAAAOOAAAAAAA...",
                 "..AAAAAAOOOOAAOOOO...",
                 "..AAAAAOOOOOOAAAOO..."
               ],
@@ -8378,11 +8246,11 @@
                 "............................",
                 "...AAAAAAAAA.AAAA.AAAA.AA...",
                 "..AAAAAAAA??AAAAAAAAAAAAA...",
-                "..AAAAAA??AAAAAAAAAAAAAAA...",
+                "..AAAAAA??AAAOOOAAAAAAAAA...",
                 "..AAAAAAAAAAAOOOAAAAAAAAA...",
                 "..AAAAAAAAAAAOOOOAAAAAAOO...",
                 "..AAAAAAAAAAAOOAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..."
+                "..AAAAAAAAAAAOOOAAAAAAAAA..."
               ],
               "layoutKey": "347552"
             },
@@ -8560,7 +8428,7 @@
                 "..AAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAA..."
+                "..AAAAAAAAAAOOAAAA..."
               ],
               "layoutKey": "347566"
             }
@@ -9022,7 +8890,7 @@
                 "...AA.AAAA.AAAA.",
                 "...AAAAAAAAAAAA.",
                 "...AAAAAAAAAAAA.",
-                "...AAAAAAAAAAAA.",
+                "...AAAAOOOAAAAA.",
                 "...AAAAAAAAAAAA."
               ],
               "layoutKey": "347546"
@@ -10340,7 +10208,7 @@
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..A??AAAAAOAAAAAAAAA....",
                 "..AAAAAAAAAOOOAAAAAA....",
-                "..AAAA?AAAAOOAAAAAAA...."
+                "..AAAA?OOAAOOAAAAAAA...."
               ],
               "layoutKey": "346468"
             }
