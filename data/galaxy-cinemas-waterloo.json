@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T22:32:48.227Z",
+  "updatedAt": "2026-09-01T22:59:15.050Z",
   "theatre": {
     "id": 7268,
     "name": "Galaxy Cinemas Waterloo"
@@ -41,34 +41,6 @@
         "SSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "276214": {
-      "totalRows": 10,
-      "totalColumns": 23,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        ".......WWWCSSSSS.......",
-        "....SSSSSCW....WCSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "276215": {
       "totalRows": 10,
       "totalColumns": 23,
@@ -95,32 +67,6 @@
         "SS..SSSSSSSSSSSSSSSSS..",
         "SS..SSSSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "276218": {
-      "totalRows": 9,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "........WWWSSSS.......",
-        ".....SSSSCWW..WCSSS...",
-        ".....SSSSSSSSSSSSSS...",
-        ".....SSSSSSSSSSSSSS...",
-        ".....SSSSSSSSSSSSSS...",
-        ".....SSSSSSSSSSSSSS...",
-        ".SS..SSSSSSSSSSSSSS...",
-        ".SS..SSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "276219": {
@@ -3614,25 +3560,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "18:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276218&a=0000000001&l=7268&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "........AAAAAAA.......",
-                ".....AAAAAAA..AAAAA...",
-                ".....AAAAAOOOAAAAAA...",
-                ".....AAOOAOOOOOAOOO...",
-                ".....AOOOOOOOOOAOOA...",
-                ".....AOOOOOOOOOOOOO...",
-                ".AA..OOOOOOOOOOOOOO...",
-                ".OO..OOOOOOOOOOOOOO...",
-                "?OOOOOOOAOOOOOOAOOOOOO"
-              ],
-              "layoutKey": "276218"
-            },
-            {
               "time": "18:50",
               "formats": [
                 "UltraAVX",
@@ -3645,16 +3572,16 @@
                 "..AAAAAAAAAAA......AAAAAAA.",
                 ".......AAAAAA....AAAAAAAAA.",
                 "...........................",
-                "....AA.AAAAAAAAAAAAAAA.AA..",
+                "....AA.OAAAAAAAAAAAAAA.AA..",
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAOAAAAAAAAAAA..",
                 "....AAAAAAAAAOOAAAAAAAAAA..",
                 "AA..AAAAAAAAOOAAOOAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAOOOAAAAAAAAA..",
                 "AA..AAAOOOAAAAAAAA?AAAAAA..",
-                "AA..AAAAAAAAOOOAAAAAOOAAA..",
-                "AAOOOOOAAOOOOO?AAOOAAAAAAAA"
+                "AA..AAAAAOAAOOOAAAAAOOAAA..",
+                "AAOOOOOAAOOOOO?OOOOAAAOOOAA"
               ],
               "layoutKey": "276226"
             },
@@ -3671,7 +3598,7 @@
                 ".....AAAAAAAAAAAAAA...",
                 ".....AAAAAAAAAAAAAA...",
                 ".....AAAAAAAAAAAAAA...",
-                ".AA..AOAAAOOAAAAAAA...",
+                ".AA..AAAAAOOAAAAAAA...",
                 ".AA..AAAAAAAOOAAAAA...",
                 "?AAAAAOOAAOOAAAOOAAAAA"
               ],
@@ -3742,26 +3669,6 @@
           "runtimeMinutes": 106,
           "sessions": [
             {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276214&a=0000000001&l=7268&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                ".......AAAAAAAAA.......",
-                "....AAAAAAA....AAAAA?..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAOOAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "OO..AAAAAAAAAOOOOOAAA..",
-                "AA..AAAAAAOOAAAAAAAAA..",
-                "?A..AAAAAAAAOOAAAAAAA..",
-                "AAAAAAOOAAAAOOAAAAAAAAA"
-              ],
-              "layoutKey": "276214"
-            },
-            {
               "time": "22:15",
               "formats": [
                 "Regular"
@@ -3781,7 +3688,7 @@
                 "..AAAAAAAAOOOAAAAAA.....",
                 "..AAAAAAAAAOOAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAOOAAAAAAA..AA.",
                 "AAAAAAAAAAAAAAAAAOOAAAA?"
               ],
               "layoutKey": "276223"
@@ -3807,7 +3714,7 @@
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAOOAAAAAAAA..",
-                "AA..AOOOOAAOOOAOOAOAA..",
+                "AA..AOOOOAAOOOAOAAOAA..",
                 "?A..AAAOOOOOOOAAAAAAA..",
                 "AAAAAAAOOAAOOAAAOAAAAAA"
               ],

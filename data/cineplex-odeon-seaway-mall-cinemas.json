@@ -1,54 +1,10 @@
 {
-  "updatedAt": "2026-09-01T22:32:23.797Z",
+  "updatedAt": "2026-09-01T22:58:54.579Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
   },
   "auditoriums": {
-    "153252": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
-    "153253": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
     "153254": {
       "totalRows": 7,
       "totalColumns": 15,
@@ -4600,9 +4556,9 @@
                 "..AAAAAAAAAAA..",
                 "..?AAAAAAAAAA..",
                 "..?AAAAAAAAAA..",
-                "..?AAAOOOAAAA..",
-                "..?AA?AAAOOAA..",
-                "..AAAAAAAAAAA.."
+                "..?AAAOOOOOAA..",
+                "..?OO?AAAOOAA..",
+                "..AAAAOOAAAAA.."
               ],
               "layoutKey": "153257"
             }
@@ -4621,12 +4577,12 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153254&a=0000000001&l=7206&m=coyote-vs-acme-2026&ss=False",
               "seats": [
                 "...............",
-                "..OOAAOOOOAAA..",
                 "..OOOOOOOOOOO..",
-                "..OOOOOOO?AOO..",
-                "..OOOOOOAOOOO..",
+                "..OOOOOOOOOOO..",
+                "..OOOOOOO?OOO..",
+                "..OOOOOOOOOOO..",
                 "..OOOO?OOOOOO..",
-                "..AAOO?A??OOA.."
+                "..AAOO?O??OOA.."
               ],
               "layoutKey": "153254"
             },
@@ -4642,7 +4598,7 @@
                 "..AAAOOOOOAAA..",
                 "..OOAAOOA?AAA..",
                 "..AAAOOOOOAAA..",
-                "..OAAA?OOOOAA..",
+                "..AAAA?OOOOAA..",
                 "..AOOO?A??AAA.."
               ],
               "layoutKey": "153260"
@@ -4664,12 +4620,12 @@
                 "....................",
                 "....AAAAAAAAAA..AAAA",
                 "...AAAAAAAAAAA..AAAA",
-                "..AAAAAAAAAAAA..AAAA",
+                "..AAAAAOOAAAAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
                 "..AAAAAAAAAAOO..AAAA",
-                "....OO??OAAA??..AAAA",
+                "....OO??AAAA??..AAAA",
                 "........OOOOAA......"
               ],
               "layoutKey": "153255"
@@ -4701,23 +4657,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153252&a=0000000001&l=7206&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..A?AAOOAAAAA..",
-                "..AAAAAAAAA??..",
-                "..AA?AAAAOOAA..",
-                "..AAAAAAAAAAA.."
-              ],
-              "layoutKey": "153252"
-            },
             {
               "time": "21:40",
               "formats": [
@@ -4751,8 +4690,8 @@
               "seats": [
                 "...............",
                 "..A?AAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAOOOOOAAA..",
+                "..AAAOOOOAAAA..",
+                "..AOOOOOOOAAA..",
                 "..AAAAOOOOAAA..",
                 "..AA?AOOOAAAA..",
                 "..AAAAAAAAAAA.."
@@ -4766,23 +4705,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36540_320_470.jpg",
           "runtimeMinutes": 99,
           "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153253&a=0000000001&l=7206&m=the-end-of-oak-street&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AOOAAOOAAAA..",
-                "..OOOAAAAAAAO..",
-                "..?AAAOOAAOO?..",
-                "..AAOAAOOOAAA.."
-              ],
-              "layoutKey": "153253"
-            },
             {
               "time": "21:10",
               "formats": [
@@ -6316,7 +6238,7 @@
                 "AA?A..AAA?AAAAAAAAAA..",
                 "AAAA..AAAAAA??AAAAAA..",
                 "AAAA..AAAAAA????AAAA..",
-                "......AAAAAA.AAAAAA?..",
+                "......AAOOAA.AAAAAA?..",
                 "......................"
               ],
               "layoutKey": "153374"

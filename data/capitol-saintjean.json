@@ -1,32 +1,10 @@
 {
-  "updatedAt": "2026-09-01T22:31:00.327Z",
+  "updatedAt": "2026-09-01T22:57:54.166Z",
   "theatre": {
     "id": 9190,
     "name": "Capitol Saint-Jean"
   },
   "auditoriums": {
-    "159454": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null,
-        "E"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS",
-        "..SSSSSSSSSSSSS",
-        "..SSSSSSSSSSSSS",
-        "...............",
-        "..CW.WCSSSSSSSS"
-      ]
-    },
     "159455": {
       "totalRows": 8,
       "totalColumns": 12,
@@ -233,28 +211,6 @@
         ".SSSSSSSSSSSS",
         ".............",
         ".CW.WCSSSSS.."
-      ]
-    },
-    "159473": {
-      "totalRows": 8,
-      "totalColumns": 13,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null,
-        "F"
-      ],
-      "seatTypes": [
-        ".............",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "DD.DDD.DDDD.D",
-        "SSSCWWCSSSSS."
       ]
     },
     "159561": {
@@ -820,24 +776,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "18:20",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159454&a=0000000001&l=9190&m=vf-spiderman-un-jour-nouveau&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA",
-                "..OOOAAOOOOAAAA",
-                "..OOOOAOOOOOAOO",
-                "...............",
-                "..AA.AAOOAAOOAA"
-              ],
-              "layoutKey": "159454"
-            },
-            {
               "time": "19:45",
               "formats": [
                 "Recliner"
@@ -849,7 +787,7 @@
                 "AAAAAAAAAAA.",
                 "AAAAAAAOOOO.",
                 "AAAAOOOOAAA.",
-                "AAAAAAAAAAA.",
+                "AAAAOOAAAAA.",
                 "............",
                 "AA...AAAA.A?"
               ],
@@ -889,10 +827,10 @@
               "seats": [
                 "............",
                 ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
                 ".AAAAOOAAAAA",
+                ".AAAAOOOOAAA",
                 ".AAAOOOOAAAA",
-                ".AAAAOOOOOAA",
+                ".AAAOOOOOOAA",
                 "............",
                 "AA.AA...AA?A"
               ],
@@ -923,41 +861,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61789_320_470.jpg",
           "runtimeMinutes": 118,
           "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "D-BOX",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159473&a=0000000004&l=9190&m=la-constellation-du-chien&ss=False",
-              "seats": [
-                ".............",
-                "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
-                "OOAAAOOAAAAAA",
-                "AAAAAA?AAOAAA",
-                "AA.AAA.AAAA.A",
-                "?A?AAAAAOOOO."
-              ],
-              "layoutKey": "159473"
-            },
-            {
-              "time": "18:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159473&a=0000000001&l=9190&m=la-constellation-du-chien&ss=False",
-              "seats": [
-                ".............",
-                "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
-                "OOAAAOOAAAAAA",
-                "AAAAAA?AAOAAA",
-                "AA.AAA.AAAA.A",
-                "?A?AAAAAOOOO."
-              ],
-              "layoutKey": "159473"
-            },
             {
               "time": "21:20",
               "formats": [
@@ -1010,9 +913,9 @@
                 ".............",
                 ".AA?AAAAAAAA.",
                 ".?AAAAAAAAAAA",
-                ".AAAAAAAAAAAO",
-                ".AAOOOOOOAAAA",
-                ".AAAOOOOAAAAA",
+                ".AAAAOOOOAAAO",
+                ".AAOOOOOOAOOA",
+                ".AAAOOOOOOOAA",
                 ".AOOAAOOAAOOA",
                 ".............",
                 ".AA.AAAOOOO.."
