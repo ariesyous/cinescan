@@ -1,64 +1,10 @@
 {
-  "updatedAt": "2026-09-01T21:42:21.055Z",
+  "updatedAt": "2026-09-01T22:32:30.855Z",
   "theatre": {
     "id": 1149,
     "name": "Fifth Avenue Cinemas (age restricted 19+)"
   },
   "auditoriums": {
-    "116668": {
-      "totalRows": 11,
-      "totalColumns": 21,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K"
-      ],
-      "seatTypes": [
-        "SSSS...SSSSSS....SSSS",
-        "SSSS...SSSSSSS...SSSS",
-        "SSSS..SSSSSSSS...SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS.............SSSS",
-        "........CWWWC........"
-      ]
-    },
-    "116669": {
-      "totalRows": 8,
-      "totalColumns": 14,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS...W.WC",
-        "SSSSSSS.......",
-        "SSSSSSS......."
-      ]
-    },
     "116670": {
       "totalRows": 7,
       "totalColumns": 16,
@@ -4448,24 +4394,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "15:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=116669&a=0000000001&l=1149&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAA..AAAAA",
-                "AAAAAAA..AAAAA",
-                "AAAAAAA..AAAAA",
-                "AAAAAAA..AAOAA",
-                "AAAAAOO..AAAAA",
-                "AAAAAAA...A.AA",
-                "AAAAAAO.......",
-                "AAAAAAA......."
-              ],
-              "layoutKey": "116669"
-            },
-            {
               "time": "18:15",
               "formats": [
                 "Regular"
@@ -4519,7 +4447,7 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
-                "AAA..AAAOOAAAA..AAA",
+                "AAA..AAAOOAOOA..AAA",
                 "AAA..AOOOOOAAA..AAA",
                 "AAA..AAAAOOAAA..AAA",
                 "AAA..AAAAAAAOO..AAA",
@@ -4633,27 +4561,6 @@
           "runtimeMinutes": 106,
           "sessions": [
             {
-              "time": "15:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=116668&a=0000000001&l=1149&m=tony&ss=False",
-              "seats": [
-                "AAAA...AAAAAA....AAAA",
-                "AAAA...AAAAAAA...AAAA",
-                "AAAA..AAAAAAAA...AAAA",
-                "AAAA..AAAAAAAAA..AAAA",
-                "AAAA..AAAOOAAAA..AAAA",
-                "AAAA..AAOAAO?OA..AAAA",
-                "AAAA..AOOAAOOAA..AAAA",
-                "AAAA..AA?OA?AAO..AAAA",
-                "AAAA..AO?AAAAOO..AAAA",
-                "????.............AAAA",
-                "........AAAAA........"
-              ],
-              "layoutKey": "116668"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Regular"
@@ -4662,11 +4569,11 @@
               "seats": [
                 "AAAA...AAAAAA....AAAA",
                 "AAAA...AAAAAAA...AAAA",
-                "AAAA..AAAAAAOO...AAAA",
-                "AAAA..AAAOOOAOO..AAAA",
+                "AAAA..AAAAOOOO...AAAA",
+                "AAAA..AOOOOOAOO..AAAA",
                 "AAOO..OOOOOOOOO..OOAA",
                 "AAOO..OOOOOO?OO..OOAA",
-                "AAOO..OOOOOOOOO..OOOA",
+                "AAAA..OOOOOOOOO..OOOA",
                 "OOOO..OO?OO?AOO..OOAA",
                 "AAOO..OO?OOOOOO..OOAA",
                 "????.............OOAA",
@@ -4712,8 +4619,8 @@
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
-                "AAAAAAAOOAAAAAAA",
-                "AAAAAOOAAOAAAAAA",
+                "AAAAOOAOOAOAAAAA",
+                "AAAAAOOAOOAAOAAA",
                 "AAAAA..AAAO.....",
                 "OAAAA..A.A......"
               ],
@@ -4729,9 +4636,9 @@
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
                 "AAAAOOOOOOAOOOAA",
-                "AAOOOOOOOAOOOOOO",
+                "OOOOOOOOOAOOOOOO",
                 "OOAOOOOOOOOOOOOA",
-                "AAAOO..OOOO.....",
+                "AOOOO..OOOO.....",
                 "AOOOO..A.A......"
               ],
               "layoutKey": "116676"
@@ -4794,7 +4701,7 @@
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
-                "AAAAAAA..AAAAA",
+                "AAAAAAA..AAOOA",
                 "AAAAAAA...A.AA",
                 "AAAAAAA.......",
                 "AAAAAAA......."
@@ -5321,7 +5228,7 @@
                 "AAAA...AAAAAAA...AAAA",
                 "AAAA..AAAAAAAA...AAAA",
                 "AAAA..AAAAAAAAA..AAAA",
-                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..OOAAAAAAA..AAAA",
                 "AAAA..OOOOAA?AA..AAAA",
                 "AAAA..AAAAOOOAA..AAAA",
                 "AAAA..AA?OO?AAA..AAAA",
@@ -6267,7 +6174,7 @@
                 "AAAAAAA..AAAAA",
                 "AAAAAOO...A.AA",
                 "AAAAAAA.......",
-                "AAAAAAA......."
+                "AAAAAOO......."
               ],
               "layoutKey": "116758"
             },

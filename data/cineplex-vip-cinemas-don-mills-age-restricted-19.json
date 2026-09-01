@@ -1,43 +1,11 @@
 {
-  "updatedAt": "2026-09-01T21:42:17.053Z",
+  "updatedAt": "2026-09-01T22:32:25.928Z",
   "theatre": {
     "id": 7139,
     "name": "Cineplex VIP Cinemas Don Mills (age restricted 19+)"
   },
   "auditoriums": {
     "63196": {
-      "totalRows": 12,
-      "totalColumns": 13,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        ".SS.SS.SS....",
-        ".............",
-        "CW.SSSCWWC...",
-        "SSSSSSSSSS...",
-        "SSSSSSSSSS...",
-        "SSSSSSSSSS...",
-        "SSSSSSSSSS...",
-        "SSSSSSSSSS.SS",
-        "SSSSSSSSSS.SS",
-        "SSSSSSSSSS.SS",
-        "SSSSSSSSSS.SS",
-        "SSSSSSSSSS.SS"
-      ]
-    },
-    "63198": {
       "totalRows": 12,
       "totalColumns": 13,
       "rowLabels": [
@@ -149,30 +117,6 @@
         "SS.SSSSSSSSSS",
         "SS.SSSSSSSSSS",
         "SS.SSSSSSSSSS"
-      ]
-    },
-    "63202": {
-      "totalRows": 8,
-      "totalColumns": 12,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        null,
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSS",
-        "SSSSSSSSSSSS",
-        "SSSSSSSSSSSS",
-        "SSSSSSSSSSSS",
-        "SSSSSSSSSSSS",
-        "............",
-        "..SSSSCWWC..",
-        "SSSSSSSSSSSS"
       ]
     },
     "63203": {
@@ -542,27 +486,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "18:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63202&a=0000000001&l=7139&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAAAAAAA",
-                "OOAAAAAAAAOO",
-                "OOOOOOOOOOOA",
-                "OOOOOOOOOOOO",
-                "OOOO?OOOOOOO",
-                "............",
-                "..OOOOAAAA..",
-                "OOOOOOOOOOOO"
-              ],
-              "layoutKey": "63202"
-            },
-            {
               "time": "21:30",
               "formats": [
                 "VIP 19+",
@@ -573,13 +496,13 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63200&a=0000000001&l=7139&m=spiderman-brand-new-day&ss=False",
               "seats": [
                 "AAAAAAAAAAAA",
-                "AAOOAOOAAAAA",
+                "AAOOAOOAAAOO",
                 "OOOOOOOOOOAA",
                 "OOOAOOOOOOOO",
-                "OOOO?AOOOOAA",
+                "OOOO?AOOOOOO",
                 "............",
                 "..OOOOAAAA..",
-                "OOOOOOOOOAOO"
+                "OOOOOOOOOOOO"
               ],
               "layoutKey": "63200"
             }
@@ -601,14 +524,14 @@
                 "....AA.AA.AA.",
                 ".............",
                 "...AAAAAAA.AA",
+                "...AAOOAAAAAA",
                 "...AAAAAAAAAA",
                 "...AAAAAAAAAA",
-                "...AAAAAAAAAA",
-                "...AA?AAOOOOO",
+                "...OO?AAOOOOO",
                 "OO.OOOOOOOOAA",
                 "OO.OOOOOOOOOO",
                 "OO.OOOOOOOAOO",
-                "OO.OOAOOOAAAA",
+                "OO.OOAOOOOOOO",
                 "AA.OOOOOOOOOO"
               ],
               "layoutKey": "63201"
@@ -628,7 +551,7 @@
                 "AAOOOOOOOOAA",
                 "............",
                 "..AAAAOOOO..",
-                "OOA?OOOOOOA.",
+                "OOA?OOOOOOO.",
                 "..........AA"
               ],
               "layoutKey": "63199"
@@ -655,9 +578,9 @@
                 "AAAAOOOOAA...",
                 "AAAAAAAAAA...",
                 "AAAAAOAAAA...",
-                "AAOOAAOOAA.AA",
+                "AAOOAAOOAO.AA",
                 "OOAAOOAAOO.AA",
-                "AAAAAAOOAA.AA",
+                "AAOOAAOOAA.AA",
                 "AAAAAAAAAA.AA",
                 "OOOOOOOOOO.OO"
               ],
@@ -693,29 +616,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61801_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "17:30",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63198&a=0000000001&l=7139&m=tony&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAOOAOOO.AA",
-                "OOAAOOAAAA.AA",
-                "AAAAAAOOAA.AA",
-                "AAOOOOAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63198"
-            },
             {
               "time": "20:30",
               "formats": [
@@ -790,7 +690,7 @@
                 "AAAAAAAAA?AA",
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
-                "AAAAAAAAAAAA",
+                "OOAAAAAAAAAA",
                 "AAAAAAAAAAAA",
                 "............",
                 "..AAAAOOOO..",
@@ -910,7 +810,7 @@
                 "AAAAOOAAAAAA",
                 "AAAA?AOOAAAA",
                 "............",
-                "..AAAAAAAA..",
+                "..AAOOAAAA..",
                 "AAAAAAAAAAAA"
               ],
               "layoutKey": "63246"
