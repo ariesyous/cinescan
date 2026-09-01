@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T02:09:52.242Z",
+  "updatedAt": "2026-09-01T02:27:07.060Z",
   "theatre": {
     "id": 7112,
     "name": "Cineplex Odeon Westmount Cinemas and VIP"
@@ -289,52 +289,6 @@
         "..SSSSSSSSSSS..",
         "..SSSSSSSSSSS..",
         "..SSSSSSSSSSS.."
-      ]
-    },
-    "236149": {
-      "totalRows": 11,
-      "totalColumns": 26,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSSSSSSS.",
-        "..........................",
-        "..CW..WCCW.WCCW.WCCW.WCS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..DD.DD.DDD.DD.DDD.DD.D..."
-      ]
-    },
-    "236150": {
-      "totalRows": 5,
-      "totalColumns": 19,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..SSSCW.WCC.WC.....",
-        "..SSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSS..SS"
       ]
     },
     "236179": {
@@ -2844,87 +2798,6 @@
   },
   "days": [
     {
-      "date": "2026-08-31",
-      "movies": [
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "22:00",
-              "formats": [
-                "UltraAVX",
-                "3D",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=236149&a=0000000004&l=7112&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAAAAA.",
-                "..........................",
-                "..AA..AAAA.AAAA.AAAA.AAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOOAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AA.AAA.AA.AAA.AA.A..."
-              ],
-              "layoutKey": "236149"
-            },
-            {
-              "time": "22:00",
-              "formats": [
-                "UltraAVX",
-                "3D",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=236149&a=0000000001&l=7112&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAAAAA.",
-                "..........................",
-                "..AA..AAAA.AAAA.AAAA.AAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOOAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AA.AAA.AA.AAA.AA.A..."
-              ],
-              "layoutKey": "236149"
-            }
-          ]
-        },
-        {
-          "title": "Buddy",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61883_320_470.jpg",
-          "runtimeMinutes": 96,
-          "sessions": [
-            {
-              "time": "22:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=236150&a=0000000001&l=7112&m=buddy-2026&ss=False",
-              "seats": [
-                "..AAAAA.AAA.AA.....",
-                "..AAAAAAAAAAAA.....",
-                "..AAAAAAAOAAAA.....",
-                "..AAOOAAOOAAAA.....",
-                "..AAAAOOAAOOAAA..??"
-              ],
-              "layoutKey": "236150"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-01",
       "movies": [
         {
@@ -3599,7 +3472,7 @@
                 "..AAAAAAAAAAA..",
                 "..?OOOOOAAAAA..",
                 "..AAAAOO?AA?A..",
-                "..AAOOAAAAAAA..",
+                "..AAOOAAAAAAO..",
                 "..AAOOAAOOAAA.."
               ],
               "layoutKey": "236311"
@@ -4766,9 +4639,9 @@
                 "...............",
                 "..AAAAAAAA.....",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
                 "..AAOOAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAO.."
               ],
               "layoutKey": "236326"

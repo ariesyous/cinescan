@@ -1,40 +1,10 @@
 {
-  "updatedAt": "2026-09-01T02:09:54.701Z",
+  "updatedAt": "2026-09-01T02:27:10.358Z",
   "theatre": {
     "id": 1144,
     "name": "Galaxy Cinemas Chilliwack"
   },
   "auditoriums": {
-    "146628": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "......................",
-        "...SSSSSSSSSSSSSSSSSS.",
-        "......................",
-        "....SS.WCSSCW..WCSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "146632": {
       "totalRows": 11,
       "totalColumns": 22,
@@ -86,36 +56,6 @@
         "..SSSSSSSSSSSSSSSS..",
         "....................",
         "..SCW..WCSSCW.CS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "146639": {
-      "totalRows": 11,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "....................",
-        ".SSSSSSSSSSSSSSSSS..",
-        "....................",
-        "..SCW..WCSSCW.SS....",
         "..SSSSSSSSSSSSSS....",
         "..SSSSSSSSSSSSSS....",
         "..SSSSSSSSSSSSSS....",
@@ -2257,62 +2197,6 @@
       "date": "2026-08-31",
       "movies": [
         {
-          "title": "The Dog Stars",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
-          "runtimeMinutes": 118,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=146628&a=0000000001&l=1144&m=the-dog-stars&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAAA.",
-                "......................",
-                "....AA.AAAAAA..AAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "....AAOOOOAAAAAAAAAA..",
-                "AA..AAAAAAOOAAOAAAAA..",
-                "AA..AAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAOOAAAAAAAAA"
-              ],
-              "layoutKey": "146628"
-            }
-          ]
-        },
-        {
-          "title": "Spa Weekend",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60676_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "19:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=146639&a=0000000001&l=1144&m=spa-weekend&ss=False",
-              "seats": [
-                "....................",
-                ".AAAAAAAAAAAAAAAAA..",
-                "....................",
-                "..AAA..AAAAAA.AA....",
-                "..AAAAAAAAAAOOAA....",
-                "..AAAAOOAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAOOAAAAA....",
-                "..AAAAAAAAAAAAAA..AA",
-                "..AAAAAOOAAAAAAA..AA",
-                "AAAAAAAAAAAOOAAAAAAA"
-              ],
-              "layoutKey": "146639"
-            }
-          ]
-        },
-        {
           "title": "Mutiny",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37909_320_470.jpg",
           "runtimeMinutes": 95,
@@ -2331,8 +2215,8 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAOOAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAA..",
+                "....AOOAAAAAAAAAAAAA..",
+                "AA..AAAAAAOOAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -2362,7 +2246,7 @@
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAOAAAAAAA..AA",
                 "..AAAAAAAAA?AAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAOOAAAAAAAAAA"
               ],
               "layoutKey": "146638"
             }
@@ -2623,7 +2507,7 @@
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".AA..AAAAAAAAAAAAAAAAAAAAA..",
+                ".AA..AAAAAOOOOOAAAAAAAAAAA..",
                 ".AA..AAAAAAAAAAAAAAAAAAAAA..",
                 ".AA..AAAAAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAAA"

@@ -1,46 +1,10 @@
 {
-  "updatedAt": "2026-09-01T02:09:27.697Z",
+  "updatedAt": "2026-09-01T02:26:35.740Z",
   "theatre": {
     "id": 7285,
     "name": "Cineplex Cinemas Milton"
   },
   "auditoriums": {
-    "190408": {
-      "totalRows": 14,
-      "totalColumns": 28,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        null
-      ],
-      "seatTypes": [
-        "............................",
-        "...SSSSSSSSSSSSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSSSSSSSSSSSS.",
-        "............................",
-        ".......WWCSSSSCWCSSCW..WCS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".SS..SSSSSSSSSSSSSSSSSSSSS..",
-        ".SS..SSSSSSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS",
-        "............................"
-      ]
-    },
     "190409": {
       "totalRows": 14,
       "totalColumns": 28,
@@ -3182,42 +3146,6 @@
   },
   "days": [
     {
-      "date": "2026-08-31",
-      "movies": [
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "21:55",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=190408&a=0000000001&l=7285&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAAAAAAAAAAAA.",
-                "............................",
-                ".......AAAAAAAAAAAAAA..AAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".OO..AAAAAAAAAAAAAAAAAAAAA..",
-                ".AA..AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAOOOAAAAAAOOAAAA",
-                "............................"
-              ],
-              "layoutKey": "190408"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-01",
       "movies": [
         {
@@ -3388,11 +3316,11 @@
                 ".......AAAAAAAAAAAAAA..AAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAOOAAAAAAAAAA..",
                 ".....AAAAAAAOOOOOAAAAAAAAA..",
                 ".....OOAAAOOAOOOOOOOAAAAAA..",
-                ".OO..OOOOOOOOOOOOOAAAAAAAA..",
-                ".OO..OOAAAAAAOOAAAAOOOOAAA..",
+                ".OO..OOOOOOOOOOOOOAAOOAAAA..",
+                ".OO..OOAAAAAAOOOOOAOOOOAAA..",
                 "OOOOOAAAAAAOOOOOOAAAAAAAAAOO",
                 "............................"
               ],
@@ -3517,7 +3445,7 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAA..",
-                "AA..AAAAAOOOAAAAAAAA..",
+                "AA..AAAAAOOOAAOOOAAA..",
                 "AAAAAAAOOOOOOOAAAOOOOO"
               ],
               "layoutKey": "190425"
