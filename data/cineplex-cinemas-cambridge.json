@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T09:52:56.844Z",
+  "updatedAt": "2026-09-01T15:42:08.695Z",
   "theatre": {
     "id": 7269,
     "name": "Cineplex Cinemas Cambridge"
@@ -1345,32 +1345,6 @@
         "......................"
       ]
     },
-    "222592": {
-      "totalRows": 9,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "......................",
-        ".......SSSSSSSS.......",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "...SSCWCCWWCCWCSSSS...",
-        "......................"
-      ]
-    },
     "222593": {
       "totalRows": 9,
       "totalColumns": 22,
@@ -1552,6 +1526,62 @@
         "..SSSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSS..",
         "....CWCCWWCCWWCCWSS...",
+        "......................"
+      ]
+    },
+    "222600": {
+      "totalRows": 10,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "AA",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        null
+      ],
+      "seatTypes": [
+        "......................",
+        "......SSSSSSSSSS......",
+        "SSS...SSSSSSSSSSSSS...",
+        "SSS...SSSSSSSSSSSSS...",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        ".......CW.WCCWWCCWC...",
+        "......................"
+      ]
+    },
+    "222601": {
+      "totalRows": 10,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "AA",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        null
+      ],
+      "seatTypes": [
+        "......................",
+        "......SSSSSSSSSS......",
+        "SSS...SSSSSSSSSSSSS...",
+        "SSS...SSSSSSSSSSSSS...",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        ".......CW.WCCWWCCWC...",
         "......................"
       ]
     },
@@ -1928,6 +1958,46 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
+              "time": "11:40",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=222600&a=0000000001&l=7269&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "......................",
+                "......??????????......",
+                "AAA...AAAAAAAAAAAAA...",
+                "AAA...AAAAAAAAAAAAA...",
+                "AAAA..AAAAOOOOAOOAAA..",
+                "AOOA..OOOOOOOOAAAAAA..",
+                "AAAA..AAOAOOOOOOOOOA..",
+                "AAOO..OOOOOOOOAAOAAA..",
+                ".......AA.AAAAAAAAA...",
+                "......................"
+              ],
+              "layoutKey": "222600"
+            },
+            {
+              "time": "15:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=222601&a=0000000001&l=7269&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "......................",
+                "......??????????......",
+                "AAA...AAAAAAAAAAAAA...",
+                "AAA...AAAAAAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAOOOOOAAAAAA..",
+                "AAAA..AAOOAAOOAOOOOO..",
+                "AAAA..OOOOAAAAAAAAAA..",
+                ".......AA.AAAAAAAAA...",
+                "......................"
+              ],
+              "layoutKey": "222601"
+            },
+            {
               "time": "18:20",
               "formats": [
                 "Recliner"
@@ -1938,9 +2008,9 @@
                 "......??????????......",
                 "AAA...AAAOOOAAAAAAA...",
                 "AAA...AAAAAAAAAAAAA...",
-                "AAAA..AAAAOOOOOOAAOO..",
+                "OOOO..AAAAOOOOOOAAOO..",
                 "AAAA..AAAOOOOOOOOOOO..",
-                "AAOO..AOAAAAAOOOOOOO..",
+                "AAOO..AOOOAOOOOOOOOO..",
                 "OOOO..OOOOOOOOOOOOOO..",
                 ".......AA.AAAAAAAAA...",
                 "......................"
@@ -1958,10 +2028,10 @@
                 "......................",
                 ".......AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAOOOOOOOAAAAAA..",
                 "..OOOOOOOOOOOOAAOOOO..",
                 "..AAOOOAAOOOOOOOOOOO..",
-                "..OOAAAAOOOOOAAAAAAA..",
+                "..OOAAOOOOOOOAOOAAAA..",
                 "...OOAAAAAAAAAAAOOO...",
                 "......................"
               ],
@@ -1979,7 +2049,7 @@
                 "AAA...AAAAAAAAAAAAA...",
                 "AAA...AAAAAAAAAAAAA...",
                 "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAOOOAAAAAAAA..",
                 "AAAA..AAAAAAAAAAAAAA..",
                 "AAAA..AAAAOOAAAAAAAA..",
                 ".......AA.AAAAAAAAA...",
@@ -2027,7 +2097,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAOOAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAOOOOAA..",
+                "...AAAAAAOAAAAAAAAOOOOAA..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
               ],
@@ -2046,7 +2116,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAOOOAAOOOOOOOAAAAA..",
                 "...AAAAAAAAAOOOOOOAAAAAA..",
-                "...AAAAAAAAAOOOOAAAAAAAA..",
+                "...AAAOOOAAAOOOOOOAAAAAA..",
                 "........AAAAAAOAAAAAAAOO..",
                 ".........................."
               ],
@@ -2129,7 +2199,7 @@
                 "....AAAAAAAAA?....",
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAA..",
+                "..AAAAAOOOOAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAOOAAAAAA..",
                 "..AAAAAAOOAAAAAA..",
@@ -2284,7 +2354,7 @@
                 "....AAAAAAAAAA....",
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAA..",
+                "..OOOAAAAAAAAAAA..",
                 "..AAAAAAAOAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAA...",
@@ -2305,7 +2375,7 @@
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAOOOAAAAA..",
-                "..AAAAAAOAAAAAAA..",
+                "..AAAAOOOAOOOOAA..",
                 "..AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAOO...",
                 ".................."
@@ -2340,25 +2410,6 @@
           "runtimeMinutes": 89,
           "sessions": [
             {
-              "time": "11:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=222592&a=0000000001&l=7269&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                "......................",
-                ".......AAAAAAAA.......",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAA...",
-                "......................"
-              ],
-              "layoutKey": "222592"
-            },
-            {
               "time": "13:45",
               "formats": [
                 "Recliner"
@@ -2370,7 +2421,7 @@
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOOAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..OOOAAAAOOOOAAAAAAA..",
                 "..AAAOOAAOOOAAOOAAAA..",
                 "...AAAAAAAAAAAAAOOO...",
                 "......................"
@@ -2442,7 +2493,7 @@
                 "AAAA..AAAAAAAAAAAAAO..",
                 "AAAA..AAAAAAAAAAAAAA..",
                 "AAAA..AAAAOOAAAAAAAA..",
-                "AAAA..AAAOOAAAAAAAAA..",
+                "AOOO..AAAOOAAAAAAAAA..",
                 ".......AA.AAAAAAAAA...",
                 "......................"
               ],
@@ -2567,7 +2618,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAOOAAAAAAAAAA..",
                 "...AAAAAAAOOOAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAOOAAAAAAAAA..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
               ],
