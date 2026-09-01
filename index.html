@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CineScan — Cineplex showtimes across Canada</title>
+  <meta
+    name="description"
+    content="Browse Cineplex movie showtimes, theatres, and formats across Canada."
+  />
+  <meta name="theme-color" content="#0f1115" />
+  <link rel="canonical" href="https://ariesyous.github.io/cinescan/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ariesyous.github.io/cinescan/" />
+  <meta property="og:site_name" content="CineScan" />
+  <meta property="og:title" content="CineScan — Cineplex showtimes across Canada" />
+  <meta
+    property="og:description"
+    content="Browse Cineplex movie showtimes, theatres, and formats across Canada."
+  />
+  <meta property="og:image" content="https://ariesyous.github.io/cinescan/assets/cinescan-social-preview.jpg" />
+  <meta property="og:image:width" content="1672" />
+  <meta property="og:image:height" content="941" />
+  <meta property="og:image:alt" content="A stylized dark showtimes dashboard with a colourful seat map" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CineScan — Cineplex showtimes across Canada" />
+  <meta
+    name="twitter:description"
+    content="Browse Cineplex movie showtimes, theatres, and formats across Canada."
+  />
+  <meta name="twitter:image" content="https://ariesyous.github.io/cinescan/assets/cinescan-social-preview.jpg" />
+  <meta name="twitter:image:alt" content="A stylized dark showtimes dashboard with a colourful seat map" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="theatre-name">Showtimes at Scotiabank Theatre Toronto</h1>
+
+    <div class="region-nav">
+      <div id="region-buttons" class="region-buttons"></div>
+      <nav id="breadcrumb" class="breadcrumb" hidden></nav>
+      <div id="area-buttons" class="area-buttons"></div>
+      <div id="theatre-list" class="theatre-list"></div>
+    </div>
+
+    <div class="theatre-picker">
+      <input
+        id="theatre-search"
+        class="theatre-search"
+        type="text"
+        placeholder="Or search all theatres by name or city&hellip;"
+        autocomplete="off"
+      />
+      <button
+        id="theatre-search-clear"
+        class="theatre-search-clear"
+        type="button"
+        aria-label="Clear search"
+        hidden
+      >&times;</button>
+      <div id="theatre-dropdown" class="theatre-dropdown" hidden></div>
+    </div>
+    <p class="refresh-note">Data refreshes multiple times per day.</p>
+    <p id="updated" class="updated"></p>
+  </header>
+
+  <div id="format-filter" class="format-filter"></div>
+
+  <main id="calendar" class="calendar">
+    <p class="loading">Loading showtimes&hellip;</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      CineScan is not affiliated with Cineplex. This is a fan-made and
+      maintained project.
+    </p>
+    <img
+      class="visitor-badge"
+      src="https://visitor-badge.laobi.icu/badge?page_id=ariesyous.cinescan"
+      alt="visitor count"
+      loading="lazy"
+    />
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

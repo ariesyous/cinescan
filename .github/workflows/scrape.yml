@@ -1,0 +1,76 @@
+name: Scrape Cineplex showtimes
+
+on:
+  schedule:
+    # Times below are UTC-4 (EDT); each drifts back ~1hr during EST (UTC-5).
+    # The deep window (IMAX advance-sale dates, up to 180 days out) is
+    # expensive and doesn't need to run every time, so only the Thursday
+    # 1pm entry runs it; every other entry runs the near window only.
+    - cron: "0 12 * * *" # ~8am ET, every day: quick
+    - cron: "0 17 * * 1,2,3,5,6,0" # ~1pm ET, every day except Thursday: quick
+    - cron: "0 17 * * 4" # ~1pm ET Thursday: deep
+    - cron: "0 18 * * *" # ~2pm ET, every day: quick
+    - cron: "0 19 * * *" # ~3pm ET, every day: quick
+    - cron: "0 20 * * *" # ~4pm ET, every day: quick
+    - cron: "0 21 * * *" # ~5pm ET, every day: quick
+    - cron: "0 22 * * *" # ~6pm ET, every day: quick
+    - cron: "0 23 * * *" # ~7pm ET, every day: quick
+    - cron: "0 0 * * *" # ~8pm ET, every day: quick
+    - cron: "0 1 * * *" # ~9pm ET, every day: quick
+    - cron: "0 2 * * *" # ~10pm ET, every day: quick
+    - cron: "0 5 * * *" # ~1am ET, every day: quick
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Scrape mode"
+        type: choice
+        options: [quick, deep]
+        default: quick
+
+permissions:
+  contents: write
+
+# A full scrape can run well over an hour at 152-theatre scale. Without
+# this, an overlapping cron/manual trigger would run a second scrape
+# concurrently and race with the first on the git commit/push at the end.
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+
+      - name: Determine scrape mode
+        id: mode
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 17 * * 4" ]; then
+            mode=deep
+          elif [ -n "${{ github.event.schedule }}" ]; then
+            mode=quick
+          else
+            mode="${{ inputs.mode }}"
+          fi
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+
+      - name: Run scraper
+        env:
+          SCRAPE_MODE: ${{ steps.mode.outputs.mode }}
+          CINEPLEX_SUBSCRIPTION_KEY: ${{ secrets.CINEPLEX_SUBSCRIPTION_KEY }}
+        run: node scripts/scrape.mjs
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git diff --staged --quiet || git commit -m "Update showtimes"
+          git pull --rebase
+          git push
