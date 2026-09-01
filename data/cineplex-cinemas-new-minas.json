@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T17:10:15.611Z",
+  "updatedAt": "2026-09-01T18:17:24.359Z",
   "theatre": {
     "id": 5132,
     "name": "Cineplex Cinemas New Minas"
@@ -480,36 +480,6 @@
       ]
     },
     "94494": {
-      "totalRows": 11,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "I",
-        "H",
-        "G",
-        "F",
-        "E",
-        "D",
-        "C",
-        "B",
-        "A",
-        null
-      ],
-      "seatTypes": [
-        "................",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        "...WCSSSSSSCW...",
-        "................"
-      ]
-    },
-    "94495": {
       "totalRows": 11,
       "totalColumns": 16,
       "rowLabels": [
@@ -1544,6 +1514,38 @@
         "...WCSSSSSSSCW...",
         "................."
       ]
+    },
+    "94565": {
+      "totalRows": 12,
+      "totalColumns": 23,
+      "rowLabels": [
+        null,
+        "K",
+        "I",
+        "H",
+        "G",
+        "F",
+        "E",
+        "D",
+        "C",
+        "B",
+        "A",
+        null
+      ],
+      "seatTypes": [
+        ".......................",
+        "....SSSSSSSSSSSSSSS....",
+        ".SS.SSSSSSSSSSSSSSS.SS.",
+        ".SS.SSSSSSSSSSSSSSS.SS.",
+        ".SS.SSSSSSSSSSSSSSS.SS.",
+        ".SS.SSSSSSSSSSSSSSS.SS.",
+        ".SS.SSSSSSSSSSSSSSS.SS.",
+        ".SS.SSSSSSSSSSSSSSS.SS.",
+        ".SS.SSSSSSSSSSSSSSS.SS.",
+        ".S..SSSSSSSSSSSSSSS..S.",
+        "......WCSSSSSSSCW......",
+        "......................."
+      ]
     }
   },
   "days": [
@@ -1564,17 +1566,17 @@
               "seats": [
                 "......................",
                 "......................",
-                "..AAAAAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAOOAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAOOAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAOOOOOAAAAA.",
                 ".AAAAAAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAAAAAA.",
                 "..OOAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAOOAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAOOOOAAAAA....",
                 "......................"
               ],
               "layoutKey": "94487"
@@ -1653,27 +1655,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
           "runtimeMinutes": 172,
           "sessions": [
-            {
-              "time": "15:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94495&a=0000000001&l=5132&m=the-odyssey&ss=False",
-              "seats": [
-                "................",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAOAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAOOAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                "...AAAAAAAAAA...",
-                "................"
-              ],
-              "layoutKey": "94495"
-            },
             {
               "time": "18:05",
               "formats": [
@@ -1927,7 +1908,7 @@
                 ".AAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAA.",
+                ".AAAAAAOOAAAAA.",
                 ".AAAAAAAAAAAAA.",
                 ".AAAAOOOOOAAAA.",
                 ".AAAAAAAAAAAAA.",
@@ -2009,7 +1990,7 @@
                 ".AAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAA.",
+                ".OOOOAAAAAAAAA.",
                 "...AAAAAOOAA...",
                 "..............."
               ],
@@ -2810,6 +2791,40 @@
                 "..............."
               ],
               "layoutKey": "94524"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "movies": [
+        {
+          "title": "Insidious: Out of the Further",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
+          "runtimeMinutes": 106,
+          "sessions": [
+            {
+              "time": "15:55",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94565&a=0000000001&l=5132&m=insidious-out-of-the-further&ss=False",
+              "seats": [
+                ".......................",
+                "....AAAAAAAAAAAAAAA....",
+                ".AA.AAAAAAAAAAAAAAA.AA.",
+                ".AA.AAAAAAAAAAAAAAA.AA.",
+                ".AA.AAAAAAAAAAAAAAA.AA.",
+                ".AA.AAAAAAAAAAAAAAA.AA.",
+                ".AA.AAAAAAAAAAAAAAA.AA.",
+                ".AA.AAAAAAAAAAAAAAA.AA.",
+                ".AA.AAAAAAAAAAAAAAA.AA.",
+                ".A..AAAAAAAAAAAAAAA..A.",
+                "......AAAAAAAAAAA......",
+                "......................."
+              ],
+              "layoutKey": "94565"
             }
           ]
         }

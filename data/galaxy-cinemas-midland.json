@@ -1,42 +1,10 @@
 {
-  "updatedAt": "2026-09-01T17:10:55.076Z",
+  "updatedAt": "2026-09-01T18:18:10.908Z",
   "theatre": {
     "id": 7271,
     "name": "Galaxy Cinemas Midland"
   },
   "auditoriums": {
-    "149939": {
-      "totalRows": 12,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "......................",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "......................",
-        "....WWCSSSSSSSSCW.....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "149940": {
       "totalRows": 13,
       "totalColumns": 23,
@@ -1862,10 +1830,10 @@
                 "......AAAAAAAAOOAAAAAAAA...",
                 "......AAAAAAAAAAA?AAAAAA...",
                 "......AAAAAAAAAAAAAAAAAA...",
+                "..OO..AAAAAAAAAAAAAAAAAA...",
+                "..AA..AAAAAAAOOAAAAAAAAA...",
                 "..AA..AAAAAAAAAAAAAAAAAA...",
-                "..AA..AAAAAAAAAAAAAAAAAA...",
-                "..AA..AAAAAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAAAA?AAAAAAA"
+                ".OOOAAAAAAAAAAAAAAA?AAAAAAA"
               ],
               "layoutKey": "149942"
             },
@@ -1938,12 +1906,12 @@
                 ".?AAAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAAA..",
                 ".......................",
-                "....AAAAAAAAAAAAAA.....",
+                "....AAAAOAOAOAAAAA.....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA..AA",
+                "..AAAAOAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAA?AAAAA"
@@ -2150,28 +2118,6 @@
           "runtimeMinutes": 99,
           "sessions": [
             {
-              "time": "13:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=149939&a=0000000001&l=7271&m=the-end-of-oak-street&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                "....AAAAAAAAAAAAA.....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "149939"
-            },
-            {
               "time": "15:50",
               "formats": [
                 "Regular"
@@ -2185,9 +2131,9 @@
                 "......................",
                 "....AAAAAAAAAAAAA.....",
                 "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAOOAAA....",
                 "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAOOAAAAAA....",
                 "...AAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
