@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T22:59:00.593Z",
+  "updatedAt": "2026-09-01T23:50:46.544Z",
   "theatre": {
     "id": 3149,
     "name": "Cineplex Odeon Windermere Cinemas and VIP"
@@ -2637,40 +2637,6 @@
         "SS.SSSSSSSSSSSS",
         "SS.SSSSSSSSSSSS",
         "SS.SS......SSSS"
-      ]
-    },
-    "170505": {
-      "totalRows": 13,
-      "totalColumns": 13,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K"
-      ],
-      "seatTypes": [
-        "....SS.SS.SS.",
-        ".............",
-        "...CWSSSCW.WC",
-        "...SSSSSSSSSS",
-        "...SSSSSSSSSS",
-        "...SSSSSSSSSS",
-        "...SSSSSSSSSS",
-        "...SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SS....SSSS",
-        "SS.........SS"
       ]
     },
     "170506": {
@@ -9231,7 +9197,7 @@
                 "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??OOAAAAAAAAAAA",
-                "AA..AA.AAAA.AAAA.AAAA.AAAA.AA",
+                "AA..AA.AAAA.AAAO.OAAA.AAAA.AA",
                 "....?A.AAAA.A?AA.AAAA.AAAA.?A"
               ],
               "layoutKey": "170436"
@@ -9258,7 +9224,7 @@
                 "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??OOAAAAAAAAAAA",
-                "AA..AA.AAAA.AAAA.AAAA.AAAA.AA",
+                "AA..AA.AAAA.AAAO.OAAA.AAAA.AA",
                 "....?A.AAAA.A?AA.AAAA.AAAA.?A"
               ],
               "layoutKey": "170436"
@@ -9393,29 +9359,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "17:00",
-              "formats": [
-                "VIP 18+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170505&a=0000000001&l=3149&m=the-odyssey&ss=False",
-              "seats": [
-                "....AA.AA.AA.",
-                ".............",
-                "...AAAAAAA.AA",
-                "...AAAAAAAAAA",
-                "...AAAAAAAAAA",
-                "...AAAAAAAAAA",
-                "...AAAAAAAAAA",
-                "...AAOOAAAAAA",
-                "AA.AAOOAAOOAA",
-                "AA.AAOOAAAAAA",
-                "AA.AAAAAOAAAA",
-                "AA.AA....AAAA",
-                "AA.........AA"
-              ],
-              "layoutKey": "170505"
-            },
-            {
               "time": "18:10",
               "formats": [
                 "Regular"
@@ -9430,7 +9373,7 @@
                 ".....AAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAA.",
-                ".....AAAOOAAOAAAA.",
+                ".....AAAOOAAAAAAA.",
                 ".AA..AAAAAAAAAAAA.",
                 ".AA..AAAAAAAAAAAA.",
                 "AAAOOAAAAAAAAAAAAA"
@@ -9507,8 +9450,8 @@
                 "..OOAAAAAAAAOOAAAAAAA.....",
                 "..AAAAAAAAOAAOOOOOAAA.....",
                 "..AAAAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAA?AAAAAAAA..AA.",
+                "..AAAAAAAAAOOOAAAAAAA..AA.",
+                "..AAAAAAAOOO?AAAAAAAA..AA.",
                 "OOAAAAAOOAAOOAAAOOAAAOOAAA"
               ],
               "layoutKey": "170437"
@@ -9530,7 +9473,7 @@
                 "..AAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAOAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAAOOAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAA?AAAAAAAA..AA.",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -9560,12 +9503,12 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAAOO.....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAOAAAAOOOAA..AA.",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAOOAA??AAAAAA..AA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAA???"
+                "AAAAAAAAAAAAAOOOAAAAAAAAAAA???"
               ],
               "layoutKey": "170433"
             },
@@ -9667,8 +9610,8 @@
                 ".....AAAAAAAAAA..",
                 ".....AAAAAAAAAA..",
                 ".....AAAAAAAAAA..",
-                ".AA..AAAAAAAAAA..",
-                ".AA..AAAAAAAAAA..",
+                ".AA..AAOOAAAAAA..",
+                ".AA..AAAAAOAAAA..",
                 "AAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "170431"
@@ -9716,7 +9659,7 @@
                 ".....AAAAAAAAAAA..",
                 ".....AAAAAOOAAAA..",
                 ".....OOOOAAAAAAA..",
-                ".OO..AAAAAAAAAAA..",
+                ".OO..AAAAOOAAAAA..",
                 ".AA..AAAAAAAAAAA..",
                 "AAAAOOAAAAAAAAAAAA"
               ],
@@ -11729,7 +11672,7 @@
                 "..AAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAAOOAAAAAAAA..AA.",
                 "..AAAAAAAAAA?AAAAAAAA..AA.",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -12965,7 +12908,7 @@
                 ".AAAAAAAAA?AAAAAA.....",
                 ".AAAAAAAAAAAAAAAA..AA.",
                 ".AAAAAAAAAAAAAAAA..AA.",
-                "AAAAAAAAA??AAAAAAAAAAA"
+                "AAAAAAAAA??AAAAAAAOOOO"
               ],
               "layoutKey": "170768"
             },
@@ -14617,7 +14560,7 @@
               "layoutKey": "170705"
             },
             {
-              "time": "19:20",
+              "time": "19:15",
               "formats": [
                 "Regular"
               ],

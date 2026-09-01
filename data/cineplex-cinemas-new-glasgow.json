@@ -1,38 +1,10 @@
 {
-  "updatedAt": "2026-09-01T22:58:23.946Z",
+  "updatedAt": "2026-09-01T23:49:59.241Z",
   "theatre": {
     "id": 5114,
     "name": "Cineplex Cinemas New Glasgow"
   },
   "auditoriums": {
-    "95499": {
-      "totalRows": 10,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "................",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        "................",
-        ".....WCSSSSCW...",
-        "..SSSSSSSSSSS...",
-        "..SSSSSSSSSSS...",
-        "..SSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSS."
-      ]
-    },
     "95502": {
       "totalRows": 10,
       "totalColumns": 16,
@@ -5372,26 +5344,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "20:20",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=95499&a=0000000001&l=5114&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "................",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                "................",
-                ".....AAAAAAAA...",
-                "..AAAAAAAAAAA...",
-                "..AAAAAAAAAAA...",
-                "..AAAAAAAAAAA...",
-                ".AAAAAAAAAAOOAA."
-              ],
-              "layoutKey": "95499"
-            },
-            {
               "time": "21:10",
               "formats": [
                 "Regular"
@@ -5405,9 +5357,9 @@
                 "................",
                 ".....AAAAAAAA...",
                 "..AAAAAAAAAAA...",
-                "..AAAAAAAAAAA...",
+                "..AAAAAAOOAAA...",
                 "..AAAAAOAAAAA...",
-                ".AAAAAAAAAAAAAA."
+                ".AAAAAOOOOAAAAA."
               ],
               "layoutKey": "95502"
             }
@@ -5431,11 +5383,11 @@
                 "..AAAAAAAAAAAA...",
                 ".................",
                 "...AAAAAAAAAAA...",
+                "..AOAAAAAAAAAA...",
+                "..AAAAAAOAAAAA...",
                 "..AAAAAAAAAAAA...",
                 "..AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAA...",
+                "..AAAAAOOAAAAA...",
                 "AAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "95505"
@@ -5844,7 +5796,7 @@
                 ".AAAAA..AAAAAA",
                 ".AAAAA..AAAAAA",
                 ".AAAAA..AAAAAA",
-                ".AAAAAAAAAAAAA"
+                ".AAAAAOOAAAAAA"
               ],
               "layoutKey": "95535"
             }

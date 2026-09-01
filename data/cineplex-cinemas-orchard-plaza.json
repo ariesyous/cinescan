@@ -1,36 +1,10 @@
 {
-  "updatedAt": "2026-09-01T22:58:25.108Z",
+  "updatedAt": "2026-09-01T23:50:00.401Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
   },
   "auditoriums": {
-    "125226": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSCW.WCSS..SSS",
-        "SCW..............SSS"
-      ]
-    },
     "125227": {
       "totalRows": 10,
       "totalColumns": 22,
@@ -695,15 +669,15 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125227&a=0000000001&l=1410&m=spiderman-brand-new-day&ss=False",
               "seats": [
-                "A??..AAAAAAAAAAAA..AAA",
+                "A??..AAAAAAAAAAAA..OAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AOOOOOOOAAAA..AAA",
-                "AAA..AAOO?AOOAAAA..AAA",
+                "AAA..AOOOOOOOOOOA..AAA",
+                "AAA..OOOO?AOOOOOA..AAA",
                 "AAA..AAOOOOOOOOOA..OOO",
                 "AOO..AAOOOO?AOOAA..AAA",
                 "AAA..OOOOAOOOOOOO..AAA",
-                "OOO...AOOAAAAAA?A..AAA",
+                "OOO...AOOAAAAAA?A..OOA",
                 "???..................."
               ],
               "layoutKey": "125227"
@@ -723,7 +697,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125232&a=0000000001&l=1410&m=the-odyssey&ss=False",
               "seats": [
                 "AAAAA??AAAAAA?",
-                "AAAAAOOOOAAA?A",
+                "AAAOOOOOOAAA?A",
                 "AOOAOOOOOOOAOO",
                 "AOOA?OOOOA..AA",
                 "OOOOOOOOOOOOOO",
@@ -762,25 +736,6 @@
           "runtimeMinutes": 106,
           "sessions": [
             {
-              "time": "15:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125226&a=0000000001&l=1410&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "AAA..AAAAAAAAAA..???",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAA?..AAA",
-                "AAA..AAAAOOAAAA..AAA",
-                "AAA..AAAAOOA?AA..AAA",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..OOOOAA?OOO..AAA",
-                "AAA..OOAAA.AAAA..AAA",
-                "???..............???"
-              ],
-              "layoutKey": "125226"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Recliner"
@@ -818,7 +773,7 @@
                 "?AAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAAOOOAAAAAA",
-                "AAAAAAAAAAA..",
+                "AAAAAAAAOOO..",
                 "AAAAA.AAAAA.."
               ],
               "layoutKey": "125230"
@@ -951,7 +906,7 @@
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
                 "AA..AAOOAA??..?A",
-                "?A..AAAAAAAA..AA",
+                "?A..AOOOOOAA..AA",
                 "AA...AAAAAAA..AA"
               ],
               "layoutKey": "125239"
@@ -1008,7 +963,7 @@
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA?..AAA",
                 "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAA?AA..AAA",
+                "AAA..AAAAAAA?OO..AAA",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAOO?AAA..AAA",
                 "AAA..OOAAA.AAAA..AAA",
@@ -1034,7 +989,7 @@
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
+                "OOOOOOOOOAAAA",
                 "AAAAAAAAAOO..",
                 "AAAAA.AAAAA.."
               ],

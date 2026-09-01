@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T22:58:57.997Z",
+  "updatedAt": "2026-09-01T23:50:42.389Z",
   "theatre": {
     "id": 7139,
     "name": "Cineplex VIP Cinemas Don Mills (age restricted 19+)"
@@ -85,70 +85,6 @@
         "............",
         "..SSSSCWWC..",
         "SSSSSSSSSSSS"
-      ]
-    },
-    "63201": {
-      "totalRows": 12,
-      "totalColumns": 13,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "....SS.SS.SS.",
-        ".............",
-        "...CWWCSSS.WC",
-        "...SSSSSSSSSS",
-        "...SSSSSSSSSS",
-        "...SSSSSSSSSS",
-        "...SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SSSSSSSSSS"
-      ]
-    },
-    "63203": {
-      "totalRows": 12,
-      "totalColumns": 13,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        ".SS.SS.SS....",
-        ".............",
-        "CW.SSSCWWC...",
-        "SSSSSSSSSS...",
-        "SSSSSSSSSS...",
-        "SSSSSSSSSS...",
-        "SSSSSSSSSS...",
-        "SSSSSSSSSS.SS",
-        "SSSSSSSSSS.SS",
-        "SSSSSSSSSS.SS",
-        "SSSSSSSSSS.SS",
-        "SSSSSSSSSS.SS"
       ]
     },
     "63204": {
@@ -496,8 +432,8 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63200&a=0000000001&l=7139&m=spiderman-brand-new-day&ss=False",
               "seats": [
                 "AAAAAOOAAAAA",
-                "AAOOAOOAAAAA",
-                "OOOOOOOOOOAA",
+                "AAOOAOOAOOAA",
+                "OOOOOOOOOOOO",
                 "OOOAOOOOOOOO",
                 "OOOO?AOOOOOO",
                 "............",
@@ -514,29 +450,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "19:30",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63201&a=0000000001&l=7139&m=the-odyssey&ss=False",
-              "seats": [
-                "....AA.AA.AA.",
-                ".............",
-                "...AAAAAAA.AA",
-                "...AAOOAAAAAA",
-                "...AAAAAAAAAA",
-                "...OOAAAAAAAA",
-                "...OO?AAOOOOO",
-                "OO.OOOOOOOOOO",
-                "OO.OOOOOOOOOO",
-                "OO.OOOOOOOAOO",
-                "OO.OOAOOOOOOO",
-                "AA.OOOOOOOOOO"
-              ],
-              "layoutKey": "63201"
-            },
-            {
               "time": "21:00",
               "formats": [
                 "VIP 19+",
@@ -547,7 +460,7 @@
                 "AAAAAAAAA?AA",
                 "AAAAAAAAAAAA",
                 "AAAAAAOOAAAA",
-                "AAAAOOOOOOAA",
+                "AAAOOOOOOOAA",
                 "OOOOOOOOOOAA",
                 "............",
                 "..AAAAOOOO..",
@@ -563,29 +476,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
           "sessions": [
-            {
-              "time": "18:45",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63203&a=0000000001&l=7139&m=the-dog-stars&ss=False",
-              "seats": [
-                ".AA.AA.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AA?AAAAAAA...",
-                "AAAAOOOOAA...",
-                "AAAAAAAAAA...",
-                "AAAAAOOOAA...",
-                "AAOOAAOOAA.AA",
-                "OOAAOOAAOO.AA",
-                "AAOOAAOOAA.AA",
-                "AAAAAAAAAA.AA",
-                "OOOOOOOOOO.OO"
-              ],
-              "layoutKey": "63203"
-            },
             {
               "time": "22:00",
               "formats": [
@@ -629,9 +519,9 @@
                 "AA.AAAAAAA...",
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA...",
+                "AAAAOOAAAO...",
                 "AAAAOOAAAA...",
-                "AAAAOOAAAA...",
-                "AAAAOOAAOO.AA",
+                "OOAAOOAAOO.AA",
                 "AAOOAAAAAA.AA",
                 "AAAAOOAAOO.AA",
                 "AAAAAAAAAA.AA",
@@ -718,7 +608,7 @@
                 "AA.AAAAAAAAAA",
                 "AA.OOOOOOOOOA",
                 "AA.AAAAAAAAAA",
-                "AA.AAAAAAAAAA"
+                "AA.AAOOAAAAAA"
               ],
               "layoutKey": "63228"
             }
