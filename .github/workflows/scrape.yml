@@ -42,7 +42,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 240
     steps:
+      # Ref (not the default github.sha) so a run that queues behind the
+      # `scrape` concurrency group checks out whatever landed while it
+      # waited, rather than the stale commit that was HEAD when it was
+      # triggered — otherwise its own commit rebases against unrelated
+      # concurrent changes and can conflict.
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref }}
 
       - uses: actions/setup-node@v5
         with:
