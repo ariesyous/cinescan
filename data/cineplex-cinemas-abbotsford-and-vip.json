@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T03:13:46.308Z",
+  "updatedAt": "2026-09-02T05:32:14.801Z",
   "theatre": {
     "id": 1148,
     "name": "Cineplex Cinemas Abbotsford and VIP"
@@ -210,6 +210,40 @@
       ]
     },
     "160280": {
+      "totalRows": 13,
+      "totalColumns": 15,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "seatTypes": [
+        "..SS.SS.SS.....",
+        "...............",
+        "SS.WCSSCW.WC...",
+        "SSSSSSSSSSSS...",
+        "SSSSSSSSSSSS...",
+        "SSSSSSSSSSSS...",
+        "SSSSSSSSSSSS...",
+        "SSSSSSSSSSSS...",
+        "SSSSSSSSSSSS.SS",
+        "SSSSSSSSSSSS.SS",
+        "SSSSSSSSSSSS.SS",
+        "SSSSS....SSS.SS",
+        "SSSS......SS.SS"
+      ]
+    },
+    "160282": {
       "totalRows": 13,
       "totalColumns": 15,
       "rowLabels": [
@@ -7725,7 +7759,7 @@
                 "...AAAAAAAAAAAA",
                 "...AAAAAAAAAAAA",
                 "...AAAAOOOOAAAA",
-                "AA.AAAAAAAAAAAA",
+                "AA.AAOOAAAAAAAA",
                 "AA.AAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAA",
                 "AA.AAA....AAAAA",
@@ -7845,7 +7879,7 @@
                 "..AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
-                "..AOOAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAA..AA.",
                 "AAAAAAAAAAAAAAAAAAAA."
@@ -8698,7 +8732,7 @@
                 "AAAAAAAAAAAA.AA",
                 "AAAAAAAAAAAA.AA",
                 "AAAAA....AAA.AA",
-                "AAAA......AA.AA"
+                "AAAA......AA.OO"
               ],
               "layoutKey": "161163"
             },
@@ -13117,7 +13151,7 @@
                 "?A.AAAAAA.AA...",
                 "AAOOAAAAAAAA...",
                 "AAAAAAAAAAAA...",
-                "AA?AAAAAAAAA...",
+                "AA?AOOAAAAAA...",
                 "AAAAAAOAAAAA...",
                 "AAAAAAAAOOOO...",
                 "?AAAAAOOAAAA.OO",
@@ -13438,6 +13472,41 @@
                 "AAAA......AA.AA"
               ],
               "layoutKey": "160280"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=160282&a=0000000001&l=1148&m=practical-magic-2&ss=False",
+              "seats": [
+                "..AA.AA.AA.....",
+                "...............",
+                "?A.AAAAAA.AA...",
+                "AAAAAAAAAAAA...",
+                "AAAAAAAAAAAA...",
+                "AA?AAAAAAAAA...",
+                "AAAAAAAAAAAA...",
+                "AAAOOOAAAAAA...",
+                "?AAAOOOOAAAA.AA",
+                "AAAAOOAAAAAA.AA",
+                "AAAAOOOOAAAA.AA",
+                "AAAAA....AAA.AA",
+                "AAAA......OO.AA"
+              ],
+              "layoutKey": "160282"
             }
           ]
         }

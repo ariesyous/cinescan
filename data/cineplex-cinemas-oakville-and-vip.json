@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T03:14:30.417Z",
+  "updatedAt": "2026-09-02T05:32:48.609Z",
   "theatre": {
     "id": 7273,
     "name": "Cineplex Cinemas Oakville and VIP"
@@ -258,6 +258,62 @@
       ]
     },
     "251808": {
+      "totalRows": 10,
+      "totalColumns": 15,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "...SSSSSSSSSSS.",
+        "...............",
+        "....SSSSCW.WCS.",
+        "....SSSSSSSSSS.",
+        "....SSSSSSSSSS.",
+        "....SSSSSSSSSS.",
+        "....SSSSSSSSSS.",
+        "SS..SSSSSSSSSS.",
+        "SS..SSSSSSSSSS.",
+        "SSSSSSSSSSSSSSS"
+      ]
+    },
+    "251809": {
+      "totalRows": 10,
+      "totalColumns": 15,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "...SSSSSSSSSSS.",
+        "...............",
+        "....SSSSCW.WCS.",
+        "....SSSSSSSSSS.",
+        "....SSSSSSSSSS.",
+        "....SSSSSSSSSS.",
+        "....SSSSSSSSSS.",
+        "SS..SSSSSSSSSS.",
+        "SS..SSSSSSSSSS.",
+        "SSSSSSSSSSSSSSS"
+      ]
+    },
+    "251810": {
       "totalRows": 10,
       "totalColumns": 15,
       "rowLabels": [
@@ -9680,7 +9736,7 @@
                 ".AAAAAAAAAA....",
                 ".AAAAAAAAAA....",
                 ".AAAAAAAAAA....",
-                ".AAAAAAAAAA....",
+                ".AAAAOAAAAA....",
                 ".AAAAAAAAAA..AA",
                 ".AAAAAAAAAA..AA",
                 "AAAAAAAAAAA..AA",
@@ -12210,7 +12266,7 @@
                 "....AAAAAAAAAA.",
                 "....AAAAAAAAAA.",
                 "....AAAOOOAAAA.",
-                "AA..AAOOAAAAAA.",
+                "AA..AAAAAAAAAA.",
                 "AA..AAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA"
               ],
@@ -12553,7 +12609,7 @@
                 "....AAOOAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAOOOOAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAOOOOAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAA..",
                 "AA..OOOAAA?AAAAAAAAAAAAA..",
@@ -13499,9 +13555,9 @@
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAOOAAAAAAAAA..",
                 "AA..AAAAAAAOOOOAAAAAAAAA..",
-                "AA..AAAAAA?AAAAAAAAAAAAA..",
+                "AA..AAAAAA?OOOOAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "252951"
@@ -16715,6 +16771,58 @@
                 "AAAAAAAAAAAAAAA"
               ],
               "layoutKey": "251808"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:15",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=251809&a=0000000001&l=7273&m=practical-magic-2&ss=False",
+              "seats": [
+                "...???????????.",
+                "...............",
+                "....AAAAAA.AAA.",
+                "....AAAAAAAAAA.",
+                "....AAAAAAAAAA.",
+                "....AAAAAAAAAA.",
+                "....AAAAAAAAAA.",
+                "AA..AAOOAAAAAA.",
+                "AA..AAAAOOAAAA.",
+                "AAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "251809"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=251810&a=0000000001&l=7273&m=practical-magic-2&ss=False",
+              "seats": [
+                "...???????????.",
+                "...............",
+                "....AAAAAA.AAA.",
+                "....AAAAAAAAAA.",
+                "....AAAAAAAAAA.",
+                "....AAAAAAAAAA.",
+                "....AAAAAAAAAA.",
+                "AA..AAAAAAAAAA.",
+                "AA..AAAAAAAAAA.",
+                "AAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "251810"
             }
           ]
         }

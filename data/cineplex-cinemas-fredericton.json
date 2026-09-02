@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T03:14:07.837Z",
+  "updatedAt": "2026-09-02T05:32:33.211Z",
   "theatre": {
     "id": 6111,
     "name": "Cineplex Cinemas Fredericton"
@@ -294,6 +294,78 @@
       ]
     },
     "165415": {
+      "totalRows": 8,
+      "totalColumns": 23,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        ".......................",
+        "........SSSSSSSS.......",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "........SSCWWWCS......."
+      ]
+    },
+    "165416": {
+      "totalRows": 8,
+      "totalColumns": 23,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        ".......................",
+        "........SSSSSSSS.......",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "........SSCWWWCS......."
+      ]
+    },
+    "165417": {
+      "totalRows": 8,
+      "totalColumns": 23,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        ".......................",
+        "........SSSSSSSS.......",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "........SSCWWWCS......."
+      ]
+    },
+    "165418": {
       "totalRows": 8,
       "totalColumns": 23,
       "rowLabels": [
@@ -8292,7 +8364,7 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..OOOAAAAAAAA..",
                 "..AAAAAAAAA.A..",
                 "..............."
               ],
@@ -8678,7 +8750,7 @@
                 "..............",
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
-                "..AAAAOOAAAA..",
+                "..AAAAOOOOAA..",
                 "..A.AAAAAAAA..",
                 ".............."
               ],
@@ -10665,7 +10737,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOOOAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "........AAAAAAAA......."
+                "........AAAAAOOO......."
               ],
               "layoutKey": "166138"
             },
@@ -15027,6 +15099,72 @@
                 "........AAAAAAAA......."
               ],
               "layoutKey": "165414"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "15:30",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=165418&a=0000000001&l=6111&m=practical-magic-2&ss=False",
+              "seats": [
+                ".......................",
+                "........AAAAAAAA.......",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAO..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "........AAAAAAAA......."
+              ],
+              "layoutKey": "165418"
+            },
+            {
+              "time": "18:25",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=165417&a=0000000001&l=6111&m=practical-magic-2&ss=False",
+              "seats": [
+                ".......................",
+                "........AAAAAAAA.......",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..OOAAAAAAAOOAAAAAAAA..",
+                "........OOAAAAAA......."
+              ],
+              "layoutKey": "165417"
+            },
+            {
+              "time": "21:20",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=165416&a=0000000001&l=6111&m=practical-magic-2&ss=False",
+              "seats": [
+                ".......................",
+                "........AAAAAAAA.......",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "........AAAAAAAA......."
+              ],
+              "layoutKey": "165416"
             }
           ]
         }
