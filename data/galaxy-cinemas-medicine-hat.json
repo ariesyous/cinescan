@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T15:32:24.859Z",
+  "updatedAt": "2026-09-02T19:41:10.588Z",
   "theatre": {
     "id": 3140,
     "name": "Galaxy Cinemas Medicine Hat"
@@ -8438,6 +8438,36 @@
         "..WCSSSSSSSCWW..",
         "................"
       ]
+    },
+    "255161": {
+      "totalRows": 11,
+      "totalColumns": 18,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "..................",
+        "...SSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        "..WWCSSSSSSSSSCW..",
+        ".................."
+      ]
     }
   },
   "days": [
@@ -8507,7 +8537,7 @@
                 "AAAA...AAAAAAAAAAAAA...AAAA",
                 "AAAA..AAAAAAAAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAAAAAAAA..AAAA",
-                "AAA...AAAAAAAAAAAAAAA..AAA.",
+                "AAA...AAAAAAAOOAAAAAA..AAA.",
                 "..........................."
               ],
               "layoutKey": "254862"
@@ -8615,57 +8645,6 @@
           ]
         },
         {
-          "title": "The Dog Stars",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
-          "runtimeMinutes": 118,
-          "sessions": [
-            {
-              "time": "17:05",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=254866&a=0000000001&l=3140&m=the-dog-stars&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAA...",
-                "..OOAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAA...",
-                "....................",
-                ".....AAAAAAA.AAAAAA.",
-                ".......AAAAA.AAAAAA.",
-                ".......AAAAOOAAAAAA.",
-                "...................."
-              ],
-              "layoutKey": "254866"
-            },
-            {
-              "time": "18:35",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=254860&a=0000000001&l=3140&m=the-dog-stars&ss=False",
-              "seats": [
-                "................",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAA..",
-                "................"
-              ],
-              "layoutKey": "254860"
-            }
-          ]
-        },
-        {
           "title": "Insidious: Out of the Further",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
           "runtimeMinutes": 106,
@@ -8714,6 +8693,57 @@
           ]
         },
         {
+          "title": "The Dog Stars",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
+          "runtimeMinutes": 118,
+          "sessions": [
+            {
+              "time": "17:05",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=254866&a=0000000001&l=3140&m=the-dog-stars&ss=False",
+              "seats": [
+                "....................",
+                "..AAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAA...",
+                "..OOAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                ".AAAAAAAAAAAAAAAA...",
+                "....................",
+                ".....AAAAAOO.AAAAAA.",
+                ".......AAAAA.AAAAAA.",
+                ".......AAAAOOAAAAAA.",
+                "...................."
+              ],
+              "layoutKey": "254866"
+            },
+            {
+              "time": "18:35",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=254860&a=0000000001&l=3140&m=the-dog-stars&ss=False",
+              "seats": [
+                "................",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAA..",
+                "................"
+              ],
+              "layoutKey": "254860"
+            }
+          ]
+        },
+        {
           "title": "Tony",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61801_320_470.jpg",
           "runtimeMinutes": 106,
@@ -8758,7 +8788,7 @@
                 ".AAAA.AAAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAO.AAAA.",
                 ".AAAA.AAAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAAA.AAAA.",
@@ -8907,7 +8937,7 @@
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAA..AAAA.",
+                ".AAAA.AAAAAAAOO..AAAA.",
                 ".AAAA.AAAAAAAAA..AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
@@ -10198,7 +10228,7 @@
                 ".AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAOOOOAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAA.",
@@ -11343,7 +11373,7 @@
                 ".AAAA.AAAAAAAAA..AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
-                ".AAA..AAAAAAAAAA..AAA.",
+                ".AAA..AAAAOOAAAA..AAA.",
                 "......................"
               ],
               "layoutKey": "255017"
@@ -11750,7 +11780,7 @@
                 "..................",
                 "...AAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAA.",
+                "...OAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAA?.",
                 "...A??AAAAAAAAA?A.",
                 "...?AAAAAAAAA?AAA.",
@@ -11846,7 +11876,7 @@
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAA..AAAA.",
-                ".AAAA.AAAAAAAAA..AAAA.",
+                ".AAAA.AAAAOAAAA..AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAA..AAAAAAAAAA..AAA.",
@@ -12429,73 +12459,187 @@
           ]
         },
         {
-          "title": "The Dog Stars",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
-          "runtimeMinutes": 118,
+          "title": "Fall 2: Deadpoint",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
+          "runtimeMinutes": 98,
           "sessions": [
             {
-              "time": "12:15",
+              "time": "12:05",
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255056&a=0000000001&l=3140&m=the-dog-stars&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255083&a=0000000001&l=3140&m=fall-2-deadpoint&ss=False",
               "seats": [
-                "......................",
-                "...AA.AAAAAAAAAA.AAA..",
-                "...AA.AAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAA..AAAA.",
-                ".AAAA.AAAAAAAAA..AAAA.",
-                ".AAAA.AAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAA.AAAA.",
-                ".AAA..AAAAAAAAAA..AAA.",
-                "......................"
+                "....................",
+                "..AAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                ".AAAAAAAAAAAAAAAA...",
+                "....................",
+                ".....AAAAAAA.AAAAAA.",
+                ".......AAAAA.AAAAAA.",
+                ".......AAAAAAAAAAAA.",
+                "...................."
               ],
-              "layoutKey": "255056"
+              "layoutKey": "255083"
             },
             {
-              "time": "14:30",
+              "time": "14:35",
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255072&a=0000000001&l=3140&m=the-dog-stars&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255060&a=0000000001&l=3140&m=fall-2-deadpoint&ss=False",
               "seats": [
-                "................",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAA..",
-                "................"
+                "..................",
+                "...AAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAA..",
+                ".................."
               ],
-              "layoutKey": "255072"
+              "layoutKey": "255060"
             },
             {
-              "time": "19:45",
+              "time": "17:00",
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255074&a=0000000001&l=3140&m=the-dog-stars&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255061&a=0000000001&l=3140&m=fall-2-deadpoint&ss=False",
+              "seats": [
+                "..................",
+                "...AAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAA..",
+                ".................."
+              ],
+              "layoutKey": "255061"
+            },
+            {
+              "time": "19:25",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255062&a=0000000001&l=3140&m=fall-2-deadpoint&ss=False",
+              "seats": [
+                "..................",
+                "...AAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAA..",
+                ".................."
+              ],
+              "layoutKey": "255062"
+            }
+          ]
+        },
+        {
+          "title": "By Any Means",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
+          "runtimeMinutes": 106,
+          "sessions": [
+            {
+              "time": "12:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255059&a=0000000001&l=3140&m=by-any-means&ss=False",
+              "seats": [
+                "..................",
+                "...AAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAA..",
+                ".................."
+              ],
+              "layoutKey": "255059"
+            },
+            {
+              "time": "14:35",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255053&a=0000000001&l=3140&m=by-any-means&ss=False",
+              "seats": [
+                "..................",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAA?A?A?AAA?AAAA.",
+                ".AA?A?AA??AAAA?AA.",
+                ".A?AAAAA?AAAAAAAA.",
+                ".???AAAA?AAAAAAA?.",
+                "..AAA?AA?AAAAA?AA.",
+                ".................."
+              ],
+              "layoutKey": "255053"
+            },
+            {
+              "time": "15:55",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255079&a=0000000001&l=3140&m=by-any-means&ss=False",
+              "seats": [
+                ".......................",
+                "..AAA.AAAAAAAAAAA.AA...",
+                ".AAAA.AAAAAAAAAAA.AAA..",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAA..AAAAAAAAAAA..AAA.",
+                "......................."
+              ],
+              "layoutKey": "255079"
+            },
+            {
+              "time": "19:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255066&a=0000000001&l=3140&m=by-any-means&ss=False",
               "seats": [
                 "................",
+                "..AAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
+                ".AAA?AAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAA..",
+                "..AAAAA?AAAAAA..",
                 "................"
               ],
-              "layoutKey": "255074"
+              "layoutKey": "255066"
             }
           ]
         },
@@ -12591,95 +12735,73 @@
           ]
         },
         {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
+          "title": "The Dog Stars",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
+          "runtimeMinutes": 118,
           "sessions": [
             {
-              "time": "12:05",
+              "time": "12:15",
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255083&a=0000000001&l=3140&m=fall-2-deadpoint&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255056&a=0000000001&l=3140&m=the-dog-stars&ss=False",
               "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAA...",
-                "....................",
-                ".....AAAAAAA.AAAAAA.",
-                ".......AAAAA.AAAAAA.",
-                ".......AAAAAAAAAAAA.",
-                "...................."
+                "......................",
+                "...AA.AAAAAAAAAA.AAA..",
+                "...AA.AAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAA..AAAA.",
+                ".AAAA.AAAAAAAAA..AAAA.",
+                ".AAAA.AAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAA.AAAA.",
+                ".AAA..AAAAAAAAAA..AAA.",
+                "......................"
               ],
-              "layoutKey": "255083"
+              "layoutKey": "255056"
             },
             {
-              "time": "14:35",
+              "time": "14:30",
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255060&a=0000000001&l=3140&m=fall-2-deadpoint&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255072&a=0000000001&l=3140&m=the-dog-stars&ss=False",
               "seats": [
-                "..................",
-                "...AAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAA..",
-                ".................."
+                "................",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAA..",
+                "................"
               ],
-              "layoutKey": "255060"
+              "layoutKey": "255072"
             },
             {
-              "time": "17:00",
+              "time": "19:45",
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255061&a=0000000001&l=3140&m=fall-2-deadpoint&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255074&a=0000000001&l=3140&m=the-dog-stars&ss=False",
               "seats": [
-                "..................",
-                "...AAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAA..",
-                ".................."
+                "................",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAA..",
+                "................"
               ],
-              "layoutKey": "255061"
-            },
-            {
-              "time": "19:25",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255062&a=0000000001&l=3140&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "..................",
-                "...AAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAA..",
-                ".................."
-              ],
-              "layoutKey": "255062"
+              "layoutKey": "255074"
             }
           ]
         },
@@ -12897,98 +13019,6 @@
                 "................"
               ],
               "layoutKey": "255071"
-            }
-          ]
-        },
-        {
-          "title": "By Any Means",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "12:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255059&a=0000000001&l=3140&m=by-any-means&ss=False",
-              "seats": [
-                "..................",
-                "...AAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAA..",
-                ".................."
-              ],
-              "layoutKey": "255059"
-            },
-            {
-              "time": "14:35",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255053&a=0000000001&l=3140&m=by-any-means&ss=False",
-              "seats": [
-                "..................",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAA?A?A?AAA?AAAA.",
-                ".AA?A?AA??AAAA?AA.",
-                ".A?AAAAA?AAAAAAAA.",
-                ".???AAAA?AAAAAAA?.",
-                "..AAA?AA?AAAAA?AA.",
-                ".................."
-              ],
-              "layoutKey": "255053"
-            },
-            {
-              "time": "15:55",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255079&a=0000000001&l=3140&m=by-any-means&ss=False",
-              "seats": [
-                ".......................",
-                "..AAA.AAAAAAAAAAA.AA...",
-                ".AAAA.AAAAAAAAAAA.AAA..",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAA..AAAAAAAAAAA..AAA.",
-                "......................."
-              ],
-              "layoutKey": "255079"
-            },
-            {
-              "time": "19:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255066&a=0000000001&l=3140&m=by-any-means&ss=False",
-              "seats": [
-                "................",
-                "..AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAA?AAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                "..AAAAA?AAAAAA..",
-                "................"
-              ],
-              "layoutKey": "255066"
             }
           ]
         },
@@ -13776,6 +13806,27 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
+              "time": "13:00",
+              "formats": [
+                "Stars & Strollers"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255161&a=0000000001&l=3140&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "..................",
+                "...AAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAA..",
+                ".................."
+              ],
+              "layoutKey": "255161"
+            },
+            {
               "time": "16:35",
               "formats": [
                 "3D"
@@ -14366,7 +14417,7 @@
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAA..AAAA.",
-                ".AAAA.AAAAAAAAA..AAAA.",
+                ".AAAA.AAAAOOAAA..AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAA..AAAAAAAAAA..AAA.",
@@ -14424,102 +14475,6 @@
                 "...................."
               ],
               "layoutKey": "255157"
-            }
-          ]
-        },
-        {
-          "title": "The Dog Stars",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
-          "runtimeMinutes": 118,
-          "sessions": [
-            {
-              "time": "15:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255154&a=0000000001&l=3140&m=the-dog-stars&ss=False",
-              "seats": [
-                ".................",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                "....AAAAAAAAAAAA.",
-                "................."
-              ],
-              "layoutKey": "255154"
-            },
-            {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255155&a=0000000001&l=3140&m=the-dog-stars&ss=False",
-              "seats": [
-                ".................",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                "....AAAAAAAAAAAA.",
-                "................."
-              ],
-              "layoutKey": "255155"
-            }
-          ]
-        },
-        {
-          "title": "Insidious: Out of the Further",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "15:55",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255151&a=0000000001&l=3140&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                ".......................",
-                "..AAA.AAAAAAAAAAA.AA...",
-                ".AAAA.AAAAAAAAAAA.AAA..",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAA..AAAAAAAAAAA..AAA.",
-                "......................."
-              ],
-              "layoutKey": "255151"
-            },
-            {
-              "time": "19:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255148&a=0000000001&l=3140&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "..................",
-                "...AAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAA?.",
-                "...A??AAAAAAAAA?A.",
-                "...?AAAAAAAAA?AAA.",
-                "...?AAAA?A?A?AA?A.",
-                "....AA??AA??AAAA..",
-                ".................."
-              ],
-              "layoutKey": "255148"
             }
           ]
         },
@@ -14624,6 +14579,151 @@
           ]
         },
         {
+          "title": "By Any Means",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
+          "runtimeMinutes": 106,
+          "sessions": [
+            {
+              "time": "16:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255145&a=0000000001&l=3140&m=by-any-means&ss=False",
+              "seats": [
+                "................",
+                "..AAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                ".AAA?AAAAAAAAAA.",
+                ".AAAAAAAAAAAAAA.",
+                "..AAAAA?AAAAAA..",
+                "................"
+              ],
+              "layoutKey": "255145"
+            },
+            {
+              "time": "19:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255144&a=0000000001&l=3140&m=by-any-means&ss=False",
+              "seats": [
+                "..................",
+                "...AAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAA..",
+                ".................."
+              ],
+              "layoutKey": "255144"
+            }
+          ]
+        },
+        {
+          "title": "Insidious: Out of the Further",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
+          "runtimeMinutes": 106,
+          "sessions": [
+            {
+              "time": "15:55",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255151&a=0000000001&l=3140&m=insidious-out-of-the-further&ss=False",
+              "seats": [
+                ".......................",
+                "..AAA.AAAAAAAAAAA.AA...",
+                ".AAAA.AAAAAAAAAAA.AAA..",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAA..AAAAAAAAAAA..AAA.",
+                "......................."
+              ],
+              "layoutKey": "255151"
+            },
+            {
+              "time": "19:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255148&a=0000000001&l=3140&m=insidious-out-of-the-further&ss=False",
+              "seats": [
+                "..................",
+                "...AAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAA?.",
+                "...A??AAAAAAAAA?A.",
+                "...?AAAAAAAAA?AAA.",
+                "...?AAAA?A?A?AA?A.",
+                "....AA??AA??AAAA..",
+                ".................."
+              ],
+              "layoutKey": "255148"
+            }
+          ]
+        },
+        {
+          "title": "The Dog Stars",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
+          "runtimeMinutes": 118,
+          "sessions": [
+            {
+              "time": "15:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255154&a=0000000001&l=3140&m=the-dog-stars&ss=False",
+              "seats": [
+                ".................",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAAA.",
+                "................."
+              ],
+              "layoutKey": "255154"
+            },
+            {
+              "time": "19:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255155&a=0000000001&l=3140&m=the-dog-stars&ss=False",
+              "seats": [
+                ".................",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAAA.",
+                "................."
+              ],
+              "layoutKey": "255155"
+            }
+          ]
+        },
+        {
           "title": "Spa Weekend",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60676_320_470.jpg",
           "runtimeMinutes": 98,
@@ -14677,55 +14777,6 @@
                 "......................"
               ],
               "layoutKey": "255141"
-            }
-          ]
-        },
-        {
-          "title": "By Any Means",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "16:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255145&a=0000000001&l=3140&m=by-any-means&ss=False",
-              "seats": [
-                "................",
-                "..AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAA?AAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                "..AAAAA?AAAAAA..",
-                "................"
-              ],
-              "layoutKey": "255145"
-            },
-            {
-              "time": "19:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255144&a=0000000001&l=3140&m=by-any-means&ss=False",
-              "seats": [
-                "..................",
-                "...AAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAA..",
-                ".................."
-              ],
-              "layoutKey": "255144"
             }
           ]
         },

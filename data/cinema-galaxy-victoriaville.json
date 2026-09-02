@@ -1,104 +1,10 @@
 {
-  "updatedAt": "2026-09-02T15:30:29.784Z",
+  "updatedAt": "2026-09-02T19:39:08.806Z",
   "theatre": {
     "id": 9186,
     "name": "Cinéma Galaxy Victoriaville"
   },
   "auditoriums": {
-    "139408": {
-      "totalRows": 10,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".....................",
-        "..SSSSSSSSSSSSSSSSS..",
-        ".....................",
-        ".....SSSCW.WCSSSCWW..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "139409": {
-      "totalRows": 14,
-      "totalColumns": 28,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "............................",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "............................",
-        "..SSSSSCWWWWCSSSSSSCWWW.....",
-        "..SSSSSSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSSSSS..SS.",
-        "..SSSSSSSSSSSSSSSSSSSSS..SS.",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "139410": {
-      "totalRows": 11,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        ".....................",
-        "..SSSSSSSSSSSSSSSSS..",
-        ".....................",
-        ".....SSSCWWWCSSSCWW..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "139411": {
       "totalRows": 15,
       "totalColumns": 22,
@@ -5958,26 +5864,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "15:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139408&a=0000000001&l=9186&m=vf-spiderman-un-jour-nouveau&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAA..",
-                ".....................",
-                ".....AAAAA.AAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139408"
-            },
-            {
               "time": "18:00",
               "formats": [
                 "3D"
@@ -6039,7 +5925,7 @@
                 "..AAAAAAAAAAAAAAAAAA..",
                 "......................",
                 "...AAAAAAAA.AAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAOAAAAAA.....",
                 "..AAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAA.....",
@@ -6079,34 +5965,38 @@
           ]
         },
         {
+          "title": "Insidieux : Hors du plus loin",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61420_320_470.jpg",
+          "runtimeMinutes": 106,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139417&a=0000000001&l=9186&m=insidieux-hors-du-plus-loin&ss=False",
+              "seats": [
+                ".....................",
+                "..AAAAAAAAAAAAAAAAA..",
+                ".....................",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "139417"
+            }
+          ]
+        },
+        {
           "title": "La constellation du chien",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61789_320_470.jpg",
           "runtimeMinutes": 118,
           "sessions": [
-            {
-              "time": "15:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139409&a=0000000001&l=9186&m=la-constellation-du-chien&ss=False",
-              "seats": [
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAA?AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139409"
-            },
             {
               "time": "18:20",
               "formats": [
@@ -6130,55 +6020,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "139416"
-            }
-          ]
-        },
-        {
-          "title": "Insidieux : Hors du plus loin",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61420_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "15:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139410&a=0000000001&l=9186&m=insidieux-hors-du-plus-loin&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAA..",
-                ".....................",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139410"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139417&a=0000000001&l=9186&m=insidieux-hors-du-plus-loin&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAA..",
-                ".....................",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139417"
             }
           ]
         },
@@ -6441,6 +6282,55 @@
           ]
         },
         {
+          "title": "Insidieux : Hors du plus loin",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61420_320_470.jpg",
+          "runtimeMinutes": 106,
+          "sessions": [
+            {
+              "time": "15:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139424&a=0000000001&l=9186&m=insidieux-hors-du-plus-loin&ss=False",
+              "seats": [
+                ".....................",
+                "..AAAAAAAAAAAAAAAAA..",
+                ".....................",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "139424"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139431&a=0000000001&l=9186&m=insidieux-hors-du-plus-loin&ss=False",
+              "seats": [
+                ".....................",
+                "..AAAAAAAAAAAAAAAAA..",
+                ".....................",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "139431"
+            }
+          ]
+        },
+        {
           "title": "The Dog Stars",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
@@ -6499,55 +6389,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "139423"
-            }
-          ]
-        },
-        {
-          "title": "Insidieux : Hors du plus loin",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61420_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "15:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139424&a=0000000001&l=9186&m=insidieux-hors-du-plus-loin&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAA..",
-                ".....................",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139424"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139431&a=0000000001&l=9186&m=insidieux-hors-du-plus-loin&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAA..",
-                ".....................",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139431"
             }
           ]
         },
@@ -9494,6 +9335,85 @@
           ]
         },
         {
+          "title": "Par tous les moyens",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61443_320_470.jpg",
+          "runtimeMinutes": 106,
+          "sessions": [
+            {
+              "time": "13:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139565&a=0000000001&l=9186&m=par-tous-les-moyens&ss=False",
+              "seats": [
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAA?AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "139565"
+            },
+            {
+              "time": "16:05",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139571&a=0000000001&l=9186&m=par-tous-les-moyens&ss=False",
+              "seats": [
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAA?AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "139571"
+            },
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139578&a=0000000001&l=9186&m=par-tous-les-moyens&ss=False",
+              "seats": [
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAA?AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "139578"
+            }
+          ]
+        },
+        {
           "title": "La constellation du chien",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61789_320_470.jpg",
           "runtimeMinutes": 118,
@@ -9635,85 +9555,6 @@
                 ".AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "139569"
-            }
-          ]
-        },
-        {
-          "title": "Par tous les moyens",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61443_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "13:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139565&a=0000000001&l=9186&m=par-tous-les-moyens&ss=False",
-              "seats": [
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAA?AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139565"
-            },
-            {
-              "time": "16:05",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139571&a=0000000001&l=9186&m=par-tous-les-moyens&ss=False",
-              "seats": [
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAA?AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139571"
-            },
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139578&a=0000000001&l=9186&m=par-tous-les-moyens&ss=False",
-              "seats": [
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAA?AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139578"
             }
           ]
         },
@@ -9974,6 +9815,61 @@
           ]
         },
         {
+          "title": "Par tous les moyens",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61443_320_470.jpg",
+          "runtimeMinutes": 106,
+          "sessions": [
+            {
+              "time": "16:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139591&a=0000000001&l=9186&m=par-tous-les-moyens&ss=False",
+              "seats": [
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAA?AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "139591"
+            },
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139598&a=0000000001&l=9186&m=par-tous-les-moyens&ss=False",
+              "seats": [
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAA?AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "139598"
+            }
+          ]
+        },
+        {
           "title": "La constellation du chien",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61789_320_470.jpg",
           "runtimeMinutes": 118,
@@ -10074,61 +9970,6 @@
                 ".AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "139593"
-            }
-          ]
-        },
-        {
-          "title": "Par tous les moyens",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61443_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "16:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139591&a=0000000001&l=9186&m=par-tous-les-moyens&ss=False",
-              "seats": [
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAA?AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139591"
-            },
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139598&a=0000000001&l=9186&m=par-tous-les-moyens&ss=False",
-              "seats": [
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAA?AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139598"
             }
           ]
         },
