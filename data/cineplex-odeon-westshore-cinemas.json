@@ -1,38 +1,10 @@
 {
-  "updatedAt": "2026-09-01T23:50:42.171Z",
+  "updatedAt": "2026-09-02T00:42:14.234Z",
   "theatre": {
     "id": 1146,
     "name": "Cineplex Odeon Westshore Cinemas"
   },
   "auditoriums": {
-    "134638": {
-      "totalRows": 10,
-      "totalColumns": 17,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".................",
-        "..SSSSSSSSSSSSSS.",
-        ".................",
-        "....SSSSSCW..WC..",
-        "....SSSSSSSSSSS..",
-        "....SSSSSSSSSSS..",
-        "....SSSSSSSSSSS..",
-        "....SSSSSSSSSSS..",
-        "....SSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSS"
-      ]
-    },
     "134644": {
       "totalRows": 11,
       "totalColumns": 22,
@@ -259,44 +231,6 @@
         "....SSSSSSSSSSSSSSSSS..",
         "SS..SSSSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "134651": {
-      "totalRows": 15,
-      "totalColumns": 25,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K"
-      ],
-      "seatTypes": [
-        ".........................",
-        ".SSSSSSSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSSS..",
-        ".........................",
-        ".CW..WCSSSC.WCSSCW.WC....",
-        ".SSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSS..SS",
-        ".SSSSSSSSSSSSSSSSSSSS..SS",
-        ".SSSSSSSSSSSSSSSSSSSS..SS",
-        ".SSSSSSSSSSSSSSSSSSSS..SS",
-        ".SSSSSSSSSSSSSSSSSSSS..SS"
       ]
     },
     "134652": {
@@ -5214,11 +5148,11 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAOOOAAAAAAAAAA....",
                 "AAAAAAAAAAAOAAAOAAAAAAAA..AA",
-                "AAAAAOOAAAAAAA?AAAAAAAAA..AA",
-                "AAAAAAAAAAAAOOAAAAAAAAAA..AA",
+                "AAAAAOOAAAAOOO?AAAAAAAAA..AA",
+                "AAAAAAAAAAAAOOAAAAAAOOAA..AA",
                 "AAAAAAAAAAOOAAAAAAAAOAAA..AA",
                 "AAAAAAAAAAAAA??AAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAOOOAAAAAAAA..AA",
                 "AAAAAAAAAAAOOAAOOOAAAAAA..AA"
               ],
               "layoutKey": "134649"
@@ -5271,12 +5205,12 @@
                 "...................",
                 ".AA.AAAAAA..AA.....",
                 ".AAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAA.....",
+                ".AAAAAAOOOAAAA.....",
                 ".AAAAOOOOOAAOO.....",
-                ".AAOOAAOOOOAAA.....",
-                ".OOOAAOOOOOOOO.....",
+                ".AAOOOOOOOOOOO.....",
+                ".OOOOOOOOOOOOO.....",
                 ".AOOOOOOOOOOOO...OO",
-                "AAAOOOOOOOOAAAOOOAA"
+                "AAAOOOOOOOOAOOOOOAA"
               ],
               "layoutKey": "134647"
             }
@@ -5304,7 +5238,7 @@
                 ".AAAAOOOOOOAAAA.....",
                 ".AAAAAAAOOAAAAA.....",
                 ".AAAAAAAAAAAAAA...AA",
-                "AAAAAAAAAOOAAAAAAAAA"
+                "OAAAAOOAAOOAAAAAAAAA"
               ],
               "layoutKey": "134646"
             }
@@ -5315,31 +5249,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "16:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=134651&a=0000000001&l=1146&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                ".........................",
-                ".AAAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAA..",
-                ".........................",
-                ".AA..AAAAAA.AAAAAA.AA....",
-                ".AAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAOOAAAAAAA..AA",
-                ".AAAAAAAAAAAAAAAAAAAA..AA",
-                ".AAAAAAAAAAOOAAAAAAAA..AA",
-                ".AAAAAAAAAAAAAAAAAAAA..AA",
-                ".AAAAAAAAAOOOAAAAAAAA..AA"
-              ],
-              "layoutKey": "134651"
-            },
             {
               "time": "19:35",
               "formats": [
@@ -5357,7 +5266,7 @@
                 ".AAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAOOAAAAAAAA....",
                 ".AAAAAAAAOOAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAOOOAAAAAAAA..AA",
                 ".AAAAAAAAAAOOAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAA..AA",
@@ -5386,38 +5295,11 @@
                 "....AAAAAAAAAAA..",
                 "....AAAAAAAAAAA..",
                 "....AAAOOOOOAAA..",
-                "....AAAOOOOAAAA..",
-                "....AAAAAOOAAAA..",
+                "....AAAOOOOOAAA..",
+                "....AAOOOOOAAAA..",
                 "AAAOOAAOOAAOOAAAA"
               ],
               "layoutKey": "134648"
-            }
-          ]
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "16:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=134638&a=0000000001&l=1146&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                ".................",
-                "..AAAAAAAAAAAAAA.",
-                ".................",
-                "....AAAAAAA..AA..",
-                "....AAAAAAAAAAA..",
-                "....OOOOOOOAAOO..",
-                "....OOOOAOOOOOO..",
-                "....OOOOOOOOOAA..",
-                "....OOOOOOOOOOO..",
-                "AAAAAAAOOOOOOAAAA"
-              ],
-              "layoutKey": "134638"
             }
           ]
         },
@@ -5438,7 +5320,7 @@
                 "......................",
                 ".....AA..AAAAAAAAAA.A.",
                 ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAOAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAOOAAAAAAAAA.",
@@ -6602,7 +6484,7 @@
                 "....AAAAAAAAAAA..",
                 "....AAAAAAAAAAA..",
                 "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
+                "....OOAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "134725"

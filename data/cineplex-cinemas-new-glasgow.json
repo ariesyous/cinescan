@@ -1,70 +1,10 @@
 {
-  "updatedAt": "2026-09-01T23:49:59.241Z",
+  "updatedAt": "2026-09-02T00:41:24.255Z",
   "theatre": {
     "id": 5114,
     "name": "Cineplex Cinemas New Glasgow"
   },
   "auditoriums": {
-    "95502": {
-      "totalRows": 10,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "................",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        "................",
-        ".....WCSSSSCW...",
-        "..SSSSSSSSSSS...",
-        "..SSSSSSSSSSS...",
-        "..SSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSS."
-      ]
-    },
-    "95505": {
-      "totalRows": 12,
-      "totalColumns": 17,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".................",
-        "..SSSSSSSSSSSS...",
-        "..SSSSSSSSSSSS...",
-        "..SSSSSSSSSSSS...",
-        ".................",
-        "...WCSSSSSSSSS...",
-        "..SSSSSSSSSSSS...",
-        "..SSSSSSSSSSSS...",
-        "..SSSSSSSSSSSS...",
-        "..SSSSSSSSSSSS...",
-        "..SSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSS."
-      ]
-    },
     "95508": {
       "totalRows": 14,
       "totalColumns": 22,
@@ -5339,62 +5279,6 @@
       "date": "2026-09-01",
       "movies": [
         {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "21:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=95502&a=0000000001&l=5114&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "................",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                "................",
-                ".....AAAAAAAA...",
-                "..AAAAAAAAAAA...",
-                "..AAAAAAOOAAA...",
-                "..AAAAAOAAAAA...",
-                ".AAAAAOOOOAAAAA."
-              ],
-              "layoutKey": "95502"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "21:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=95505&a=0000000001&l=5114&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                ".................",
-                "..AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAA...",
-                ".................",
-                "...AAAAAAAAAAA...",
-                "..AOAAAAAAAAAA...",
-                "..AAAAAAOAAAAA...",
-                "..AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAA...",
-                "..AAAAAOOAAAAA...",
-                "AAAAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "95505"
-            }
-          ]
-        },
-        {
           "title": "The Dog Stars",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
@@ -5444,7 +5328,7 @@
                 "......................",
                 ".......AAAAAAAAAAAA...",
                 ".....?AAAA???AAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAOOAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAA..",
@@ -5791,12 +5675,12 @@
                 ".AAAAAAAAAAAA.",
                 "..............",
                 ".AAAAA....AAAA",
+                ".AAAAA..OOAAAA",
                 ".AAAAA..AAAAAA",
                 ".AAAAA..AAAAAA",
                 ".AAAAA..AAAAAA",
                 ".AAAAA..AAAAAA",
-                ".AAAAA..AAAAAA",
-                ".AAAAAOOAAAAAA"
+                ".AAAAAAAAAAAAA"
               ],
               "layoutKey": "95535"
             }
