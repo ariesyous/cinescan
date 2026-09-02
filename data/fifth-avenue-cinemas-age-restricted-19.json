@@ -1,100 +1,10 @@
 {
-  "updatedAt": "2026-09-02T19:41:00.118Z",
+  "updatedAt": "2026-09-02T20:28:04.592Z",
   "theatre": {
     "id": 1149,
     "name": "Fifth Avenue Cinemas (age restricted 19+)"
   },
   "auditoriums": {
-    "116682": {
-      "totalRows": 8,
-      "totalColumns": 14,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS...W.WC",
-        "SSSSSSS.......",
-        "SSSSSSS......."
-      ]
-    },
-    "116683": {
-      "totalRows": 18,
-      "totalColumns": 26,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K",
-        null,
-        null,
-        null
-      ],
-      "seatTypes": [
-        "..SSSSS..SSSSSSS..SSSSS...",
-        ".SSSSS..SSSSSSSSS..SSSSS..",
-        "SSSSS...SSSSSSSSSS..SSSSS.",
-        "SSSSS...SSSSSSSSSSS..SSSSS",
-        "SSSSS...SSSSSSSSSSS..SSSSS",
-        "SSSSS...SSSSSSSSSSS..SSSSS",
-        "SSSSS...SSSSSSSSSSS..SSSSS",
-        "SSSSS...SSSSSSSSSSS..SSSSS",
-        "SSSSS...SSSSSSSSSSS..SSSSS",
-        "SSSSS....SSSSSSSSSS..SSSSS",
-        "....W....W.CSSSSSSS..SSSSS",
-        "..........................",
-        "..........................",
-        ".........................."
-      ]
-    },
-    "116684": {
-      "totalRows": 11,
-      "totalColumns": 21,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K"
-      ],
-      "seatTypes": [
-        "SSSS...SSSSSS....SSSS",
-        "SSSS...SSSSSSS...SSSS",
-        "SSSS..SSSSSSSS...SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS.............SSSS",
-        "........CWWWC........"
-      ]
-    },
     "116685": {
       "totalRows": 7,
       "totalColumns": 16,
@@ -4060,24 +3970,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "12:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=116682&a=0000000001&l=1149&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAA..AAAAA",
-                "AAAAAAA..AAAAA",
-                "AAAAAAA..AAAAA",
-                "AAAAAAO..OOAAA",
-                "AAAAAOO..OAAAA",
-                "AAAAOAO...A.AA",
-                "AAAAOOO.......",
-                "AAAAAAO......."
-              ],
-              "layoutKey": "116682"
-            },
-            {
               "time": "15:45",
               "formats": [
                 "Regular"
@@ -4089,7 +3981,7 @@
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
                 "AAAAAOO..AAAAA",
-                "AAAAAAA...A.AA",
+                "AAAAAOO...A.AA",
                 "AAAAAAA.......",
                 "AAAAAAA......."
               ],
@@ -4109,7 +4001,7 @@
                 "AOOOOOO..AOOAA",
                 "AOOOOOO...A.AA",
                 "AAAOOOO.......",
-                "AAAOOOO......."
+                "AOOOOOO......."
               ],
               "layoutKey": "116694"
             }
@@ -4166,30 +4058,6 @@
           "runtimeMinutes": 118,
           "sessions": [
             {
-              "time": "12:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=116683&a=0000000001&l=1149&m=the-dog-stars&ss=False",
-              "seats": [
-                "..AAAAA..AAAAAAA..AAAAA...",
-                ".AAAAA..AAAAAAAAA..AAAAA..",
-                "AAAAA...AAAAAAAAAA..AAAAA.",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA...AAAAAOAAAAA..AAAAA",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA....AAAAAAAAAA..AAAAA",
-                "....A....A.AA?AAAAA..AAAAA",
-                "..........................",
-                "..........................",
-                ".........................."
-              ],
-              "layoutKey": "116683"
-            },
-            {
               "time": "15:45",
               "formats": [
                 "Regular"
@@ -4244,27 +4112,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61801_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "13:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=116684&a=0000000001&l=1149&m=tony&ss=False",
-              "seats": [
-                "AAAA...AAAAAA....AAAA",
-                "AAAA...AAAAAAA...AAAA",
-                "AAAA..AAAAAAAA...AAAA",
-                "AAAA..AAAAAAAAA..AAAA",
-                "AAAA..AAAAOOAAA..AAAA",
-                "AAAA..AAAAAA?AA..AAAA",
-                "AAAA..AAAOOAAAA..AAAA",
-                "AAAA..AA?OO?AAA..AAAA",
-                "AAAA..AA?AAAAAA..AAAA",
-                "????.............AAAA",
-                "........AAAAA........"
-              ],
-              "layoutKey": "116684"
-            },
             {
               "time": "15:30",
               "formats": [
@@ -4324,8 +4171,8 @@
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAOOOAAAAAA",
+                "AAAAAOOAAAAOOAAA",
                 "AAAAA..OAOO.....",
                 "AAAAA..A.A......"
               ],
@@ -4469,7 +4316,7 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAOO..AAA",
-                "AAA..AAAAAAAAA..AAA",
+                "AAA..AAAOOAAAA..AAA",
                 "AAA..OOAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..A.A.AAAA......"
@@ -4678,7 +4525,7 @@
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAOOAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
-                "AAAAA..OOAA.....",
+                "OOAAA..OOAA.....",
                 "AAAAA..A.A......"
               ],
               "layoutKey": "116707"
@@ -4825,7 +4672,7 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
-                "AAA..AAAAAAAAA..AAA",
+                "AAA..AAAAAAAOO..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..A.A.AAAA......"
               ],
@@ -4952,7 +4799,7 @@
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
+                "AAAAA...OOOAAAAAAAA..AAAAA",
                 "AAAAA....AAAAAAAAAA..AAAAA",
                 "....A....A.AA?AAAAA..AAAAA",
                 "..........................",
@@ -5126,7 +4973,7 @@
                 "AAAAAAA..AAAAA",
                 "AAAAAAA...A.AA",
                 "AAAAAOO.......",
-                "AAAAAAA......."
+                "AAAAAOO......."
               ],
               "layoutKey": "116733"
             },
@@ -5178,7 +5025,7 @@
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
-                "AAAAAAA...A.AA",
+                "AAAAAOO...A.AA",
                 "AAAAAAA.......",
                 "AAAAOOO......."
               ],
@@ -5343,11 +5190,11 @@
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA...AAAAAOAAAOO..AAAAA",
+                "AAAAA...AAAAAOAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
+                "AAAAA...AAAAOOAAAAA..AAAAA",
                 "AAAAA....AAAAAAAAAO..AAAAA",
-                "....A....A.AA?AAAAA..AAAAA",
+                "....A....A.AA?OOAAA..AAAAA",
                 "..........................",
                 "..........................",
                 ".........................."
@@ -5640,7 +5487,7 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..OOAAOOAAA..AAA",
-                "AAA..AAAAAAAAA..AAA",
+                "AAA..AAOOOAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..A.A.AAAA......"
               ],
@@ -5657,8 +5504,8 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
-                "AAA..AAAAAOAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
+                "AAA..AAAAOAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..A.A.AAAA......"
@@ -5863,7 +5710,7 @@
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAOOAAAA..AAAA",
                 "AAAA..AAAAAA?AA..AAAA",
-                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAAAOOAA..AAAA",
                 "AAAA..AA?AA?AAA..AAAA",
                 "AAAA..AA?AAAAAA..AAAA",
                 "????.............AAAA",
@@ -5905,7 +5752,7 @@
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAAAA?AA..AAAA",
-                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAOOOAAOO..AAAA",
                 "AAAA..AA?AA?AAA..AAAA",
                 "AAAA..AA?AAAAAA..AAAA",
                 "????.............AAAA",
@@ -6171,7 +6018,7 @@
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA...AAAAAAAAAOO..AAAAA",
+                "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA....AAAAAAAAAA..AAAAA",

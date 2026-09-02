@@ -1,76 +1,10 @@
 {
-  "updatedAt": "2026-09-02T19:41:13.791Z",
+  "updatedAt": "2026-09-02T20:28:19.701Z",
   "theatre": {
     "id": 7264,
     "name": "Galaxy Cinemas Owen Sound"
   },
   "auditoriums": {
-    "151399": {
-      "totalRows": 13,
-      "totalColumns": 23,
-      "rowLabels": [
-        "AA",
-        "BB",
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSS..",
-        ".......................",
-        ".......................",
-        "..SSSSCW..WCSSSSCW.....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "151400": {
-      "totalRows": 12,
-      "totalColumns": 24,
-      "rowLabels": [
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSSSSSS...",
-        "........................",
-        "..SSSSCW..WCSSSSCW......",
-        "..SSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSS..SS.",
-        "..SSSSSSSSSSSSSSSSS..SS.",
-        "..SSSSSSSSSSSSSSSSS..SS.",
-        "SSSSSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
     "151401": {
       "totalRows": 10,
       "totalColumns": 22,
@@ -5405,7 +5339,7 @@
                 "....AAAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAOOOOOOAAAAAA...",
                 "OO..AAAAAOOAAOOAAAAAAAA...",
-                "AA..AAAAAAAAAAAAAAAAAAA...",
+                "OO..AAAAAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -5448,29 +5382,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
           "sessions": [
-            {
-              "time": "15:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=151399&a=0000000001&l=7264&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA..",
-                ".......................",
-                ".......................",
-                "..AAAAAA..AAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAOOOOAA....",
-                "..AAOOAAAAOOAAAOOOO....",
-                "..OOOOOAAAAAOOOAAAA....",
-                "..AAOOOOOOOOAAAOOAA..OO",
-                "..AAAOOOOOAAAAAAAAA..AA",
-                "..AAAAOOOOAAAAAAAAA..AA",
-                "OOOAAAAAAAOOAAAAAOOAAAA"
-              ],
-              "layoutKey": "151399"
-            },
             {
               "time": "18:20",
               "formats": [
@@ -5529,28 +5440,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
           "sessions": [
-            {
-              "time": "15:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=151400&a=0000000001&l=7264&m=the-dog-stars&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAAAAAA...",
-                "........................",
-                "..AAAAAA..AAAAAAAA......",
-                "..AAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAA..AA.",
-                "AAAAAAAAAAAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "151400"
-            },
             {
               "time": "18:50",
               "formats": [
@@ -5623,13 +5512,13 @@
                 ".........................",
                 "...AAAAAAAAAA..AAAAAA....",
                 "...AAAAAAAAAAAAAAAAAA....",
+                "...AAAOOOOAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAAAA....",
+                "...AAAAAOOOOOOAAAAAAA....",
+                "AA.AOOOOOOOOOAAAAAAAA....",
+                "AA.AAAAAAAOOOAAAAAAAA....",
                 "AA.AAAAAAAAAAAAAAAAAA....",
-                "AA.AAAAAAAAAAAAAAAAAA....",
-                "AA.AAAAAAAAAAAAAAAAAA....",
-                "AAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAOOOAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "151402"
             }
@@ -5654,7 +5543,7 @@
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAOO....",
                 "...AAAAAAAOOAAAAAA..AA",
                 "AAAAAAAAAAAAA?AAAAAAAA"
               ],
