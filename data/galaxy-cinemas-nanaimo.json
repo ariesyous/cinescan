@@ -1,54 +1,10 @@
 {
-  "updatedAt": "2026-09-02T21:45:09.780Z",
+  "updatedAt": "2026-09-02T22:32:50.139Z",
   "theatre": {
     "id": 1141,
     "name": "Galaxy Cinemas Nanaimo"
   },
   "auditoriums": {
-    "217602": {
-      "totalRows": 7,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "...CWWCSSSSSSS..",
-        "................"
-      ]
-    },
-    "217603": {
-      "totalRows": 7,
-      "totalColumns": 24,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "...CWWCSSSSSSSSSSSSWC...",
-        "........................"
-      ]
-    },
     "217604": {
       "totalRows": 7,
       "totalColumns": 17,
@@ -4208,23 +4164,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "15:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217603&a=0000000001&l=1141&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAAAAAA??..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAOOAAOOOOOOAAAAA..",
-                "..OOOOOOOOOOOAAAOOAAAA..",
-                "..AAAAAAAOOOOAAAAAAAA?..",
-                "...AAAAAAAAOOAAAAAAAA...",
-                "........................"
-              ],
-              "layoutKey": "217603"
-            },
-            {
               "time": "18:45",
               "formats": [
                 "3D",
@@ -4235,7 +4174,7 @@
                 "..AAAAAAAAAAAAAAAAAA??..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAOOOOOAAOOAAAAAAAAA..",
+                "..OOOOOOOAAOOAAOOOAAAA..",
                 "..AAAAAAOOAAAAAAAAAAA?..",
                 "...AAAAAAAAOOAAAAAAAA...",
                 "........................"
@@ -4260,7 +4199,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAAAA..",
-                "..AAAAAAOOAAAAOOOAAAAAA..",
+                "..AAAAAAOOAAAAOOOAAAAOO..",
                 "..AAAAAAAAAAAA...........",
                 "........................."
               ],
@@ -4302,7 +4241,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAA?AAAAA..",
-                "..AAAAAAAAAAOO..",
+                "..AAAOOOAAAAOO..",
                 "..AAAAAOAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "...AAAAOOAAAA...",
@@ -4345,7 +4284,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAA?AAA..",
                 "..AAOOOAAAAAOO..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAOOAAAAA..",
                 "...AAAA?OOAAAA..",
                 "................"
               ],
@@ -4413,9 +4352,9 @@
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAA?AAAAA..",
                 "..AAAAAAAAAAAAA..",
-                "..AAAAAOOAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AA.AAAAAAAAAA..",
+                "..AAAAAOOAAAAOO..",
+                "..AAAAAAAAOOAAA..",
+                "..AA.AAOOAAAAOO..",
                 "................."
               ],
               "layoutKey": "217604"
@@ -4436,30 +4375,6 @@
                 "........................."
               ],
               "layoutKey": "217617"
-            }
-          ]
-        },
-        {
-          "title": "The Magic Faraway Tree",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61217_320_470.jpg",
-          "runtimeMinutes": 110,
-          "sessions": [
-            {
-              "time": "15:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217602&a=0000000001&l=1141&m=the-magic-faraway-tree&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAOOOAOOAOOO..",
-                "..OOAOOOOOOAAA..",
-                "..OOOOAOOOAAAA..",
-                "...AAAAAAA?A?A..",
-                "................"
-              ],
-              "layoutKey": "217602"
             }
           ]
         },
@@ -4503,7 +4418,7 @@
                 "..AAAAAAAAAAAAA..",
                 "..A?AAAAAAAAAAA..",
                 "..AAAAAAOOAAOOO..",
-                "..AAAAAA?AAAAAA..",
+                "..OOOOAA?AAAAAA..",
                 "..AAAAOOAAAAAA...",
                 "................."
               ],
@@ -4812,7 +4727,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..OOOAAAAAAAAA..",
                 "..AAAAAOOOAAAA..",
                 "...AAAAAOO?A?A..",
                 "................"
@@ -5366,7 +5281,7 @@
                 "..AAAAAAAAAAAAAAAAAA??..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAAAA..",
                 "..AAAAAAAOOOOAAAAAAAA?..",
                 "...AAAAAAAAAAAAAAAAAA...",
                 "........................"
@@ -5382,7 +5297,7 @@
               "seats": [
                 "..AAAAAAAAAAAAAAAAAA??..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAOOOOOAAAAAAAAA..",
                 "..AAAAAAAAOOOAAAAAAAOO..",
                 "..AAAAAAAAAAAAAAAAAAA?..",
                 "...AAAAAAAAAAAAAAAAAA...",
@@ -5561,7 +5476,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAA?AAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAOOO..",
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAA...",
                 "................"
@@ -5953,7 +5868,7 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAOAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA?..",
+                "..AAAAAAAAOOAAAAAAAAA?..",
                 "...AAAAAAAAAAAAAAAAAA...",
                 "........................"
               ],

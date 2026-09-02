@@ -1,78 +1,10 @@
 {
-  "updatedAt": "2026-09-02T21:43:47.817Z",
+  "updatedAt": "2026-09-02T22:31:45.564Z",
   "theatre": {
     "id": 7135,
     "name": "Cineplex Cinemas North Barrie"
   },
   "auditoriums": {
-    "101801": {
-      "totalRows": 15,
-      "totalColumns": 28,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K"
-      ],
-      "seatTypes": [
-        "............................",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "............................",
-        ".CW..WCW.WCCW..WCWCW..WC....",
-        ".SSSSSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSSSSS..SS",
-        ".SSSSSSSSSSSSSSSSSSSSSSS..SS",
-        ".SSSSSSSSSSSSSSSSSSSSSSS..SS",
-        ".SSSSSSSSSSSSSSSSSSSSSSS..SS",
-        ".SSSSSSSSSSSSSSSSSSSSSSS..SS"
-      ]
-    },
-    "101802": {
-      "totalRows": 11,
-      "totalColumns": 17,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        ".................",
-        "...SSSSSSSSSSSS..",
-        ".................",
-        ".....CW.CC.C.WC..",
-        ".....SSSSSSSSSS..",
-        ".....SSSSSSSSSS..",
-        ".....SSSSSSSSSS..",
-        ".....SSSSSSSSSS..",
-        "SS...SSSSSSSSSS..",
-        "SS...SSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSS"
-      ]
-    },
     "101803": {
       "totalRows": 11,
       "totalColumns": 22,
@@ -5994,27 +5926,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "18:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=101802&a=0000000001&l=7135&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".................",
-                "...AAAAAAAAAAAA..",
-                ".................",
-                ".....AA.AA.A.AA..",
-                ".....AAAAAAAAAA..",
-                ".....AAAAAAAAAA..",
-                ".....AAAAAAAAAA..",
-                ".....AAAAAAAAOO..",
-                "AA...AAAOOAAAAA..",
-                "AA...AAAAAAOOAA..",
-                "AAAAAAAOOAAAAAAAA"
-              ],
-              "layoutKey": "101802"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "UltraAVX",
@@ -6072,38 +5983,6 @@
           ]
         },
         {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "18:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=101801&a=0000000001&l=7135&m=the-odyssey&ss=False",
-              "seats": [
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                ".AA..AAA.AAAA..AAAAA..AA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAOAAAAAAAAA....",
-                ".AAAAAAAAAAAOOAAAAAAAAAA..AA",
-                ".AAAOOOAAAAAAAAOOAAAAAAA..AA",
-                ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
-                ".AAAAAAAAAOOAAAAAAAAAAAA..AA",
-                ".AAAAAAAAAAAAAAAAAAAAAAA..AA"
-              ],
-              "layoutKey": "101801"
-            }
-          ]
-        },
-        {
           "title": "Coyote vs ACME",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
@@ -6121,9 +6000,9 @@
                 ".....AA..AAAAA.AAA.AA.",
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAOOOOAAAA.",
                 ".....AAAAAOOAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAOOAAAAAA.",
                 "AA...AAAAAAAAAAAAAAAA.",
                 "OOAAAOOOAAOOOOOAAAAAAA"
               ],
@@ -6183,7 +6062,7 @@
                 "AA...AAAAAAAAOOOOAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAOOOAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAOOAAAAAAAAAAAAA"
               ],
               "layoutKey": "101806"
             }
@@ -6233,13 +6112,13 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "....................",
                 "..A.AAAAA.AA.AA.....",
+                "..AAAAAAAAOOAAA.....",
                 "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAOOAAAAA.....",
                 "..AAAAAAOOAAAAA.....",
                 "..AAAAAAAAAAAAA...AA",
                 "..AAAAAAAAAAAAA...AA",
-                "AAAAAAAAOOAAAAAAAAAA"
+                "AAAAAAAAOOAAAAOOAAAA"
               ],
               "layoutKey": "101804"
             }
@@ -7834,7 +7713,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
-                ".AAAAAAAAAAAAAAAAAAAOOAA..AA"
+                ".AAAAAAAAAAAOOAAAAAAOOAA..AA"
               ],
               "layoutKey": "101933"
             },
@@ -7859,7 +7738,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
-                ".AAAAAAAAAAOOAAAAAAAAAAA..AA"
+                ".AAAAAAAAAAAAAAAAAAAAAAA..AA"
               ],
               "layoutKey": "101932"
             },
@@ -8385,7 +8264,7 @@
                 "AA...AAAAAAAAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAOO"
               ],
               "layoutKey": "101919"
             },
@@ -8401,7 +8280,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAAA...",
                 "............................",
                 ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAOOAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",

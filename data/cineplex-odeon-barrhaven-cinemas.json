@@ -1,74 +1,10 @@
 {
-  "updatedAt": "2026-09-02T21:44:24.170Z",
+  "updatedAt": "2026-09-02T22:32:14.837Z",
   "theatre": {
     "id": 7286,
     "name": "Cineplex Odeon Barrhaven Cinemas"
   },
   "auditoriums": {
-    "171978": {
-      "totalRows": 13,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "AA",
-        "BB",
-        "CC",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        ".......................",
-        "......SCW.WCSSSS.WCS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        ".SS...SSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "171979": {
-      "totalRows": 11,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "....SSSSSSSSSSSSSSSSS..",
-        ".......................",
-        "......SCW.WCSSSS.WCS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        ".SS...SSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
     "171980": {
       "totalRows": 14,
       "totalColumns": 23,
@@ -4753,36 +4689,6 @@
           ]
         },
         {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "18:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171978&a=0000000001&l=7286&m=the-odyssey&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                ".......................",
-                "......AAA.AAAAAA.AAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......?AAAAOOAAAAAAA...",
-                "......AAAAAAAAAAAOOA...",
-                ".AA...AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAOO."
-              ],
-              "layoutKey": "171978"
-            }
-          ]
-        },
-        {
           "title": "Coyote vs ACME",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
@@ -4801,7 +4707,7 @@
                 "........................",
                 "....AAA.AAAAOOAAA.AAA...",
                 "....AAAOOAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAOAAAAA...",
                 "....AAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAOOAAAAAAAA...",
                 "A?..AAAAOOAAAAAAAAAAA...",
@@ -4837,8 +4743,8 @@
                 ".....AAAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAOOAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
+                "AA...AAAAAAOOOAAAAAAA..",
+                "AAAAAAAAAOOAAOOAAAAAAAA"
               ],
               "layoutKey": "171980"
             }
@@ -4872,34 +4778,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "171983"
-            }
-          ]
-        },
-        {
-          "title": "Tony",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61801_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171979&a=0000000001&l=7286&m=tony&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "....AAAAAAAAAAAAAAAAA..",
-                ".......................",
-                "......AAA.AAAAAA.AAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                ".AA...AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "171979"
             }
           ]
         },
@@ -5590,7 +5468,7 @@
                 "......AAAAAAAAAAAAAAA..",
                 "......AAAAAAAAAAAAAAA..",
                 "......AAAAAAAAAAAAAAA..",
-                ".......AAAAAOOOOAAAA...",
+                ".......AAAAAAAAAAAAA...",
                 "AA.....AAAAAAAAAAAAA...",
                 "AA....AAAAAAAAAAAAAAA..",
                 "AA....AAAAAAAAAAAAAAA..",
@@ -5644,7 +5522,7 @@
                 "...AAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAA....",
                 "...AAAAAAAOOOOOAAAA..AA",
-                "...AAAAAAAAAAAAAAAA..AA",
+                "...AAAAAAOOOOAAAAAA..AA",
                 "...AAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -6106,7 +5984,7 @@
                 ".....AAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAOOOAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAAA"
@@ -6232,7 +6110,7 @@
                 "......AAA.AAAAAA.AAA...",
                 "......AAAAAAAAAAOOOO...",
                 "......AAAAAAAAAAAAAA...",
-                "......OOAAAOOAAAAAAA...",
+                "......AAAAAOOAAAAAAA...",
                 "......AAAAAAAAAAAAAA...",
                 ".AA...AAAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAAAA."

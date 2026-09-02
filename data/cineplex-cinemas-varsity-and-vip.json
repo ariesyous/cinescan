@@ -1,58 +1,10 @@
 {
-  "updatedAt": "2026-09-02T21:44:11.956Z",
+  "updatedAt": "2026-09-02T22:32:04.019Z",
   "theatre": {
     "id": 7199,
     "name": "Cineplex Cinemas Varsity and VIP"
   },
   "auditoriums": {
-    "408253": {
-      "totalRows": 20,
-      "totalColumns": 29,
-      "rowLabels": [
-        null,
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K",
-        "L",
-        "M",
-        "N",
-        "O",
-        "P",
-        "Q",
-        "R",
-        "S",
-        "T",
-        "U",
-        "V",
-        "W"
-      ],
-      "seatTypes": [
-        ".............................",
-        "....SS.SSSSSSSSSSSSSS........",
-        ".SSSSS.SSSSSSSSSSSSSS.SSSSSS.",
-        ".SSSSS.SSSSSSSSSSSSSS.SSSSSS.",
-        "SSSSSS.SSSSSSSSSSSSSS.SSSSSSS",
-        "SSSSSS.SSSSSSSSSSSSSS.SSSSSSS",
-        "SSSSSS.SSSSSSSSSSSSSS.SSSSSSS",
-        "SSSSSS.SSSSSSSSSSSSSS.SSSSSSS",
-        "SSSSSS.SSSSSSSSSSSSSS.SSSSSSS",
-        "SSSSSS.SSSSSSSSSSSSSS.SSSSSSS",
-        ".SSSSS.SSSSSSSSSSSSSS.SSSSSS.",
-        ".SSSSS.SSSSSSSSSSSSS..SSSSSS.",
-        ".SSSSS.SSSSSSSSSSSCW..SSSSSS.",
-        "SSSSSS.SSSSSSSSSSSSSS.SSSSSSS",
-        "SSSSSS.SSSSSSSSSSSSSS.SSSSSSS",
-        "SSSSSS.SSSSSSSSSSSSSS.SSSSSSS",
-        "SSSSSS.SSSSSSSSSSSSSS.SSSSSSS",
-        "SSSSSS.SSSSSSSSSSSCW..SSSSSSS",
-        "SSSSSS.SSSSSSSSSSSSSS..SSSSSS",
-        "CCW.......................WC."
-      ]
-    },
     "408263": {
       "totalRows": 12,
       "totalColumns": 24,
@@ -241,34 +193,6 @@
         ".....SSSSSSSSSSS....",
         "SS...SSSSSSSSSSS..SS",
         "SSS.SSSSSSSSSSSSSSSS"
-      ]
-    },
-    "408271": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...................",
-        ".....WCSSSSCW......",
-        "....SSSSSSSSSSS....",
-        "....SSSSSSSSSSS....",
-        "....SSSSSSSSSSS....",
-        "....SSSSSSSSSSS....",
-        "....SSSSSSSSSSS....",
-        "....SSSSSSSSSSS....",
-        "SS..SSSSSSSSSSS..SS",
-        "SSSSSSS.SSSSSSSSSSS"
       ]
     },
     "408274": {
@@ -1553,28 +1477,6 @@
         "....SSSSSSSSSSSSSSS....",
         "SS..SSSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSS.SSSSSSS"
-      ]
-    },
-    "408325": {
-      "totalRows": 7,
-      "totalColumns": 6,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "......",
-        "SSSSSS",
-        "SSSSSS",
-        "SSSSSS",
-        "SSSSSS",
-        "SSSSSS",
-        "WWCCSS"
       ]
     },
     "408328": {
@@ -10414,23 +10316,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "18:00",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=408325&a=0000000001&l=7199&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "......",
-                "AAAAAA",
-                "AAOOAA",
-                "AAOAAA",
-                "OOOOAA",
-                "AAOOOO",
-                "AAAAOA"
-              ],
-              "layoutKey": "408325"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "3D"
@@ -10442,12 +10327,12 @@
                 ".......AAAAAAAAAAA......",
                 ".....AAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
-                ".....AAAAAAOOAAAAAAA....",
-                ".....AAAAAAAAAAAAAAA....",
-                "....AAAAOOOOAAAAAAAA....",
+                ".....AAAAOOOOAAAAAAA....",
+                ".....AAAAAAAAOOOAAAA....",
+                "....AAAAOOOOAAAAAAOO....",
                 "....AAAAAAOOOOAAAAAA....",
-                "AA...AAAAAOOOOAAAAAA..AA",
-                "AA...AAAAAAAAAAAAAAA..AA",
+                "AA...AAAAAOOOOAAOAAA..AA",
+                "AA...AAAAAAOOAAAAAAA..AA",
                 "AAAAAAAAAAAOOAAAAAAAAAAA"
               ],
               "layoutKey": "408268"
@@ -10466,7 +10351,7 @@
                 ".....AAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAAA....",
+                "....AAAOAAAAAAAAAAAA....",
                 "....AAAAAAAAAAAAAAAA....",
                 "AA...AAAAAAAAAAAAAAA..AA",
                 "AA...AAAAAAAAAAAAAAA..AA",
@@ -10482,36 +10367,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "18:00",
-              "formats": [
-                "70mm"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=408253&a=0000000001&l=7199&m=the-odyssey&ss=False",
-              "seats": [
-                ".............................",
-                "....AA.AAAAAAAAAAAAAA........",
-                ".AAAAA.AAAAAAAAAAAAAA.AAAAAA.",
-                ".AAAAA.AAAAAAAAAAAAAA.AAAAAA.",
-                "AAAAAA.AAAAAAAAAAAAAA.AAAAAAA",
-                "AAAAAA.AAAAAAAAAAAAA?.AAAAAAA",
-                "AAAAAA.AAAAAAAAAAAAAA.AAAAAAA",
-                "AAAAAA.AAAAAAAAAAAAAA.AAAAAAA",
-                "AAAAAA.AAAAAAAAAAAAAA.AAAAAAA",
-                "AAAAAA.AAOOAAOOAAOOAA.AAAAAAA",
-                ".AAAOO.AAAAOOOOOOOAAA.AAAAAA.",
-                ".AAAAA.?OOAOOOOOOOAA..AAAAAA.",
-                ".AAAAA.?AAAAOOOOOAA?..AAAAAA.",
-                "AAAAAA.OOAOOOOOOOOOAA.AAAAAAA",
-                "AAAAAA.AAAAAOOOAAOOAA.AAAAAAA",
-                "AAAAAA.AAAAAAAAOOAAAA.AAAAAAA",
-                "AAAAAA.AAAAAOOAAAAAAA.AAAAAAA",
-                "AAAAAA.AAAAAAAAAAAA?..AAAAAAA",
-                "AAAAAA.?AAAOOOAAAAAOO..AAAAAA",
-                "AAA.......................AA."
-              ],
-              "layoutKey": "408253"
-            },
-            {
               "time": "18:40",
               "formats": [
                 "VIP 19+"
@@ -10519,10 +10374,10 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=408330&a=0000000001&l=7199&m=the-odyssey&ss=False",
               "seats": [
                 ".......",
-                "AAAAAAA",
+                "OAAAAAA",
                 ".OOOOOO",
                 "OOAOOOO",
-                ".OOOAOO",
+                ".OOOOOO",
                 ".OOAAAA"
               ],
               "layoutKey": "408330"
@@ -10596,13 +10451,13 @@
                 "....................",
                 "......AAAAAAAA......",
                 ".....OAAAAAAAAAA....",
+                ".....AAAAAOOAAAA....",
                 ".....AAAAAAAAAAA....",
-                ".....AAAAAAAAAAA....",
-                ".....AAAAAAAAAAA....",
+                ".....AAAAAAAOAAA....",
                 ".....AAAAOOAAAAA....",
-                ".....AAAAAAOOAAA....",
-                "AA...AAAAAAAAAAA..AA",
-                "AAA.AAAAAOOOAAAAAAAA"
+                ".....AAOOOOOOAAA....",
+                "AA...OAAAAAAAAAA..AA",
+                "AAA.AAAAAOOOAAAAOOOO"
               ],
               "layoutKey": "408269"
             },
@@ -10649,11 +10504,11 @@
                 "....AAAAAAAAAAAAAAAA....",
                 "....AAAAAAAAAAAAAAAA....",
                 "....AAAAAAOOAAAAAAAA....",
-                "....AAAAAAAOOOAAAAAA....",
-                "....OAAOOOOOOOAAAAAO....",
+                "....AAAAAAAOOOAOOAAA....",
+                "....OOAOOOOOOOAAAAAO....",
                 "....AAAAOOOOOAAOOOAA....",
-                "AA..AAAAAOOOOOOOOAAA..AA",
-                "AA..AAAAAAAOOOOOAAAA..AA",
+                "AA..OOAAAOOOOOOOOAAA..AA",
+                "AA..AAAOOAAOOOOOAAAA..AA",
                 "AAAAAAAAAOOOOOAAOAAAAAAA"
               ],
               "layoutKey": "408265"
@@ -10718,7 +10573,7 @@
                 "......",
                 "AAAAAA",
                 "AAAAAA",
-                "AAAOOO",
+                "AOOOOO",
                 "OOOOAA",
                 "AAOOOO",
                 "OOAAAA"
@@ -10743,9 +10598,9 @@
                 "......AAAAAAAAAAA......",
                 ".....AAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAOOOO....",
-                ".....AAAAAAAAAAAAAA....",
+                ".....OOAAAAAAAAAAAA....",
                 ".....OOAAAOOOOAAAOO....",
-                "....AAAAAAAAOOOOOAA....",
+                "....AAAAAAOOOOOOOAA....",
                 "....?OOAOOOOOOOOOOO....",
                 "AA..?AAOOOAAAAAAOOO..AA",
                 "AAAAAOAAAAAAAOO.OOOAAAA"
@@ -10791,13 +10646,13 @@
                 "..AAAAAAAAAAA",
                 "..AAAAAAAAAAA",
                 ".....AAAAAAA.",
-                "....AAOOAAAAA",
+                "....AAAAAAAAA",
                 "...AAAOOAAAAA",
                 ".AAAAAOOAAAAA",
                 "AAAAOOAAOOAAA",
-                ".OAAAAOOAAAAA",
-                "AAAAAAOAAAAAA",
-                ".AAAAAOOOOOAA"
+                ".OAAAAOOAAAOO",
+                "AAOOAAOAAAAAA",
+                ".OOAAAOOOAAAA"
               ],
               "layoutKey": "408267"
             },
@@ -10830,26 +10685,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61952_320_470.jpg",
           "runtimeMinutes": 115,
           "sessions": [
-            {
-              "time": "18:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=408271&a=0000000001&l=7199&m=the-salt-path&ss=False",
-              "seats": [
-                "...................",
-                ".....AAAOOAAA......",
-                "....AAAAAAAAAOO....",
-                "....AAAAAAAAAAA....",
-                "....AAAAAAAAAAO....",
-                "....AAAAAAAAAAA....",
-                "....AAAAAAAAAAA....",
-                "....AAAAAAAAAAA....",
-                "AA..AAAAAAAAAAA..AA",
-                "AAAAAAA.AAAAAAAAAAA"
-              ],
-              "layoutKey": "408271"
-            },
             {
               "time": "20:50",
               "formats": [
@@ -11108,7 +10943,7 @@
                 ".......",
                 "AAAAAAA",
                 ".AAAAAA",
-                "AAAOOAA",
+                "AOOOOAA",
                 ".OOOAOO",
                 ".AAAAAA"
               ],
@@ -11367,7 +11202,7 @@
                 "....AAAAAAAOOOAAAAAA....",
                 "....OOOAAAAAOOAAAAAA....",
                 "....AAAAOOOOAAAAAAAA....",
-                "AA..AAAAAAAAAAAAAAAA..AA",
+                "AA..OOAAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -12002,7 +11837,7 @@
                 "AAAAAA.AAAAAAAAAAAAAA.AAAAAAA",
                 ".AAAAA.AAAAAAOOAAAAAA.AAAAAA.",
                 ".AAAAA.?AAAAAAAAAAAA..AAAAAA.",
-                ".AAAAA.?OOAAAAOOAAA?..AAAAAA.",
+                ".AAAAA.?OOAOOAOOAAA?..AAAAAA.",
                 "AAAAAA.AAAAAAAAAAAAAA.AAAAAAA",
                 "AAAAAA.AAAAAAAAAAAAAA.AAAAAAA",
                 "AAAAAA.AAAAAAAAAAAAAA.AAAAAAA",
@@ -12115,7 +11950,7 @@
                 ".......",
                 "AAAAAAA",
                 ".AAAAAA",
-                "AAAAAAA",
+                "AAAOOAA",
                 ".AAAAAA",
                 ".AAAAAA"
               ],
@@ -12201,8 +12036,8 @@
                 ".....AAAAAAAAAAA....",
                 ".....AAAAAAAAAAA....",
                 ".....AAAAAAAAAAA....",
-                ".....AAOOAAAAAAA....",
                 ".....AAAAAAAAAAA....",
+                ".....AAAAOOAAAAA....",
                 "AA...AAAAAAAAAAA..AA",
                 "AAA.AAAAAAAAAAAAAAAA"
               ],
@@ -12301,8 +12136,8 @@
                 "AAAAAA",
                 "AAAAAA",
                 "AAAAAA",
-                "OOOAAA",
                 "AAAAAA",
+                "AAOOAA",
                 "AAAAAA",
                 "AAAAAA"
               ],
@@ -12733,8 +12568,8 @@
                 ".....AAAAAOOOAAAAAAA....",
                 "....OOOOAAAOOAAAAAAA....",
                 "....AAAAAAAOOAAAAAAA....",
-                "AA...AAAAAOOOAAOOAAA..AA",
-                "AA...OOAAAAAOOAAAAAA..AA",
+                "AA...AAAAAOOOOOOOAAA..AA",
+                "AA...OOAAAOOOOAAAAOO..AA",
                 "AAAAAAAAAAOOOOOOOOAAAAAA"
               ],
               "layoutKey": "408383"
@@ -12839,7 +12674,7 @@
                 ".....AAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
-                ".....AAAAAAAAAAAAAAA....",
+                ".....AAAAAAAAOAAAAAA....",
                 "AA...AAAAAAAAAAAAAAA..AA",
                 "AA...AAAAAAAOOAAAAAA..AA",
                 "AAAAAAAAAAAAOOAAAAAAAAAA"
@@ -12927,7 +12762,7 @@
                 "AAAAAA",
                 "AAAAAA",
                 "AAOOAA",
-                "OOAAAA",
+                "AAAAAA",
                 "AAAAAA"
               ],
               "layoutKey": "408385"
@@ -12978,7 +12813,7 @@
                 ".....AAAAAAAAAAAAAAA....",
                 ".....AAAAAAOOAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
-                "AA...AAAAAOOAAAAAAAA..AA",
+                "AA...AAAAAOOOOAAAAAA..AA",
                 "AA...AAAAAAAOOAAAAAA..AA",
                 "AAAAAAAAAAOOAAOOAAAAAAAA"
               ],
@@ -13066,7 +12901,7 @@
                 "AAAAAAA",
                 ".AAAAAA",
                 "AAAAAAA",
-                ".AAAAAA",
+                ".OOAAAA",
                 ".AAOOAA"
               ],
               "layoutKey": "408398"
@@ -13146,7 +12981,7 @@
                 ".....AAAAAAAAAAA....",
                 ".....AAAAOOAAAAA....",
                 "AA...AAAAOOAAAAA..AA",
-                "AAA.AAAAAAAAAAAAAAAA"
+                "AAA.AAAAAOOAAAAAAAAA"
               ],
               "layoutKey": "408408"
             },
@@ -13454,7 +13289,7 @@
                 ".....AAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAA....",
+                "....AAAAAAOOAAAAAAA....",
                 "....?AAAAAAAAAAAAAA....",
                 "AA..?AAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAOO.AAAAAAA"
@@ -13547,7 +13382,7 @@
                 "....AAAAAAAAA",
                 "...AAAAAAAAAA",
                 ".AAAAAAAAAAAA",
-                "AAAAOAAAAAAAA",
+                "AAAAAAAAAAAAA",
                 ".AAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 ".AAAAAAAAAAAA"
@@ -13568,7 +13403,7 @@
                 ".....AAAAAAA.",
                 "....AAAAAAAAA",
                 "...AAAAAAAAAA",
-                ".AAAAAAAAAAAA",
+                ".AAAAAAOAAAAA",
                 "AAAAAAOOAAAAA",
                 ".AAAAAAAAAAAA",
                 "AAAAAAOAAAAAA",
@@ -13710,7 +13545,7 @@
                 ".....AAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
-                ".....AAAAAAAAAAAAAAA....",
+                ".....AAAAAOOOOAAAAAA....",
                 "....OOOAAAAOOAAAAAAA....",
                 "....AAAAAAAAOAAAAAAA....",
                 "AA...AAAAAAAAAAAAAAA..AA",
@@ -13751,7 +13586,7 @@
                 ".....AAAAAAAAAAAAAAA....",
                 "....AAAOOOAAOOOOAAAA....",
                 "....AAAAAAAOOAAAAAAA....",
-                "AA...AAAAAAAAAAAAAOO..AA",
+                "AA...AAAAAAAOAAAAAOO..AA",
                 "AA...OOOAAAOAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -13855,8 +13690,8 @@
                 ".....AAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
-                ".....AAAAAAOAAAAAAAA....",
-                ".....AAAOOAAOOAAAAAA....",
+                ".....AAAAAAAAAAAAAAA....",
+                ".....AAAAAAAOOAAAAAA....",
                 ".....AAAAAAAAAAAAAAO....",
                 "AA...AAAAAAAAAAAAAAA..AA",
                 "AA...AAAAAAAAAAAAAAA..AA",
@@ -13993,7 +13828,7 @@
                 ".....AAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
-                ".....AAAAAAAAAAAAAAA....",
+                ".....AAAOAAAAAAAAAAA....",
                 ".....AAAAAAAOOAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
                 "AA...AAAAAAAAAAAAAAA..AA",
@@ -14164,7 +13999,7 @@
                 ".....AAAAAOOAAAA....",
                 ".....AAAAOAAAAAA....",
                 "AA...AAAAAOAAAAA..AA",
-                "AAA.AAAAAAAAAAAAAAAA"
+                "AAA.AAAAAAAOAAAAAAAA"
               ],
               "layoutKey": "408447"
             },
@@ -14318,7 +14153,7 @@
                 "....AAAAAAAAAAAAAAAA....",
                 "....AAAAAAAAAAAAAAAA....",
                 "....AAAAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAOOAAAAAA....",
                 "....AAAAAAAAAAAAAAAA....",
                 "AA..AAAAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAAAA..AA",
@@ -14338,7 +14173,7 @@
                 "AAAAAA",
                 "AAOOAA",
                 "OOAAAA",
-                "AAAAAA",
+                "AAOOAA",
                 "AAAAAA",
                 "AAAAAA"
               ],
@@ -14435,7 +14270,7 @@
                 "....AAAAAAAOAAAAAAA....",
                 "....?AAAAAAAAAAAAAA....",
                 "AA..?AAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAA.AAAAAAA"
+                "AAAAAAAAAAOOAAA.AAAAAAA"
               ],
               "layoutKey": "408437"
             },
@@ -14453,7 +14288,7 @@
                 ".....AAAAAAAAAAAAAA....",
                 ".....AAOOAAOOAAAAAA....",
                 "....AAAAAAAAAAAAAAA....",
-                "....?AAAAAAAAAAAAAA....",
+                "....?AAAAAOOOOAAAAA....",
                 "AA..?AAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAA.AAAAAAA"
               ],
@@ -14542,7 +14377,7 @@
                 ".....AAAAAAA.",
                 "....AAAAAAAAA",
                 "...AAAAAAAAAA",
-                ".AAAAAAOOAAAA",
+                ".AAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 ".AAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
@@ -15069,7 +14904,7 @@
                 "AAAAAA",
                 "AAAAAA",
                 "AAAAAA",
-                "AAAAAA",
+                "OAAAAA",
                 "AAAAAA"
               ],
               "layoutKey": "408516"
