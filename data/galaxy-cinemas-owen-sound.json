@@ -1,72 +1,10 @@
 {
-  "updatedAt": "2026-09-02T20:28:19.701Z",
+  "updatedAt": "2026-09-02T21:45:12.592Z",
   "theatre": {
     "id": 7264,
     "name": "Galaxy Cinemas Owen Sound"
   },
   "auditoriums": {
-    "151401": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "......................",
-        "..SSSSSSSSSSSSSSSSSSS.",
-        "......................",
-        "....WCSSSCW.WCSSS.....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "151402": {
-      "totalRows": 13,
-      "totalColumns": 25,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".........................",
-        ".......SSSSSSSSSS........",
-        "...SSSSSSSSSSSSSSSSSSS...",
-        ".........................",
-        "...WWCSSSSSCW..WCSSSS....",
-        "...SSSSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSSSS....",
-        "SS.SSSSSSSSSSSSSSSSSS....",
-        "SS.SSSSSSSSSSSSSSSSSS....",
-        "SS.SSSSSSSSSSSSSSSSSS....",
-        "SSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "151403": {
       "totalRows": 13,
       "totalColumns": 22,
@@ -5336,7 +5274,7 @@
                 ".....AAAAAAAAAAAAAAAAA....",
                 "....AAAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAAAAA...",
+                "....AAAAAAAAOOAAAAAAAAA...",
                 "....AAAAAAAOOOOOOAAAAAA...",
                 "OO..AAAAAOOAAOOAAAAAAAA...",
                 "OO..AAAAAAAAAAAAAAAAAAA...",
@@ -5368,9 +5306,9 @@
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAOOAAAA..AA",
                 "...AAAAAAAAAAAAAAA..AA",
-                "...AAAAAAAAAAAAAAA..AA",
-                "...AAAAAAAAAAAAAAA..AA",
+                "...OOAAAAAAAAAAAAA..AA",
                 "AAAA?AAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "151403"
@@ -5397,11 +5335,11 @@
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
+                "..AAAAAOOAAAAAAAAAA....",
                 "..AAAAAAAAOOAAAAAOO..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAOOAAAAAAAA"
+                "..AAAAAOOOOOOAAAAAA..AA",
+                "AAAAAAOOAAAAAOOAAAAAAAA"
               ],
               "layoutKey": "151404"
             }
@@ -5455,7 +5393,7 @@
                 "..AAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAOOOOOAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAAAAOOOOAA..AA.",
                 "..AAAAAAAOOOOAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAAAA..AA.",
                 "AAAAAAAAAAAAAAAAAAAAAAA."
@@ -5495,60 +5433,10 @@
           ]
         },
         {
-          "title": "Paw Patrol: The Dino Movie",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "16:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=151402&a=0000000001&l=7264&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                ".........................",
-                ".......AAAAAAAAAA........",
-                "...AAAAAAAAAAAAAAAAAAA...",
-                ".........................",
-                "...AAAAAAAAAA..AAAAAA....",
-                "...AAAAAAAAAAAAAAAAAA....",
-                "...AAAOOOOAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAAAA....",
-                "...AAAAAOOOOOOAAAAAAA....",
-                "AA.AOOOOOOOOOAAAAAAAA....",
-                "AA.AAAAAAAOOOAAAAAAAA....",
-                "AA.AAAAAAAAAAAAAAAAAA....",
-                "AAAOOOAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "151402"
-            }
-          ]
-        },
-        {
           "title": "The End of Oak Street",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36540_320_470.jpg",
           "runtimeMinutes": 99,
           "sessions": [
-            {
-              "time": "16:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=151401&a=0000000001&l=7264&m=the-end-of-oak-street&ss=False",
-              "seats": [
-                "......................",
-                "..?AAAAAAAAAAAAAAAAAA.",
-                "......................",
-                "....AAAAAAA.AAAAA.....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAOO....",
-                "...AAAAAAAOOAAAAAA..AA",
-                "AAAAAAAAAAAAA?AAAAAAAA"
-              ],
-              "layoutKey": "151401"
-            },
             {
               "time": "18:45",
               "formats": [
@@ -5748,12 +5636,12 @@
                 ".......................",
                 ".......................",
                 "..AAAAAA..AAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAA....",
+                "..AAAAAAOOOAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAOOO..AA",
+                "..AAAAAAAOOAAAAAOOO..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -7380,7 +7268,7 @@
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA..AA",
+                "...AAAAAAOOOOOAAAA..AA",
                 "...AAAAAAAAAAAAAAA..AA",
                 "...AAAAAAAAAAAAAAA..AA",
                 "AAAA?AAAAAAAAAAAAAAAAA"

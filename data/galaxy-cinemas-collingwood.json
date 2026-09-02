@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T20:28:09.261Z",
+  "updatedAt": "2026-09-02T21:45:00.938Z",
   "theatre": {
     "id": 7288,
     "name": "Galaxy Cinemas Collingwood"
@@ -163,70 +163,6 @@
         "..SSSSSSSSSSSSSSSS..SS",
         "..SSSSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "141637": {
-      "totalRows": 14,
-      "totalColumns": 27,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...........................",
-        "..SSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSS..",
-        "...........................",
-        "....CW...WCW...WCCW...WC...",
-        "....SSSSSSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSSSS.....",
-        "SS..SSSSSSSSSSSSSSSSSS.....",
-        "SS..SSSSSSSSSSSSSSSSSSSS...",
-        "SS..SSSSSSSSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "141638": {
-      "totalRows": 10,
-      "totalColumns": 17,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".................",
-        ".SSSSSSSSSSSSSS..",
-        ".................",
-        "..WCCW...WCCW....",
-        "..SSSSSSSSSSS....",
-        "..SSSSSSSSSSS....",
-        "..SSSSSSSSSSS....",
-        "..SSSSSSSSSSS....",
-        "..SSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSS"
       ]
     },
     "141642": {
@@ -5277,12 +5213,12 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
-                "....AAAAAAAAAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAOOAAAAAAAAAAAAA.",
+                "....AOOOAAAAAAAAAAAAAAAAAAA....",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA....",
+                "AA..AAAAAAAAAAAOOAAAAAAAAAAAAA.",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAAA.",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAAA.",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAAA."
+                "AA..AAAAAAAAAAAOOAAAAOOAAAAAAA."
               ],
               "layoutKey": "141634"
             }
@@ -5338,7 +5274,7 @@
                 "....AAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAA..",
                 "AA..AAAAAAA??AAAA..",
-                "AAAAAAAAAAAAAAAAAAA"
+                "AAAAOOAAAAAOOAAAAAA"
               ],
               "layoutKey": "141633"
             }
@@ -5366,7 +5302,7 @@
                 "....AAAAAAAAAAAAAA..",
                 "AA..AAAAAOOAAAAAAA..",
                 "AA..AAAAAAAAAAAAAA..",
-                "AAAOOAAAAAAAAAAAAAAA"
+                "AAAOOAAAAAAAAAAAAAOO"
               ],
               "layoutKey": "141635"
             }
@@ -5406,26 +5342,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61801_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "16:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=141638&a=0000000001&l=7288&m=tony&ss=False",
-              "seats": [
-                ".................",
-                ".AAAAAAAAAAAAAA..",
-                ".................",
-                "..AAAA...AAAA....",
-                "..AAAAAAAAAAA....",
-                "..AAAAAAAAAAA....",
-                "..AAAAAOAAAAA....",
-                "..AAAAAAAAAAA....",
-                "..OOAAAAAAAAA..AA",
-                "AAAAAAAOOAAAAAAAA"
-              ],
-              "layoutKey": "141638"
-            },
             {
               "time": "19:00",
               "formats": [
@@ -5468,7 +5384,7 @@
                 "....AAAAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAAAAAA...",
+                "....AAAAAAOOAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAA.....",
                 "AA..AAOOOAAAAOOAAAAAAA.....",
                 "AA..AAAAAAAAAAAAAAAAAAAA...",
@@ -5476,37 +5392,6 @@
                 "AAAAAAAAAAAAAAAAAAAAOOOOAAA"
               ],
               "layoutKey": "141642"
-            }
-          ]
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "16:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=141637&a=0000000001&l=7288&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                "...........................",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "...........................",
-                "....AA...AAA...AAAA...AA...",
-                "....AAAAAAAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAAOO.....",
-                "AA..AAAAAAAAAAAAAAAAAA.....",
-                "AA..AAAAAAAAAAAAAAAAAAAA...",
-                "AA..AAAAAAAAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "141637"
             }
           ]
         }
@@ -5613,7 +5498,7 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..OOOAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAA..AA",
+                "..OOAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -5947,7 +5832,7 @@
                 "....AAAAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAAAA.....",
+                "....AOOOAAAAAAAAAAAAAA.....",
                 "AA..AAAAAAAAAAAAAAAAAA.....",
                 "AA..AAAAAAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAAAAAA...",
@@ -6183,7 +6068,7 @@
                 "...AAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA....",
-                ".....AAAAAAAAAAAAAAA..AA",
+                ".....AAAAAAAOOAAAAAA..AA",
                 "...AAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -6836,7 +6721,7 @@
                 "...AAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAA....",
-                ".....AAAAAAAAAAAAAAA....",
+                ".....AAAAAOOAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAA..AA",
                 "...AAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA"
@@ -6983,7 +6868,7 @@
                 "....AAAAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAA.....",
-                "AA..AAAAAAAAAAAAAAAAAA.....",
+                "AA..AAAAAAAOOOAAAAAAAA.....",
                 "AA..AAAAAAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -7339,7 +7224,7 @@
                 "....AAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAA..",
+                "AA..AAAAAOOAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "141743"
@@ -7483,7 +7368,7 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAA....",
+                "..AOOAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAA"
@@ -7590,7 +7475,7 @@
                 "AA..AAAAAAAAAAAAAAAAAA.....",
                 "AA..AAAAAAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAOOOAA"
               ],
               "layoutKey": "141748"
             },
@@ -7634,7 +7519,7 @@
                 "....AAAAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAAAA.....",
+                "....AAAAAAAAOOAAAAAAAA.....",
                 "AA..AAAAAAAAAAAAAAAAAA.....",
                 "AA..AAAAAAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAAAAAA...",

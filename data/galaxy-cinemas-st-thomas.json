@@ -1,76 +1,10 @@
 {
-  "updatedAt": "2026-09-02T20:28:23.995Z",
+  "updatedAt": "2026-09-02T21:45:17.221Z",
   "theatre": {
     "id": 7267,
     "name": "Galaxy Cinemas St. Thomas"
   },
   "auditoriums": {
-    "129951": {
-      "totalRows": 10,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".....................",
-        "...SSSSSSSSSSSSSSSS..",
-        ".....................",
-        "........SSSCWWCSSCW..",
-        "....SSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "129952": {
-      "totalRows": 15,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "......................",
-        ".....SSSSSSSSSSS......",
-        "...SSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "......................",
-        ".....WCSSCWWCSSSSS....",
-        "....SSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSS....",
-        "....SSSSSSSSSSSSSS....",
-        "....SSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "129953": {
       "totalRows": 14,
       "totalColumns": 21,
@@ -4760,7 +4694,7 @@
                 "AA...AAAAAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAOAAAAAAAAAAAA"
               ],
               "layoutKey": "129954"
             }
@@ -4786,7 +4720,7 @@
                 "....AAAAAAAAAAAA..",
                 "....AAAAAAOOOOAA..",
                 "....AAAAOOAAAAAA..",
-                "....AAAAAAAAAAAA..",
+                "....AAAAOOAAAAAA..",
                 "AAAAAAAAOOOOAAAAA."
               ],
               "layoutKey": "129955"
@@ -4857,26 +4791,6 @@
           "runtimeMinutes": 98,
           "sessions": [
             {
-              "time": "16:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129951&a=0000000001&l=7267&m=spa-weekend&ss=False",
-              "seats": [
-                ".....................",
-                "...AAAAAAAAAAAAAAAA..",
-                ".....................",
-                "........AAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAA...",
-                "....AAAAAAOOAAAAAA...",
-                "....AAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "129951"
-            },
-            {
               "time": "19:20",
               "formats": [
                 "Regular"
@@ -4903,31 +4817,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
           "runtimeMinutes": 89,
           "sessions": [
-            {
-              "time": "17:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129952&a=0000000001&l=7267&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                "......................",
-                ".....AAAAAAAAAAA......",
-                "...AAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "129952"
-            },
             {
               "time": "19:30",
               "formats": [
@@ -6152,7 +6041,7 @@
                 "....AAAAAAAAAAAAAA....",
                 "....AAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAAAAAAA"
+                ".AAAAAAAAOOOOAAAAAAAAA"
               ],
               "layoutKey": "130028"
             }
@@ -6588,7 +6477,7 @@
                 "....AAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAA...",
-                "....AAAOOAAAAAAAAA...",
+                "....AAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAA."
               ],
@@ -7133,7 +7022,7 @@
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAA...",
+                "....OOAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAA"

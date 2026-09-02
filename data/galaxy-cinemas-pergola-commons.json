@@ -1,40 +1,10 @@
 {
-  "updatedAt": "2026-09-02T20:28:20.893Z",
+  "updatedAt": "2026-09-02T21:45:13.737Z",
   "theatre": {
     "id": 7117,
     "name": "Galaxy Cinemas Pergola Commons"
   },
   "auditoriums": {
-    "119985": {
-      "totalRows": 11,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "....................",
-        ".SSSSSSSSSSSSSSSSS..",
-        "....................",
-        ".CW..WCSSSSS.WC.....",
-        ".SSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSS..SSS",
-        ".SSSSSSSSSSSSSS..SSS",
-        "SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "119987": {
       "totalRows": 11,
       "totalColumns": 20,
@@ -6122,36 +6092,6 @@
         ".SSSSSSSSSSSSSS..SSS",
         "SSSSSSSSSSSSSSSSSSSS"
       ]
-    },
-    "120206": {
-      "totalRows": 11,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "....................",
-        ".SSSSSSSSSSSSSSSS...",
-        "....................",
-        ".CW..WCSSSSS.WC.....",
-        ".SSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSS..SSS",
-        ".SSSSSSSSSSSSSS..SSS",
-        "SSSSSSSSSSSSSSSSSSSS"
-      ]
     }
   },
   "days": [
@@ -6240,7 +6180,7 @@
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAOOAAOOOOAAAAAAAAA..",
+                ".....AAAAOOOOOOOOAAAAAAAAA..",
                 "AAA..AAAAAAAAAAAAAAAAAAAAA..",
                 "AAA..AAAAAAAAAOAAAAAAAAAAA..",
                 "AAA..AAAAAAAAAAAAAAAAAAAAA..",
@@ -6316,27 +6256,6 @@
           "runtimeMinutes": 111,
           "sessions": [
             {
-              "time": "16:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=120206&a=0000000001&l=7117&m=finding-emily&ss=False",
-              "seats": [
-                "....................",
-                ".AAAAAAAAAAAAAAAA...",
-                "....................",
-                ".AA..AAAAAAA.AA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA..AAA",
-                ".AAAAAAAAAAAAAA..AAA",
-                "AAAAAAAOOAAAAAAAAAAA"
-              ],
-              "layoutKey": "120206"
-            },
-            {
               "time": "19:30",
               "formats": [
                 "Regular"
@@ -6353,7 +6272,7 @@
                 ".AAAAAAAOAAAAAA.....",
                 ".AAAAAAAAAAAAAA..AAA",
                 ".AAAAAAAAAAAAAA..AAA",
-                "AAAAAAAAAAAAAAAAAOOO"
+                "AAAAOOAAAAAAAAAAAOOO"
               ],
               "layoutKey": "119998"
             }
@@ -6407,8 +6326,8 @@
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
-                "AAA..AAAAAAAAAAAAAAAA.",
-                "AAA..AAAAAAAAAAAAAAAA.",
+                "AAA..AAAAAOOAAAAAAAAA.",
+                "AAA..AAOOAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "119990"
@@ -6440,34 +6359,6 @@
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "119987"
-            }
-          ]
-        },
-        {
-          "title": "Colony (Korean w/e.s.t.)",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61951_320_470.jpg",
-          "runtimeMinutes": 122,
-          "sessions": [
-            {
-              "time": "16:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=119985&a=0000000001&l=7117&m=colony-korean-west&ss=False",
-              "seats": [
-                "....................",
-                ".AAAAAAAAAAAAAAAAA..",
-                "....................",
-                ".AA..AAAAAAA.AA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA..AAA",
-                ".AAAAAAAAAAAAAA..AAA",
-                "AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "119985"
             }
           ]
         }
@@ -7146,7 +7037,7 @@
                 "..AAAAAAAAAAA.....",
                 "..AAAAAAAAAAA.....",
                 "..AAAAAAAAAAA..AAA",
-                "..AAAAAAAAAAA..AAA",
+                "..AAAAAAOOAAA..AAA",
                 "AAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "120025"
@@ -8216,7 +8107,7 @@
                 "AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "AAAAAAAAAAAAAAAAAAAAAAA.....",
-                "AAAAAAAAAAAAAAAAAAAAAAA..AAA",
+                "AAAAAAAAAAAAAOOAAAAAAAA..AAA",
                 "AAAAAAAAAAAAAAAAAAAAAAA..AAA",
                 "AAAAAAAAAAAAOAAAAAAAAAA..AAA",
                 "AAAAAAAAAAAAAAAAAAAAAAA..AAA",
@@ -8245,7 +8136,7 @@
                 "AAAAAAAAAAAAOOOOAAAAAAA..AAA",
                 "AAAAAAAAAAAOOOAAAAAAAAA..AAA",
                 "AAAAAAAAAAAAAAOOAAAAAAA..AAA",
-                "AAAAAAAAAAAAAAAAAAAAAAA..AAA"
+                "AAAAAAAAAAAAAAAAAAAAAAA..OOA"
               ],
               "layoutKey": "120090"
             },
@@ -8600,7 +8491,7 @@
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAOOAAAAAAAA.",
                 "AAA..AAAAAAAAAAAAAAAA.",
                 "AAA..AAAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAAAAAAAAA"
@@ -8810,7 +8701,7 @@
                 "..AAAAAAAAAAA.....",
                 "..AAAAAAAAAAA.....",
                 "..AAAAAAAAAAA.....",
-                "..AAAAAAAAAAA.....",
+                "..AAAAAOOAAAA.....",
                 "..AAAAAAAAAAA..AAA",
                 "..AAAAAAAAAAA..AAA",
                 "AAAAAAAAAAAAAAAAAA"
@@ -8925,7 +8816,7 @@
                 ".AAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAA..AAA",
                 ".AAAAAAAAAAAAAA..AAA",
-                "AAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAOO"
               ],
               "layoutKey": "120110"
             }
@@ -9018,7 +8909,7 @@
                 "......................",
                 ".....AA.AAAAAAAAA..AA.",
                 ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAOOAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAOOOOOOOAAAAAAA.",
                 "AAA..AAAAAAAAAAAAAAAA.",
@@ -9858,7 +9749,7 @@
                 "......................",
                 ".....AA.AAAAAAAAA..AA.",
                 ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAOOAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAOOOAAAAAAAAA.",
                 "AAA..AAAAAAAAAAAAAAAA.",
@@ -10186,7 +10077,7 @@
                 "AAA..AAAAAAAAAAAAAAAAAAAAA..",
                 "AAA..AAAAAAAAAAAAAAAAAAAAA..",
                 "AAA..AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAOOAAAAAAAAAAAAA"
               ],
               "layoutKey": "120148"
             }
