@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T22:29:42.396Z",
+  "updatedAt": "2026-09-03T22:59:28.389Z",
   "theatre": {
     "id": 3141,
     "name": "Cineplex Odeon Grande Prairie Cinemas"
@@ -475,60 +475,6 @@
         ".SSSSSSSSSSSSSS",
         ".SSSSSSSSSSSSSS",
         "..WWCSSSSSSSSSS"
-      ]
-    },
-    "246153": {
-      "totalRows": 9,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "...............",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSCWW.."
-      ]
-    },
-    "246154": {
-      "totalRows": 10,
-      "totalColumns": 25,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".........................",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".CW....SSSSSSSSSSSS....WC"
       ]
     },
     "246155": {
@@ -7340,7 +7286,7 @@
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
-                "AAAOAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAA.."
@@ -7368,7 +7314,7 @@
                 "OOAAAAAAAAAAAAA.",
                 "OOAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAOOAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAA.."
@@ -7542,8 +7488,8 @@
                 ".AAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAA",
-                ".OOOOAAAAAAAAAA",
+                ".AAAAAAAAAAAAOO",
+                ".OOOOOOOAAAAAAA",
                 "..AAAAAAAAAAAAA"
               ],
               "layoutKey": "246159"
@@ -7634,10 +7580,10 @@
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
+                ".AAAAAAAAOOAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAAA",
+                ".AAAAAAOOOAAAAAA",
                 "..AAAAAAAAAAAAAA"
               ],
               "layoutKey": "246155"
@@ -7670,25 +7616,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36540_320_470.jpg",
           "runtimeMinutes": 99,
           "sessions": [
-            {
-              "time": "16:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=246153&a=0000000001&l=3141&m=the-end-of-oak-street&ss=False",
-              "seats": [
-                "...............",
-                "AAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAA.",
-                "AAAAAOOAAAAAAA.",
-                "AAAAAAOOAAAAAA.",
-                "AAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "246153"
-            },
             {
               "time": "19:00",
               "formats": [
@@ -7734,26 +7661,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60882_320_470.jpg",
           "runtimeMinutes": 200,
           "sessions": [
-            {
-              "time": "16:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=246154&a=0000000001&l=3141&m=toxic-hindi-west&ss=False",
-              "seats": [
-                ".........................",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AA....AAAAAAAAAAAA....AA"
-              ],
-              "layoutKey": "246154"
-            },
             {
               "time": "21:15",
               "formats": [
@@ -7983,13 +7890,13 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=246223&a=0000000001&l=3141&m=fall-2-deadpoint&ss=False",
               "seats": [
                 "................",
+                ".OOAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAAA",
+                ".AAOOAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 "..AAAAAAAAAAAAAA"

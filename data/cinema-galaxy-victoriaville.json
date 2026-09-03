@@ -1,78 +1,10 @@
 {
-  "updatedAt": "2026-09-03T22:28:31.356Z",
+  "updatedAt": "2026-09-03T22:58:06.150Z",
   "theatre": {
     "id": 9186,
     "name": "Cinéma Galaxy Victoriaville"
   },
   "auditoriums": {
-    "139431": {
-      "totalRows": 11,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        ".....................",
-        "..SSSSSSSSSSSSSSSSS..",
-        ".....................",
-        ".....SSSCWWWCSSSCWW..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "139432": {
-      "totalRows": 15,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "......................",
-        "....WWCSSSSSSSSCWW....",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "......................",
-        "...WCSSSSCW.WCSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "SSSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
     "139433": {
       "totalRows": 11,
       "totalColumns": 20,
@@ -131,70 +63,6 @@
         "..SSSSSSSSSSSSS.....",
         "..SSSSSSSSSSSSS.....",
         "SSSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "139436": {
-      "totalRows": 14,
-      "totalColumns": 28,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "............................",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "............................",
-        "..SSSSSCWWWWCSSSSSSCWWW.....",
-        "..SSSSSSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSSSSS..SS.",
-        "..SSSSSSSSSSSSSSSSSSSSS..SS.",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "139445": {
-      "totalRows": 10,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".....................",
-        "..SSSSSSSSSSSSSSSSS..",
-        ".....................",
-        ".....SSSCW.WCSSSCWW..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "139452": {
@@ -5249,124 +5117,6 @@
       "date": "2026-09-03",
       "movies": [
         {
-          "title": "Spider-Man : Un jour nouveau",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61565_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139445&a=0000000001&l=9186&m=vf-spiderman-un-jour-nouveau&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAA..",
-                ".....................",
-                ".....AAAAA.AAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".AAOOAAAAAOAAAAAAAAAA"
-              ],
-              "layoutKey": "139445"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME (version française)",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61524_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139432&a=0000000001&l=9186&m=vf-coyote-vs-acme-version-francaise&ss=False",
-              "seats": [
-                "......................",
-                "....AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                "...AAAAAAAA.AAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "AAAAAAAAAA??AAAAAA?AA."
-              ],
-              "layoutKey": "139432"
-            }
-          ]
-        },
-        {
-          "title": "Insidieux : Hors du plus loin",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61420_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139431&a=0000000001&l=9186&m=insidieux-hors-du-plus-loin&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAA..",
-                ".....................",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".AAOOAAAAAOOAAOOOAAOO"
-              ],
-              "layoutKey": "139431"
-            }
-          ]
-        },
-        {
-          "title": "The Dog Stars",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
-          "runtimeMinutes": 118,
-          "sessions": [
-            {
-              "time": "18:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139436&a=0000000001&l=9186&m=the-dog-stars&ss=False",
-              "seats": [
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAA?AAOAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAOAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "AAAAAAAAAAAAAOAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139436"
-            }
-          ]
-        },
-        {
           "title": "Mutinerie",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61207_320_470.jpg",
           "runtimeMinutes": 95,
@@ -5386,9 +5136,9 @@
                 "..AAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
                 "..AAAAAOOOAAAAA.....",
+                "..OOAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "AAAAAAAAAAAAAAAA???."
+                "AAAAAAAOOAAOAAAA???."
               ],
               "layoutKey": "139434"
             }
@@ -5415,7 +5165,7 @@
                 "..AAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAOO.....",
                 "AAAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "139433"
@@ -6192,7 +5942,7 @@
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
+                ".....AOOAAAAAAAAAAA..",
                 ".....AAAAAAAAAAOOOO..",
                 ".AAAAAAAAAAAAAAAAAAAA"
               ],
@@ -6308,7 +6058,7 @@
                 "..AAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
+                "..OOOOOOOOOAAAA.....",
                 "..AAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
                 "AAAAAAAAAAAAAAAA???."

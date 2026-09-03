@@ -1,102 +1,10 @@
 {
-  "updatedAt": "2026-09-03T22:28:23.240Z",
+  "updatedAt": "2026-09-03T22:57:53.840Z",
   "theatre": {
     "id": 9153,
     "name": "Cinéma Cineplex Odeon Carrefour Dorion"
   },
   "auditoriums": {
-    "196115": {
-      "totalRows": 11,
-      "totalColumns": 18,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        ".....SSSSSSSSSSS..",
-        ".....SSSSSSSSSSSS.",
-        "....SSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".........WCSSSSCW.",
-        ".................."
-      ]
-    },
-    "196116": {
-      "totalRows": 12,
-      "totalColumns": 18,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null,
-        null
-      ],
-      "seatTypes": [
-        "....SSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        ".........WCSSSSCW.",
-        "..................",
-        ".................."
-      ]
-    },
-    "196117": {
-      "totalRows": 11,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSS...",
-        ".SSSSSSSSSSS...",
-        "..SSSSSSSSSSSS.",
-        ".SSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS.",
-        ".SSSSCW........",
-        "..............."
-      ]
-    },
     "196118": {
       "totalRows": 12,
       "totalColumns": 13,
@@ -4555,63 +4463,6 @@
       "date": "2026-09-03",
       "movies": [
         {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196115&a=0000000001&l=9153&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".....AAAAAAAAAAA..",
-                ".....AAAAAAAAAAAA.",
-                "....AAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAA.",
-                "...AAAAAAOOAAAAAA.",
-                "..AAAAAAOOAAAAAAA.",
-                "...AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".........OOOOAAAA.",
-                ".................."
-              ],
-              "layoutKey": "196115"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man : Un jour nouveau",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61565_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196116&a=0000000001&l=9153&m=vf-spiderman-un-jour-nouveau&ss=False",
-              "seats": [
-                "....AAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAOOAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".........AAAAAAAA.",
-                "..................",
-                ".................."
-              ],
-              "layoutKey": "196116"
-            }
-          ]
-        },
-        {
           "title": "Coyote vs ACME (version française)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61524_320_470.jpg",
           "runtimeMinutes": 103,
@@ -4630,7 +4481,7 @@
                 "...AAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
+                "..AAAAAAAOOAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 "........?AAAAAAAA.",
                 "..................",
@@ -4684,7 +4535,7 @@
                 "...AAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAOAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
@@ -4693,34 +4544,6 @@
                 ".................."
               ],
               "layoutKey": "196119"
-            }
-          ]
-        },
-        {
-          "title": "Mutinerie",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61207_320_470.jpg",
-          "runtimeMinutes": 95,
-          "sessions": [
-            {
-              "time": "18:35",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196117&a=0000000001&l=9153&m=mutinerie&ss=False",
-              "seats": [
-                ".AAAAAAAAAAA...",
-                ".AAAAAAAAAAA...",
-                "..AAAAAAAAAAAA.",
-                ".AAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAA.",
-                ".AAOAAA........",
-                "..............."
-              ],
-              "layoutKey": "196117"
             }
           ]
         },
@@ -4741,10 +4564,10 @@
                 ".AAAAAAAAAAA.",
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAAA.",
+                ".AAAAOOAAAA..",
+                ".OOAAAAAAAAO.",
                 ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
+                ".AAAAAOOAAAA.",
                 ".AAAAA.......",
                 "............."
               ],
@@ -4769,7 +4592,7 @@
                 ".AAAAAAAAAAAAAAA.",
                 ".AAAAAA?AAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
-                ".OOAAAA???A.AAAA.",
+                ".OOOAAA???A.AAAA.",
                 "...A?.AOO.?A....."
               ],
               "layoutKey": "196121"
@@ -5340,7 +5163,7 @@
                 ".AAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAA..",
+                ".AOOOAAAAAAAA..",
                 ".AAAAAAAAAAAAA.",
                 ".AAAAAA........",
                 "..............."
@@ -5842,7 +5665,7 @@
                 ".AAAAAAAAAAA.",
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAAA.",
-                ".AAAAAAAAAA..",
+                ".AAAAOOAAAA..",
                 ".AAAAAAAAAAA.",
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAAA.",
