@@ -1,44 +1,10 @@
 {
-  "updatedAt": "2026-09-03T03:18:16.700Z",
+  "updatedAt": "2026-09-03T05:33:39.205Z",
   "theatre": {
     "id": 2114,
     "name": "Cineplex Junxion Kildonan Place"
   },
   "auditoriums": {
-    "43680": {
-      "totalRows": 15,
-      "totalColumns": 29,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null,
-        null
-      ],
-      "seatTypes": [
-        ".............................",
-        "......SSSSSSSSSSSSSSS........",
-        ".............................",
-        "..CW..WWCSSSSSSSSSCWW.WC.....",
-        "..SSSSSSSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..DD.DD.DDD.DD.DDD.DDD.DD.D..",
-        "..DD.DD.DDD.DD.DDD.DDD.DD.D.."
-      ]
-    },
     "43681": {
       "totalRows": 9,
       "totalColumns": 16,
@@ -5538,67 +5504,6 @@
   },
   "days": [
     {
-      "date": "2026-09-02",
-      "movies": [
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "22:15",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=43680&a=0000000004&l=2114&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".............................",
-                "......AAAAAAAAAAAAAAA........",
-                ".............................",
-                "..AA..AAAAAAAAAAAAAAA.AA.....",
-                "..AAAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAOOOAAAAAAAA.....",
-                "..AAAAAAOOOAAAOOOAAAAAAAAAA..",
-                "..AAAAAAAAAAAOOAAAOOAAAAAAA..",
-                "..AAAOOAAAAOOAAOOAAAAAAAAAA..",
-                "..AAAAAAOOAAAAAAOOAAAAAAAAA..",
-                "..AA.AA.OAA.AO.OAA.AAA.AA.A..",
-                "..AA.AA.AAA.AA.AAA.OOA.AO.O.."
-              ],
-              "layoutKey": "43680"
-            },
-            {
-              "time": "22:15",
-              "formats": [
-                "UltraAVX",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=43680&a=0000000001&l=2114&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".............................",
-                "......AAAAAAAAAAAAAAA........",
-                ".............................",
-                "..AA..AAAAAAAAAAAAAAA.AA.....",
-                "..AAAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAOOOAAAAAAAA.....",
-                "..AAAAAAOOOAAAOOOAAAAAAAAAA..",
-                "..AAAAAAAAAAAOOAAAOOAAAAAAA..",
-                "..AAAOOAAAAOOAAOOAAAAAAAAAA..",
-                "..AAAAAAOOAAAAAAOOAAAAAAAAA..",
-                "..AA.AA.OAA.AO.OAA.AAA.AA.A..",
-                "..AA.AA.AAA.AA.AAA.OOA.AO.O.."
-              ],
-              "layoutKey": "43680"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-03",
       "movies": [
         {
@@ -5687,7 +5592,7 @@
                 "..AA.AAAA.AA....",
                 "..AAAAAAAAAA....",
                 "..AAAAAAAAAA....",
-                "..AAAAAAAAAA....",
+                "..AAAAAOOAAA....",
                 "..AAAAAAAAAA....",
                 "OOAA........AAAA"
               ],
@@ -5783,7 +5688,7 @@
                 "..AAAOOOOOAAAAOOAAAAAAAAAAA..",
                 "..OOAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AA.AA.AAA.AA.OOA.AAA.AA.A..",
-                "..OO.AA.AOO.AA.OOA.AAA.OO.O.."
+                "..OO.AA.AOO.AO.OOA.AAA.OO.O.."
               ],
               "layoutKey": "43698"
             },
@@ -5807,7 +5712,7 @@
                 "..AAAOOOOOAAAAOOAAAAAAAAAAA..",
                 "..OOAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AA.AA.AAA.AA.OOA.AAA.AA.A..",
-                "..OO.AA.AOO.AA.OOA.AAA.OO.O.."
+                "..OO.AA.AOO.AO.OOA.AAA.OO.O.."
               ],
               "layoutKey": "43698"
             },
@@ -6603,7 +6508,7 @@
                 "....AAAAAAAAAAAAAOO..",
                 "....AAAAAAAOOOOOAAA..",
                 "..AAAAAAAAOOAAAAAOO..",
-                "..AAAAAAAAAAAAAAAAA..",
+                "..AAAAAOOOAAAAAAAAA..",
                 "..OOAAAAAAOOOAAAAAA.."
               ],
               "layoutKey": "44002"
@@ -6863,7 +6768,7 @@
                 "..AA.AAAA.AA....",
                 "..AAAAAAAAAA....",
                 "..AAAAAAAAAA....",
-                "..AAAAAAAAAA....",
+                "..AOOOAAAAAA....",
                 "..AAAAAAAAAA....",
                 "..AA........AAAA"
               ],
@@ -7284,7 +7189,7 @@
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAA..",
+                "....OOOOAAAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAA.."
@@ -7325,7 +7230,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=44020&a=0000000001&l=2114&m=coyote-vs-acme-2026&ss=False",
               "seats": [
                 "...................",
-                ".......AAAAAA......",
+                ".......AAOOAA......",
                 "...................",
                 "....AA.AAOOA.A.AA..",
                 "....AAAAAAAAAAAAA..",
@@ -7333,7 +7238,7 @@
                 "....AAAAAOOOOOAAA..",
                 "....OOOAOOOOAAOOO..",
                 "..AAOOAAAOOOOOOAA..",
-                "..AAAAOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOOO..",
                 "..AOOO.......AAAAAA"
               ],
               "layoutKey": "44020"
@@ -7477,9 +7382,9 @@
                 "....................",
                 ".....AA.AAAAAA..AA..",
                 ".....AAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAA..",
+                ".....AAAAAAAOOAAAA..",
                 ".....AAAOOAAAAAAAA..",
-                ".....AAAAAAOOAAAAA..",
+                ".....AAAAOOOOAAAAA..",
                 "..AAAAOOAAOOAAAAAA.."
               ],
               "layoutKey": "44037"
@@ -7545,7 +7450,7 @@
                 "..AAAAAAAAAA....",
                 "..AAAAAAAAAA....",
                 "..OOOOAOOOAA....",
-                "..OOOAAAAAAA....",
+                "..OOOAAAOOOO....",
                 "..AA........AAAA"
               ],
               "layoutKey": "44027"
@@ -7590,8 +7495,8 @@
                 "..AAAAAAAAAA....",
                 "..AAAAAAAAAA....",
                 "..AAAAAAAAAA....",
-                "..AAAAAAAAAA....",
-                "..AA........AAAA"
+                "..AAAAAOOAAA....",
+                "..OO........AAAA"
               ],
               "layoutKey": "44036"
             }
@@ -7645,10 +7550,10 @@
                 ".....................",
                 "....AAAA.AAAA..AAAA..",
                 "....AAAAAAAAAAAAAAA..",
-                "....OOOAAAAAAAAAAAA..",
+                "....OOOAAAOOAAAAAAA..",
                 "....AAAAAOOOOOAAAAA..",
                 "....OOAAOOOOAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAA..",
+                "..AAAAAAOOOOAAOOOOO..",
                 "..AAAAAAOOOOOOAAAAA..",
                 "..AAAAAAOOOOOOOAAAA.."
               ],
@@ -7738,7 +7643,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAOOOOO..",
                 "..AAAAAAAAAAAAAAOOOOOOOAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOAAAAAAAAAAAA..",
@@ -7762,7 +7667,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAOOOOO..",
                 "..AAAAAAAAAAAAAAOOOOOOOAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOAAAAAAAAAAAA..",
@@ -7950,9 +7855,9 @@
                 "....AAAAAOOOOAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
                 "....OOAAAAOOAAAAAAA..",
-                "..AAAAAAOOOOOAAAAAA..",
+                "..OAAAAAOOOOOAAAAAA..",
                 "..AAAAAAOOOOAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAA.."
+                "..AAAAOOAAOOAAAAAAA.."
               ],
               "layoutKey": "44050"
             },
@@ -7994,7 +7899,7 @@
                 "....AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA.."
+                "..AAAAAAAAOOAAAAAAA.."
               ],
               "layoutKey": "44066"
             }
@@ -8016,7 +7921,7 @@
                 "....AAAAAAAAA...",
                 "................",
                 "..AA.AAAA.AA....",
-                "..AAAAAAAAAA....",
+                "..AAAAAOOAAA....",
                 "..OOOOAAAAAA....",
                 "..AAAOOOOOAA....",
                 "..AAAOOOOOOO....",
@@ -8038,7 +7943,7 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "....OOOOAOOOOOOAA..",
+                "....OOOOAOOAAAAAA..",
                 "..AAAAAOOOOAOOOOO..",
                 "..AAAAAAOOOOAAAAA..",
                 "..AAAA.......AAAAAA"
@@ -8082,7 +7987,7 @@
                 "....OOOAAAAAAAAAA..",
                 "....OOAAAOOOAAOOO..",
                 "..OOOOAAAOOOOOOAA..",
-                "..AAAAOOOOOAAAAAA..",
+                "..AAAAOOOOOAAOOOO..",
                 "..OOOO.......OOOOOA"
               ],
               "layoutKey": "44059"
@@ -8233,7 +8138,7 @@
                 "..AAAAAAAAAA....",
                 "..AOOOOOOOOO....",
                 "..OOOOAAOOOO....",
-                "..OOAOOOOOAA....",
+                "..OOAOOOOOOO....",
                 "..AA........AAAA"
               ],
               "layoutKey": "44049"
@@ -8298,7 +8203,7 @@
                 "..AAAAAAAAAA....",
                 "..AAAAAAAAAA....",
                 "..AAAAAAAAAA....",
-                "..AA........AAAA"
+                "..OO........AAAA"
               ],
               "layoutKey": "44065"
             }
@@ -9969,7 +9874,7 @@
                 ".....AA.AAAAAA..AA..",
                 ".....AAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAA..",
-                ".....AAAOAAAAAAAAA..",
+                ".....AAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA.."
               ],
@@ -10287,7 +10192,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAOOAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AA.AA.AAA.AA.AAA.AAA.AA.A..",
@@ -10311,7 +10216,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAOOAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AA.AA.AAA.AA.AAA.AAA.AA.A..",
