@@ -1,30 +1,10 @@
 {
-  "updatedAt": "2026-09-03T20:24:29.610Z",
+  "updatedAt": "2026-09-03T21:37:43.761Z",
   "theatre": {
     "id": 9190,
     "name": "Capitol Saint-Jean"
   },
   "auditoriums": {
-    "159573": {
-      "totalRows": 6,
-      "totalColumns": 10,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null
-      ],
-      "seatTypes": [
-        "..........",
-        "..SSSSSSSS",
-        ".SSSSSSSSS",
-        ".SSSSSSSSS",
-        "..CW.WCSSS",
-        ".........."
-      ]
-    },
     "159574": {
       "totalRows": 8,
       "totalColumns": 12,
@@ -161,78 +141,6 @@
         ".SSSSSSSSS",
         "..CW.WCSSS",
         ".........."
-      ]
-    },
-    "159582": {
-      "totalRows": 8,
-      "totalColumns": 12,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        null,
-        "F"
-      ],
-      "seatTypes": [
-        "............",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        "............",
-        "CW.WC...SSSS"
-      ]
-    },
-    "159583": {
-      "totalRows": 8,
-      "totalColumns": 13,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null,
-        "F"
-      ],
-      "seatTypes": [
-        ".............",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "DD.DDD.DDDD.D",
-        "SSSCWWCSSSSS."
-      ]
-    },
-    "159584": {
-      "totalRows": 9,
-      "totalColumns": 13,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null,
-        "G"
-      ],
-      "seatTypes": [
-        ".............",
-        ".SSSSSSSSSSS.",
-        ".SSSSSSSSSSSS",
-        ".SSSSSSSSSSSS",
-        ".SSSSSSSSSSSS",
-        ".SSSSSSSSSSSS",
-        ".SSSSSSSSSSSS",
-        ".............",
-        ".CW.WCSSSSS.."
       ]
     },
     "159609": {
@@ -3386,8 +3294,8 @@
                 ".AAAAAAAAAAA",
                 ".AAAAAAAAAAA",
                 ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
+                ".AAAAOOAAAAA",
+                ".AAAOOOOAAAA",
                 "............",
                 "AA.AA...AA?A"
               ],
@@ -3429,7 +3337,7 @@
                 "AAAAAAAAAAA.",
                 "AAAAAAAAAAA.",
                 "AAAAAAAAAAA.",
-                "AAAAAAAAAAA.",
+                "AAAAOOAAAAA.",
                 "AAAAAAAAAAA.",
                 "............",
                 "AA...AAAA.A?"
@@ -3444,25 +3352,6 @@
           "runtimeMinutes": 106,
           "sessions": [
             {
-              "time": "16:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159584&a=0000000001&l=9190&m=insidieux-hors-du-plus-loin&ss=False",
-              "seats": [
-                ".............",
-                ".AA?AAAAAAAA.",
-                ".?AAAAAAAAAAA",
-                ".AAAAAAAAAAAA",
-                ".AAAAAOOAAAAA",
-                ".AAAAAAAAAAAA",
-                ".AAAAAOOOAAAA",
-                ".............",
-                ".AA.AAAAAAA.."
-              ],
-              "layoutKey": "159584"
-            },
-            {
               "time": "19:20",
               "formats": [
                 "Recliner"
@@ -3474,7 +3363,7 @@
                 ".?AAAAAAAAAAA",
                 ".AAAAAAAAAAAA",
                 ".AAAAAOOAAAAA",
-                ".AAAAAAAAAAAA",
+                ".AAAAOOAAAAAA",
                 ".AAAAAOOAAAAA",
                 ".............",
                 ".AA.AAAAAAA.."
@@ -3488,41 +3377,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61789_320_470.jpg",
           "runtimeMinutes": 118,
           "sessions": [
-            {
-              "time": "16:20",
-              "formats": [
-                "D-BOX",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159583&a=0000000004&l=9190&m=la-constellation-du-chien&ss=False",
-              "seats": [
-                ".............",
-                "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
-                "AAAAAA?OOAAAA",
-                "AA.AAA.AAAA.A",
-                "?A?AAAAAAAAA."
-              ],
-              "layoutKey": "159583"
-            },
-            {
-              "time": "16:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159583&a=0000000001&l=9190&m=la-constellation-du-chien&ss=False",
-              "seats": [
-                ".............",
-                "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
-                "AAAAAA?OOAAAA",
-                "AA.AAA.AAAA.A",
-                "?A?AAAAAAAAA."
-              ],
-              "layoutKey": "159583"
-            },
             {
               "time": "19:10",
               "formats": [
@@ -3566,22 +3420,6 @@
           "runtimeMinutes": 95,
           "sessions": [
             {
-              "time": "16:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159573&a=0000000001&l=9190&m=mutinerie&ss=False",
-              "seats": [
-                "..........",
-                "..AAAAAAAA",
-                ".AAAAAAAAA",
-                ".AAAAAAAAA",
-                "..AA.AAAAA",
-                ".........."
-              ],
-              "layoutKey": "159573"
-            },
-            {
               "time": "19:30",
               "formats": [
                 "Recliner"
@@ -3596,31 +3434,6 @@
                 ".........."
               ],
               "layoutKey": "159579"
-            }
-          ]
-        },
-        {
-          "title": "La Pat'Patrouille : le film mission Dino",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61786_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "16:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159582&a=0000000001&l=9190&m=la-patpatrouille-le-film-mission-dino&ss=False",
-              "seats": [
-                "............",
-                ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
-                ".AAAAOOAAAAA",
-                ".AAAAAAAAAAA",
-                ".AAAAOOOAAAA",
-                "............",
-                "AA.AA...AA?A"
-              ],
-              "layoutKey": "159582"
             }
           ]
         }
@@ -3667,7 +3480,7 @@
                 ".AAAAAAAAAAAA",
                 ".AAAAAAAAAAAA",
                 ".AAAAAAAAAAAA",
-                ".AAAAAAAAAAAA",
+                ".AAAAAOOAAAAA",
                 ".............",
                 ".AA.AAAAAAA.."
               ],
@@ -3866,7 +3679,7 @@
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
-                "AAAAOO?AAAAAA",
+                "AAAAOO?OOAAAA",
                 "AA.AAA.AAAA.A",
                 "?A?AAAAAAAAA."
               ],
@@ -3883,7 +3696,7 @@
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
-                "AAAAOO?AAAAAA",
+                "AAAAOO?OOAAAA",
                 "AA.AAA.AAAA.A",
                 "?A?AAAAAAAAA."
               ],
@@ -4180,7 +3993,7 @@
                 "AAAAAAAAAAA.",
                 "AAAAAAAAAAA.",
                 "AAAAAAAAAOO.",
-                "AAAAAAAAAAA.",
+                "AAAAOOOOAAA.",
                 "AAOOAAAAAAA.",
                 "............",
                 "AA...AAAA.A?"
@@ -4480,7 +4293,7 @@
                 "..........",
                 "..AAAAAAAA",
                 ".AAAAAAAAA",
-                ".AAAAAOOAA",
+                ".AOOAAOOAA",
                 "..AA.AAAAA",
                 ".........."
               ],
@@ -4700,7 +4513,7 @@
                 ".............",
                 ".AA?AAAAAAAA.",
                 ".?AAAAAAAAAAA",
-                ".AAAAAAAAAAAA",
+                ".AAAAOOOOAAAA",
                 ".AAAAAAAAAAAA",
                 ".AAAAAOAAAAAA",
                 ".AAAAAAAAAAAA",
@@ -4975,7 +4788,7 @@
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAAAA?AAAAAA",
-                "AA.AAA.AAAA.A",
+                "AA.AAA.AAAO.O",
                 "?A?AAAAAAAAA."
               ],
               "layoutKey": "159713"
@@ -4992,7 +4805,7 @@
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAAAA?AAAAAA",
-                "AA.AAA.AAAA.A",
+                "AA.AAA.AAAO.O",
                 "?A?AAAAAAAAA."
               ],
               "layoutKey": "159713"

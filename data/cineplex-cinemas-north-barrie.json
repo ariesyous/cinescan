@@ -1,104 +1,10 @@
 {
-  "updatedAt": "2026-09-03T20:25:16.140Z",
+  "updatedAt": "2026-09-03T21:38:30.094Z",
   "theatre": {
     "id": 7135,
     "name": "Cineplex Cinemas North Barrie"
   },
   "auditoriums": {
-    "101822": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "......................",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "......................",
-        ".....CW.WCCW.CCCW.WC..",
-        ".....SSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSS..",
-        "SS...SSSSSSSSSSSSSSS..",
-        "SS...SSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "101823": {
-      "totalRows": 13,
-      "totalColumns": 28,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "............................",
-        "...SSSSSSSSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSSSSSSS...",
-        "............................",
-        ".....CW.CCW..WCCW.WCCW..WC..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        "SS...SSSSSSSSSSSSSSSSSSSSS..",
-        "SS...SSSSSSSSSSSSSSSSSSSSS..",
-        "SS...SSSSSSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "101824": {
-      "totalRows": 11,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSSS..",
-        "....................",
-        ".C.WC.WCC.WC.WC.....",
-        ".SSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSS...SS",
-        ".SSSSSSSSSSSSSS...SS",
-        "SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "101825": {
       "totalRows": 15,
       "totalColumns": 28,
@@ -5352,9 +5258,9 @@
                 "..AAA???AAAAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..OO.AAAA.AAOO.OOAA.AAAA.AA..AA",
-                "..AA.AAAA.AAAA.AAOO.AAAA.AA..AA",
+                "..AA.AAAA.AAOO.AAOO.AAAA.AA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAOOAAAAAAAAAAAA..AA"
+                "..AAAAAAAAAAAOOAAOOAAAAAAAA..AA"
               ],
               "layoutKey": "101829"
             },
@@ -5379,9 +5285,9 @@
                 "..AAA???AAAAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..OO.AAAA.AAOO.OOAA.AAAA.AA..AA",
-                "..AA.AAAA.AAAA.AAOO.AAAA.AA..AA",
+                "..AA.AAAA.AAOO.AAOO.AAAA.AA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAOOAAAAAAAAAAAA..AA"
+                "..AAAAAAAAAAAOOAAOOAAAAAAAA..AA"
               ],
               "layoutKey": "101829"
             }
@@ -5408,11 +5314,11 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAA....",
+                ".AAAAAAAAAAOOOAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAOOAAAAAAAAAA..AA",
-                ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
-                ".AAAAAOAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAOOOAAAAAAAAAOOA..AA",
+                ".AAAAAOAAAAAAOOAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA"
               ],
               "layoutKey": "101825"
@@ -5469,7 +5375,7 @@
                 ".AAAAAAAAAAAAAA.....",
                 ".AAAAAAOOOOAAAA...AA",
                 ".AAAAAAAAAAAAAA...AA",
-                "AAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAOOAAAAAAAAA"
               ],
               "layoutKey": "101832"
             }
@@ -5480,29 +5386,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "16:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=101823&a=0000000001&l=7135&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAOOAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAOOOAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "101823"
-            },
             {
               "time": "19:10",
               "formats": [
@@ -5533,27 +5416,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
           "sessions": [
-            {
-              "time": "16:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=101822&a=0000000001&l=7135&m=the-dog-stars&ss=False",
-              "seats": [
-                "......................",
-                "..??????????????????..",
-                "......................",
-                ".....??.????.????.??..",
-                ".....???????????????..",
-                ".....???????????????..",
-                ".....???????????????..",
-                ".....???????????????..",
-                "??...???????????????..",
-                "??...???????????????..",
-                "??????????????????????"
-              ],
-              "layoutKey": "101822"
-            },
             {
               "time": "19:15",
               "formats": [
@@ -5602,34 +5464,6 @@
                 "AAAAAAAAAAAAAAAAAOOO"
               ],
               "layoutKey": "101828"
-            }
-          ]
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "17:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=101824&a=0000000001&l=7135&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAAA..",
-                "....................",
-                ".A.AA.AAA.AA.AA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA...AA",
-                ".AAAAAAAAAAAAAA...AA",
-                "AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "101824"
             }
           ]
         }
@@ -5768,7 +5602,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
-                "..AAA???AAAAAAAAAAAAAAAAAAA..AA",
+                "..AAA???AAAAAAOOAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
@@ -5794,7 +5628,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
-                "..AAA???AAAAAAAAAAAAAAAAAAA..AA",
+                "..AAA???AAAAAAOOAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
@@ -6527,7 +6361,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAAAAAAAOAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
@@ -6581,7 +6415,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAOOOAAAAAAAAA..AA",
                 ".AAAAAAAAAAAOAAAAAAAAAAA..AA",
-                ".AAAAAAAAAAAAAAAAAAAAAAA..AA"
+                ".AAAAAAAAAAAAAOOOOAAAAAA..AA"
               ],
               "layoutKey": "101931"
             },
@@ -6797,7 +6631,7 @@
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAOOAAAAAAA.",
+                ".....AAAAAAAOOAAOOOOO.",
                 "AA...AAAAAAAAAAAAAAAA.",
                 "AA...AAAAAAAAAAAAAAAA.",
                 "AAAAOOOAAAAAAAAAAAAAAA"
@@ -7052,7 +6886,7 @@
                 ".AAAAAAAAAAAAAA.....",
                 ".AAAAAAOOOAAAAA...AA",
                 ".AAAAAAAAAAAAAA...AA",
-                "AAAAAAAAOOOOAAAAAAAA"
+                "AAAAOOAAOOOOAAAAAAAA"
               ],
               "layoutKey": "101923"
             }
@@ -7320,7 +7154,7 @@
         },
         {
           "title": "Cars 20th Anniversary",
-          "poster": null,
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62034_320_470.jpg",
           "runtimeMinutes": 117,
           "sessions": [
             {
@@ -7361,7 +7195,7 @@
                 ".....AAAAAAAAAAAAAAA..",
                 "AA...AAAAAOOOAAAAAAA..",
                 "AA...OOOAAOOOOAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAOOAAAAAAAAAAAA"
               ],
               "layoutKey": "101939"
             }
@@ -7608,7 +7442,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAOOAAAAAAAAAAA..AA",
-                "..AAA???AAAAAAAAOOAAAAAAAAA..AA",
+                "..AAA???AAAAAAAOOOAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
                 "..AA.AAAA.AAAO.OAAA.AAAA.AA..AA",
@@ -7634,7 +7468,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAOOAAAAAAAAAAA..AA",
-                "..AAA???AAAAAAAAOOAAAAAAAAA..AA",
+                "..AAA???AAAAAAAOOOAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
                 "..AA.AAAA.AAAO.OAAA.AAAA.AA..AA",
@@ -7969,7 +7803,7 @@
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AOOAAAAOOOOOOOAAAAAAA..",
+                "AA...OOOAAAAOOOOOOOAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -8187,7 +8021,7 @@
         },
         {
           "title": "Cars 20th Anniversary",
-          "poster": null,
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62034_320_470.jpg",
           "runtimeMinutes": 117,
           "sessions": [
             {
@@ -8225,7 +8059,7 @@
                 ".....AAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAOOAAAAAOOO..",
+                ".....AOOAAOOAAAAAOOO..",
                 "AA...AAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAOOOAAAAAAAAA"
@@ -8791,8 +8625,8 @@
                 "....................",
                 "..AAAAAAAAAAAAAAAA..",
                 "....................",
-                ".A.AA.AAA.AA.AA.....",
-                ".AAAAAAAAAAAAAA.....",
+                ".A.AA.AOO.AA.AA.....",
+                ".AAAAAAOAAAAAAA.....",
                 ".AAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAA.....",
@@ -8848,7 +8682,7 @@
         },
         {
           "title": "Cars 20th Anniversary",
-          "poster": null,
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62034_320_470.jpg",
           "runtimeMinutes": 117,
           "sessions": [
             {
@@ -8887,7 +8721,7 @@
                 ".....AAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAOOAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],

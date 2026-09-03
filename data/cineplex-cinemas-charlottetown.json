@@ -1,80 +1,10 @@
 {
-  "updatedAt": "2026-09-03T20:24:53.438Z",
+  "updatedAt": "2026-09-03T21:38:09.556Z",
   "theatre": {
     "id": 6161,
     "name": "Cineplex Cinemas Charlottetown"
   },
   "auditoriums": {
-    "120582": {
-      "totalRows": 13,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        "DD",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSSS.",
-        "..SSSSSSSSSSSS.",
-        "..SSSSSSSSSSSS.",
-        "..SSSSSSSSSSSS.",
-        "...............",
-        "..SSSSS....WCSS",
-        "..SSSSS..SSSSSS",
-        "..SSSSS..SSSSSS",
-        "..SSSSS..SSSSSS",
-        "..SSSSS..SSSSSS",
-        "..SSSSS..SSSSSS",
-        "..SSSSSSSSSSSSS"
-      ]
-    },
-    "120583": {
-      "totalRows": 14,
-      "totalColumns": 17,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        ".................",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        ".................",
-        "..WCSSSSSSSSCW...",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS.."
-      ]
-    },
     "120590": {
       "totalRows": 13,
       "totalColumns": 15,
@@ -5586,30 +5516,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "18:20",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=120583&a=0000000001&l=6161&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".................",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                ".................",
-                "..AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAOOAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAA?AAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAA?AAAAAA.."
-              ],
-              "layoutKey": "120583"
-            },
-            {
               "time": "18:50",
               "formats": [
                 "Regular"
@@ -5622,10 +5528,10 @@
                 "..AAAAAAAAAAAA.",
                 "..AAAAAAAAAAAA.",
                 "...............",
-                "..AAAAA....AAAA",
+                "..AAAAA....OOAA",
                 "..AAAAA..AAAAAA",
                 "..AAAAA..AAAAAA",
-                "..AAAAA..AAAAAA",
+                "..AAAAA..OOAAAA",
                 "..AAAAA..AAOOAA",
                 "..AAAAA..AAAAAA",
                 "..AAAAAAOAAAAAA"
@@ -5703,15 +5609,15 @@
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 "................",
-                "..AAAAAAAAAA.A..",
-                "..AAAAAAAAAAAA..",
+                "..AOOOOOOAAA.A..",
+                "..AAAAAAAAAAOO..",
                 "..AAAAAOOAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAOOOAAAAA..",
+                "..AAAOOOAAAOAA..",
+                "..OOAAOOOAAAAA..",
                 "..OOOAAOOAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAOOOOOAAA..",
-                "..AAAA??AAAAAA.."
+                "..OOAAOOOOOAAA..",
+                "..AAAA??AAAOOO.."
               ],
               "layoutKey": "120605"
             },
@@ -5759,12 +5665,12 @@
                 "AAAAAAAAAAAA...",
                 "...............",
                 "AAAA....AAAAA..",
+                "AAAAAA..AAAOO..",
                 "AAAAAA..AAAAA..",
+                "AAAOOA..AAOOA..",
+                "AAAAAA..OOAAA..",
                 "AAAAAA..AAAAA..",
-                "AAAAAA..AAAAA..",
-                "AAAAAA..AAAAA..",
-                "AAAAAA..AAAAA..",
-                "?OOAAAAAAAAOO.."
+                "?OOAAOOOAAAOO.."
               ],
               "layoutKey": "120606"
             },
@@ -5811,7 +5717,7 @@
                 ".AAAAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAAAA.",
                 "....................",
-                "....AAAAAAAAAAAA....",
+                "....AAAAAAAAOOAA....",
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
@@ -5836,7 +5742,7 @@
                 ".AAAAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAAAA.",
                 "....................",
-                "....AAAAAAAAAAAA....",
+                "....AAAAAAAAOOAA....",
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
@@ -5907,29 +5813,6 @@
           "runtimeMinutes": 111,
           "sessions": [
             {
-              "time": "18:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=120582&a=0000000001&l=6161&m=finding-emily&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAAA.",
-                "..AAAAAAAAAAAA.",
-                "..AAAAAAAAAAAA.",
-                "..AAAAAAAAAAAA.",
-                "...............",
-                "..AAAAA....AAAA",
-                "..AAAAA..AAAAAA",
-                "..AAAAA..AAAAAA",
-                "..AAAAA..AAAAAA",
-                "..AAAAA..AAAAAA",
-                "..AAAAA..AAAAAA",
-                "..AAAAAAAAAAAAA"
-              ],
-              "layoutKey": "120582"
-            },
-            {
               "time": "22:00",
               "formats": [
                 "Regular"
@@ -5996,7 +5879,7 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAOOOOO..OOOOAAA",
-                "AAAOOOO..AAAOOAA",
+                "AAAOOOO..OOOOOAA",
                 "OOAA............",
                 "................"
               ],
@@ -6252,7 +6135,7 @@
                 "..OOAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAOO..",
                 "..AAAA??AAAAAA.."
               ],
               "layoutKey": "120638"
@@ -6690,7 +6573,7 @@
                 "..AAAAAAAAAAAAA..",
                 "..AAAAA?AAAAAAA..",
                 "..AAAAAAAAAAAAA..",
-                "..AAAAAA?AAAAAA.."
+                "..AAAAAA?OOOAAA.."
               ],
               "layoutKey": "120625"
             },
@@ -6981,7 +6864,7 @@
                 "AAAOOO..AAAAA..",
                 "AAAAAA..AAAAA..",
                 "AAAAAA..AAAAA..",
-                "?AAAAAAAAAAAA.."
+                "?AAAAAAAAAAAO.."
               ],
               "layoutKey": "120652"
             },
@@ -7055,7 +6938,7 @@
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAAAOAAAA..",
-                "..AAAAAAAAAAAOO..",
+                "..AAAOOOOAAAAOO..",
                 "..OAAAA?AAAAAAA..",
                 "..AAAAAAAAAAAAA..",
                 "..AAAOOO?AAAAAA.."
@@ -7105,7 +6988,7 @@
                 "..AAAAAAAAAAAAA..",
                 "..AAAAA?AAAAAAA..",
                 "..AAAAAAAAAAAAA..",
-                "..AAAAAA?OOAAAA.."
+                "..AAAAAA?AAAAAA.."
               ],
               "layoutKey": "120688"
             }
@@ -7155,7 +7038,7 @@
                 "AAAA....AAAAA..",
                 "AAAAAA..OOAAA..",
                 "AAAAAA..AAAAA..",
-                "AAOOOO..AAAAA..",
+                "AAOOOO..AAAOO..",
                 "AAAAAA..AAAAA..",
                 "AAAAAA..AAAAA..",
                 "?AAAAAAAAAAAA.."
@@ -7230,9 +7113,9 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAOOOOO..",
-                "..OOOOAAAAAAAA..",
-                "..OOOOAAAAOOOO..",
-                "..AAAAAAAAAAAA..",
+                "..OOOOOOOOAAAA..",
+                "..OOOOOOOOOOOO..",
+                "..OOAAAAAAAAAA..",
                 "..AAAAAAAAAOOO..",
                 "..AAAA??AOOOOO.."
               ],
@@ -7288,7 +7171,7 @@
                 "..AAAAOOOOAAAA...",
                 "..AAAAAAAAAAAOO..",
                 "..AAAAAAOOAAAAA..",
-                "..AAAAAOOAAAAAA..",
+                "..AAAAAOOAOOOOO..",
                 "..AAOOOAAAAAAAA..",
                 "..AAAAAAOAAAAAA..",
                 "..AAAAOOOOOAAAA..",
@@ -7612,7 +7495,7 @@
               "seats": [
                 "................",
                 "AAAAAAA..AAAAAAA",
-                "AAAAAAA..AAAAAAA",
+                "AAAAOAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
@@ -7881,7 +7764,7 @@
               "seats": [
                 "................",
                 "AAAAAAA..AAAAAAA",
-                "AAAAAAA..AAAAAAA",
+                "AAAAAAA..OOOOAAA",
                 "AAAOOOA..OOOOAAA",
                 "AOOOOOO..OOOOAAA",
                 "OOOOAAA..OOOOAAA",
@@ -7909,7 +7792,7 @@
                 "..AAAAA..AAAAAA",
                 "..AAAAA..OOOOOO",
                 "..AAAAA..OOOOAA",
-                "..AAAAAAAAAAAAA"
+                "..AAOOAAAAAAAAA"
               ],
               "layoutKey": "120672"
             }
@@ -8089,8 +7972,8 @@
                 "...............",
                 "..AAAOO....AAAA",
                 "..AAAAA..AAAAAA",
-                "..AAAAA..AAAAAA",
-                "..AAAAA..AAAAAA",
+                "..AAAAO..AAAAAA",
+                "..AAAOO..OOAAAA",
                 "..AAAAA..OOAAAA",
                 "..AAAAA..AAAAAA",
                 "..AAAAAAAAAAAAA"
@@ -9558,7 +9441,7 @@
         },
         {
           "title": "Cars 20th Anniversary",
-          "poster": null,
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62034_320_470.jpg",
           "runtimeMinutes": 117,
           "sessions": [
             {
