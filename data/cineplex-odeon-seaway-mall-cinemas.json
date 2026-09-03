@@ -1,76 +1,10 @@
 {
-  "updatedAt": "2026-09-03T22:59:36.723Z",
+  "updatedAt": "2026-09-03T23:50:03.195Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
   },
   "auditoriums": {
-    "153327": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
-    "153328": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
-    "153329": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
     "153346": {
       "totalRows": 10,
       "totalColumns": 20,
@@ -3266,83 +3200,6 @@
   },
   "days": [
     {
-      "date": "2026-09-03",
-      "movies": [
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "18:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153327&a=0000000001&l=7206&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAOOAAOOOO..",
-                "..OOOOOOA?OOO..",
-                "..OOOOOOOOOOO..",
-                "..OOOO?OOOOOO..",
-                "..AAOO?O??AAA.."
-              ],
-              "layoutKey": "153327"
-            }
-          ]
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153329&a=0000000001&l=7206&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                "...............",
-                "..A?AAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAOOAAAAA..",
-                "..AOOOAAOOOOO..",
-                "..AA?AAAAAOOO..",
-                "..AAAAOOAAAAA.."
-              ],
-              "layoutKey": "153329"
-            }
-          ]
-        },
-        {
-          "title": "The End of Oak Street",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36540_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153328&a=0000000001&l=7206&m=the-end-of-oak-street&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAOOAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..OAAAOOAAAAO..",
-                "..?AAAAAAAAA?..",
-                "..AAAAAAAAAAA.."
-              ],
-              "layoutKey": "153328"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-04",
       "movies": [
         {
@@ -3409,7 +3266,7 @@
                 "AA?A..AAA?AAAAAAAAAA..",
                 "AAAA..AAAAAA??AAAAAA..",
                 "AAAA..AAAAAA????AAAA..",
-                "......AAAAAA.AAAAAA?..",
+                "......AOOOAA.AAAAAA?..",
                 "......................"
               ],
               "layoutKey": "153351"
@@ -3517,7 +3374,7 @@
                 "..AAAAAAAAAAAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
                 "....AA??AAAA??..AAAA",
-                "........AAAAAA......"
+                "........AAAAOO......"
               ],
               "layoutKey": "153346"
             },
@@ -4003,7 +3860,7 @@
                 "A?AA..AAAAOAA?AAA?AA..",
                 "AAAA..AAAAAA?AAAAAAA..",
                 "AA?A..AAA?OOOOAAAAAA..",
-                "AAAA..AAAAOO??AAAAAA..",
+                "AAAA..AAAAOO??OOOOOO..",
                 "AAAA..OOAAAA????AAAA..",
                 "......AAAAAA.AAAAAA?..",
                 "......................"
@@ -4108,8 +3965,8 @@
                 "..AAAAAAAAAAAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
-                "..AAAAAAAAAAAA..AAAA",
-                "..AAAAAAAAAAAA..AAAA",
+                "..AAAAAAAOOOAA..AAAA",
+                "..AAAAAAOOOAAA..AAAA",
                 "....AA??AAAA??..OOOO",
                 "........AAAAAA......"
               ],
@@ -4128,7 +3985,7 @@
                 "..AAAAAAAOOAAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
                 "..AAAAAAOOAAAA..AAAA",
-                "..AAAAAAAAAAAA..AAAA",
+                "..AAAAAAOOOOOO..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
                 "....AA??AAOO??..AAAA",
                 "........OOOAAA......"
@@ -4423,7 +4280,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAOOOOAAAA..",
                 "..AAAAAAAAAAO..",
-                "..?AAAAAAAAA?..",
+                "..?AAAOOOAAA?..",
                 "..AAAAOOOAAAA.."
               ],
               "layoutKey": "153401"
@@ -4533,7 +4390,7 @@
                 "A?AA..AAAAAAA?AAA?AA..",
                 "AAAA..AAAAAA?AAAAAAA..",
                 "AA?A..AAA?AAAOOOOOOO..",
-                "AAAA..OOAAOO??AAAAAA..",
+                "AAAA..AAAAOO??AAAAAA..",
                 "AAAA..OOOOAA????AAAA..",
                 "......OOAAAA.AAAAAA?..",
                 "......................"
@@ -4684,8 +4541,8 @@
                 "..AAAAAAOOOOAA..AAAA",
                 "..OOOOOAAAAAAA..AAAA",
                 "..AAOOAAOOOOOO..AAAA",
-                "....AA??OOOO??..AOOO",
-                "........AAAAAA......"
+                "....OO??OOOO??..AOOO",
+                "........OOOOOA......"
               ],
               "layoutKey": "153403"
             },

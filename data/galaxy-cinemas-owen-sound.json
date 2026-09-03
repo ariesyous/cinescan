@@ -1,104 +1,10 @@
 {
-  "updatedAt": "2026-09-03T23:00:00.691Z",
+  "updatedAt": "2026-09-03T23:50:26.571Z",
   "theatre": {
     "id": 7264,
     "name": "Galaxy Cinemas Owen Sound"
   },
   "auditoriums": {
-    "151428": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "......................",
-        "..SSSSSSSSSSSSSSSSSSS.",
-        "......................",
-        "....WCSSSCW.WCSSS.....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "151429": {
-      "totalRows": 12,
-      "totalColumns": 24,
-      "rowLabels": [
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSSSSSS...",
-        "........................",
-        "..SSSSCW..WCSSSSCW......",
-        "..SSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSS..SS.",
-        "..SSSSSSSSSSSSSSSSS..SS.",
-        "..SSSSSSSSSSSSSSSSS..SS.",
-        "SSSSSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "151430": {
-      "totalRows": 13,
-      "totalColumns": 25,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".........................",
-        ".......SSSSSSSSSS........",
-        "...SSSSSSSSSSSSSSSSSSS...",
-        ".........................",
-        "...WWCSSSSSCW..WCSSSS....",
-        "...SSSSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSSSS....",
-        "SS.SSSSSSSSSSSSSSSSSS....",
-        "SS.SSSSSSSSSSSSSSSSSS....",
-        "SS.SSSSSSSSSSSSSSSSSS....",
-        "SSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "151445": {
       "totalRows": 14,
       "totalColumns": 26,
@@ -4434,97 +4340,6 @@
   },
   "days": [
     {
-      "date": "2026-09-03",
-      "movies": [
-        {
-          "title": "The Dog Stars",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
-          "runtimeMinutes": 118,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=151429&a=0000000001&l=7264&m=the-dog-stars&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAAAAAA...",
-                "........................",
-                "..AAAAAA..AAAAAAAA......",
-                "..AAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAOAAAAOAA..AA.",
-                "..AAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAA..AA.",
-                "OOAAAAAAAAOOAAAAAAAAAAA."
-              ],
-              "layoutKey": "151429"
-            }
-          ]
-        },
-        {
-          "title": "Mutiny",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37909_320_470.jpg",
-          "runtimeMinutes": 95,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=151430&a=0000000001&l=7264&m=mutiny&ss=False",
-              "seats": [
-                ".........................",
-                ".......AAAAAAAAAA........",
-                "...AAAAAAAAAAAAAAAAAAA...",
-                ".........................",
-                "...AAAAAAAAAA..AAAAAA....",
-                "...AAAAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAOOAAAAAAA....",
-                "...OAAAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAAAA....",
-                "AA.AAAAAAAAAAAAAAAAAA....",
-                "AA.AAAAOOAAOOAAAAAAAA....",
-                "AA.AAAAAAAAAAAAAAAAAA....",
-                "AAAAAAAAAAAOOOOOAAAAAAAAA"
-              ],
-              "layoutKey": "151430"
-            }
-          ]
-        },
-        {
-          "title": "The End of Oak Street",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36540_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "18:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=151428&a=0000000001&l=7264&m=the-end-of-oak-street&ss=False",
-              "seats": [
-                "......................",
-                "..?AAAAAAAAAAAAAAAAAA.",
-                "......................",
-                "....AAAAAAA.AAAAA.....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAOOAAAAAA....",
-                "...AAAAAOOAAAAAAAA..AA",
-                "AAAOOOOAAAAAA?AAOOAAAA"
-              ],
-              "layoutKey": "151428"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-04",
       "movies": [
         {
@@ -5388,7 +5203,7 @@
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAOOOOOOAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAA"
@@ -5418,7 +5233,7 @@
                 "...AAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAA....",
-                "OO.AAAAAAAAAAAAAAAAAA....",
+                "OO.AAAAAAAAOOAAAAAAAA....",
                 "AA.AAAAAAAAAAAAAAAAAA....",
                 "AA.AAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -5521,7 +5336,7 @@
                 "...AAAAAAAAAAAAAAA..AA",
                 "...AAAAAAAAAAAAAAA..AA",
                 "...AAAAAAAAAAAAAAA..AA",
-                "AAAA?AAAAAOOAAAAAAAAAA"
+                "AAAA?AAAAAOOOOAAAAAAAA"
               ],
               "layoutKey": "151493"
             },
@@ -6260,7 +6075,7 @@
                 "....AAAAAAA.AAAAA.....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
+                "...AOOAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAA?AAAAAAAA"
@@ -6467,7 +6282,7 @@
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAOOAAAAAAAAAAA"
               ],
               "layoutKey": "151560"
             }
