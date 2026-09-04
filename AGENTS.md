@@ -82,9 +82,10 @@ of `scripts/scrape.mjs`):
 - **Near window** (`NEAR_DAYS_AHEAD = 14`): every theatre, every format.
   Matches Cineplex's normal published window.
 - **Deep window** (`DEEP_DAYS_AHEAD = 180`): only theatres that turned out
-  to have an IMAX screen in that run's near window results, and only IMAX
-  sessions are kept from it (`PREMIUM_EXPERIENCE_TYPES = new Set(["IMAX"])`).
-  This is what catches advance IMAX tentpole sales without a full deep scan.
+  to have an IMAX or UltraAVX screen in that run's near window results, and
+  only IMAX/UltraAVX sessions are kept from it
+  (`PREMIUM_EXPERIENCE_TYPES = new Set(["IMAX", "UltraAVX"])`). This is what
+  catches advance IMAX/UltraAVX tentpole sales without a full deep scan.
 
 ### Quick vs. deep mode
 
@@ -200,13 +201,16 @@ map:
   - The process only exits non-zero if literally every theatre failed
     entirely (`main`'s `anySucceeded` check).
 - **Request volume is a real constraint at 152 theatres.** Don't casually
-  widen `NEAR_DAYS_AHEAD`/`DEEP_DAYS_AHEAD`, or add formats to
-  `PREMIUM_EXPERIENCE_TYPES` (currently IMAX only) — see the reasoning
-  comment at the top of `scripts/scrape.mjs`. Including UltraAVX/VIP in the
-  deep probe was tried and reverted because they're common enough at
-  regular theatres to blow the deep-probe job count back up to full scale.
-  The deep probe is also only run once a week (Thursday), not every scrape
-  — see "Quick vs. deep mode" above — for the same cost reason.
+  widen `NEAR_DAYS_AHEAD`/`DEEP_DAYS_AHEAD`, or add more formats to
+  `PREMIUM_EXPERIENCE_TYPES` (currently IMAX and UltraAVX) — see the
+  reasoning comment at the top of `scripts/scrape.mjs`. Including
+  UltraAVX/VIP in the deep probe was tried and reverted once already
+  because they're common enough at regular theatres to blow the deep-probe
+  job count back up to full scale; UltraAVX was later deliberately
+  re-added anyway to catch UltraAVX tentpole advance sales, accepting that
+  higher request volume — VIP remains excluded. The deep probe is also only
+  run once a week (Thursday), not every scrape — see "Quick vs. deep mode"
+  above — for the same cost reason.
 - Format tags are Cineplex's raw `experienceTypes` strings, used as-is
   rather than mapped to a smaller taxonomy — new tags Cineplex adds show up
   automatically as filterable/badge-able without code changes (falling back

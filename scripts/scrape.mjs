@@ -18,17 +18,20 @@ const THEATRES_PATH = new URL("../data/theatres.json", import.meta.url);
 
 // Cineplex normally publishes a contiguous window of regular showtimes for
 // every theatre (~10-14 days). Big releases also open advance ticket sales
-// for IMAX tentpole events on scattered dates further out, but in practice
-// not much beyond a few months ahead. Probing a full year for every one of
-// Canada's 152 theatres is prohibitively expensive, so we only do that deep
-// probe for theatres that actually have an IMAX screen (discovered from the
-// near window), cap it at 6 months instead of a full year, and only keep
-// IMAX sessions from the deep window — every other format (including
-// ScreenX/4DX/UltraAVX/VIP) is only probed within the near window, same as
-// Regular.
+// for IMAX/UltraAVX tentpole events on scattered dates further out, but in
+// practice not much beyond a few months ahead. Probing a full year for every
+// one of Canada's 152 theatres is prohibitively expensive, so we only do
+// that deep probe for theatres that actually have an IMAX or UltraAVX
+// screen (discovered from the near window), cap it at 6 months instead of a
+// full year, and only keep IMAX/UltraAVX sessions from the deep window —
+// every other format (including ScreenX/4DX/VIP) is only probed within the
+// near window, same as Regular. (UltraAVX was previously tried here and
+// reverted for request-volume reasons — see AGENTS.md — but was
+// deliberately re-added; don't revert it back to IMAX-only without
+// re-confirming that tradeoff.)
 const NEAR_DAYS_AHEAD = 14;
 const DEEP_DAYS_AHEAD = 180;
-const PREMIUM_EXPERIENCE_TYPES = new Set(["IMAX"]);
+const PREMIUM_EXPERIENCE_TYPES = new Set(["IMAX", "UltraAVX"]);
 const CONCURRENCY = 12;
 const THEATRES_PATH_URL = THEATRES_PATH;
 
@@ -385,7 +388,7 @@ async function scrapeAllTheatres(theatres) {
 
   const premiumTheatreCount = new Set(deepJobs.map((j) => j.theatre.id)).size;
   console.log(
-    `Deep window: ${deepJobs.length} requests across ${premiumTheatreCount} IMAX-capable theatres`
+    `Deep window: ${deepJobs.length} requests across ${premiumTheatreCount} premium-capable theatres`
   );
   const deepResults = await mapWithConcurrency(
     deepJobs,
