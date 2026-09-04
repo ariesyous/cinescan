@@ -18,20 +18,32 @@ const THEATRES_PATH = new URL("../data/theatres.json", import.meta.url);
 
 // Cineplex normally publishes a contiguous window of regular showtimes for
 // every theatre (~10-14 days). Big releases also open advance ticket sales
-// for IMAX/UltraAVX tentpole events on scattered dates further out, but in
-// practice not much beyond a few months ahead. Probing a full year for every
-// one of Canada's 152 theatres is prohibitively expensive, so we only do
-// that deep probe for theatres that actually have an IMAX or UltraAVX
-// screen (discovered from the near window), cap it at 6 months instead of a
-// full year, and only keep IMAX/UltraAVX sessions from the deep window —
-// every other format (including ScreenX/4DX/VIP) is only probed within the
-// near window, same as Regular. (UltraAVX was previously tried here and
-// reverted for request-volume reasons — see AGENTS.md — but was
-// deliberately re-added; don't revert it back to IMAX-only without
-// re-confirming that tradeoff.)
+// further out than that, on scattered dates: IMAX/UltraAVX tentpole events
+// up to a few months ahead, but also ordinary Regular/Laser Projection
+// advance sales for non-tentpole releases, just not as far out (observed up
+// to ~1 month ahead). Probing a full year for every one of Canada's 152
+// theatres, in every format, would be prohibitively expensive, so this is
+// split into three windows instead of one:
+//   - Near (every theatre, every format): the normal published window.
+//   - Extended (every theatre, but only Regular/Laser Projection/IMAX/
+//     UltraAVX sessions kept): catches ordinary advance sales, which aren't
+//     restricted to theatres with a premium screen, but only a month out.
+//   - Deep (only theatres that turned out to have an IMAX or UltraAVX
+//     screen in the near/extended windows, only IMAX/UltraAVX sessions
+//     kept): catches IMAX/UltraAVX tentpole advance sales specifically,
+//     capped at 6 months instead of a full year since it's restricted to
+//     premium-capable theatres.
+// Every other format (ScreenX/4DX/VIP) is only probed within the near
+// window. (UltraAVX was previously tried in the deep window and reverted
+// for request-volume reasons — see AGENTS.md — but was deliberately
+// re-added; don't revert it back to IMAX-only without re-confirming that
+// tradeoff.)
 const NEAR_DAYS_AHEAD = 14;
+const EXTENDED_DAYS_AHEAD = 30;
 const DEEP_DAYS_AHEAD = 180;
 const PREMIUM_EXPERIENCE_TYPES = new Set(["IMAX", "UltraAVX"]);
+const ADVANCE_SALE_FORMATS = new Set(["Regular", "Laser Projection"]);
+const EXTENDED_KEEP_FORMATS = new Set([...PREMIUM_EXPERIENCE_TYPES, ...ADVANCE_SALE_FORMATS]);
 const CONCURRENCY = 12;
 const THEATRES_PATH_URL = THEATRES_PATH;
 
@@ -94,11 +106,11 @@ async function fetchShowtimesForDate(theatreId, dateStr) {
   return JSON.parse(text);
 }
 
-function hasPremiumFormat(experienceTypes) {
-  return experienceTypes.some((t) => PREMIUM_EXPERIENCE_TYPES.has(t));
+function hasAnyFormat(experienceTypes, formatSet) {
+  return experienceTypes.some((t) => formatSet.has(t));
 }
 
-function extractMovies(theatreEntry, { premiumOnly }) {
+function extractMovies(theatreEntry, { keepFormats }) {
   const dateEntry = theatreEntry?.dates?.[0];
   if (!dateEntry) return [];
 
@@ -107,7 +119,7 @@ function extractMovies(theatreEntry, { premiumOnly }) {
     const sessions = [];
     for (const experience of movie.experiences ?? []) {
       const experienceTypes = experience.experienceTypes ?? [];
-      if (premiumOnly && !hasPremiumFormat(experienceTypes)) continue;
+      if (keepFormats && !hasAnyFormat(experienceTypes, keepFormats)) continue;
       for (const session of experience.sessions ?? []) {
         if (session.isInThePast) continue;
         const time = session.showStartDateTime?.slice(11, 16); // HH:MM
@@ -312,12 +324,12 @@ async function attachSeatData(theatreId, days) {
   return auditoriums;
 }
 
-async function processDate(theatreId, dateStr, { premiumOnly }) {
+async function processDate(theatreId, dateStr, { keepFormats }) {
   try {
     const payload = await fetchShowtimesForDate(theatreId, dateStr);
     if (!payload) return { dateStr, ok: true, movies: [] };
     const theatreEntry = Array.isArray(payload) ? payload[0] : payload;
-    const movies = extractMovies(theatreEntry, { premiumOnly });
+    const movies = extractMovies(theatreEntry, { keepFormats });
     return { dateStr, ok: true, movies };
   } catch (err) {
     console.warn(`Skipping ${theatreId} ${dateStr}: ${err.message}`);
@@ -344,23 +356,24 @@ async function mapWithConcurrency(items, limit, fn, { label } = {}) {
   return results;
 }
 
-// Runs Phase A (near window, all formats) for every theatre, then Phase B
-// (deep window, premium formats only) for theatres whose near window
-// revealed a premium-format screen. All (theatre, date) jobs across every
-// theatre share one concurrency pool instead of processing theatres
-// sequentially.
+// Runs Phase A (near window, all formats, every theatre), then Phase B
+// (extended window, Regular/Laser Projection/IMAX/UltraAVX only, every
+// theatre), then Phase C (deep window, IMAX/UltraAVX only, only theatres
+// whose near/extended results revealed a premium-format screen). All
+// (theatre, date) jobs within a phase share one concurrency pool instead of
+// processing theatres sequentially.
 async function scrapeAllTheatres(theatres) {
   const nearDates = dateStrsFrom(0, NEAR_DAYS_AHEAD);
 
   const nearJobs = theatres.flatMap((theatre) =>
-    nearDates.map((dateStr) => ({ theatre, dateStr, premiumOnly: false }))
+    nearDates.map((dateStr) => ({ theatre, dateStr, keepFormats: null }))
   );
   console.log(`Near window: ${nearJobs.length} requests across ${theatres.length} theatres`);
   const nearResults = await mapWithConcurrency(
     nearJobs,
     CONCURRENCY,
     (job) =>
-      processDate(job.theatre.id, job.dateStr, { premiumOnly: job.premiumOnly }).then(
+      processDate(job.theatre.id, job.dateStr, { keepFormats: job.keepFormats }).then(
         (result) => ({ theatre: job.theatre, ...result })
       ),
     { label: "Near window" }
@@ -370,19 +383,43 @@ async function scrapeAllTheatres(theatres) {
   for (const r of nearResults) byTheatre.get(r.theatre.id).results.push(r);
 
   if (SCRAPE_MODE === "quick") {
-    console.log("Quick mode: skipping deep window");
+    console.log("Quick mode: skipping extended/deep windows");
     return { byTheatre, nearDates };
   }
 
-  const deepDates = dateStrsFrom(NEAR_DAYS_AHEAD, DEEP_DAYS_AHEAD - NEAR_DAYS_AHEAD);
+  // Extended window: unlike the deep window below, this runs for every
+  // theatre (not just premium-capable ones) since ordinary Regular/Laser
+  // Projection advance sales aren't restricted to theatres with a premium
+  // screen. Premium formats are kept here too so premium-capable theatres
+  // don't need a second request for these same dates -- the deep window
+  // below picks up where this one leaves off.
+  const extendedDates = dateStrsFrom(NEAR_DAYS_AHEAD, EXTENDED_DAYS_AHEAD - NEAR_DAYS_AHEAD);
+  const extendedJobs = theatres.flatMap((theatre) =>
+    extendedDates.map((dateStr) => ({ theatre, dateStr, keepFormats: EXTENDED_KEEP_FORMATS }))
+  );
+  console.log(
+    `Extended window: ${extendedJobs.length} requests across ${theatres.length} theatres`
+  );
+  const extendedResults = await mapWithConcurrency(
+    extendedJobs,
+    CONCURRENCY,
+    (job) =>
+      processDate(job.theatre.id, job.dateStr, { keepFormats: job.keepFormats }).then(
+        (result) => ({ theatre: job.theatre, ...result })
+      ),
+    { label: "Extended window" }
+  );
+  for (const r of extendedResults) byTheatre.get(r.theatre.id).results.push(r);
+
+  const deepDates = dateStrsFrom(EXTENDED_DAYS_AHEAD, DEEP_DAYS_AHEAD - EXTENDED_DAYS_AHEAD);
   const deepJobs = [];
   for (const { theatre, results } of byTheatre.values()) {
     const isPremiumCapable = results.some((r) =>
-      r.movies.some((m) => m.sessions.some((s) => hasPremiumFormat(s.formats)))
+      r.movies.some((m) => m.sessions.some((s) => hasAnyFormat(s.formats, PREMIUM_EXPERIENCE_TYPES)))
     );
     if (!isPremiumCapable) continue;
     for (const dateStr of deepDates) {
-      deepJobs.push({ theatre, dateStr, premiumOnly: true });
+      deepJobs.push({ theatre, dateStr, keepFormats: PREMIUM_EXPERIENCE_TYPES });
     }
   }
 
@@ -394,7 +431,7 @@ async function scrapeAllTheatres(theatres) {
     deepJobs,
     CONCURRENCY,
     (job) =>
-      processDate(job.theatre.id, job.dateStr, { premiumOnly: job.premiumOnly }).then(
+      processDate(job.theatre.id, job.dateStr, { keepFormats: job.keepFormats }).then(
         (result) => ({ theatre: job.theatre, ...result })
       ),
     { label: "Deep window" }

@@ -70,35 +70,45 @@ good file untouched rather than emptying it.
 
 ## Operating the scraper
 
-### Two windows, two costs
+### Three windows, three costs
 
 Cineplex only publishes a contiguous ~10-14 day window of showtimes per
-theatre under normal circumstances. Big releases also open **IMAX** advance
-ticket sales for scattered dates much further out (observed up to ~6 months
-ahead). Probing far ahead for all 152 theatres × all formats would be huge,
-so the scraper splits into two phases (see the reasoning comment at the top
-of `scripts/scrape.mjs`):
+theatre under normal circumstances. Beyond that, advance ticket sales open
+on scattered dates further out: ordinary Regular/Laser Projection advance
+sales (observed up to ~1 month ahead) as well as **IMAX**/**UltraAVX**
+tentpole advance sales (observed up to ~6 months ahead). Probing far ahead
+for all 152 theatres × all formats would be huge, so the scraper splits
+into three phases (see the reasoning comment at the top of
+`scripts/scrape.mjs`):
 
 - **Near window** (`NEAR_DAYS_AHEAD = 14`): every theatre, every format.
   Matches Cineplex's normal published window.
+- **Extended window** (`EXTENDED_DAYS_AHEAD = 30`): every theatre (not just
+  premium-capable ones — ordinary advance sales aren't restricted to
+  theatres with a premium screen), but only Regular/Laser Projection/IMAX/
+  UltraAVX sessions are kept
+  (`EXTENDED_KEEP_FORMATS = new Set(["IMAX", "UltraAVX", "Regular", "Laser Projection"])`).
+  Catches ordinary advance sales a month or so out.
 - **Deep window** (`DEEP_DAYS_AHEAD = 180`): only theatres that turned out
-  to have an IMAX or UltraAVX screen in that run's near window results, and
-  only IMAX/UltraAVX sessions are kept from it
+  to have an IMAX or UltraAVX screen in that run's near/extended window
+  results, and only IMAX/UltraAVX sessions are kept from it
   (`PREMIUM_EXPERIENCE_TYPES = new Set(["IMAX", "UltraAVX"])`). This is what
-  catches advance IMAX/UltraAVX tentpole sales without a full deep scan.
+  catches advance IMAX/UltraAVX tentpole sales beyond a month out, without a
+  full deep scan of every theatre.
 
 ### Quick vs. deep mode
 
-`SCRAPE_MODE` env var controls whether the deep phase runs at all:
+`SCRAPE_MODE` env var controls whether the extended/deep phases run at all:
 
 - `SCRAPE_MODE=quick` — near window only. Before writing each theatre's
   file, `loadStaleDeepWindowData` reads that theatre's *existing*
   `data/<slug>.json` and carries forward any `days` entries dated past the
   near window (plus their `auditoriums` entries) so a quick run can't
-  silently wipe out the last deep run's far-future IMAX dates. Those dates
-  roll into the near window and refresh normally as they get close.
+  silently wipe out the last extended/deep run's far-future advance-sale
+  dates. Those dates roll into the near window and refresh normally as they
+  get close.
 - `SCRAPE_MODE=deep` (or unset — this is the default for a bare local run)
-  — runs both phases, i.e. the original full behavior.
+  — runs all three phases, i.e. the original full behavior.
 
 ### Schedule (`.github/workflows/scrape.yml`)
 
@@ -201,16 +211,20 @@ map:
   - The process only exits non-zero if literally every theatre failed
     entirely (`main`'s `anySucceeded` check).
 - **Request volume is a real constraint at 152 theatres.** Don't casually
-  widen `NEAR_DAYS_AHEAD`/`DEEP_DAYS_AHEAD`, or add more formats to
-  `PREMIUM_EXPERIENCE_TYPES` (currently IMAX and UltraAVX) — see the
-  reasoning comment at the top of `scripts/scrape.mjs`. Including
+  widen `NEAR_DAYS_AHEAD`/`EXTENDED_DAYS_AHEAD`/`DEEP_DAYS_AHEAD`, or add
+  more formats to `PREMIUM_EXPERIENCE_TYPES` (currently IMAX and UltraAVX)
+  — see the reasoning comment at the top of `scripts/scrape.mjs`. Including
   UltraAVX/VIP in the deep probe was tried and reverted once already
   because they're common enough at regular theatres to blow the deep-probe
   job count back up to full scale; UltraAVX was later deliberately
   re-added anyway to catch UltraAVX tentpole advance sales, accepting that
-  higher request volume — VIP remains excluded. The deep probe is also only
-  run once a week (Thursday), not every scrape — see "Quick vs. deep mode"
-  above — for the same cost reason.
+  higher request volume — VIP remains excluded. The extended window keeps
+  its own cost down by staying at every-theatre scale but only running out
+  to `EXTENDED_DAYS_AHEAD` (1 month) instead of `DEEP_DAYS_AHEAD` (6
+  months) — widening it to match the deep window would put every theatre,
+  not just premium-capable ones, on the full 6-month probe. The
+  extended/deep probes are also only run once a week (Thursday), not every
+  scrape — see "Quick vs. deep mode" above — for the same cost reason.
 - Format tags are Cineplex's raw `experienceTypes` strings, used as-is
   rather than mapped to a smaller taxonomy — new tags Cineplex adds show up
   automatically as filterable/badge-able without code changes (falling back
