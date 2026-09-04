@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T20:47:28.665Z",
+  "updatedAt": "2026-09-04T21:23:22.102Z",
   "theatre": {
     "id": 1136,
     "name": "Cineplex Cinemas Strawberry Hill"
@@ -1321,28 +1321,6 @@
         "..DDDD.DDDDDDD.DDDDDDD.DDD.."
       ]
     },
-    "399957": {
-      "totalRows": 7,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "................",
-        ".SSSSCW..WCSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS."
-      ]
-    },
     "399958": {
       "totalRows": 7,
       "totalColumns": 16,
@@ -2185,6 +2163,28 @@
         ".SSSSSSSSSSSSSSS."
       ]
     },
+    "400006": {
+      "totalRows": 7,
+      "totalColumns": 16,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "................",
+        ".SSSSCW..WCSSSS.",
+        ".SSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSS."
+      ]
+    },
     "400007": {
       "totalRows": 6,
       "totalColumns": 17,
@@ -2501,6 +2501,26 @@
         "..SSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSS."
+      ]
+    },
+    "400022": {
+      "totalRows": 6,
+      "totalColumns": 19,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "seatTypes": [
+        "...................",
+        "..SSSSSSCW.WCSSSS..",
+        "..SSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSS."
       ]
     },
     "400023": {
@@ -7938,8 +7958,8 @@
                 ".AAAAAAOOAAAAOOOOO...",
                 ".AAAAAAAAOOOOAAAAA...",
                 ".AAAAAAAAOOAAAAAAA...",
-                ".OOOAAAAAAAAAAAAAA..A",
-                ".AAAA.AAAOOAAA.AAA..."
+                ".OOOAAAAAAAAAAOOOO..A",
+                ".AAAA.AAAOOAAO.AAA..."
               ],
               "layoutKey": "399990"
             },
@@ -7959,8 +7979,8 @@
                 ".AAAAAAOOAAAAOOOOO...",
                 ".AAAAAAAAOOOOAAAAA...",
                 ".AAAAAAAAOOAAAAAAA...",
-                ".OOOAAAAAAAAAAAAAA..A",
-                ".AAAA.AAAOOAAA.AAA..."
+                ".OOOAAAAAAAAAAOOOO..A",
+                ".AAAA.AAAOOAAO.AAA..."
               ],
               "layoutKey": "399990"
             },
@@ -8071,7 +8091,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOAOOAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAOOAAAAAAAA..",
                 "....AA.AAAAAOO.OAAAAAA.?....",
                 "..AAA?.AAAAAAA.AAA?AAA.AAA.."
               ],
@@ -8094,7 +8114,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOAOOAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAOOAAAAAAAA..",
                 "....AA.AAAAAOO.OAAAAAA.?....",
                 "..AAA?.AAAAAAA.AAA?AAA.AAA.."
               ],
@@ -8212,8 +8232,8 @@
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
-                "..AOOAAOOOAAOOAA..",
-                "AAAAAAAAAAAAOOOAA."
+                "..AOOAAOOOAOOOAA..",
+                "AAAAAAAAAAAAOOOOA."
               ],
               "layoutKey": "399975"
             },
@@ -8228,7 +8248,7 @@
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
-                "..OOOOOOAAAAAAAA..",
+                "..OOOOOOAAAAAAOO..",
                 "AAAAAAAAOOAAOOAAA."
               ],
               "layoutKey": "399976"
@@ -8267,7 +8287,7 @@
                 "..AAAAAAA.AAAAA..",
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
-                "..OOAAAOOAAAAAA..",
+                "..OOAAAOOOOAAAA..",
                 ".AAAOOAAOOOOOAAA."
               ],
               "layoutKey": "399970"
@@ -8288,7 +8308,7 @@
               "seats": [
                 ".................",
                 "..AAAAAAA.AAAAA..",
-                "..AAAAAAAAAAAAA..",
+                "..AAAAAAOAAAAAA..",
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAA."
@@ -8319,23 +8339,6 @@
           "runtimeMinutes": 106,
           "sessions": [
             {
-              "time": "13:35",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=399957&a=0000000001&l=1136&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "................",
-                ".AAAAAA..AAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "399957"
-            },
-            {
               "time": "16:10",
               "formats": [
                 "Recliner"
@@ -8363,9 +8366,9 @@
                 ".AAAAAA..AAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                ".OOOOAAAAAAAAAA.",
+                ".OOAAAAOOAAAAAA.",
                 ".AAAAAAOOAAAAAA.",
-                ".AAAAAAOOAAAAAA."
+                ".AAAAAAOOAAAAOO."
               ],
               "layoutKey": "399959"
             },
@@ -8405,7 +8408,7 @@
                 "..AAAAAAAAAAAA.",
                 "..AAAAAAAAAAAA.",
                 "..AAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAA"
+                "AAAAAAOOAAAAAAA"
               ],
               "layoutKey": "399984"
             },
@@ -8469,10 +8472,10 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..OOOOOAAAAAOOOOOOOOOOOAAA....",
+                "..OOOOOAOAAAOOOOOOOOOOOAAA....",
                 "..OOOAAAAOOOOOOOOAOOAAOOAA....",
                 "..OOOOOOOOOOOOOOOOOOOOOOOA..AA",
-                "OOOOOOOOOOOOOOOOOOOOOOOOOOOOAA"
+                "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
               ],
               "layoutKey": "399995"
             },
@@ -8491,7 +8494,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..OOOOOAAAAOOOOOOOOOAAAAAA....",
+                "..OOOOOAOOAOOOOOOOOOAAAAAA....",
                 "..OOOOOOOOOOOOOOOOOOOOAAAA....",
                 "..AAAAAAAAAOOAOOOOOAAAAAAA..AA",
                 "OOOOOAAAAAAAOOOOOOOOOOOAAAAAOO"
@@ -8514,7 +8517,7 @@
               "seats": [
                 "...................",
                 "..AAAAAAAA.AAAAAA..",
-                "..OAAAOOOOOOOOAAA..",
+                "..OAOOOOOOOOAAOOA..",
                 "..AOOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOOO..",
                 ".OOOOOO?OOOOOOOOOO."
@@ -8546,7 +8549,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=399973&a=0000000001&l=1136&m=mirzapur-the-movie-hindi-west&ss=False",
               "seats": [
                 "...................",
-                "..AOOOOOAA.AAAAOO..",
+                "..AOOAAAAA.AAOOOO..",
                 "..AOOOOOOOOOOOOOA..",
                 "..OOOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOOO..",
@@ -8580,8 +8583,8 @@
               "seats": [
                 "........AA?AAAAAAAAAAA",
                 "......................",
-                "..AAAAAA.AAOOOOAA.....",
-                "..AAAOOOOOOOOOAAOO....",
+                "..AAAAAA.AAAAAAAA.....",
+                "..AAAOOOOOOOOOOOOO....",
                 "..OOOOOOOOOOOOOOOO....",
                 "..OOOOOOOOOOOOOOOO....",
                 "..OOOOOOOOOOOOOOOO....",
@@ -8611,10 +8614,10 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAA....",
+                "..OOOOAAOAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA...A",
-                "AAA?AAAAAAAAAAAAAAAAAA"
+                "AAA?AAAAAAOOAAAAAAAAAA"
               ],
               "layoutKey": "399987"
             },
@@ -8655,7 +8658,7 @@
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                ".OOAAAAAAAAAAAA."
+                ".AAAAAAAAAAAAAA."
               ],
               "layoutKey": "399965"
             },
@@ -8889,7 +8892,7 @@
                 "..AAAAAAA.AAAAAAAA...",
                 ".AAAAAAAAAAAAAAAAA...",
                 ".AAAAAAAAOOAAAAAAA...",
-                ".AAAAOOOOOOOOOOOOO...",
+                ".AAOOOOOOOOOOOOOOO...",
                 ".OOOOOOOOOOAOOOOOO...",
                 ".OOOOOOOOOOOOOOOOO...",
                 ".OOOOOOOOOOOOOOOOA..A",
@@ -8909,7 +8912,7 @@
                 "..AAAAAAA.AAAAAAAA...",
                 ".AAAAAAAAAAAAAAAAA...",
                 ".AAAAAAAAOOAAAAAAA...",
-                ".AAAAOOOOOOOOOOOOO...",
+                ".AAOOOOOOOOOOOOOOO...",
                 ".OOOOOOOOOOAOOOOOO...",
                 ".OOOOOOOOOOOOOOOOO...",
                 ".OOOOOOOOOOOOOOOOA..A",
@@ -9004,7 +9007,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAOOOOAAAAAAAAA..",
+                "..AAOOAAAAAAAOOOOAAAAAAAAA..",
                 "..AAAAAAOOOOAOOOOOOOAAAAAA..",
                 "....AA.AAAAAAA.AAAAAAA.?....",
                 "..AAA?.AAAAAAO.OAA?AAA.AAA.."
@@ -9027,7 +9030,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAOOOOAAAAAAAAA..",
+                "..AAOOAAAAAAAOOOOAAAAAAAAA..",
                 "..AAAAAAOOOOAOOOOOOOAAAAAA..",
                 "....AA.AAAAAAA.AAAAAAA.?....",
                 "..AAA?.AAAAAAO.OAA?AAA.AAA.."
@@ -9164,7 +9167,17 @@
               "formats": [
                 "Recliner"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=400006&a=0000000001&l=1136&m=fall-2-deadpoint&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=400006&a=0000000001&l=1136&m=fall-2-deadpoint&ss=False",
+              "seats": [
+                "................",
+                ".AAAAAA..AAAAAA.",
+                ".AAA?AAAAAAAAAA.",
+                ".AAAAAAOOOAAAAA.",
+                ".AOOOOOOOOOOOOA.",
+                ".AAAOOOOOOOOOOO.",
+                ".AAOOOOOOOOOAOO."
+              ],
+              "layoutKey": "400006"
             },
             {
               "time": "19:20",
@@ -9216,7 +9229,7 @@
                 "..AAAAAAA.AAAAA..",
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
+                "..AAAAAOOOAAAAA..",
                 ".AAAAAAAAAAAAAAA."
               ],
               "layoutKey": "400007"
@@ -9239,8 +9252,8 @@
                 "..AAAAAAAA.AAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAOOAAOOOOOOOAA..",
-                "..AAOOOOOOOOOAAAA..",
-                ".OOAOOO?OOOOOAOOOO."
+                "..AAAAOOOOOOOAAOO..",
+                ".OOAAAO?OOOOOAOOOO."
               ],
               "layoutKey": "400004"
             },
@@ -9271,7 +9284,7 @@
                 "................",
                 ".AAAAAA..AAAAAA.",
                 ".AAAAAAOOAAAAAA.",
-                ".AAAAOOOOOOAAAA.",
+                ".AAAAOOOOOOOOOO.",
                 ".OOOOOOOOOOOOOA.",
                 ".OOOOOOOOOOOOOO.",
                 ".OOOOOOOOOOOOOA."
@@ -9399,7 +9412,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAOOAAAAAAAAOOAAAAAAAAAA....",
+                "..AAAAAAAAAAAAOOAAAAAAAAAA....",
                 "..AAAAOOAAAAOOOOOOAAAAAAOO....",
                 "..OOAAAAAAAOOOOOOOOOAAAAAA..OO",
                 "OOAAAAAOOOOOOOOOOOOOOOOOOOAAOO"
@@ -9421,7 +9434,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAOOAAAAAAAAOOO....",
+                "..AAOOAAAAAAAOOAAAAAAAAAAA....",
                 "..AAAAAOOAAAAOOOOOOAAAAAAA....",
                 "..AAAAAAAOOAAOOAAAAAAOOAAA..AA",
                 "AAAAAAAAAOOAOOOOOOOAAAAAAAAAOO"
@@ -9475,7 +9488,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=400013&a=0000000001&l=1136&m=mirzapur-the-movie-hindi-west&ss=False",
               "seats": [
                 "................",
-                ".OOOOAA..AAOOAA.",
+                ".OOOOAA..AAOOOO.",
                 ".OOO?OOOOOOOOOO.",
                 ".OOOOOOOOOOOOOO.",
                 ".OOOOOOOOOOOOOO.",
@@ -9489,7 +9502,16 @@
               "formats": [
                 "Recliner"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=400022&a=0000000001&l=1136&m=mirzapur-the-movie-hindi-west&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=400022&a=0000000001&l=1136&m=mirzapur-the-movie-hindi-west&ss=False",
+              "seats": [
+                "...................",
+                "..AOOAOOAA.AAOOOO..",
+                "..OOOOOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOOO..",
+                ".OOOOOO?OOOOOOOOOO."
+              ],
+              "layoutKey": "400022"
             },
             {
               "time": "20:25",
@@ -9498,7 +9520,7 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=400012&a=0000000001&l=1136&m=mirzapur-the-movie-hindi-west&ss=False",
               "seats": [
-                "........AA?OAAAAAAAAAA",
+                "........OO?OAAAAAAAAAA",
                 "......................",
                 "..OAOOAA.AAOOOOAA.....",
                 "..OOOOOOOOOOOOOOOO....",
@@ -9587,7 +9609,7 @@
                 ".AAA?AAAAAAAAAA.",
                 ".AAAAAAOOOAAAAA.",
                 ".OOOOOOOOOOOOOO.",
-                ".OOOOOOOOOOAOOO.",
+                ".OOOOOOOOOOOOOO.",
                 ".OOOOOOOOOOOOOA."
               ],
               "layoutKey": "400027"
@@ -9610,7 +9632,7 @@
                 ".AAAAAA..AAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
+                ".AAOOAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".OOAAAAAAAAAAAA."
               ],
@@ -9627,7 +9649,7 @@
                 ".AAAAAA..AAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
+                ".AAOOAAAAAAAAAA.",
                 ".AAAAAOOOOAAAOO.",
                 ".OOAAAOOOOOOOOO."
               ],
@@ -9701,7 +9723,7 @@
                 ".AAAAAA.AAAAAA.",
                 ".AAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAA.",
+                ".OOAAAAAAAAAAA.",
                 "AAAAAAOOOOAAAAA"
               ],
               "layoutKey": "400015"
@@ -9877,7 +9899,7 @@
                 ".......AAAAAAAAAAAAAA",
                 ".....................",
                 "..OOOOOAA.AAOOOOAA...",
-                ".OOOOOOOOOOOOOOOOO...",
+                ".OOOOOOOOOOOOOOOAA...",
                 ".OOOOAOOOOOOOOOOOO...",
                 ".OOOOAOOOOOOOOOOOA...",
                 ".OOOOOOOOOOOOOOOOO...",
@@ -9897,7 +9919,7 @@
                 ".......AAAAAAAAAAAAAA",
                 ".....................",
                 "..OOOOOAA.AAOOOOAA...",
-                ".OOOOOOOOOOOOOOOOO...",
+                ".OOOOOOOOOOOOOOOAA...",
                 ".OOOOAOOOOOOOOOOOO...",
                 ".OOOOAOOOOOOOOOOOA...",
                 ".OOOOOOOOOOOOOOOOO...",
@@ -9919,12 +9941,12 @@
                 ".....................",
                 "..AAAAAAA.AAAAAAAA...",
                 ".AAAAAAAAOOAAAAAAA...",
-                ".AAAAAAOOOOOAAAAAA...",
+                ".AAAAOOOOOOOOOOAAA...",
                 ".AAAAOOOOOOOOOOAAA...",
                 ".OOOOOOOOOOOOOAAOO...",
                 ".OOOOAOOOOOOOOOAOO...",
                 ".AAOOOOOOOOOOOOOAA..A",
-                ".AAAO.OAOOOAAA.AAA..."
+                ".AAAO.OAOOOOOA.AAA..."
               ],
               "layoutKey": "400483"
             },
@@ -9939,12 +9961,12 @@
                 ".....................",
                 "..AAAAAAA.AAAAAAAA...",
                 ".AAAAAAAAOOAAAAAAA...",
-                ".AAAAAAOOOOOAAAAAA...",
+                ".AAAAOOOOOOOOOOAAA...",
                 ".AAAAOOOOOOOOOOAAA...",
                 ".OOOOOOOOOOOOOAAOO...",
                 ".OOOOAOOOOOOOOOAOO...",
                 ".AAOOOOOOOOOOOOOAA..A",
-                ".AAAO.OAOOOAAA.AAA..."
+                ".AAAO.OAOOOOOA.AAA..."
               ],
               "layoutKey": "400483"
             }
@@ -10146,7 +10168,7 @@
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AOOOOOOOOOOOOO..",
-                "..OOOOOOOOAAOOOO..",
+                "..OOOOOOOOOOOOOO..",
                 "OOOOOOOOOOOOOAAOO."
               ],
               "layoutKey": "400470"
@@ -10201,7 +10223,7 @@
                 ".AAAAAA..AAAAAA.",
                 ".AAA?AAOOAAAAAA.",
                 ".AAAAAAOOAAAAAA.",
-                ".AAOAOOOOOOAAAA.",
+                ".AAAAOOOOOOAAAO.",
                 ".AOOOOOOOOOOOOA.",
                 ".AOOOOOOOOOOOAA."
               ],
@@ -10296,7 +10318,7 @@
                 ".AAAAAA..AAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                ".AOOOAAOOAAAAOO.",
+                ".AOOOAAOOOOOAOO.",
                 ".AAAAAAOOOOOAAA.",
                 ".AOOOOOOOAAOOOO."
               ],
@@ -10421,7 +10443,7 @@
                 "..AAAAAAAAAOOOOOOOOOOAAAAA....",
                 "..AAAAAAAAAAAAOOAAAAAAAAAA....",
                 "..AAAAAAAAAAOOOOAAAAAAAAAA..OO",
-                "AAAAAAAAAAAAAOOAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAOOAAOAAAAAAAAAAAA"
               ],
               "layoutKey": "400458"
             },
@@ -10440,7 +10462,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..OOOOAAAAAAAOOOOAAAAAAAAA....",
+                "..AAAAAAAAAAAOOOOAAAAAAAAA....",
                 "..AAAAAAAAAAOOOAAAAAAAAAAA....",
                 "..OOAAAAAAAAOOOOOAAAAAAOOO..AA",
                 "AAAAAAAAAAAAAOOOOAAAAOOAAAAAAA"
@@ -10462,10 +10484,10 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAOOOO....",
                 "..AAAAAAAAAAAOOAAAAAAAAAAA....",
                 "..AAAAAAAAAAAOOAAAAAAAAAOO..AA",
-                "AAAAAAAAAAOOOOOOOOAAAAAAOOAAAA"
+                "OOOAAAAAAAOOOOOOOOAAAAAAOOAAAA"
               ],
               "layoutKey": "400474"
             }
@@ -10485,7 +10507,7 @@
               "seats": [
                 "................",
                 ".AAAAAA..AAAAAA.",
-                ".OOAAOOOOOOOOAA.",
+                ".OOAAOOOOOOOOOO.",
                 ".OOOOOOOOOOOOOO.",
                 ".OOOOOOOOOOOOOO.",
                 ".OOOOOOOOOOOOOO.",
@@ -10501,7 +10523,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=400451&a=0000000001&l=1136&m=mirzapur-the-movie-hindi-west&ss=False",
               "seats": [
                 ".................",
-                "..AAAAAAA.AAAAA..",
+                "..AAAAAAA.AAOOA..",
                 "..AOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOO..",
@@ -10550,7 +10572,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=400482&a=0000000001&l=1136&m=mirzapur-the-movie-hindi-west&ss=False",
               "seats": [
                 "...................",
-                "..AAOOOOAA.AAOOAA..",
+                "..OOOOOOAA.AAOOOO..",
                 "..AOOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOOO..",
@@ -10567,7 +10589,7 @@
               "seats": [
                 "........AA?AAAAAAAAAAA",
                 "......................",
-                "..AAAAAA.AAAAAAAA.....",
+                "..AAAAAA.AAOOAAAA.....",
                 "..OOOOOOOOOOOOOOOO....",
                 "..OOOOOOOOOOOOOOOO....",
                 "..OOOOOOOOOOOOOOOO....",
@@ -10586,7 +10608,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=400572&a=0000000001&l=1136&m=mirzapur-the-movie-hindi-west&ss=False",
               "seats": [
                 "................",
-                ".AAAAAA..AAOOOO.",
+                ".AAOOAA..AAOOAA.",
                 ".OOOOOAOOOOOOOO.",
                 ".OOOOOOOOOOOOOO.",
                 ".OOOOOOOOOOOOOO.",
@@ -10616,7 +10638,7 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAOAAAAAA....",
+                "..AAAAAAOOOOAAAAAA....",
                 "..AAAAAAAAAAAAAAAA...A",
                 "OOA?AAAAAOOAAAAAAAAAAA"
               ],
@@ -10635,7 +10657,7 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAOOAAAAAA....",
-                "..AOOOAAAAOOAAAAOO....",
+                "..AAAAAAAAOOAAAAOO....",
                 "..OOAAAAAAOOAAAAOO....",
                 "..AAAAAAOOOOOOAAOO...A",
                 "OOA?AOOOOOOOOOOOOOOOOO"
@@ -10694,7 +10716,7 @@
                 ".AAAAAA..AAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAOOOOOAAAAA.",
-                ".AAAAAAAAAAAAAA.",
+                ".AAOOAAAAAAAAAA.",
                 ".AOOOOOOOOAAAAA.",
                 ".AOOAAOOOOOAOOO."
               ],
@@ -10710,9 +10732,9 @@
                 "................",
                 ".AAAAAA..AAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".OOOOOOOOOOOOAA.",
-                ".AAAOOOOOOOOOOO.",
+                ".OOOOAAAAAAAAAA.",
+                ".OOOOOOOOOOOOOO.",
+                ".AOOOOOOOOOOOOO.",
                 ".OOAOOOOOOOOOOA."
               ],
               "layoutKey": "400479"
@@ -11511,7 +11533,7 @@
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..OOAAOOOOOOOAAAA..",
-                ".AAAOOO?OOOOOOOAAA."
+                ".AAAOOO?AAOOOOOAAA."
               ],
               "layoutKey": "400091"
             },
@@ -11543,7 +11565,7 @@
                 "..AAAAAAAA.AAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAOOAAAAAAA..",
-                "..AAAAOOOOOOOOOOO..",
+                "..AAAAOOOOOOAAAOO..",
                 ".OAAAAA?OOOOAAAAAA."
               ],
               "layoutKey": "400092"
@@ -11559,9 +11581,9 @@
                 ".AAAAAA..AAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                ".AAOOOOOOAAAAAA.",
+                ".AAOOAAAAAAAAAA.",
                 ".AAAAOOOOOOAAAA.",
-                ".OOOOOOOOAAAAAA."
+                ".OOOOOOOOOOOOOO."
               ],
               "layoutKey": "400575"
             },
@@ -11578,7 +11600,7 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
-                "..AOOOAAOOOOOAAAAA....",
+                "..AAAAAAOOOOOAAAAA....",
                 "..AAAAAAAOOAAAAAAA....",
                 "..AAAAAAOOOOOAAAAA...A",
                 "OOA?OOOOOOOOOOAAAOOOAA"
@@ -12451,7 +12473,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAOOOOAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "OOOOOAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -12498,7 +12520,7 @@
                 ".AAAAAA..AAAAAA.",
                 ".AAA?AAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                ".AAOOAAAOAAAAAA.",
+                ".AAAAAAAOAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAOOOOAAAAO."
               ],
@@ -12583,7 +12605,7 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
-                "..OOAAAOOOOOOOOOOO....",
+                "..OOOOAOOOOOOOOOOO....",
                 "..AOOOOOOOOOOOOOOO....",
                 "..OOOOOOOOOOOOOOOO...A",
                 "OOO?OOOOOOOOOOOOOOOOOO"
@@ -13505,7 +13527,7 @@
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA."
+                ".AAAAAAAAOOAAAA."
               ],
               "layoutKey": "400524"
             },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T20:46:00.394Z",
+  "updatedAt": "2026-09-04T21:22:01.696Z",
   "theatre": {
     "id": 6161,
     "name": "Cineplex Cinemas Charlottetown"
@@ -1201,30 +1201,6 @@
         "..SSSSSSSSSSSS..",
         "..SSSSSSSSSSSS..",
         "..SSSSSSSSSSSS.."
-      ]
-    },
-    "120657": {
-      "totalRows": 8,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "................",
-        "SSSSSSS..SSSSSSS",
-        "SSSSSSS..SSSSSSS",
-        "SSSSSSS..SSSSSSS",
-        "SSSSSSS..SSSSSSS",
-        "SSSSSSS..SSSSSSS",
-        "SSCW............",
-        "................"
       ]
     },
     "120662": {
@@ -5210,13 +5186,13 @@
                 "..AAAAAAAAAAAA.",
                 "..AAAAAAAAAAAA.",
                 "...............",
-                "..OOOOO....AAAA",
-                "..AAAAA..OOAAAA",
-                "..AAOOO..OOAAAA",
+                "..OOOOO....AAOA",
                 "..AAAOO..OOAAAA",
-                "..OOAAA..AAAAAA",
-                "..AAAAA..AAAAAA",
-                "..OAAAAAOOOOOOA"
+                "..AAOOO..OOAAAA",
+                "..AAAOO..OOOOAA",
+                "..OOAAO..OOOOOO",
+                "..AAAOO..AAAAAA",
+                "..OOAAAAOOOOOOA"
               ],
               "layoutKey": "120633"
             },
@@ -5264,13 +5240,13 @@
                 "..AAAAAAAAAAAA.",
                 "..AAAAAAAAAAAA.",
                 "...............",
-                "..AAAAA....AAAA",
-                "..AAAAA..AAAAAA",
-                "..AAAAA..AAAAAA",
-                "..AAAOO..OOAAAA",
+                "..AAAAO....AAAA",
+                "..AAOOA..AAAAAA",
+                "..OOAAA..OOOAAA",
+                "..AAAOO..OOAAOO",
                 "..OOAAA..OOAAOO",
                 "..AAAOO..OOAAAA",
-                "..AAAOOOOAAAAOO"
+                "..OOAOOOOOAAAOO"
               ],
               "layoutKey": "120644"
             }
@@ -5282,24 +5258,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "17:25",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=120657&a=0000000001&l=6161&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "................",
-                "???????..???????",
-                "???????..???????",
-                "???????..???????",
-                "???????..???????",
-                "???????..???????",
-                "????............",
-                "................"
-              ],
-              "layoutKey": "120657"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Regular"
@@ -5310,12 +5268,12 @@
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
                 ".................",
-                "..AAAAAAAAAAAA...",
+                "..AAAAAAOOAAAA...",
                 "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
+                "..AAAOOOAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAOOAAAAA..",
-                "..AAAAAOOOAAAAA..",
+                "..OOAAAOOOAAAAA..",
                 "..AAAAAAAAOOOOO..",
                 "..AAAAA?AAAAAAA..",
                 "..AAAAAAAAAAAAA..",
@@ -5472,7 +5430,7 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..OOAAAAA",
                 "AAAAAOO..AAAAAAA",
-                "AAAAAAA..OOOOOAA",
+                "AAAAAOO..OOOOOAA",
                 "AAAA............",
                 "................"
               ],
@@ -5519,8 +5477,8 @@
                 "AAAA....AAAAA..",
                 "AAAAAA..AAAAA..",
                 "AAAAAA..AAAAA..",
-                "AAAAAA..AAAAA..",
-                "OOAAAA..AAAAA..",
+                "AAAAAA..AAAOO..",
+                "OOAAAA..OOAAA..",
                 "AAAAAA..AAAAA..",
                 "?AAAAAOOOAAAA.."
               ],
@@ -5568,7 +5526,7 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
-                "AAAAOAO..AAAAAAA",
+                "AAAAOAO..OOAAAAA",
                 "AAAA............",
                 "................"
               ],
@@ -5831,7 +5789,7 @@
                 "...............",
                 "..AAAAA....AAAA",
                 "..AAAAA..AAAAAA",
-                "..AAAAA..AAAAAA",
+                "..AAAAA..OOAAAA",
                 "..AAAOO..OOAAAA",
                 "..AAOOO..OOAAAA",
                 "..AAAAA..OOOOOA",
@@ -5884,11 +5842,11 @@
                 "..AAAAAAAAAAAA..",
                 "..OOOOAAAAAAAA..",
                 "..OOAAAAAOOOOO..",
-                "..OOOOOOOOAAAA..",
+                "..OOOOOOOOOOOO..",
                 "..OOOOOOOOOOOO..",
                 "..OOAAAAAAOOOO..",
-                "..AAAOOOAAAOOO..",
-                "..AAAA??AOOOOO.."
+                "..AOOOOOAAAOOO..",
+                "..OOOO??AOOOOO.."
               ],
               "layoutKey": "120677"
             },
@@ -6301,7 +6259,7 @@
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
                 "..AAAAA?AAAAAAA..",
-                "..OOOOAAAAAAAAA..",
+                "..AAAAAAAAAAAAA..",
                 "..AAAAAA?AAAAAA.."
               ],
               "layoutKey": "120667"
@@ -6367,7 +6325,7 @@
                 "...............",
                 "..AAAAA....AAAA",
                 "..AAAAA..AAAAAA",
-                "..AAAAA..AAAAAA",
+                "..AAAAA..OOAAAA",
                 "..AAAAA..AAAAAA",
                 "..AAAAA..AAAAAA",
                 "..AAAAA..AAAAAA",
@@ -6534,7 +6492,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=120663&a=0000000001&l=6161&m=paw-patrol-the-dino-movie&ss=False",
               "seats": [
                 "................",
-                "AOOOOOO..OOOOOAA",
+                "AOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
                 "AOOOOOO..OOOOOOO",
@@ -6552,7 +6510,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=120672&a=0000000001&l=6161&m=paw-patrol-the-dino-movie&ss=False",
               "seats": [
                 "...............",
-                "..AAAAAAAAAAAA.",
+                "..OOOOAAAAAAAA.",
                 "..OOOOOOOOOOOA.",
                 "..OOOOOOOOOOOO.",
                 "..OOOOOOOOOOOO.",
@@ -6563,7 +6521,7 @@
                 "..OOOOA..OOOAAA",
                 "..AOOOO..OOOOOO",
                 "..AAOOO..OOOOAA",
-                "..AAOOAAOOOOOOO"
+                "..OOOOOOOOOOOOO"
               ],
               "layoutKey": "120672"
             }
@@ -7448,7 +7406,7 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAOOOO..OOOAAAA",
-                "OOOOOOO..OOAAAOO",
+                "OOOOOOO..OOAOOOO",
                 "OOAA............",
                 "................"
               ],

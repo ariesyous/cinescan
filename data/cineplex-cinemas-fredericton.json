@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T20:46:21.508Z",
+  "updatedAt": "2026-09-04T21:22:18.487Z",
   "theatre": {
     "id": 6111,
     "name": "Cineplex Cinemas Fredericton"
@@ -510,6 +510,30 @@
       ]
     },
     "166126": {
+      "totalRows": 8,
+      "totalColumns": 13,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        null
+      ],
+      "seatTypes": [
+        ".............",
+        "...SSSSSSS...",
+        "..SSSSSSSSS..",
+        "..SSSSSSSSS..",
+        "..SSSSSSSSS..",
+        "..SSSSSSSSS..",
+        "..W.WCSSSSS..",
+        "............."
+      ]
+    },
+    "166127": {
       "totalRows": 8,
       "totalColumns": 13,
       "rowLabels": [
@@ -2449,26 +2473,6 @@
         "................"
       ]
     },
-    "166220": {
-      "totalRows": 6,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..W.WCSSSSSSS..",
-        "..............."
-      ]
-    },
     "166221": {
       "totalRows": 8,
       "totalColumns": 23,
@@ -2516,28 +2520,6 @@
       ]
     },
     "166226": {
-      "totalRows": 7,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..............",
-        "..............",
-        "..SSSSCW..WC..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS.."
-      ]
-    },
-    "166227": {
       "totalRows": 7,
       "totalColumns": 14,
       "rowLabels": [
@@ -5727,8 +5709,8 @@
                 ".......................",
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAAA..",
-                "..AAAAAAOOOOOAOAAAOOO..",
+                "..AAOOAAAAOOAOOAAAAAA..",
+                "..AAAAAAOOAOOAOAAAOOO..",
                 "..OOOOAAOOAOOAAOOAAOO..",
                 "..AAOOAAOOOOOOOOOOOOO..",
                 "........OOAAAAAA......."
@@ -5765,8 +5747,8 @@
                 "..............",
                 "..AAAAAA..AA..",
                 "..AAAAOOOAAA..",
-                "..AAAAOOAAAA..",
-                "..AAOOAAOOOO..",
+                "..OOAAOOAAAA..",
+                "..OOOOOOOOOO..",
                 "..AOOOOOOOOA.."
               ],
               "layoutKey": "166226"
@@ -5787,7 +5769,7 @@
               "seats": [
                 "..............",
                 "..AAAAAAAAAA..",
-                "..AAAAOOOOAA..",
+                "..OOAAOOOOOO..",
                 "..OOOOOOOOOO..",
                 "..OOOOOOOOAO..",
                 "..OOOOOOOOOA..",
@@ -5806,9 +5788,9 @@
                 "................",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAOOAOOOAAAA..",
-                "..A.AAAOOOOAAA..",
+                "..OOAAAAAAAAAA..",
+                "..AAOOAOOOAAOO..",
+                "..A.AAOOOOOAAA..",
                 "................"
               ],
               "layoutKey": "166255"
@@ -5821,22 +5803,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "17:25",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166220&a=0000000001&l=6111&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............",
-                "..???????????..",
-                "..???????????..",
-                "..???????????..",
-                "..?.?????????..",
-                "..............."
-              ],
-              "layoutKey": "166220"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Recliner"
@@ -5844,8 +5810,8 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166237&a=0000000001&l=6111&m=coyote-vs-acme-2026&ss=False",
               "seats": [
                 "................",
-                "..AAAAAAAOOOOO..",
-                "..AAAAOOOOAAOO..",
+                "..AAAOOAAOOOOO..",
+                "..AAAAOOOOOOOO..",
                 "..OOOOOOOOOOOO..",
                 "..AOOOOOOOAOOO..",
                 "..A.AAAOOOOOOO..",
@@ -5879,23 +5845,6 @@
           "runtimeMinutes": 98,
           "sessions": [
             {
-              "time": "18:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166227&a=0000000001&l=6111&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "..............",
-                "..............",
-                "..AAAAAA..AA..",
-                "..AAAAAAAAAA..",
-                "..AAAAOOAAAA..",
-                "..OOOOOOOAOO..",
-                "..AOOAOOAAOO.."
-              ],
-              "layoutKey": "166227"
-            },
-            {
               "time": "22:10",
               "formats": [
                 "Recliner"
@@ -5928,7 +5877,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166251&a=0000000001&l=6111&m=by-any-means&ss=False",
               "seats": [
                 "..............",
-                "..AAAAAAAAAA..",
+                "..AAAAOOOOAA..",
                 "..OOOOOOOOOO..",
                 "..OAOOOOAOOO..",
                 "..A.AAOOOOOO..",
@@ -5948,7 +5897,7 @@
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
-                "..AAAAAAAAA..",
+                "..AAAAOOAAA..",
                 "..A.AAAAAAA..",
                 "............."
               ],
@@ -5971,7 +5920,7 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAAAOOAAA..",
                 "..A.AAOOOOAAA..",
                 "..............."
               ],
@@ -6030,7 +5979,7 @@
                 "..AAAAOOOAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAOOOAAAAA..",
-                "..AAAAOOAAAA.A..",
+                "..OOAAOOAAAA.A..",
                 "................"
               ],
               "layoutKey": "166218"
@@ -6052,7 +6001,7 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..AAAAAOAAAAA..",
-                "..AAAOOOOAAAA..",
+                "..AAAOOOOAAOO..",
                 "..OOAOOOOAA.A..",
                 "..............."
               ],
@@ -6132,7 +6081,7 @@
                 ".............",
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
-                "..AAAOOAAOO..",
+                "..AOOOOAAOO..",
                 "..AOOOOOAOO..",
                 "..OOOOOOOOA..",
                 "..OOOOAAA.A..",
@@ -6173,7 +6122,18 @@
               "formats": [
                 "Recliner"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166127&a=0000000001&l=6111&m=spiderman-brand-new-day&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166127&a=0000000001&l=6111&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                ".............",
+                "...OOOOAAA...",
+                "..OOOOOOOOO..",
+                "..AOOOOOOOO..",
+                "..OOOOOOOOO..",
+                "..OOOOOOOOO..",
+                "..A.AOOOOOO..",
+                "............."
+              ],
+              "layoutKey": "166127"
             },
             {
               "time": "18:25",
@@ -6245,7 +6205,7 @@
               "seats": [
                 "..............",
                 "..AAAAAAAAAA..",
-                "..OAAAOOAAAA..",
+                "..OAAAOOOOOO..",
                 "..OOOOOOOOOO..",
                 "..OOOOOOOOOO..",
                 "..OOOOOOOOOO..",
@@ -6262,7 +6222,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166158&a=0000000001&l=6111&m=the-odyssey&ss=False",
               "seats": [
                 "..............",
-                "..AAAAOOAAAA..",
+                "..OOAAOOOOOA..",
                 "..AOOOOOOOOO..",
                 "..OOAOOOOOOA..",
                 "..OOOOOOOOOO..",
@@ -6327,7 +6287,7 @@
                 "..OOOOOOOAAAAAAAAAAAA..",
                 "..OOOOOOOAAOOAAOOOOAA..",
                 "..AAOOOOOOOOOOOOOOAAA..",
-                "..AAAOOAAOOOOOOAAOOOO..",
+                "..OOOOOAAOOOOOOAAOOOO..",
                 "........OOAAAOOO......."
               ],
               "layoutKey": "166138"
@@ -6379,7 +6339,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAOOOOAAAA..",
-                "..OOAAOOOAAAAA..",
+                "..OOAAOOOAAOOO..",
                 "..OOOOOOOOAA.A..",
                 "................"
               ],
@@ -6393,9 +6353,9 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166149&a=0000000001&l=6111&m=coyote-vs-acme-2026&ss=False",
               "seats": [
                 "...............",
+                "..AAAAOOOAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAOOAA..",
+                "..AAAAOAAOOAA..",
                 "..OOOOOOOAA.A..",
                 "..............."
               ],
@@ -6428,7 +6388,7 @@
                 "..OOOOOOOOAAAA..",
                 "..AAOOOOOOAOOO..",
                 "..OOOOOOOOOOOO..",
-                "..OOAOOOOAAAOO..",
+                "..OOOOOOOOOAOO..",
                 "..A.AAOOOOOOOO..",
                 "................"
               ],
@@ -6503,7 +6463,7 @@
                 "..............",
                 "..AAAAAA..AA..",
                 "..AAAAAAAAAA..",
-                "..AAAAAAAAAA..",
+                "..AAAAOAAAAA..",
                 "..AAAAAAAAOO..",
                 "..OOAAAAOOOO.."
               ],
@@ -6545,7 +6505,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..OOAAAOOAAAAA..",
+                "..OOAAAOOAAAAO..",
                 "..AAAAAOOOAA.A..",
                 "................"
               ],
@@ -6595,7 +6555,7 @@
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
-                "..AAAAAAAAA..",
+                "..OOAAAAAAA..",
                 "..A.AAAAAAA..",
                 "............."
               ],
@@ -6618,7 +6578,7 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAOOOOOOO..",
+                "..OOAAOOOOOOO..",
                 "..A.AAOOAAOOO..",
                 "..............."
               ],
@@ -6710,7 +6670,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAOOAAAOO..",
-                "..AAAAAOOAAAAA..",
+                "..AAOOAOOAAAAA..",
                 "..AAAAOOAAAA.A..",
                 "................"
               ],
@@ -6764,7 +6724,7 @@
               "seats": [
                 "...............",
                 "..AAAAOOOOAAA..",
-                "..AOOOOOAAAAA..",
+                "..AOOOOOOOAAA..",
                 "..OOOOOOOOOOO..",
                 "..OOOOOOOAA.A..",
                 "..............."
@@ -6820,7 +6780,7 @@
               "seats": [
                 "..............",
                 "..AAAAAAAAAA..",
-                "..OOOOOAAAAA..",
+                "..OOOOOOOOOA..",
                 "..OOAOOOOOOO..",
                 "..A.AAOOOOOO..",
                 ".............."
@@ -6884,7 +6844,7 @@
               "seats": [
                 ".............",
                 "...AAAAAAA...",
-                "..OOOAAAAAA..",
+                "..OOOOOOAAA..",
                 "..OOOOOOOOO..",
                 "..AOOOOOAAO..",
                 "..OOOOOOOOO..",
@@ -7036,7 +6996,7 @@
                 "..AAAAAOOAAAAA..",
                 "..OOAAOOOAAOOO..",
                 "..AOOOOOOOOAOO..",
-                "..OOOOOOOOAA.A..",
+                "..OOOOOOOOOA.A..",
                 "................"
               ],
               "layoutKey": "166191"
@@ -7072,8 +7032,8 @@
                 "..AAAAAAAAOOAAAAAAAAA..",
                 "..AAAAAAAOOOOAAAAAAAA..",
                 "..AAAOOOOOOOOAAOOOOOO..",
-                "..OOOOOOOOOOOAAOOOOOO..",
-                "........AAAAAAAA......."
+                "..OOOOOOOOOOOOOOOOOOO..",
+                "........OOAAAAAA......."
               ],
               "layoutKey": "166190"
             },
@@ -7131,7 +7091,7 @@
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
-                "..OOOOOOAAAA..",
+                "..OAAAAOAAAA..",
                 "..OOOOAOOOOO..",
                 "..OOOOOOAA.A..",
                 ".............."
@@ -7149,7 +7109,7 @@
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
                 "..AOOOOOOOOO..",
-                "..OOAAOOAAOO..",
+                "..OOOOOOAAOO..",
                 "..OOOOOOOOOO..",
                 "..OOOOOOAA.A..",
                 ".............."
@@ -7167,7 +7127,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAOOAAA..",
-                "..AAOOAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
                 "..A.AAOOOOAAOO..",
                 "................"
               ],
@@ -7229,7 +7189,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOOOAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAOO..",
-                "..OOOAAAAAAOOAAAAAAAA..",
+                "..OOOAAAAAAOOAAAAAOOO..",
                 "........AAAAAAAA......."
               ],
               "layoutKey": "166184"
@@ -7632,7 +7592,7 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..OOAAAAAAAOO..",
+                "..OOAAOOAAAOO..",
                 "..AOOOOOOAA.A..",
                 "..............."
               ],
@@ -7752,7 +7712,7 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAOOAAAAA..",
+                "..OOOAOOAAAAA..",
                 "..A.AAOOOOOOO..",
                 "..............."
               ],
@@ -7812,7 +7772,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAOOAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..A.AAAAAAAAOO..",
+                "..A.AAOOOAAAOO..",
                 "................"
               ],
               "layoutKey": "166210"
@@ -9083,7 +9043,7 @@
                 "..AAAAAAAAA..",
                 "..AAAAOAAAA..",
                 "..AAAAAAAAA..",
-                "..AAAAAAAAA..",
+                "..AAOOOOAAA..",
                 "..AAAAAAAAA..",
                 "..AAAAAAA.A..",
                 "............."
