@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T23:48:37.399Z",
+  "updatedAt": "2026-09-04T00:31:59.529Z",
   "theatre": {
     "id": 9190,
     "name": "Capitol Saint-Jean"
@@ -173,6 +173,50 @@
         "SSSSSSSSSSS.",
         "............",
         "SS...SSCW.WC"
+      ]
+    },
+    "159617": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        null,
+        "E"
+      ],
+      "seatTypes": [
+        "...............",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSSSS",
+        "..SSSSSSSSSSSSS",
+        "..SSSSSSSSSSSSS",
+        "...............",
+        "..CW.WCSSSSSSSS"
+      ]
+    },
+    "159618": {
+      "totalRows": 8,
+      "totalColumns": 13,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        null,
+        "F"
+      ],
+      "seatTypes": [
+        ".............",
+        "SSSSSSSSSSSSS",
+        "SSSSSSSSSSSSS",
+        "SSSSSSSSSSSSS",
+        "SSSSSSSSSSSSS",
+        "DD.DDD.DDDD.D",
+        "SSSCWWCSSSSS."
       ]
     },
     "159619": {
@@ -3231,7 +3275,17 @@
               "formats": [
                 "Recliner"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159617&a=0000000001&l=9190&m=par-tous-les-moyens&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159617&a=0000000001&l=9190&m=par-tous-les-moyens&ss=False",
+              "seats": [
+                "...............",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAAAA",
+                "..AAAAAAAAAAAAA",
+                "..AAAAAAOOAAAAA",
+                "...............",
+                "..AA.AAAAAAAAAA"
+              ],
+              "layoutKey": "159617"
             },
             {
               "time": "18:30",
@@ -3282,14 +3336,34 @@
                 "D-BOX",
                 "Recliner"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159618&a=0000000004&l=9190&m=insidieux-hors-du-plus-loin&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159618&a=0000000004&l=9190&m=insidieux-hors-du-plus-loin&ss=False",
+              "seats": [
+                ".............",
+                "AAAAAAAAAAAAA",
+                "AAAAAAAAAAAAA",
+                "AAAAAAAAAAAAA",
+                "AAAAAA?AAAAAA",
+                "AA.AAA.AAAA.A",
+                "?A?AAAAAAAAA."
+              ],
+              "layoutKey": "159618"
             },
             {
               "time": "15:45",
               "formats": [
                 "Recliner"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159618&a=0000000001&l=9190&m=insidieux-hors-du-plus-loin&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159618&a=0000000001&l=9190&m=insidieux-hors-du-plus-loin&ss=False",
+              "seats": [
+                ".............",
+                "AAAAAAAAAAAAA",
+                "AAAAAAAAAAAAA",
+                "AAAAAAAAAAAAA",
+                "AAAAAA?AAAAAA",
+                "AA.AAA.AAAA.A",
+                "?A?AAAAAAAAA."
+              ],
+              "layoutKey": "159618"
             },
             {
               "time": "19:15",
@@ -3580,7 +3654,7 @@
                 "............",
                 "AAAAAAAAAAA.",
                 "AAAAAAAAAAA.",
-                "AAAAOOOAAAA.",
+                "AAAAOOOOOOO.",
                 "AAAAAAAAAOO.",
                 "AAAAAAAAAAA.",
                 "............",
@@ -4035,8 +4109,8 @@
                 ".AAAAAAAAAAA",
                 ".AAAAAAAAAAA",
                 ".AAAAAAAAAAA",
+                ".AAAAOOOAAAA",
                 ".AAAAAAAAAAA",
-                ".AAOOOAAAAAA",
                 "............",
                 "AA.AA...AA?A"
               ],
@@ -4200,7 +4274,7 @@
                 "AAAAAAAAAAA.",
                 "AAAAAAAAAAA.",
                 "AAAAAAAAAAA.",
-                "AAAAOOOOOOA.",
+                "AAAAOOOOOOO.",
                 "AAAAAAAAAAA.",
                 "............",
                 "AA...AAAA.A?"
