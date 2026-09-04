@@ -1,76 +1,10 @@
 {
-  "updatedAt": "2026-09-04T19:24:14.115Z",
+  "updatedAt": "2026-09-04T20:10:35.527Z",
   "theatre": {
     "id": 9186,
     "name": "Cinéma Galaxy Victoriaville"
   },
   "auditoriums": {
-    "139456": {
-      "totalRows": 15,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "......................",
-        "....WWCSSSSSSSSCWW....",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "......................",
-        "...WCSSSSCW.WCSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSS.....",
-        "SSSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "139457": {
-      "totalRows": 10,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".....................",
-        "..SSSSSSSSSSSSSSSSS..",
-        ".....................",
-        ".....SSSCW.WCSSSCWW..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "139458": {
       "totalRows": 11,
       "totalColumns": 20,
@@ -4838,31 +4772,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "15:35",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139456&a=0000000001&l=9186&m=vf-spiderman-un-jour-nouveau&ss=False",
-              "seats": [
-                "......................",
-                "....AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                "...AAAAAAAA.AAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "..AOOAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAOOAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
-                "AAAAAAAAAA??AAAAAA?AA."
-              ],
-              "layoutKey": "139456"
-            },
-            {
               "time": "18:00",
               "formats": [
                 "Regular"
@@ -4966,7 +4875,7 @@
                 "..AAAAAAA.AAAAA.....",
                 "..AAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
+                "..AAAAAOAAAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
                 "..AAAAAOOOAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
@@ -5043,7 +4952,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAAAAAAAA..AA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAOOAAAAAAAAAAAAA"
               ],
               "layoutKey": "139477"
             },
@@ -5166,7 +5075,7 @@
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
+                ".....OOOAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAAA"
               ],
@@ -5213,33 +5122,6 @@
                 ".AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "139468"
-            }
-          ]
-        },
-        {
-          "title": "La Pat'Patrouille : le film mission Dino",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61786_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "15:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139457&a=0000000001&l=9186&m=la-patpatrouille-le-film-mission-dino&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAA..",
-                ".....................",
-                ".....AAAAA.AAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AOOOOAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139457"
             }
           ]
         },
@@ -5335,16 +5217,16 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139470&a=0000000001&l=9186&m=les-bagnoles-20e-anniversaire&ss=False",
               "seats": [
                 "....................",
-                "..AAAAAAAAAAAAAAAA..",
+                "..????????????????..",
                 "....................",
-                "..AAAAAAA.AAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "AAAAAAAAAAAAAAAAAAA."
+                "..???????.?????.....",
+                "..?????????????.....",
+                "..?????????????.....",
+                "..?????????????.....",
+                "..?????????????.....",
+                "..?????????????.....",
+                "..?????????????.....",
+                "???????????????????."
               ],
               "layoutKey": "139470"
             }
@@ -6576,7 +6458,7 @@
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
-                ".....AOOOAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAAA"
               ],
@@ -6767,7 +6649,7 @@
                 "..AAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
-                "AAAAAAAOOOOOAAAAAAA."
+                "AAAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "139518"
             }
