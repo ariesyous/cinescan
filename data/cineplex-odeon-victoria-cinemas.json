@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T22:19:36.079Z",
+  "updatedAt": "2026-09-04T22:47:53.398Z",
   "theatre": {
     "id": 1129,
     "name": "Cineplex Odeon Victoria Cinemas"
@@ -859,34 +859,6 @@
         "..WWCSSSSSSSSSSSS.."
       ]
     },
-    "217035": {
-      "totalRows": 10,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...............",
-        "SSSSSSSSSSS....",
-        "SSSSSSSSSSSS...",
-        "SSSSSSSSSSSS...",
-        "SSSSSSSSSSSSS..",
-        "SSSSSSSSSSSCW..",
-        "SSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSS..",
-        "SSSSSSCCWW....."
-      ]
-    },
     "217036": {
       "totalRows": 10,
       "totalColumns": 15,
@@ -1177,30 +1149,6 @@
         "SSSSSSS.SSSSSSSSSSSSSSSSSSSSS.SSS.",
         "....SSS.SSSSSSSSSSSSSSSSSSSSS.SS..",
         "......SSSSS....SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "217050": {
-      "totalRows": 8,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "...................",
-        ".SSS..SSSSSSSS...S.",
-        "SSSS..SSSSSSSSS..SS",
-        "SSSS..SSSSSSSSS..SS",
-        "SSSS..SSSSSSSSS..SS",
-        "SSSS..SSSSSSSSS..SS",
-        "C.WW..CSSSSSSSS..SS",
-        "..................."
       ]
     },
     "217051": {
@@ -2997,26 +2945,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "15:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217035&a=0000000001&l=1129&m=the-odyssey&ss=False",
-              "seats": [
-                "...............",
-                "AAAAAAAAAAA....",
-                "AAAAAAAAAAAA...",
-                "AAAAAAAAAAAA...",
-                "A?AAAAAAAAAAA..",
-                "AAAAAAAAAAAAA..",
-                "OOAAAAOAAAAAA..",
-                "AAAAAAAAAAAA?..",
-                "AAAAAAAAAAAAA..",
-                "A?AAAAAAAA....."
-              ],
-              "layoutKey": "217035"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "Recliner"
@@ -3055,10 +2983,10 @@
                 ".....AAAAAAAAAAAAA",
                 "...AAAAAAOAAAAAAAA",
                 "..AOOAAAAAAAAAAAAA",
+                "...AAAAAOAAAAAAAAA",
+                "..AAAAAAAAOOAAAAAA",
                 "...AAAAAAAAAAAAAAA",
-                "..AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA",
-                "...OAAAAAAAAAAAAAA",
+                "...OAAAAAAOAAAAAAA",
                 "......AAAAAAAAAAAA"
               ],
               "layoutKey": "217043"
@@ -3077,7 +3005,7 @@
                 "..AAAAAAAOOAAAAAAA",
                 "...AAAAOOAAAAAAAAA",
                 "..AAOOAAOOAOOOAAAA",
-                "...AAAAAAAOAAAAAAA",
+                "...OOAOOAAOAAAAAAA",
                 "...AAAAOOAAAAAAAAA",
                 "......AAAAOOAAAAAA"
               ],
@@ -3123,7 +3051,7 @@
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "...AAAAAA?AAAAAAA..",
-                "..AAAA?AAAAAAAAAA.."
+                "..AAAA?AAAAAAAOOO.."
               ],
               "layoutKey": "217040"
             },
@@ -3140,7 +3068,7 @@
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOOOAAA..",
                 "...AAAAAA?AAAAAAA..",
-                "..AAAA?AAAAAAAAAA.."
+                "..AAAA?OOAAAAAAAA.."
               ],
               "layoutKey": "217041"
             },
@@ -3269,24 +3197,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60882_320_470.jpg",
           "runtimeMinutes": 200,
           "sessions": [
-            {
-              "time": "15:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217050&a=0000000001&l=1129&m=toxic-hindi-west&ss=False",
-              "seats": [
-                "...................",
-                ".AAA..AAAAAAAA...A.",
-                "AAAA..AAAAAAAAA..AA",
-                "A?AA..AAAAAAAAA..AA",
-                "AAAA..AAAAAAAAA..?A",
-                "AAAA..?AAAAOOAA..AA",
-                "A.AA..AAAAAAAAO..AA",
-                "..................."
-              ],
-              "layoutKey": "217050"
-            },
             {
               "time": "19:45",
               "formats": [
@@ -4006,7 +3916,7 @@
                 "A?AAAAAAAAAOO..",
                 "AAAAAAOOAAAAA..",
                 "AAAAAOOAAOOOO..",
-                "AAAAAAOOOAAA?..",
+                "AAAAOOOOOAAA?..",
                 "AAAAAAAAAAAAA..",
                 "A?OOOAAAAA....."
               ],
@@ -4136,7 +4046,7 @@
                 "..AAAAAOOOOAAAAAA..",
                 "..AOAAAAAOOAAAAAA..",
                 "...AAAAAA?AAOAAAA..",
-                "..AAAA?AAAAAAAAAA.."
+                "..AAAA?AOAAAAAAAA.."
               ],
               "layoutKey": "217018"
             },
@@ -4283,7 +4193,7 @@
                 "...................",
                 ".A..AAA?AAAA...AAA.",
                 "AA..AAAAAAAAA..AAAA",
-                "AA..AAAAAAAAA..AA?A",
+                "AA..AAAAAAOOO..AA?A",
                 "AA..AAAAAAAAA..AAAA",
                 "AA..AAA?AAAOO..AAAA",
                 "AA..?AAOOAAAA..AA.A",

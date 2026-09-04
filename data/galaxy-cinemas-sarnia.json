@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T22:20:07.500Z",
+  "updatedAt": "2026-09-04T22:48:20.473Z",
   "theatre": {
     "id": 7138,
     "name": "Galaxy Cinemas Sarnia"
@@ -773,40 +773,6 @@
         "..SSSSSSSSSSSSSSSSSSSSSSS..SS"
       ]
     },
-    "112361": {
-      "totalRows": 13,
-      "totalColumns": 28,
-      "rowLabels": [
-        "BB",
-        "AA",
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...SSSSSSSSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSSSSSSS...",
-        "............................",
-        "............................",
-        ".....CWWCSSSS....SSSSCWWC...",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        "SS...SSSSSSSSSSSSSSSSSSSSS..",
-        "SS...SSSSSSSSSSSSSSSSSSSSS..",
-        "SS...SSSSSSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "112362": {
       "totalRows": 13,
       "totalColumns": 28,
@@ -1075,36 +1041,6 @@
         "..SSSSSSSSSSSSSS..SS",
         "..SSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "112382": {
-      "totalRows": 11,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        ".......................",
-        "....SSSSSSSSSSSSSSSSSS.",
-        ".......................",
-        "....CW..SSSSSSSCW.WC...",
-        "....SSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSS...",
-        "SS..SSSSSSSSSSSSSSSS...",
-        "SS..SSSSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSSS."
       ]
     },
     "112383": {
@@ -5009,12 +4945,12 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAOAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..OO",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAOOAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAOOOAAAOOOOOA..OO",
+                "..AAAAAAAAAAOOOOAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAA??AAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAAAOOOO..AA"
+                "..AAAAAAAAAAAOOOAAAAAOOOO..AA"
               ],
               "layoutKey": "112357"
             },
@@ -5109,29 +5045,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "18:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=112361&a=0000000001&l=7138&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                "............................",
-                ".....AAAAAAAA....AAAAAAAA...",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAOOAAAAAAAAA..",
-                "AA...AOOOOAAOOAAAAOOOAAAAA..",
-                "AA...AAAAAAAAAAOOAAAAAAAAA..",
-                "AA...AAAAAAAAOOAAAAAAAAAAA..",
-                "AAAAAAAOOAAAAAOOOOAAAAAAAAAA"
-              ],
-              "layoutKey": "112361"
-            },
-            {
               "time": "21:10",
               "formats": [
                 "Regular"
@@ -5143,7 +5056,7 @@
                 "............................",
                 "............................",
                 ".....AAAAAAAA....AAAAAAAA...",
-                ".....AAAAAAAAAAOAAAAAAAAAA..",
+                ".....AAAAAAAAAOOAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
@@ -5174,10 +5087,10 @@
                 ".....AAAAAAAAOOAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
+                ".....OOAAAAAAAAAAAAAA.",
                 "AA...AAAAAAAAAAAAAAAA.",
                 "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAOOAAOOAAAAAAA"
+                "AAAAAAAAAOOAAOOAAAAAOO"
               ],
               "layoutKey": "112364"
             }
@@ -5264,27 +5177,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=112382&a=0000000001&l=7138&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                ".......................",
-                "....AAAAAAAAAAAAAAA??A.",
-                ".......................",
-                "....AA..AAAAAAAAA.AA...",
-                "....AAAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAA...",
-                "....OOOOAAAAOAAAAAAA...",
-                "OO..AAAAAAAAAAAAAAAA...",
-                "AA..OOAAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "112382"
-            },
             {
               "time": "21:20",
               "formats": [
@@ -5458,7 +5350,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAOOO..AA",
+                "..AAAAAAAAAAAAOOOOOAAAOOO..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAA??AAAAAAAAA..AA",
@@ -5590,7 +5482,7 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAOOAAAAAAAAAA....",
-                "AAAAAAAAAAAAOAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAOAAAAAAAAOOAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
@@ -5615,7 +5507,7 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAOOAAAAAAAAAA....",
-                "AAAAAAAAAAAAOAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAOAAAAAAAAOOAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
@@ -6121,7 +6013,7 @@
                 "..AAAAAAAAAAAAAA....",
                 "..?A?AAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAOOAAAAA....",
+                "..AOOOOAAOOAAAAA....",
                 "..AAAAAAOOOAAAAA..AA",
                 "..AAAA?AAAAAOOOO..AA",
                 "AAAAAAAAAAAAAAAAOOOO"
@@ -6614,9 +6506,9 @@
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAOOAAOOOAAAAA..",
-                "AA...AOOOOOOOOOAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AA...AAAAAAAAAAAAAAAAAAOOO..",
+                "AAAAAAAAAAAAAAAAAAAAAAOOOOOO"
               ],
               "layoutKey": "112424"
             },

@@ -1,36 +1,10 @@
 {
-  "updatedAt": "2026-09-04T22:18:34.064Z",
+  "updatedAt": "2026-09-04T22:46:51.796Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
   },
   "auditoriums": {
-    "125260": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSCW.WCSS..SSS",
-        "SCW..............SSS"
-      ]
-    },
     "125261": {
       "totalRows": 9,
       "totalColumns": 20,
@@ -1893,28 +1867,6 @@
         "SCW..............SSS"
       ]
     },
-    "125349": {
-      "totalRows": 7,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSCW",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSS..",
-        "SSSCW.WCSSS.."
-      ]
-    },
     "125350": {
       "totalRows": 7,
       "totalColumns": 13,
@@ -2120,7 +2072,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAA?AAAAAAA..AAA",
                 "AAA..AAOOAOOAAAAA..AAA",
-                "AAA..AAAAAA?AAAAA..AAA",
+                "AAA..AAAAAA?AAOOO..AAA",
                 "AAA..AAAAAAOOAAOO..AAA",
                 "AAA...AAAAAAAAA?A..AAA",
                 "???..................."
@@ -2143,10 +2095,10 @@
               "seats": [
                 "AAAAA??AAAAAA?",
                 "AAAAAOOAAAAA?A",
-                "AAAAAAAAAAAAAA",
-                "AAAA?OOOAA..AA",
-                "OOAAAOOOOAAAAA",
-                "AAAAAOOOOOOOOA",
+                "AAAAAOOAAAAAAA",
+                "AAAA?OOOAO..AA",
+                "OOAAAOOOOOOAAA",
+                "AAAOAOOOOOOOOA",
                 "AA..AA..AA..AA"
               ],
               "layoutKey": "125270"
@@ -2162,8 +2114,8 @@
                 "AAAAAAAAAAAA?A",
                 "AAAAAOOAAAAAAA",
                 "AAAA?OOAAA..AA",
-                "AOOOAOOOAAAOOA",
-                "AAAAAAAAAAAOOA",
+                "AOOOAOOOAOOOOA",
+                "AAAOOAAAAAAOOA",
                 "AA..AA..AA..AA"
               ],
               "layoutKey": "125271"
@@ -2176,23 +2128,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "15:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125349&a=0000000001&l=1410&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "AAA??AAAAAAAA",
-                "AA?AAAAAA?A??",
-                "?AAAAAAAAAAAA",
-                "AAOOOAAAAAAOO",
-                "AAAAOOOOOOOOO",
-                "AOOAOOOOOOO..",
-                "AAAAA.AAAAA.."
-              ],
-              "layoutKey": "125349"
-            },
-            {
               "time": "18:45",
               "formats": [
                 "Recliner"
@@ -2201,9 +2136,9 @@
               "seats": [
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
-                "?AAAAOOAOOOAA",
+                "?AAAAOOAAAAAA",
                 "OOOOOOOOOAAAA",
-                "AAAOOOOAAOOOO",
+                "OOOOOOOAAOOOO",
                 "AAAOOOOAOAA..",
                 "OOAAA.OOOAA.."
               ],
@@ -2233,25 +2168,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "15:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125260&a=0000000001&l=1410&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "AAA..AAAAAAAAAA..???",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAA?..AAA",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAA?AA..AAA",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAA?AAA..AAA",
-                "AAA..OOAAA.AAAA..AAA",
-                "???..............???"
-              ],
-              "layoutKey": "125260"
-            },
             {
               "time": "18:30",
               "formats": [
@@ -2385,11 +2301,11 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAOOOOOOOOAA..AAA",
                 "AAA..OOOOAAOOOAAA..AAA",
-                "AAA..AAOO?OOOOOOO..AAA",
+                "AAA..AAOO?OOOOOAA..AAA",
                 "AAA..OOAAOOAAOOOO..AAA",
                 "AOO..AOOOOO?AOOOO..OOA",
                 "OOO..OOOOOOAAOOOA..AAA",
-                "AAA...AOOAAAAAA?A..OOA",
+                "AOO...AOOAAAAAA?A..OOA",
                 "???..................."
               ],
               "layoutKey": "125277"
@@ -2565,7 +2481,7 @@
                 "AAAAAAAAAAAAA",
                 "AAAAAOOAAAAAA",
                 "AAAAAOOOAAA..",
-                "AAAAA.AAAAA.."
+                "OOOAA.AAAAA.."
               ],
               "layoutKey": "125288"
             }
@@ -2645,7 +2561,7 @@
                 "AAA..AAAAAAAAA?..AAA",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAA?AA..AAA",
-                "AAA..AAOOOOOOOO..OOA",
+                "AAA..AAOOOOOOAA..OOA",
                 "AAA..AAAAAA?AAA..AAA",
                 "AAA..AAAAA.AAAA..AAA",
                 "???..............???"
@@ -2871,7 +2787,7 @@
                 "AAAAAAAAAAAAAA",
                 "AAAA?AAAAA..AA",
                 "AAAAAAOOOOAAAA",
-                "AAAAAAAAAAAAAA",
+                "AAAAAAOOOAAAAA",
                 "AA..AA..AA..AA"
               ],
               "layoutKey": "125306"
@@ -2905,7 +2821,7 @@
                 "AAAAAAAAAAAAAA",
                 "AAAA?AAAAA..AA",
                 "AAAOOOOOOOOAAA",
-                "AAAOOAAOOAAAAA",
+                "AAAOOOOOOAAAAA",
                 "OO..AA..AA..AA"
               ],
               "layoutKey": "125304"
