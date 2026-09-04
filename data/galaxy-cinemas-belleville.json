@@ -1,10 +1,66 @@
 {
-  "updatedAt": "2026-09-04T20:11:51.268Z",
+  "updatedAt": "2026-09-04T20:48:52.319Z",
   "theatre": {
     "id": 7409,
     "name": "Galaxy Cinemas Belleville"
   },
   "auditoriums": {
+    "184705": {
+      "totalRows": 10,
+      "totalColumns": 21,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        ".....................",
+        "..SSSSSSSSSSSSSSSSSS.",
+        ".....................",
+        ".....SSWCSSSS.WWCS...",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS."
+      ]
+    },
+    "184706": {
+      "totalRows": 10,
+      "totalColumns": 21,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        ".....................",
+        "..SSSSSSSSSSSSSSSSSS.",
+        ".....................",
+        ".....SSWCSSSS.WWCS...",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS."
+      ]
+    },
     "186188": {
       "totalRows": 10,
       "totalColumns": 26,
@@ -127,34 +183,6 @@
         "..SSSSSSSSSSSSSSSSSS."
       ]
     },
-    "186212": {
-      "totalRows": 10,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".....................",
-        "..SSSSSSSSSSSSSSSSSS.",
-        ".....................",
-        ".....SSWCSSSS.WWCS...",
-        "....SSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS."
-      ]
-    },
     "186213": {
       "totalRows": 10,
       "totalColumns": 21,
@@ -184,34 +212,6 @@
       ]
     },
     "186214": {
-      "totalRows": 10,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".....................",
-        ".SSSSSSSSSSSSSSSSSS..",
-        ".....................",
-        "...SCWW.SSSSCWSS.....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSS.."
-      ]
-    },
-    "186215": {
       "totalRows": 10,
       "totalColumns": 21,
       "rowLabels": [
@@ -4720,7 +4720,7 @@
                 "...AA...AAAAAAA..AAA..A...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAAAAA?AAAAAA?...",
-                "...AAOOAAAAAOOAAAAAAAAA...",
+                "...AAOOOOOOAOOAAAAAAAAA...",
                 "...AAAAAOOOOOOOAOOAAAAA...",
                 "...A.AA.AOO.OO.OAA.OO....."
               ],
@@ -4740,7 +4740,7 @@
                 "...AA...AAAAAAA..AAA..A...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAAAAA?AAAAAA?...",
-                "...AAOOAAAAAOOAAAAAAAAA...",
+                "...AAOOOOOOAOOAAAAAAAAA...",
                 "...AAAAAOOOOOOOAOOAAAAA...",
                 "...A.AA.AOO.OO.OAA.OO....."
               ],
@@ -4795,26 +4795,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "16:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=186212&a=0000000001&l=7409&m=the-odyssey&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAAA.",
-                ".....................",
-                ".....AAAAAAAA.AAAA...",
-                "....AAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAA?AAA..",
-                "....AAAAAAOOAAAAAAA..",
-                "....OOAAA???AAAAAAA..",
-                "....AAAAAAOOAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "186212"
-            },
-            {
               "time": "20:00",
               "formats": [
                 "Regular"
@@ -4855,7 +4835,7 @@
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAOOAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAA.....",
                 "...OOOAAAAAOOAAAAA?.....",
@@ -4903,14 +4883,14 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=186216&a=0000000004&l=7409&m=fall-2-deadpoint&ss=False",
               "seats": [
                 "..........................",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..??????????????????????..",
                 "..........................",
-                "...A.AA...AAA.AAAA...AA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAA?AAAAAAAAA...",
-                "...AAAAAAAAAAAAOAAAAAAA...",
-                "...A?AAAOAA?OOAAAAAAOOA...",
-                "...A.AA.AAA.AA.AAA.AA....."
+                "...?.??...???.????...??...",
+                "...????????????????????...",
+                "...????????????????????...",
+                "...????????????????????...",
+                "...????????????????????...",
+                "...?.??.???.??.???.??....."
               ],
               "layoutKey": "186216"
             },
@@ -4922,14 +4902,14 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=186216&a=0000000001&l=7409&m=fall-2-deadpoint&ss=False",
               "seats": [
                 "..........................",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..??????????????????????..",
                 "..........................",
-                "...A.AA...AAA.AAAA...AA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAA?AAAAAAAAA...",
-                "...AAAAAAAAAAAAOAAAAAAA...",
-                "...A?AAAOAA?OOAAAAAAOOA...",
-                "...A.AA.AAA.AA.AAA.AA....."
+                "...?.??...???.????...??...",
+                "...????????????????????...",
+                "...????????????????????...",
+                "...????????????????????...",
+                "...????????????????????...",
+                "...?.??.???.??.???.??....."
               ],
               "layoutKey": "186216"
             },
@@ -5179,7 +5159,7 @@
                 "..AAOOOOAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..OOOAAAOOOAAAAAA....",
-                "..AAOOOOAAAAAAAAA....",
+                "..AAOOOOOOOAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAA.."
               ],
@@ -5233,33 +5213,6 @@
               "layoutKey": "186230"
             }
           ]
-        },
-        {
-          "title": "Toy Story 5",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36558_320_470.jpg",
-          "runtimeMinutes": 102,
-          "sessions": [
-            {
-              "time": "16:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=186215&a=0000000001&l=7409&m=toy-story-5&ss=False",
-              "seats": [
-                ".....................",
-                ".AAAAAAAAAAAAAAAAAA..",
-                ".....................",
-                "...AAAA.AAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAOOAA....",
-                "..AAAAAAAAAAAAAAA....",
-                ".OAAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "186215"
-            }
-          ]
         }
       ]
     },
@@ -5282,7 +5235,7 @@
                 "..........................",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..........................",
-                "...AA...AAAAAAA..AAA..A...",
+                "...OO...AAAAAAA..AAA..A...",
                 "...AAAAAAAAAAAAAAAAOOOO...",
                 "...OOO?AAAAAAAA?AAAAAA?...",
                 "...OOOOAAOOAOOOOOAAAOOO...",
@@ -5301,7 +5254,7 @@
                 "..........................",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..........................",
-                "...AA...AAAAAAA..AAA..A...",
+                "...OO...AAAAAAA..AAA..A...",
                 "...AAAAAAAAAAAAAAAAOOOO...",
                 "...OOO?AAAAAAAA?AAAAAA?...",
                 "...OOOOAAOOAOOOOOAAAOOO...",
@@ -5323,10 +5276,10 @@
                 "..........................",
                 "...AA...AAAAAAA..AAA..A...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAA?AAAAAAAA?AAAAOO?...",
+                "...AAA?AAAAAOOO?AAAAOO?...",
                 "...OOOOAAAAAOOOOOOOOOOA...",
                 "...OOOOAAOOOOOOOOOOOOOO...",
-                "...A.AA.AAA.AA.AAA.AA....."
+                "...A.AA.AAA.AA.AOO.OO....."
               ],
               "layoutKey": "186264"
             },
@@ -5342,10 +5295,10 @@
                 "..........................",
                 "...AA...AAAAAAA..AAA..A...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAA?AAAAAAAA?AAAAOO?...",
+                "...AAA?AAAAAOOO?AAAAOO?...",
                 "...OOOOAAAAAOOOOOOOOOOA...",
                 "...OOOOAAOOOOOOOOOOOOOO...",
-                "...A.AA.AAA.AA.AAA.AA....."
+                "...A.AA.AAA.AA.AOO.OO....."
               ],
               "layoutKey": "186264"
             },
@@ -5493,7 +5446,7 @@
                 "....AAAAAAAAAAA?AAA..",
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAOO???AAAAAAA..",
-                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAOOOAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAA."
               ],
               "layoutKey": "186256"
@@ -5544,10 +5497,10 @@
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAOOOAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAOO....",
-                "...AAAAAAOOOOAAAAAA.....",
+                "...AOOAAAOOOOAAAAAA.....",
                 "...AAAAAAAAAAAAAAA?.....",
                 "..AAOOOOOOOOOOOOOOOO..AA",
-                "AAAAAAAAAAAOOAAAAAAAAAAA"
+                "AAAAAAAOOAAOOAAAAAAAAAAA"
               ],
               "layoutKey": "186275"
             },
@@ -5565,7 +5518,7 @@
                 "..AAAAAAAOOOOOAAAAAA....",
                 "..OOOAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAOOAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAOOAAAAAA....",
                 "..AAAAAAAAOOAAAAAAAA....",
                 "...OOOOAAAAAAAAAAAA.....",
                 "...AAAOOOAAOOOAAAA?.....",
@@ -5593,7 +5546,7 @@
                 "...AAAAAAAAAAAAAAAA.....",
                 "...AAAAAAAAAAAAAAA?.....",
                 "..AAAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAOOAAAAAAAAAAA"
               ],
               "layoutKey": "186273"
             }
@@ -5870,7 +5823,7 @@
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAOOAAOOAAOOAA..",
                 "....AAAAAAAAAAOOAAA..",
-                "..AAAAAAAAOOAAAAAAAA."
+                "..AAAAAAAAOOAAAOOAAA."
               ],
               "layoutKey": "186260"
             },
@@ -6014,7 +5967,7 @@
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAOOOAAAAAAAA....",
-                "..AAAAAAAAAAAOOOO....",
+                "..OOAAAAAAAAAOOOO....",
                 "..AAAAAAAAAAAAAAA....",
                 ".AAAAAAAAOOOAAAAAAA.."
               ],
@@ -6102,7 +6055,7 @@
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
+                "..AAAAAAOOOOAAAAA....",
                 ".AAAAAAAOOOOAAAAAAA.."
               ],
               "layoutKey": "186270"
@@ -6130,7 +6083,7 @@
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAOOAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAA.."
+                ".AAAAAAAAAAAAAAOOOO.."
               ],
               "layoutKey": "186284"
             },
@@ -6206,7 +6159,7 @@
                 "...AA...AAAAAAA..AAA..A...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAAAAA?AAAAAA?...",
-                "...OOAAAAAAAAAAAAAAAAAA...",
+                "...OOOOOAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAOOAAAAOOOOO...",
                 "...A.AA.AAO.OA.AAA.AA....."
               ],
@@ -6225,7 +6178,7 @@
                 "...AA...AAAAAAA..AAA..A...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAAAAA?AAAAAA?...",
-                "...OOAAAAAAAAAAAAAAAAAA...",
+                "...OOOOOAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAOOAAAAOOOOO...",
                 "...A.AA.AAO.OA.AAA.AA....."
               ],
@@ -6246,8 +6199,8 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAOOOO?AAAAAA?...",
                 "...AAOOOOOAAOOAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...A.AA.AAO.OO.OAA.AA....."
+                "...AAAAAAAOOOOOAAAAAAAA...",
+                "...A.AA.AAA.AA.AAA.AA....."
               ],
               "layoutKey": "186436"
             },
@@ -6265,8 +6218,8 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAOOOO?AAAAAA?...",
                 "...AAOOOOOAAOOAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...A.AA.AAO.OO.OAA.AA....."
+                "...AAAAAAAOOOOOAAAAAAAA...",
+                "...A.AA.AAA.AA.AAA.AA....."
               ],
               "layoutKey": "186436"
             },
@@ -6464,7 +6417,7 @@
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAOOOOAAAAAA....",
+                "..AAAAAAAAOOOOAAAAOO....",
                 "...AAAAAAAOOOOAAAAA.....",
                 "...OOOOAAAAOOOOOAA?.....",
                 "..AAOOAAAAAAAAAAAAOO..AA",
@@ -9387,6 +9340,70 @@
                 "...A.AA.AAO.OO.OAA.AO....."
               ],
               "layoutKey": "186188"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "movies": [
+        {
+          "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t  - Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61723_320_470.jpg",
+          "runtimeMinutes": 158,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=184705&a=0000000001&l=7409&m=est-twenty-years-of-met-english-west-met&ss=True",
+              "seats": [
+                ".....................",
+                "..AAAAAAAAAAAAAAAAAA.",
+                ".....................",
+                ".....AAAAAAAA.AAAA...",
+                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAOOOAAAAAA..",
+                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA."
+              ],
+              "layoutKey": "184705"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "movies": [
+        {
+          "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61729_320_470.jpg",
+          "runtimeMinutes": 240,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=184706&a=0000000001&l=7409&m=est-cosi-fan-tutte-mozart-italian-west-met&ss=True",
+              "seats": [
+                ".....................",
+                "..AAAAAAAAAAAAAAAAAA.",
+                ".....................",
+                ".....AAAAAAAA.AAAA...",
+                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA."
+              ],
+              "layoutKey": "184706"
             }
           ]
         }

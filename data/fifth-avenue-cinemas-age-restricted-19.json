@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-04T20:11:48.900Z",
+  "updatedAt": "2026-09-04T20:48:48.903Z",
   "theatre": {
     "id": 1149,
     "name": "Fifth Avenue Cinemas (age restricted 19+)"
   },
   "auditoriums": {
-    "116718": {
-      "totalRows": 11,
-      "totalColumns": 21,
+    "115536": {
+      "totalRows": 9,
+      "totalColumns": 19,
       "rowLabels": [
         "A",
         "B",
@@ -17,22 +17,44 @@
         "F",
         "G",
         "H",
-        "I",
-        "J",
-        "K"
+        "I"
       ],
       "seatTypes": [
-        "SSSS...SSSSSS....SSSS",
-        "SSSS...SSSSSSS...SSSS",
-        "SSSS..SSSSSSSS...SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS.............SSSS",
-        "........CWWWC........"
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..W.W.WCSS......"
+      ]
+    },
+    "115537": {
+      "totalRows": 9,
+      "totalColumns": 19,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..SSSSSSSSS..SSS",
+        "SSS..W.W.WCSS......"
       ]
     },
     "116719": {
@@ -3206,7 +3228,7 @@
                 "AAAAAOO..AAAAA",
                 "AAAAAOO..AOOOA",
                 "AAAAAOO...A.AA",
-                "AAAAAOO.......",
+                "AAOOOOO.......",
                 "AAAAAOO......."
               ],
               "layoutKey": "116724"
@@ -3267,7 +3289,7 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAOOOOAAA..AAA",
                 "AAA..AAAAOOAAA..OOA",
-                "AAA..AAAOOAAOO..AAA",
+                "AAA..OAAOOAAOO..AAA",
                 "AAA..AAAAAAAOO..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..A.A.AAAA......"
@@ -3355,7 +3377,7 @@
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAOOAAA..AAAAA",
                 "AAAAA...OOOAAAAAAAA..AAAAA",
-                "AAAAA....AAAAAAAAAA..AAAAA",
+                "OOAAA....AAAAAAAAAA..AAAAA",
                 "....A....A.AA?AAAAA..AAAAA",
                 "..........................",
                 "..........................",
@@ -3376,9 +3398,9 @@
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAOAAAAA..AAAAA",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
+                "AAAAA...OAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAOOAAAAA..AAAAA",
-                "AAAAA...AAAAAAOOAAA..AAAAA",
+                "AAAAA...AAAOOOOOAAA..AAAAA",
                 "AAAAA....OOOOAAAAOO..AAAAA",
                 "....A....A.AA?OOAAA..AAAAA",
                 "..........................",
@@ -3418,27 +3440,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60897_320_470.jpg",
           "runtimeMinutes": 107,
           "sessions": [
-            {
-              "time": "13:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=116718&a=0000000001&l=1149&m=the-invite&ss=False",
-              "seats": [
-                "AAAA...AAAAAA....AAAA",
-                "AAAA...AAAAAAA...AAAA",
-                "AAAA..AAAAAAAA...AAAA",
-                "AAAA..AAAAAAAAA..OAAA",
-                "AAAA..AAAAAAAAA..AAAA",
-                "AAAA..AAAOOA?AA..AAAA",
-                "AAAA..AAAAAAAAA..AAAA",
-                "AAAA..AA?AA?AAA..AAAA",
-                "AAAA..AA?AAAAAA..AAAA",
-                "????.............AAAA",
-                "........AAAAA........"
-              ],
-              "layoutKey": "116718"
-            },
             {
               "time": "15:30",
               "formats": [
@@ -3525,7 +3526,7 @@
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
                 "AAAAAAO..OOOOA",
-                "AAAOAAO..OOAAA",
+                "AAAOAOO..OOAAA",
                 "AAAOOOO...A.AA",
                 "OOAAAOO.......",
                 "OOAAOOO......."
@@ -3622,7 +3623,7 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
-                "AAA..AAAAAAAAA..AAA",
+                "AAA..AAAOOOOAA..AAA",
                 "AAA..AAOOOOAAA..AAA",
                 "AAA..AAOOOOOAA..AAA",
                 "AAA..AOOOOOOOO..AAA",
@@ -3645,7 +3646,7 @@
                 "AAA..OOAAOAAAA..AAA",
                 "OOO..OOOOOOOOO..AAA",
                 "AAA..OOOOOOOOA..AAA",
-                "AAA..AOOOOOOOA..AAA",
+                "AAA..AOOOOOOOA..OOA",
                 "AAA..A.A.AAOO......"
               ],
               "layoutKey": "116747"
@@ -3793,9 +3794,9 @@
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAOOAAAOO..AAAAA",
-                "AAAAA...OOAAAAAAAOO..AAAAA",
+                "AAAAA...OOAAAOAAAOO..AAAAA",
                 "AAAAA...AAAAAAOAAOO..AAAAA",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
+                "AAAAA...OOAAAAAAAAA..AAAAA",
                 "AAAAA....OAAAAAAAOO..AAAAA",
                 "....A....A.AA?AAAOO..AAAAA",
                 "..........................",
@@ -3888,7 +3889,7 @@
                 "AAAA...AAAAAAA...AAAA",
                 "AAAA..AAAAAAAA...AAAA",
                 "AAAA..AAAOOAAAA..AAAA",
-                "AAAA..AAAAOAAAA..AAAA",
+                "AAAA..AAAAOOOAA..AAAA",
                 "AAAA..OOAOOO?OO..AAAA",
                 "AAOO..OOOOOOOOO..AAAA",
                 "AAAA..AA?AA?AOO..AAAA",
@@ -4186,7 +4187,7 @@
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAOAAAAA..AAAAA",
                 "AAAAA...AAAAOOOOAAA..AAAAA",
-                "AAAAA...AAAAOOOOOAA..AAAAA",
+                "AAAAA...AAAAOOOOOOO..AAAAA",
                 "AAAAA...AAAAAOAAAAA..AAAAA",
                 "AAAAA...AAAAAOAAAAA..AAAAA",
                 "AAAAA....AAAAAAAAAA..AAAAA",
@@ -4266,7 +4267,7 @@
                 "AAAA..AAAOOAAAA..AAAA",
                 "AAAA..AAOOAA?OO..AAAA",
                 "AAAA..OOAAAOOAA..AAAA",
-                "AAAA..AA?AA?OOO..AAAA",
+                "AAAA..AA?OO?OOO..AAAA",
                 "AAAA..AA?AAAAAA..AAAA",
                 "????.............AAAA",
                 "........AAAAA........"
@@ -4307,7 +4308,7 @@
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAOOOA?OO..AAAA",
-                "AAAA..AAOOOAAOO..AAAA",
+                "AAAA..AAOOOOOOO..AAAA",
                 "AAAA..OO?OO?OOA..AAAA",
                 "AAAA..AA?AAOOAA..OAAA",
                 "????.............OAAA",
@@ -5706,6 +5707,68 @@
                 "........AAAAA........"
               ],
               "layoutKey": "116811"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "movies": [
+        {
+          "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t  - Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61723_320_470.jpg",
+          "runtimeMinutes": 158,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=115536&a=0000000001&l=1149&m=est-twenty-years-of-met-english-west-met&ss=True",
+              "seats": [
+                "AAA..AAAAAAAAA..AAA",
+                "AAA..AAAAAAAAA..AAA",
+                "AAA..AAAAAAAAA..AAA",
+                "AAA..AAAAAAAAA..AAA",
+                "AAA..OOOOOOAAO..AAA",
+                "AAA..OOOOAAAAO..OAA",
+                "AAA..OAOOOAOOO..AAA",
+                "AOO..OOOOOOOOO..OAA",
+                "AOO..A.A.AAOO......"
+              ],
+              "layoutKey": "115536"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "movies": [
+        {
+          "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61729_320_470.jpg",
+          "runtimeMinutes": 240,
+          "sessions": [
+            {
+              "time": "10:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=115537&a=0000000001&l=1149&m=est-cosi-fan-tutte-mozart-italian-west-met&ss=True",
+              "seats": [
+                "AAA..AAAAAAAAA..OOO",
+                "AAA..AAAAAAAAA..AAA",
+                "AAA..AAAAAAAAA..AAA",
+                "AAA..AAAAAAAAA..AAA",
+                "AAA..OAAAOOAAA..AAA",
+                "AOO..OOAAAAAAO..AAA",
+                "AAA..OOOAOAAAA..AAA",
+                "AOO..OOOAAAAOO..AAA",
+                "AOO..A.A.AAAO......"
+              ],
+              "layoutKey": "115537"
             }
           ]
         }
