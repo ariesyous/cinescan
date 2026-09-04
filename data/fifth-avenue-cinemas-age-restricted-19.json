@@ -1,34 +1,10 @@
 {
-  "updatedAt": "2026-09-04T15:22:36.480Z",
+  "updatedAt": "2026-09-04T19:21:59.576Z",
   "theatre": {
     "id": 1149,
     "name": "Fifth Avenue Cinemas (age restricted 19+)"
   },
   "auditoriums": {
-    "116714": {
-      "totalRows": 8,
-      "totalColumns": 14,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS...W.WC",
-        "SSSSSSS.......",
-        "SSSSSSS......."
-      ]
-    },
     "116715": {
       "totalRows": 18,
       "totalColumns": 26,
@@ -3284,24 +3260,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "12:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=116714&a=0000000001&l=1149&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAA..AAAAA",
-                "AAAAAAA..AAAAA",
-                "AAAAAAA..AAAAA",
-                "AAAAAAO..AAAAA",
-                "AAAAAAA..AAAAA",
-                "AAAAAAA...A.AA",
-                "AAAAAAA.......",
-                "AAAAAOO......."
-              ],
-              "layoutKey": "116714"
-            },
-            {
               "time": "15:10",
               "formats": [
                 "Regular"
@@ -3350,7 +3308,7 @@
                 "AAAAAAA..AAAAA",
                 "AAAAAAO..OOAAA",
                 "AAAAAAA...A.AA",
-                "AAAAAAA.......",
+                "AAAAAOO.......",
                 "AAAAAOO......."
               ],
               "layoutKey": "116730"
@@ -3376,7 +3334,7 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
-                "AAA..AAAAAAAAA..AAA",
+                "AAA..AAAAAAAOO..AAA",
                 "AAA..A.A.AAOO......"
               ],
               "layoutKey": "116716"
@@ -3395,7 +3353,7 @@
                 "AAA..AAAAOOAAO..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
-                "AAA..AAAAOAAAA..AAA",
+                "AAA..AAAAOAAOO..AAA",
                 "AAA..A.A.AAAA......"
               ],
               "layoutKey": "116723"
@@ -3437,9 +3395,9 @@
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAOAAAAAAAA",
                 "AAAAA..AAAA.....",
-                "AAAAA..A.A......"
+                "AAAOO..A.A......"
               ],
               "layoutKey": "116717"
             },
@@ -3514,9 +3472,9 @@
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
+                "AAAAA...AAAAAAAAAOO..AAAAA",
+                "AAAAA...AAAAOOAAAAA..AAAAA",
+                "AAAAA...OOAAAAAAAAA..AAAAA",
                 "AAAAA....AAAAAAAAAA..AAAAA",
                 "....A....A.AA?AAAAA..AAAAA",
                 "..........................",
@@ -3562,10 +3520,10 @@
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAOAAAAA..AAAAA",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
+                "AAAAA...AAAAOOOAAOO..AAAAA",
                 "AAAAA...AAAAOOAAAAA..AAAAA",
                 "AAAAA...AAAAAAOOAAA..AAAAA",
-                "AAAAA....OOOOAAAAAA..AAAAA",
+                "AAAAA....OOOOAAAAOO..AAAAA",
                 "....A....A.AA?OOAAA..AAAAA",
                 "..........................",
                 "..........................",
@@ -3639,7 +3597,7 @@
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAAAA?AA..AAAA",
                 "AAAA..AAAAAAAAA..AAAA",
-                "AAAA..AA?AA?AAA..AAAA",
+                "AAAA..AA?AA?AOO..AAAA",
                 "AAAA..AA?AAAAAA..AAAA",
                 "????.............AAAA",
                 "........AAAAA........"
@@ -3657,11 +3615,11 @@
                 "AAAA...AAAAAAA...AAAA",
                 "AAAA..AAAAAAAA...AAAA",
                 "AAAA..AAOOOOAAA..AAAA",
-                "AAAA..AAOOOAAAA..AAAA",
-                "AAAA..AAAOOO?AA..AAAA",
-                "AAAA..AOOAAAOAA..AAAA",
-                "AAAA..AA?AA?AAA..AAAA",
-                "AAAA..AA?AAAAAA..AAAA",
+                "AAAA..AAOOOOOAA..AAAA",
+                "AAAA..AAAOOO?OO..AAAA",
+                "AAAA..AOOOOOOAA..AAAA",
+                "AAAA..AA?OO?AOO..AAAA",
+                "AAAA..AA?OOAAOO..AAAA",
                 "????.............AAAA",
                 "........AAAAA........"
               ],
@@ -3711,7 +3669,7 @@
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
                 "AAAAAAO..OOOOA",
-                "AAAAAAO..OOAAA",
+                "AAAOAAO..OOAAA",
                 "AAAOOOO...A.AA",
                 "OOAAAOO.......",
                 "OOAAOOO......."
@@ -3729,7 +3687,7 @@
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..OOAAA",
                 "AAAAAOO..OOAAA",
-                "OOOOOOO..OOOOA",
+                "OOOOOOA..OOOOA",
                 "AAAOOOO...A.AA",
                 "AAAOOOO.......",
                 "OOAOOOO......."
@@ -3745,8 +3703,8 @@
               "seats": [
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
-                "AAAAAOO..AAAAA",
-                "AAAOOOO..OOOOO",
+                "AAAAAOO..OOAAA",
+                "AOOOOOO..OOOOO",
                 "AOOOOOO..OOOOA",
                 "AOOOOOO...A.AA",
                 "OOOOOOO.......",
@@ -3829,7 +3787,7 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAOOAA..AAA",
                 "AAA..OOAAOAAAA..AAA",
-                "OOO..OOOOOAAOO..AAA",
+                "OOO..OOOOOOOOO..AAA",
                 "AAA..OOOOOOOOA..AAA",
                 "AAA..AOOOOOOOA..AAA",
                 "AAA..A.A.AAOO......"
@@ -3957,9 +3915,9 @@
                 "AAAAA...AAOOOOOOAAA..AAAAA",
                 "AAAAA...AAOOOOOAAAA..AAAAA",
                 "AAAAA...AAAAOOOAAAA..AAAAA",
-                "AAAAA...AAAAAAAOAAA..AAAAA",
+                "AAAAA...AAAAOAAOAAA..AAAAA",
                 "AAAAA....OOOAAAAAAA..AAAAA",
-                "....A....A.AA?AAAAA..AAAAA",
+                "....A....A.AA?AAAAO..AAAAA",
                 "..........................",
                 "..........................",
                 ".........................."
@@ -3982,7 +3940,7 @@
                 "AAAAA...OOAAAAAAAOO..AAAAA",
                 "AAAAA...AAAAAAOAAOO..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA....OAAAAAAAAA..AAAAA",
+                "AAAAA....OAAAAAAAOO..AAAAA",
                 "....A....A.AA?AAAOO..AAAAA",
                 "..........................",
                 "..........................",
@@ -4055,9 +4013,9 @@
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAOOO?OO..AAAA",
-                "AAAA..OOAAOOAAA..AAAA",
+                "AAAA..OOAAOOOAA..AAAA",
                 "AAAA..AA?OO?AAA..AAAA",
-                "AAAA..AA?AAAAAA..AAAA",
+                "AAAA..OO?AAAAOO..AAAA",
                 "????.............AAAA",
                 "........AAAAA........"
               ],
@@ -4073,12 +4031,12 @@
                 "AAAA...AAAAAA....AAAA",
                 "AAAA...AAAAAAA...AAAA",
                 "AAAA..AAAAAAAA...AAAA",
-                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAOOAAAA..AAAA",
                 "AAAA..AAAAOAAAA..AAAA",
                 "AAAA..OOAOOO?OO..AAAA",
                 "AAOO..OOOOOOOOO..AAAA",
-                "AAAA..AA?AA?AAA..AAAA",
-                "AAAA..AA?AAAAAA..AAAA",
+                "AAAA..AA?AA?AOO..AAAA",
+                "AAAO..AA?AAAAAA..AAAA",
                 "????.............OAAA",
                 "........AAAAA........"
               ],
@@ -4097,7 +4055,7 @@
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAAAA?AA..AAAA",
-                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAOOOOAAA..AAAA",
                 "AAAA..AA?AA?AAA..AAAA",
                 "AAAA..AA?AAAAAA..AAAA",
                 "????.............AAAA",
@@ -4127,7 +4085,7 @@
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
-                "AAAAAAA..AAAAA",
+                "AAAAAAO..AAAAA",
                 "AAOOAOO..OAAAA",
                 "OOAAAOO...A.AA",
                 "AAAAOOO.......",
@@ -4208,9 +4166,9 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAOAAAAA..AAA",
                 "AAA..AAAAOOAAA..AAA",
-                "AAA..OOAAOAAAA..AAA",
+                "AAA..OOAAOOOAA..AAA",
+                "AAA..AAAOOOAAA..AAA",
                 "AAA..AAAOOOOOO..AAA",
-                "AAA..AAAOOAAAA..AAA",
                 "AAA..A.A.AAOO......"
               ],
               "layoutKey": "116754"
@@ -4245,11 +4203,11 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAOOOOAA..AAA",
-                "AAA..AAAOOOOAA..AAA",
+                "AAA..OOAOOOOAA..AAA",
                 "AAA..AAOOOOOAA..AAA",
                 "AAA..AAOOOAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
-                "AAA..A.A.AAAA......"
+                "AAA..A.A.AAOO......"
               ],
               "layoutKey": "116766"
             }
@@ -4287,8 +4245,8 @@
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
-                "OAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
+                "OAAAAAOOOOAAAAAA",
+                "AAAAAAAOOAAAAAAA",
                 "AAAAA..AAAO.....",
                 "AAAAA..A.A......"
               ],
@@ -4371,8 +4329,8 @@
                 "AAAAA...AAAAAAAAAA..AAAAA.",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAOAAAAA..AAAAA",
-                "AAAAA...AAAAOOAAAAA..AAAAA",
-                "AAAAA...AAAAOOOAAAA..AAAAA",
+                "AAAAA...AAAAOOOOAAA..AAAAA",
+                "AAAAA...AAAAOOOOOAA..AAAAA",
                 "AAAAA...AAAAAOAAAAA..AAAAA",
                 "AAAAA...AAAAAOAAAAA..AAAAA",
                 "AAAAA....AAAAAAAAAA..AAAAA",
@@ -4899,8 +4857,8 @@
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
-                "AAAAAAA..OOOOA",
-                "AAAAAAA...A.AA",
+                "AAAAAAA..OAAAA",
+                "AAAAAAA...A.OO",
                 "AAAAAAA.......",
                 "AAAAAAA......."
               ],
@@ -5637,7 +5595,7 @@
                 "AAAAAAA..AAAAA",
                 "AAAAAAA...A.AA",
                 "AAAAAAA.......",
-                "AAAAAAA......."
+                "AAAAAOO......."
               ],
               "layoutKey": "116812"
             }
