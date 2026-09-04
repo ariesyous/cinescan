@@ -509,10 +509,13 @@ function renderNav(theatres = allTheatres) {
 // (an array of tag strings) seeds the format filter -- e.g. from a shared
 // link -- instead of the default "everything selected"; omitting it resets
 // the filter to everything, which is what picking a theatre normally does.
-function selectTheatre(theatre, theatres, { push = true, formats = null } = {}) {
+// `drill: false` loads the theatre's showtimes without auto-drilling the
+// nav into its region/area, leaving the top-level region buttons showing --
+// used for the no-slug landing page.
+function selectTheatre(theatre, theatres, { push = true, formats = null, drill = true } = {}) {
   currentTheatreId = theatre.id;
-  currentRegion = regionForTheatre(theatre);
-  currentArea = areaForTheatre(theatre);
+  currentRegion = drill ? regionForTheatre(theatre) : null;
+  currentArea = drill ? areaForTheatre(theatre) : null;
   theatreSearchEl.value = theatre.name;
   updateSearchClearVisibility();
   renderNav(theatres);
@@ -701,6 +704,7 @@ async function main() {
     selectTheatre(defaultTheatre, theatres, {
       push: false,
       formats: urlTheatre ? parseFormatsParam(urlParams) : null,
+      drill: Boolean(urlTheatre),
     });
   } catch (err) {
     calendarEl.innerHTML = `<p class="error">Couldn't load theatres: ${err.message}</p>`;
