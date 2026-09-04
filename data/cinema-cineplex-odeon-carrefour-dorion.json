@@ -1,10 +1,38 @@
 {
-  "updatedAt": "2026-09-04T03:13:25.492Z",
+  "updatedAt": "2026-09-04T05:27:45.016Z",
   "theatre": {
     "id": 9153,
     "name": "Cinéma Cineplex Odeon Carrefour Dorion"
   },
   "auditoriums": {
+    "196139": {
+      "totalRows": 10,
+      "totalColumns": 18,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "...SSSSSSSSSSSSS..",
+        "...SSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".........WCSSSSCW.",
+        ".................."
+      ]
+    },
     "196154": {
       "totalRows": 11,
       "totalColumns": 18,
@@ -7830,6 +7858,38 @@
                 ".................."
               ],
               "layoutKey": "196297"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil (version française)",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61421_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196139&a=0000000001&l=9153&m=vf-resident-evil-version-francaise&ss=False",
+              "seats": [
+                "...AAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".........AAOAAAAA.",
+                ".................."
+              ],
+              "layoutKey": "196139"
             }
           ]
         }

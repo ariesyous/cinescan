@@ -1,10 +1,48 @@
 {
-  "updatedAt": "2026-09-04T03:15:00.044Z",
+  "updatedAt": "2026-09-04T05:29:43.635Z",
   "theatre": {
     "id": 7274,
     "name": "Galaxy Cinemas Orillia"
   },
   "auditoriums": {
+    "144157": {
+      "totalRows": 15,
+      "totalColumns": 32,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "seatTypes": [
+        "................................",
+        "..SSSSSSSSSSSSSSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSSSS...",
+        "................................",
+        "........WCSSSSSSSSWCSSSSCW......",
+        "....SSSSSSSSSSSSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSSSSSSSSSSSS....",
+        ".....SSSSSSSSSSSSSSSSSSSSSS...SS",
+        ".....SSSSSSSSSSSSSSSSSSSSSS...SS",
+        "....SSSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "....SSSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "....SSSSSSSSSSSSSSSSSSSSSSSS..SS"
+      ]
+    },
     "144158": {
       "totalRows": 15,
       "totalColumns": 32,
@@ -4894,7 +4932,7 @@
                 "....AAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAA...",
                 "AA..AAAAAAOOAAAAAAA...",
-                "AA..AAAAAOOOOAAAAAA...",
+                "AA..AAAAAAOOAAAAAAA...",
                 "AAAAAAAAAAOOAAOOAAAAA."
               ],
               "layoutKey": "144202"
@@ -5030,7 +5068,7 @@
                 "....................",
                 ".......AAAAAAA..A??.",
                 "......AAAAAAAAAAAAA.",
-                "......AAAAAAAAAAAAA.",
+                "......AAOOOOOAAAAAA.",
                 "......AAAAAAAAAAAAA.",
                 "......AAOOOAAAAAAAA.",
                 "AA....AAAAAAAAAAAAA.",
@@ -5349,7 +5387,7 @@
                 ".....AAAAA.AAAAAA....",
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
-                "....AAAAAAOAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA..",
                 ".....AAAAAOOAAAAAA...",
                 "AA...AAAAAOOAAAAAA...",
                 "AA..AAAAAAAAAAAAAAA..",
@@ -6977,6 +7015,43 @@
                 "AAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "144275"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=144157&a=0000000001&l=7274&m=resident-evil-2026&ss=False",
+              "seats": [
+                "................................",
+                "..AAAA?AAAAAAAAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "................................",
+                "........AAAAAAAAAAAAAAAAAA......",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA....",
+                ".....AAAAAAAAAAAAAAAAAAAAAA...??",
+                ".....AAAAAAAAAAAAAAAAAAAAAA...AA",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "....AAAAAAAAAAAOOAAAAAAAAAAA..AA"
+              ],
+              "layoutKey": "144157"
             }
           ]
         }

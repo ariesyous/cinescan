@@ -1,10 +1,50 @@
 {
-  "updatedAt": "2026-09-04T03:14:19.367Z",
+  "updatedAt": "2026-09-04T05:28:54.367Z",
   "theatre": {
     "id": 5134,
     "name": "Cineplex Cinemas Yarmouth"
   },
   "auditoriums": {
+    "63765": {
+      "totalRows": 16,
+      "totalColumns": 26,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        "CC",
+        "DD",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "..........................",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..........................",
+        "........WCSSSSSSSSSSCW....",
+        ".....SSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSS..",
+        "...SSSSSSSSSSSSSSSSSSSSSS.",
+        ".........................."
+      ]
+    },
     "63766": {
       "totalRows": 13,
       "totalColumns": 20,
@@ -4713,6 +4753,44 @@
                 "..................."
               ],
               "layoutKey": "63839"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63765&a=0000000001&l=5134&m=resident-evil-2026&ss=False",
+              "seats": [
+                "..........................",
+                "..?AAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..........................",
+                "........AAAAAAAAAAAAAA....",
+                ".....AAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAA?AAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAA..",
+                "...?AAAAAAAAA?A?AAAAAAAAA.",
+                ".........................."
+              ],
+              "layoutKey": "63765"
             }
           ]
         }

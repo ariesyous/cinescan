@@ -1,10 +1,40 @@
 {
-  "updatedAt": "2026-09-04T03:14:41.301Z",
+  "updatedAt": "2026-09-04T05:29:21.627Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
   },
   "auditoriums": {
+    "153345": {
+      "totalRows": 11,
+      "totalColumns": 22,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        null
+      ],
+      "seatTypes": [
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..WWCSSSSSSSSSCW..",
+        "SSSS..WWCSSSSSSSSSCW..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "......SSSSCW.WCSSSSS..",
+        "......................"
+      ]
+    },
     "153346": {
       "totalRows": 10,
       "totalColumns": 20,
@@ -4157,7 +4187,7 @@
                 "..AAAAAAAAAAA..",
                 "..A?AAAAAAAAA..",
                 "..AAAAOOAAA??..",
-                "..AA?OOOOOOOO..",
+                "..OO?OOOOOOOO..",
                 "..AAAAAAAAAAA.."
               ],
               "layoutKey": "153389"
@@ -4279,7 +4309,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAOOOOAAAA..",
-                "..AAAAAAAAAAO..",
+                "..AAAAAOAAAAO..",
                 "..?AAAOOOAAA?..",
                 "..AAAAOOOAAAA.."
               ],
@@ -4321,7 +4351,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAA?AOO..",
                 "..OOAAOOOAAAA..",
-                "..AAAA?AOOOOO..",
+                "..OOOA?AOOOOO..",
                 "..AAAA?A??AAA.."
               ],
               "layoutKey": "153392"
@@ -6046,6 +6076,39 @@
                 "..AAAAAAAAAAA.."
               ],
               "layoutKey": "153474"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153345&a=0000000001&l=7206&m=resident-evil-2026&ss=False",
+              "seats": [
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "A?AA..AAAAAAA?AAA?AA..",
+                "AAAA..AAAAAA?AAAAAAA..",
+                "AA?A..AAA?AAAAAAAAAA..",
+                "AAAA..AAAAAA??AAAAAA..",
+                "AAAA..AAAAAA????AAAA..",
+                "......AAAAAA.AAAAAA?..",
+                "......................"
+              ],
+              "layoutKey": "153345"
             }
           ]
         }

@@ -1,10 +1,46 @@
 {
-  "updatedAt": "2026-09-04T03:14:00.576Z",
+  "updatedAt": "2026-09-04T05:28:30.888Z",
   "theatre": {
     "id": 5132,
     "name": "Cineplex Cinemas New Minas"
   },
   "auditoriums": {
+    "94528": {
+      "totalRows": 14,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        null,
+        "K",
+        "J",
+        "I",
+        "H",
+        "G",
+        "F",
+        "E",
+        "D",
+        "C",
+        "B",
+        "A",
+        null
+      ],
+      "seatTypes": [
+        "......................",
+        "......................",
+        "..SSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSS.",
+        "...WCSSSSSSSSSSSCW....",
+        "......................"
+      ]
+    },
     "94543": {
       "totalRows": 12,
       "totalColumns": 17,
@@ -8241,6 +8277,42 @@
                 "..............."
               ],
               "layoutKey": "94677"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94528&a=0000000001&l=5132&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "......................",
+                "..AAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAAA....",
+                "......................"
+              ],
+              "layoutKey": "94528"
             }
           ]
         }

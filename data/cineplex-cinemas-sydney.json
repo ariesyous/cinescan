@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T03:14:17.974Z",
+  "updatedAt": "2026-09-04T05:28:52.786Z",
   "theatre": {
     "id": 5103,
     "name": "Cineplex Cinemas Sydney"
@@ -606,6 +606,46 @@
       ]
     },
     "146879": {
+      "totalRows": 16,
+      "totalColumns": 25,
+      "rowLabels": [
+        "EE",
+        "DD",
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        ".SSSSSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSSSSS..",
+        ".........................",
+        ".SCW...WCSSSCW...WCS.....",
+        ".SSSSSSSSSSSSSSSSSSS.....",
+        ".SSSSSSSSSSSSSSSSSSS.....",
+        ".SSSSSSSSSSSSSSSSSSS.....",
+        ".SSSSSSSSSSSSSSSSSSS.....",
+        ".SSSSSSSSSSSSSSSSSSS.....",
+        ".SSSSSSSSSSSSSSSSSSS.....",
+        ".SSSSSSSSSSSSSSSSSSS...SS",
+        ".SSSSSSSSSSSSSSSSSSS...SS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "147683": {
       "totalRows": 16,
       "totalColumns": 25,
       "rowLabels": [
@@ -11038,7 +11078,7 @@
                 ".....AAAAAAAAAAAAAAAAA....",
                 "....AAAAAAAAAAAAAAAAAAA...",
                 "??..AAAAAAAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAAAA."
+                "AAAAAAAAAAAAAAAAOOAAAAAAA."
               ],
               "layoutKey": "147848"
             },
@@ -11062,7 +11102,7 @@
                 ".AAAAAAAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAAAAAAA...??",
+                ".AAAAAAAAAAAAAAAOOOO...??",
                 ".AAAAAAAAAAAAAAAAAAA...AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -15485,6 +15525,44 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "146879"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=147683&a=0000000001&l=5103&m=resident-evil-2026&ss=False",
+              "seats": [
+                ".AAAAAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAAAA..",
+                ".........................",
+                ".AAA...AAAAAAA...AAA.....",
+                ".AAAAAAAAAAAAAAAAAAA.....",
+                ".AAAAAAAAAAAAAAAAAAA.....",
+                ".AAAAAAAAAAAAAAAAAAA.....",
+                ".AAAAAAAAAAAAAAAAAAA.....",
+                ".AAAAAAAAAAAAAAAAAAA.....",
+                ".AAAAAAAAAAAAAAAAAAA.....",
+                ".AAAAAAAAAAAAAAAAAAA...??",
+                ".AAAAAAAAAAAAAAAAAAA...OO",
+                "AAAAAAAAAAAAAAAAAAAAAAAOO"
+              ],
+              "layoutKey": "147683"
             }
           ]
         }

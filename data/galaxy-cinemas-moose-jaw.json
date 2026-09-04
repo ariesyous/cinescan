@@ -1,10 +1,46 @@
 {
-  "updatedAt": "2026-09-04T03:14:56.475Z",
+  "updatedAt": "2026-09-04T05:29:38.796Z",
   "theatre": {
     "id": 4113,
     "name": "Galaxy Cinemas Moose Jaw"
   },
   "auditoriums": {
+    "129166": {
+      "totalRows": 14,
+      "totalColumns": 25,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        ".........................",
+        ".......SSSSSSSSSSSS......",
+        "...SSSSSSSSSSSSSSSSSS....",
+        ".........................",
+        ".....WCSSSSSCWWCSSSSS....",
+        "...SSSSSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSSSS...SS",
+        "....SSSSSSSSSSSSSSSS...SS",
+        "...SSSSSSSSSSSSSSSSSS..SS",
+        "...SSSSSSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
     "129176": {
       "totalRows": 14,
       "totalColumns": 25,
@@ -5014,6 +5050,42 @@
                 "AAAAAAAAAAAAAAAAAAAA??"
               ],
               "layoutKey": "129254"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:35",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129166&a=0000000001&l=4113&m=resident-evil-2026&ss=False",
+              "seats": [
+                ".........................",
+                ".......AAAAAAAAAAAA......",
+                "...AAAAAAAAAAAAAAAAAA....",
+                ".........................",
+                ".....AAAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAAA....",
+                "....AA?AAAAAAAAAAAAA...AA",
+                "....AAAAAAAAAAAAAAAA...AA",
+                "...AAAAAAAAAAAAAAAAAA..AA",
+                "...AAAAAAAAAAAAAAAAAA..AA",
+                "AA?AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "129166"
             }
           ]
         }

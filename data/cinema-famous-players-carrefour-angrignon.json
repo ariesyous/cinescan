@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T03:13:35.155Z",
+  "updatedAt": "2026-09-04T05:27:57.511Z",
   "theatre": {
     "id": 9195,
     "name": "Cinéma Famous Players Carrefour Angrignon"
@@ -546,6 +546,42 @@
       ]
     },
     "233254": {
+      "totalRows": 14,
+      "totalColumns": 33,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "seatTypes": [
+        ".................................",
+        "SSSSSS...SSSSSSSSSSSSSSSS..SSSSS.",
+        "SSSSSS...SSSSSSSSSSSSSSS...SSSSSS",
+        "SSSSSS...SSSSSSSSSSSSSSSS..SSSSSS",
+        "SSSSSS...SSSSSSSSSSSSSSS...SSSSSS",
+        "SSSSSS...SSSSSSSSSSSSSSSS..SSSSSS",
+        "SSSSSS...SSSSSSSSSSSSSSS...SSSSSS",
+        "SSSSSS...SSSSSSSSSSSSSSSS..SSSSSS",
+        "SSSSSS...SSSSSSSSSSSSSSS...SSSSSS",
+        "SSSSSS...SSSSSSSSSSSSSSSS..SSSSSS",
+        "SSSSSS...SSSSSSSSSSSSSSS...SSSSSS",
+        "SSSSSS...SSSSSSSSSSSSSSSS..SSSSSS",
+        "....CW...SSSSSSSSSSSSSSS...SSSSSS",
+        "CWW.............................."
+      ]
+    },
+    "233967": {
       "totalRows": 14,
       "totalColumns": 33,
       "rowLabels": [
@@ -8633,7 +8669,7 @@
                 "AAAA...?AAAAAAA???..AAAA",
                 "AAAA...AAAAAAAAAA...A?AA",
                 "AAAA...AAAA?AAAAAA..AAAA",
-                "AAAA...AAAAAAAAAA...AAAA",
+                "AAAA...AAAAAOOAAA...AAAA",
                 "AAAA...AAAAAAAAAAA..AAAA",
                 "AAAA...AAAAAAAAAA...AAAA",
                 "A?AA...AAAAAAAAAAA..AAAA",
@@ -8691,7 +8727,7 @@
                 ".AAAAAAAAAAAAA.",
                 ".A?AAAAAAAAAA..",
                 ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAA..",
+                ".AAAAAOOAAAAA..",
                 ".AAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAA.",
@@ -13810,6 +13846,42 @@
                 "AAA.............................."
               ],
               "layoutKey": "233254"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=233967&a=0000000001&l=9195&m=resident-evil-2026&ss=False",
+              "seats": [
+                ".................................",
+                "AAAA?A...AAAAAAAAAAAAAAAA..AAAAA.",
+                "AAAAAA...AAAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA...AAAAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA...AAAAAAA?AAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA...AAAAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AA?AAAA?AAAAAAA...AAAAAA",
+                "??AAAA...AAAAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAA?AAAAAAAAA...AAAAAA",
+                "AAAAAA...AAAAAAAAAAAAAAAA..AAAAAA",
+                "....AA...AAAAAAAAAAAAAAA...AAAAAA",
+                "AAA.............................."
+              ],
+              "layoutKey": "233967"
             }
           ]
         }

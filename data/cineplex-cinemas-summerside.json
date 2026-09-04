@@ -1,10 +1,48 @@
 {
-  "updatedAt": "2026-09-04T03:14:14.495Z",
+  "updatedAt": "2026-09-04T05:28:48.480Z",
   "theatre": {
     "id": 6160,
     "name": "Cineplex Cinemas Summerside"
   },
   "auditoriums": {
+    "64182": {
+      "totalRows": 15,
+      "totalColumns": 24,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        "CC",
+        "DD",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        "........................",
+        ".SSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSS.",
+        "........................",
+        "......WCSSSSSSSSSSSCW...",
+        "..SSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSS...",
+        "...SSSSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSS...",
+        "........................"
+      ]
+    },
     "64194": {
       "totalRows": 15,
       "totalColumns": 24,
@@ -5833,6 +5871,43 @@
                 "..................."
               ],
               "layoutKey": "64289"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64182&a=0000000001&l=6160&m=resident-evil-2026&ss=False",
+              "seats": [
+                "........................",
+                ".AAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAA.",
+                "........................",
+                "......AAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAA...",
+                "........................"
+              ],
+              "layoutKey": "64182"
             }
           ]
         }

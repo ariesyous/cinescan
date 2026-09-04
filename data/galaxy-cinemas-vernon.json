@@ -1,10 +1,48 @@
 {
-  "updatedAt": "2026-09-04T03:15:04.974Z",
+  "updatedAt": "2026-09-04T05:29:49.380Z",
   "theatre": {
     "id": 1413,
     "name": "Galaxy Cinemas Vernon"
   },
   "auditoriums": {
+    "182063": {
+      "totalRows": 15,
+      "totalColumns": 27,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "seatTypes": [
+        "...........................",
+        "..SSSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSSS..",
+        "...........................",
+        "..SCW.WCSSSSSSSSCW..WCS....",
+        "..SSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSSSS.....",
+        "...SSSSSSSSSSSSSSSSSSS...SS",
+        "..SSSSSSSSSSSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
     "182078": {
       "totalRows": 14,
       "totalColumns": 20,
@@ -252,42 +290,6 @@
         "....SSSSSSSSSSSSS...",
         "SS..SSSSSSSSSSSSS...",
         "SS..SSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "182090": {
-      "totalRows": 14,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "....................",
-        "...SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSS..",
-        "....................",
-        "...SCW..WCSC.WCS....",
-        "...SSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSS"
       ]
     },
@@ -4082,30 +4084,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "14:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=182090&a=0000000001&l=1413&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "....................",
-                "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAA..",
-                "....................",
-                "...AAA..AAAA.AAA....",
-                "...AAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAA..AA",
-                "...AAAAAAAAAAAAA..AA",
-                "...AAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "182090"
-            },
-            {
               "time": "18:10",
               "formats": [
                 "Regular"
@@ -5019,7 +4997,7 @@
                 "....AAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAA...",
-                "AA..AAAAAAAAAAAAA...",
+                "AO..AAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAOO"
               ],
               "layoutKey": "182118"
@@ -5577,7 +5555,7 @@
                 "....................",
                 "...AAA..AAAA.AAA....",
                 "...AAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAA....",
+                "...AAAAAAOOAAAAA....",
                 "...AAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAA....",
@@ -7227,6 +7205,43 @@
                 "AAAAAAA....AAAAAAA"
               ],
               "layoutKey": "182210"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=182063&a=0000000001&l=1413&m=resident-evil-2026&ss=False",
+              "seats": [
+                "...........................",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "...........................",
+                "..AAA.AAAAAAAAAAAA..AAA....",
+                "..AAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAAAA.....",
+                "...AAAAAAAAAAAAAAAAAAA...AA",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "182063"
             }
           ]
         }

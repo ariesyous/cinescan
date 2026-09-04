@@ -1,10 +1,48 @@
 {
-  "updatedAt": "2026-09-04T03:14:53.590Z",
+  "updatedAt": "2026-09-04T05:29:35.436Z",
   "theatre": {
     "id": 7288,
     "name": "Galaxy Cinemas Collingwood"
   },
   "auditoriums": {
+    "141674": {
+      "totalRows": 15,
+      "totalColumns": 31,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "seatTypes": [
+        "...............................",
+        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+        "...............................",
+        "....CW.....WCCW...WCCCCW....WC.",
+        "....SSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        "....SSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        "....SSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        "....SSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        "....SSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        "....SSSSSSSSSSSSSSSSSSSSSSS....",
+        "SS..SSSSSSSSSSSSSSSSSSSSSSS....",
+        "SS..SSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        "SS..SSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        "SS..SSSSSSSSSSSSSSSSSSSSSSSSSS."
+      ]
+    },
     "141688": {
       "totalRows": 11,
       "totalColumns": 22,
@@ -7639,6 +7677,43 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "141821"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=141674&a=0000000001&l=7288&m=resident-evil-2026&ss=False",
+              "seats": [
+                "...............................",
+                "..AAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "..AAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "...............................",
+                "....AA.....AAAA...AAAAAA....AA.",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAAAAAAAAAAAAAA....",
+                "AA..AAAAAAAAAAAAAAAAAAAAAAA....",
+                "AA..AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                "AA..AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                "AA..AAAAAAAAAAAAAAAAAAAAAAAAAA."
+              ],
+              "layoutKey": "141674"
             }
           ]
         }

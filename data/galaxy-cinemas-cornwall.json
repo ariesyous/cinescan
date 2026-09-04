@@ -1,10 +1,50 @@
 {
-  "updatedAt": "2026-09-04T03:14:54.709Z",
+  "updatedAt": "2026-09-04T05:29:37.012Z",
   "theatre": {
     "id": 7262,
     "name": "Galaxy Cinemas Cornwall"
   },
   "auditoriums": {
+    "171047": {
+      "totalRows": 16,
+      "totalColumns": 32,
+      "rowLabels": [
+        null,
+        "DD",
+        "CC",
+        "BB",
+        "AA",
+        null,
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "................................",
+        ".......SSSSSSSSSSSSSSSSSS.......",
+        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSS..",
+        "................................",
+        "................................",
+        ".......WWCSSSSCW..WCSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSSSSSSSSSSSS...",
+        "SS..SSSSSSSSSSSSSSSSSSSSSSSSS...",
+        "SS..SSSSSSSSSSSSSSSSSSSSSSSSS...",
+        "SS..SSSSSSSSSSSSSSSSSSSSSSSSS...",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
     "171061": {
       "totalRows": 16,
       "totalColumns": 32,
@@ -7315,6 +7355,44 @@
                 "A?AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "171176"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171047&a=0000000001&l=7262&m=resident-evil-2026&ss=False",
+              "seats": [
+                "................................",
+                ".......AAAAAAAAAAAAAAAAAA.......",
+                "..AAAAAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "................................",
+                "................................",
+                ".......AAAAAAAAA..AAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "....AA?AA?AAAAAAAAAAAAAAAAAAA...",
+                "AA..AAAAAAAAAAAAAAAAAAAAAAAA?...",
+                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "AA..?AAAAAAAAAAAAAAAAA?AAAAAA...",
+                "AAA???AAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "171047"
             }
           ]
         }

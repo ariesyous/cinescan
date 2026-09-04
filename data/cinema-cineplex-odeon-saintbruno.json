@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T03:13:31.728Z",
+  "updatedAt": "2026-09-04T05:27:53.602Z",
   "theatre": {
     "id": 9143,
     "name": "Cinéma Cineplex Odeon Saint-Bruno"
@@ -510,6 +510,62 @@
       ]
     },
     "328225": {
+      "totalRows": 10,
+      "totalColumns": 26,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "..........................",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SCW.WCSSSSSSSSSSSSSSSS.."
+      ]
+    },
+    "329074": {
+      "totalRows": 10,
+      "totalColumns": 26,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "..........................",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SCW.WCSSSSSSSSSSSSSSSS.."
+      ]
+    },
+    "329075": {
       "totalRows": 10,
       "totalColumns": 26,
       "rowLabels": [
@@ -9293,7 +9349,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAOOAAAAAAA..",
-                "..AAAAAOOAAAA..",
+                "..AAAOOOOAAAA..",
                 "..AAAAOOOAAAA..",
                 "..OOOOAAAAAAA.."
               ],
@@ -10594,7 +10650,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..OAAAAAAAAAAA..",
                 "...AAAAAAAAAAA.."
               ],
               "layoutKey": "329238"
@@ -13606,6 +13662,58 @@
                 "..AAA.AAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "328223"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil (version française)",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61421_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "16:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=329074&a=0000000001&l=9143&m=vf-resident-evil-version-francaise&ss=False",
+              "seats": [
+                "..........................",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAA?..",
+                "..AAAAAAAAAAAAAAAA?AAAAA..",
+                "..AAA.AAAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "329074"
+            },
+            {
+              "time": "19:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=329075&a=0000000001&l=9143&m=vf-resident-evil-version-francaise&ss=False",
+              "seats": [
+                "..........................",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAA?..",
+                "..AAAAAAAAAAAAAAAA?AAAAA..",
+                "..AAA.AAAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "329075"
             }
           ]
         }

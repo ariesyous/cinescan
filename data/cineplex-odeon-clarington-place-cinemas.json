@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T03:14:31.313Z",
+  "updatedAt": "2026-09-04T05:29:10.104Z",
   "theatre": {
     "id": 7241,
     "name": "Cineplex Odeon Clarington Place Cinemas"
@@ -342,6 +342,34 @@
       ]
     },
     "280853": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "....SSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSCW..",
+        "...WCSSSSSSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "...WCSSSSSSCWW..",
+        "................"
+      ]
+    },
+    "282007": {
       "totalRows": 10,
       "totalColumns": 16,
       "rowLabels": [
@@ -5411,7 +5439,7 @@
                 "..AAAAA?AAAAAA..",
                 "..AAAAAAAAAAA?..",
                 "..AAAAAOOAA?AA..",
-                "..AAAAAAAAAAA?..",
+                "..AAAAOOOAAAA?..",
                 "..AAAAAAAAAAAA..",
                 "................"
               ],
@@ -5821,7 +5849,7 @@
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAA...",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAOOOAAAA..",
                 "..AAAAAAAAAAAA..",
                 "....AAAAAAAAA...",
                 "................"
@@ -6294,7 +6322,7 @@
                 "...AAAAOOAAAAA..",
                 "..AAAAA?AAAAAA..",
                 "..AAAAOOOAAAA?..",
-                "..AAAOOOOOO?AA..",
+                "..AAAOOOOOO?OA..",
                 "..OOOAAAOOOOO?..",
                 "..AAAAAOOAAAAA..",
                 "................"
@@ -6376,7 +6404,7 @@
                 "..AAAAAAAAAAA?..",
                 "..AAAAAOOAA?AA..",
                 "..AAAAAAAAAAA?..",
-                "..AAAAAAAAAAAA..",
+                "..AAAOOAAAAAAA..",
                 "................"
               ],
               "layoutKey": "282094"
@@ -6501,7 +6529,7 @@
                 "..AAOOOOOOOAAA..",
                 "..OOOOOOOOOOAA..",
                 "..A?AAAOOOOOOO..",
-                "...AAAAA?OOAAA..",
+                "...AAOOA?OOAAA..",
                 "................"
               ],
               "layoutKey": "282083"
@@ -7155,7 +7183,7 @@
                 "..AAAAOOOAAAAA..",
                 "..AAAAOOOAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "....AAAAAAAAA...",
+                "....AAOOOOAAA...",
                 "................"
               ],
               "layoutKey": "282093"
@@ -7323,7 +7351,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAOOAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAAOOAAAA..",
                 "..OOOOOOOOOOAA..",
                 "...AAAAOOOOAAA..",
                 "................"
@@ -7690,7 +7718,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAOOAAOOAAA..",
                 "..AAAAAAAAAAA?..",
-                "...AAA?AAAAAAA..",
+                "...AAA?AAOOAAA..",
                 "................"
               ],
               "layoutKey": "282140"
@@ -7765,7 +7793,7 @@
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..?AAAAAAAAAAA..",
+                "..?AAAAAOAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..OO?AAAAAAAAA..",
                 "...AAAAAA?AAAA..",
@@ -8466,7 +8494,7 @@
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..?AAAAAAAAAAA..",
+                "..?AAAAAOAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AA?AAAAAAAAA..",
                 "...AAAAAA?AAAA..",
@@ -10086,13 +10114,45 @@
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..OOOAAAAAAAAA..",
+                "..OOOAAAAAAOOO..",
                 "..AOOOAAAAAAAA..",
                 "..A?AAAAAAAAAA..",
                 "...AAAAA?AAAAA..",
                 "................"
               ],
               "layoutKey": "280852"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282007&a=0000000001&l=7241&m=resident-evil-2026&ss=False",
+              "seats": [
+                "....AAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..A?AAAAAAAAAA..",
+                "...AAAAA?AAAAA..",
+                "................"
+              ],
+              "layoutKey": "282007"
             }
           ]
         }

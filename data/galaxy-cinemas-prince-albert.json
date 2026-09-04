@@ -1,10 +1,50 @@
 {
-  "updatedAt": "2026-09-04T03:15:02.077Z",
+  "updatedAt": "2026-09-04T05:29:45.209Z",
   "theatre": {
     "id": 4112,
     "name": "Galaxy Cinemas Prince Albert"
   },
   "auditoriums": {
+    "154626": {
+      "totalRows": 16,
+      "totalColumns": 26,
+      "rowLabels": [
+        null,
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "seatTypes": [
+        "..........................",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSSSSSS..",
+        "..........................",
+        "..SSSSSCWWWWCSSSSSCCWW....",
+        "..SSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSSS...SS",
+        "...SSSSSSSSSSSSSSSSSS...SS",
+        "..SSSSSSSSSSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
     "154667": {
       "totalRows": 9,
       "totalColumns": 22,
@@ -3312,7 +3352,7 @@
                 ".....AAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAA..",
-                "......AOOAAOOAAAAAAA...",
+                "......AOOAAAAAAAAAAA...",
                 "AA....AAAAAAAAAAAAAA...",
                 "AA...AAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAAA"
@@ -4144,7 +4184,7 @@
                 ".....AAAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAAA.",
                 "AA....AAAAOOOAAAAAAAA..",
-                "AA....AAAAAAAAAAAAAAA..",
+                "AA....OOOOOAAOOOOAAAA..",
                 "AA...AAAAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -5548,6 +5588,44 @@
                 "AAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "154733"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=154626&a=0000000001&l=4112&m=resident-evil-2026&ss=False",
+              "seats": [
+                "..........................",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..........................",
+                "..?AAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAA?AAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAAA...AA",
+                "...AAAAAAAAAAAAAAAAAA...AA",
+                "..AAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "154626"
             }
           ]
         }

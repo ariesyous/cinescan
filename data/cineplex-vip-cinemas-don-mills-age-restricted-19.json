@@ -1,10 +1,42 @@
 {
-  "updatedAt": "2026-09-04T03:14:48.843Z",
+  "updatedAt": "2026-09-04T05:29:29.474Z",
   "theatre": {
     "id": 7139,
     "name": "Cineplex VIP Cinemas Don Mills (age restricted 19+)"
   },
   "auditoriums": {
+    "63261": {
+      "totalRows": 12,
+      "totalColumns": 13,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        ".SS.SS.SS....",
+        ".............",
+        "CW.SSSCWWC...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS.SS",
+        "SSSSSSSSSS.SS",
+        "SSSSSSSSSS.SS",
+        "SSSSSSSSSS.SS",
+        "SSSSSSSSSS.SS"
+      ]
+    },
     "63274": {
       "totalRows": 12,
       "totalColumns": 13,
@@ -2431,7 +2463,7 @@
                 "AAAAAAAAAAAA",
                 "AAAAOOAAAAAA",
                 "AAOOOOOOOOAA",
-                "OOOO?OAAAAOO",
+                "OOOO?OOOAAOO",
                 "............",
                 "..OAOOAAAA..",
                 "AAAOAOOOAAAA"
@@ -2839,7 +2871,7 @@
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
-                "AAAAAAAAAAAA",
+                "AAAAOOAAAAAA",
                 "AAAA?AOOAAAA",
                 "............",
                 "..OOOOAAAA..",
@@ -3116,7 +3148,7 @@
                 "AAAAOOAAAA...",
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA...",
-                "AAAAOOAAAO.AA",
+                "AAAAOOAAAA.AA",
                 "AAAAAAAAAA.AA",
                 "AAAAAAAAAA.AA",
                 "AAAAAAAAAA.AA",
@@ -3971,6 +4003,40 @@
                 "AAAAAAAAAA.AA"
               ],
               "layoutKey": "63324"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63261&a=0000000001&l=7139&m=resident-evil-2026&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAOAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAOOAAOO.AA"
+              ],
+              "layoutKey": "63261"
             }
           ]
         }

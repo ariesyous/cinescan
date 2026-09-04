@@ -1,10 +1,48 @@
 {
-  "updatedAt": "2026-09-04T03:15:03.618Z",
+  "updatedAt": "2026-09-04T05:29:47.769Z",
   "theatre": {
     "id": 7138,
     "name": "Galaxy Cinemas Sarnia"
   },
   "auditoriums": {
+    "112333": {
+      "totalRows": 15,
+      "totalColumns": 29,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "seatTypes": [
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        ".............................",
+        "CW.W.WCSSSSSSSSSSSSCW..WC....",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS....",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS....",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS....",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS....",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS....",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "DD.DDDD.DDDD.DDDD.DDDD.DD..SS",
+        "DD.DDDD.DDDD.DDDD.DDDD.DD..SS"
+      ]
+    },
     "112347": {
       "totalRows": 10,
       "totalColumns": 22,
@@ -9182,6 +9220,71 @@
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "112500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Dolby Atmos"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=112333&a=0000000004&l=7138&m=resident-evil-2026&ss=False",
+              "seats": [
+                "??AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                ".............................",
+                "AA.A.AAAAAAAAAAAAAAAA..AA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAOAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAOOAAAAAAAAAA..AA",
+                "AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
+                "AA.AAAA.AAAO.OAAO.OAAA.AA..AA"
+              ],
+              "layoutKey": "112333"
+            },
+            {
+              "time": "18:50",
+              "formats": [
+                "UltraAVX",
+                "Dolby Atmos"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=112333&a=0000000001&l=7138&m=resident-evil-2026&ss=False",
+              "seats": [
+                "??AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                ".............................",
+                "AA.A.AAAAAAAAAAAAAAAA..AA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAOAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAOOAAAAAAAAAA..AA",
+                "AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
+                "AA.AAAA.AAAO.OAAO.OAAA.AA..AA"
+              ],
+              "layoutKey": "112333"
             }
           ]
         }

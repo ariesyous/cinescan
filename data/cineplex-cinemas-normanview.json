@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T03:14:03.632Z",
+  "updatedAt": "2026-09-04T05:28:35.274Z",
   "theatre": {
     "id": 4114,
     "name": "Cineplex Cinemas Normanview"
@@ -146,6 +146,62 @@
       ]
     },
     "256052": {
+      "totalRows": 10,
+      "totalColumns": 21,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        ".....................",
+        "..SSSSSSSSSSSSSSSSS..",
+        ".....................",
+        "...WCSSSCW..WCSS.....",
+        "..SSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSS...SS",
+        "SSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "256617": {
+      "totalRows": 10,
+      "totalColumns": 21,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        ".....................",
+        "..SSSSSSSSSSSSSSSSS..",
+        ".....................",
+        "...WCSSSCW..WCSS.....",
+        "..SSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSS...SS",
+        "SSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "256618": {
       "totalRows": 10,
       "totalColumns": 21,
       "rowLabels": [
@@ -6668,7 +6724,7 @@
                 "..AAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAOAAAAAAAAAAA"
               ],
               "layoutKey": "257725"
             },
@@ -7638,7 +7694,7 @@
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
+                ".....AOOOAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -12070,6 +12126,58 @@
                 "AAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "257157"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "The Transformers: The Movie: The Apology Tour 40th Anniversary",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61934_320_470.jpg",
+          "runtimeMinutes": 96,
+          "sessions": [
+            {
+              "time": "17:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=256618&a=0000000001&l=4114&m=the-transformers-the-movie-the-apology-tour-40th&ss=False",
+              "seats": [
+                ".....................",
+                "..AAAAAAAAAAAAAAAAA..",
+                ".....................",
+                "...AAAAAOA..AAOO.....",
+                "..AAAAAAAAAAAAAA.....",
+                "..AAAAAAAOOAAAAA.....",
+                "..AAAAAAAAOAAAAA.....",
+                "..AOOAAAAAOOAAAA.....",
+                "..AAAAAAAOOOOAAA...AA",
+                "AAAAAAAAOOOOAAAAAAAAA"
+              ],
+              "layoutKey": "256618"
+            },
+            {
+              "time": "20:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=256617&a=0000000001&l=4114&m=the-transformers-the-movie-the-apology-tour-40th&ss=False",
+              "seats": [
+                ".....................",
+                "..AAAAAAAAAAAAAAAAA..",
+                ".....................",
+                "...AAAAOAA..AAAA.....",
+                "..AAAAAAOOOAAAAA.....",
+                "..AAAAAOOOOAAAAA.....",
+                "..AAAAAAOOOAAAOO.....",
+                "..AAAAAOOOOOOAAA.....",
+                "..AAAOOAAOOOOAOO...AA",
+                "AAAAAOOOOOOOAAOOOAAAA"
+              ],
+              "layoutKey": "256617"
             }
           ]
         }

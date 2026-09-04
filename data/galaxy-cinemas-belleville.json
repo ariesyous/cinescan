@@ -1,10 +1,36 @@
 {
-  "updatedAt": "2026-09-04T03:14:53.583Z",
+  "updatedAt": "2026-09-04T05:29:34.745Z",
   "theatre": {
     "id": 7409,
     "name": "Galaxy Cinemas Belleville"
   },
   "auditoriums": {
+    "186188": {
+      "totalRows": 10,
+      "totalColumns": 26,
+      "rowLabels": [
+        null,
+        "A",
+        null,
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        null
+      ],
+      "seatTypes": [
+        "..........................",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..........................",
+        "...SS...WCSWWCW..SCW..S...",
+        "...SSSSSSSSSSSSSSSSSSSS...",
+        "...SSSSSSSSSSSSSSSSSSSS...",
+        "...SSSSSSSSSSSSSSSSSSSS...",
+        "...SSSSSSSSSSSSSSSSSSSS...",
+        "...D.DD.DDD.DD.DDD.DD....."
+      ]
+    },
     "186207": {
       "totalRows": 13,
       "totalColumns": 24,
@@ -4815,7 +4841,7 @@
                 "...AA...AAAAAAA..AAA..A...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAAAAA?AAAAAA?...",
-                "...AAOOAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...A.AA.AAA.AA.AAA.AA....."
               ],
@@ -4834,7 +4860,7 @@
                 "...AA...AAAAAAA..AAA..A...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAAAAA?AAAAAA?...",
-                "...AAOOAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...A.AA.AAA.AA.AAA.AA....."
               ],
@@ -5653,7 +5679,7 @@
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAA?AAA..",
                 "....AAAAAAAAAAAAAAA..",
-                "....AAAAA???AAAAAAA..",
+                "....AOOAA???AAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAA."
               ],
@@ -6329,7 +6355,7 @@
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAOOOAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAOOOAAAAAA....",
+                "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAA.."
               ],
@@ -7195,7 +7221,7 @@
                 "...AAAA.AAAAAAAA.....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
+                "..AAAAAAAOOAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAA.."
@@ -9537,6 +9563,57 @@
                 ".AAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "186378"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "D-BOX",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=186188&a=0000000004&l=7409&m=resident-evil-2026&ss=False",
+              "seats": [
+                "..........................",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..........................",
+                "...AA...AAAAAAA..AAA..A...",
+                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAA?AAAAAAAA?AAAAAA?...",
+                "...AAAAAAAAAAAAAAAAAOOO...",
+                "...OOAAAAAAAAAAAAAAAAAA...",
+                "...A.AA.AAO.OO.OAA.AO....."
+              ],
+              "layoutKey": "186188"
+            },
+            {
+              "time": "18:50",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=186188&a=0000000001&l=7409&m=resident-evil-2026&ss=False",
+              "seats": [
+                "..........................",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..........................",
+                "...AA...AAAAAAA..AAA..A...",
+                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAA?AAAAAAAA?AAAAAA?...",
+                "...AAAAAAAAAAAAAAAAAOOO...",
+                "...OOAAAAAAAAAAAAAAAAAA...",
+                "...A.AA.AAO.OO.OAA.AO....."
+              ],
+              "layoutKey": "186188"
             }
           ]
         }

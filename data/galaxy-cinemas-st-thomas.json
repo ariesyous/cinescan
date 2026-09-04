@@ -1,10 +1,48 @@
 {
-  "updatedAt": "2026-09-04T03:15:04.639Z",
+  "updatedAt": "2026-09-04T05:29:48.073Z",
   "theatre": {
     "id": 7267,
     "name": "Galaxy Cinemas St. Thomas"
   },
   "auditoriums": {
+    "129978": {
+      "totalRows": 15,
+      "totalColumns": 27,
+      "rowLabels": [
+        null,
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        "...........................",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS.",
+        "...........................",
+        ".....WCSSSSSCWWCSSSSSCW....",
+        "....SSSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSS...",
+        "SS...SSSSSSSSSSSSSSSSSSS...",
+        "SS..SSSSSSSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
     "130017": {
       "totalRows": 15,
       "totalColumns": 27,
@@ -6863,6 +6901,43 @@
                 "AAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "130105"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129978&a=0000000001&l=7267&m=resident-evil-2026&ss=False",
+              "seats": [
+                "...........................",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA.",
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAA...",
+                "AA...AAAAAAAAAAAAAAAAAAA...",
+                "AA..AAAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "129978"
             }
           ]
         }

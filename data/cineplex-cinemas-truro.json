@@ -1,10 +1,48 @@
 {
-  "updatedAt": "2026-09-04T03:14:17.255Z",
+  "updatedAt": "2026-09-04T05:28:51.944Z",
   "theatre": {
     "id": 5140,
     "name": "Cineplex Cinemas Truro"
   },
   "auditoriums": {
+    "99613": {
+      "totalRows": 15,
+      "totalColumns": 25,
+      "rowLabels": [
+        null,
+        "DD",
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        ".........................",
+        ".SSSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSSS.",
+        ".........................",
+        "....WCSSSSSSSSSSSSCW.....",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "........................."
+      ]
+    },
     "99628": {
       "totalRows": 15,
       "totalColumns": 25,
@@ -7410,6 +7448,43 @@
                 "..................."
               ],
               "layoutKey": "99750"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "19:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=99613&a=0000000001&l=5140&m=resident-evil-2026&ss=False",
+              "seats": [
+                ".........................",
+                ".AAAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAAA.",
+                ".........................",
+                "....AAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAA...",
+                "..AAA?AAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA?A...",
+                "..AAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAOOAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAA...",
+                "........................."
+              ],
+              "layoutKey": "99613"
             }
           ]
         }
