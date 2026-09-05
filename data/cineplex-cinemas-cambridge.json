@@ -1,36 +1,10 @@
 {
-  "updatedAt": "2026-09-05T22:00:40.541Z",
+  "updatedAt": "2026-09-05T22:38:17.944Z",
   "theatre": {
     "id": 7269,
     "name": "Cineplex Cinemas Cambridge"
   },
   "auditoriums": {
-    "222664": {
-      "totalRows": 9,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "......................",
-        ".......SSSSSSSS.......",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "...SSCWCCWWCCWCSSSS...",
-        "......................"
-      ]
-    },
     "222665": {
       "totalRows": 9,
       "totalColumns": 22,
@@ -269,34 +243,6 @@
         "...SSSSSSSSSSSS...",
         "....SSSSSSSSSS....",
         "...SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS..",
-        "...CWWCCWCCWCSS...",
-        ".................."
-      ]
-    },
-    "222685": {
-      "totalRows": 10,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "..................",
-        "....SSSSSSSSSS....",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSS..",
@@ -2791,9 +2737,9 @@
               "seats": [
                 "..........................",
                 "...??AAAAAAAAAAAAAAAAAA...",
-                "...OOOOOOOAAAAAAAAAAAAA...",
-                "...AAOOOOOAAOOOOOOOOOAAA..",
-                "...OAAOOOOOOOOOOOOOOOOAA..",
+                "...AAAAAAOOOOOOOOOOAAAA...",
+                "...AAOOOOOOOOOOOOOOOOOOO..",
+                "...OOOOOOOOOOOOOOOOOOOOO..",
                 "...OOOOOOOOOOOOOOOOOOOOO..",
                 "...OOOOOOOOOOOOOOOOOOOOO..",
                 "........AAOOAAAAAAAAAOOO..",
@@ -2812,10 +2758,10 @@
                 "..........................",
                 "...??AAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAA..",
-                "...OOOOAOOAAOOAAOOOOOOOA..",
+                "...AAAAAAAAOOOOAAAAAAAAA..",
+                "...AAOOOOOAAOOAAOOOOOOOA..",
                 "...OOOOOOOOOAOOOAOOOAAOO..",
-                "...OOOOOOOOOOOOOOOOOOOOA..",
+                "...OOOOOAAOOOOOOOOOOOOOA..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
               ],
@@ -2829,25 +2775,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "18:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=222664&a=0000000001&l=7269&m=the-odyssey&ss=False",
-              "seats": [
-                "......................",
-                ".......AAAOOAAA.......",
-                "..OOOAOOOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOO..",
-                "..OOOO?OOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOO..",
-                "...OOAAOOAAOOAAOOOO...",
-                "......................"
-              ],
-              "layoutKey": "222664"
-            },
-            {
               "time": "22:00",
               "formats": [
                 "Recliner"
@@ -2857,8 +2784,8 @@
                 "......................",
                 ".......AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAOOAAAAAAA..",
-                "..AOOO?OOOOOOOOOOOOA..",
+                "..AAAAAAOOAOOAAAAAAA..",
+                "..AOOO?OOOOOOOOOOAAA..",
                 "..OOOOOOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOOOOOO..",
                 "...OOAAAAAAAAAAOOOO...",
@@ -2882,9 +2809,9 @@
               "seats": [
                 "......................",
                 "......??????????......",
-                "OOO...OOOAAAAOOAAAA...",
+                "OOO...OOOOOOOOOOOOO...",
                 "AOO...OOOOAOOOOOOOO...",
-                "OOOO..OOOOOOAOOOOOOO..",
+                "OOOO..OOOOOOOOOOOOOO..",
                 "OOOO..OOOOOOOOOOOOOO..",
                 "OOOO..OOOOOOOOOOOOOO..",
                 "OOOO..OOOOOOOOOOOOOO..",
@@ -2903,7 +2830,7 @@
                 "......................",
                 "......??????????......",
                 "AAA...AAAAAAAAAAAAA...",
-                "AAA...OOAAAAAAAAAAA...",
+                "AAA...OOAOOOOOOOOOO...",
                 "AAOO..OOOOOOOOOOOOOA..",
                 "OOOO..OOOOOOOOOOOOOO..",
                 "OOOO..OOOOOOOOOOOOOO..",
@@ -2950,8 +2877,8 @@
                 "..................",
                 "...???AAAAAAAAA...",
                 "....AAAAAAAAAA....",
-                "...AAAAAOOOAAAAA..",
-                "..AAAAAOOOOOAAOO..",
+                "...OOAAAOOOAAAAA..",
+                "..AAAOOOOOOOAAOO..",
                 "..AAOOOOOOOOAAOO..",
                 "..AOOOOOOOOOOOOO..",
                 "..OAOOAOOOOOOOOO..",
@@ -2979,7 +2906,7 @@
                 "....AAAAAAAAAAAAAA....",
                 "...AAAAAAOOOOAAAAAAA..",
                 "..AAOOAAOOOOOOOOOAAA..",
-                "..OOOOOOOOOOAOOOOOOO..",
+                "..OOOOOOOOOOOOOOOOOO..",
                 "..OOOOOAOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOOOOOO..",
                 "....AAAAAAAAAAAAAOO...",
@@ -2998,10 +2925,10 @@
                 "......AAAAAAAAAAA.....",
                 "....AAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAA..",
-                "..AAAOOAAAOOAAAAAAAA..",
-                "..AAAAAAOOOOAAOOAAOO..",
+                "..AAAOOOOOOOAAAAAAAA..",
+                "..OOAAAAOOOOOOOOAAOO..",
                 "..OOOOOOOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOA..",
+                "..OOOOOOOOOOOOAOOOOA..",
                 "....AAAAAAAAAAAAAOO...",
                 "......................"
               ],
@@ -3015,26 +2942,6 @@
           "runtimeMinutes": 118,
           "sessions": [
             {
-              "time": "18:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=222685&a=0000000001&l=7269&m=the-dog-stars&ss=False",
-              "seats": [
-                "..................",
-                "....AAAAAAAAA?....",
-                "..AAAAAAAAAAAAA...",
-                "..AAAAAAOOAAAAAA..",
-                "..AAAAAOOOOOOOAA..",
-                "..AAOOOOOOOOAAOO..",
-                "..AAOOOOOOOOOOAA..",
-                "..OOOOOOOOOOAAOO..",
-                "...AAAOOAAAAAOO...",
-                ".................."
-              ],
-              "layoutKey": "222685"
-            },
-            {
               "time": "21:30",
               "formats": [
                 "Recliner"
@@ -3047,7 +2954,7 @@
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAOOAAAAAA..",
                 "..AAAAAAOOAAAAAA..",
-                "..AAAAAAAOAAAAAA..",
+                "..AAAAOOAOAAAAAA..",
                 "..AAAAAAOOOOAAOO..",
                 "...OAAAAAAAAAOO...",
                 ".................."
@@ -3225,12 +3132,12 @@
                 "......................",
                 "......??????????......",
                 "AAA...AAAAAAAAAAAAA...",
-                "AAA...AAAAAOOOOAAAA...",
+                "AAA...AAAOOOOOOAAAA...",
                 "AAOO..OOAAOOOOAAOOAA..",
                 "OOOO..OOOOOOOOOOOOOO..",
                 "AOOO..OOOOOOOOOOOOOO..",
                 "AOOO..OOOOOOOOOAOOOO..",
-                ".......AA.AAAAAAAAA...",
+                ".......AA.AAAAAOOAO...",
                 "......................"
               ],
               "layoutKey": "222759"
@@ -3245,8 +3152,8 @@
                 "......................",
                 "......??????????......",
                 "AAA...AAAAAAAAAAAAA...",
-                "AAA...AAAAAAAAAAAAA...",
-                "AAAA..AAAAOOOOOOOOOO..",
+                "AAA...AAAAAOOAAAAAA...",
+                "AOOO..AAAAOOOOOOOOOO..",
                 "AOOO..AAOOOOOOOOAAAA..",
                 "OOOO..AOOOOOOOOOOOOA..",
                 "OOOO..OOOOOOOOOOOAOO..",
@@ -3265,7 +3172,7 @@
                 "......................",
                 "......??????????......",
                 "AAA...AAAAAAAAAAAAA...",
-                "AAA...AAAAAAAAAAAAA...",
+                "AAA...AAAAAOOAAAAAA...",
                 "OOOO..OOOOOOOAAAAAAA..",
                 "AAOO..OOOOOOOOOOAOOO..",
                 "OOOO..AAOOOOOOOOOOOO..",
@@ -3285,9 +3192,9 @@
                 "......................",
                 "......??????????......",
                 "AAA...AAAAAAAAAAAAA...",
-                "AAA...AAAAAAAAAAAAA...",
+                "AAA...AAAAAOOAAAAAA...",
                 "AAAA..AAAAAOAAOOOAAA..",
-                "AAOO..AAAAOOAAAAAAAA..",
+                "AAOO..OOAAOOAOOOAAAA..",
                 "AAAA..OOAAOOOOOOOAAA..",
                 "AAAA..AAAAOOOOOAAAOO..",
                 ".......AA.AAAAAAAAA...",
@@ -3313,7 +3220,7 @@
                 "...???AAAAAAAAA...",
                 "....AAAAAAAAAA....",
                 "...AAAAOOOOAAAAA..",
-                "..AAAAAAOOOOOOOO..",
+                "..AAAAOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOO..",
@@ -3383,7 +3290,7 @@
                 "..AAAAAAAAAAAAAOOAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAOOOAAOOAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAA..",
+                "..AAAAAAAOOOAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA...",
                 "......................"
               ],
@@ -3404,7 +3311,7 @@
                 "..AAAAAAAAOOAAAAAAAA..",
                 "..AAAOOOOOOOOAAAAAOO..",
                 "..AAAOOAOOOOOOAAAAAA..",
-                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAOO...",
                 "......................"
               ],
               "layoutKey": "222772"
@@ -4188,7 +4095,7 @@
                 "AAA...AAAAAAAAAAAAA...",
                 "AAAA..AAAAAAAAAAAAAA..",
                 "AAAA..AAAAOOAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..OOAAAAAAAAAAAA..",
                 "AAAA..AAAAAAAAAAAAAA..",
                 ".......AA.AAAAAAAAA...",
                 "......................"

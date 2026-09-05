@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T22:01:50.281Z",
+  "updatedAt": "2026-09-05T22:39:46.785Z",
   "theatre": {
     "id": 7288,
     "name": "Galaxy Cinemas Collingwood"
@@ -658,42 +658,6 @@
       ]
     },
     "141716": {
-      "totalRows": 14,
-      "totalColumns": 27,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...........................",
-        "..SSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSS..",
-        "...........................",
-        "....CW...WCW...WCCW...WC...",
-        "....SSSSSSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSSSS.....",
-        "SS..SSSSSSSSSSSSSSSSSS.....",
-        "SS..SSSSSSSSSSSSSSSSSSSS...",
-        "SS..SSSSSSSSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "141717": {
       "totalRows": 14,
       "totalColumns": 27,
       "rowLabels": [
@@ -3588,15 +3552,15 @@
                 "...............................",
                 "....AA.....AAAA...AAAAAA....AA.",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAOOOOAAAAAAAAAAAA.",
+                "....AAAAAAAAAAAAAAAAOOOAAAAAAA.",
                 "....AAAAAAAAAAOOOAAAAAAAAAAAAA.",
-                "....AAAAAAAAAAAAAOOAAAAAAAAAAA.",
-                "....OOAAAOOOOOOOOAAAAAAAAAA....",
-                "OO..AAAAAAAAAAAAAAAAAAAOOOO....",
-                "AA..AAAAAOOOOAAAAAAAAAAAAAAAAA.",
-                "AA..AAAAAAAAAAOOOOAAAAAOOOOAAA.",
-                "AA..AAAAAAAOOAAOOAAAOOAAAAAAAA."
+                "....AAAAAOOAAAAAAOOAAAAOOOAAAA.",
+                "....OOAAAOOOOOOOOAAAOOAAAAA....",
+                "OO..AAOOOOOOAAAOOOOAOOAOOOO....",
+                "OA..AAAAAOOOOAAOOOOOOAAAAAAAAA.",
+                "OO..AAAOOAAAAAOOOOAAAAAOOOOAAA.",
+                "OA..OOAAAAAOOAAOOAAAOOAAAAAAAA."
               ],
               "layoutKey": "141721"
             },
@@ -3646,7 +3610,7 @@
                 ".....AAAAAAAOOAAAOOO....",
                 ".....OOOOOOOAAOOAAOO..OO",
                 "...OOAAAAAAAOOAAAAAA..AA",
-                ".AAOOOOAAOOOOOOAAAOOAAOO"
+                ".OOOOOOAAOOOOOOAAAOOAAOO"
               ],
               "layoutKey": "141731"
             }
@@ -3657,30 +3621,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
           "sessions": [
-            {
-              "time": "18:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=141717&a=0000000001&l=7288&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...........................",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "...........................",
-                "....AA...AAA...AAAA...AA...",
-                "....AAAAAAAAAAAAAAAAAAAA...",
-                "....AOOOOOOOAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAAAAAA...",
-                "....AAAOOOAAOOAAAAAAAA.....",
-                "OO..AAAAAAOOOAAAOOOOOO.....",
-                "AA..AAAAAOOAAAAAAAAAAAAA...",
-                "OO..AAAAAAAAOOAAOOOAAAAA...",
-                "AAAAAAAOOAAAAOOAAAAAAAAAAOO"
-              ],
-              "layoutKey": "141717"
-            },
             {
               "time": "21:00",
               "formats": [
@@ -3726,7 +3666,7 @@
                 "....AAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAA..",
+                "....AOOAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAOOAAAA..",
                 "AAAOAAAAAOOOOAAAAAAA"
@@ -3774,7 +3714,7 @@
                 "....AA....AAA..AA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "....AAAAAAOOAAAAA..",
+                "....AAAOAAOOAAAAA..",
                 "....AAAOAAOOOAAOO..",
                 "AA..OOAAAAOAAAAOO..",
                 "AA..AAAAOOA??AAAA..",
@@ -3825,9 +3765,9 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAOOAAAAAOO....",
-                "..AAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAOOAAAAAAA..AA",
-                "AAOOOAAAAAOOAAAAAAAAAA"
+                "..AAAAAAAAAAOOAAAA..AA",
+                "..AAOOAAAOOAAOOAAA..AA",
+                "AAOOOAAAOOOOAAOOOOAAAA"
               ],
               "layoutKey": "141736"
             },
@@ -3877,9 +3817,9 @@
                 "..AAAAAAAAAAA....",
                 "..AAAAAAAAAAA....",
                 "..AAAAAAAAAAA....",
-                "..AAAAAAAAAAA....",
+                "..AAAAAOOOOAA....",
                 "..AAAAAAAAAAA..AA",
-                "AAAAAAAAAAAOOAAAA"
+                "AAAAAAOOAAAOOAAAA"
               ],
               "layoutKey": "141728"
             },
