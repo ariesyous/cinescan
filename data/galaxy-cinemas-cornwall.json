@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T22:04:50.453Z",
+  "updatedAt": "2026-09-06T22:40:33.231Z",
   "theatre": {
     "id": 7262,
     "name": "Galaxy Cinemas Cornwall"
@@ -885,44 +885,6 @@
         "SS..SSSSSSSSSSSSSSSSSSSSSSSSS...",
         "SS..SSSSSSSSSSSSSSSSSSSSSSSSS...",
         "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "171109": {
-      "totalRows": 15,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        ".......................",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSCWWCSSSSS..",
-        ".......................",
-        "......WWCSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "171115": {
@@ -2806,31 +2768,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "18:10",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171109&a=0000000001&l=7262&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAA..",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAA....",
-                "...AAAAAAAOOAAAAAAA....",
-                "...AAAAAOOAAAAAAAAA....",
-                "...AAAAAAAOOAAAAAAA....",
-                "...OOAAAOOOOAAAAAAA....",
-                "...AAAAAAAOOAAA?AAA..?A",
-                "...AAAAAAAAAAOOAAAA..AA",
-                "...OOAAA?A?A?AAAAAA..OO",
-                "AAAAAAAAAAOOAAAOOOOOAAA"
-              ],
-              "layoutKey": "171109"
-            },
-            {
               "time": "21:30",
               "formats": [
                 "3D"
@@ -2850,7 +2787,7 @@
                 "...AAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAA?AAA..?A",
                 "...AAAAAAAAAAAAAAAA..AA",
-                "...AAAAA?A?A?AAAAAA..AA",
+                "...AAAAA?A?A?AAAAOO..AA",
                 "AAAAAOOAAAOOOOAAAAAAAAA"
               ],
               "layoutKey": "171115"
@@ -2877,7 +2814,7 @@
                 "......................",
                 "....AAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAOOAAAAA.....",
                 "..AAAAAAOOOOAAAAA.....",
                 "..AAAAAAOOAAAAAAA.....",
                 "..AAAAAAOO?AAAAAA...OO",
@@ -2907,12 +2844,12 @@
                 "....AAAAAAAAA..AAAAA....",
                 "..AAAAAAAAOOOAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AOOOOOOOOOAAAAAAAA....",
-                "..AAAAAAAAA?AAAAAAAA..OO",
-                "..AAAAAAAAOAAAAAAAAA..OO",
-                "..OOOOOOAAAOOAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAA?OOO"
+                "..AAAAAAAAOOAAAAAOOO....",
+                "..AOOOOOOOOOAAAAOOOO....",
+                "..AAAAAOOOO?OAAAAAOO..OO",
+                "..OOOAAAAAOAAAOOOOAA..OO",
+                "..OOOOOOAAAOOAAAOOOO..AA",
+                "AAAAAAAAAOOAAAAOOOAA?OOO"
               ],
               "layoutKey": "171105"
             },
@@ -2966,9 +2903,9 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA...",
                 "....AA?AA?AAAAAAAAAAAAAAAAAAA...",
-                "AA..AAAAAAAAAAAAOAAAAAAAAAAA?...",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "AA..?AAAAAAAAAOOAAOOAA?AAAAAA...",
+                "OO..AAAAAAAAAAAAOAAAAAAAAAAA?...",
+                "AA..AAAAAAAAAAAAOOAAAAAAAAAAA...",
+                "OO..?AAAAAAAAAOOAAOOAA?AAAAAA...",
                 "AAA???AAAAAAAAAAOOAAAAAAAAAAAAAA"
               ],
               "layoutKey": "171107"
@@ -3022,10 +2959,10 @@
                 "..AAAAAAAAAAAAAAAAA....",
                 "..??????AAAOOAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
-                "..????????AAAAOOOAA..AA",
+                "..????????AOOAOOOAA..OO",
                 "..AA??????AAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
-                "AAAAAA?AAAAAOAAAAOO?AAA"
+                "AAAAAA?AAAOOOAAOAOO?AAA"
               ],
               "layoutKey": "171103"
             },
@@ -3074,10 +3011,10 @@
                 "....??AAAAAAAAAAAAAAA..",
                 "....??AAAAAAAAAAAAAAA..",
                 "....??AAAAAAOOAAAAOOO..",
-                "....??AAAAAAAAAAAAA?A..",
-                "??..??OOOAAAAAOOAAAAA..",
+                "....??AAAAAAAOOAAAA?A..",
+                "??..??OOOOAAAAOOAAAAA..",
                 "??..??AAAAOOAAAAAAAAA..",
-                "??..??AAAAAAAAAAOOAAA..",
+                "??..??OOAAAAAAAAOOAAA..",
                 "??????AAAOOOOOAAOOOAAOO"
               ],
               "layoutKey": "171119"
@@ -3123,12 +3060,12 @@
                 "..AAAAAAAAAAAAAAAAAA..",
                 "......................",
                 "......AAAAAAAAAAAA....",
-                "...OOOOAAAAAAAAAAA....",
+                "...OOOOAAAAOAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA..OO",
-                "A?AAAAAAAAOOAAAAAAAAAA"
+                "A?AAAAOOAAOOAAOOAAAAAA"
               ],
               "layoutKey": "171117"
             },
@@ -3604,7 +3541,7 @@
                 "??..??AAAAAAAAAAAAAAA..",
                 "??..??AAAAAAAAAAAAAAA..",
                 "??..??AAAAAAAAAAAAAAA..",
-                "??????AAAAAAAAAAAAAAAAA"
+                "??????AAAAAAOOOAAAAAAAA"
               ],
               "layoutKey": "171134"
             }

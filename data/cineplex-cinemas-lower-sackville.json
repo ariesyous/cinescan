@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T22:03:52.392Z",
+  "updatedAt": "2026-09-06T22:39:49.889Z",
   "theatre": {
     "id": 5119,
     "name": "Cineplex Cinemas Lower Sackville"
@@ -75,38 +75,6 @@
         "SSSSSSSSSSSSSSSSS"
       ]
     },
-    "96938": {
-      "totalRows": 12,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "...................",
-        ".SSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSS.",
-        "...................",
-        "...WWWCSSSSSSCWWW..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS"
-      ]
-    },
     "96939": {
       "totalRows": 12,
       "totalColumns": 19,
@@ -137,38 +105,6 @@
         "...SSSSSSSSSSSSSS..",
         "...SSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "96942": {
-      "totalRows": 12,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "....................",
-        ".SSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS..",
-        "....................",
-        "....WWWCSSSSSSCWWW..",
-        "....SSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS."
       ]
     },
     "96943": {
@@ -2624,12 +2560,12 @@
                 "..AAAAAAAAAAAAAA.",
                 ".................",
                 "..AAAAAAAAAAAAAA.",
+                "..AAAAAAOOAAAAAA.",
                 "..AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAA.",
-                "..AAAAAOOOOOAAAA.",
+                "..AOAAAOOOOOAAAA.",
                 "..AAAAAAOOAAAOOO.",
-                "..AAAAAAAAAAAAAA.",
-                "AAAAAAOOOOOAAAAAA"
+                "..AAAAAAAOOOOAAA.",
+                "AAAAAAOOOOOAAAAOO"
               ],
               "layoutKey": "96935"
             }
@@ -2658,7 +2594,7 @@
                 "....AAAAAAAAAAAAAA..",
                 "....AAAAAOAAAAAAAA..",
                 "....AAAAAAAAAAAAAA..",
-                "..AAAAAAAOAAAAAAOOO."
+                "..OOOAAAAOAAAAAAOOO."
               ],
               "layoutKey": "96951"
             }
@@ -2709,13 +2645,13 @@
                 ".?AAAAAAAAAA?AAAAA..",
                 ".AAAAAAAAAAAAAAAAA..",
                 "....................",
-                "....AAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAA..",
-                "....AAAAAAOAAAAAAA..",
-                "....OOAAAOOOOAAAAA..",
-                "....AAAAAAAAAAAAAA..",
-                "....AAAAAAOOAAOOAA..",
+                "....AAAAAOOAAAAAAA..",
+                "....OOAAAAAAAAAOOO..",
+                "....OOAAOOOOOOAAAA..",
+                "....AAOOAAOAAAOOOO..",
+                "....OOAAOOOOOAOOOO..",
+                "....AAOOOAOOOOOOOO..",
+                "....OAAOAAOOAAOOAA..",
                 "..OOOAAAOOAAOOOAAOO."
               ],
               "layoutKey": "96955"
@@ -2764,7 +2700,7 @@
                 "....AAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAA..",
-                "....AAAAAAOOAAAAAA..",
+                "....OOAAAAOOAAAAAA..",
                 "....AAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAA..",
                 "..OOAAAAAAAAAAAAAAA."
@@ -2778,28 +2714,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
           "sessions": [
-            {
-              "time": "19:05",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=96942&a=0000000001&l=5119&m=the-dog-stars&ss=False",
-              "seats": [
-                "....................",
-                ".AAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAA..",
-                "....................",
-                "....AAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAA..",
-                "....AAAAAAOOOAAAAA..",
-                "....OOAAAAAAOOAAAA..",
-                "....AAAAAOOAAAAAAA..",
-                "....AAOOAAAAAAAAOO..",
-                "..OOAAAAAA?OAAAAAOO."
-              ],
-              "layoutKey": "96942"
-            },
             {
               "time": "21:50",
               "formats": [
@@ -2853,35 +2767,6 @@
                 "...AAAAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "96931"
-            }
-          ]
-        },
-        {
-          "title": "Cars 20th Anniversary",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62034_320_470.jpg",
-          "runtimeMinutes": 117,
-          "sessions": [
-            {
-              "time": "19:15",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=96938&a=0000000001&l=5119&m=cars-20th-anniversary&ss=False",
-              "seats": [
-                "...................",
-                ".AAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAA.",
-                "...................",
-                "...AAAAAAAAAAAAAA..",
-                "...OOOOAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAA?OOOOAAAAA..",
-                "...AAAAAAOOAAAAAA..",
-                "...OOOOOAAAAAAAOO..",
-                "..OOAAOOOOOAAOOOOOO"
-              ],
-              "layoutKey": "96938"
             }
           ]
         }
@@ -3208,7 +3093,7 @@
                 ".AAAAAAAAAAAAAAAAA..",
                 "....................",
                 "....AAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAOOO..",
                 "....AAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAA..",

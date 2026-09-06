@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T22:04:17.209Z",
+  "updatedAt": "2026-09-06T22:40:08.548Z",
   "theatre": {
     "id": 5140,
     "name": "Cineplex Cinemas Truro"
@@ -681,38 +681,6 @@
         "........................."
       ]
     },
-    "99676": {
-      "totalRows": 12,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "...................",
-        ".SSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSS....",
-        "...................",
-        "....WCSSSSSSCW.....",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSSS.",
-        "..................."
-      ]
-    },
     "99677": {
       "totalRows": 12,
       "totalColumns": 19,
@@ -777,38 +745,6 @@
         "..SSSSSSSSSSSSSS...",
         ".SSSSSSSSSSSSSSSSS.",
         "..................."
-      ]
-    },
-    "99684": {
-      "totalRows": 12,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "...................",
-        ".SSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSS.",
-        "...................",
-        "....WCSSSSSSCW.....",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSSS."
       ]
     },
     "99685": {
@@ -2803,7 +2739,7 @@
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAA?AAA...",
                 "..AAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAOOAAAAAAAA.",
                 "..................."
               ],
               "layoutKey": "99681"
@@ -2882,7 +2818,7 @@
                 "....AAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
-                "..A?AAAAAAAAAAAA...",
+                "..A?AAAAOOAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
                 ".AAAAAAAOOAAAAAAAA.",
@@ -2911,11 +2847,11 @@
                 "....AAAAAOOOAA.....",
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAOAAAAAAA...",
-                "..AAAAOOAAAAAAAA...",
-                ".AAAAAAAOOAAAAAAAA.",
+                "..OAAAAAAAAAAAAA...",
+                "..OAOOOOOAAAAAAA...",
+                "..AOOAAAOAAOOAAA...",
+                "..AAAAOOAAAAOOOO...",
+                ".OOAAAAAOOAAOOAOOA.",
                 "..................."
               ],
               "layoutKey": "99688"
@@ -2983,28 +2919,6 @@
           "runtimeMinutes": 118,
           "sessions": [
             {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=99684&a=0000000001&l=5140&m=the-dog-stars&ss=False",
-              "seats": [
-                "...................",
-                ".AAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAA.",
-                "...................",
-                "....AAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAO...",
-                "..OOAAAOOOAOOAAA...",
-                "..AAAAAAOOAAAAOO...",
-                "..OOOOOAAAOOOOAA...",
-                "..AAAAAAAAAAAAOO...",
-                ".OOAOOOAAOOOOOOOAA."
-              ],
-              "layoutKey": "99684"
-            },
-            {
               "time": "21:45",
               "formats": [
                 "Regular"
@@ -3025,35 +2939,6 @@
                 ".AAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "99685"
-            }
-          ]
-        },
-        {
-          "title": "Cars 20th Anniversary",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62034_320_470.jpg",
-          "runtimeMinutes": 117,
-          "sessions": [
-            {
-              "time": "19:10",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=99676&a=0000000001&l=5140&m=cars-20th-anniversary&ss=False",
-              "seats": [
-                "...................",
-                ".AAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAA....",
-                "...................",
-                "....AAAAAAAAAA.....",
-                "..AAAAAAAAAOOAAA...",
-                "..AAAAAAOOOAAAAA...",
-                "..A?AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                ".OOAOOAAOOAAAAOOOO.",
-                "..................."
-              ],
-              "layoutKey": "99676"
             }
           ]
         }
