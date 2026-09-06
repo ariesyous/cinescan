@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T19:55:12.565Z",
+  "updatedAt": "2026-09-06T21:12:47.409Z",
   "theatre": {
     "id": 4112,
     "name": "Galaxy Cinemas Prince Albert"
@@ -643,32 +643,6 @@
         "..SSSSSSSSSSSSSSSSSSSS..SS",
         "..SSSSSSSSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "154668": {
-      "totalRows": 9,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "......................",
-        "SSSSSSSSSSSSSSSSSSSS..",
-        "......................",
-        "WWCSSSSSSCWWWWCSS.....",
-        "SSSSSSSSSSSSSSSSS.....",
-        "SSSSSSSSSSSSSSSSS.....",
-        "SSSSSSSSSSSSSSSSS.....",
-        "SSSSSSSSSSSSSSSSS.....",
-        "SSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "154669": {
@@ -1819,38 +1793,6 @@
         "SSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "154782": {
-      "totalRows": 12,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "......................",
-        "..SSSSSSSSSSSSSSSSSSS.",
-        "......................",
-        "....SSCWWWWCSSSSSCWW..",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "154783": {
       "totalRows": 12,
       "totalColumns": 22,
@@ -2430,12 +2372,12 @@
                 "..AAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAOOOO....",
                 "..AAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAOOAA...OO",
-                "...AAAAAAAAAAAAAAAAAA...OO",
-                "..AAAAAAAAAAAAAAAAAAAO..AA",
+                "..AAAAOOAAAAAAAAAAOOOO....",
+                "...AAAAAAAAOOOAAAAOAA...OO",
+                "...AAAAAAAAAAOAAAAAAA...OO",
+                "..OOAAAAAAAAAAAAAAAAAO..AA",
                 "..AAAAAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAOOAAAAAAAAAAAAA"
+                "AAOOAOOAAAAOOAAOOAAAOOOAAA"
               ],
               "layoutKey": "154779"
             },
@@ -2480,7 +2422,7 @@
                 ".....AAAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAAA.",
+                ".....OOOOOAAAAAAAAAAAA.",
                 "AA....AAAAAAAAAAAAAAA..",
                 "AA....AAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAAA.",
@@ -2514,7 +2456,7 @@
                 "AA....AAAAAOOOAAAAAAA..",
                 "AA....AAAAAAAAOOAAAAA..",
                 "OO...AAAAAAAAAAAAAAAAA.",
-                "OOOAAAAAAAAAAAAAAAAAAAA"
+                "OOOAAAAAAAAAAOOAAAAOOOO"
               ],
               "layoutKey": "154795"
             },
@@ -2575,28 +2517,6 @@
           "runtimeMinutes": 98,
           "sessions": [
             {
-              "time": "13:55",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=154782&a=0000000001&l=4112&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAAA.",
-                "......................",
-                "....AAAAAAAAAAAAAAAA..",
-                "....AAAAAOOOAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAA..",
-                "AA..AAAAAOAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAOOAAAAAAAAA"
-              ],
-              "layoutKey": "154782"
-            },
-            {
               "time": "16:30",
               "formats": [
                 "Regular"
@@ -2634,7 +2554,7 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAOOAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAOOOOAAAAAAAA"
               ],
@@ -2731,7 +2651,7 @@
                 "......AOOOOOAAAAAAAA...",
                 "AA....AAAAAOOAAAAAAA...",
                 "AA...AAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAOOOAAAAAAAAAAA"
               ],
               "layoutKey": "154791"
             },
@@ -2749,7 +2669,7 @@
                 ".....AAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAA..",
-                "......AAAAAAAAAAAAAA...",
+                "......AOOAAAAAAAAAAA...",
                 "AA....AAAAAAAAAAAAAA...",
                 "AA...AAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAAA"
@@ -2828,25 +2748,6 @@
           "runtimeMinutes": 89,
           "sessions": [
             {
-              "time": "14:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=154668&a=0000000001&l=4112&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                "......................",
-                "AAAAAAAAAAAAAAAAAAAA..",
-                "......................",
-                "AAAAAAAAAAAAAAAAA.....",
-                "AAAAAAAAAAAAAAAAA.....",
-                "AAAAAAAAAAAAAAAAA.....",
-                "AOOOOOOOOOAAAAAAA.....",
-                "AAAAAAAAAAOOOAAAA.....",
-                "AAAAAAAAOOAAAAAAAAAAAA"
-              ],
-              "layoutKey": "154668"
-            },
-            {
               "time": "16:30",
               "formats": [
                 "Regular"
@@ -2860,8 +2761,8 @@
                 "AAAAAAAAAAAAAAAAA.....",
                 "AAAAAAAAAAAAAAAAA.....",
                 "AAAAAAAAAAAAAAAAA.....",
-                "AAAAAAAOOOAAAAAAA.....",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAOOOOOAAAAA.....",
+                "AAAAAAAAAAAAOOOOOAAAAA"
               ],
               "layoutKey": "154669"
             }
@@ -2885,7 +2786,7 @@
                 "..AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA..",
+                "..AAAAAAOOOOOAAAAAA..",
                 "..AAAAAAAOOAAOOOOOAAA"
               ],
               "layoutKey": "154787"

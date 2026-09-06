@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T19:54:21.474Z",
+  "updatedAt": "2026-09-06T21:12:00.754Z",
   "theatre": {
     "id": 5114,
     "name": "Cineplex Cinemas New Glasgow"
@@ -713,34 +713,6 @@
         ".SSSSSSSSSSSSSS."
       ]
     },
-    "95620": {
-      "totalRows": 10,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "................",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        "................",
-        ".....WCSSSSCW...",
-        "..SSSSSSSSSSS...",
-        "..SSSSSSSSSSS...",
-        "..SSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSS."
-      ]
-    },
     "95621": {
       "totalRows": 10,
       "totalColumns": 16,
@@ -1078,34 +1050,6 @@
       ]
     },
     "95641": {
-      "totalRows": 10,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "...............",
-        ".SSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSS.",
-        "...............",
-        ".SSSSS....WCSSS",
-        ".SSSSS..SSSSSSS",
-        ".SSSSS..SSSSSSS",
-        ".SSSSS..SSSSSS.",
-        ".SSSSSSSSSSSS.."
-      ]
-    },
-    "95642": {
       "totalRows": 10,
       "totalColumns": 15,
       "rowLabels": [
@@ -2918,14 +2862,14 @@
                 ".AAAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAOOAAAAAA..",
                 ".AAAAAAAAOOAAAAAAAAA..",
                 "......................",
-                ".......AAAAAAAAAAAA...",
+                ".......AAAAOOAOOAAA...",
                 ".....?OOOOAAAAAAAAOO..",
-                ".....AAAAAAAAAAAAAAA..",
-                "....AAAAAAOAAAAAAAAA..",
-                "....AAAAAAAOOAAAAAAA..",
+                ".....AAAAAAOOOOOOOOO..",
+                "....OOOOAAOAAAOOAAAA..",
+                "....AAAAAAAOOAAAAAOO..",
                 ".....AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAA"
               ],
@@ -2977,12 +2921,12 @@
                 "..AAAAAAAAAAAA...",
                 ".................",
                 "...AAAAAAAAAAA...",
+                "..AAAAAOOAAAAA...",
                 "..AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAA...",
-                "..AOOAAAAAAAAA...",
+                "..AOOAAOAAAAAA...",
                 "..OOAAAAAAAAAA...",
                 "..AAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAOOO."
+                "AAAAAAAOOAAAAOOO."
               ],
               "layoutKey": "95625"
             },
@@ -3016,26 +2960,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "17:05",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=95620&a=0000000001&l=5114&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "................",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                "................",
-                ".....AAOOOOAA...",
-                "..OOOOOAAOOOO...",
-                "..AAAAAOOOOOO...",
-                "..OOOAAAAAAAA...",
-                ".AOOAAAOOAAAAAA."
-              ],
-              "layoutKey": "95620"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Regular"
@@ -3051,13 +2975,13 @@
                 "..AAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAA.",
                 "................",
-                "....AAAAAAOOO...",
+                "....AAOOAAOOO...",
                 "..OOOOOOAAAAA...",
                 "..OOOOOAAOOAA...",
-                "..AAAAAAAAAAA...",
                 "..AAAAOOOAAAA...",
-                "..OOAAAAAAAAA...",
-                "OOOAAAAAOOOOAA.."
+                "..OOAAOOOOOOO...",
+                "..OOOOOOOOAAA...",
+                "OOOAAAOOOOOOOO.."
               ],
               "layoutKey": "95637"
             },
@@ -3076,12 +3000,12 @@
                 ".AAAAAAAAAAAAAAAAAAA..",
                 "......................",
                 ".......AAAAAAAAAAAA...",
-                ".....?AAAAAAAAAAAOOO..",
+                ".....?OAAAAAAAAAAOOO..",
                 ".....AAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAOOAAAAAAA..",
                 ".....AAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAA"
+                "...AAAAAAAOOAAAAAAAAAA"
               ],
               "layoutKey": "95630"
             }
@@ -3200,13 +3124,13 @@
                 ".AAAAAAAAAAAA.",
                 ".AAAAAAAAAAAA.",
                 "..............",
-                ".AAAAA....AAAA",
+                ".AAOOO....AAAA",
                 ".AAAAA..AAAAAA",
                 ".AAAAA..AAAAAA",
-                ".AAAAA..OOOAAA",
                 ".AAAAA..AAAAAA",
                 ".AAAAA..AAAAAA",
-                ".AAAAAAAAAAAAA"
+                ".AAAAA..OOAAAA",
+                ".AAAOOAAAAAOOA"
               ],
               "layoutKey": "95634"
             },
@@ -3276,33 +3200,6 @@
                 ".AAAAAAAAAAAA.."
               ],
               "layoutKey": "95643"
-            }
-          ]
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "17:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=95642&a=0000000001&l=5114&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                "...............",
-                ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAA.",
-                "...............",
-                ".OOOAA....AAAOO",
-                ".AAAOO..OOOOOOA",
-                ".AAOOO..OOOOOOO",
-                ".AAOOO..AAAAAA.",
-                ".OOOOAOOOOAAA.."
-              ],
-              "layoutKey": "95642"
             }
           ]
         }
