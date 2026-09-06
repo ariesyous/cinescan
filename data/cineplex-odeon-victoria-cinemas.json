@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T14:33:32.549Z",
+  "updatedAt": "2026-09-06T18:52:20.263Z",
   "theatre": {
     "id": 1129,
     "name": "Cineplex Odeon Victoria Cinemas"
@@ -859,28 +859,6 @@
         "SSSSSSS.SSSSSSSSSSSSSSSSSSSSS.SSS.",
         "....SSS.SSSSSSSSSSSSSSSSSSSSS.SS..",
         "......SSSSS....SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "217034": {
-      "totalRows": 7,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...................",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..WWCSSSSSSSSSSSS.."
       ]
     },
     "217055": {
@@ -1909,13 +1887,13 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217014&a=0000000001&l=1129&m=spiderman-brand-new-day&ss=False",
               "seats": [
                 "..??AAAAAAAAAAAAAAAAAAAAAAAAAAAA??",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "..AAAAAAAAAAAAAOOOOAAAAAAAAAAAAAAA",
                 "..................................",
                 ".............AAA...OOA.....AA.....",
-                "AAAAAA.......AOOOOAAAA.....AA.????",
-                "AAAAAAA.OOOAAAOOOOAAOOAAAOOAA.???.",
-                "....AAA.OOAAAOOOOOOOOOO?OOOOO.AA..",
-                "......A?OOA....A??OO?OAOOOOOOOOO?A"
+                "AAAAAA.......AOOOOAOAA.....AA.????",
+                "AAAAAAA.OOOAAAOOOOAAOOOAAOOAA.???.",
+                "....OOO.OOAOOOOOOOOOOOO?OOOOO.AA..",
+                "......A?OOA....A??OO?OOOOOOOOOOO?A"
               ],
               "layoutKey": "217014"
             },
@@ -1932,8 +1910,8 @@
                 ".............AAO...OOA.....AA.....",
                 "AAAAAA.......OOAAOOOOO.....AA.????",
                 "AAAAAAA.OOOAAOOOOOOOOAOOAOOAA.???.",
-                "....AAA.AAAAOOOOOOAAOOO?OOOOO.OO..",
-                "......A?AAA....A??OO?AAOOOOOOOOO?A"
+                "....AAA.AAOOOOOOOOAAOOO?OOOOO.OO..",
+                "......A?OOO....O??OO?AAOOOOOOOOO?A"
               ],
               "layoutKey": "217033"
             },
@@ -1948,11 +1926,11 @@
                 "..??AAAAAAAAAAAAAAAAAAAAAAAAAAAA??",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "..................................",
-                ".............OOA...AAA.....AA.....",
-                "AAAAAA.......AAAOOOOOA.....AA.????",
-                "AAAAAAA.AAAAAAAOOOOAAAAAAAAAA.???.",
-                "....OOA.AAAAOAAOOOOAAAA?AAAAA.AA..",
-                "......A?OOO....A??OO?OOAAAAOOOOO?A"
+                ".............OOA...OOA.....AA.....",
+                "AAAAAA.......OOOOOOOOA.....AA.????",
+                "AAAAAAA.AAAAAAOOOOOAAAAAAOOOO.???.",
+                "....OOA.AAAAOAAOOOOOOOO?AAAAA.AA..",
+                "......A?OOO....A??OO?OOOOAAOOOOO?A"
               ],
               "layoutKey": "217032"
             },
@@ -1968,7 +1946,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "..................................",
                 ".............AAA...AAA.....AA.....",
-                "AAAAAA.......AAAAAAAAA.....AA.????",
+                "AAAAAA.......AAOOOOOAA.....AA.????",
                 "AAAAAAA.AAAAAAAAAAAAAAAAAAAAA.???.",
                 "....AAA.AAAAAAAAOOOOOOA?AAAAA.AA..",
                 "......A?AAA....A??OO?AAAAAAAAAAA?A"
@@ -1996,8 +1974,8 @@
                 "A?AAAAAAAAAAA..",
                 "OOAAAOOAAAAAA..",
                 "AAOOAAAOAAAAA..",
-                "AAAAAOOAAAAA?..",
-                "AAAAAAOAAAAAA..",
+                "AAAAAOOAAOOA?..",
+                "AAAOAAOAAAAAA..",
                 "A?OOAAAAAA....."
               ],
               "layoutKey": "217013"
@@ -2013,10 +1991,10 @@
                 "AAAAAAAAAAA....",
                 "AAAAAAAAAAAA...",
                 "AAAAAAAAAAAA...",
-                "A?AAAAOOAAAAA..",
-                "OOAAAOOOOOOAA..",
+                "A?AAOOOOAAAOO..",
+                "OOAOOOOOOOOAA..",
                 "OOAOOOOOOOOAO..",
-                "AAAOOOOOOOOO?..",
+                "OOOOOOOOOOOO?..",
                 "OOOOOOOOOOOAA..",
                 "A?OOOOAAAA....."
               ],
@@ -2032,10 +2010,10 @@
                 "...............",
                 "AAAAAAAAAAA....",
                 "AAAAAAAAAAAA...",
-                "AAAAAAAAAAAA...",
-                "A?AAAAOOAAAAA..",
-                "AAOOOOOOAAAAA..",
-                "AAAOOOOOOOOOO..",
+                "AAAAAAAOOOOO...",
+                "A?AAOOOOOOAAA..",
+                "AAOOOOOOOOAAA..",
+                "OOOOOOOOOOOOO..",
                 "OOAAOOOOOOOA?..",
                 "OOOOOOOOOOAAA..",
                 "A?OOOAAAAA....."
@@ -2050,23 +2028,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "11:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217034&a=0000000001&l=1129&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...................",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAA?AAAAAAA..",
-                "..AAAAAAOAAAOOAAA..",
-                "..AAAAAAOOAAAAAAA..",
-                "..AAAA?AAOOOAAAAO.."
-              ],
-              "layoutKey": "217034"
-            },
-            {
               "time": "13:00",
               "formats": [
                 "Recliner"
@@ -2077,11 +2038,11 @@
                 "......AAAAAAAAAAAA",
                 ".....AAAAAAAAAAAAA",
                 "...AAAOOAAAAAAAAAA",
-                "..AAAAAAOOAAAAAAAA",
+                "..AAOOOAAOOAAAAAAA",
                 "...AAAAOOOOOOAAOOO",
-                "..OOOOAAAOOOOOOOAA",
+                "..OOAAAAAOOOOOOOAA",
                 "...AAAAAAAOOOAAAAA",
-                "...AAAOOOOAAAAAAAA",
+                "...OOOOOOOAAAAAAAA",
                 "......AAAAOOAAAAAA"
               ],
               "layoutKey": "217022"
@@ -2117,12 +2078,12 @@
                 "......AAAAAAAAAAAA",
                 ".....AAAAAAAAAAAAA",
                 "...AAAAAOOAAAAAAAA",
-                "..AAAAAAOOOOOAAAAA",
-                "...AAAAOOOOOOOOAOO",
+                "..AAAAAAAOOOOAAAAA",
+                "...AAOOOOOOOOOOAOO",
                 "..OOOOOOOOOOOOAAOO",
                 "...OOOOOOOOOOOOOOA",
-                "...AAOOOOOOOOOOAAA",
-                "......AAAAOOOAAAAA"
+                "...OOOOOOOOOOOOAAA",
+                "......AAAAOOOOOAAA"
               ],
               "layoutKey": "217020"
             },
@@ -2162,10 +2123,10 @@
               "seats": [
                 "...................",
                 "..AAAAAAAOAAAAAA...",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAAOAAAAAAAA..",
                 "..AAAAAOOOOAAAAAA..",
                 "..AOAAAAAOOAAAAAA..",
-                "...AAAAAA?AAOAAAA..",
+                "...AAAAOO?AAOAAAA..",
                 "..AAAA?AOAAAAAAAA.."
               ],
               "layoutKey": "217018"
@@ -2240,7 +2201,7 @@
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAA?AAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
-                "..AAAAOOOAAAAAAAA..",
+                "..AAAAOOOOAAAAAAA..",
                 "..AAAA?AAAAAAAAOO.."
               ],
               "layoutKey": "217010"
@@ -2274,7 +2235,7 @@
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAOO?AAAAAAA..",
                 "..OAAAAAOOAAOOAAA..",
-                "..AAAAAOOOOAAAAAA..",
+                "..AAAAAOOOOOOAAAA..",
                 "..AAAA?OOOOOOAAOO.."
               ],
               "layoutKey": "217008"
@@ -2312,10 +2273,10 @@
               "seats": [
                 "...................",
                 ".A..AAA?AAAA...AAA.",
-                "AA..AAAAAAAAA..AAAA",
+                "AA..AAAAAAOOO..AAAA",
                 "AA..OOOOOOOOO..AA?A",
                 "AA..AOOOOOOOO..AAAA",
-                "AA..AAA?OOOOO..AAAA",
+                "AA..AOO?OOOOO..AAAA",
                 "AA..?AAOOAAAA..AA.A",
                 "..................."
               ],
@@ -2359,7 +2320,7 @@
                 "AA..AAAAAAAAA..AA?A",
                 "AA..AAAAAAAAA..AAAA",
                 "AA..AAA?AAAAA..AAAA",
-                "AA..?AAAOOAAA..AA.A",
+                "OO..?AAAOOAAA..AA.A",
                 "..................."
               ],
               "layoutKey": "217029"
@@ -2436,7 +2397,7 @@
                 ".AAA..AAAAAAAA...A.",
                 "AAAA..AAAAAAAAA..AA",
                 "A?AA..AAAAAAAAA..AA",
-                "AAAA..AAAAAAAAA..?A",
+                "AAAA..OOOOAOOAA..?A",
                 "AAAA..?AAAAAAAA..AA",
                 "A.AA..AAAOOAAAA..AA",
                 "..................."
@@ -2483,7 +2444,7 @@
                 "..??AAAAAAAAAAAAAAAAAAAAAAAAAAAA??",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "..................................",
-                ".............AAA...AAA.....AA.....",
+                ".............OAA...AAA.....AA.....",
                 "AAAAAA.......AAAAAAAAA.....AA.????",
                 "AAAAAAA.AAAAAAAAAAAAAAAAAAOAA.???.",
                 "....AAA.AAAAAAAAAAAAAAA?AAAAA.AA..",
@@ -2504,7 +2465,7 @@
                 "..................................",
                 ".............AAA...AAA.....AA.....",
                 "AAAAAA.......AAAAAAAAA.....AA.????",
-                "AAAAAAA.AAAAAAAAAAAAAAAAAAAAA.???.",
+                "AAAAAAA.AAAAAAAAOOAAAAAAAAAAA.???.",
                 "....AAA.AAAAAAAAAAAAAAA?AAAAA.AA..",
                 "......A?AAA....A??AA?AAAAAAAAAAA?A"
               ],
@@ -2933,7 +2894,7 @@
                 ".............AAA...AAA.....AA.....",
                 "AAAAAA.......AAAAAAAAA.....AA.????",
                 "AAAAAAA.AAAAAAAAAAAAAAAAAAAAA.???.",
-                "....AAA.AAAAAAAAAAAAAAA?AAAAA.AA..",
+                "....AAA.AAAAAAAAOOOAAAA?AAAAA.AA..",
                 "......A?AAA....A??OA?AAAAAAAAAAA?A"
               ],
               "layoutKey": "217090"
