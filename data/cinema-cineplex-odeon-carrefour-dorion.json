@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T18:51:00.396Z",
+  "updatedAt": "2026-09-06T19:53:54.034Z",
   "theatre": {
     "id": 9153,
     "name": "Cinéma Cineplex Odeon Carrefour Dorion"
@@ -539,38 +539,6 @@
         ".SSSSSSSSSSSSSSS.",
         ".SSSSSSSSSS.SSSS.",
         "...WC.SSS.CW....."
-      ]
-    },
-    "196218": {
-      "totalRows": 12,
-      "totalColumns": 18,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null,
-        null
-      ],
-      "seatTypes": [
-        "....SSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        ".........WCSSSSCW.",
-        "..................",
-        ".................."
       ]
     },
     "196224": {
@@ -2725,36 +2693,6 @@
         ".................."
       ]
     },
-    "196301": {
-      "totalRows": 11,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        ".SSSSSSSSS...",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSSS.",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSSS.",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSSS.",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSSS.",
-        ".WCSCW.......",
-        "............."
-      ]
-    },
     "196302": {
       "totalRows": 11,
       "totalColumns": 13,
@@ -2826,28 +2764,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "15:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196218&a=0000000001&l=9153&m=vf-spiderman-un-jour-nouveau&ss=False",
-              "seats": [
-                "....AAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAOOOOOOAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAOOAAA.",
-                ".AAAAAAAOOAAAAAAA.",
-                ".........AAAAAAAA.",
-                "..................",
-                ".................."
-              ],
-              "layoutKey": "196218"
-            },
-            {
               "time": "18:45",
               "formats": [
                 "3D"
@@ -2911,10 +2827,10 @@
                 "..AAOOOOOOAA.",
                 ".AAAOOOOOAAA.",
                 "..AAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                "..AAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                "......AAA?AA.",
+                ".AAAAAOAAAAA.",
+                "..AAAAAOOOOA.",
+                ".AOOOAOOAAAA.",
+                "......OOO?AA.",
                 ".............",
                 "............."
               ],
@@ -2954,7 +2870,7 @@
                 ".AAAAAAAAAAA.",
                 "..AAAAAAAAAA.",
                 ".AAAAAAAAAAA.",
-                "..AAAAAAAAAA.",
+                "..OOAAAAAAAA.",
                 ".AAAAAAAAAAA.",
                 "..AAAAAAAAAA.",
                 ".AAAAAAAAAAA.",
@@ -3053,7 +2969,7 @@
                 ".AAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAOO.",
                 ".AAAAAA........",
                 "..............."
               ],
@@ -3098,7 +3014,7 @@
                 ".AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
                 ".AAAAAA?AAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAOOAAAAAA.",
                 ".AAAAAA???A.AAAA.",
                 "...A?.AAA.?A....."
               ],
@@ -3195,27 +3111,6 @@
           "runtimeMinutes": 89,
           "sessions": [
             {
-              "time": "14:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196301&a=0000000001&l=9153&m=la-patpatrouille-le-film-mission-dino&ss=False",
-              "seats": [
-                ".AAAAAAAAA...",
-                ".AAAAAAAAAA..",
-                ".AAAAAOOOOAA.",
-                ".OOAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAOOAAAAA..",
-                ".AAAAOOOAAAA.",
-                ".AAAAA.......",
-                "............."
-              ],
-              "layoutKey": "196301"
-            },
-            {
               "time": "17:00",
               "formats": [
                 "Regular"
@@ -3253,12 +3148,12 @@
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
+                "..AAAAAAOOAAAAAAA.",
+                "...AAAAAAAOOAAAAA.",
+                "..AAAAAAOOAAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAOO.",
+                "..OOAAAAAAAAAAAOO.",
+                ".AAAAAAOOAAAAAAOO.",
                 "........?AAAAAAAA.",
                 "..................",
                 ".................."
@@ -3402,7 +3297,7 @@
                 ".AAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAA.",
-                ".AAAAAA........",
+                ".AAOOAA........",
                 "..............."
               ],
               "layoutKey": "196215"
