@@ -1,37 +1,11 @@
 {
-  "updatedAt": "2026-09-06T03:16:48.083Z",
+  "updatedAt": "2026-09-06T05:38:26.984Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
   },
   "auditoriums": {
-    "125275": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSCW.WCSS..SSS",
-        "SCW..............SSS"
-      ]
-    },
-    "125279": {
+    "123763": {
       "totalRows": 10,
       "totalColumns": 22,
       "rowLabels": [
@@ -57,46 +31,6 @@
         "SSS..SSSSSSSSSSSS..SSS",
         "SSS...SSSSCWWCSSS..SSS",
         "SCW..................."
-      ]
-    },
-    "125284": {
-      "totalRows": 5,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSS..SS",
-        "CW..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS...WCSSSCW..SS"
-      ]
-    },
-    "125288": {
-      "totalRows": 7,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSCW",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSS..",
-        "SSSCW.WCSSS.."
       ]
     },
     "125293": {
@@ -1392,111 +1326,6 @@
   },
   "days": [
     {
-      "date": "2026-09-05",
-      "movies": [
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "21:30",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125279&a=0000000001&l=1410&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "A??..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAOO?OOOOAAA..AAA",
-                "AAA..AAOOOOOOAAAA..AAA",
-                "AAA..AOOOOO?OOAOO..AAA",
-                "AAA..OOOOOOOOOOOO..AAA",
-                "AAA...AOOAAAAAA?A..OOA",
-                "???..................."
-              ],
-              "layoutKey": "125279"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "21:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125288&a=0000000001&l=1410&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "AAA??AAAAAAAA",
-                "AA?AAAOAA?A??",
-                "?OOAAOOAAAAAA",
-                "AOOOOOOOOOOOO",
-                "AOOOOOOOOAOOO",
-                "AOOOOOOOAOO..",
-                "OOOAA.AAAOO.."
-              ],
-              "layoutKey": "125288"
-            }
-          ]
-        },
-        {
-          "title": "Insidious: Out of the Further",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "21:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125275&a=0000000001&l=1410&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "AAA..AAAAAAAAAA..???",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAOOAAA?..AAA",
-                "AAA..OOAAOOAAAA..AAA",
-                "AAA..OOAAOOO?OO..AAA",
-                "OOO..AAOOOOOOOO..OOA",
-                "AAA..AOOOOO?OOO..AAA",
-                "AAA..OOAAA.OOAA..AAA",
-                "???..............???"
-              ],
-              "layoutKey": "125275"
-            }
-          ]
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "21:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125284&a=0000000001&l=1410&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                "AA..AAAAAAAA..AA",
-                "AA..AAA?AAAA..AA",
-                "AA..AAAAAA??..?A",
-                "?A..AAAAAAAA..AA",
-                "AA...AAAAAAA..AA"
-              ],
-              "layoutKey": "125284"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-06",
       "movies": [
         {
@@ -1515,10 +1344,10 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAOOOOOAAA..AAA",
-                "AAA..OOAA?AOOAAAA..AAA",
+                "AAA..OOAA?AOOAOOO..AAA",
                 "AAA..AOOOOOOOOAAA..AAA",
                 "AAA..AAOOAO?OOOOO..AAA",
-                "AAA..OOOOAAOOAAAA..AAA",
+                "AAA..OOOOAAOOAAOO..AAA",
                 "AAA...AOOAAAAAA?A..AAA",
                 "???..................."
               ],
@@ -1536,7 +1365,7 @@
                 "AAA..OOOOOOOOOOOO..AAA",
                 "AAA..OOOOAOOOOOOO..AAA",
                 "AAA..OOOA?AOOOOOO..OOO",
-                "AAA..OOOOOOOAOOOO..AAA",
+                "AAA..OOOOOOOAOOOO..OOO",
                 "AOO..OOOOOO?OOOOO..OOO",
                 "AOO..OOOOOOOOOOOO..OOA",
                 "AOO...AOOAAAAAA?A..OOA",
@@ -1554,7 +1383,7 @@
               "seats": [
                 "A??..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
+                "AAA..AAAAAAAAOOOO..AAA",
                 "AAA..OOAAAOOOOOAA..AAA",
                 "AAA..OOAA?AOOOOOO..OOO",
                 "AAA..OOOAOOOOOOOO..AAA",
@@ -1602,7 +1431,7 @@
               "seats": [
                 "AAAAA??AAAAAA?",
                 "AAAAAAAAAAAA?A",
-                "AAAAAOOOOOOAAA",
+                "OOOAAOOOOOOAAA",
                 "OOOA?OOOOO..AA",
                 "AOOOOAOOOOOOOA",
                 "AAOOOAOOOOOOOA",
@@ -1638,8 +1467,8 @@
                 "AAOOOOOOOAAA?A",
                 "AAOOOOOOOOOOOA",
                 "OOOO?OOOOO..AA",
-                "OOOOOOOOOOOOOA",
-                "OOOOOOOOOOOOOA",
+                "OOOOOOOOOOOOOO",
+                "OOOOOOOOOOOOOO",
                 "OO..AA..AA..AA"
               ],
               "layoutKey": "125304"
@@ -1658,13 +1487,13 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125310&a=0000000001&l=1410&m=coyote-vs-acme-2026&ss=False",
               "seats": [
-                "OOO??OOOOOOAA",
+                "OOO??OOOOOOOO",
                 "OO?OOOOOO?A??",
                 "?AOOOOOOOOAAA",
                 "OOOOOOOOOOOOO",
-                "AOOOOOOAOOOOO",
-                "AOOOOOOOOOO..",
-                "OOAAA.AAAOO.."
+                "OOOOOOOAOOOOO",
+                "OOOOOOOOOOO..",
+                "OOOAA.AAOOO.."
               ],
               "layoutKey": "125310"
             },
@@ -1675,8 +1504,8 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125309&a=0000000001&l=1410&m=coyote-vs-acme-2026&ss=False",
               "seats": [
-                "AAA??OOOOAOOO",
-                "AA?OOOOOO?A??",
+                "AOO??OOOOAOOO",
+                "OO?OOOOOO?A??",
                 "?OOOOOOOOOOOA",
                 "OOOOOOOOOOOOO",
                 "OOOOOOOOOOOOO",
@@ -1693,7 +1522,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125308&a=0000000001&l=1410&m=coyote-vs-acme-2026&ss=False",
               "seats": [
                 "AAA??OOOOOOOO",
-                "AA?OOOOOO?A??",
+                "OO?OOOOOO?A??",
                 "?OOOOOOOOOOAA",
                 "AOOOOOOOOOOOO",
                 "OOOOOOOOOOOOO",
@@ -1796,7 +1625,7 @@
                 "AAA..AAAOOOAAAA..AAA",
                 "AAA..AAOOOOO?AA..AAA",
                 "OOO..AAOOOOOOOO..AAA",
-                "AAA..AAAOOO?AAA..AAA",
+                "AAA..OOAOOO?AAA..AAA",
                 "AOO..AAAAA.AAAA..AAA",
                 "???..............???"
               ],
@@ -1834,7 +1663,7 @@
                 "AA..OOAAAAAA..AA",
                 "AA..OOO?OOOA..AA",
                 "AA..AOOOOO??..?A",
-                "?A..AOOOOOOO..AA",
+                "?A..AOOOOOOO..OO",
                 "OO...AAOOAAA..AA"
               ],
               "layoutKey": "125295"
@@ -2275,7 +2104,7 @@
                 "AAAAAAAAAAAA?A",
                 "AAAAAAAAAAAAAA",
                 "AAAA?AAAAA..AA",
-                "AAAAAAAAAAAAOO",
+                "AAAAAOOAAAAAOO",
                 "AAAAAAAAAAAAAA",
                 "OO..AA..AA..AA"
               ],
@@ -2678,6 +2507,38 @@
                 "AA...AAAAAAA..AA"
               ],
               "layoutKey": "125355"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "movies": [
+        {
+          "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t  - Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61723_320_470.jpg",
+          "runtimeMinutes": 158,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=123763&a=0000000001&l=1410&m=est-twenty-years-of-met-english-west-met&ss=True",
+              "seats": [
+                "A??..AAAAAAAAAAAA..AAA",
+                "AAA..AAAAAAAAAAAA..AAA",
+                "AAA..AAAAAAAAAAAA..AAA",
+                "AAA..AAAAAAAAAAAA..AAA",
+                "AAA..OOAA?OOOAAAA..AAA",
+                "AOO..AAAAAAOOAAAO..AAA",
+                "AAA..OOAOOO?AAAAA..AAA",
+                "AAA..AAAAAAAAAOOO..AAA",
+                "AOO...AAAAAAAAA?A..AAA",
+                "???..................."
+              ],
+              "layoutKey": "123763"
             }
           ]
         }

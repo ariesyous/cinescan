@@ -1,10 +1,38 @@
 {
-  "updatedAt": "2026-09-06T03:16:23.995Z",
+  "updatedAt": "2026-09-06T05:38:09.644Z",
   "theatre": {
     "id": 7269,
     "name": "Cineplex Cinemas Cambridge"
   },
   "auditoriums": {
+    "220991": {
+      "totalRows": 10,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        "......................",
+        "......SSSSSSSSSSS.....",
+        "....SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "....CWCCWWCCWWCCWSS...",
+        "......................"
+      ]
+    },
     "222687": {
       "totalRows": 9,
       "totalColumns": 26,
@@ -2548,7 +2576,7 @@
                 "......................",
                 ".......AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAOOOOOOOOOOOOOOAA..",
+                "..AAOOOOOOOOOOOOOOOO..",
                 "..OOOO?OOOOOOOOOOOOA..",
                 "..OOOOOOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOOOOOO..",
@@ -2588,7 +2616,7 @@
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAOO?OOOOOOOOOOOOO..",
-                "..AAAAAAOOOOOAOOAAAO..",
+                "..AAOOOOOOOOOAOOAAAO..",
                 "..OOAAOOOOOOOOOAOOOO..",
                 "...OOAAAAAAAAAAOOAA...",
                 "......................"
@@ -2654,7 +2682,7 @@
                 "AAA...AAAAAAAAAAAAA...",
                 "AAA...AAAAAOOAAAAAA...",
                 "OOOO..OOOOOOOOOOAAAA..",
-                "AAOO..OOOOOOOOOOAOOO..",
+                "AOOO..OOOOOOOOOOAOOO..",
                 "OOOO..OOOOOOOOOOOOOO..",
                 "OOOO..OOOOOOOOOOOOOA..",
                 ".......AA.AOOAAOOAO...",
@@ -2673,7 +2701,7 @@
                 "......????????OO......",
                 "AAA...AAAAAAAAAAAAA...",
                 "AAA...AAAAAOOAAAAAA...",
-                "AAAA..AAAAAOAAOOOAAA..",
+                "AAAA..AAAAAOOOOOOAAA..",
                 "OOOO..OOAAOOOOOOOOOA..",
                 "OOOO..OOAAOOOOOOOAAA..",
                 "AOOO..OOOOOOOOOAOOOO..",
@@ -2721,7 +2749,7 @@
                 "....AAAAAAAAAA....",
                 "...AAAAAOOAAAAAA..",
                 "..AAAAAAOOAAAAAA..",
-                "..OOAAAOOOOOOOAA..",
+                "..OOAAOOOOOOOOAA..",
                 "..AAOOOOOOOAAAAA..",
                 "..OOAAOOOOOOOAAA..",
                 "...AAAAAAAAAAOO...",
@@ -2749,7 +2777,7 @@
                 "...AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAA..",
-                "..OOAAAAAAAAAAAAAAAA..",
+                "..OOAAAAAOOAAAAAAAAA..",
                 "..OOOOOAAAAOOOAAAAAO..",
                 "....OAAAAAAAAAAAAAA...",
                 "......................"
@@ -2771,7 +2799,7 @@
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAOOOAAOOAAAAAAAA..",
                 "..AAAAAAAOOOAAAAAAAA..",
-                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAOO...",
                 "......................"
               ],
               "layoutKey": "222773"
@@ -2943,7 +2971,7 @@
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAOOOOAAAAAAAA..",
-                "..AAAAAAOOOAAAAA..",
+                "..AAAOOOOOOAAAAA..",
                 "..AOOOOAAOOOOAAA..",
                 "...AAAAAAAAAAAA...",
                 ".................."
@@ -3239,7 +3267,7 @@
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA...",
                 "......................"
               ],
@@ -4471,6 +4499,38 @@
                 ".................."
               ],
               "layoutKey": "222747"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "movies": [
+        {
+          "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t  - Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61723_320_470.jpg",
+          "runtimeMinutes": 158,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=220991&a=0000000001&l=7269&m=est-twenty-years-of-met-english-west-met&ss=True",
+              "seats": [
+                "......................",
+                "......AAAAAAAAAAA.....",
+                "....AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA...",
+                "......................"
+              ],
+              "layoutKey": "220991"
             }
           ]
         }

@@ -1,10 +1,34 @@
 {
-  "updatedAt": "2026-09-06T03:17:27.212Z",
+  "updatedAt": "2026-09-06T05:38:59.028Z",
   "theatre": {
     "id": 1129,
     "name": "Cineplex Odeon Victoria Cinemas"
   },
   "auditoriums": {
+    "215001": {
+      "totalRows": 8,
+      "totalColumns": 34,
+      "rowLabels": [
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+        "..................................",
+        ".............SSS...SSS.....SS.....",
+        "CWWCCW.......SSSSSSSSS.....SS.SSSS",
+        "SSSSSSS.SSSSSSSSSSSSSSSSSSSSS.SSS.",
+        "....SSS.SSSSSSSSSSSSSSSSSSSSS.SS..",
+        "......SSSSS....SSSSSSSSSSSSSSSSSSS"
+      ]
+    },
     "216968": {
       "totalRows": 10,
       "totalColumns": 15,
@@ -1719,126 +1743,6 @@
         "......SSSSS....SSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "217108": {
-      "totalRows": 7,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...................",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..WWCSSSSSSSSSSSS.."
-      ]
-    },
-    "217109": {
-      "totalRows": 7,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...................",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "..WWCSSSSSSSSSSSS.."
-      ]
-    },
-    "217110": {
-      "totalRows": 8,
-      "totalColumns": 34,
-      "rowLabels": [
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
-        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
-        "..................................",
-        ".............SSS...SSS.....SS.....",
-        "CWWCCW.......SSSSSSSSS.....SS.SSSS",
-        "SSSSSSS.SSSSSSSSSSSSSSSSSSSSS.SSS.",
-        "....SSS.SSSSSSSSSSSSSSSSSSSSS.SS..",
-        "......SSSSS....SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "217111": {
-      "totalRows": 10,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "..................",
-        "......SSSSSSSSSSSS",
-        ".....SSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "..WCSSSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "..SSSSSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "......WWCCSSSSSSSS"
-      ]
-    },
-    "217112": {
-      "totalRows": 8,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "...................",
-        ".S..SSSSSSSS...SSS.",
-        "SS..SSSSSSSSS..SSSS",
-        "SS..SSSSSSSSS..SSSS",
-        "SS..SSSSSSSSS..SSSS",
-        "SS..SSSSSSSSS..SSSS",
-        "SS..SSSSSSSSC..WW.C",
-        "..................."
-      ]
-    },
     "217118": {
       "totalRows": 10,
       "totalColumns": 15,
@@ -1990,137 +1894,6 @@
   },
   "days": [
     {
-      "date": "2026-09-05",
-      "movies": [
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "21:35",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217110&a=0000000001&l=1129&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..??AAAAAAAAAAAAAAAAAAAAAAAAAAAA??",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "..................................",
-                ".............AAA...AAA.....AA.....",
-                "AAAAAA.......AAAAAAAAA.....AA.????",
-                "AAAAAAA.AAAAAAOOOOOOOOAAAAAAA.???.",
-                "....AAA.AAAAAAAAOOOAAAA?AAAAA.AA..",
-                "......A?AAA....O??AA?AAAAAAAAAAA?A"
-              ],
-              "layoutKey": "217110"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "21:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217111&a=0000000001&l=1129&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "..................",
-                "......AAAAAAAAAAAA",
-                ".....AAAAAAAAAAAAA",
-                "...AAAAAAOOOOAAAAA",
-                "..AAAAOOOOOOOOAAAA",
-                "...AAAOOOOOOOOOOOA",
-                "..AAOOOOOOOOOOOAAA",
-                "...OOAAOOOOOOOOAAA",
-                "...AOOOOOOOOAAOOAA",
-                "......AAAAOOAAAAAA"
-              ],
-              "layoutKey": "217111"
-            }
-          ]
-        },
-        {
-          "title": "By Any Means",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "21:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217109&a=0000000001&l=1129&m=by-any-means&ss=False",
-              "seats": [
-                "...................",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAOOOAAAAAA..",
-                "..AAAAAAAOAAAAAAA..",
-                "...AAAAAA?AAAAAAA..",
-                "..AAAA?AAAAAAAAAA.."
-              ],
-              "layoutKey": "217109"
-            }
-          ]
-        },
-        {
-          "title": "Insidious: Out of the Further",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "22:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217108&a=0000000001&l=1129&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "...................",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAA?AAAAAAA..",
-                "..AAAAAAOOAAAAAAA..",
-                "..AAAAAAOOAAAAAAA..",
-                "..AAAA?OOOAAOOAAA.."
-              ],
-              "layoutKey": "217108"
-            }
-          ]
-        },
-        {
-          "title": "Bol Bhavein Na Bol (Punjabi w/e.s.t.)",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61887_320_470.jpg",
-          "runtimeMinutes": 146,
-          "sessions": [
-            {
-              "time": "21:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217112&a=0000000001&l=1129&m=bol-bhavein-na-bol-punjabi-west&ss=False",
-              "seats": [
-                "...................",
-                ".A..AAA?AAAA...AAA.",
-                "AA..AAAAAAAAA..AAAA",
-                "AA..AAAAAAAAA..AA?A",
-                "AA..AAAOOOAOO..AOOO",
-                "AA..AAA?OOOOO..AAOO",
-                "AA..?OOOOOOAA..AA.A",
-                "..................."
-              ],
-              "layoutKey": "217112"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-06",
       "movies": [
         {
@@ -2141,8 +1914,8 @@
                 ".............AAA...OOA.....AA.....",
                 "AAAAAA.......AOOOOAAAA.....AA.????",
                 "AAAAAAA.OOOAAAOOOOAAOOAAAOOAA.???.",
-                "....AAA.OOAAAOOOOOOOOOO?AAAAA.AA..",
-                "......A?OOA....A??OO?OAOOOAAAAAA?A"
+                "....AAA.OOAAAOOOOOOOOOO?OOOOO.AA..",
+                "......A?OOA....A??OO?OAOOOOOOOOO?A"
               ],
               "layoutKey": "217014"
             },
@@ -2178,8 +1951,8 @@
                 ".............OOA...AAA.....AA.....",
                 "AAAAAA.......AAAOOOOOA.....AA.????",
                 "AAAAAAA.AAAAAAAOOOOAAAAAAAAAA.???.",
-                "....AAA.AAAAOAAOOOOAAAA?AAAAA.AA..",
-                "......A?AAA....A??OO?OOAAAAOOOOO?A"
+                "....OOA.AAAAOAAOOOOAAAA?AAAAA.AA..",
+                "......A?OOO....A??OO?OOAAAAOOOOO?A"
               ],
               "layoutKey": "217032"
             },
@@ -2197,7 +1970,7 @@
                 ".............AAA...AAA.....AA.....",
                 "AAAAAA.......AAAAAAAAA.....AA.????",
                 "AAAAAAA.AAAAAAAAAAAAAAAAAAAAA.???.",
-                "....AAA.AAAAAAAAOOOOOAA?AAAAA.AA..",
+                "....AAA.AAAAAAAAOOOOOOA?AAAAA.AA..",
                 "......A?AAA....A??OO?AAAAAAAAAAA?A"
               ],
               "layoutKey": "217031"
@@ -2242,7 +2015,7 @@
                 "AAAAAAAAAAAA...",
                 "A?AAAAOOAAAAA..",
                 "OOAAAOOOOAAAA..",
-                "OOAAAOOOOAAAO..",
+                "OOAOOOOOOOOAO..",
                 "AAAOOOOOOOOO?..",
                 "OOOAAOOOOOOAA..",
                 "A?OOOOAAAA....."
@@ -2260,11 +2033,11 @@
                 "AAAAAAAAAAA....",
                 "AAAAAAAAAAAA...",
                 "AAAAAAAAAAAA...",
-                "A?AAAAOOAAAOO..",
-                "AAAAAAOOAAAAA..",
+                "A?AAAAOOAAAAA..",
+                "AAOOAAOOAAAAA..",
                 "AAAAAOOAAOOOO..",
-                "AAAAOOOOOOOA?..",
-                "AAAAOOOOOOAAA..",
+                "OOAAOOOOOOOA?..",
+                "OOOOOOOOOOAAA..",
                 "A?OOOAAAAA....."
               ],
               "layoutKey": "217011"
@@ -2502,7 +2275,7 @@
                 "..AAAAAOO?AAAAAAA..",
                 "..OAAAAAOOAAOOAAA..",
                 "..AAAAAAAOOAAAAAA..",
-                "..AAAA?OOOOOOAAAA.."
+                "..AAAA?OOOOOOAAOO.."
               ],
               "layoutKey": "217008"
             },
@@ -2541,7 +2314,7 @@
                 ".A..AAA?AAAA...AAA.",
                 "AA..AAAAAAAAA..AAAA",
                 "AA..OOOOOOOOO..AA?A",
-                "AA..AOOOOAAAA..AAAA",
+                "AA..AOOOOOOOO..AAAA",
                 "AA..AAA?AAAOO..AAAA",
                 "AA..?AAOOAAAA..AA.A",
                 "..................."
@@ -2603,7 +2376,7 @@
                 "AA..AAAAAAAAA..AAAA",
                 "AA..AAAAAAAAA..AA?A",
                 "AA..AAAAAAAAA..AAAA",
-                "AA..AAA?AAAOO..AAAA",
+                "AA..AAA?AAOOO..AAAA",
                 "AA..?OOAAAAAA..AA.A",
                 "..................."
               ],
@@ -2665,7 +2438,7 @@
                 "A?AA..AAAAAAAAA..AA",
                 "AAAA..AAAAAAAAA..?A",
                 "AAAA..?AAAAAAAA..AA",
-                "A.AA..AAAAAAAAA..AA",
+                "A.AA..AAAOOAAAA..AA",
                 "..................."
               ],
               "layoutKey": "217025"
@@ -3792,6 +3565,36 @@
                 "..................."
               ],
               "layoutKey": "217123"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "movies": [
+        {
+          "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration (Captured) English w/e.s.t  - Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61723_320_470.jpg",
+          "runtimeMinutes": 158,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=215001&a=0000000001&l=1129&m=est-twenty-years-of-met-english-west-met&ss=True",
+              "seats": [
+                "..??AAAAAAAAAAAAAOOOAAAAAAAAAAAA??",
+                "..AAAAAAAAAAAAAAOOOAAAAAAAAAAAAAAA",
+                "..................................",
+                ".............AAA...OOO.....AA.....",
+                "AAAAAA.......OAOOOOOOO.....AO.????",
+                "AAAAAAO.OOOOAAAAAOOAAAOOAAOOO.???.",
+                "....AAO.AAAAOOAOOOAAAAA?AAAAA.AA..",
+                "......A?AAA....A??OO?AAAAAAAAAAA?A"
+              ],
+              "layoutKey": "215001"
             }
           ]
         }
