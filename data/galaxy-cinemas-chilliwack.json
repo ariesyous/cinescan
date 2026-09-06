@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T21:12:43.043Z",
+  "updatedAt": "2026-09-06T22:04:49.670Z",
   "theatre": {
     "id": 1144,
     "name": "Galaxy Cinemas Chilliwack"
@@ -1409,36 +1409,6 @@
         "SS..SSSSSSSSSSSSSSSS..",
         "SS..SSSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "146835": {
-      "totalRows": 11,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "....................",
-        ".SSSSSSSSSSSSSSSSS..",
-        "....................",
-        "..SCW..WCSSCW.SS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "146840": {
@@ -3356,15 +3326,15 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA..",
                 ".............................",
-                "..AAAAA..AAAAA.AAAAA..AAA....",
+                "..AAAAA..AAAAA.AAAOO..AAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAOOOOOAAAAAAAA....",
+                "..AAAAAAAAAAOOOAAAAAAAAAA....",
+                "..AAAAAAAAOAOOOOOAAAAAAAA....",
                 "..AAAAAAAOOOOOOOOOOOOAAAA....",
-                "..AAAAAOOOAAOOOOAAAOOOAAA..AA",
+                "..AAAAAOOOAOOOOOOAOOOAAAA..AA",
                 "..OOOAAAAAOOAAOOOOOOAAAAA..AA",
-                "..AAAAAAAAAAOOAAOOAAOOOOO..AA",
+                "..AAAAAAAAAAOOAAOOAAOOOOO..OO",
                 "..AAAAAOOOAAAOOOAAAAAAAAA..AA",
                 "..AOOOAAOOOOAAOOAAAOOAAOO..OO"
               ],
@@ -3464,12 +3434,12 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAOOOOAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "AAAAOOOAAAAAAAAAAAAAAAAAA....",
+                "AAAAOOOAAOOOOOAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAOOOAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAOOOOAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAOOOAAAAAAAA.....AA"
               ],
               "layoutKey": "146807"
@@ -3489,14 +3459,14 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAOOOOAAAAAAAAAAA....",
-                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "AAAAAOOAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAOOAAAAAAAAA....",
+                "AAOAAOOAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAOOOAAAAAAAAAAA..OO",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
-                "OOOAAAAAAAAAAAAAAAAAAA.....AA"
+                "OOOAAAAAAAAAAOOAAAAAAA.....AA"
               ],
               "layoutKey": "146808"
             }
@@ -3522,11 +3492,11 @@
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAOAAAAAAAAAAAA..",
-                ".....OAOAAAAAAAAAAAAAAAAAA..",
-                ".AA..AAAAOOOAAOOAAAOOOAAAA..",
-                ".AA..AAAAAAAAOOOOAAAAAAAAA..",
-                ".AA..AAAOOAAAAOOAAAAAAAAAA..",
-                ".OOAAAAAAAAAOOOOOOAAAOOOOOAA"
+                ".....OAOOOOAAAAAAAAAAAAAAA..",
+                ".AA..AAAAOOOAAOOAAAOOOAAOO..",
+                ".AA..AAAAAAAAOOOOAAAAAAAOO..",
+                ".AA..AAAOOAAAAOOAOAAAAAAAA..",
+                ".OOOOOAAAAAAOOOOOOAAAOOOOOAA"
               ],
               "layoutKey": "146812"
             },
@@ -3544,7 +3514,7 @@
                 ".....AAA...AAAAAAAAAA..AAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAOOAAAAAAAAAAAAAAA..",
                 ".....OOOAAAAAOOOOOAAAAAAAA..",
                 ".AA..AAAAAAAAAOOAAAAAAAAAA..",
                 ".AA..OOOOAAAAAAAAOOAAAAAOO..",
@@ -3653,27 +3623,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "14:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=146835&a=0000000001&l=1144&m=by-any-means&ss=False",
-              "seats": [
-                "....................",
-                ".AAAAAAAAAAAAAAAAA..",
-                "....................",
-                "..AAA..AAAAAA.AA....",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAOOAAAAA....",
-                "..AOOAAOOAAAAAOO....",
-                "..AAAAAAOOOAAAAA....",
-                "..AAAOAAOOAAAAOO..AA",
-                "..AAAAAAAAOOAAAA..OO",
-                "AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "146835"
-            },
             {
               "time": "16:40",
               "formats": [
@@ -3803,7 +3752,7 @@
                 "....OAAAAOOOAAAOOOOA..",
                 "AA..AAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAOOAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAOO"
+                "AAAAAAAAAAAAAAOAAAAAOO"
               ],
               "layoutKey": "146817"
             }
@@ -3872,7 +3821,7 @@
                 "..AAAAAAAAAAA....",
                 "..AAAAAAAAAAA....",
                 "..AAAAAAAAAA?..AA",
-                "..AAAAAAAAAAA..AA",
+                "..OOAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "146823"
@@ -3897,7 +3846,7 @@
                 "....AAA.AAAAAA..AAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
+                "....OOOAAAAAAAAAAAAA..",
                 "....AAAAAAOOAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAA..",
