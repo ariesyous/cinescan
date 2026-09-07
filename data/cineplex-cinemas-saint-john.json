@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T21:57:59.201Z",
+  "updatedAt": "2026-09-07T22:43:16.945Z",
   "theatre": {
     "id": 6107,
     "name": "Cineplex Cinemas Saint John"
@@ -2209,34 +2209,6 @@
         "SSSSSSSSSSSSSSSSSS"
       ]
     },
-    "170626": {
-      "totalRows": 10,
-      "totalColumns": 18,
-      "rowLabels": [
-        "A",
-        "B",
-        null,
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        "..................",
-        "......WCSSSSSC.W..",
-        "....SSSSSSSSSSSS..",
-        "....SSSSSSSSSSSS..",
-        "....SSSSSSSSSSSS..",
-        "....SSSSSSSSSSSS..",
-        "....SSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "170632": {
       "totalRows": 10,
       "totalColumns": 18,
@@ -2570,36 +2542,6 @@
         "...SSSSSSSSSSSSSSSSSSS....",
         "...SSSSSSSSSSSSSSSSSSS..SS",
         "...SSSSSSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "170661": {
-      "totalRows": 11,
-      "totalColumns": 26,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        null,
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "..........................",
-        "......WCSSSSSSSSSSSSC..W..",
-        "....SSSSSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
@@ -5028,8 +4970,8 @@
                 ".....AAAAAAAAA..A....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAOO....",
                 "..AAAAAAAAAAAAAAA....",
-                "..AOOAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "A?AAAAAAAOOAAAAAAAAAA"
@@ -5124,11 +5066,11 @@
                 ".....AAAAAAAAA..A..",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAA..",
                 "..AAAAOOAAAAAAAAA..",
                 "..AAAAAAAOOAAAAAA..",
                 "..AAAAAAOOOOAAAAA..",
-                "AAAAAAAAOOAAAOOAAAA"
+                "OOAOOAAAOOAAAOOAAAA"
               ],
               "layoutKey": "170655"
             },
@@ -5189,26 +5131,6 @@
           "runtimeMinutes": 118,
           "sessions": [
             {
-              "time": "19:25",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170626&a=0000000001&l=6107&m=the-dog-stars&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAA?AA.",
-                "..................",
-                "......AAAAAAAA.A..",
-                "....AAAAAAAAAAAA..",
-                "....AAAAAAAAAAAA..",
-                "....AAAAOOAAAAAA..",
-                "....AAAAAAAAAAAA..",
-                "....AAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "170626"
-            },
-            {
               "time": "22:15",
               "formats": [
                 "Regular"
@@ -5227,34 +5149,6 @@
                 "AAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "170625"
-            }
-          ]
-        },
-        {
-          "title": "Finding Emily",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60797_320_470.jpg",
-          "runtimeMinutes": 111,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170661&a=0000000001&l=6107&m=finding-emily&ss=False",
-              "seats": [
-                "...AAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAA..",
-                "..........................",
-                "......AAAAAAAAAAAAAAA..A..",
-                "....AAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "170661"
             }
           ]
         },
@@ -5510,7 +5404,7 @@
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAOOOOAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
+                "..AAAAAAOOOAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "A?AAAAAAAAAAAAAAAAAAA"
               ],
@@ -7241,7 +7135,7 @@
                 "...AAAAAAAAOOOOAAAAAAA....",
                 "...AAOOOOAAAAAAOOAAAAA....",
                 "...AAAAAAAAAOOAAAAAAAA....",
-                "...AAAAOOOOOOOOOOOOAAA....",
+                "...OOAAOOOOOOOOOOOOAAA....",
                 "...OOAAAAAAAOOOOOOOOAA....",
                 "...AAAAAAAAOOOAAAAAAAA..AA",
                 "...OOOOAAOOOOOOOOOAAAA..AA",

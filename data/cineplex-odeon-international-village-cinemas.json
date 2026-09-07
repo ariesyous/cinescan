@@ -1,40 +1,10 @@
 {
-  "updatedAt": "2026-09-07T21:58:20.627Z",
+  "updatedAt": "2026-09-07T22:43:36.843Z",
   "theatre": {
     "id": 1147,
     "name": "Cineplex Odeon International Village Cinemas"
   },
   "auditoriums": {
-    "300201": {
-      "totalRows": 11,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        "DD",
-        "EE",
-        null,
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "seatTypes": [
-        "..................",
-        ".SSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        "..................",
-        "....CW..WCCW..WC..",
-        "....SSSSSSSSSSSS..",
-        "....SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS."
-      ]
-    },
     "300202": {
       "totalRows": 11,
       "totalColumns": 18,
@@ -1313,42 +1283,6 @@
         ".........SSSSSSSSSSSSSS...........",
         "..................................",
         ".................................."
-      ]
-    },
-    "304538": {
-      "totalRows": 14,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        "DD",
-        "EE",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "...................",
-        ".SSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSS.",
-        "...................",
-        "..CCW..WCCW..WC....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSS.."
       ]
     },
     "304539": {
@@ -6470,30 +6404,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "15:05",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=304538&a=0000000001&l=1147&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...................",
-                ".AAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAA.",
-                "...................",
-                "..AAA..AAAA..AA....",
-                "..AAOOOOAAAAAOO....",
-                "..AAAAAAAAAOOAA....",
-                "..AAAAAAOAAAAAA....",
-                "..AAOOOOAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "304538"
-            },
-            {
               "time": "18:25",
               "formats": [
                 "3D"
@@ -6509,7 +6419,7 @@
                 "...................",
                 "..AAA..AAAA..AA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAOOAAAAAAA....",
+                "..AAAAOOAAOOAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
@@ -6647,11 +6557,11 @@
                 ".........................",
                 "..AAAA..AAAOOAAA..AAAA...",
                 "..AAAA..AAAAAAAA..AAAA...",
-                "..AAAA..AAAAAAAA..AAAA...",
-                "..AAA...AAAAAAAA...AAA...",
+                "..AAAA..AAAAAOOA..AAAA...",
+                "..AAA...AAAOAAAA...AAA...",
                 "..AA....AAAAAAAA....AA...",
                 "........AAAAAAAA.........",
-                ".......AAAAAAAAAA........"
+                ".......AAAAAAAAAO........"
               ],
               "layoutKey": "304533"
             },
@@ -6723,7 +6633,7 @@
                 ".AAAAAAAAAAAAAAA.",
                 ".................",
                 "..AA..AAAA..AA...",
-                "..AAAAAOAAAAAA...",
+                "..OOAAAOAAOAAA...",
                 "..AAAAAAAAAAAA...",
                 ".OAAAAAAAAAAAAAA."
               ],
@@ -6788,12 +6698,12 @@
                 ".................",
                 "..AAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAA.",
+                "..AAAAAAAOAAAAAA.",
                 "..AAAAAAAAAAAAAA.",
                 "..AAAAAAOAAAAAAA.",
                 ".................",
                 "....AA.AAAA..AA..",
-                "....AAAAOOAAAAA..",
+                "....AAAAOOAOAAA..",
                 "....AAAAAAAAAAA..",
                 "...OAAAAAAAAAAAA."
               ],
@@ -6863,7 +6773,7 @@
                 ".AAAAAAAAAAAAAA.",
                 "................",
                 "...AA.AAAA.AA...",
-                "...AAAAAAAAOO...",
+                "...OOAAOOAAOO...",
                 "...AAOOOOOAAA...",
                 "...AAOOOOAAAO...",
                 "...AAAOOOOAAA...",
@@ -6938,7 +6848,7 @@
                 "AAAAA...AAAAAAAAAAAAAAAA.....AAAAA",
                 "..................................",
                 ".AAA.....A.A..AAAAA..AA......AAA..",
-                ".AAA.....AAAAAAAAAAAAAA......AAA..",
+                ".AAA.....AAAAAOOAAAAAAA......AAA..",
                 ".AAA.....AAAAAAAAAAAAAA......AAA..",
                 ".AAA.....AAAAAAAAOOAAAA......AAA..",
                 ".AAA.....AAAAAAAAAAAAAA......AAA..",
@@ -7018,7 +6928,7 @@
                 ".AAAAAAAAOAAAAAAA.",
                 "..................",
                 "...AA..AAAA..AA...",
-                "...AAAAOOAAOOAA...",
+                "...OOAAOOAAOOAA...",
                 "...AAAAAOOAAAAA...",
                 ".AAAAAAAAAAAAAAAA."
               ],
@@ -7090,7 +7000,7 @@
                 "..AAA..AAAA..AA....",
                 "..AAOOAAAOAAAAA....",
                 "..AAAAAOOOAAAAA....",
-                "..AAAAAAAAAAAOO....",
+                "..AAAAAAOOAAAOO....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAA.."
@@ -7112,7 +7022,7 @@
                 ".AAAAAAAAAAAAAAAAA.",
                 "...................",
                 "..AAA..AAAA..AA....",
-                "..AAAAAAAAAAAAA....",
+                "..AAAAAAOOOAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
@@ -7163,13 +7073,13 @@
                 ".AAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAOAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAOOOOAA.",
+                ".AAOAAAOOOOAAAAAA.",
                 "..................",
                 "...AA..AAAA..AA...",
-                "...AAAOOOOOAAAA...",
-                "...AAAAAOOOAAAA...",
-                "..AAAAAAOOOAAAAAA."
+                "...AAAOOOOOOAAA...",
+                "...AAAAAOOOAAOA...",
+                "..OAAAAAOOOAAAAAA."
               ],
               "layoutKey": "304520"
             },
@@ -7218,7 +7128,7 @@
                 "...AA..AAAA.AA...",
                 "...AAOOAAAAAAA...",
                 "...AAAAAAOAAAA...",
-                ".AAAAAAAAAAAAAAA."
+                ".AAAAAOAAAAAAAAA."
               ],
               "layoutKey": "304542"
             },
@@ -7267,34 +7177,6 @@
           ]
         },
         {
-          "title": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61450_320_470.jpg",
-          "runtimeMinutes": 165,
-          "sessions": [
-            {
-              "time": "15:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=300201&a=0000000001&l=1147&m=andre-rieus-2026-summer-concert-viva-maastricht&ss=False",
-              "seats": [
-                "..................",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAOOAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                "..................",
-                "....AA..AAAA..AA..",
-                "....AAAAAAAAAAAA..",
-                "....AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "300201"
-            }
-          ]
-        },
-        {
           "title": "Cars 20th Anniversary",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62034_320_470.jpg",
           "runtimeMinutes": 117,
@@ -7315,7 +7197,7 @@
                 "..................",
                 "...AA..AAAA..AA...",
                 "...AAAAAOOOAAAA...",
-                "...AAAAAOOOOOAA...",
+                "...OOOAAOOOOOAA...",
                 "..AAAAAOOOOAAOOAA."
               ],
               "layoutKey": "304522"
@@ -8110,7 +7992,7 @@
                 "...AA..AAAA..AA...",
                 "...AAAAAAAAAAAA...",
                 "...AAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAA."
+                ".AAAAAAAAOAAAAAAA."
               ],
               "layoutKey": "304571"
             },
@@ -10286,7 +10168,7 @@
                 "................",
                 "...AA.AAAA.AA...",
                 "...AAAAAAAAAA...",
-                "...AAAOOOAAAA...",
+                "...AAAAAAAAAA...",
                 "...AAAAAAAAAA...",
                 "...AAAAAAAAAA...",
                 "..AAAAAAAAAAAAA."
@@ -10851,7 +10733,7 @@
                 "..................",
                 "...AA..AAAA..AA...",
                 "...OAAAAOOOOAAA...",
-                "...AAAAAOOAAAAO...",
+                "...AAAAOOOAAAAO...",
                 ".AAAAAAOOOAAAAAAA."
               ],
               "layoutKey": "304324"
@@ -11032,7 +10914,7 @@
                 "..................",
                 "....AA..AAAA..AA..",
                 "....AOOOOOAOOAAA..",
-                "....OOAAOOOOOOAA..",
+                "....OOAAOOOOOOOO..",
                 "..AAAAAAOOOAAOAAA."
               ],
               "layoutKey": "304295"

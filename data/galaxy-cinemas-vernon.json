@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T21:58:38.218Z",
+  "updatedAt": "2026-09-07T22:43:55.044Z",
   "theatre": {
     "id": 1413,
     "name": "Galaxy Cinemas Vernon"
@@ -609,48 +609,6 @@
         "SSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "182170": {
-      "totalRows": 17,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K",
-        "L"
-      ],
-      "seatTypes": [
-        "......................",
-        ".SSSSSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSSSSS.",
-        "......................",
-        "....SCW.WCSSSSCW..WCS.",
-        "....SSSSSSSSSSSSSSSSS.",
-        "....SSSSSSSSSSSSSSSSS.",
-        "....SSSSSSSSSSSSSSSSS.",
-        "....SSSSSSSSSSSSSSSSS.",
-        "....SSSSSSSSSSSSSSSSS.",
-        "....SSSSSSSSSSSSSSSSS.",
-        ".....SSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSS..",
-        "SS..SSSSS.....SSSSSSS.",
-        "SS..SSS.......SSSSSSS.",
-        "SSSSSSS........SSSSSSS"
-      ]
-    },
     "182171": {
       "totalRows": 15,
       "totalColumns": 27,
@@ -687,42 +645,6 @@
         "..SSSSSSSSSSSSSSSSSSSSS..SS",
         "..SSSSSSSSSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "182172": {
-      "totalRows": 14,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSS...",
-        "....................",
-        "....SCW.CSCW..WCS...",
-        "....SSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSS...",
-        "SS..SSSSSSSSSSSSS...",
-        "SS..SSSSSSSSSSSSS...",
-        "SS..SSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "182173": {
@@ -2168,33 +2090,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "14:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=182170&a=0000000001&l=1413&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "......................",
-                ".AAAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAAA.",
-                "......................",
-                "....AAA.AAAAAAAA..AAA.",
-                "....AAAAAAAOOAAAAAAAA.",
-                "....AAAAAAAAAAAAAAAAA.",
-                "....AAAAAAAOOOAAAAAAA.",
-                "....AAAAOOAAAAAAOOAAA.",
-                "....AOOOAAAAOOOAAAAAA.",
-                "....AAAAOOAAAAAAOOAAA.",
-                ".....AAOOOAAAAAAAAAA..",
-                ".....AAAAAAAOOAAAAAA..",
-                "AA..OOAAA.....AAAAAAA.",
-                "AA..AAA.......AAAAAAA.",
-                "AAAAAAA........AAAAAAA"
-              ],
-              "layoutKey": "182170"
-            },
-            {
               "time": "18:10",
               "formats": [
                 "Regular"
@@ -2212,7 +2107,7 @@
                 "....AAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAA.",
-                "....AAAAAAAAAAAAAAAAA.",
+                "....AAAOOOAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAA..",
                 "AA..AAAAA.....AAAAAAA.",
@@ -2228,30 +2123,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
           "runtimeMinutes": 172,
           "sessions": [
-            {
-              "time": "15:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=182172&a=0000000001&l=1413&m=the-odyssey&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAA...",
-                "....................",
-                "....AAA.AAAA..AAA...",
-                "....AAAOOAAAAAAAA...",
-                "....AAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAA...",
-                "....AAOOAOOOAAAAA...",
-                "AA..AAAAAAAAAAAAA...",
-                "AA..AAAOOOAAAAAAA...",
-                "AA..AAAAOOOOAAAAA...",
-                "AAAAAAAAAAOAAAAAAAAA"
-              ],
-              "layoutKey": "182172"
-            },
             {
               "time": "18:30",
               "formats": [
@@ -2300,12 +2171,12 @@
                 "..AAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAOOOOOOAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAOOOAAAAAAAA.....",
+                "..AAAAAAAAOOOOOOAAAAAAA....",
+                "...OOOAAAAAOOOAAAAAAAA.....",
                 "...AAAAAAAAAAAAAOOAAAA...AA",
-                "..AAAAAAAAAAOOOOAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "..AAAAAOOAAAOOOOAAAAAAA..AA",
+                "..AAAAAAAAOOAAAAAAAAAAA..AA",
+                "AAAAAAAOOAAAOOOAAAAAOOAAAAA"
               ],
               "layoutKey": "182171"
             },
@@ -2557,7 +2428,7 @@
                 ".....AAAAAAAAAAA..",
                 ".....AAAAAAAAAAA..",
                 ".....AAAAAAAAAAA..",
-                ".....AAAAAAAAAAA..",
+                ".....AOOOOAAAAAA..",
                 ".....AAAAAAAAAAA..",
                 "AAA..AAAAAAAAAAA..",
                 "AAA..AA...AAAAAA..",

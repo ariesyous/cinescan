@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T21:58:22.007Z",
+  "updatedAt": "2026-09-07T22:43:38.329Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
@@ -363,28 +363,6 @@
         "........SSSSSS......"
       ]
     },
-    "153433": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
     "153435": {
       "totalRows": 7,
       "totalColumns": 15,
@@ -405,36 +383,6 @@
         "..SSSSSSSSSSS..",
         "..SSSSSSSSSSS..",
         "..WCSSSSSSSCW.."
-      ]
-    },
-    "153440": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "......SSSSCW.WCSSSSS..",
-        "......................"
       ]
     },
     "153441": {
@@ -1181,59 +1129,6 @@
       "date": "2026-09-07",
       "movies": [
         {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153440&a=0000000001&l=7206&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAA..AAAAOOAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "A?AA..AAAAAAA?AAA?AA..",
-                "AAAA..AAAAAA?AAAAAAA..",
-                "AA?A..AAO?AOOAOAAAAA..",
-                "AAAA..AAAAAA??OOAAAA..",
-                "AAAA..AAAAAA????AAAA..",
-                "......AAAAAA.AAAOOA?..",
-                "......................"
-              ],
-              "layoutKey": "153440"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "18:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153433&a=0000000001&l=7206&m=the-odyssey&ss=False",
-              "seats": [
-                "...............",
-                "..A?AAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..OOAAOAAOAAA..",
-                "..AA?OOOOOOOO..",
-                "..AAAAOOOAAAA.."
-              ],
-              "layoutKey": "153433"
-            }
-          ]
-        },
-        {
           "title": "Coyote vs ACME",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
@@ -1277,7 +1172,7 @@
                 "..?AAAAAAAAAA..",
                 "..?AAAAAAAAAA..",
                 "..?AAAAAAAAAA..",
-                "..?AA?AAAAAAA..",
+                "..?OA?AAAAAAA..",
                 "..AAAAAAAAAAA.."
               ],
               "layoutKey": "153441"
@@ -1301,7 +1196,7 @@
                 "..AAAAAAAAAAA..",
                 "..A?AAAAAAAAA..",
                 "..AAAAOOOAA??..",
-                "..AA?AAAAAAOO..",
+                "..AA?AAAAOAOO..",
                 "..AAAAAOOAAAA.."
               ],
               "layoutKey": "153435"
@@ -1325,7 +1220,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAA?AAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAA?AAAAAA..",
+                "..AAAA?OOAAAA..",
                 "..AAAA?A??AAA.."
               ],
               "layoutKey": "153450"
