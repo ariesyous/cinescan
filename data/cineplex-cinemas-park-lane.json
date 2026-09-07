@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T22:43:12.964Z",
+  "updatedAt": "2026-09-07T23:16:15.946Z",
   "theatre": {
     "id": 5143,
     "name": "Cineplex Cinemas Park Lane"
@@ -453,36 +453,6 @@
         "..SSSSSSSSSSSSSSSS....",
         "..SSSSSSSSSSSSSSSS....",
         "SSSSSSSSSSSSSSSSSSSS.."
-      ]
-    },
-    "128117": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "...................",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        "...................",
-        "..SSSSSCW.CW.WC....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "SSSSSSSSSSSSSSSSS.."
       ]
     },
     "128118": {
@@ -2152,42 +2122,6 @@
         "..SSSSSSSSSSSSS....",
         ".SSSSSSSSSSSSSSSS.."
       ]
-    },
-    "128183": {
-      "totalRows": 14,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...................",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        "...................",
-        "..SSSSS.WCCW.WC....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSS.."
-      ]
     }
   },
   "days": [
@@ -2296,27 +2230,6 @@
           "runtimeMinutes": 118,
           "sessions": [
             {
-              "time": "19:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=128117&a=0000000001&l=5143&m=the-dog-stars&ss=False",
-              "seats": [
-                "...................",
-                ".AAAAAAAAAAAAAAAA..",
-                ".AAAAOAAAAAAAAAAA..",
-                "...................",
-                "..AAAAA?A.AA.A?....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AOOAAAOOAAAAA....",
-                "..AAAAAAOAAAAAA....",
-                "..AAAOOAAAAAOOO....",
-                "AAAOOAAAOOAAAAAAA.."
-              ],
-              "layoutKey": "128117"
-            },
-            {
               "time": "22:15",
               "formats": [
                 "Regular"
@@ -2375,30 +2288,6 @@
           "runtimeMinutes": 195,
           "sessions": [
             {
-              "time": "20:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=128183&a=0000000001&l=5143&m=mirzapur-the-movie-hindi-west&ss=False",
-              "seats": [
-                "...................",
-                ".AAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAA..",
-                ".OOOAAAAAAAAAOOOO..",
-                "...................",
-                "..AAAOO.AAAA.AA....",
-                "..OOOOOOOOAOOOO....",
-                "..AOOOOOOOOOOOO....",
-                "..OOOOOOOOOOOOO....",
-                "..OOOOOOOOOOOOO....",
-                "..OOOOOOOOOOOOO....",
-                "..OOOOOOOOOOOOO....",
-                "..OOOOOOOOOOOOO....",
-                ".OOOOOOOOOOOOOOOO.."
-              ],
-              "layoutKey": "128183"
-            },
-            {
               "time": "21:10",
               "formats": [
                 "Regular"
@@ -2408,12 +2297,12 @@
                 "...................",
                 ".AAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAA..",
+                ".OOOOOOOOOOOOAAAA..",
                 "...................",
-                ".....AAAAOOOOAA.A..",
+                ".....AAOOOOOOAA.A..",
                 "....OOOOOOOOOOOAA..",
                 "....OOOOOOOOOOOOA..",
-                "....AOOOOOOOOOOOO..",
+                "....OOOOOOOOAOOOO..",
                 "....OOOOOOOOOOOOO..",
                 "....OOOOOOOOOOOOO..",
                 "....OOOOOOOOOOOOO..",
@@ -2487,7 +2376,7 @@
                 ".AAAA..AAAAAAAAAAAAAAAAAA.....",
                 "AAAAA..AAAAAAAAAAAAAAAAAA.....",
                 "AAAAA..AAAAAAAAAAAAAAAAAA.....",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAA..."
+                "AAAAAAOOOOAAAAOOOAAAAAAAAAA..."
               ],
               "layoutKey": "128139"
             },
@@ -2800,8 +2689,8 @@
                 "....AA..AAOOAAA??AA...",
                 "....AAAAAAAAAAAOAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "....AOOAAOOOOAAAAAAA..",
+                "....AAAAAAAOAAAAAAAA..",
+                "....AAAAAOOOOAAAAAAA..",
                 "....AAAOOOOOOOOOOOOA..",
                 "....OOAAOOOOOOOAAOOO..",
                 "...OOOAAOOOOOOOOOOOAAO"
@@ -2828,7 +2717,7 @@
                 "..AAAAAOOOAAAAA....",
                 "..AAAAOOOOOOOOO....",
                 "..AOOOOOOOOOAOO....",
-                ".AAAOOOOOOOAOOOOO.."
+                ".AOOOOOOOOOAOOOOO.."
               ],
               "layoutKey": "128171"
             }

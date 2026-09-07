@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T22:42:47.549Z",
+  "updatedAt": "2026-09-07T23:15:56.172Z",
   "theatre": {
     "id": 2112,
     "name": "Cinema City Northgate"
@@ -1435,42 +1435,6 @@
         "............WWCS"
       ]
     },
-    "181004": {
-      "totalRows": 14,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "M",
-        "L",
-        "K",
-        "J",
-        "I",
-        "H",
-        "G",
-        "F",
-        "E",
-        "D",
-        "C",
-        "B",
-        "A"
-      ],
-      "seatTypes": [
-        "..............",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "..........WWCC"
-      ]
-    },
     "181005": {
       "totalRows": 14,
       "totalColumns": 16,
@@ -1899,6 +1863,54 @@
         "..........WWCC"
       ]
     },
+    "181019": {
+      "totalRows": 20,
+      "totalColumns": 21,
+      "rowLabels": [
+        null,
+        "R",
+        "Q",
+        "P",
+        "O",
+        "N",
+        "M",
+        "L",
+        "K",
+        "J",
+        "I",
+        "H",
+        "G",
+        "F",
+        "E",
+        "D",
+        "C",
+        "B",
+        "A",
+        null
+      ],
+      "seatTypes": [
+        ".....................",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSS..SSSS",
+        "SSSS.............SSSS",
+        "SSSS..SCW.W.WCS..SSSS",
+        "....................."
+      ]
+    },
     "181020": {
       "totalRows": 20,
       "totalColumns": 21,
@@ -1977,11 +1989,11 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..OAAAAAA",
                 "AAAAAAO..AAAAAAA",
-                "AAAAAAA..AAAAAOO",
-                "AAAAAAA..AAAAAAA",
+                "AAAAAAA..AAOAAOO",
+                "AAOOOAA..AAAAAAA",
                 "OOAAAAA..OOOAAAA",
                 "AAAAAOO..OOOAAAA",
-                "AAAAAAA..AA.....",
+                "OOAAAAA..AA.....",
                 "............AAAA"
               ],
               "layoutKey": "181007"
@@ -2023,6 +2035,36 @@
           "runtimeMinutes": 195,
           "sessions": [
             {
+              "time": "19:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=181019&a=0000000001&l=2112&m=mirzapur-the-movie-hindi-west&ss=False",
+              "seats": [
+                ".....................",
+                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..OOOAAAAAA..AAAA",
+                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAAAOOOA..AAAA",
+                "AAAA..OOOAAAAOO..AAAA",
+                "AAAA..AAAAOOOOO..AAAA",
+                "AAAA.............AAAA",
+                "OOAA..AAA.A.AAA..OOAA",
+                "....................."
+              ],
+              "layoutKey": "181019"
+            },
+            {
               "time": "19:45",
               "formats": [
                 "Regular"
@@ -2035,10 +2077,10 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
-                "AAAAAOO..OOAAAAA",
+                "AOOOOOO..OOAAAAA",
                 "OOOOOOO..OOOOOAA",
                 "OOOOOOO..OOOOOOO",
-                "OOOOOOO..OOOOOOA",
+                "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
@@ -2063,13 +2105,13 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
-                "AAAAAAA..AAAAAAA",
+                "OOOOOOA..OOOAAAA",
                 "OOOOOOO..OOOOOOA",
                 "OOOOOOO..OOOOOOA",
-                "OOOOOAA..OOOOOOA",
+                "OOOOOOO..OOOOOOA",
                 "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOA",
-                "AOOOOOO..OOOOOOA",
+                "AOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OO.....",
                 "............AAAA"
@@ -2097,10 +2139,10 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
+                "AAAAAAA..OOOOOOA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
-                "AAAAAAA..AAAAAAA",
-                "AAAAAAA..AAAAAAA",
+                "AAAAAOO..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAA............"
@@ -2138,30 +2180,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61771_320_470.jpg",
           "runtimeMinutes": 172,
           "sessions": [
-            {
-              "time": "18:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=181004&a=0000000001&l=2112&m=yaar-jigree-kasooti-degree-punjabi-west&ss=False",
-              "seats": [
-                "..............",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..OOOAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..OAAAAA",
-                "AAAAAA..AAAOAA",
-                "AAOOAA..AAAAAA",
-                "..........AAAA"
-              ],
-              "layoutKey": "181004"
-            },
             {
               "time": "21:00",
               "formats": [
@@ -2210,7 +2228,7 @@
                 "AAAAAA..AAAAAA",
                 "AAAAAA..AAAAAA",
                 "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
+                "AAAAOA..AAAAAA",
                 "AAAAAA..AAAAAA",
                 "AAAAAA..AAAAAA",
                 "AAAA.........."
@@ -2267,7 +2285,7 @@
                 "AAAAAA..AAAAAA",
                 "AAAAAA..AAAAAA",
                 "AAAAAA..AAAAAA",
-                "AAAAAA........",
+                "OAAAAA........",
                 "..........AAAA"
               ],
               "layoutKey": "181008"
@@ -2476,7 +2494,7 @@
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAA..AAAA",
-                "AAAA..AAAAAAAAA..AAAA",
+                "AAAA..AAAAOOAAA..AAAA",
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAA..AAAA",
@@ -2532,7 +2550,7 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
-                "AAAAAAA..OOOAAAA",
+                "AAAAAAA..OOOOAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..OOAAAAA",
                 "OOOOOOO..OO.....",
@@ -2962,7 +2980,7 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
-                "AAAAAAA..AAAAAAA",
+                "AAAOOOO..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
@@ -2982,7 +3000,7 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
-                "AAOOAAA..AAAAAAA",
+                "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
