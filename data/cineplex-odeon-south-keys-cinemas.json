@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T23:32:11.517Z",
+  "updatedAt": "2026-09-07T00:30:56.737Z",
   "theatre": {
     "id": 7247,
     "name": "Cineplex Odeon South Keys Cinemas"
@@ -2995,6 +2995,32 @@
         "..WCSSSSSSSSSCW"
       ]
     },
+    "410706": {
+      "totalRows": 9,
+      "totalColumns": 15,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "...SSSSSSSSSSSS",
+        "..SSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSS",
+        "...WCSSSSSSSSCW"
+      ]
+    },
     "410707": {
       "totalRows": 8,
       "totalColumns": 13,
@@ -3815,32 +3841,6 @@
       ],
       "seatTypes": [
         ".....SSSSSSSSSS",
-        "..SSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSS",
-        "..WCSSSSSSSSSCW"
-      ]
-    },
-    "410754": {
-      "totalRows": 9,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...SSSSSSSSSSSS",
         "..SSSSSSSSSSSSS",
         ".SSSSSSSSSSSSSS",
         "SSSSSSSSSSSSSSS",
@@ -4704,34 +4704,6 @@
         "SSSSSSSSSSSSS",
         "..WCSSSSSSSCW"
       ]
-    },
-    "410819": {
-      "totalRows": 10,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSS",
-        ".SSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "..WCSSSSSSSCW"
-      ]
     }
   },
   "days": [
@@ -4751,9 +4723,9 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=410788&a=0000000001&l=7247&m=spiderman-brand-new-day&ss=False",
               "seats": [
                 "...AAAAAAAAAAAA",
-                "..AAAAAAAAAAAAA",
+                "..AAAAOOAAAAAAA",
                 ".AAAOOOOOOOAAAA",
-                "OOOAAOOOOOOOOOO",
+                "OOOOOOOOOOOOOOO",
                 "OOOOOOOOOOOOOOO",
                 "OOOOOOOO?OOOOOA",
                 "OOOOOOOOOOOOOOO",
@@ -4775,37 +4747,11 @@
                 "AAAAAAAOOAAAAAA",
                 "AAAAAAAAAAAAAAA",
                 "AAAAAAOOOAAAAAA",
-                "AAAOOAOOOOAAAAA",
+                "AAAAAOOOOOAAAAA",
                 "AAAAAAAAAAAAAAA",
                 "..AAAAAAAAAAAAA"
               ],
               "layoutKey": "410751"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "20:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=410754&a=0000000001&l=7247&m=the-odyssey&ss=False",
-              "seats": [
-                "...AAAAAAAAAAAA",
-                "..AAAAAAAAAAAAA",
-                ".AAAAAAOAAAAAAA",
-                "OOOOAOOOOOOOAOO",
-                "OOOOOOOOOOOOOOO",
-                "OOOAOOOOOOOOAAO",
-                "OOOOOOOOOOOOOOO",
-                "AAOOOOOOOOOOOOO",
-                "..AAOOOOOOOOAAA"
-              ],
-              "layoutKey": "410754"
             }
           ]
         },
@@ -4827,7 +4773,7 @@
                 "AAAAAOOOOOOOOAAAAAA",
                 "AAAAOOOAAOOAAAAAAAA",
                 "AAAAAAAAAOAAAAOOAAA",
-                "OOOAAOAAOOAAAAAAAAA",
+                "OOOAAAAAOOOOOOOAAAA",
                 "AAAAAAAOAAOOAAAAAAA",
                 "....AAAAAOO?AAAAAAA"
               ],
@@ -4915,9 +4861,9 @@
                 "AAAAAAAAAAAAA",
                 "AAAOOOOOOOAAA",
                 "OOOOOOOOAAAAA",
-                "OAAAAOOOAAAAA",
+                "AAAAAOOOAAAAA",
                 "AAAOOAAOOAAAA",
-                ".AAAAOOAAAAA."
+                ".AAAAOOAAOAA."
               ],
               "layoutKey": "410707"
             }
@@ -4954,26 +4900,6 @@
           "runtimeMinutes": 99,
           "sessions": [
             {
-              "time": "19:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=410819&a=0000000001&l=7247&m=the-end-of-oak-street&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAA",
-                ".AAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAO",
-                "AAAAAOOAAAAAA",
-                "AAAAAAAAOOAAA",
-                "AAAAAOOOAAAAA",
-                "AAAAAOOAAAAAO",
-                "OOOAAAAOOAAAA",
-                "..AAOOOOAAAAA"
-              ],
-              "layoutKey": "410819"
-            },
-            {
               "time": "22:00",
               "formats": [
                 "Regular"
@@ -4987,7 +4913,7 @@
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
+                "AAAOAAAAAAAAA",
                 "AAAAAAOOAAAAA",
                 "..AAAAAAAAAAA"
               ],
@@ -5005,7 +4931,19 @@
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=410706&a=0000000001&l=7247&m=mirzapur-the-movie-hindi-west&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=410706&a=0000000001&l=7247&m=mirzapur-the-movie-hindi-west&ss=False",
+              "seats": [
+                "...????????????",
+                "..?????????????",
+                ".??????????????",
+                "???????????????",
+                "???????????????",
+                "???????????????",
+                "???????????????",
+                "???????????????",
+                "...????????????"
+              ],
+              "layoutKey": "410706"
             }
           ]
         },
@@ -5024,12 +4962,12 @@
                 "..AAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAA",
-                "AAAAO?OOOAAAAAA",
                 "AAAAAAOOAAAAAAA",
-                "AAAAAOOOOAAAAAA",
-                "AAOOAAAOAAAAAAA",
-                "..AAAOOOAAAOOAA"
+                "AAAAO?AAAAAAAAA",
+                "AAAAAAOOAAAAAAA",
+                "AOOOOOOOOAAOOOO",
+                "AAOOOOOOAOOAAAA",
+                "..AAAOOOOOOOOAA"
               ],
               "layoutKey": "410700"
             }
@@ -5735,7 +5673,7 @@
                 "AAAAAAAAAAAAAAA",
                 "AAAAAAOOAAAAAAA",
                 "AAAAAAAAAAAAAAA",
-                "OOAAAAAAAAAAAAA",
+                "OOAAAAAAAAOOAAA",
                 "...AAOOOOAAAAAA"
               ],
               "layoutKey": "410718"
@@ -5753,7 +5691,7 @@
                 "AAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAA",
-                "OOOOAAOOOAAAOOO",
+                "AAAAAAOOOAAAOOO",
                 "OOAAAAOOAAOOOOO",
                 "...AAAAOOOOAAAA"
               ],
@@ -7029,7 +6967,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAOOAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAA..",

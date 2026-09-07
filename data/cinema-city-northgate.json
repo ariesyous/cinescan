@@ -1,46 +1,10 @@
 {
-  "updatedAt": "2026-09-06T23:31:11.320Z",
+  "updatedAt": "2026-09-07T00:30:01.662Z",
   "theatre": {
     "id": 2112,
     "name": "Cinema City Northgate"
   },
   "auditoriums": {
-    "180937": {
-      "totalRows": 14,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "M",
-        "L",
-        "K",
-        "J",
-        "I",
-        "H",
-        "G",
-        "F",
-        "E",
-        "D",
-        "C",
-        "B",
-        "A"
-      ],
-      "seatTypes": [
-        "..............",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS..SSSSSS",
-        "SSSSSS........",
-        "..........WWCS"
-      ]
-    },
     "180938": {
       "totalRows": 19,
       "totalColumns": 16,
@@ -2626,54 +2590,6 @@
         "SSSSSS..SSSSSS",
         "..........WWCC"
       ]
-    },
-    "181018": {
-      "totalRows": 20,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "R",
-        "Q",
-        "P",
-        "O",
-        "N",
-        "M",
-        "L",
-        "K",
-        "J",
-        "I",
-        "H",
-        "G",
-        "F",
-        "E",
-        "D",
-        "C",
-        "B",
-        "A",
-        null
-      ],
-      "seatTypes": [
-        ".....................",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSS..SSSS",
-        "SSSS.............SSSS",
-        "SSSS..SCW.W.WCS..SSSS",
-        "....................."
-      ]
     }
   },
   "days": [
@@ -2704,9 +2620,9 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAAOO..AAAAAAA",
-                "AAAAAAA..AAAAAAA",
-                "AAAAOOO..OOOAAAA",
-                "AAAAAAA..AAAAOOO",
+                "AAAAAAA..AAAOOOO",
+                "AAAAOOO..OOAAAAA",
+                "AAAOOOO..AAAAOOO",
                 "AAAAOOO..AAAAAAA",
                 "AAAAAAA..OOOOOAA",
                 "OOAAAAA..OA.....",
@@ -2722,36 +2638,6 @@
           "runtimeMinutes": 195,
           "sessions": [
             {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=181018&a=0000000001&l=2112&m=mirzapur-the-movie-hindi-west&ss=False",
-              "seats": [
-                ".....................",
-                "AAAA..OAAOOOOOO..AOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO..OOOOOOOOO..OOOO",
-                "OOOO.............OOOO",
-                "OOOO..OAA.A.AAO..OOOO",
-                "....................."
-              ],
-              "layoutKey": "181018"
-            },
-            {
               "time": "19:45",
               "formats": [
                 "Regular"
@@ -2759,15 +2645,15 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=180938&a=0000000001&l=2112&m=mirzapur-the-movie-hindi-west&ss=False",
               "seats": [
                 "................",
-                "OOOOAOO..OOOOOAA",
-                "OOOOOOO..OOAAOOO",
-                "OOOOOOO..OOOOOOA",
-                "AOOOOOO..OOOOOOA",
-                "OOOOOOA..OOOOOOA",
                 "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
-                "AOOOOOO..OOOOOOO",
+                "OOOOOOO..OOOOOOO",
+                "OOOOOOO..OOOOOOO",
+                "OOOOOOO..OOOOOOO",
+                "OOOOOOO..OOOOOOO",
+                "OOOOOOO..OOOOOOO",
+                "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
@@ -2788,9 +2674,9 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=180940&a=0000000001&l=2112&m=mirzapur-the-movie-hindi-west&ss=False",
               "seats": [
                 "................",
-                "AAOOOAA..AAAAAAA",
-                "AOOOOOO..AAOOAAA",
-                "OOOOOOO..OOOAOOO",
+                "OOOOOOO..OOOOOOO",
+                "OOOOOOO..OOOOOOA",
+                "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
                 "OOOOOOO..OOOOOOO",
@@ -2829,7 +2715,7 @@
                 "AAOOOO..AAAAAA",
                 "AAAAAA..OOOOOO",
                 "AAOOAA..AAAAAA",
-                "AAAAAA..AAAAAA",
+                "AAAAAA..OOAAAA",
                 "AAOOAA..AAAAAA",
                 "AAAAAA........",
                 "..........AAAA"
@@ -2859,9 +2745,9 @@
                 "AAAAAAA..AAAAAAA",
                 "OOAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
-                "AAAAAOO..AAAAAAA",
-                "AAAAAAA..AAAAAAA",
-                "AAAAAAA..OOAAAAA",
+                "AAAAAAA..AOOOOAA",
+                "OOOAAAA..AOOAAAA",
+                "AAAAAOO..OOAAAAA",
                 "OOOAAOO..AAAOOOO",
                 "AAAA............"
               ],
@@ -2905,30 +2791,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60470_320_470.jpg",
           "runtimeMinutes": 108,
           "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=180937&a=0000000001&l=2112&m=obsession-2026&ss=False",
-              "seats": [
-                "..............",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA..OOAAAA",
-                "AAAAAA..OOAAAA",
-                "AAAAAA..AAAAAA",
-                "AAAAAA........",
-                "..........AAAA"
-              ],
-              "layoutKey": "180937"
-            },
             {
               "time": "21:40",
               "formats": [
@@ -3106,7 +2968,7 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAAA..AAAAAAA",
                 "AAAAOOO..OOOOAAA",
-                "AAAAAAA..OOAAAAA",
+                "AAAAAAA..OOAOOOA",
                 "AAAOOAA..AAAAAAA",
                 "AAAAAAA..AA.....",
                 "............AAAA"
@@ -3162,7 +3024,7 @@
                 "AAAAAAA..AAAAAAA",
                 "AAAAAOO..OOOOOOA",
                 "AAAAAAA..AAAAAAA",
-                "AAAAAAA..OO.....",
+                "AAOOOAA..OO.....",
                 "............AAAA"
               ],
               "layoutKey": "181011"
