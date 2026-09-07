@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T21:01:46.669Z",
+  "updatedAt": "2026-09-07T21:57:53.711Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -113,24 +113,6 @@
         "SSS..SSSSSSSSSSSS..SSS",
         "SSS...SSSSCWWCSSS..SSS",
         "SCW..................."
-      ]
-    },
-    "125318": {
-      "totalRows": 5,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSS..SS",
-        "CW..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS...WCSSSCW..SS"
       ]
     },
     "125319": {
@@ -767,12 +749,12 @@
                 "A??..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAOOOAAAAA..AAA",
-                "AAA..AAAOOOOOAAAA..AAA",
-                "AAA..AAAA?AOOAAAA..AAA",
+                "AAA..AAAOOOOOAAAA..OOA",
+                "AAA..OOOO?AOOOOAA..AAA",
                 "AAA..OOOOOAOOOOOO..AAA",
-                "AAA..AAAAAA?OOOAA..AAA",
-                "AAA..OOAAAOOOAAAA..AAA",
-                "AAA...AAAAAAAAA?A..AAA",
+                "AOO..OOAAOO?OOOAA..OOO",
+                "AAA..OOOOOOOOAAAA..AAA",
+                "AOO...OOAOAAAAA?A..OOA",
                 "???..................."
               ],
               "layoutKey": "125315"
@@ -814,11 +796,11 @@
               "seats": [
                 "AAAAA??AAAAAA?",
                 "AAAAAAAAAAAA?A",
-                "OOOOOOOAAAAAAA",
+                "OOOOOOOAAOOAAA",
                 "OOOA?OOOOA..AA",
                 "OOAOOOOOOOOOAA",
-                "OOOAAOOOOOOOOO",
-                "AA..AA..AA..AA"
+                "OOOOOOOOOOOOOO",
+                "OO..AA..AA..AA"
               ],
               "layoutKey": "125326"
             },
@@ -832,8 +814,8 @@
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
-                "AAAAOOOOAAAAA",
-                "AAOOOOOOOAAAA",
+                "AAAOOOOOAAAAA",
+                "AOOOOOOOOOOOO",
                 "OOAOOOOOAOO..",
                 "AAOOA.AOOOO.."
               ],
@@ -859,7 +841,7 @@
                 "AAAOOOOOOOAAA",
                 "AAAAOOOAOOOAA",
                 "AOOAOOOOOOO..",
-                "OOAAA.AAAAA.."
+                "OOAAA.AAAOO.."
               ],
               "layoutKey": "125323"
             },
@@ -933,21 +915,6 @@
           "runtimeMinutes": 89,
           "sessions": [
             {
-              "time": "14:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125318&a=0000000001&l=1410&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                "AA..AAOOAAAA..AA",
-                "AA..AAA?AAAA..AA",
-                "AA..OOOOOO??..?A",
-                "?A..OOOOOOOA..AA",
-                "AA...AOOAAAA..AA"
-              ],
-              "layoutKey": "125318"
-            },
-            {
               "time": "16:50",
               "formats": [
                 "Recliner"
@@ -957,7 +924,7 @@
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
                 "AA..AAAAAA??..?A",
-                "?A..AAAAAAAA..AA",
+                "?A..OOOAAAAA..AA",
                 "AA...AAAAAAA..AA"
               ],
               "layoutKey": "125319"

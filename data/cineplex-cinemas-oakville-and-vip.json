@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T21:01:48.258Z",
+  "updatedAt": "2026-09-07T21:57:55.670Z",
   "theatre": {
     "id": 7273,
     "name": "Cineplex Cinemas Oakville and VIP"
@@ -1421,34 +1421,6 @@
         ".DD.DDD.DDD.DDD.DDD.DDD.D..SS"
       ]
     },
-    "252986": {
-      "totalRows": 10,
-      "totalColumns": 15,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "....SSSSSSSSSS.",
-        "...............",
-        "....SSSSCW.WCS.",
-        "....SSSSSSSSSS.",
-        "....SSSSSSSSSS.",
-        "....SSSSSSSSSS.",
-        "....SSSSSSSSSS.",
-        "SS..SSSSSSSSSS.",
-        "SS..SSSSSSSSSS.",
-        "SSSSSSSSSSSSSSS"
-      ]
-    },
     "252987": {
       "totalRows": 10,
       "totalColumns": 15,
@@ -1738,36 +1710,6 @@
       ]
     },
     "253003": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "......................",
-        "..SSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSS...",
-        "......................",
-        "....SCW.SSSSSCW..WCS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "253004": {
       "totalRows": 11,
       "totalColumns": 22,
       "rowLabels": [
@@ -4138,11 +4080,11 @@
                 "..........................",
                 ".......AAAAAAAAAAAAA.AAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAOAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAA..",
-                "AA..OOOOOOOOAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAAAAA..",
+                "AA..OOOOOAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAOOAAAAAAAAA..",
                 "AA..AAAAAA?AAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -4161,10 +4103,10 @@
                 ".AAAAAA.AAA....",
                 ".AAAAOOAAAA....",
                 ".AAAAAAAAAA....",
-                ".AAOOAAAAOO....",
+                ".AAAAAAAAOO....",
                 ".AAAAOOAAAA....",
-                ".AAOOAAOOAA..AA",
-                ".AAAAAAAAAA..AA",
+                ".AAOOAAOOAA..OO",
+                ".AAAAOOAAAA..AA",
                 "AAAAAOOAAAA..AA",
                 ".........OOOAAA"
               ],
@@ -4201,26 +4143,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "17:00",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=252986&a=0000000001&l=7273&m=the-odyssey&ss=False",
-              "seats": [
-                "....??????????.",
-                "...............",
-                "....AAAAAA.AAA.",
-                "....AAAAAAAAAA.",
-                "....AAAAAAAAAA.",
-                "....OOAAOOAAAA.",
-                "....AAAAOOAAAA.",
-                "AA..OOAAOOAAAA.",
-                "AA..AAAAOOAAOO.",
-                "AAAAOOAAOOAAAAA"
-              ],
-              "layoutKey": "252986"
-            },
-            {
               "time": "20:15",
               "formats": [
                 "UltraAVX",
@@ -4237,10 +4159,10 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAA..OO",
+                ".AAAAAAAOOAAAAAAAAAAAAAAA..OO",
                 ".AAAAAAAA?AAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA..AA",
-                ".AA.AAA.AAA.AOO.AAA.AAA.A..AA",
+                ".OO.AAA.AAA.AOO.AAA.AAA.A..AA",
                 ".A?.AAA.AAA.AAA.AAA.AAA.A..AA"
               ],
               "layoutKey": "252982"
@@ -4261,10 +4183,10 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAA..OO",
+                ".AAAAAAAOOAAAAAAAAAAAAAAA..OO",
                 ".AAAAAAAA?AAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA..AA",
-                ".AA.AAA.AAA.AOO.AAA.AAA.A..AA",
+                ".OO.AAA.AAA.AOO.AAA.AAA.A..AA",
                 ".A?.AAA.AAA.AAA.AAA.AAA.A..AA"
               ],
               "layoutKey": "252982"
@@ -4350,7 +4272,7 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAOOAAAAAA....",
                 "..AAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -4501,7 +4423,7 @@
                 ".AAAAAAAAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAAAAAAAA.....",
                 ".AAAAAOOAAAA?AAAAAAAA.....",
-                ".AAAAAAAAAAAAAAAAAAAA...AA",
+                ".AAAAAAAAAAAAAAAAAOOA...AA",
                 ".AAAAAAAAAAAAAAAAAAAA...AA",
                 ".AAAAAAAAAAAAAAAAAAAA...AA",
                 "AAAAAAAAAAAAOOAAAOAAAAAAAA"
@@ -4525,7 +4447,7 @@
                 ".AAAAAAAAAAA?AAAAAAAA.....",
                 ".AAAAAAAAAAAAAAAAAAAA...AA",
                 ".AAAAAAAAAAAAAAAAAAAA...AA",
-                ".AAAAAAAAAAAAAAAAAAAA...AA",
+                ".AAAAAAAAAAAOOAAAAAAA...AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "252975"
@@ -4605,8 +4527,8 @@
                 "....AAAAOOAAAA.",
                 "....AAOOOOAAAA.",
                 "AO..AAOOAOOOOO.",
-                "AA..AAAAAAAAAA.",
-                "AAAAOOAAAAOOOOO"
+                "AA..AAOOAAOAAA.",
+                "AAAAOOAAAAOOOOA"
               ],
               "layoutKey": "252987"
             }
@@ -4656,34 +4578,6 @@
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "253006"
-            }
-          ]
-        },
-        {
-          "title": "Toy Story 5",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36558_320_470.jpg",
-          "runtimeMinutes": 102,
-          "sessions": [
-            {
-              "time": "16:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=253004&a=0000000001&l=7273&m=toy-story-5&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAA...",
-                "......................",
-                "....AAA.AAAAAAA..AAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "....AAAAAOOOAAAAAAAA..",
-                "....AAAAAAAOOAAAAAAA..",
-                "AA..AAAAAAAAAAAAOOOO..",
-                "AAAAAAAAAAOOOAAAAAAAAA"
-              ],
-              "layoutKey": "253004"
             }
           ]
         }
