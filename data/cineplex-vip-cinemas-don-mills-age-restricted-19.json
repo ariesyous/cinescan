@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T16:55:26.782Z",
+  "updatedAt": "2026-09-08T19:45:29.134Z",
   "theatre": {
     "id": 7139,
     "name": "Cineplex VIP Cinemas Don Mills (age restricted 19+)"
@@ -858,6 +858,38 @@
         "SSSSSSSSSS.SS",
         "SSSSSSSSSS.SS"
       ]
+    },
+    "63398": {
+      "totalRows": 12,
+      "totalColumns": 13,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        ".SS.SS.SS....",
+        ".............",
+        "CW.SSSCWWC...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS.SS",
+        "SSSSSSSSSS.SS",
+        "SSSSSSSSSS.SS",
+        "SSSSSSSSSS.SS",
+        "SSSSSSSSSS.SS"
+      ]
     }
   },
   "days": [
@@ -881,9 +913,9 @@
               "seats": [
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
-                "AAAAOOOAAAAA",
+                "AAAAOOOAOOAA",
                 "AAOOOOOOOOAA",
-                "AAOO?OOOOOOO",
+                "AOOO?OOOOOOO",
                 "............",
                 "..OOOOAAAA..",
                 "OOOOOOOOOOOO"
@@ -907,13 +939,13 @@
               "seats": [
                 "AAAAAAAAA?AA",
                 "AAAAAAAAAAAA",
-                "AAAAOOAAAAAA",
+                "AOOOOOOOOAAA",
                 "AAOOOOOOOOAA",
-                "AAAAOOOOAAAA",
+                "AOOOOOOOOOOO",
                 "............",
                 "..AAAAAOOO..",
-                "AAA?OOAAOOO.",
-                "..........AA"
+                "AAO?OOAAOOO.",
+                "..........OA"
               ],
               "layoutKey": "63365"
             },
@@ -932,8 +964,8 @@
                 "...AAAAAAAAAA",
                 "...AAAAAAAAAA",
                 "...AA?AAAAAAA",
-                "AA.AOOOAAAAOO",
-                "AA.AAAAAAAAAA",
+                "AA.AOOOOOAAOO",
+                "AA.AAOOAAOOAA",
                 "AA.AAAAOOAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AAAAAAAAAA"
@@ -1255,6 +1287,28 @@
                 "OOOAOAAAOO.AA"
               ],
               "layoutKey": "63368"
+            },
+            {
+              "time": "20:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63398&a=0000000001&l=7139&m=practical-magic-2&ss=False",
+              "seats": [
+                ".AA.AA.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AA?AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63398"
             }
           ]
         },
@@ -1264,7 +1318,7 @@
           "runtimeMinutes": 118,
           "sessions": [
             {
-              "time": "20:00",
+              "time": "17:30",
               "formats": [
                 "VIP 19+",
                 "Laser Projection"

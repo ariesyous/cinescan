@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T16:55:44.187Z",
+  "updatedAt": "2026-09-08T19:45:45.661Z",
   "theatre": {
     "id": 1407,
     "name": "SilverCity Mission Cinemas"
@@ -2287,40 +2287,6 @@
         "SSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "283856": {
-      "totalRows": 13,
-      "totalColumns": 25,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        ".........................",
-        "..SSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSS..",
-        ".........................",
-        "......W.WCSSSSSSSSCW.W...",
-        "......SSSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSS...",
-        "SSSS..SSSSSSSSSSSSSSSS...",
-        "SSSS..SSSSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
     "283857": {
       "totalRows": 13,
       "totalColumns": 25,
@@ -2594,11 +2560,10 @@
       ]
     },
     "283871": {
-      "totalRows": 17,
-      "totalColumns": 29,
+      "totalRows": 13,
+      "totalColumns": 25,
       "rowLabels": [
         null,
-        "DD",
         "CC",
         "BB",
         "AA",
@@ -2610,29 +2575,22 @@
         "E",
         "F",
         "G",
-        "H",
-        "I",
-        "J",
-        "K"
+        "H"
       ],
       "seatTypes": [
-        ".............................",
-        "..SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        ".............................",
-        "W.WCSS..W.WCSSSSSSCW...SS....",
-        "SSSSSS..SSSSSSSSSSSSS..SS....",
-        "SSSSSS..SSSSSSSSSSSSS..SS....",
-        "SSSSSS..SSSSSSSSSSSSS..SS....",
-        "SSSSSS..SSSSSSSSSSSSS..SS....",
-        "SSSSSS..SSSSSSSSSSSSS..SSSSSS",
-        "SSSSSS..SSSSSSSSSSSSS..SSSSSS",
-        "SSSSSS..SSSSSSSSSSSSS..SSSSSS",
-        "SSSSSS..SSSSSSSSSSSSS..SSSSSS",
-        "SSSSSS..SSSSSSSSSSSSS..SSSSSS",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+        ".........................",
+        "..SSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSS..",
+        ".........................",
+        "......W.WCSSSSSSSSCW.W...",
+        "......SSSSSSSSSSSSSSSS...",
+        "......SSSSSSSSSSSSSSSS...",
+        "......SSSSSSSSSSSSSSSS...",
+        "......SSSSSSSSSSSSSSSS...",
+        "SSSS..SSSSSSSSSSSSSSSS...",
+        "SSSS..SSSSSSSSSSSSSSSS...",
+        "SSSSSSSSSSSSSSSSSSSSSSSS."
       ]
     },
     "283873": {
@@ -3634,6 +3592,48 @@
         "SSSSSS..SSSSSSSSSSSSS..SSSSSS",
         "SSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
+    },
+    "284182": {
+      "totalRows": 17,
+      "totalColumns": 29,
+      "rowLabels": [
+        null,
+        "DD",
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "seatTypes": [
+        ".............................",
+        "..SSSSSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSSSSS..",
+        ".............................",
+        "W.WCSS..W.WCSSSSSSCW...SS....",
+        "SSSSSS..SSSSSSSSSSSSS..SS....",
+        "SSSSSS..SSSSSSSSSSSSS..SS....",
+        "SSSSSS..SSSSSSSSSSSSS..SS....",
+        "SSSSSS..SSSSSSSSSSSSS..SS....",
+        "SSSSSS..SSSSSSSSSSSSS..SSSSSS",
+        "SSSSSS..SSSSSSSSSSSSS..SSSSSS",
+        "SSSSSS..SSSSSSSSSSSSS..SSSSSS",
+        "SSSSSS..SSSSSSSSSSSSS..SSSSSS",
+        "SSSSSS..SSSSSSSSSSSSS..SSSSSS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
     }
   },
   "days": [
@@ -4074,7 +4074,7 @@
           "runtimeMinutes": 89,
           "sessions": [
             {
-              "time": "16:50",
+              "time": "16:20",
               "formats": [
                 "Regular"
               ],
@@ -4134,7 +4134,7 @@
           "runtimeMinutes": 146,
           "sessions": [
             {
-              "time": "16:00",
+              "time": "15:40",
               "formats": [
                 "Regular"
               ],
@@ -4167,23 +4167,19 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=283871&a=0000000001&l=1407&m=bol-bhavein-na-bol-punjabi-west&ss=False",
               "seats": [
-                ".............................",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                ".............................",
-                "A.AAAA..A.AAAAAAAAAA...AA....",
-                "AAAAAA..AAAAAAAAAAAAA..AA....",
-                "AAAAAA..AAAAAAAAAAAAA..AA....",
-                "AAAAAA..AAAAAAAAAAAAA..AA....",
-                "AAAAAA..??AAAAAAAAAAA..AA....",
-                "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                ".........................",
+                "..AAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAA..",
+                ".........................",
+                "......A.AAAAAAAAAAAA.A...",
+                "......AAAAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "283871"
             }
@@ -4215,41 +4211,38 @@
                 "AAAAAA..AAAAAAA?AAAAA..AAAAAA",
                 "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
                 "AAAAAA..AAAAAOOOAAAAA..AAAOOA",
-                "AAAAAA..AAAAOOAAAAAAA..AAAAAA",
-                "AA??OO..AAAAOOOOAAAAA..AAAAAA",
-                "OOAAAAAAAAOOOOOOAAOOAAAAAAAOO"
+                "AAAAAA..AAAAOOAAOOAAA..AAAAAA",
+                "AA??OO..AAAOOOOOOOAAA..AAAAAA",
+                "OOAAAAAAOOOOOOOOAAOOAAAAAAAOO"
               ],
               "layoutKey": "283874"
-            }
-          ]
-        },
-        {
-          "title": "Toxic (Hindi w/e.s.t.)",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60882_320_470.jpg",
-          "runtimeMinutes": 200,
-          "sessions": [
+            },
             {
               "time": "19:00",
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=283856&a=0000000001&l=1407&m=toxic-hindi-west&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=284182&a=0000000001&l=1407&m=mirzapur-the-movie-hindi-west&ss=False",
               "seats": [
-                ".........................",
-                "..AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAA..",
-                ".........................",
-                "......A.AAAAAAAAAAAA.A...",
-                "......AAAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAAA."
+                ".............................",
+                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                ".............................",
+                "A.AAAA..A.AAAAAAAAAA...AA....",
+                "AAAAAA..AAAAAAAAAAAAA..AA....",
+                "AAAAAA..AAAAAAAAAAAAA..AA....",
+                "AAAAAA..AAAAAAAAAAAAA..AA....",
+                "AAAAAA..??AAAAAAAAAAA..AA....",
+                "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA..AAAAAOOAAAAAA..AAAAAA",
+                "AAAAAAAAAAAAAAOOAAAAAAAAAAAAA"
               ],
-              "layoutKey": "283856"
+              "layoutKey": "284182"
             }
           ]
         },
@@ -5023,7 +5016,7 @@
                 "....AA..AAAAAAAAAAAAA..AAAAAA",
                 "....AA..AAAAAOOAAAAAA..AAAAAA",
                 "AAAAAA..AAAAAAA?AAAAA..AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA..AAAAAAOAAAAAA..AAAAAA",
                 "AAAAAA..AAAAAAOOAAAAA..AAAAAA",
                 "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
                 "AA??AA..AAAAAAAAAAAAA..AAAAAA",
@@ -5478,7 +5471,7 @@
                 "......AAAAAAAAAAAAAAA..AA",
                 "......AAAAAAAAAAAAAAA..AA",
                 "......AAAAAAAAAAAAAAA..AA",
-                "......AAAAAAAAAAAAAAA..AA",
+                "......AAAAAAAAAAAAAOO..AA",
                 "AAAA..AAAAAAAAAAAAAAA..AA",
                 "AAAA..AAAAAAAAAAAAAAA..AA",
                 "AAAA..AAAAAAAAAAAAAAA..AA",

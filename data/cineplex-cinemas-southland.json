@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T16:55:08.840Z",
+  "updatedAt": "2026-09-08T19:45:12.179Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
@@ -869,6 +869,28 @@
         "................."
       ]
     },
+    "268318": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSCW.WCSSS..",
+        "..............."
+      ]
+    },
     "268319": {
       "totalRows": 7,
       "totalColumns": 15,
@@ -989,9 +1011,9 @@
         "................."
       ]
     },
-    "268325": {
-      "totalRows": 7,
-      "totalColumns": 15,
+    "268324": {
+      "totalRows": 10,
+      "totalColumns": 22,
       "rowLabels": [
         "A",
         "B",
@@ -999,16 +1021,50 @@
         "D",
         "E",
         "F",
+        "G",
+        "H",
+        "I",
         null
       ],
       "seatTypes": [
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSCW.WCSSS..",
-        "..............."
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        ".....WCWWCSCWWCCW.....",
+        "......................"
+      ]
+    },
+    "268325": {
+      "totalRows": 10,
+      "totalColumns": 22,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        ".....WCWWCSCWWCCW.....",
+        "......................"
       ]
     },
     "268326": {
@@ -1131,6 +1187,28 @@
         "..............."
       ]
     },
+    "268331": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSCW.WCSSS..",
+        "..............."
+      ]
+    },
     "268332": {
       "totalRows": 8,
       "totalColumns": 17,
@@ -1153,6 +1231,28 @@
         "..SSSSSSSSSSSSS..",
         "...WWCCSSSSSSSS..",
         "................."
+      ]
+    },
+    "268333": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..WWCCSSSSSSS..",
+        "..............."
       ]
     },
     "268334": {
@@ -2028,7 +2128,17 @@
               "formats": [
                 "Recliner"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268318&a=0000000001&l=4108&m=spiderman-brand-new-day&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268318&a=0000000001&l=4108&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "..AAAAAAAAAA?..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAOOAAAAAA..",
+                "..AAA?AOOAAAA..",
+                "..AAAAA.AAAAA..",
+                "..............."
+              ],
+              "layoutKey": "268318"
             },
             {
               "time": "19:40",
@@ -2087,7 +2197,7 @@
                 "..AAAAA???AAAAA..",
                 "..AAAAAAA??AAAA..",
                 "..??AA?A??AAAAA..",
-                "..AAAAA?AAAAAAA..",
+                "..AAAAA?AAAOOOO..",
                 "...AAAAAAAOOAAA..",
                 "................."
               ],
@@ -2128,11 +2238,11 @@
               "seats": [
                 "....AAAAAAAAAAAA....",
                 "..AAAAAAA?AAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAA..",
                 "..OOOOOAAAAAAAAAA?..",
                 "..AAAAOOOAAA??AAAA..",
                 "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAA??AAAA..",
+                "..AAAAAAOOAA??AAAA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...................."
               ],
@@ -2169,7 +2279,17 @@
               "formats": [
                 "Recliner"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268331&a=0000000001&l=4108&m=by-any-means&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268331&a=0000000001&l=4108&m=by-any-means&ss=False",
+              "seats": [
+                "..AAAAAAAAAA?..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAA?AAAAAAA..",
+                "..AAAAA.AAAAA..",
+                "..............."
+              ],
+              "layoutKey": "268331"
             }
           ]
         },
@@ -2267,14 +2387,37 @@
               "formats": [
                 "Recliner"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268324&a=0000000001&l=4108&m=finding-emily&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268324&a=0000000001&l=4108&m=finding-emily&ss=False",
+              "seats": [
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAA??AAAAAA..AA",
+                "AA..A?AA?AAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..??",
+                "AA..AA?AAAAAAAAAAA..AA",
+                ".....AAAAAAAAAAAA.....",
+                "......................"
+              ],
+              "layoutKey": "268324"
             },
             {
               "time": "20:30",
               "formats": [
                 "Recliner"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268333&a=0000000001&l=4108&m=finding-emily&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268333&a=0000000001&l=4108&m=finding-emily&ss=False",
+              "seats": [
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAA?AAAAAA?..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..............."
+              ],
+              "layoutKey": "268333"
             }
           ]
         },
@@ -2293,7 +2436,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAA?AAAAAA?..",
-                "..AAAAAAAAAAA..",
+                "..AAAAOOOOAAA..",
                 "..AAAOOOOOAAA..",
                 "..AAAAOOOOOOO..",
                 "..............."
@@ -2307,13 +2450,16 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268325&a=0000000001&l=4108&m=mirzapur-the-movie-hindi-west&ss=False",
               "seats": [
-                "..AAAAAAAAAA?..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..OOAOOOOOOOO..",
-                "..OOO?OOOOOOO..",
-                "..AOOAA.AAAOO..",
-                "..............."
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAOO??OOOOOO..OO",
+                "AA..A?AA?OOOAOOOAA..AA",
+                "AA..AAAAAOOOOAAAAA..OO",
+                "AA..AAAAAOOAAAOOOO..??",
+                "AA..AA?AAOOOAAAAAA..AA",
+                ".....AAAAAAAAAAAA.....",
+                "......................"
               ],
               "layoutKey": "268325"
             }
@@ -2381,7 +2527,7 @@
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAA??AAAAAA..AA",
-                "AA..A?AA?AAAOAAAAA..AA",
+                "AA..A?AA?AAAOOAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..??",
                 "AA..AA?AAAAAAAAAAA..AA",
@@ -2471,7 +2617,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAA???AAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAOAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAA?AAAAA..",
                 "...AAAAAAAAAAAAAAA..",
@@ -2704,7 +2850,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAA?AAAAAAA..",
+                "..OOA?AAAAAAA..",
                 "..AAAAA.AAAAA..",
                 "..............."
               ],
@@ -3510,7 +3656,7 @@
                 "AA..A?AA?OOOOOOAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAOOAAA..??",
-                "AA..AA?AAAAAAAAAAA..AA",
+                "AA..AA?AAAOOAAAAAA..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
               ],
