@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T23:09:03.417Z",
+  "updatedAt": "2026-09-08T23:51:56.488Z",
   "theatre": {
     "id": 7296,
     "name": "Cineplex Cinemas Kitchener and VIP"
@@ -3633,32 +3633,6 @@
         "SSSS.......SSS.."
       ]
     },
-    "128479": {
-      "totalRows": 9,
-      "totalColumns": 19,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".....SSSSSSSSS.....",
-        "...................",
-        "..SSWCSSCWWCS......",
-        ".SSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "128480": {
       "totalRows": 8,
       "totalColumns": 16,
@@ -3791,40 +3765,6 @@
         "SS...SSSSSSSSSSSSSSSSS..",
         "SS...SSSSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSSSS.."
-      ]
-    },
-    "128486": {
-      "totalRows": 13,
-      "totalColumns": 31,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K"
-      ],
-      "seatTypes": [
-        "......SSSSSSSSSSSSSSSSSSSS.....",
-        "...............................",
-        "....CW..WCSSCWW....WWCSSCWWWC..",
-        "....SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "SS..DDD.DDDDD.DDDDDD.DDDDD.DD..",
-        "SS..DDD.DDDDD.DDDDDD.DDDDD.DD..",
-        "SS..SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSSSSSSSSSSS.."
       ]
     },
     "128487": {
@@ -5335,7 +5275,7 @@
                 "..................",
                 "....AA.AAAAAAAAA..",
                 "....AAAAOOAAAAAA..",
-                "....AAAAAAAAAAAA..",
+                "....AAAAAAAAOOAA..",
                 "....AAAAOOOAAAAA..",
                 "....AAAAAAOOAAAA..",
                 "AA..AAAAOOAAAAAA..",
@@ -5358,9 +5298,9 @@
                 "....AAAAAAAAAAAA..",
                 "....AAAAAAAAAAAA..",
                 "....AAAAAAAAAAAA..",
+                "AA..AAAAOOAAAAAA..",
                 "AA..AAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAA..",
-                "AA..AAA....AAAA..."
+                "AA..AAA....AAAO..."
               ],
               "layoutKey": "128489"
             },
@@ -5393,53 +5333,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
           "runtimeMinutes": 172,
           "sessions": [
-            {
-              "time": "19:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=128486&a=0000000004&l=7296&m=the-odyssey&ss=False",
-              "seats": [
-                "......AAAAAAAAAAAAAAAAAAAA.....",
-                "...............................",
-                "....AA..AAAAAAA....AAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAOAAAAOOAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAOOAAAAAAAAAAAAA..",
-                "AA..AAA.AAAAA.AAAAAA.AAAAA.AA..",
-                "AA..AAA.AAAAA.AAOOAA.AAAAA.AA..",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAOOAAAAOOAAAAAAAAAAA.."
-              ],
-              "layoutKey": "128486"
-            },
-            {
-              "time": "19:30",
-              "formats": [
-                "UltraAVX"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=128486&a=0000000001&l=7296&m=the-odyssey&ss=False",
-              "seats": [
-                "......AAAAAAAAAAAAAAAAAAAA.....",
-                "...............................",
-                "....AA..AAAAAAA....AAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAOAAAAOOAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAOOAAAAAAAAAAAAA..",
-                "AA..AAA.AAAAA.AAAAAA.AAAAA.AA..",
-                "AA..AAA.AAAAA.AAOOAA.AAAAA.AA..",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAOOAAAAOOAAAAAAAAAAA.."
-              ],
-              "layoutKey": "128486"
-            },
             {
               "time": "20:30",
               "formats": [
@@ -5548,25 +5441,6 @@
           "runtimeMinutes": 118,
           "sessions": [
             {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=128479&a=0000000001&l=7296&m=the-dog-stars&ss=False",
-              "seats": [
-                ".....???AAAAAA.....",
-                "...................",
-                "..AAAAAAAAAAA......",
-                ".AAAAAAAOOAAAA.....",
-                ".AAAAOOAAAAAAA.....",
-                ".AAAAAAAAAAAAA.....",
-                ".AAAAAAOOOAAAA.....",
-                ".AAAAAAAAAAAAA.....",
-                ".OAAAAAOOAAAAAAAAOO"
-              ],
-              "layoutKey": "128479"
-            },
-            {
               "time": "21:50",
               "formats": [
                 "Regular"
@@ -5581,7 +5455,7 @@
                 ".AAAAAAAAAAAAA.....",
                 ".AAAAAAAOOAAAA.....",
                 ".AAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAAAAAA"
+                ".AAAAAOAAAAAAAAAAAA"
               ],
               "layoutKey": "128487"
             }
@@ -5607,7 +5481,7 @@
                 "....AAAAAAAAAA..",
                 "....AAAAAAAAAA..",
                 "....AAAAOOAAAA..",
-                "AAAA.......AAA.."
+                "AOOO.......AAA.."
               ],
               "layoutKey": "128480"
             }
