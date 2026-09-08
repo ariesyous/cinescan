@@ -1,112 +1,10 @@
 {
-  "updatedAt": "2026-09-08T00:49:23.771Z",
+  "updatedAt": "2026-09-08T03:22:46.557Z",
   "theatre": {
     "id": 1158,
     "name": "Cineplex VIP Cinemas Brentwood (age restricted 19+)"
   },
   "auditoriums": {
-    "33147": {
-      "totalRows": 10,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "..............",
-        "....SSSSSS....",
-        "..............",
-        ".CWSSSCW.WC...",
-        ".SSSSSSSSSS...",
-        ".SSSSSSSSSS...",
-        ".SSSSSSSSSS...",
-        ".SSSSSSSSSSSS.",
-        ".SSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS"
-      ]
-    },
-    "33148": {
-      "totalRows": 7,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "................",
-        "...CWSSSSSCW.WC.",
-        "...SSSSSSSSSSSS.",
-        "...SSSSSSSSSSSS.",
-        "...SSSSSSSSSSSS.",
-        "...SSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSS"
-      ]
-    },
-    "33153": {
-      "totalRows": 10,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "..............",
-        "....SSSSSS....",
-        "..............",
-        "...CW.WCSSSWC.",
-        "...SSSSSSSSSS.",
-        "...SSSSSSSSSS.",
-        "...SSSSSSSSSS.",
-        ".SSSSSSSSSSSS.",
-        ".SSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS"
-      ]
-    },
-    "33156": {
-      "totalRows": 8,
-      "totalColumns": 12,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "............",
-        "...SSSSSS...",
-        "............",
-        ".CW.SSSSSWC.",
-        ".SSSSSSSSSS.",
-        ".SSSSSSSSSS.",
-        ".SSSSSSSSSS.",
-        "SSSSSSSSSSSS"
-      ]
-    },
     "33160": {
       "totalRows": 10,
       "totalColumns": 14,
@@ -682,119 +580,6 @@
   },
   "days": [
     {
-      "date": "2026-09-07",
-      "movies": [
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:00",
-              "formats": [
-                "VIP 19+",
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33147&a=0000000001&l=1158&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..............",
-                "....AAOOAA....",
-                "..............",
-                ".AAOOOAA.AA...",
-                ".OOOOOOOOOO...",
-                ".OOOOOOOOO?...",
-                ".OOOOOOOOOO...",
-                ".OOOOOOOOOOOO.",
-                ".OOOOOOOAOOOO.",
-                "OOOAOOOOOOOOOA"
-              ],
-              "layoutKey": "33147"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "VIP 19+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33153&a=0000000001&l=1158&m=the-odyssey&ss=False",
-              "seats": [
-                "..............",
-                "....AAAAAA....",
-                "..............",
-                "...AA.AAOOAAA.",
-                "...AOOOOOOOOO.",
-                "...OOOOOOOOOO.",
-                "...OOOOOOOOOA.",
-                ".OOOOOOOOOOOO.",
-                ".OOOOOOOOOOOO.",
-                "OOOOOOOOOOOOOO"
-              ],
-              "layoutKey": "33153"
-            }
-          ]
-        },
-        {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33156&a=0000000001&l=1158&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "............",
-                "...AAAAAA...",
-                "............",
-                ".AA.AAAAAAA.",
-                ".AAOOAAAAAA.",
-                ".OOOOOOOOAA.",
-                ".?AOOOOOOA?.",
-                "OOAAOOOOOOOO"
-              ],
-              "layoutKey": "33156"
-            }
-          ]
-        },
-        {
-          "title": "Tony",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61801_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "19:45",
-              "formats": [
-                "VIP 19+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33148&a=0000000001&l=1158&m=tony&ss=False",
-              "seats": [
-                "................",
-                "...AAAAAAAAA.AA.",
-                "...AAAAAAAAAAAA.",
-                "...AAOOOOOOAAAA.",
-                "...AAOOOOOOAAAA.",
-                "...OOOOOOOOOOOA.",
-                "..OOOOOOOOOAOOOO"
-              ],
-              "layoutKey": "33148"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-08",
       "movies": [
         {
@@ -813,10 +598,10 @@
                 "................",
                 "...AAAAAAAAA.AA.",
                 "...AAAAAAAAAAAA.",
-                "...AAAAOOOOAAAA.",
+                "...OOOAOOOOAAAA.",
                 "...AAOOOOOOOOAA.",
-                "...OOOOOOOOOOAA.",
-                "..AAOOOOOOOOAAAA"
+                "...OOOOOOAAOOAA.",
+                "..AAOOOOOOOOOOOA"
               ],
               "layoutKey": "33167"
             },
@@ -859,7 +644,7 @@
                 ".AAAAAAAAA?...",
                 ".AAAAOOAAAA...",
                 ".AAOOOOOOAAAA.",
-                ".AAAAAAAAOOAA.",
+                ".AAAAOOOOOOAA.",
                 "AAAAOOOOAAAAAA"
               ],
               "layoutKey": "33171"
@@ -883,12 +668,12 @@
                 "....AAAAAA....",
                 "..............",
                 "...AA.AAAAAAA.",
-                "...AAAAAAAAAA.",
+                "...AAAAOOAAAA.",
                 "...AAAAAOAA?A.",
                 "...OOOAOOOOOA.",
-                ".AAOOOOOAOOAA.",
-                ".AAOOOAOOOOOA.",
-                "OAOOOOOOOOOAAA"
+                ".AAOOOOOOOOAA.",
+                ".OOOOOAOOOOOA.",
+                "OAOOOOOOOOOAOO"
               ],
               "layoutKey": "33165"
             },
@@ -903,7 +688,7 @@
                 "................",
                 "...AAAAAAAAA.AA.",
                 "...AAAAAAAAAAAA.",
-                "...AAOOOOAAAAAA.",
+                "...AAOOOOOOAAAA.",
                 "...AOOOOOOOOAOO.",
                 "...OOOOOOOOOOAA.",
                 "..AAOOOOOOOOOAOO"
@@ -924,7 +709,7 @@
                 "...AA.AAAAAAA.",
                 "...AAAAAAAAAA.",
                 "...AAAAAAAA?A.",
-                "...AAAAAAAAAA.",
+                "...AAAAOOAAAA.",
                 ".OOOOOOOOOOAA.",
                 ".AAAAAOOOAAAA.",
                 "AAAAOOOOAAAAAA"
@@ -970,7 +755,7 @@
                 "............",
                 ".AA.AAAAAAA.",
                 ".OOOAOOOOOO.",
-                ".AAOOOOOOAA.",
+                ".OOOOOOOOOO.",
                 ".?OOOOOOOA?.",
                 "OOOOOOOOOOOA"
               ],
@@ -1015,7 +800,7 @@
                 "..............",
                 "...AA.AAAAAAA.",
                 "...AAAAAAAAAA.",
-                "...AAAAAAAAAA.",
+                "...AAAAOOAAAA.",
                 "...AAAAAAAAAA.",
                 ".OOAAAAAAAAAA.",
                 ".AAAAAAAAAAAA.",
@@ -1092,10 +877,10 @@
                 ".AAAAAAA.AA...",
                 ".AAAAAAAAAA...",
                 ".AAAAAAAAA?...",
-                ".AAAAOOAAAA...",
+                ".AAAAOOOAAA...",
                 ".AAAAOOAAAAAA.",
                 ".AAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAOO"
               ],
               "layoutKey": "33174"
             }
@@ -1170,7 +955,7 @@
                 ".AAAAAAAAAA.",
                 ".AAAAAAAAAA.",
                 ".?OOOOOOAA?.",
-                "AAAAAAAAAAAA"
+                "AAAAOOAAAAAA"
               ],
               "layoutKey": "33175"
             }
@@ -1229,7 +1014,7 @@
                 ".AAAAAAAAAA...",
                 ".AAAAOOOOAAAA.",
                 ".AAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAA"
+                "AAAAAAOOAAAAAA"
               ],
               "layoutKey": "33179"
             }
@@ -1276,7 +1061,7 @@
                 "...AAAAAAAAAA.",
                 "...AAAAAAAAAA.",
                 "...AAAAAAAAAA.",
-                ".AAAAAAAAAAAA.",
+                ".AOOOAAAAAAAA.",
                 ".AAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAA"
               ],
