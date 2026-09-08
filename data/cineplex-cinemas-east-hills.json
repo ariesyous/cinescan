@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T23:16:04.383Z",
+  "updatedAt": "2026-09-08T00:00:47.153Z",
   "theatre": {
     "id": 3152,
     "name": "Cineplex Cinemas East Hills"
@@ -561,28 +561,6 @@
         "SSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "59007": {
-      "totalRows": 7,
-      "totalColumns": 19,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSS..",
-        "...................",
-        ".....CWWCSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSS."
-      ]
-    },
     "59008": {
       "totalRows": 7,
       "totalColumns": 19,
@@ -603,28 +581,6 @@
         "....SSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "59011": {
-      "totalRows": 7,
-      "totalColumns": 18,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSS..",
-        "..................",
-        "..SSSSSSSCWWC.....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS"
       ]
     },
     "59012": {
@@ -1931,11 +1887,11 @@
                 "...AA.AAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAOOOA..",
+                "..AAAAAAAAAOOOOOAAAAAAAAAA..",
+                "..AAOOOAAAAAAAAAOOOAAAAAAA..",
                 "..AAAAAAAAAAAOOAAAAAAAAAAA..",
-                "..AAA?.AAAOOO?.AAAAAAA.AAA.."
+                "..AAA?.AAAOOO?.OOAAOOO.AAA.."
               ],
               "layoutKey": "58998"
             },
@@ -1954,11 +1910,11 @@
                 "...AA.AAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAOOOA..",
+                "..AAAAAAAAAOOOOOAAAAAAAAAA..",
+                "..AAOOOAAAAAAAAAOOOAAAAAAA..",
                 "..AAAAAAAAAAAOOAAAAAAAAAAA..",
-                "..AAA?.AAAOOO?.AAAAAAA.AAA.."
+                "..AAA?.AAAOOO?.OOAAOOO.AAA.."
               ],
               "layoutKey": "58998"
             }
@@ -1995,23 +1951,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "17:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59007&a=0000000001&l=3152&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAAA..",
-                "...................",
-                ".....AAAAAAAAAAAA..",
-                "....AAAAAOOAAAAAA..",
-                "....OOAAOOAAOAAAA..",
-                "..AAOOAAOOOOAOOOO..",
-                "AAAAOOOOOOOOOOOAAA."
-              ],
-              "layoutKey": "59007"
-            },
-            {
               "time": "18:20",
               "formats": [
                 "Clubhouse"
@@ -2039,23 +1978,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
           "runtimeMinutes": 98,
           "sessions": [
-            {
-              "time": "17:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59011&a=0000000001&l=3152&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAA..",
-                "..................",
-                "..AAAAAAAAAAA.....",
-                "..AAAAAAAAAAAA....",
-                "..AAOOAAAAAAAA....",
-                "..AAAAAOAAAAAAOO..",
-                ".AOOAAAAOOAOOOOAAA"
-              ],
-              "layoutKey": "59011"
-            },
             {
               "time": "19:45",
               "formats": [
@@ -2092,11 +2014,11 @@
                 ".....AAAAAOOAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAOOOAAAAAAA..",
                 "..AAAAAAAAAAOOOOAAAAAAAA..",
                 "..AAAAAAAAAOOOOAAAAAAAAA..",
                 "..AAAAAAAOOOOOAAAAAAAAAA..",
-                ".AAAAAAOOAAOAAAAOOAAAAAAAA"
+                ".AAAAAAOOAAOAAAAOOAAOOAAAA"
               ],
               "layoutKey": "59001"
             }
@@ -2143,7 +2065,7 @@
                 "..AAAAAAAA.....",
                 "..AAAAAAAAA....",
                 "..AAAAAAAAA....",
-                "..AAOAOOOAAAA..",
+                "..AAAAOOOAAAA..",
                 ".AAOOOOOOAAAAAA"
               ],
               "layoutKey": "59015"
