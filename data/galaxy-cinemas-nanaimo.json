@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T03:22:51.904Z",
+  "updatedAt": "2026-09-08T05:43:37.064Z",
   "theatre": {
     "id": 1141,
     "name": "Galaxy Cinemas Nanaimo"
@@ -286,6 +286,62 @@
       ]
     },
     "217652": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "...CWWCSSSSWC...",
+        "................"
+      ]
+    },
+    "217653": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "...CWWCSSSSWC...",
+        "................"
+      ]
+    },
+    "217654": {
       "totalRows": 10,
       "totalColumns": 16,
       "rowLabels": [
@@ -1402,7 +1458,7 @@
                 "..AAAAAAAAAAAAA..",
                 "..A?AAAAAAAAAAA..",
                 "..AAAAAOOAAAAAA..",
-                "..AAAAAA?AAAAAA..",
+                "..OOOOAA?OOOOAA..",
                 "..AAAAAAOOAAAA...",
                 "................."
               ],
@@ -1418,7 +1474,7 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA?AAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAOOAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAOO?..",
                 "...AAAAAAAAOAAAAOOOAA...",
                 "........................"
@@ -1461,7 +1517,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAOOAAAA..",
-                "..AAAAAAAAAAA..",
+                "..OOAAAAAAAAA..",
                 "..AAAA?AAAAAA..",
                 "..AAOO..AAAAA..",
                 "..............."
@@ -1682,8 +1738,8 @@
                 "..AAAAAAA?AAAAA..",
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAOOAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AA.AAOOAAAAAO..",
+                "..AAAAAAAAOOOOO..",
+                "..AA.AAOOOOAAAO..",
                 "................."
               ],
               "layoutKey": "217797"
@@ -2616,6 +2672,58 @@
                 "................"
               ],
               "layoutKey": "217652"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "16:15",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217653&a=0000000001&l=1141&m=resident-evil-2026&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAA?AAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAA...",
+                "................"
+              ],
+              "layoutKey": "217653"
+            },
+            {
+              "time": "18:45",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217654&a=0000000001&l=1141&m=resident-evil-2026&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAA?AAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAA...",
+                "................"
+              ],
+              "layoutKey": "217654"
             }
           ]
         }

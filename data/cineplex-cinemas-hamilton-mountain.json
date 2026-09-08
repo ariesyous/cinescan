@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T03:22:16.972Z",
+  "updatedAt": "2026-09-08T05:42:49.835Z",
   "theatre": {
     "id": 7290,
     "name": "Cineplex Cinemas Hamilton Mountain"
@@ -3081,6 +3081,30 @@
         "SS..SSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
+    "204473": {
+      "totalRows": 8,
+      "totalColumns": 16,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "................",
+        "..WCSSCWWCSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS.."
+      ]
+    },
     "204474": {
       "totalRows": 15,
       "totalColumns": 27,
@@ -3117,6 +3141,30 @@
         "SS..DD.DDDD.DDD.DDDD.DDDD.D",
         "SS..DD.DDDD.DDD.DDDD.DDDD.D",
         "SS..SSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "204475": {
+      "totalRows": 8,
+      "totalColumns": 16,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "................",
+        "..WCSSCWWCSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS.."
       ]
     },
     "204476": {
@@ -5982,7 +6030,7 @@
                 ".....AAAAAAAAAAAAAAA..",
                 ".AA..AAAAAAAAAAAAAAA..",
                 ".AA..AAAAAAAAAAAAAAA..",
-                ".AO..AAAAAAOOAAAAAAA..",
+                ".AO..OAAAAAOOAAAAAAA..",
                 "AAAAAAAAAAOOAAAAAAAAAA"
               ],
               "layoutKey": "204736"
@@ -8410,6 +8458,24 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
+              "time": "18:50",
+              "formats": [
+                "4DX"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=204473&a=0000000001&l=7290&m=resident-evil-2026&ss=False",
+              "seats": [
+                "................",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA.."
+              ],
+              "layoutKey": "204473"
+            },
+            {
               "time": "19:30",
               "formats": [
                 "UltraAVX",
@@ -8430,7 +8496,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AA.AAAA.AAA.AAAA.AAAA.?",
+                "AA..AA.AAAA.AAA.AAAA.AAAA.A",
                 "AA..AA.AAAA.AAA.AAAA.AAAA.A",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -8456,11 +8522,29 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AA.AAAA.AAA.AAAA.AAAA.?",
+                "AA..AA.AAAA.AAA.AAAA.AAAA.A",
                 "AA..AA.AAAA.AAA.AAAA.AAAA.A",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "204474"
+            },
+            {
+              "time": "21:20",
+              "formats": [
+                "4DX"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=204475&a=0000000001&l=7290&m=resident-evil-2026&ss=False",
+              "seats": [
+                "................",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAOAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA.."
+              ],
+              "layoutKey": "204475"
             },
             {
               "time": "22:00",
@@ -8483,7 +8567,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AA.AAAA.AAA.AAAA.AAAA.?",
+                "AA..AA.AAAA.AAA.AAAA.AAAA.A",
                 "AA..AA.AAAA.AAA.AAAA.AAAA.A",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -8509,7 +8593,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AA.AAAA.AAA.AAAA.AAAA.?",
+                "AA..AA.AAAA.AAA.AAAA.AAAA.A",
                 "AA..AA.AAAA.AAA.AAAA.AAAA.A",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA"
               ],

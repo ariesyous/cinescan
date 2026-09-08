@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T03:22:47.905Z",
+  "updatedAt": "2026-09-08T05:43:31.148Z",
   "theatre": {
     "id": 3157,
     "name": "Cineplex VIP Cinemas University District (age restricted 18+)"
@@ -785,7 +785,7 @@
         ".SSSSSSSSSSSS."
       ]
     },
-    "23049": {
+    "23046": {
       "totalRows": 11,
       "totalColumns": 14,
       "rowLabels": [
@@ -815,9 +815,9 @@
         ".SSSSSSSSSSSS."
       ]
     },
-    "23104": {
-      "totalRows": 10,
-      "totalColumns": 13,
+    "23049": {
+      "totalRows": 11,
+      "totalColumns": 14,
       "rowLabels": [
         null,
         "AA",
@@ -828,19 +828,21 @@
         "D",
         "E",
         "F",
-        "G"
+        "G",
+        "H"
       ],
       "seatTypes": [
-        ".............",
-        ".SSSSSSSSSS..",
-        ".............",
-        ".CWCSSCW.WC..",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSSS.",
-        ".SSSSSSSSSSS.",
-        ".SSS.....SSSS"
+        "..............",
+        ".SSSSSSSSSS...",
+        "..............",
+        ".CWCSSCW.WC...",
+        ".SSSSSSSSSS...",
+        ".SSSSSSSSSS...",
+        ".SSSSSSSSSS...",
+        ".SSSSSSSSSSS..",
+        ".SSSSSSSSSSS..",
+        ".SSSSSSSSSSS..",
+        ".SSSSSSSSSSSS."
       ]
     },
     "23105": {
@@ -1534,39 +1536,6 @@
   },
   "days": [
     {
-      "date": "2026-09-07",
-      "movies": [
-        {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "21:30",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23104&a=0000000001&l=3157&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                ".............",
-                ".AAAAAAAAAA..",
-                ".............",
-                ".AAAAAAA.AA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAA?..",
-                ".AAOOOOAAAAA.",
-                ".AAAAAAOOAAA.",
-                ".AOO.....AAAA"
-              ],
-              "layoutKey": "23104"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-08",
       "movies": [
         {
@@ -1614,7 +1583,7 @@
                 ".AAOOOOOOAAA..",
                 ".OOOOOOOOA?A..",
                 ".AAOOOOOOOAA..",
-                ".OO?AOOOOAAOO."
+                ".OO?AOOOOAAAA."
               ],
               "layoutKey": "23112"
             },
@@ -1684,7 +1653,7 @@
                 ".AAAAAAA.AA..",
                 ".AAAAAAAAAA..",
                 ".AAAAOOAAOO..",
-                ".OOAAOOOAAA..",
+                ".OOOOOOOAAA..",
                 ".AAOOOOOOOAA.",
                 ".AAOOOOOOAAA.",
                 ".AOO.....AAAA"
@@ -1709,7 +1678,7 @@
                 ".A?OOO?AAAA...",
                 ".AAAAOOAAAAA..",
                 ".AAAAOOOAAAA..",
-                ".AAAAOOOOAAA..",
+                ".AAOOOOOOAAA..",
                 ".A?AAOOAAAAAA."
               ],
               "layoutKey": "23113"
@@ -1912,7 +1881,7 @@
                 ".AAAAAAA.AA..",
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
+                ".AAAAOOAAAA..",
                 ".AAAOOOAAAAA.",
                 ".AAAAOOAAAAA.",
                 ".AAA.....AAAA"
@@ -2225,7 +2194,7 @@
                 ".AAAAAAAA...",
                 ".AAAAAAAA...",
                 ".AAAAAAAAAA.",
-                ".AAAAAAAAAA.",
+                ".AAAAOOAAAA.",
                 ".AAA.....AAA"
               ],
               "layoutKey": "23128"
@@ -2684,7 +2653,7 @@
                 ".AAOOAAAAAAA..",
                 ".AAAAOOAAA?A..",
                 ".AAAAAAAAAAA..",
-                ".AA?AAAAAAAAA."
+                ".OO?AAAAAAAAA."
               ],
               "layoutKey": "23033"
             }
@@ -2887,6 +2856,40 @@
                 ".AA?AAAAAAAAA."
               ],
               "layoutKey": "23043"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23046&a=0000000001&l=3157&m=resident-evil-2026&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAAA..",
+                ".AAAAOOAAA?A..",
+                ".AAAAAAAAAAA..",
+                ".AA?AAAAAAAAA."
+              ],
+              "layoutKey": "23046"
             }
           ]
         }

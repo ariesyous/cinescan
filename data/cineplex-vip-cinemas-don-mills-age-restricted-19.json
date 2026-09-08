@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T03:22:47.417Z",
+  "updatedAt": "2026-09-08T05:43:30.753Z",
   "theatre": {
     "id": 7139,
     "name": "Cineplex VIP Cinemas Don Mills (age restricted 19+)"
@@ -358,6 +358,38 @@
       ]
     },
     "63270": {
+      "totalRows": 12,
+      "totalColumns": 13,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        ".SS.SS.SS....",
+        ".............",
+        "CW.SSSCWWC...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS.SS",
+        "SSSSSSSSSS.SS",
+        "SSSSSSSSSS.SS",
+        "SSSSSSSSSS.SS",
+        "SSSSSSSSSS.SS"
+      ]
+    },
+    "63271": {
       "totalRows": 12,
       "totalColumns": 13,
       "rowLabels": [
@@ -854,7 +886,7 @@
                 "AAAA?AOOAAAA",
                 "............",
                 "..OOOOAAAA..",
-                "AAAAAAOOAAOO"
+                "OOAAAAOOAAOO"
               ],
               "layoutKey": "63362"
             }
@@ -1551,6 +1583,40 @@
                 "AAAAAAAAAA.AA"
               ],
               "layoutKey": "63268"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63271&a=0000000001&l=7139&m=resident-evil-2026&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63271"
             }
           ]
         }

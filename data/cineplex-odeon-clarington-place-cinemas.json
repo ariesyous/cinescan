@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T03:22:38.632Z",
+  "updatedAt": "2026-09-08T05:43:19.271Z",
   "theatre": {
     "id": 7241,
     "name": "Cineplex Odeon Clarington Place Cinemas"
@@ -650,6 +650,34 @@
       ]
     },
     "282017": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "....SSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSCW..",
+        "...WCSSSSSSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "...WCSSSSSSCWW..",
+        "................"
+      ]
+    },
+    "282018": {
       "totalRows": 10,
       "totalColumns": 16,
       "rowLabels": [
@@ -2184,7 +2212,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "....AAAAAAAAA...",
+                "....AAOOAAAAA...",
                 "................"
               ],
               "layoutKey": "282275"
@@ -3318,6 +3346,38 @@
                 "................"
               ],
               "layoutKey": "282017"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282018&a=0000000001&l=7241&m=resident-evil-2026&ss=False",
+              "seats": [
+                "....AAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAOAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..A?AAAAAAAAAA..",
+                "...AAAAA?AAAAA..",
+                "................"
+              ],
+              "layoutKey": "282018"
             }
           ]
         }

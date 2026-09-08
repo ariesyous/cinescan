@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T03:22:43.512Z",
+  "updatedAt": "2026-09-08T05:43:25.371Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
@@ -276,6 +276,36 @@
       ]
     },
     "153341": {
+      "totalRows": 11,
+      "totalColumns": 22,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        null
+      ],
+      "seatTypes": [
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..WWCSSSSSSSSSCW..",
+        "SSSS..WWCSSSSSSSSSCW..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "......SSSSCW.WCSSSSS..",
+        "......................"
+      ]
+    },
+    "153342": {
       "totalRows": 11,
       "totalColumns": 22,
       "rowLabels": [
@@ -1966,6 +1996,39 @@
                 "......................"
               ],
               "layoutKey": "153340"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153342&a=0000000001&l=7206&m=resident-evil-2026&ss=False",
+              "seats": [
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "A?AA..AAAAAAA?AAA?AA..",
+                "AAAA..AAAAAA?AAAAAAA..",
+                "AA?A..AAA?AAAAAAAAAA..",
+                "AAAA..AAAAAA??AAAAAA..",
+                "AAAA..AAAAAA????AAAA..",
+                "......AAAAAA.AAAAAA?..",
+                "......................"
+              ],
+              "layoutKey": "153342"
             }
           ]
         }

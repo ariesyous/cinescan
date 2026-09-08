@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T03:22:29.502Z",
+  "updatedAt": "2026-09-08T05:43:05.916Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
@@ -790,6 +790,34 @@
       ]
     },
     "268156": {
+      "totalRows": 10,
+      "totalColumns": 22,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        ".....WCWWCSCWWCCW.....",
+        "......................"
+      ]
+    },
+    "268157": {
       "totalRows": 10,
       "totalColumns": 22,
       "rowLabels": [
@@ -2413,7 +2441,7 @@
                 "..AAA?AAAAAA?..",
                 "..AAAAAAAAAAA..",
                 "..AAAAOOAAAAA..",
-                "..AAAAOOAAAAA..",
+                "..AAAAOOOOAAA..",
                 "..............."
               ],
               "layoutKey": "268334"
@@ -2428,7 +2456,7 @@
                 "..AAAAAAAAAA?..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..OOAAOOOOOOO..",
+                "..OOAOOOOOOOO..",
                 "..OOO?OOOOOOO..",
                 "..AOOAA.AAAOO..",
                 "..............."
@@ -3215,7 +3243,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAA?AAAAAA..",
-                "..AAAAA?A??AA..",
+                "..AAAOO?A??AA..",
                 "..AAAAOOOOOOO..",
                 "..............."
               ],
@@ -3929,6 +3957,38 @@
                 "......................"
               ],
               "layoutKey": "268156"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "19:30",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268157&a=0000000001&l=4108&m=resident-evil-2026&ss=False",
+              "seats": [
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAA??AAAAAA..AA",
+                "AA..A?AA?AAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..??",
+                "AA..AA?AAAAAAAAAAA..AA",
+                ".....AAAAAAAAAAAA.....",
+                "......................"
+              ],
+              "layoutKey": "268157"
             }
           ]
         }

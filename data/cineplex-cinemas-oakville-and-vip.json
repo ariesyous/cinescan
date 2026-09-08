@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T03:22:25.087Z",
+  "updatedAt": "2026-09-08T05:42:59.968Z",
   "theatre": {
     "id": 7273,
     "name": "Cineplex Cinemas Oakville and VIP"
@@ -754,6 +754,38 @@
       ]
     },
     "252843": {
+      "totalRows": 12,
+      "totalColumns": 15,
+      "rowLabels": [
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        ".SSSSSSSSSSSS..",
+        ".SSSSSSSSSSSS..",
+        "...............",
+        ".SCWWCS.WCS....",
+        ".SSSSSSSSSS....",
+        ".SSSSSSSSSS....",
+        ".SSSSSSSSSS....",
+        ".SSSSSSSSSS....",
+        ".SSSSSSSSSS..SS",
+        ".SSSSSSSSSS..SS",
+        "SSSSSSSSSSS..SS",
+        ".........SSSSSS"
+      ]
+    },
+    "252844": {
       "totalRows": 12,
       "totalColumns": 15,
       "rowLabels": [
@@ -3715,7 +3747,7 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAA....",
+                "..AAAAAAOOOOOAAAAA....",
                 "..AAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -6003,6 +6035,28 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
           "runtimeMinutes": 94,
           "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=252844&a=0000000001&l=7273&m=resident-evil-2026&ss=False",
+              "seats": [
+                ".AAAAAAAAAAAA..",
+                ".AAAAAAAAAAAA..",
+                "...............",
+                ".AAAAAA.AAA....",
+                ".AAAAAAAAAA....",
+                ".AAAAAAAAAA....",
+                ".AAAAAAAAAA....",
+                ".AAAAAAAAAA....",
+                ".AAAAAAAAAA..AA",
+                ".AAAAAAAAAA..AA",
+                "AAAAAAAAAAA..AA",
+                ".........AAAAAA"
+              ],
+              "layoutKey": "252844"
+            },
             {
               "time": "19:30",
               "formats": [
