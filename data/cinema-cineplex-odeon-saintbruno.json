@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T21:45:25.226Z",
+  "updatedAt": "2026-09-08T22:30:41.739Z",
   "theatre": {
     "id": 9143,
     "name": "Cinéma Cineplex Odeon Saint-Bruno"
@@ -1922,30 +1922,6 @@
       ]
     },
     "329285": {
-      "totalRows": 8,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "......................",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..CW.WCSSSSSSSSSSSSS.."
-      ]
-    },
-    "329286": {
       "totalRows": 8,
       "totalColumns": 22,
       "rowLabels": [
@@ -3966,9 +3942,9 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..OOOAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAAOOAAAA..",
+                "..OOOAAOOAAAA..",
+                "..AAAOOAAAAAA..",
                 "..AAAAAAAAAAA.."
               ],
               "layoutKey": "329267"
@@ -4010,11 +3986,11 @@
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
+                "..AAAAAOOOOAAAAA..",
                 "..AAAAAAAAAAAAAA..",
+                "..AAAAAOOOAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAA.."
+                "...AAAAAOOAAAAAA.."
               ],
               "layoutKey": "329266"
             },
@@ -4081,7 +4057,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAOOAAAAA..",
-                "..AAAAAOOAAAAA..",
+                "..AAAAAOOAAAOO..",
                 "..AAAOOOOAAAAA..",
                 "..AA.AAOOOOAAA.."
               ],
@@ -4126,8 +4102,8 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAA?..",
-                "..AAAAAAAAAAAAAAAA?AAAAA..",
-                "..AAA.AAAAAAAAAAAAAAAAAA.."
+                "..AAAAAAAAAAOAAAAA?AAAAA..",
+                "..AAA.AAAAAAAAAAAAAAAAAO.."
               ],
               "layoutKey": "329299"
             },
@@ -4146,7 +4122,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAA?..",
-                "..AAAAAAAAAAAAAAAA?AAAAA..",
+                "..AAAAAAAAAAOOOAAA?AAAAA..",
                 "..AAA.AAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "329298"
@@ -4193,49 +4169,6 @@
                 "..?AAAAAAAAAA.."
               ],
               "layoutKey": "329276"
-            }
-          ]
-        },
-        {
-          "title": "Chers Parents",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61700_320_470.jpg",
-          "runtimeMinutes": 86,
-          "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=329286&a=0000000001&l=9143&m=chers-parents&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAA..",
-                "..AA.AAAAAAAAAAAAAOO.."
-              ],
-              "layoutKey": "329286"
-            },
-            {
-              "time": "21:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=329285&a=0000000001&l=9143&m=chers-parents&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "329285"
             }
           ]
         },
@@ -4398,6 +4331,31 @@
                 "...AAAAOOAAAAA.."
               ],
               "layoutKey": "329281"
+            }
+          ]
+        },
+        {
+          "title": "Chers Parents",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61700_320_470.jpg",
+          "runtimeMinutes": 86,
+          "sessions": [
+            {
+              "time": "21:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=329285&a=0000000001&l=9143&m=chers-parents&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "329285"
             }
           ]
         }
