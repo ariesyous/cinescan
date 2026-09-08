@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T22:30:58.323Z",
+  "updatedAt": "2026-09-08T23:09:12.663Z",
   "theatre": {
     "id": 6107,
     "name": "Cineplex Cinemas Saint John"
@@ -470,6 +470,40 @@
       ]
     },
     "169461": {
+      "totalRows": 13,
+      "totalColumns": 25,
+      "rowLabels": [
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSSSSSSSSS.",
+        ".........................",
+        "....CW..WCSSSSSSSSSCW.WC.",
+        "....SSSSSSSSSSSSSSSSSSSS.",
+        "....SSSSSSSSSSSSSSSSSSSS.",
+        "....SSSSSSSSSSSSSSSSSSSS.",
+        "....SSSSSSSSSSSSSSSSSSSS.",
+        "....SSSSSSSSSSSSSSSSSSSS.",
+        "....SSSSSSSSSSSSSSSSSSSS.",
+        "SS..SSSSSSSSSSSSSSSSSSSS.",
+        "SS..SSSSSSSSSSSSSSSSSSSS.",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "169462": {
       "totalRows": 13,
       "totalColumns": 25,
       "rowLabels": [
@@ -2265,34 +2299,6 @@
         "SSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "170681": {
-      "totalRows": 10,
-      "totalColumns": 24,
-      "rowLabels": [
-        "A",
-        "B",
-        null,
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSSS..",
-        "........................",
-        ".....WCSSSSSSSSSC..W....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "SSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "170682": {
       "totalRows": 10,
       "totalColumns": 24,
@@ -3930,11 +3936,11 @@
                 "..................",
                 "......AAAAOAAA.A..",
                 "....OOAAAAAAAAAA..",
+                "....AAAAAOAAAAAA..",
                 "....AAAAAAAAAAAA..",
-                "....AAAAAAAAAAAA..",
-                "....AAAAAOOAAAAA..",
+                "....AAAAAOOAOOAA..",
                 "....AAAAAAAAOOAA..",
-                "AAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAOOAAAAAAA"
               ],
               "layoutKey": "170669"
             },
@@ -4007,12 +4013,12 @@
                 ".....................",
                 ".....AAAAAAAAA..A....",
                 "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
-                "..AOAAAAAAAAAAAAA....",
-                "..AAAAAAAOOAAAAAA....",
-                "..AAAAOOAAAAAAAAA....",
-                "O?AAAOOAAOOOAAAAOAAAA"
+                "..AAAAAAOOAAAAAAA....",
+                "..AAAAAAAAAAAOAAA....",
+                "..AAAAAAOOOAAOOAA....",
+                "..OOAAAAAOOAAOOOO....",
+                "..AAAAOOOOOOAAAAA....",
+                "O?AAAOOAAOOOAAOOOAAOO"
               ],
               "layoutKey": "170693"
             },
@@ -4071,26 +4077,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
           "sessions": [
-            {
-              "time": "19:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170681&a=0000000001&l=6107&m=the-dog-stars&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAAA..",
-                "........................",
-                ".....AAAAAAAAAAAA..A....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAOOAAAAAAA....",
-                "..AAAAAAAOOAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "170681"
-            },
             {
               "time": "22:25",
               "formats": [
@@ -4159,10 +4145,10 @@
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAOAAA..",
+                "..AAOAAAAAAAAOAAA..",
                 "..OOAAAAOOOOAAAAA..",
-                "..AAAAAAAAOOOAAAA..",
-                "AAAAAAAAAAAAAAAAAAA"
+                "..AAOOOOAAOOOAAAA..",
+                "AAAAAAAOOAAAOAAAAAA"
               ],
               "layoutKey": "170743"
             }
@@ -5434,7 +5420,7 @@
                 "....AAAAAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAA.",
-                "....AAAOOOOAAAAAAAAAAAAA.",
+                "....AAAOOOOAAOOOOOAAAAAA.",
                 "AA..AAAAAAAAAAAAAAAAAAAA.",
                 "AA..AAAAAAAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -5644,6 +5630,30 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "169461"
+            },
+            {
+              "time": "19:00",
+              "formats": [
+                "UltraAVX",
+                "Dolby Atmos"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=169462&a=0000000001&l=6107&m=practical-magic-2&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAAAAAAAAA.",
+                ".........................",
+                "....AA..AAAAAAAAAAAAA.AA.",
+                "....AAAAAAAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAAAAAAAAAAA.",
+                "....OOAAAAAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAOOOOAAAAAA.",
+                "....AAAAAAAAAAAAAAAAAAAA.",
+                "AA..AAAAAOOAAAAAAAAAAAAA.",
+                "AA..AAAAAAAAAAAAAAAAAAAA.",
+                "AAAOOOOOOOAAOOOOOOOOOAAAA"
+              ],
+              "layoutKey": "169462"
             }
           ]
         }

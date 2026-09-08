@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T22:30:49.527Z",
+  "updatedAt": "2026-09-08T23:09:02.079Z",
   "theatre": {
     "id": 6111,
     "name": "Cineplex Cinemas Fredericton"
@@ -819,28 +819,6 @@
         "........SSCWWWCS......."
       ]
     },
-    "166305": {
-      "totalRows": 7,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        null
-      ],
-      "seatTypes": [
-        "................",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSCW.W..",
-        "................"
-      ]
-    },
     "166306": {
       "totalRows": 7,
       "totalColumns": 16,
@@ -971,26 +949,6 @@
         "..............."
       ]
     },
-    "166320": {
-      "totalRows": 6,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSCW.W..",
-        "..............."
-      ]
-    },
     "166321": {
       "totalRows": 6,
       "totalColumns": 15,
@@ -1080,26 +1038,6 @@
         "..SSSSSSSSSS..",
         "..SSSSSSSSSS..",
         "..SSSSSSCW.W..",
-        ".............."
-      ]
-    },
-    "166335": {
-      "totalRows": 6,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null
-      ],
-      "seatTypes": [
-        "..............",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..W.WCSSSSSS..",
         ".............."
       ]
     },
@@ -2306,8 +2244,8 @@
                 "..AAAAAA..AA..",
                 "..AAAAAAAAAA..",
                 "..AAAAOOAAAA..",
-                "..AAOOOOAAOO..",
-                "..OOAAOOAAOO.."
+                "..OOOOOOAAAA..",
+                "..OOAAOOOOOO.."
               ],
               "layoutKey": "166309"
             }
@@ -2393,23 +2331,6 @@
           "runtimeMinutes": 106,
           "sessions": [
             {
-              "time": "19:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166305&a=0000000001&l=6111&m=by-any-means&ss=False",
-              "seats": [
-                "................",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAOOAAOO..",
-                "..OOOOAAOOOOOO..",
-                "..OOOOOOOOAA.A..",
-                "................"
-              ],
-              "layoutKey": "166305"
-            },
-            {
               "time": "22:15",
               "formats": [
                 "Recliner"
@@ -2444,7 +2365,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAOOAAAAA..",
                 "..AAOOOAAAAAA..",
-                "..A.AAAAAAAAA..",
+                "..A.AAAAOAAAA..",
                 "..............."
               ],
               "layoutKey": "166313"
@@ -2482,10 +2403,10 @@
                 ".............",
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
-                "..AAAAAAAAA..",
+                "..AAAAOOAAA..",
                 "..AAAAOOAAA..",
                 "..AAAOAAAAA..",
-                "..OOAAAAA.A..",
+                "..AAAOOAA.A..",
                 "............."
               ],
               "layoutKey": "166329"
@@ -2497,22 +2418,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
           "sessions": [
-            {
-              "time": "19:25",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166320&a=0000000001&l=6111&m=the-dog-stars&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAOOOAOOO..",
-                "..OOAAOOAAOOA..",
-                "..OOAOOOOAA.A..",
-                "..............."
-              ],
-              "layoutKey": "166320"
-            },
             {
               "time": "22:10",
               "formats": [
@@ -2536,22 +2441,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36540_320_470.jpg",
           "runtimeMinutes": 99,
           "sessions": [
-            {
-              "time": "19:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166335&a=0000000001&l=6111&m=the-end-of-oak-street&ss=False",
-              "seats": [
-                "..............",
-                "..AAAAAAAAAA..",
-                "..AAAAAAAAAA..",
-                "..OOAAOOOOOO..",
-                "..A.AAAOOOAA..",
-                ".............."
-              ],
-              "layoutKey": "166335"
-            },
             {
               "time": "22:05",
               "formats": [
@@ -3139,7 +3028,7 @@
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
                 "..AOOOOOOOOO..",
-                "..AAAOOAAAOO.."
+                "..AAAOOOOAOO.."
               ],
               "layoutKey": "166339"
             }
@@ -3736,7 +3625,7 @@
                 "..AAAAAAAAAOOOOAAAAAA..",
                 "..AAAAAAOOOOOOOOOAAAA..",
                 "..OOOOOAOOAOOAAOOOAAA..",
-                "..OOOOOAAOOOOAAAAAAOO..",
+                "..OOOOOAAOOOOOOAAAAOO..",
                 "........OOAAAAAA......."
               ],
               "layoutKey": "165405"
@@ -3956,7 +3845,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAOOAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOOAAAAAA..",
                 "........OOAAAAAA......."
               ],
@@ -4071,7 +3960,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOAAAAAAAAA..",
-                "..OOAAAAAAAAAAAAAAAAA..",
+                "..OOAAAAAAAAOOAAAAAAA..",
                 "........OAAAAAAA......."
               ],
               "layoutKey": "166104"
@@ -4088,7 +3977,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..OOAAAAAAOOOOOAAAAAA..",
-                "..AAOOAAOAAOOAAAAAAAA..",
+                "..AAOOAAOOAOOAAAAAAAA..",
                 "..AAAAAAAAAOOAAOAAAAA..",
                 "........OOAAAAAA......."
               ],
