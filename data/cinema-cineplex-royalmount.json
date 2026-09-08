@@ -1,68 +1,10 @@
 {
-  "updatedAt": "2026-09-08T20:36:03.981Z",
+  "updatedAt": "2026-09-08T21:45:24.960Z",
   "theatre": {
     "id": 9121,
     "name": "Cinéma Cineplex Royalmount"
   },
   "auditoriums": {
-    "14585": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...................",
-        "...CW.WCSSSSCW.WC..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "14586": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...................",
-        "....CW.WCSSSCW.WC..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "14587": {
       "totalRows": 14,
       "totalColumns": 19,
@@ -1391,7 +1333,7 @@
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAOOOAAAAA....",
-                "..AAAAAAAOOAAAA....",
+                "..AAAOOOOOOOAAA....",
                 "..AAAOOAAOOOOAAAA..",
                 "..?OOOOAOOAAOOOOO..",
                 "..OA.OOO.AO.OAA.A..",
@@ -1415,7 +1357,7 @@
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAOOOAAAAA....",
-                "..AAAAAAAOOAAAA....",
+                "..AAAOOOOOOOAAA....",
                 "..AAAOOAAOOOOAAAA..",
                 "..?OOOOAOOAAOOOOO..",
                 "..OA.OOO.AO.OAA.A..",
@@ -1481,27 +1423,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "16:30",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14585&a=0000000001&l=9121&m=the-odyssey&ss=False",
-              "seats": [
-                "...................",
-                "...AA.AAAAAAAA.AA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAOOOOOOOAAAAA..",
-                "...AOOAAAOOAOOAAA..",
-                ".AAAAAAOOAAAAAAAA..",
-                ".AAAAAAAAOOAAAAAA..",
-                "AAAAAAAAO?OOAAAAAAA"
-              ],
-              "layoutKey": "14585"
-            },
-            {
               "time": "20:30",
               "formats": [
                 "Recliner",
@@ -1515,10 +1436,10 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAOOOAAAAAA..",
-                "...OOAAAAOOAOOAAA..",
-                ".AAAAAAAOOOOAAAAA..",
+                "...OOAAAOOOAOOAAA..",
+                ".AAAAAOOOOOOOOAAA..",
                 ".AAAAAOOAAOOAAAAA..",
-                "AAAAAAAAA?AAAAAAAAA"
+                "AAAAAAAAA?AAAOOAAAA"
               ],
               "layoutKey": "14591"
             }
@@ -1539,10 +1460,10 @@
               "seats": [
                 "...................",
                 "...AA.AAAAAAAA.AA..",
-                "...AAAAAAAA?AAAAA..",
+                "...AAAAAAOO?AAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAOOOAAAAA..",
-                "...AAAA?OOOAAOOAA..",
+                "...AAAA?OOOOOOOAA..",
                 "...OOOOOOAAAOOOAA..",
                 ".OOOAAOOOOOOOOOAA..",
                 ".AAAOAAOOOOOOOAAA..",
@@ -1573,7 +1494,7 @@
                 "...AAAA?OOOAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAOOAAAAAA..",
                 ".AAAAAAA?OOOOAAAAA."
               ],
               "layoutKey": "14592"
@@ -1601,7 +1522,7 @@
                 "..AAAAAAOOAAAAA....",
                 "..AAAAAAOOAAAAA....",
                 "..AAAAOOOOAAAAAAA..",
-                "..AAAAAAOOOAAAAOO..",
+                "..OOAAAAOOOAAAAOO..",
                 "..AAAAAAOOAAOOOAA..",
                 "..OOAAA?????OOAAAA."
               ],
@@ -1622,7 +1543,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAAOOAAAAAAA..",
                 "..AAAAAAAOOAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..OOAAA?????AAAAAA."
@@ -1636,28 +1557,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61579_320_470.jpg",
           "runtimeMinutes": 91,
           "sessions": [
-            {
-              "time": "17:15",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14586&a=0000000001&l=9121&m=vincent-et-la-prophetie-des-mers&ss=False",
-              "seats": [
-                "...................",
-                "....??.??AAA??.??..",
-                "....AAAAAAAAAAAA?..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAOOOAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAA?"
-              ],
-              "layoutKey": "14586"
-            },
             {
               "time": "19:45",
               "formats": [
@@ -1755,7 +1654,7 @@
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
+                "..AAAAAAOOAAAAA....",
                 "..AAAAAOOAAAAAAAA..",
                 "..?AAAAAAAAAAAAAA..",
                 "..AA.AAA.AA.AAA.A..",
@@ -1779,7 +1678,7 @@
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
+                "..AAAAAAOOAAAAA....",
                 "..AAAAAOOAAAAAAAA..",
                 "..?AAAAAAAAAAAAAA..",
                 "..AA.AAA.AA.AAA.A..",
@@ -1900,7 +1799,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAOOOOAAAAA..",
-                "...AOOAAAAAAAAAAA..",
+                "...AAAAAOOOAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 "AAAAAAAAA?AAAAAAAAA"
