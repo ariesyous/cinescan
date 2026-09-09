@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T22:56:42.329Z",
+  "updatedAt": "2026-09-09T23:53:07.183Z",
   "theatre": {
     "id": 3150,
     "name": "SilverCity CrossIron Mills Cinemas and XSCAPE Entertainment Centre"
@@ -605,34 +605,6 @@
         "SSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "128900": {
-      "totalRows": 10,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".....................",
-        "..SSSSSSSSSSSSSSSSS..",
-        ".....................",
-        "....SCW..WCSSCW.SS...",
-        "....SSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "128901": {
       "totalRows": 10,
       "totalColumns": 21,
@@ -687,38 +659,6 @@
         "...SSSSSSSSSSSSSS....",
         "...SSSSSSSSSSSSSS....",
         "SSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "128904": {
-      "totalRows": 12,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "......................",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "......................",
-        "...SCW.SSSSCW..WCS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "128905": {
@@ -5662,28 +5602,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "17:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=128904&a=0000000001&l=3150&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                "...AAA.AAAAAA..AAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...OOOOOOAAOAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "128904"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Regular"
@@ -5695,10 +5613,10 @@
                 "......................",
                 "....AAA.AAAAAAA..AA...",
                 "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAOAAAAAAA...",
                 "....AAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAOAAAAAAA...",
                 "OO..AAAAAAAAAAAAAAA...",
                 "AAAAAAAAAAOOAAAAAAAAAA"
               ],
@@ -5783,39 +5701,12 @@
                 "....AAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAA?AAA...",
-                "....AAAAAAAAAAAAAAAA...",
+                "....AAAAAAAOOAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "128907"
-            }
-          ]
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "16:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=128900&a=0000000001&l=3150&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                ".....................",
-                "..?????????????????..",
-                ".....................",
-                "....???..??????.??...",
-                "....??????????????...",
-                "....??????????????...",
-                "....??????????????...",
-                "....??????????????...",
-                "....??????????????...",
-                "?????????????????????"
-              ],
-              "layoutKey": "128900"
             }
           ]
         },
@@ -7580,7 +7471,7 @@
                 "....AAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAA...",
-                "....OOOOAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -8783,6 +8674,32 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
           "sessions": [
+            {
+              "time": "16:00",
+              "formats": [
+                "UltraAVX",
+                "D-BOX"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129048&a=0000000004&l=3150&m=practical-magic-2&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                ".............................",
+                ".............................",
+                "..AAA.AAAAAAA.AAAA.A.AAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAA.AAAA.AAAAA.AAAA.AA.....",
+                "..AAA.AAAA.AAAAA.AAAA.AA.....",
+                "..AAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAAA...AA",
+                "..AAAAAAAAAAAAAAAAAAAAAA...AA",
+                "..AAAAAAAAAAAAAAAAAAAAAA...AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "129048"
+            },
             {
               "time": "16:00",
               "formats": [
