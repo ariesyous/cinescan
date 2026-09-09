@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T21:38:35.464Z",
+  "updatedAt": "2026-09-09T22:26:48.056Z",
   "theatre": {
     "id": 7289,
     "name": "Cineplex Odeon Oshawa Cinemas"
@@ -3051,30 +3051,6 @@
         "...SSSSSSSSSSSS..",
         "...SSSSSSSSSSSS..",
         "..SSSSSSSSSSSSS.."
-      ]
-    },
-    "257701": {
-      "totalRows": 8,
-      "totalColumns": 18,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "......SSSSSS......",
-        "..................",
-        ".....SWCCWWCCW....",
-        "...SSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS.."
       ]
     },
     "257705": {
@@ -9221,9 +9197,9 @@
                 "....AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOOAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOOOAAAAAAOO..",
+                "..AAAAAAOOAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAOOAAAAAA..",
                 "..AAAA??AAOOAAAA??AAOO..",
                 "..AA.AAA.....?AA.AAA.A.."
               ],
@@ -9244,9 +9220,9 @@
                 "....AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOOAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOOOAAAAAAOO..",
+                "..AAAAAAOOAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAOOAAAAAA..",
                 "..AAAA??AAOOAAAA??AAOO..",
                 "..AA.AAA.....?AA.AAA.A.."
               ],
@@ -9307,24 +9283,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "17:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=257701&a=0000000001&l=7289&m=the-odyssey&ss=False",
-              "seats": [
-                "......AAAAAA......",
-                "..................",
-                ".....AAAAAAAAA....",
-                "...AAAAAAAAAAAA...",
-                "..AAAAAAAOOAAAA...",
-                "..AAOOAAAAAOAAA...",
-                "..AA?AAAOOAAAAA...",
-                "..AAAOOAAAAAAAAA.."
-              ],
-              "layoutKey": "257701"
-            },
-            {
               "time": "19:30",
               "formats": [
                 "Recliner"
@@ -9380,9 +9338,9 @@
                 "...AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAOAAAAAAAA..",
+                "..OOAAAAAOOAAAOOAA..",
                 "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
-                "..AA?AAAAAAAAAAAAA.."
+                "..OO?AAAAAAAAAOOAA.."
               ],
               "layoutKey": "257691"
             },
@@ -9423,7 +9381,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA.."
+                "..AAAAAAAOOAAAAAAA.."
               ],
               "layoutKey": "257707"
             },
@@ -9461,7 +9419,7 @@
                 "................",
                 "...AAAAAAAAAA...",
                 "..AAAAAAAAAAAA..",
-                "..AAAA?AAAAAAA..",
+                "..AAAA?AAAAAOO..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAOO.."
               ],
@@ -9521,7 +9479,7 @@
                 "...AAAAAAAAAAAA..",
                 "...AAAAAAAAAAAA..",
                 "...AAAAAAAAAAAA..",
-                "...AAAAAAAAAAAA..",
+                "...AAAAAOOAAAAA..",
                 "..AAAAAAAAAAAAA.."
               ],
               "layoutKey": "257693"
@@ -9583,14 +9541,14 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=257705&a=0000000001&l=7289&m=spa-weekend&ss=False",
               "seats": [
-                "......AAAAA?......",
+                "......??????......",
                 "..................",
-                "....AAAAAAAAA.....",
-                "...AAAAAAAAAAAA...",
-                "...AAAAAAAAA??AA..",
-                "...AAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAA..",
-                "..AAAAAAOOAAAAAA.."
+                "....?????????.....",
+                "...????????????...",
+                "...?????????????..",
+                "...?????????????..",
+                "...?????????????..",
+                "..??????????????.."
               ],
               "layoutKey": "257705"
             },
@@ -9693,7 +9651,7 @@
                 "..AAAAAAOOOAAAAAAA..",
                 "..OOOOOOOOOOOOOOOO..",
                 "..OOOOOOAOOOOOOOOO..",
-                "..OOAAOOAOOOOOOOOO.."
+                "..OOOOOOAOOOOOOOOO.."
               ],
               "layoutKey": "256842"
             },
@@ -10495,8 +10453,8 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAOOOOAAOOOAAAAAAAAA..",
+                "..AAAAOOAAOOAAAOOAAAAA..",
                 "..AAAA??OOAAAOOO??AAAA..",
                 "..AA.AAA.....?AA.AAA.A.."
               ],
@@ -10517,8 +10475,8 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAOOOOAAOOOAAAAAAAAA..",
+                "..AAAAOOAAOOAAAOOAAAAA..",
                 "..AAAA??OOAAAOOO??AAAA..",
                 "..AA.AAA.....?AA.AAA.A.."
               ],
@@ -11100,7 +11058,7 @@
                 "...AAAAAAAAAAAA...",
                 "...AAAAAAAAA??AA..",
                 "...AAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAA..",
+                "...AAAAOOOOAAAAA..",
                 "..AAAAAAAAAAAAAA.."
               ],
               "layoutKey": "257844"
@@ -11583,7 +11541,7 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOOAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA.."
               ],
