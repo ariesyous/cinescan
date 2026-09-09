@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T03:25:36.980Z",
+  "updatedAt": "2026-09-09T05:06:10.876Z",
   "theatre": {
     "id": 1148,
     "name": "Cineplex Cinemas Abbotsford and VIP"
@@ -2255,6 +2255,40 @@
         "SSSS......SS.SS"
       ]
     },
+    "161136": {
+      "totalRows": 13,
+      "totalColumns": 15,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "seatTypes": [
+        "..SS.SS.SS.....",
+        "...............",
+        "SS.WCSSCW.WC...",
+        "SSSSSSSSSSSS...",
+        "SSSSSSSSSSSS...",
+        "SSSSSSSSSSSS...",
+        "SSSSSSSSSSSS...",
+        "SSSSSSSSSSSS...",
+        "SSSSSSSSSSSS.SS",
+        "SSSSSSSSSSSS.SS",
+        "SSSSSSSSSSSS.SS",
+        "SSSSS....SSS.SS",
+        "SSSS......SS.SS"
+      ]
+    },
     "161137": {
       "totalRows": 13,
       "totalColumns": 15,
@@ -3353,7 +3387,7 @@
                 "...AAAAAAAAAAAA",
                 "...AAAAAAAAAAAA",
                 "...AAAAAAAAAAAA",
-                "...AAAAAAAAAAAA",
+                "...AAAAOOAAAAAA",
                 "AA.AAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAA",
@@ -3611,7 +3645,7 @@
                 "AAAAAAAAAA...",
                 "AAAAAAA?AA.AA",
                 "AA?AAAAAAA.AA",
-                "AAAAAAAAAA.AA",
+                "AAAAOOAAAA.AA",
                 "AAAA....AA.AA",
                 "A?A........AA"
               ],
@@ -3900,7 +3934,7 @@
                 "OOOOOOOOAAOO...",
                 "OOOOOOOOOAOO...",
                 "?OOOOOOAOOOA.OO",
-                "OOOOOOOOOOOO.AA",
+                "OOOOOOOOOOOO.OO",
                 "OOOOOOOOOOOO.OO",
                 "OOOOO....AOO.AA",
                 "OOOO......OO.AA"
@@ -3922,7 +3956,7 @@
                 "AA?AAAAAAAAA...",
                 "AAAAAAOOAAAA...",
                 "AAAOOOOOAAAA...",
-                "?OAAAAOOOOAA.AA",
+                "?AAAAAOOOOAA.AA",
                 "AAAAAAOOAAAA.AA",
                 "AAAAAAOOAAAA.AA",
                 "AAAAA....AAA.AA",
@@ -3984,7 +4018,7 @@
                 "OOOOAAAAOOAA.OO",
                 "AAOOAOOOAAAA.OO",
                 "AAAAA....AAA.AA",
-                "OOAA......OO.AA"
+                "OOAA......OO.OO"
               ],
               "layoutKey": "160277"
             },
@@ -4405,6 +4439,41 @@
                 "AAAA......AA.AA"
               ],
               "layoutKey": "161135"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "19:15",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=161136&a=0000000001&l=1148&m=resident-evil-2026&ss=False",
+              "seats": [
+                "..AA.AA.AA.....",
+                "...............",
+                "?A.AAAAAA.AA...",
+                "AAAAAAAAAAAA...",
+                "AAAAAAAAAAAA...",
+                "AA?AAAAAAAAA...",
+                "AAAAAAOOOOAA...",
+                "AAAAAAAAAAAA...",
+                "?AAAAAAAAAAA.AA",
+                "AAAAAAAAAAAA.AA",
+                "AAAAAAAAAAAA.AA",
+                "AAAAA....AAA.AA",
+                "AAAA......AA.AA"
+              ],
+              "layoutKey": "161136"
             }
           ]
         }

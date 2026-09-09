@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T03:26:18.062Z",
+  "updatedAt": "2026-09-09T05:07:20.630Z",
   "theatre": {
     "id": 7400,
     "name": "Cineplex Cinemas Yonge-Eglinton and VIP"
@@ -11088,6 +11088,54 @@
       ]
     },
     "311603": {
+      "totalRows": 8,
+      "totalColumns": 15,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "...SSCW.WCSSSSS",
+        "...SSSSSSSSSSSS",
+        "...SSSSSSSSSSSS",
+        "...SSSSSSSSSSSS",
+        "...SSSSSSSSSSSS",
+        "SS.SSSSSSSSSSSS",
+        "SS.SSSSSSSSSSSS",
+        "SS.SS......SSSS"
+      ]
+    },
+    "311606": {
+      "totalRows": 8,
+      "totalColumns": 15,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "...SSCW.WCSSSSS",
+        "...SSSSSSSSSSSS",
+        "...SSSSSSSSSSSS",
+        "...SSSSSSSSSSSS",
+        "...SSSSSSSSSSSS",
+        "SS.SSSSSSSSSSSS",
+        "SS.SSSSSSSSSSSS",
+        "SS.SS......SSSS"
+      ]
+    },
+    "311607": {
       "totalRows": 8,
       "totalColumns": 15,
       "rowLabels": [
@@ -22620,7 +22668,7 @@
                 "......AAAAAAAAAAAAAAA..AA",
                 "......AAAAAAAAAAAAAAA..AA",
                 "......AAAAAAAAAAAAAAA..AA",
-                "......AAAAAAAAAOOOAAA..AA",
+                "......AAAAAAAAAAAAAAA..AA",
                 "AAAA..AAAAAAAAAAAAAAA..AA",
                 "AAAA..AAAAAAAAAAAAAAA..AA",
                 "AAAA..AAAAAAAAAAAAAAA..AA",
@@ -25397,7 +25445,7 @@
                 "AAAAA..AAAAAAAAAAAAAA..AA...",
                 "AAAAA..AAAAAAAAAAAAAA..AA...",
                 "AAAAA..AAAAAAAAAAAAAA..AAAAA",
-                "AAAAA..AAAAAAAAAAAAAA..AAAAA",
+                "AAAAA..AAAAAAOAAAAAAA..AAAAA",
                 "AAAAA..AAAAAAAAAAAAAA..AAAAA",
                 "AAAAA..AAAAAAAAAAAAAA..AAAAA",
                 "AAAAA..AAAAAAAAAAAAAA..AAAAA",
@@ -27735,7 +27783,7 @@
                 "AAAAA..AAAAAAAAAAAAAA..AAAAA",
                 "AAAAA..AAAAAAAAAAAAAA..AAAAA",
                 "AAAAA..AAAAAAAAAAAAAA..AAAAA",
-                "AAAAA..AAAAAAAAAAAAAA..AAAAA"
+                "AAAAA..AAAAAAAAAAAAOO..AAAAA"
               ],
               "layoutKey": "312293"
             },
@@ -32577,7 +32625,7 @@
                 "AAAAA...AAAAAAAAAAAAA..AA...",
                 "AAAAA..AAAAAAAAAAAAAA..AA...",
                 "AAAAA..AAAAAAAAAAAAAA..AA...",
-                "AAAAA..AAAAAAAAAAAAAA..AAAAA",
+                "AAAAA..OAAAAAAAAAAAAA..AAAAA",
                 "AAAAA..AAAAAAAAAAAAAA..AAAAA",
                 "AAAAA..AAAAAAAAAAAAAA..AAAAA",
                 "AAAAA..AAAAAAAAAAAAAA..AAAAA",
@@ -32616,6 +32664,25 @@
               "layoutKey": "311579"
             },
             {
+              "time": "19:15",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=311606&a=0000000001&l=7400&m=resident-evil-2026&ss=False",
+              "seats": [
+                "...AAAA.AAAAAAA",
+                "...AAAAAAAAAAAA",
+                "...AAAAAAAAAAAA",
+                "...AAAAOAOOAAAA",
+                "...AAAAOOOOOOAA",
+                "AA.AAAAAAOAAAAA",
+                "AA.AAAAAAAAAAAA",
+                "AA.AA......AAAA"
+              ],
+              "layoutKey": "311606"
+            },
+            {
               "time": "19:30",
               "formats": [
                 "IMAX"
@@ -32634,15 +32701,34 @@
                 "AAAAA...AAAAAAAAAAAAA..AA...",
                 "AAAAA...AAAAAAAAAAAAA..AA...",
                 "AAAAA..AAAAAAAAAAAAAA..AA...",
-                "AAAAA..AAAAAAAAAAAAAA..AA...",
+                "AAAAA..AAAAAAAOAAAAAA..AA...",
                 "AAAAA..AAAAAAAAAAAAAA..AAAAA",
+                "AAAAA..AAAAAAAOAAAAAA..AAAAA",
+                "AAAAA..AAAAAAOOAAAAAA..AAAAA",
+                "AAAAA..AAAAAAOOAAAAAA..AAAAA",
                 "AAAAA..AAAAAAAAAAAAAA..AAAAA",
-                "AAAAA..AAAAAAAAAAAAAA..AAAAA",
-                "AAAAA..AAAAAAAAAAAAAA..AAAAA",
-                "AAAAA..AAAAAAAAAAAAAA..AAAAA",
-                "AAAAA..AAAAAAOAAAAAAA..AAAAA"
+                "AAAAA..AAAAAAOAAAAAAO..AAAAA"
               ],
               "layoutKey": "311580"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=311607&a=0000000001&l=7400&m=resident-evil-2026&ss=False",
+              "seats": [
+                "...AAAA.AAAAAAA",
+                "...AAAAAAAAAAAA",
+                "...AAAAAAAAAAAA",
+                "...AAAAAAAAAAAA",
+                "...AAAAAAAAAAAA",
+                "AA.AAAAAAAAAAAA",
+                "AA.AAAAAAAAAAAA",
+                "AA.AA......AAAA"
+              ],
+              "layoutKey": "311607"
             },
             {
               "time": "22:00",

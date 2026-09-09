@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T03:26:24.778Z",
+  "updatedAt": "2026-09-09T05:07:32.128Z",
   "theatre": {
     "id": 7241,
     "name": "Cineplex Odeon Clarington Place Cinemas"
@@ -678,6 +678,62 @@
       ]
     },
     "282018": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "....SSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSCW..",
+        "...WCSSSSSSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "...WCSSSSSSCWW..",
+        "................"
+      ]
+    },
+    "282019": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "....SSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSCW..",
+        "...WCSSSSSSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "...WCSSSSSSCWW..",
+        "................"
+      ]
+    },
+    "282020": {
       "totalRows": 10,
       "totalColumns": 16,
       "rowLabels": [
@@ -8603,6 +8659,58 @@
                 "................"
               ],
               "layoutKey": "282018"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "movies": [
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "16:20",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282020&a=0000000001&l=7241&m=resident-evil-2026&ss=False",
+              "seats": [
+                "....AAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..A?AAAAAAAAAA..",
+                "...AAAAA?AAAAA..",
+                "................"
+              ],
+              "layoutKey": "282020"
+            },
+            {
+              "time": "18:50",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282019&a=0000000001&l=7241&m=resident-evil-2026&ss=False",
+              "seats": [
+                "....AAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..A?AAAAAAAAAA..",
+                "...AAOOO?AAAAA..",
+                "................"
+              ],
+              "layoutKey": "282019"
             }
           ]
         }
