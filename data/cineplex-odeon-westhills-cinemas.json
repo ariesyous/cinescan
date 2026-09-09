@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T22:26:50.429Z",
+  "updatedAt": "2026-09-09T22:55:55.281Z",
   "theatre": {
     "id": 3409,
     "name": "Cineplex Odeon Westhills Cinemas"
@@ -2011,40 +2011,6 @@
         "..SSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "236235": {
-      "totalRows": 13,
-      "totalColumns": 28,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "............................",
-        "........SSSSSSSSSSSSS.......",
-        ".....SSSSSSSSSSSSSSSSSSSS...",
-        "............................",
-        ".......CW..WC.SSSSS.CW.C....",
-        "......SSSSSSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSSSSS...",
-        "..SS..SSSSSSSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSSSSSSSSSSSS.",
-        "............................"
-      ]
-    },
     "236236": {
       "totalRows": 13,
       "totalColumns": 28,
@@ -2213,44 +2179,6 @@
         "...SSSSSSSSSSSSSSSSSSS..SS..",
         ".SSSSSSSSSSSSSSSSSSSSSSSSSS.",
         "............................"
-      ]
-    },
-    "236243": {
-      "totalRows": 15,
-      "totalColumns": 33,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        ".................................",
-        "........SSSSSSSSSSSSSSSS.........",
-        "...SSSSSSSSSSSSSSSSSSSSSSSSS.....",
-        ".................................",
-        "....CW.WC.SSSSSSSSS.CW..WC.......",
-        "...SSSSSSSSSSSSSSSSSSSSSSSS......",
-        "...SSSSSSSSSSSSSSSSSSSSSSSS......",
-        "...SSSSSSSSSSSSSSSSSSSSSSSS......",
-        "...SSSSSSSSSSSSSSSSSSSSSSSS......",
-        "...SSSSSSSSSSSSSSSSSSSSSSSS......",
-        "...SSSSSSSSSSSSSSSSSSSSSSSS...SS.",
-        "...SSSSSSSSSSSSSSSSSSSSSSSS...SS.",
-        "...SSSSSSSSSSSSSSSSSSSSSSSS...SS.",
-        ".SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.",
-        "................................."
       ]
     },
     "236244": {
@@ -9358,29 +9286,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "16:15",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=236235&a=0000000001&l=3409&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "............................",
-                "........AAAAAAAAAAAAA.......",
-                ".....AAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".......AA..AA.AAAAA.AA.A....",
-                "......AAAAAAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAAAAAAA...",
-                "......AAAAAAA?AAAAAAAAAAA...",
-                "......AAAAAAAAAAOOAAAAAAA...",
-                "..AA..AAAAAAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA.",
-                "............................"
-              ],
-              "layoutKey": "236235"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Regular"
@@ -9400,7 +9305,7 @@
                 ".AAAA...AAA?AAAAAAA?AAAAAAAAAAAA......",
                 ".AAAA...AAAAAAAAAAAAAAAAAAAAAAAA...AA.",
                 ".AAAA...AAAAAAAAAAAAAAAAAAAAAAAA...AA.",
-                ".AAAA...AAAAAAAOOAAAAAAAAAAAAAAA...AA.",
+                ".AAOO...AAAAAAAOOAAAAAAAAAAAAAAA...AA.",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
                 "......................................"
               ],
@@ -9529,31 +9434,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61883_320_470.jpg",
           "runtimeMinutes": 96,
           "sessions": [
-            {
-              "time": "16:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=236243&a=0000000001&l=3409&m=buddy-2026&ss=False",
-              "seats": [
-                ".................................",
-                "........AAAA?AAAAAAAAAAA.........",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA.....",
-                ".................................",
-                "....AA.AA.AAAAAAAAA.AA..AA.......",
-                "...AAAAAAAAAAAAAAAAAAAAAAAA......",
-                "...AAAAAAAAAAAAAAAAAAAAAAAA......",
-                "...AAAAAAAAAAAAAAAAAAAAAAAA......",
-                "...AAAAAAAAAAAOOAAAAAAAAAAA......",
-                "...AAAAAAAAAAAAAAAAAAAAAAAA......",
-                "...AAAAAAAAAAAAOOAAAAAAAAAA...AA.",
-                "...AAAAAAAOAAAAAAAAAAAAAAAA...AA.",
-                "...AAAAAAOAAAAAAAAAAAAAAAAA...AA.",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
-                "................................."
-              ],
-              "layoutKey": "236243"
-            },
             {
               "time": "19:30",
               "formats": [
@@ -9691,7 +9571,7 @@
                 "...AAAAAAAAAAAAAAAAAAA......",
                 "...AAAAAAAAAAAAAAAAAAA......",
                 "...AAAAAAAAAAAAAAAAAAA......",
-                "...AAAAAAAAAAAAAAAAAAA......",
+                "...AAAAAAAOOOAAAAAAAAA......",
                 "...AAAAAAAAOOAAAAAAAAA......",
                 "...AAAAAAAAAAAAAAAAAAA..??..",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA.",
@@ -14841,7 +14721,7 @@
                 "......AAAAAAAAAAAAAAAAAAA...",
                 "......AAAAAAAAAAAAAAAAAAA...",
                 "......AAAAAAAAAAAAAAAAAAA...",
-                "......AOOAAAAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAAAAAAA...",
                 "......AAAAAAAAAAAAAAAAAAA...",
                 ".AA...AAAAAAAAAAAAAAAAAAA...",
                 ".AAAAAAAAAAAAA?AAAAAAAAAAAA.",

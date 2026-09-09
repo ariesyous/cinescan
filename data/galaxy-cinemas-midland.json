@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T22:27:03.436Z",
+  "updatedAt": "2026-09-09T22:56:09.667Z",
   "theatre": {
     "id": 7271,
     "name": "Galaxy Cinemas Midland"
@@ -137,40 +137,6 @@
         "...SSSSSSSSSSSSSSS....",
         "...SSSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "150109": {
-      "totalRows": 13,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".......................",
-        ".SSSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSS..",
-        ".......................",
-        "....WWCSSSSSSSSSCW.....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "150110": {
@@ -3787,36 +3753,6 @@
       "date": "2026-09-09",
       "movies": [
         {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=150109&a=0000000001&l=7271&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".......................",
-                ".AAAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA..",
-                ".......................",
-                "....AAAAAAAAAAAAAA.....",
-                "..AAAAAAAAOOAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAOOAAAAAAOO....",
-                "..AAAAAAAAAOOAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA..A?",
-                "..AAAAAAAAOOAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "150109"
-            }
-          ]
-        },
-        {
           "title": "Coyote vs ACME",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
@@ -3836,12 +3772,12 @@
                 ".......AAAAAAAAAAAAAAAAA...",
                 "......?A?AAAAAAAAAAAAAAA...",
                 "......AAAAAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAA?AAAAAA...",
+                "......AAAAAAAAAAA?AAAAAO...",
                 "......AAAAAAOOOAAAAAAAAA...",
+                "..AA..AAAAOOAAAAAAAAAAAA...",
                 "..AA..AAAAAAAAAAAAAAAAAA...",
                 "..AA..AAAAAAAAAAAAAAAAAA...",
-                "..AA..AAAAAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAAAA?AAAAAAA"
+                ".AAAAAAAAAAAAOOAAAA?AAAAAAA"
               ],
               "layoutKey": "150105"
             }
@@ -3894,12 +3830,12 @@
                 ".....AAAAAAAAAAAAAA....",
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAA..",
+                "....AAAAAAOOAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAOO..",
+                "AA..AAAOOAAAOOOAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAA..",
                 "?A..AAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA?"
+                "AAAAAAAAAAAOOAAAAAAAAA?"
               ],
               "layoutKey": "150111"
             }
@@ -3925,9 +3861,9 @@
                 ".....AAAAAA?AAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
+                "..AAAAAAOOAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAOAOOAAA..AA",
                 "..AAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAA?OOAAAAAAAAA"
@@ -3956,11 +3892,11 @@
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAOOAAAAAAAA....",
+                "..AAAAAAAAAAAAAOOAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAA?AAAAA"
+                "AAAAAAAAAOOOAAAAA?AAAAA"
               ],
               "layoutKey": "150110"
             }
@@ -3979,17 +3915,17 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=150108&a=0000000001&l=7271&m=toy-story-5&ss=False",
               "seats": [
                 "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..??????????????????..",
+                "..??????????????????..",
+                "..??????????????????..",
                 "......................",
-                "....AAAAAAAAAAAAA.....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "....?????????????.....",
+                "...???????????????....",
+                "...???????????????....",
+                "...???????????????....",
+                "...???????????????....",
+                "...???????????????..??",
+                "??????????????????????"
               ],
               "layoutKey": "150108"
             }
