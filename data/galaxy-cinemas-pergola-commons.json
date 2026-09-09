@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T23:52:29.028Z",
+  "updatedAt": "2026-09-09T00:52:51.588Z",
   "theatre": {
     "id": 7117,
     "name": "Galaxy Cinemas Pergola Commons"
@@ -537,36 +537,6 @@
         "DD.DDDD.DDDD.DDDD.DDDD.DD..SS"
       ]
     },
-    "120160": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "......................",
-        "....SSSSSSSSSSSSSSSSS.",
-        "......................",
-        ".....CW.SSSSSSSCW..WC.",
-        ".....SSSSSSSSSSSSSSSS.",
-        ".....SSSSSSSSSSSSSSSS.",
-        ".....SSSSSSSSSSSSSSSS.",
-        ".....SSSSSSSSSSSSSSSS.",
-        "SSS..SSSSSSSSSSSSSSSS.",
-        "SSS..SSSSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "120170": {
       "totalRows": 11,
       "totalColumns": 20,
@@ -1086,42 +1056,47 @@
         ".SSSSSSSSSSSSSS..SSS",
         "SSSSSSSSSSSSSSSSSSSS"
       ]
+    },
+    "120303": {
+      "totalRows": 15,
+      "totalColumns": 29,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "seatTypes": [
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        ".............................",
+        "SSCW.W.WCSSSSSSSSSSSCW.WC....",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS....",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS....",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS....",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS....",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS....",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS....",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "...........................SS",
+        "...DDDDDDDDDDDDDDDDDDDD....SS",
+        "...DDDDDDDDDDDDDDDDDDDD....SS"
+      ]
     }
   },
   "days": [
-    {
-      "date": "2026-09-08",
-      "movies": [
-        {
-          "title": "Onslaught",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61571_320_470.jpg",
-          "runtimeMinutes": 92,
-          "sessions": [
-            {
-              "time": "19:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=120160&a=0000000001&l=7117&m=onslaught&ss=False",
-              "seats": [
-                "......................",
-                "....AAAAAAAAAAAAAAAAA.",
-                "......................",
-                ".....AA.AAAAAAAAA..AA.",
-                ".....AAAAAAOAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAOOAAAAAA.",
-                "AAA..AAAAAAAAAAAAAAAA.",
-                "AAA..AAAAAAAAAOOAAAAA.",
-                "AAAAAAAAAAOOAAAAAAAAAO"
-              ],
-              "layoutKey": "120160"
-            }
-          ]
-        }
-      ]
-    },
     {
       "date": "2026-09-09",
       "movies": [
@@ -1647,6 +1622,71 @@
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "120185"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "15:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Dolby Atmos"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=120303&a=0000000004&l=7117&m=practical-magic-2&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                ".............................",
+                "AAAA.A.AAAAAAAAAAAAAAA.AA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "...........................AA",
+                "...AAAAAAAAAAAAAAAAAAAA....AA",
+                "...AAAAAAAAAAAAAAAAAAAA....AA"
+              ],
+              "layoutKey": "120303"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "UltraAVX",
+                "Dolby Atmos"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=120303&a=0000000001&l=7117&m=practical-magic-2&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                ".............................",
+                "AAAA.A.AAAAAAAAAAAAAAA.AA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "...........................AA",
+                "...AAAAAAAAAAAAAAAAAAAA....AA",
+                "...AAAAAAAAAAAAAAAAAAAA....AA"
+              ],
+              "layoutKey": "120303"
             }
           ]
         }
