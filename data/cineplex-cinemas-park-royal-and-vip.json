@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T15:29:55.844Z",
+  "updatedAt": "2026-09-09T19:37:56.215Z",
   "theatre": {
     "id": 1151,
     "name": "Cineplex Cinemas Park Royal and VIP"
@@ -8013,11 +8013,11 @@
                 "..AA.AAAAAAAAAAA.AAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAOOAAAAAAAAAAAAA....",
                 "..AAAAAAAAOOAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAA??AAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA"
+                "..AAAAAAAAAAAAAAAAAA..OO"
               ],
               "layoutKey": "94398"
             },
@@ -8038,7 +8038,7 @@
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAOOAAAAAAAA..AA",
                 "..AAAAAAAAAAA??AAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAA..AA"
               ],
@@ -8058,10 +8058,10 @@
                 "...................",
                 "...AAAA.AAAAAAAAA..",
                 "...AAAAAAOOAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAA?AAA..",
+                "...AAAAAAOOAAAAAA..",
+                "...AAAAAAOOAA?AAA..",
                 "AA.OOA?OAOOAAAAAA..",
-                "AAAAAAAAOOOAAAAAA.."
+                "OOAAAAAAOOOAAAAAA.."
               ],
               "layoutKey": "94409"
             },
@@ -8257,7 +8257,7 @@
                 "...AAAOOOOAAAAAAAAA...",
                 "...AAAAAAAOAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAA.."
+                "...AAAAAAAOOAAAAAAAA.."
               ],
               "layoutKey": "94402"
             },
@@ -8277,7 +8277,7 @@
                 "...AAAAAAAAAAOAAAAA...",
                 "...AAAAAOOOOAAOOOOA...",
                 "...AAAAOOOOAAOOAAAA...",
-                "...AAAAAOOOOOAAAAAAA.."
+                "...AAAAAOOOOOAAOOAAA.."
               ],
               "layoutKey": "94411"
             },
@@ -8295,7 +8295,7 @@
                 "...AA.AAAAAAAAA.AAA...",
                 "...AAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAOOAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAA...",
                 "...AAAAAAAOOAAAAAAAA.."
               ],
@@ -8445,8 +8445,8 @@
                 "...AAAAAAA..AAA..",
                 "...AAAAAAAAAAAA..",
                 "...AAAAAAAAAAAA..",
-                "...AAAAAAAAAAAA..",
-                "AA.AAAAAAAAAAAA..",
+                "...AAOOAAAAAAAA..",
+                "AA.AAAAAAOAAAAA..",
                 "AAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "94412"
@@ -8519,7 +8519,7 @@
                 "...AAAA.AAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAOOAAOOAAAAAA..",
-                "...AAAAOOAAAAAOOO..",
+                "...AAAAAAAAAAAOOO..",
                 "AA.AAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAA.."
               ],
@@ -8589,9 +8589,9 @@
                 "...AAA..AAAA..",
                 "...AAAAAAAAA..",
                 "...AAAAAAAAA..",
-                "...AAAAAAAAA..",
+                "...AAAOOAAAA..",
                 "...AAA??AAAA..",
-                "AAAAAAAOOAAAAA"
+                "AAAAOOAOOAAAAA"
               ],
               "layoutKey": "94394"
             },
@@ -8634,7 +8634,7 @@
                 "..AAAA..AAA...",
                 "..AAAAAAAAA...",
                 "..AAAAAAAAA...",
-                "..AAAAAAAAA...",
+                "..AAAAAAOOO...",
                 "..AAAAAAAAA...",
                 "AAAAAAAAAAAAAA"
               ],
@@ -8672,7 +8672,7 @@
                 "..AAAAAAAAA...",
                 "..AAAOOAAAA...",
                 "..OOAAAOOAA...",
-                "AAAAAAAAAAAAAA"
+                "AAAAAAAAOOAAAA"
               ],
               "layoutKey": "94413"
             },
@@ -8701,6 +8701,34 @@
     {
       "date": "2026-09-10",
       "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93305&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...................",
+                ".......OO??AA......",
+                "...................",
+                "...OOAA.AAOOOOOAA..",
+                "...OOOOOOOOOOOOOO..",
+                "...OOOOOOOOOOAOOO..",
+                "...OOOOOOOOOOOOOO..",
+                "OO.OOOOOOOOOOOOOO..",
+                "OOOOOOOOOOOOOOOOO.."
+              ],
+              "layoutKey": "93305"
+            }
+          ]
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -9007,34 +9035,6 @@
                 "...AAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "94449"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:45",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93305&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                ".......AA??AA......",
-                "...................",
-                "...OOAA.AAOOOOOAA..",
-                "...OOOOOOOOOOOOOO..",
-                "...OOOOOOOOOOAOOO..",
-                "...OOOOOOOOOOOOOO..",
-                "OO.OOOOOOOOOOOOOO..",
-                "OOOOOOOOOOOOOOOOO.."
-              ],
-              "layoutKey": "93305"
             }
           ]
         },
@@ -9409,314 +9409,6 @@
       "date": "2026-09-11",
       "movies": [
         {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "12:00",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94502&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "........................",
-                ".....AAAAAAAAAAAAA......",
-                "........................",
-                "..AA.AAAAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAA??AAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA"
-              ],
-              "layoutKey": "94502"
-            },
-            {
-              "time": "15:15",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94496&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "........................",
-                ".....AAAAAAAAAAAAA......",
-                "........................",
-                "..AA.AAAAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAA??AAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA"
-              ],
-              "layoutKey": "94496"
-            },
-            {
-              "time": "18:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94493&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...................",
-                ".......AAAAAA......",
-                "...................",
-                "...AAAA.AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAA?AAA..",
-                "AA.AAA?AAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "94493"
-            },
-            {
-              "time": "18:45",
-              "formats": [
-                "3D",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94500&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "........................",
-                ".....AAAAAAAAAAAAA......",
-                "........................",
-                "..AA.AAAAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAA??AAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA"
-              ],
-              "layoutKey": "94500"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94515&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...................",
-                ".......AAAAAA......",
-                "...................",
-                "...AAAA.AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAA?AAA..",
-                "AA.AAA?AAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "94515"
-            },
-            {
-              "time": "22:00",
-              "formats": [
-                "3D",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94501&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "........................",
-                ".....AAAAAAAAAAAAA......",
-                "........................",
-                "..AA.AAAAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAA??AAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA"
-              ],
-              "layoutKey": "94501"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "12:10",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94512&a=0000000001&l=1151&m=the-odyssey&ss=False",
-              "seats": [
-                "..............",
-                "...AAA..AAAA..",
-                "...AAAAAAAAA..",
-                "...AAAAAAAAA..",
-                "...AAAAAAAAA..",
-                "...AAA??AAAA..",
-                "AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "94512"
-            },
-            {
-              "time": "16:00",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94489&a=0000000001&l=1151&m=the-odyssey&ss=False",
-              "seats": [
-                "..............",
-                "...OAA..AAAA..",
-                "...AAAAAAAAA..",
-                "...AAAAAAAAA..",
-                "...AAAAAAAAA..",
-                "...AAA??AAAA..",
-                "AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "94489"
-            },
-            {
-              "time": "19:30",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94494&a=0000000001&l=1151&m=the-odyssey&ss=False",
-              "seats": [
-                "...................",
-                ".......AAAAAA......",
-                "...................",
-                "..AAAAAAAAAA.AAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..OOOAAAAAAAAAAA.AA",
-                "..AAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "94494"
-            },
-            {
-              "time": "20:00",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94511&a=0000000001&l=1151&m=the-odyssey&ss=False",
-              "seats": [
-                "..............",
-                "...AAA..AAAA..",
-                "...AAAAAAAAA..",
-                "...AAAAAAAAA..",
-                "...AAAAAAAAA..",
-                "...AAA??AAAA..",
-                "AAAAAAOOAAAAAA"
-              ],
-              "layoutKey": "94511"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "12:20",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94486&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......................",
-                "....?AAAAAAAAAAAA.....",
-                "......................",
-                "...AA.AAAAAAAAA.AAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...OOOAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "94486"
-            },
-            {
-              "time": "15:00",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94503&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......................",
-                "....?AAAAAAAAAAAA.....",
-                "......................",
-                "...AA.AAAAAAAAA.AAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "94503"
-            },
-            {
-              "time": "18:15",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94504&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......................",
-                "....?AAAAAAAAAAAA.....",
-                "......................",
-                "...AA.AAAAAAAAA.AAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "94504"
-            },
-            {
-              "time": "21:15",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94505&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......................",
-                "....?AAAAAAAAAAAA.....",
-                "......................",
-                "...AA.AAAAAAAAA.AAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAOOAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "94505"
-            }
-          ]
-        },
-        {
           "title": "Practical Magic 2",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
@@ -9840,10 +9532,10 @@
                 "..AAA.AAAAAAAAAAAAA..AAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAOOAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AA.AAAA.AAA.??AA.AAA....."
               ],
@@ -9865,10 +9557,10 @@
                 "..AAA.AAAAAAAAAAAAA..AAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAOOAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AA.AAAA.AAA.??AA.AAA....."
               ],
@@ -9996,6 +9688,361 @@
           ]
         },
         {
+          "title": "Runner",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
+          "runtimeMinutes": 99,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94488&a=0000000001&l=1151&m=runner&ss=False",
+              "seats": [
+                ".................",
+                "....AAAAAAAAA....",
+                ".................",
+                "....AAAAAA..AAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "AAAA........AAAAA"
+              ],
+              "layoutKey": "94488"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94510&a=0000000001&l=1151&m=runner&ss=False",
+              "seats": [
+                ".................",
+                "....AAAAAAAAA....",
+                ".................",
+                "....AAAAAA..AAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "AAAA........AAAAA"
+              ],
+              "layoutKey": "94510"
+            }
+          ]
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
+          "runtimeMinutes": 145,
+          "sessions": [
+            {
+              "time": "12:00",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94502&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "........................",
+                ".....AAAAAAAAAAAAA......",
+                "........................",
+                "..AA.AAAAAAAAAAA.AAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAA??AAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAA..AA"
+              ],
+              "layoutKey": "94502"
+            },
+            {
+              "time": "15:15",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94496&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "........................",
+                ".....AAAAAAAAAAAAA......",
+                "........................",
+                "..AA.AAAAAAAAAAA.AAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAOOOOOAAAAAA..AA",
+                "..AAAAAAAOOAA??AAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAA..AA"
+              ],
+              "layoutKey": "94496"
+            },
+            {
+              "time": "18:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94493&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "...................",
+                ".......AAAAAA......",
+                "...................",
+                "...AAAA.AAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAAAAA?AAA..",
+                "AA.AAA?AAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "94493"
+            },
+            {
+              "time": "18:45",
+              "formats": [
+                "3D",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94500&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "........................",
+                ".....AAAAAAAAAAAAA......",
+                "........................",
+                "..AA.AAAAAAAAAAA.AAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAOOAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAA??AAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAA..AA"
+              ],
+              "layoutKey": "94500"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94515&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "...................",
+                ".......AAAAAA......",
+                "...................",
+                "...AAAA.AAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAAAAA?AAA..",
+                "AA.AAA?AAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "94515"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "3D",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94501&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "........................",
+                ".....AAAAAAAAAAAAA......",
+                "........................",
+                "..AA.AAAAAAAAAAA.AAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAA??AAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAA..AA"
+              ],
+              "layoutKey": "94501"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "12:10",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94512&a=0000000001&l=1151&m=the-odyssey&ss=False",
+              "seats": [
+                "..............",
+                "...AAA..AAAA..",
+                "...AAAAAAAAA..",
+                "...AAAAAAAAA..",
+                "...AAAAAAAAA..",
+                "...AAA??AAAA..",
+                "AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "94512"
+            },
+            {
+              "time": "16:00",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94489&a=0000000001&l=1151&m=the-odyssey&ss=False",
+              "seats": [
+                "..............",
+                "...OAA..AAAA..",
+                "...AAAAAAAAA..",
+                "...AAAAAAAAA..",
+                "...AAAAAAAAA..",
+                "...AAA??AAAA..",
+                "AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "94489"
+            },
+            {
+              "time": "19:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94494&a=0000000001&l=1151&m=the-odyssey&ss=False",
+              "seats": [
+                "...................",
+                ".......AAAAAA......",
+                "...................",
+                "..AAAAAAAAAA.AAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..OOOAAAAAAAOOOO.AA",
+                "..AAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "94494"
+            },
+            {
+              "time": "20:00",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94511&a=0000000001&l=1151&m=the-odyssey&ss=False",
+              "seats": [
+                "..............",
+                "...AAA..AAAA..",
+                "...AAAAAAAAA..",
+                "...AAAAAAAAA..",
+                "...AAAAAAAAA..",
+                "...AAA??AAAA..",
+                "AAAAAAOOAAAAAA"
+              ],
+              "layoutKey": "94511"
+            }
+          ]
+        },
+        {
+          "title": "Coyote vs ACME",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
+          "runtimeMinutes": 103,
+          "sessions": [
+            {
+              "time": "12:20",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94486&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "......................",
+                "....?AAAAAAAAAAAA.....",
+                "......................",
+                "...AA.AAAAAAAAA.AAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...OOOAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "94486"
+            },
+            {
+              "time": "15:00",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94503&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "......................",
+                "....?AAAAAAAAAAAA.....",
+                "......................",
+                "...AA.AAAAAAAAA.AAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "94503"
+            },
+            {
+              "time": "18:15",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94504&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "......................",
+                "....?AAAAAAAAAAAA.....",
+                "......................",
+                "...AA.AAAAAAAAA.AAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAOOOOAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "94504"
+            },
+            {
+              "time": "21:15",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94505&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "......................",
+                "....?AAAAAAAAAAAA.....",
+                "......................",
+                "...AA.AAAAAAAAA.AAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAOOAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "94505"
+            }
+          ]
+        },
+        {
           "title": "By Any Means",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
           "runtimeMinutes": 106,
@@ -10097,7 +10144,7 @@
                 "...AAAAAAA..AAA..",
                 "...AAAAAAAAAAAA..",
                 "...AAAAAAAAAAAA..",
-                "...AAAAAAAAAAAA..",
+                "...AAAAAAAAAAOO..",
                 "AA.AAAAAAAAAAAA..",
                 "OOOOOAAAAAAAAAAAA"
               ],
@@ -10214,6 +10261,370 @@
               "layoutKey": "94513"
             }
           ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "11:45",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93312&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...................",
+                ".......AA??AA......",
+                "...................",
+                "...AAAA.AAAAAAAAA..",
+                "...AAAAAAOAAAAAOO..",
+                "...AAAAAAOOOOOOOO..",
+                "...AAOOAAOOAAAAOO..",
+                "OO.AAAAAAOOAAAAAA..",
+                "OOAAAAAOOOOOAAAAA.."
+              ],
+              "layoutKey": "93312"
+            },
+            {
+              "time": "12:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94518&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94518"
+            },
+            {
+              "time": "12:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94518&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94518"
+            },
+            {
+              "time": "15:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93311&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...................",
+                ".......AA??AA......",
+                "...................",
+                "...AAAA.AAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...OOOAAAOOAAAAOO..",
+                "...OOAAOOOOOOOOOA..",
+                "OO.AAAAAOOOAAAAAA..",
+                "AAAAAAOOOOAAAAAAA.."
+              ],
+              "layoutKey": "93311"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94538&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94538"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94538&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94538"
+            },
+            {
+              "time": "18:15",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93309&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...................",
+                ".......AA??AA......",
+                "...................",
+                "...AAAA.OOAAAAAAA..",
+                "...AAOOOOAOOOOOOO..",
+                "...OOOOOOOOOOOOOO..",
+                "...OOOOOOOOOOOOOO..",
+                "OO.OOOOOOOOOOOOOO..",
+                "OOOOOOOOOOOOOOOOO.."
+              ],
+              "layoutKey": "93309"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94537&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94537"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94537&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94537"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94536&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94536"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94536&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94536"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93310&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...................",
+                ".......AA??AA......",
+                "...................",
+                "...AAAA.AAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAOOAAAAAA..",
+                "AA.AAAAAAAAAAAAOO..",
+                "AAAAAAAAOOAAAAAAA.."
+              ],
+              "layoutKey": "93310"
+            }
+          ]
+        },
+        {
+          "title": "The Uprising",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
+          "runtimeMinutes": 128,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94551&a=0000000001&l=1151&m=the-uprising&ss=False",
+              "seats": [
+                "..............",
+                "...AAAA.AAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "AAA........AAA"
+              ],
+              "layoutKey": "94551"
+            },
+            {
+              "time": "16:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94552&a=0000000001&l=1151&m=the-uprising&ss=False",
+              "seats": [
+                "..............",
+                "...AAAA.AAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "AAA........AAA"
+              ],
+              "layoutKey": "94552"
+            },
+            {
+              "time": "20:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94539&a=0000000001&l=1151&m=the-uprising&ss=False",
+              "seats": [
+                "..............",
+                "...AAAA.AAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "AAA........AAA"
+              ],
+              "layoutKey": "94539"
+            }
+          ]
         },
         {
           "title": "Runner",
@@ -10226,7 +10637,7 @@
                 "Recliner",
                 "Laser Projection"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94488&a=0000000001&l=1151&m=runner&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94527&a=0000000001&l=1151&m=runner&ss=False",
               "seats": [
                 ".................",
                 "....AAAAAAAAA....",
@@ -10238,7 +10649,7 @@
                 "....AAAAAAAAAAA..",
                 "AAAA........AAAAA"
               ],
-              "layoutKey": "94488"
+              "layoutKey": "94527"
             },
             {
               "time": "22:00",
@@ -10246,7 +10657,7 @@
                 "Recliner",
                 "Laser Projection"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94510&a=0000000001&l=1151&m=runner&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94545&a=0000000001&l=1151&m=runner&ss=False",
               "seats": [
                 ".................",
                 "....AAAAAAAAA....",
@@ -10258,15 +10669,10 @@
                 "....AAAAAAAAAAA..",
                 "AAAA........AAAAA"
               ],
-              "layoutKey": "94510"
+              "layoutKey": "94545"
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "movies": [
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -10618,365 +11024,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "11:45",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93312&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                ".......AA??AA......",
-                "...................",
-                "...AAAA.AAAAAAAAA..",
-                "...AAAAAAOAAAAAOO..",
-                "...AAAAAAOOOOOOOO..",
-                "...AAOOAAOOAAAAOO..",
-                "OO.AAAAAAOOAAAAAA..",
-                "OOAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "93312"
-            },
-            {
-              "time": "12:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94518&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94518"
-            },
-            {
-              "time": "12:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94518&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94518"
-            },
-            {
-              "time": "15:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93311&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                ".......AA??AA......",
-                "...................",
-                "...AAAA.AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...OOOAAAOOAAAAOO..",
-                "...OOAAOOOOOOOOOA..",
-                "OO.AAAAAOOOAAAAAA..",
-                "AAAAAAOOOOAAAAAAA.."
-              ],
-              "layoutKey": "93311"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94538&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94538"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94538&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94538"
-            },
-            {
-              "time": "18:15",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93309&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                ".......AA??AA......",
-                "...................",
-                "...AAAA.OOAAAAAAA..",
-                "...AAOOOOAOOOOOOO..",
-                "...OOOOOOOOOOOOOO..",
-                "...OOOOAOOOOOOOOO..",
-                "OO.OOOOOOOOOOOOOO..",
-                "OOOOOOOOOOOOOOOOO.."
-              ],
-              "layoutKey": "93309"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94537&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94537"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94537&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94537"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94536&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94536"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94536&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94536"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93310&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                ".......AA??AA......",
-                "...................",
-                "...AAAA.AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAOOAAAAAA..",
-                "AA.AAAAAAAAAAAAOO..",
-                "AAAAAAAAOOAAAAAAA.."
-              ],
-              "layoutKey": "93310"
-            }
-          ]
-        },
-        {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
-            {
-              "time": "13:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94551&a=0000000001&l=1151&m=the-uprising&ss=False",
-              "seats": [
-                "..............",
-                "...AAAA.AAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "AAA........AAA"
-              ],
-              "layoutKey": "94551"
-            },
-            {
-              "time": "16:30",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94552&a=0000000001&l=1151&m=the-uprising&ss=False",
-              "seats": [
-                "..............",
-                "...AAAA.AAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "AAA........AAA"
-              ],
-              "layoutKey": "94552"
-            },
-            {
-              "time": "20:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94539&a=0000000001&l=1151&m=the-uprising&ss=False",
-              "seats": [
-                "..............",
-                "...AAAA.AAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "AAA........AAA"
-              ],
-              "layoutKey": "94539"
-            }
-          ]
-        },
-        {
           "title": "By Any Means",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
           "runtimeMinutes": 106,
@@ -11197,53 +11244,6 @@
           ]
         },
         {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94527&a=0000000001&l=1151&m=runner&ss=False",
-              "seats": [
-                ".................",
-                "....AAAAAAAAA....",
-                ".................",
-                "....AAAAAA..AAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "AAAA........AAAAA"
-              ],
-              "layoutKey": "94527"
-            },
-            {
-              "time": "22:00",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94545&a=0000000001&l=1151&m=runner&ss=False",
-              "seats": [
-                ".................",
-                "....AAAAAAAAA....",
-                ".................",
-                "....AAAAAA..AAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "AAAA........AAAAA"
-              ],
-              "layoutKey": "94545"
-            }
-          ]
-        },
-        {
           "title": "Kubo And The Two Strings - Family Favourites",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62007_320_470.jpg",
           "runtimeMinutes": 101,
@@ -11275,6 +11275,391 @@
     {
       "date": "2026-09-13",
       "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "12:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93313&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...................",
+                ".......AA??AA......",
+                "...................",
+                "...AAAA.AAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAOOAAAAAAAA..",
+                "AA.OOOAAAAAOOOAAA..",
+                "AAAAAAAAOOAAAAAAA.."
+              ],
+              "layoutKey": "93313"
+            },
+            {
+              "time": "12:20",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94559&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAOAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94559"
+            },
+            {
+              "time": "12:20",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94559&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAOAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94559"
+            },
+            {
+              "time": "15:15",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93314&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...................",
+                ".......AA??AA......",
+                "...................",
+                "...AAAA.AAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAOOAAAOOO..",
+                "...AAOOAOOOAAOOAA..",
+                "AA.OOOOOAOOOOAAAA..",
+                "AAAAAAAAAOAAAAAAA.."
+              ],
+              "layoutKey": "93314"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94564&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94564"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94564&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94564"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94563&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAOOOOAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94563"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94563&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAOOOOAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94563"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93315&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...................",
+                ".......AA??AA......",
+                "...................",
+                "...AAAA.AAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAOOAAAAAA..",
+                "...OOOAOOOOOOAAAA..",
+                "OO.AAOOOOOOOOOAOO..",
+                "AAAAAOOOOOOOOOAAO.."
+              ],
+              "layoutKey": "93315"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94562&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94562"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94562&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94562"
+            }
+          ]
+        },
+        {
+          "title": "The Uprising",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
+          "runtimeMinutes": 128,
+          "sessions": [
+            {
+              "time": "13:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94586&a=0000000001&l=1151&m=the-uprising&ss=False",
+              "seats": [
+                "..............",
+                "...AAAA.AAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "AOO........AAA"
+              ],
+              "layoutKey": "94586"
+            },
+            {
+              "time": "16:45",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94585&a=0000000001&l=1151&m=the-uprising&ss=False",
+              "seats": [
+                "..............",
+                "...AAAA.AAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "AAA........AAA"
+              ],
+              "layoutKey": "94585"
+            },
+            {
+              "time": "20:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94582&a=0000000001&l=1151&m=the-uprising&ss=False",
+              "seats": [
+                "..............",
+                "...AAAA.AAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "AAA........AAA"
+              ],
+              "layoutKey": "94582"
+            }
+          ]
+        },
+        {
+          "title": "Runner",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
+          "runtimeMinutes": 99,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94556&a=0000000001&l=1151&m=runner&ss=False",
+              "seats": [
+                ".................",
+                "....AAAAAAAAA....",
+                ".................",
+                "....AAAAAA..AAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "AAAA........AAAAA"
+              ],
+              "layoutKey": "94556"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94568&a=0000000001&l=1151&m=runner&ss=False",
+              "seats": [
+                ".................",
+                "....AAAAAAAAA....",
+                ".................",
+                "....AAAAAA..AAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "AAAA........AAAAA"
+              ],
+              "layoutKey": "94568"
+            }
+          ]
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -11624,344 +12009,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "12:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93313&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                ".......AA??AA......",
-                "...................",
-                "...AAAA.AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAOOAAAAAAAA..",
-                "AA.OOOAAAAAOOOAAA..",
-                "AAAAAAAAOOAAAAAAA.."
-              ],
-              "layoutKey": "93313"
-            },
-            {
-              "time": "12:20",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94559&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAOAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94559"
-            },
-            {
-              "time": "12:20",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94559&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAOAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94559"
-            },
-            {
-              "time": "15:15",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93314&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                ".......AA??AA......",
-                "...................",
-                "...AAAA.AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAOOAAAOOO..",
-                "...AAOOAOOOAAOOAA..",
-                "AA.AAOOOAOOOOAAAA..",
-                "AAAAAAAAAOAAAAAAA.."
-              ],
-              "layoutKey": "93314"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94564&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94564"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94564&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94564"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94563&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAOOOOAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94563"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94563&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAOOOOAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94563"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93315&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                ".......AA??AA......",
-                "...................",
-                "...AAAA.AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAOOAAAAAA..",
-                "...OOOAOOOOOOAAAA..",
-                "OO.AAOOOOOOOOOAOO..",
-                "AAAAAOOOOOOOOOAAA.."
-              ],
-              "layoutKey": "93315"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94562&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94562"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94562&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94562"
-            }
-          ]
-        },
-        {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
-            {
-              "time": "13:30",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94586&a=0000000001&l=1151&m=the-uprising&ss=False",
-              "seats": [
-                "..............",
-                "...AAAA.AAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "AOO........AAA"
-              ],
-              "layoutKey": "94586"
-            },
-            {
-              "time": "16:45",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94585&a=0000000001&l=1151&m=the-uprising&ss=False",
-              "seats": [
-                "..............",
-                "...AAAA.AAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "AAA........AAA"
-              ],
-              "layoutKey": "94585"
-            },
-            {
-              "time": "20:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94582&a=0000000001&l=1151&m=the-uprising&ss=False",
-              "seats": [
-                "..............",
-                "...AAAA.AAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "AAA........AAA"
-              ],
-              "layoutKey": "94582"
-            }
-          ]
-        },
-        {
           "title": "By Any Means",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
           "runtimeMinutes": 106,
@@ -12182,6 +12229,269 @@
               "layoutKey": "94578"
             }
           ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "12:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94588&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94588"
+            },
+            {
+              "time": "12:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94588&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94588"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94607&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94607"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94607&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94607"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94606&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94606"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94606&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94606"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93316&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...................",
+                ".......AA??AA......",
+                "...................",
+                "...AAAA.AAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...OOOOOOOOOOOOOO..",
+                "AA.OOAAOOAAOOAAAA..",
+                "AAAAAAAAAOOOAAAAA.."
+              ],
+              "layoutKey": "93316"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94605&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94605"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94605&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94605"
+            }
+          ]
+        },
+        {
+          "title": "The Uprising",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
+          "runtimeMinutes": 128,
+          "sessions": [
+            {
+              "time": "19:45",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94589&a=0000000001&l=1151&m=the-uprising&ss=False",
+              "seats": [
+                "..............",
+                "...AAAA.AAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "AAA........AAA"
+              ],
+              "layoutKey": "94589"
+            }
+          ]
         },
         {
           "title": "Runner",
@@ -12194,7 +12504,7 @@
                 "Recliner",
                 "Laser Projection"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94556&a=0000000001&l=1151&m=runner&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94596&a=0000000001&l=1151&m=runner&ss=False",
               "seats": [
                 ".................",
                 "....AAAAAAAAA....",
@@ -12206,15 +12516,15 @@
                 "....AAAAAAAAAAA..",
                 "AAAA........AAAAA"
               ],
-              "layoutKey": "94556"
+              "layoutKey": "94596"
             },
             {
-              "time": "22:00",
+              "time": "21:45",
               "formats": [
                 "Recliner",
                 "Laser Projection"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94568&a=0000000001&l=1151&m=runner&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94613&a=0000000001&l=1151&m=runner&ss=False",
               "seats": [
                 ".................",
                 "....AAAAAAAAA....",
@@ -12226,15 +12536,10 @@
                 "....AAAAAAAAAAA..",
                 "AAAA........AAAAA"
               ],
-              "layoutKey": "94568"
+              "layoutKey": "94613"
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2026-09-14",
-      "movies": [
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -12501,264 +12806,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "12:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94588&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94588"
-            },
-            {
-              "time": "12:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94588&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94588"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94607&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94607"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94607&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94607"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94606&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94606"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94606&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94606"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93316&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                ".......AA??AA......",
-                "...................",
-                "...AAAA.AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...OOOOOOOOOOOOOO..",
-                "AA.OOAAOOAAOOAAAA..",
-                "AAAAAAAAAOOOAAAAA.."
-              ],
-              "layoutKey": "93316"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94605&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94605"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94605&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94605"
-            }
-          ]
-        },
-        {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
-            {
-              "time": "19:45",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94589&a=0000000001&l=1151&m=the-uprising&ss=False",
-              "seats": [
-                "..............",
-                "...AAAA.AAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "AAA........AAA"
-              ],
-              "layoutKey": "94589"
-            }
-          ]
-        },
-        {
           "title": "By Any Means",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
           "runtimeMinutes": 106,
@@ -12977,6 +13024,309 @@
               "layoutKey": "94610"
             }
           ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "12:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94618&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94618"
+            },
+            {
+              "time": "12:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94618&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94618"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94637&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAOOAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94637"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94637&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAOOAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94637"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94636&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94636"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94636&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94636"
+            },
+            {
+              "time": "18:45",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93318&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...................",
+                ".......AA??AA......",
+                "...................",
+                "...AAAA.AAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...OOOOOOOOOAOOAO..",
+                "...OOOOOOOOOOOOOO..",
+                "OO.OOOOOOOOOOOOOO..",
+                "OOOOOOOOOOOOOOOOA.."
+              ],
+              "layoutKey": "93318"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94635&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94635"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94635&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94635"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93317&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...................",
+                ".......AA??AA......",
+                "...................",
+                "...AAAA.AAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AOOOAAOAAAAAAA..",
+                "AA.AAAAAAAAOOAAAA..",
+                "AAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "93317"
+            }
+          ]
+        },
+        {
+          "title": "The Uprising",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
+          "runtimeMinutes": 128,
+          "sessions": [
+            {
+              "time": "17:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94649&a=0000000001&l=1151&m=the-uprising&ss=False",
+              "seats": [
+                "..............",
+                "...AAAA.AAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...OOOOAAAA...",
+                "AAA........AAA"
+              ],
+              "layoutKey": "94649"
+            },
+            {
+              "time": "20:45",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94619&a=0000000001&l=1151&m=the-uprising&ss=False",
+              "seats": [
+                "..............",
+                "...AAAA.AAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAOOOAAA...",
+                "AAA........AAA"
+              ],
+              "layoutKey": "94619"
+            }
+          ]
         },
         {
           "title": "Runner",
@@ -12989,27 +13339,27 @@
                 "Recliner",
                 "Laser Projection"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94596&a=0000000001&l=1151&m=runner&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94626&a=0000000001&l=1151&m=runner&ss=False",
               "seats": [
                 ".................",
                 "....AAAAAAAAA....",
                 ".................",
                 "....AAAAAA..AAA..",
                 "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
+                "....AAAAOAAAAAA..",
+                "....AAAAOOAAAAA..",
                 "....AAAAAAAAAAA..",
                 "AAAA........AAAAA"
               ],
-              "layoutKey": "94596"
+              "layoutKey": "94626"
             },
             {
-              "time": "21:45",
+              "time": "22:00",
               "formats": [
                 "Recliner",
                 "Laser Projection"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94613&a=0000000001&l=1151&m=runner&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94644&a=0000000001&l=1151&m=runner&ss=False",
               "seats": [
                 ".................",
                 "....AAAAAAAAA....",
@@ -13021,15 +13371,10 @@
                 "....AAAAAAAAAAA..",
                 "AAAA........AAAAA"
               ],
-              "layoutKey": "94613"
+              "layoutKey": "94644"
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "movies": [
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -13317,304 +13662,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "12:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94618&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94618"
-            },
-            {
-              "time": "12:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94618&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94618"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94637&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94637"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94637&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94637"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94636&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94636"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94636&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94636"
-            },
-            {
-              "time": "18:45",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93318&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                ".......AA??AA......",
-                "...................",
-                "...AAAA.AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...OOOOOOOOOAOOAO..",
-                "...OOOOOOOOOOOOOO..",
-                "OO.OOOOOOOOOOOOOO..",
-                "OOOOOOOOOOOOOOOOA.."
-              ],
-              "layoutKey": "93318"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94635&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94635"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94635&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94635"
-            },
-            {
-              "time": "22:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=93317&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                ".......AA??AA......",
-                "...................",
-                "...AAAA.AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AOOOAAOAAAAAAA..",
-                "AA.AAAAAAAAOOAAAA..",
-                "AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "93317"
-            }
-          ]
-        },
-        {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
-            {
-              "time": "17:30",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94649&a=0000000001&l=1151&m=the-uprising&ss=False",
-              "seats": [
-                "..............",
-                "...AAAA.AAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "AAA........AAA"
-              ],
-              "layoutKey": "94649"
-            },
-            {
-              "time": "20:45",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94619&a=0000000001&l=1151&m=the-uprising&ss=False",
-              "seats": [
-                "..............",
-                "...AAAA.AAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAOOOAAA...",
-                "AAA........AAA"
-              ],
-              "layoutKey": "94619"
-            }
-          ]
-        },
-        {
           "title": "By Any Means",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
           "runtimeMinutes": 106,
@@ -13649,7 +13696,7 @@
                 "..AAAA..AAA...",
                 "..AAAAAAAAA...",
                 "..AAAAAAAAA...",
-                "..AAAAAAAAA...",
+                "..AAAAOOAAA...",
                 "..AAAAAAAAA...",
                 "AAAAAAAAAAAAAA"
               ],
@@ -13763,7 +13810,7 @@
                 "....AAAAAA..AAA..",
                 "....AAAAAAAAAAA..",
                 "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
+                "....AAOOAAAAAAA..",
                 "....AAAAAAAAAAA..",
                 "AAAA........AAAAA"
               ],
@@ -13833,6 +13880,269 @@
               "layoutKey": "94641"
             }
           ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "12:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94682&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94682"
+            },
+            {
+              "time": "12:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94682&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94682"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94699&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94699"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94699&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94699"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94700&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94700"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94700&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94700"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94680&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...................",
+                ".......AA??AA......",
+                "...................",
+                "...AAAA.AAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
+                "AA.AAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "94680"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "UltraAVX",
+                "D-BOX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94701&a=0000000004&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94701"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "UltraAVX",
+                "Recliner",
+                "Dolby Atmos",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94701&a=0000000001&l=1151&m=practical-magic-2&ss=False",
+              "seats": [
+                "...........................",
+                ".....AAAAAAAAAAAAAAAAA.....",
+                "...........................",
+                "..AAA.AAAAAAAAAAAAA..AAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AA.AAAA.AAA.??AA.AAA....."
+              ],
+              "layoutKey": "94701"
+            }
+          ]
+        },
+        {
+          "title": "The Uprising",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
+          "runtimeMinutes": 128,
+          "sessions": [
+            {
+              "time": "19:45",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94650&a=0000000001&l=1151&m=the-uprising&ss=False",
+              "seats": [
+                "..............",
+                "...AAAA.AAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "AAA........AAA"
+              ],
+              "layoutKey": "94650"
+            }
+          ]
         },
         {
           "title": "Runner",
@@ -13845,27 +14155,27 @@
                 "Recliner",
                 "Laser Projection"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94626&a=0000000001&l=1151&m=runner&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94689&a=0000000001&l=1151&m=runner&ss=False",
               "seats": [
                 ".................",
                 "....AAAAAAAAA....",
                 ".................",
                 "....AAAAAA..AAA..",
                 "....AAAAAAAAAAA..",
-                "....AAAAOAAAAAA..",
+                "....AAAAAAAAAAA..",
                 "....AAAAAAAAAAA..",
                 "....AAAAAAAAAAA..",
                 "AAAA........AAAAA"
               ],
-              "layoutKey": "94626"
+              "layoutKey": "94689"
             },
             {
-              "time": "22:00",
+              "time": "21:45",
               "formats": [
                 "Recliner",
                 "Laser Projection"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94644&a=0000000001&l=1151&m=runner&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94693&a=0000000001&l=1151&m=runner&ss=False",
               "seats": [
                 ".................",
                 "....AAAAAAAAA....",
@@ -13877,15 +14187,10 @@
                 "....AAAAAAAAAAA..",
                 "AAAA........AAAAA"
               ],
-              "layoutKey": "94644"
+              "layoutKey": "94693"
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "movies": [
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -14152,264 +14457,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "12:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94682&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94682"
-            },
-            {
-              "time": "12:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94682&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94682"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94699&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94699"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94699&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94699"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94700&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94700"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94700&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94700"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94680&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                ".......AA??AA......",
-                "...................",
-                "...AAAA.AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "AA.AAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "94680"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94701&a=0000000004&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94701"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94701&a=0000000001&l=1151&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAAAAA.....",
-                "...........................",
-                "..AAA.AAAAAAAAAAAAA..AAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AAAA.AAA.??AA.AAA....."
-              ],
-              "layoutKey": "94701"
-            }
-          ]
-        },
-        {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
-            {
-              "time": "19:45",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94650&a=0000000001&l=1151&m=the-uprising&ss=False",
-              "seats": [
-                "..............",
-                "...AAAA.AAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "AAA........AAA"
-              ],
-              "layoutKey": "94650"
-            }
-          ]
-        },
-        {
           "title": "By Any Means",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
           "runtimeMinutes": 106,
@@ -14628,303 +14675,12 @@
               "layoutKey": "94696"
             }
           ]
-        },
-        {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94689&a=0000000001&l=1151&m=runner&ss=False",
-              "seats": [
-                ".................",
-                "....AAAAAAAAA....",
-                ".................",
-                "....AAAAAA..AAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "AAAA........AAAAA"
-              ],
-              "layoutKey": "94689"
-            },
-            {
-              "time": "21:45",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94693&a=0000000001&l=1151&m=runner&ss=False",
-              "seats": [
-                ".................",
-                "....AAAAAAAAA....",
-                ".................",
-                "....AAAAAA..AAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "AAAA........AAAAA"
-              ],
-              "layoutKey": "94693"
-            }
-          ]
         }
       ]
     },
     {
       "date": "2026-09-17",
       "movies": [
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "14:00",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94715&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "........................",
-                ".....AAAAAAAAAAAAA......",
-                "........................",
-                "..AA.AAAAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAA??AAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA"
-              ],
-              "layoutKey": "94715"
-            },
-            {
-              "time": "18:00",
-              "formats": [
-                "3D",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94711&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "........................",
-                ".....AAAAAAAAAAAAA......",
-                "........................",
-                "..AA.AAAAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAA??AAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA"
-              ],
-              "layoutKey": "94711"
-            },
-            {
-              "time": "21:20",
-              "formats": [
-                "3D",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94720&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "........................",
-                ".....AAAAAAAAAAAAA......",
-                "........................",
-                "..AA.AAAAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAA??AAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAA..AA"
-              ],
-              "layoutKey": "94720"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "12:15",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94727&a=0000000001&l=1151&m=the-odyssey&ss=False",
-              "seats": [
-                "..............",
-                "...AAA..AAAA..",
-                "...AAAAAAAAA..",
-                "...AAAAAAAAA..",
-                "...AAAAAAAAA..",
-                "...AAA??AAAA..",
-                "AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "94727"
-            },
-            {
-              "time": "16:00",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94732&a=0000000001&l=1151&m=the-odyssey&ss=False",
-              "seats": [
-                "..............",
-                "...AAA..AAAA..",
-                "...AAAAAAAAA..",
-                "...AAAAAAAAA..",
-                "...AAAAAAAAA..",
-                "...AAA??AAAA..",
-                "AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "94732"
-            },
-            {
-              "time": "19:15",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94724&a=0000000001&l=1151&m=the-odyssey&ss=False",
-              "seats": [
-                "...................",
-                ".......AAAAAA......",
-                "...................",
-                "..AAAAAAAAAA.AAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAOOOAAAAA...",
-                "..AAAAAAAAAAAAAA.AA",
-                "..AAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "94724"
-            },
-            {
-              "time": "20:00",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94728&a=0000000001&l=1151&m=the-odyssey&ss=False",
-              "seats": [
-                "..............",
-                "...AAA..AAAA..",
-                "...AAAAAAAAA..",
-                "...AAAAAAAAA..",
-                "...AAAAAAAAA..",
-                "...AAA??AAAA..",
-                "AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "94728"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "12:20",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94735&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......................",
-                "....?AAAAAAAAAAAA.....",
-                "......................",
-                "...AA.AAAAAAAAA.AAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "94735"
-            },
-            {
-              "time": "15:10",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94719&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......................",
-                "....?AAAAAAAAAAAA.....",
-                "......................",
-                "...AA.AAAAAAAAA.AAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "94719"
-            },
-            {
-              "time": "18:15",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94718&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......................",
-                "....?AAAAAAAAAAAA.....",
-                "......................",
-                "...AA.AAAAAAAAA.AAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "94718"
-            },
-            {
-              "time": "21:00",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94717&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......................",
-                "....?AAAAAAAAAAAA.....",
-                "......................",
-                "...AA.AAAAAAAAA.AAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "94717"
-            }
-          ]
-        },
         {
           "title": "Practical Magic 2",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
@@ -15158,6 +14914,236 @@
           ]
         },
         {
+          "title": "The Uprising",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
+          "runtimeMinutes": 128,
+          "sessions": [
+            {
+              "time": "19:45",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94725&a=0000000001&l=1151&m=the-uprising&ss=False",
+              "seats": [
+                "..............",
+                "...AAAA.AAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "...AAAAAAAA...",
+                "AAA........AAA"
+              ],
+              "layoutKey": "94725"
+            }
+          ]
+        },
+        {
+          "title": "Runner",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
+          "runtimeMinutes": 99,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94733&a=0000000001&l=1151&m=runner&ss=False",
+              "seats": [
+                ".................",
+                "....AAAAAAAAA....",
+                ".................",
+                "....AAAAAA..AAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "AAAA........AAAAA"
+              ],
+              "layoutKey": "94733"
+            },
+            {
+              "time": "21:45",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94729&a=0000000001&l=1151&m=runner&ss=False",
+              "seats": [
+                ".................",
+                "....AAAAAAAAA....",
+                ".................",
+                "....AAAAAA..AAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "....AAAAAAAAAAA..",
+                "AAAA........AAAAA"
+              ],
+              "layoutKey": "94729"
+            }
+          ]
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
+          "runtimeMinutes": 145,
+          "sessions": [
+            {
+              "time": "14:00",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94715&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "........................",
+                ".....AAAAAAAAAAAAA......",
+                "........................",
+                "..AA.AAAAAAAAAAA.AAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAA??AAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAA..AA"
+              ],
+              "layoutKey": "94715"
+            },
+            {
+              "time": "18:00",
+              "formats": [
+                "3D",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94711&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "........................",
+                ".....AAAAAAAAAAAAA......",
+                "........................",
+                "..AA.AAAAAAAAAAA.AAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAA??AAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAA..AA"
+              ],
+              "layoutKey": "94711"
+            },
+            {
+              "time": "21:20",
+              "formats": [
+                "3D",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94720&a=0000000001&l=1151&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "........................",
+                ".....AAAAAAAAAAAAA......",
+                "........................",
+                "..AA.AAAAAAAAAAA.AAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAA??AAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAA..AA"
+              ],
+              "layoutKey": "94720"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "12:15",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94727&a=0000000001&l=1151&m=the-odyssey&ss=False",
+              "seats": [
+                "..............",
+                "...AAA..AAAA..",
+                "...AAAAAAAAA..",
+                "...AAAAAAAAA..",
+                "...AAAAAAAAA..",
+                "...AAA??AAAA..",
+                "AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "94727"
+            },
+            {
+              "time": "16:00",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94732&a=0000000001&l=1151&m=the-odyssey&ss=False",
+              "seats": [
+                "..............",
+                "...AAA..AAAA..",
+                "...AAAAAAAAA..",
+                "...AAAAAAAAA..",
+                "...AAAAAAAAA..",
+                "...AAA??AAAA..",
+                "AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "94732"
+            },
+            {
+              "time": "19:15",
+              "formats": [
+                "VIP 19+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94724&a=0000000001&l=1151&m=the-odyssey&ss=False",
+              "seats": [
+                "...................",
+                ".......AAAAAA......",
+                "...................",
+                "..AAAAAAAAAA.AAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAOOOAAAAA...",
+                "..AAAAAAAAAAAAAA.AA",
+                "..AAAAAAAOOAAAAAAAA"
+              ],
+              "layoutKey": "94724"
+            },
+            {
+              "time": "20:00",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94728&a=0000000001&l=1151&m=the-odyssey&ss=False",
+              "seats": [
+                "..............",
+                "...AAA..AAAA..",
+                "...AAAAAAAAA..",
+                "...AAAAAAAAA..",
+                "...AAAAAAAAA..",
+                "...AAA??AAAA..",
+                "AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "94728"
+            }
+          ]
+        },
+        {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
           "runtimeMinutes": 94,
@@ -15186,28 +15172,89 @@
           ]
         },
         {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
+          "title": "Coyote vs ACME",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
+          "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "19:45",
+              "time": "12:20",
               "formats": [
-                "VIP 19+",
                 "Recliner",
                 "Laser Projection"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94725&a=0000000001&l=1151&m=the-uprising&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94735&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
               "seats": [
-                "..............",
-                "...AAAA.AAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "...AAAAAAAA...",
-                "AAA........AAA"
+                "......................",
+                "....?AAAAAAAAAAAA.....",
+                "......................",
+                "...AA.AAAAAAAAA.AAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAA.."
               ],
-              "layoutKey": "94725"
+              "layoutKey": "94735"
+            },
+            {
+              "time": "15:10",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94719&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "......................",
+                "....?AAAAAAAAAAAA.....",
+                "......................",
+                "...AA.AAAAAAAAA.AAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "94719"
+            },
+            {
+              "time": "18:15",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94718&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "......................",
+                "....?AAAAAAAAAAAA.....",
+                "......................",
+                "...AA.AAAAAAAAA.AAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "94718"
+            },
+            {
+              "time": "21:00",
+              "formats": [
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94717&a=0000000001&l=1151&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "......................",
+                "....?AAAAAAAAAAAA.....",
+                "......................",
+                "...AA.AAAAAAAAA.AAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "94717"
             }
           ]
         },
@@ -15430,53 +15477,6 @@
               "layoutKey": "94726"
             }
           ]
-        },
-        {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94733&a=0000000001&l=1151&m=runner&ss=False",
-              "seats": [
-                ".................",
-                "....AAAAAAAAA....",
-                ".................",
-                "....AAAAAA..AAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "AAAA........AAAAA"
-              ],
-              "layoutKey": "94733"
-            },
-            {
-              "time": "21:45",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=94729&a=0000000001&l=1151&m=runner&ss=False",
-              "seats": [
-                ".................",
-                "....AAAAAAAAA....",
-                ".................",
-                "....AAAAAA..AAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "AAAA........AAAAA"
-              ],
-              "layoutKey": "94729"
-            }
-          ]
         }
       ]
     },
@@ -15503,7 +15503,7 @@
                 "...AAAA.AAAAAAAAA..",
                 "...AAAAOOOOAAAAAA..",
                 "...AAAAAAOOAAAAAA..",
-                "...AAAAOOOOAAAAAA..",
+                "...AAOOOOOOAAAAAA..",
                 "OO.AAAAOOOOOAAAAA..",
                 "AAAAAOOOOOAAOOOOA.."
               ],

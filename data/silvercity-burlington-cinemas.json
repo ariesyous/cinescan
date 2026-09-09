@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T15:31:43.430Z",
+  "updatedAt": "2026-09-09T19:39:26.233Z",
   "theatre": {
     "id": 7413,
     "name": "SilverCity Burlington Cinemas"
@@ -9142,7 +9142,7 @@
                 "....AA..AAAAAAOOAAAAAA...AAAAAA",
                 "....AA..AAAAAAAAAAAAAA...AAAAAA",
                 "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAOOAAAAAA...AAAAAA",
                 "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
                 "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
               ],
@@ -9204,12 +9204,12 @@
                 "AAAAAA...AAAAAAAAAAAAAA..AA....",
                 "AAAAAA...AAAAAAAAAAAAAA..AA....",
                 "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAOOOAAAAA..AA....",
+                "AAAAAA...AAAAAAOOOAAAAA..OO....",
                 "AAAAAA...AAAAAAAAAAAAAA..AA....",
                 "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
                 "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
                 "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
-                "AAAAAAA??AAAAAOOOOAAAA??AAAAAAA"
+                "AAAAAAA??AAAAAOOOOOAAA??AAAAAAA"
               ],
               "layoutKey": "280874"
             }
@@ -9352,7 +9352,7 @@
                 "......AAAAAAAAAAAAAAAA..AA",
                 "......AAAAAAAAAAAAAAAA..AA",
                 "......AAAAAAAAAAAAAAAA..AA",
-                "......AAAAAAAAAAAAAAAA..AA",
+                "......AAAOOAAAAAAAAAAA..AA",
                 "......AAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAA?AAA"
               ],
@@ -9481,6 +9481,36 @@
       "date": "2026-09-10",
       "movies": [
         {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279833&a=0000000001&l=7413&m=practical-magic-2&ss=False",
+              "seats": [
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
+                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
+                "................................",
+                ".....OO..OOOAAAAAAAAAAAA....AAAA",
+                ".....AA..AAAAAAAAAAAAAAOOO..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..OAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AOOAAAOOAAAAAOOAA..AAAA",
+                ".....AA..OOAAAAOOOOOAAAAAA..AAAA",
+                ".....AA..AAAAAOOOOAAAAAAAA..AAAA",
+                "A?AAAAAAAAAAOOAAOAAOOOOAAAAAAAAA"
+              ],
+              "layoutKey": "279833"
+            }
+          ]
+        },
+        {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
@@ -9536,7 +9566,7 @@
                 "AA..AOOAAAAAAAAAAAAA......",
                 "AA..AAAAAAAAAAAAAAAA......",
                 "AA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAOAAAAAAAAAAAAA"
               ],
               "layoutKey": "280893"
             }
@@ -9607,36 +9637,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279833&a=0000000001&l=7413&m=practical-magic-2&ss=False",
-              "seats": [
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
-                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
-                "................................",
-                ".....OO..OOOAAAAAAAAAAAA....AAAA",
-                ".....AA..AAAAAAAAAAAAAAOOO..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AOOAAAOOAAAAAOOAA..AAAA",
-                ".....AA..OOAAAAOOOOOAAAAAA..AAAA",
-                ".....AA..AAAAAOOOOAAAAAAAA..AAAA",
-                "A?AAAAAAAAAAOOAAOAAOOOOAAAAAAAAA"
-              ],
-              "layoutKey": "279833"
-            }
-          ]
-        },
-        {
           "title": "By Any Means",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
           "runtimeMinutes": 106,
@@ -9656,7 +9656,7 @@
                 "AAAA..AAAAAAAAAAAAAAAA......",
                 "AAAA..AAAAAAAAAAAAAAAA......",
                 "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAOAAAAAAA......",
                 "AAAA..AAAAAAAAAAAAAAAA......",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -9803,7 +9803,7 @@
                 "AA...AAAAAAAAAAAAAA?......",
                 "AA...AAAAAAAAAAAAAAA......",
                 "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AA...AAAAAOOOOOOAAAA..AAA.",
                 "AA...AAAAAAAAAAAAAAA..AAA.",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -9844,6 +9844,231 @@
     {
       "date": "2026-09-11",
       "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "16:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279837&a=0000000001&l=7413&m=practical-magic-2&ss=False",
+              "seats": [
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
+                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
+                "................................",
+                ".....AA..AAAAAAAOAAAAAAA....AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAOOOAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....OA..AAAAAAOOAAAAAAOOO..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....OO..AAAAAAAAAAAAAAAAA..AAAA",
+                "A?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "279837"
+            },
+            {
+              "time": "19:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279835&a=0000000001&l=7413&m=practical-magic-2&ss=False",
+              "seats": [
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
+                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
+                "................................",
+                ".....AA..AAAAAAAAAAAAAAA....AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAOOOOOOOAAAA..AAAA",
+                ".....AA..AAAOOAAAOOAAAAAOO..AAAA",
+                ".....AA..AAOOAAOOOOOAAOOOO..AAAA",
+                ".....OO..AAAAOOOOOOOOAAAAA..AAAA",
+                "A?AAAAAAAOAAAAOOOOOAAAOOOOAAAAAA"
+              ],
+              "layoutKey": "279835"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279836&a=0000000001&l=7413&m=practical-magic-2&ss=False",
+              "seats": [
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
+                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
+                "................................",
+                ".....AA..AAAAAAAAAAAAAAA....AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAOAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                "A?AAAAAAAAAAAAAAOOAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "279836"
+            }
+          ]
+        },
+        {
+          "title": "The Uprising",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
+          "runtimeMinutes": 128,
+          "sessions": [
+            {
+              "time": "15:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280986&a=0000000001&l=7413&m=the-uprising&ss=False",
+              "seats": [
+                "..........................",
+                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA.AAA...",
+                "..........................",
+                "AA.....AAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA?......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280986"
+            },
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280997&a=0000000001&l=7413&m=the-uprising&ss=False",
+              "seats": [
+                "..........................",
+                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA.AAA...",
+                "..........................",
+                "AA.....AAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA?......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280997"
+            },
+            {
+              "time": "21:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281008&a=0000000001&l=7413&m=the-uprising&ss=False",
+              "seats": [
+                "..........................",
+                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA.AAA...",
+                "..........................",
+                "AA.....AAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA?......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281008"
+            }
+          ]
+        },
+        {
+          "title": "Runner",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
+          "runtimeMinutes": 99,
+          "sessions": [
+            {
+              "time": "16:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280990&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280990"
+            },
+            {
+              "time": "19:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281002&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......OOAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281002"
+            },
+            {
+              "time": "21:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281009&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281009"
+            }
+          ]
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -9979,6 +10204,76 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "281003"
+            }
+          ]
+        },
+        {
+          "title": "Oasis: Don’t Look Back in Anger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
+          "runtimeMinutes": 123,
+          "sessions": [
+            {
+              "time": "15:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280981&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAOOAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280981"
+            },
+            {
+              "time": "18:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280992&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280992"
+            },
+            {
+              "time": "21:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281005&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281005"
             }
           ]
         },
@@ -10119,158 +10414,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAA?AAA"
               ],
               "layoutKey": "281013"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "16:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279837&a=0000000001&l=7413&m=practical-magic-2&ss=False",
-              "seats": [
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
-                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
-                "................................",
-                ".....AA..AAAAAAAOAAAAAAA....AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAOOOAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAOOAAAAAAOOO..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....OO..AAAAAAAAAAAAAAAAA..AAAA",
-                "A?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "279837"
-            },
-            {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279835&a=0000000001&l=7413&m=practical-magic-2&ss=False",
-              "seats": [
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
-                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
-                "................................",
-                ".....AA..AAAAAAAAAAAAAAA....AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAOOOOOOOAAAA..AAAA",
-                ".....AA..AAAOOAAAOOAAAAAOO..AAAA",
-                ".....AA..AAOOAAOOOOOAAOOOO..AAAA",
-                ".....OO..AAAAOOOOOOOOAAAAA..AAAA",
-                "A?AAAAAAAOAAAAOOOOOAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "279835"
-            },
-            {
-              "time": "22:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279836&a=0000000001&l=7413&m=practical-magic-2&ss=False",
-              "seats": [
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
-                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
-                "................................",
-                ".....AA..AAAAAAAAAAAAAAA....AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAOAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                "A?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "279836"
-            }
-          ]
-        },
-        {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
-            {
-              "time": "15:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280986&a=0000000001&l=7413&m=the-uprising&ss=False",
-              "seats": [
-                "..........................",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA.AAA...",
-                "..........................",
-                "AA.....AAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAA?......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280986"
-            },
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280997&a=0000000001&l=7413&m=the-uprising&ss=False",
-              "seats": [
-                "..........................",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA.AAA...",
-                "..........................",
-                "AA.....AAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAA?......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280997"
-            },
-            {
-              "time": "21:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281008&a=0000000001&l=7413&m=the-uprising&ss=False",
-              "seats": [
-                "..........................",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA.AAA...",
-                "..........................",
-                "AA.....AAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAA?......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281008"
             }
           ]
         },
@@ -10474,34 +10617,6 @@
           ]
         },
         {
-          "title": "The Magic Faraway Tree",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61217_320_470.jpg",
-          "runtimeMinutes": 110,
-          "sessions": [
-            {
-              "time": "16:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280989&a=0000000001&l=7413&m=the-magic-faraway-tree&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA.AAAAAAAAAAAAAAAAAA...",
-                "............................",
-                "......AAAAAAAAAAAAAAA...AAAA",
-                "......AAAAAAAA??AAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280989"
-            }
-          ]
-        },
-        {
           "title": "Paw Patrol: The Dino Movie",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
           "runtimeMinutes": 89,
@@ -10527,149 +10642,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "280991"
-            }
-          ]
-        },
-        {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "16:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280990&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280990"
-            },
-            {
-              "time": "19:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281002&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......OOAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281002"
-            },
-            {
-              "time": "21:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281009&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281009"
-            }
-          ]
-        },
-        {
-          "title": "Oasis: Don’t Look Back in Anger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
-          "runtimeMinutes": 123,
-          "sessions": [
-            {
-              "time": "15:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280981&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAOOAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280981"
-            },
-            {
-              "time": "18:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280992&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280992"
-            },
-            {
-              "time": "21:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281005&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281005"
             }
           ]
         },
@@ -10723,6 +10695,34 @@
           ]
         },
         {
+          "title": "The Magic Faraway Tree",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61217_320_470.jpg",
+          "runtimeMinutes": 110,
+          "sessions": [
+            {
+              "time": "16:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280989&a=0000000001&l=7413&m=the-magic-faraway-tree&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA.AAAAAAAAAAAAAAAAAA...",
+                "............................",
+                "......AAAAAAAAAAAAAAA...AAAA",
+                "......AAAAAAAA??AAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280989"
+            }
+          ]
+        },
+        {
           "title": "Hope (Korean w/e.s.t.)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61598_320_470.jpg",
           "runtimeMinutes": 157,
@@ -10755,363 +10755,6 @@
     {
       "date": "2026-09-12",
       "movies": [
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "12:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280925&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...............................",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA..AAAAAAAAAAAAAAAAAAAA...",
-                "...............................",
-                "....AA...AAAAAAAAAAAA....AAAAAA",
-                "....AA..AA??AAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "280925"
-            },
-            {
-              "time": "15:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280932&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...............................",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA..AAAAAAAAAAAAAAAAAAAA...",
-                "...............................",
-                "....AA...AAAAAAAAAAAA....AAAAAA",
-                "....AA..AA??AAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "280932"
-            },
-            {
-              "time": "19:05",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280940&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...............................",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA..AAAAAAAAAAAAAAAAAAAA...",
-                "...............................",
-                "....AA...AAAAAAAAAAAA....AAAAAA",
-                "....AA..AA??AAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "280940"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280947&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...........................",
-                "...AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA.AAAAAAAAAAAAAAAAA...",
-                "...........................",
-                "......AAAAAAAAAAAAA....AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280947"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "12:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280931&a=0000000001&l=7413&m=the-odyssey&ss=False",
-              "seats": [
-                "................................",
-                "...??????AAAAAAAAAAAAAAAAAAA?...",
-                "...??????AAAAAAAAAAAAAAAAAAA?...",
-                "...??????AAAAAAAAAAAAAAA..AAA...",
-                "................................",
-                "AAAA.....AAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAOOAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280931"
-            },
-            {
-              "time": "16:05",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280936&a=0000000001&l=7413&m=the-odyssey&ss=False",
-              "seats": [
-                "................................",
-                "...??????AAAAAAAAAAAAAAAAAAA?...",
-                "...??????AAAAAAAAAAAAAAAAAAA?...",
-                "...??????AAAAAAAAAAAAAAA..AAA...",
-                "................................",
-                "AAAA.....AAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280936"
-            },
-            {
-              "time": "20:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280944&a=0000000001&l=7413&m=the-odyssey&ss=False",
-              "seats": [
-                "................................",
-                "...??????AAAAAAAAAAAAAAAAAAA?...",
-                "...??????AAAAAAAAAAAAAAAAAAA?...",
-                "...??????AAAAAAAAAAAAAAA..AAA...",
-                "................................",
-                "AAAA.....AAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280944"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "12:25",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280927&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............................",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
-                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
-                "...............................",
-                "...............................",
-                "AAAAAA....AAAAAAAAAAAA...AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "280927"
-            },
-            {
-              "time": "15:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280934&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............................",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
-                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
-                "...............................",
-                "...............................",
-                "AAAAAA....AAAAAAAAAAAA...AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "280934"
-            },
-            {
-              "time": "18:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280937&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............................",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
-                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
-                "...............................",
-                "...............................",
-                "AAAAAA....AAAAAAAAAAAA...AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "280937"
-            },
-            {
-              "time": "21:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280943&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............................",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
-                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
-                "...............................",
-                "...............................",
-                "AAAAAA....AAAAAAAAAAAA...AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "280943"
-            }
-          ]
-        },
-        {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "18:55",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280939&a=0000000001&l=7413&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA.AAAAAAAAAAAAAAAAAA...",
-                "............................",
-                "......AAAAAAAAAAAAAAA...AAAA",
-                "......AAAAAAAA??AAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280939"
-            },
-            {
-              "time": "22:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280945&a=0000000001&l=7413&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "..........................",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AA.AAAAAAAAAAAAAAAAA...",
-                "..........................",
-                "......AAAAAAAAAAAAAAA...AA",
-                "......AAAAAAAAAAAAAAAA..AA",
-                "......AAAAAAAAAAAAAAAA..AA",
-                "......AAAAAAAAAAAAAAAA..AA",
-                "......AAAAAAAAAAAAAAAA..AA",
-                "......AAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAA?AAA"
-              ],
-              "layoutKey": "280945"
-            }
-          ]
-        },
         {
           "title": "Practical Magic 2",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
@@ -11311,6 +10954,549 @@
           ]
         },
         {
+          "title": "Runner",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
+          "runtimeMinutes": 99,
+          "sessions": [
+            {
+              "time": "14:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280961&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280961"
+            },
+            {
+              "time": "16:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280962&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280962"
+            },
+            {
+              "time": "19:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280963&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280963"
+            },
+            {
+              "time": "21:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280964&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280964"
+            }
+          ]
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
+          "runtimeMinutes": 145,
+          "sessions": [
+            {
+              "time": "12:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280925&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "...............................",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA..AAAAAAAAAAAAAAAAAAAA...",
+                "...............................",
+                "....AA...AAAAAAAAAAAA....AAAAAA",
+                "....AA..AA??AAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "280925"
+            },
+            {
+              "time": "15:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280932&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "...............................",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA..AAAAAAAAAAAAAAAAAAAA...",
+                "...............................",
+                "....AA...AAAAAAAAAAAA....AAAAAA",
+                "....AA..AA??AAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "280932"
+            },
+            {
+              "time": "19:05",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280940&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "...............................",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA..AAAAAAAAAAAAAAAAAAAA...",
+                "...............................",
+                "....AA...AAAAAAAAAAAA....AAAAAA",
+                "....AA..AA??AAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "280940"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280947&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "...........................",
+                "...AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA.AAAAAAAAAAAAAAAAA...",
+                "...........................",
+                "......AAAAAAAAAAAAA....AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280947"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "12:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280931&a=0000000001&l=7413&m=the-odyssey&ss=False",
+              "seats": [
+                "................................",
+                "...??????AAAAAAAAAAAAAAAAAAA?...",
+                "...??????AAAAAAAAAAAAAAAAAAA?...",
+                "...??????AAAAAAAAAAAAAAA..AAA...",
+                "................................",
+                "AAAA.....AAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAOOAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280931"
+            },
+            {
+              "time": "16:05",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280936&a=0000000001&l=7413&m=the-odyssey&ss=False",
+              "seats": [
+                "................................",
+                "...??????AAAAAAAAAAAAAAAAAAA?...",
+                "...??????AAAAAAAAAAAAAAAAAAA?...",
+                "...??????AAAAAAAAAAAAAAA..AAA...",
+                "................................",
+                "AAAA.....AAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280936"
+            },
+            {
+              "time": "20:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280944&a=0000000001&l=7413&m=the-odyssey&ss=False",
+              "seats": [
+                "................................",
+                "...??????AAAAAAAAAAAAAAAAAAA?...",
+                "...??????AAAAAAAAAAAAAAAAAAA?...",
+                "...??????AAAAAAAAAAAAAAA..AAA...",
+                "................................",
+                "AAAA.....AAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280944"
+            }
+          ]
+        },
+        {
+          "title": "Oasis: Don’t Look Back in Anger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
+          "runtimeMinutes": 123,
+          "sessions": [
+            {
+              "time": "12:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280949&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280949"
+            },
+            {
+              "time": "15:05",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280950&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280950"
+            },
+            {
+              "time": "18:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280951&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280951"
+            },
+            {
+              "time": "21:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280952&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280952"
+            }
+          ]
+        },
+        {
+          "title": "Coyote vs ACME",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
+          "runtimeMinutes": 103,
+          "sessions": [
+            {
+              "time": "12:25",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280927&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "...............................",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
+                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
+                "...............................",
+                "...............................",
+                "AAAAAA....AAAAAAAAAAAA...AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "280927"
+            },
+            {
+              "time": "15:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280934&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "...............................",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
+                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
+                "...............................",
+                "...............................",
+                "AAAAAA....AAAAAAAAAAAA...AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "280934"
+            },
+            {
+              "time": "18:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280937&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "...............................",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
+                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
+                "...............................",
+                "...............................",
+                "AAAAAA....AAAAAAAAAAAA...AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "280937"
+            },
+            {
+              "time": "21:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280943&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "...............................",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
+                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
+                "...............................",
+                "...............................",
+                "AAAAAA....AAAAAAAAAAAA...AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "280943"
+            }
+          ]
+        },
+        {
+          "title": "Fall 2: Deadpoint",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
+          "runtimeMinutes": 98,
+          "sessions": [
+            {
+              "time": "18:55",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280939&a=0000000001&l=7413&m=fall-2-deadpoint&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA.AAAAAAAAAAAAAAAAAA...",
+                "............................",
+                "......AAAAAAAAAAAAAAA...AAAA",
+                "......AAAAAAAA??AAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280939"
+            },
+            {
+              "time": "22:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280945&a=0000000001&l=7413&m=fall-2-deadpoint&ss=False",
+              "seats": [
+                "..........................",
+                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AA.AAAAAAAAAAAAAAAAA...",
+                "..........................",
+                "......AAAAAAAAAAAAAAA...AA",
+                "......AAAAAAAAAAAAAAAA..AA",
+                "......AAAAAAAAAAAAAAAA..AA",
+                "......AAAAAAAAAAAAAAAA..AA",
+                "......AAAAAAAAAAAAAAAA..AA",
+                "......AAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAA?AAA"
+              ],
+              "layoutKey": "280945"
+            }
+          ]
+        },
+        {
           "title": "By Any Means",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
           "runtimeMinutes": 106,
@@ -11490,55 +11676,6 @@
           ]
         },
         {
-          "title": "The Magic Faraway Tree",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61217_320_470.jpg",
-          "runtimeMinutes": 110,
-          "sessions": [
-            {
-              "time": "13:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280929&a=0000000001&l=7413&m=the-magic-faraway-tree&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA.AAAAAAAAAAAAAAAAAA...",
-                "............................",
-                "......AAAAAAAAAAAAAAA...AAAA",
-                "......AAAAAAAA??AAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280929"
-            },
-            {
-              "time": "16:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280935&a=0000000001&l=7413&m=the-magic-faraway-tree&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA.AAAAAAAAAAAAAAAAAA...",
-                "............................",
-                "......AAAAAAAAAAAAAAA...AAAA",
-                "......AAAAAAAA??AAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280935"
-            }
-          ]
-        },
-        {
           "title": "Paw Patrol: The Dino Movie",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
           "runtimeMinutes": 89,
@@ -11608,192 +11745,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "280930"
-            }
-          ]
-        },
-        {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "14:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280961&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280961"
-            },
-            {
-              "time": "16:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280962&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280962"
-            },
-            {
-              "time": "19:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280963&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280963"
-            },
-            {
-              "time": "21:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280964&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280964"
-            }
-          ]
-        },
-        {
-          "title": "Oasis: Don’t Look Back in Anger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
-          "runtimeMinutes": 123,
-          "sessions": [
-            {
-              "time": "12:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280949&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280949"
-            },
-            {
-              "time": "15:05",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280950&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280950"
-            },
-            {
-              "time": "18:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280951&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280951"
-            },
-            {
-              "time": "21:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280952&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "280952"
             }
           ]
         },
@@ -11924,6 +11875,55 @@
           ]
         },
         {
+          "title": "The Magic Faraway Tree",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61217_320_470.jpg",
+          "runtimeMinutes": 110,
+          "sessions": [
+            {
+              "time": "13:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280929&a=0000000001&l=7413&m=the-magic-faraway-tree&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA.AAAAAAAAAAAAAAAAAA...",
+                "............................",
+                "......AAAAAAAAAAAAAAA...AAAA",
+                "......AAAAAAAA??AAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280929"
+            },
+            {
+              "time": "16:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280935&a=0000000001&l=7413&m=the-magic-faraway-tree&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA.AAAAAAAAAAAAAAAAAA...",
+                "............................",
+                "......AAAAAAAAAAAAAAA...AAAA",
+                "......AAAAAAAA??AAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "280935"
+            }
+          ]
+        },
+        {
           "title": "The Passion of the Christ (2026 Event)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61911_320_470.jpg",
           "runtimeMinutes": 132,
@@ -12013,361 +12013,6 @@
     {
       "date": "2026-09-13",
       "movies": [
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "12:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281021&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...............................",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA..AAAAAAAAAAAAAAAAAAAA...",
-                "...............................",
-                "....AA...AAAAAAAAAAAA....AAAAAA",
-                "....AA..AA??AAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "281021"
-            },
-            {
-              "time": "15:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281032&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...............................",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA..AAAAAAAAAAAAAAAAAAAA...",
-                "...............................",
-                "....AA...AAAAAAAAAAAA....AAAAAA",
-                "....AA..AA??AAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "281032"
-            },
-            {
-              "time": "19:05",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281044&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...............................",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA..AAAAAAAAAAAAAAAAAAAA...",
-                "...............................",
-                "....AA...AAAAAAAAAAAA....AAAAAA",
-                "....AA..AA??AAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "....AA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "281044"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281051&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...........................",
-                "...AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA.AAAAAAAAAAAAAAAAA...",
-                "...........................",
-                "......AAAAAAAAAAAAA....AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281051"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "12:05",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281020&a=0000000001&l=7413&m=the-odyssey&ss=False",
-              "seats": [
-                "...........................",
-                "...AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA.AAAAAAAAAAAAAAAAA...",
-                "...........................",
-                "......AAAAAAAAAAAAA....AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281020"
-            },
-            {
-              "time": "16:05",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281034&a=0000000001&l=7413&m=the-odyssey&ss=False",
-              "seats": [
-                "................................",
-                "...??????AAAAAAAAAAAAAAAAAAA?...",
-                "...??????AAAAAAAAAAAAAAAAAAA?...",
-                "...??????AAAAAAAAAAAAAAA..AAA...",
-                "................................",
-                "AAAA.....AAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281034"
-            },
-            {
-              "time": "20:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281047&a=0000000001&l=7413&m=the-odyssey&ss=False",
-              "seats": [
-                "................................",
-                "...??????AAAAAAAAAAAAAAAAAAA?...",
-                "...??????AAAAAAAAAAAAAAAAAAA?...",
-                "...??????AAAAAAAAAAAAAAA..AAA...",
-                "................................",
-                "AAAA.....AAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281047"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "12:25",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281022&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............................",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
-                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
-                "...............................",
-                "...............................",
-                "AAAAAA....AAAAAAAAAAAA...AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "281022"
-            },
-            {
-              "time": "15:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281029&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............................",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
-                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
-                "...............................",
-                "...............................",
-                "AAAAAA....AAAAAAAAAAAA...AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "281029"
-            },
-            {
-              "time": "18:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281039&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............................",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
-                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
-                "...............................",
-                "...............................",
-                "AAAAAA....AAAAAAAAAAAA...AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "281039"
-            },
-            {
-              "time": "21:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281048&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............................",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
-                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
-                "...............................",
-                "...............................",
-                "AAAAAA....AAAAAAAAAAAA...AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "281048"
-            }
-          ]
-        },
-        {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "18:55",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281043&a=0000000001&l=7413&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA.AAAAAAAAAAAAAAAAAA...",
-                "............................",
-                "......AAAAAAAAAAAAAAA...AAAA",
-                "......AAAAAAAA??AAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281043"
-            },
-            {
-              "time": "22:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281056&a=0000000001&l=7413&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "..........................",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AA.AAAAAAAAAAAAAAAAA...",
-                "..........................",
-                "......AAAAAAAAAAAAAAA...AA",
-                "......AAAAAAAAAAAAAAAA..AA",
-                "......AAAAAAAAAAAAAAAA..AA",
-                "......AAAAAAAAAAAAAAAA..AA",
-                "......AAAAAAAAAAAAAAAA..AA",
-                "......AAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAA?AAA"
-              ],
-              "layoutKey": "281056"
-            }
-          ]
-        },
         {
           "title": "Practical Magic 2",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
@@ -12563,6 +12208,547 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "281052"
+            }
+          ]
+        },
+        {
+          "title": "Runner",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
+          "runtimeMinutes": 99,
+          "sessions": [
+            {
+              "time": "14:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281026&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281026"
+            },
+            {
+              "time": "16:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281036&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281036"
+            },
+            {
+              "time": "19:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281046&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281046"
+            },
+            {
+              "time": "21:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281053&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281053"
+            }
+          ]
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
+          "runtimeMinutes": 145,
+          "sessions": [
+            {
+              "time": "12:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281021&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "...............................",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA..AAAAAAAAAAAAAAAAAAAA...",
+                "...............................",
+                "....AA...AAAAAAAAAAAA....AAAAAA",
+                "....AA..AA??AAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "281021"
+            },
+            {
+              "time": "15:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281032&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "...............................",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA..AAAAAAAAAAAAAAAAAAAA...",
+                "...............................",
+                "....AA...AAAAAAAAAAAA....AAAAAA",
+                "....AA..AA??AAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "281032"
+            },
+            {
+              "time": "19:05",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281044&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "...............................",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA..AAAAAAAAAAAAAAAAAAAA...",
+                "...............................",
+                "....AA...AAAAAAAAAAAA....AAAAAA",
+                "....AA..AA??AAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "281044"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281051&a=0000000001&l=7413&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "...........................",
+                "...AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA.AAAAAAAAAAAAAAAAA...",
+                "...........................",
+                "......AAAAAAAAAAAAA....AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281051"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "12:05",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281020&a=0000000001&l=7413&m=the-odyssey&ss=False",
+              "seats": [
+                "...........................",
+                "...AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA.AAAAAAAAAAAAAAAAA...",
+                "...........................",
+                "......AAAAAAAAAAAAA....AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281020"
+            },
+            {
+              "time": "16:05",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281034&a=0000000001&l=7413&m=the-odyssey&ss=False",
+              "seats": [
+                "................................",
+                "...??????AAAAAAAAAAAAAAAAAAA?...",
+                "...??????AAAAAAAAAAAAAAAAAAA?...",
+                "...??????AAAAAAAAAAAAAAA..AAA...",
+                "................................",
+                "AAAA.....AAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281034"
+            },
+            {
+              "time": "20:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281047&a=0000000001&l=7413&m=the-odyssey&ss=False",
+              "seats": [
+                "................................",
+                "...??????AAAAAAAAAAAAAAAAAAA?...",
+                "...??????AAAAAAAAAAAAAAAAAAA?...",
+                "...??????AAAAAAAAAAAAAAA..AAA...",
+                "................................",
+                "AAAA.....AAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAA...AAAAAAAAAAAAAAAAA..AA....",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281047"
+            }
+          ]
+        },
+        {
+          "title": "Oasis: Don’t Look Back in Anger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
+          "runtimeMinutes": 123,
+          "sessions": [
+            {
+              "time": "12:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281019&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281019"
+            },
+            {
+              "time": "15:05",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281028&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281028"
+            },
+            {
+              "time": "18:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281038&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281038"
+            },
+            {
+              "time": "21:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281049&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281049"
+            }
+          ]
+        },
+        {
+          "title": "Coyote vs ACME",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
+          "runtimeMinutes": 103,
+          "sessions": [
+            {
+              "time": "12:25",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281022&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "...............................",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
+                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
+                "...............................",
+                "...............................",
+                "AAAAAA....AAAAAAAAAAAA...AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "281022"
+            },
+            {
+              "time": "15:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281029&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "...............................",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
+                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
+                "...............................",
+                "...............................",
+                "AAAAAA....AAAAAAAAAAAA...AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "281029"
+            },
+            {
+              "time": "18:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281039&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "...............................",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
+                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
+                "...............................",
+                "...............................",
+                "AAAAAA....AAAAAAAAAAAA...AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "281039"
+            },
+            {
+              "time": "21:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281048&a=0000000001&l=7413&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "...............................",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
+                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
+                "...............................",
+                "...............................",
+                "AAAAAA....AAAAAAAAAAAA...AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "281048"
+            }
+          ]
+        },
+        {
+          "title": "Fall 2: Deadpoint",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
+          "runtimeMinutes": 98,
+          "sessions": [
+            {
+              "time": "18:55",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281043&a=0000000001&l=7413&m=fall-2-deadpoint&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA.AAAAAAAAAAAAAAAAAA...",
+                "............................",
+                "......AAAAAAAAAAAAAAA...AAAA",
+                "......AAAAAAAA??AAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281043"
+            },
+            {
+              "time": "22:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281056&a=0000000001&l=7413&m=fall-2-deadpoint&ss=False",
+              "seats": [
+                "..........................",
+                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AA.AAAAAAAAAAAAAAAAA...",
+                "..........................",
+                "......AAAAAAAAAAAAAAA...AA",
+                "......AAAAAAAAAAAAAAAA..AA",
+                "......AAAAAAAAAAAAAAAA..AA",
+                "......AAAAAAAAAAAAAAAA..AA",
+                "......AAAAAAAAAAAAAAAA..AA",
+                "......AAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAA?AAA"
+              ],
+              "layoutKey": "281056"
             }
           ]
         },
@@ -12790,55 +12976,6 @@
           ]
         },
         {
-          "title": "The Magic Faraway Tree",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61217_320_470.jpg",
-          "runtimeMinutes": 110,
-          "sessions": [
-            {
-              "time": "13:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281025&a=0000000001&l=7413&m=the-magic-faraway-tree&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA.AAAAAAAAAAAAAAAAAA...",
-                "............................",
-                "......AAAAAAAAAAAAAAA...AAAA",
-                "......AAAAAAAA??AAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281025"
-            },
-            {
-              "time": "16:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281035&a=0000000001&l=7413&m=the-magic-faraway-tree&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAA.AAAAAAAAAAAAAAAAAA...",
-                "............................",
-                "......AAAAAAAAAAAAAAA...AAAA",
-                "......AAAAAAAA??AAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "......AAAAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281035"
-            }
-          ]
-        },
-        {
           "title": "Paw Patrol: The Dino Movie",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
           "runtimeMinutes": 89,
@@ -12908,192 +13045,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "281037"
-            }
-          ]
-        },
-        {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "14:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281026&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281026"
-            },
-            {
-              "time": "16:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281036&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281036"
-            },
-            {
-              "time": "19:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281046&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281046"
-            },
-            {
-              "time": "21:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281053&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281053"
-            }
-          ]
-        },
-        {
-          "title": "Oasis: Don’t Look Back in Anger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
-          "runtimeMinutes": 123,
-          "sessions": [
-            {
-              "time": "12:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281019&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281019"
-            },
-            {
-              "time": "15:05",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281028&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281028"
-            },
-            {
-              "time": "18:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281038&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281038"
-            },
-            {
-              "time": "21:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281049&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281049"
             }
           ]
         },
@@ -13222,12 +13173,150 @@
               "layoutKey": "281040"
             }
           ]
+        },
+        {
+          "title": "The Magic Faraway Tree",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61217_320_470.jpg",
+          "runtimeMinutes": 110,
+          "sessions": [
+            {
+              "time": "13:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281025&a=0000000001&l=7413&m=the-magic-faraway-tree&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA.AAAAAAAAAAAAAAAAAA...",
+                "............................",
+                "......AAAAAAAAAAAAAAA...AAAA",
+                "......AAAAAAAA??AAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281025"
+            },
+            {
+              "time": "16:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281035&a=0000000001&l=7413&m=the-magic-faraway-tree&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA.AAAAAAAAAAAAAAAAAA...",
+                "............................",
+                "......AAAAAAAAAAAAAAA...AAAA",
+                "......AAAAAAAA??AAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "......AAAAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281035"
+            }
+          ]
         }
       ]
     },
     {
       "date": "2026-09-14",
       "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279846&a=0000000001&l=7413&m=practical-magic-2&ss=False",
+              "seats": [
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
+                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
+                "................................",
+                ".....AA..AAAAAAAAAAAAAAA....AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                "A?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "279846"
+            }
+          ]
+        },
+        {
+          "title": "The Uprising",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
+          "runtimeMinutes": 128,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281064&a=0000000001&l=7413&m=the-uprising&ss=False",
+              "seats": [
+                "..........................",
+                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA.AAA...",
+                "..........................",
+                "AA.....AAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA?......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281064"
+            }
+          ]
+        },
+        {
+          "title": "Runner",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
+          "runtimeMinutes": 99,
+          "sessions": [
+            {
+              "time": "19:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281068&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281068"
+            }
+          ]
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -13294,6 +13383,34 @@
           ]
         },
         {
+          "title": "Oasis: Don’t Look Back in Anger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
+          "runtimeMinutes": 123,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281060&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281060"
+            }
+          ]
+        },
+        {
           "title": "Coyote vs ACME",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
@@ -13353,66 +13470,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "281065"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279846&a=0000000001&l=7413&m=practical-magic-2&ss=False",
-              "seats": [
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
-                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
-                "................................",
-                ".....AA..AAAAAAAAAAAAAAA....AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                "A?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "279846"
-            }
-          ]
-        },
-        {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281064&a=0000000001&l=7413&m=the-uprising&ss=False",
-              "seats": [
-                "..........................",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA.AAA...",
-                "..........................",
-                "AA.....AAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAA?......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281064"
             }
           ]
         },
@@ -13503,63 +13560,6 @@
           ]
         },
         {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "19:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281068&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281068"
-            }
-          ]
-        },
-        {
-          "title": "Oasis: Don’t Look Back in Anger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
-          "runtimeMinutes": 123,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281060&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281060"
-            }
-          ]
-        },
-        {
           "title": "Hope (Korean w/e.s.t.)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61598_320_470.jpg",
           "runtimeMinutes": 157,
@@ -13592,6 +13592,163 @@
     {
       "date": "2026-09-15",
       "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279848&a=0000000001&l=7413&m=practical-magic-2&ss=False",
+              "seats": [
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
+                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
+                "................................",
+                ".....AA..AAAAAAAAAAOOAAA....AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..OOOOOAAAAOOAAAAOO..AAAA",
+                ".....AA..AAAAAAAAAAAAAAOOO..AAAA",
+                ".....AA..AAOOAAOOOAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                "A?AAAAAAAAAAAOOOOOOOAAAAAAAAAAAA"
+              ],
+              "layoutKey": "279848"
+            },
+            {
+              "time": "21:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279849&a=0000000001&l=7413&m=practical-magic-2&ss=False",
+              "seats": [
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
+                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
+                "................................",
+                ".....AA..AAAAAAAAAAAAAAA....AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                "A?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "279849"
+            }
+          ]
+        },
+        {
+          "title": "The Uprising",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
+          "runtimeMinutes": 128,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281086&a=0000000001&l=7413&m=the-uprising&ss=False",
+              "seats": [
+                "..........................",
+                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA.AAA...",
+                "..........................",
+                "AA.....AAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA?......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281086"
+            },
+            {
+              "time": "21:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281096&a=0000000001&l=7413&m=the-uprising&ss=False",
+              "seats": [
+                "..........................",
+                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA.AAA...",
+                "..........................",
+                "AA.....AAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA?......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281096"
+            }
+          ]
+        },
+        {
+          "title": "Runner",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
+          "runtimeMinutes": 99,
+          "sessions": [
+            {
+              "time": "19:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281090&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281090"
+            },
+            {
+              "time": "21:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281097&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281097"
+            }
+          ]
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -13676,6 +13833,55 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "281091"
+            }
+          ]
+        },
+        {
+          "title": "Oasis: Don’t Look Back in Anger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
+          "runtimeMinutes": 123,
+          "sessions": [
+            {
+              "time": "18:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281082&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281082"
+            },
+            {
+              "time": "21:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281093&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281093"
             }
           ]
         },
@@ -13788,112 +13994,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAA?AAA"
               ],
               "layoutKey": "281100"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279848&a=0000000001&l=7413&m=practical-magic-2&ss=False",
-              "seats": [
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
-                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
-                "................................",
-                ".....AA..AAAAAAAAAAOOAAA....AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..OOOOOAAAAOOAAAAOO..AAAA",
-                ".....AA..AAAAAAAAAAAAAAOOO..AAAA",
-                ".....AA..AAOOAAOOOAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                "A?AAAAAAAAAAAOOOOOOOAAAAAAAAAAAA"
-              ],
-              "layoutKey": "279848"
-            },
-            {
-              "time": "21:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=279849&a=0000000001&l=7413&m=practical-magic-2&ss=False",
-              "seats": [
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
-                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
-                "................................",
-                ".....AA..AAAAAAAAAAAAAAA....AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                "A?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "279849"
-            }
-          ]
-        },
-        {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281086&a=0000000001&l=7413&m=the-uprising&ss=False",
-              "seats": [
-                "..........................",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA.AAA...",
-                "..........................",
-                "AA.....AAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAA?......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281086"
-            },
-            {
-              "time": "21:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281096&a=0000000001&l=7413&m=the-uprising&ss=False",
-              "seats": [
-                "..........................",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA.AAA...",
-                "..........................",
-                "AA.....AAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAA?......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281096"
             }
           ]
         },
@@ -14033,106 +14133,6 @@
           ]
         },
         {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "19:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281090&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281090"
-            },
-            {
-              "time": "21:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281097&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281097"
-            }
-          ]
-        },
-        {
-          "title": "Oasis: Don’t Look Back in Anger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
-          "runtimeMinutes": 123,
-          "sessions": [
-            {
-              "time": "18:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281082&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281082"
-            },
-            {
-              "time": "21:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281093&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281093"
-            }
-          ]
-        },
-        {
           "title": "Singh vs Kaur 2 (Punjabi w/e.s.t.)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62016_320_470.jpg",
           "runtimeMinutes": 145,
@@ -14222,6 +14222,95 @@
       "date": "2026-09-16",
       "movies": [
         {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281102&a=0000000001&l=7413&m=practical-magic-2&ss=False",
+              "seats": [
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
+                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
+                "................................",
+                ".....AA..AAAAAAAAAAAAAAA....AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAOOAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                "A?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281102"
+            }
+          ]
+        },
+        {
+          "title": "The Uprising",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
+          "runtimeMinutes": 128,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281106&a=0000000001&l=7413&m=the-uprising&ss=False",
+              "seats": [
+                "..........................",
+                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA.AAA...",
+                "..........................",
+                "AA.....AAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA?......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281106"
+            }
+          ]
+        },
+        {
+          "title": "Runner",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
+          "runtimeMinutes": 99,
+          "sessions": [
+            {
+              "time": "19:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281111&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281111"
+            }
+          ]
+        },
+        {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
@@ -14287,6 +14376,34 @@
           ]
         },
         {
+          "title": "Oasis: Don’t Look Back in Anger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
+          "runtimeMinutes": 123,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281104&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281104"
+            }
+          ]
+        },
+        {
           "title": "Coyote vs ACME",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
@@ -14346,66 +14463,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "281107"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281102&a=0000000001&l=7413&m=practical-magic-2&ss=False",
-              "seats": [
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
-                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
-                "................................",
-                ".....AA..AAAAAAAAAAAAAAA....AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAOOAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                "A?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281102"
-            }
-          ]
-        },
-        {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281106&a=0000000001&l=7413&m=the-uprising&ss=False",
-              "seats": [
-                "..........................",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA.AAA...",
-                "..........................",
-                "AA.....AAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAA?......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281106"
             }
           ]
         },
@@ -14496,63 +14553,6 @@
           ]
         },
         {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "19:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281111&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281111"
-            }
-          ]
-        },
-        {
-          "title": "Oasis: Don’t Look Back in Anger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
-          "runtimeMinutes": 123,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281104&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281104"
-            }
-          ]
-        },
-        {
           "title": "Hope (Korean w/e.s.t.)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61598_320_470.jpg",
           "runtimeMinutes": 157,
@@ -14585,6 +14585,95 @@
     {
       "date": "2026-09-17",
       "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281114&a=0000000001&l=7413&m=practical-magic-2&ss=False",
+              "seats": [
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
+                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
+                "................................",
+                ".....AA..AAAAAAAAAAAAAAA....AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                "A?AAAAAAAAAAAAAOOOAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281114"
+            }
+          ]
+        },
+        {
+          "title": "The Uprising",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
+          "runtimeMinutes": 128,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281118&a=0000000001&l=7413&m=the-uprising&ss=False",
+              "seats": [
+                "..........................",
+                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAA.AAA...",
+                "..........................",
+                "AA.....AAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA?......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AA...AAAAAAAAAAAAAAA..AAA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281118"
+            }
+          ]
+        },
+        {
+          "title": "Runner",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
+          "runtimeMinutes": 99,
+          "sessions": [
+            {
+              "time": "19:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281122&a=0000000001&l=7413&m=runner&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA...",
+                "...AA...AAAAAAAAAAAA...",
+                ".......................",
+                "......AAAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAA?AAAAAAAAA...",
+                "AAAA..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281122"
+            }
+          ]
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -14651,6 +14740,69 @@
           ]
         },
         {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "19:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280599&a=0000000001&l=7413&m=resident-evil-2026&ss=False",
+              "seats": [
+                "...............................",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
+                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
+                "...............................",
+                "...............................",
+                "AAAAAA....AAAAAAAAAAAA...AA....",
+                "AAAAAA...AAAAAOOOAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AA....",
+                "AAAAAA...AAAAAAOOAAAAAA..AA....",
+                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAOOAAAAAA..AAAAAA",
+                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "280599"
+            }
+          ]
+        },
+        {
+          "title": "Oasis: Don’t Look Back in Anger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
+          "runtimeMinutes": 123,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281116&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
+              "seats": [
+                "............................",
+                "....AAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA.AAA...",
+                "............................",
+                "AAAA...AAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAA..AAAAAAAAAAAAAAAA......",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "281116"
+            }
+          ]
+        },
+        {
           "title": "Coyote vs ACME",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
@@ -14708,101 +14860,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281114&a=0000000001&l=7413&m=practical-magic-2&ss=False",
-              "seats": [
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA??....",
-                "..AAA..AAAAAAAAAAAAAAAAAAAAA?...",
-                "................................",
-                ".....AA..AAAAAAAAAAAAAAA....AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                "A?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281114"
-            }
-          ]
-        },
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "19:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280599&a=0000000001&l=7413&m=resident-evil-2026&ss=False",
-              "seats": [
-                "...............................",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAA?..",
-                "....AAAAAAAAAAAAAAAAAAAA.AA.A..",
-                "...............................",
-                "...............................",
-                "AAAAAA....AAAAAAAAAAAA...AA....",
-                "AAAAAA...AAAAAOOOAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AA....",
-                "AAAAAA...AAAAAAOOAAAAAA..AA....",
-                "AAAAAA...AAAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAOOAAAAAA..AAAAAA",
-                "AAAAAA...AAAAAAA?AAAAAA..AAAAAA",
-                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
-              ],
-              "layoutKey": "280599"
-            }
-          ]
-        },
-        {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281118&a=0000000001&l=7413&m=the-uprising&ss=False",
-              "seats": [
-                "..........................",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAA.AAA...",
-                "..........................",
-                "AA.....AAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAA?......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA......",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AA...AAAAAAAAAAAAAAA..AAA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281118"
-            }
-          ]
-        },
-        {
           "title": "Tony",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61801_320_470.jpg",
           "runtimeMinutes": 106,
@@ -14828,63 +14885,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "281123"
-            }
-          ]
-        },
-        {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "19:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281122&a=0000000001&l=7413&m=runner&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAA...",
-                "...AA...AAAAAAAAAAAA...",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAA?AAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281122"
-            }
-          ]
-        },
-        {
-          "title": "Oasis: Don’t Look Back in Anger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
-          "runtimeMinutes": 123,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281116&a=0000000001&l=7413&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "............................",
-                "....AAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA.AAA...",
-                "............................",
-                "AAAA...AAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAA..AAAAAAAAAAAAAAAA......",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "281116"
             }
           ]
         },

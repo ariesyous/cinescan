@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T15:30:59.131Z",
+  "updatedAt": "2026-09-09T19:38:49.664Z",
   "theatre": {
     "id": 3157,
     "name": "Cineplex VIP Cinemas University District (age restricted 18+)"
@@ -2875,7 +2875,7 @@
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAA..",
                 ".AAAAOOAAAAA.",
-                ".AAAAAAAAAAA.",
+                ".AAOOAAAAAAA.",
                 ".AAO.....AAAA"
               ],
               "layoutKey": "23118"
@@ -2896,9 +2896,9 @@
                 ".AAAAAAAAAA...",
                 ".A?AAA?AAAA...",
                 ".AAOOOOOOAAA..",
+                ".OOOOOOOOAAA..",
                 ".AAOOOOOOAAA..",
-                ".AAOOOOOOAAA..",
-                ".A?AAOOOOAAAA."
+                ".A?OOOOOOAAAA."
               ],
               "layoutKey": "23116"
             }
@@ -2948,7 +2948,7 @@
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAA..",
                 ".AAAAOOAAAA..",
-                ".AAAOOOAAAAA.",
+                ".AAOOOOOOAAA.",
                 ".AAAAOOAAAAA.",
                 ".AAA.....AAAA"
               ],
@@ -2975,7 +2975,7 @@
                 ".AAAAAAA.AA..",
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAA..",
-                ".AAAAAAAAA?..",
+                ".AAAAOAAAA?..",
                 ".AAAAAAAAAAA.",
                 ".AAAAAAOOAAA.",
                 ".AAA.....AAAA"
@@ -3024,7 +3024,7 @@
                 ".AAAAA.AA...",
                 ".AAAAAAAA...",
                 ".AAAAAAAA...",
-                ".AAAAAAAA...",
+                ".AAAOAAAA...",
                 ".AAAAOOAAAA.",
                 ".AAAAAAAAAA.",
                 ".AAA.....AAA"
@@ -3038,6 +3038,57 @@
     {
       "date": "2026-09-10",
       "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22653&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".OOOOOOOOOO...",
+                ".OOOOOOOOOO...",
+                ".OOOOAOOOOO...",
+                ".OOOOOOOOOOO..",
+                ".OOOOOOOOO?O..",
+                ".OOOOOOOOOOO..",
+                ".OO?OOOOOOOOO."
+              ],
+              "layoutKey": "22653"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22654&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAOAAAA...",
+                ".AAAAAAAAAA...",
+                ".AAAAOOAAAAA..",
+                ".AAAAAAAAA?A..",
+                ".AAAAAAAAAAA..",
+                ".OO?AAAOAOOOO."
+              ],
+              "layoutKey": "22654"
+            }
+          ]
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -3168,57 +3219,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:45",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22653&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".OOOOOOOOOO...",
-                ".OOOOOOOOOO...",
-                ".OOOOOOOOOO...",
-                ".OOOOOOOOOOO..",
-                ".OOOOOOOOO?O..",
-                ".OOOOOOOOOOO..",
-                ".OO?OOOOOOOOO."
-              ],
-              "layoutKey": "22653"
-            },
-            {
-              "time": "22:00",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22654&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAOAAAA...",
-                ".AAAAAAAAAA...",
-                ".AAAAOOAAAAA..",
-                ".AAAAAAAAA?A..",
-                ".AAAAAAAAAAA..",
-                ".OO?AAAOAAAOO."
-              ],
-              "layoutKey": "22654"
-            }
-          ]
-        },
-        {
           "title": "The Dog Stars",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
@@ -3272,6 +3272,99 @@
     {
       "date": "2026-09-11",
       "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "17:15",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23131&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                ".............",
+                ".AAAAAAAAAA..",
+                ".............",
+                ".AAAAAAA.AA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAAA.",
+                ".AAAAOOAAAAA.",
+                ".OOA.....AAAA"
+              ],
+              "layoutKey": "23131"
+            },
+            {
+              "time": "18:45",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22639&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                "..............",
+                ".AAOOOOOOAA...",
+                "..............",
+                ".AAAOOAA.AA...",
+                ".OOOOOOOOOO...",
+                ".OOOOOOOOOA...",
+                ".OOOOOOOOOO...",
+                ".OOOOOOOOOOA..",
+                ".OOOOOOOOO?O..",
+                ".AOOOOOOOOOO..",
+                ".OO?OOOOOOOOO."
+              ],
+              "layoutKey": "22639"
+            },
+            {
+              "time": "20:45",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23134&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                ".............",
+                ".AAAAAAAAAA..",
+                ".............",
+                ".AAAAAAA.AA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAOOAAAAAAA.",
+                ".AAAAOOOAAAA.",
+                ".AAA.....AAAA"
+              ],
+              "layoutKey": "23134"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22640&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".AAAOOOOOOO...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAOOAA...",
+                ".OOAAOOOOAOO..",
+                ".OOOOAAAAA?A..",
+                ".AAOOOOOOOOA..",
+                ".OO?OOOOOOOAA."
+              ],
+              "layoutKey": "22640"
+            }
+          ]
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -3381,99 +3474,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "17:15",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23131&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                ".............",
-                ".AAAAAAAAAA..",
-                ".............",
-                ".AAAAAAA.AA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                ".AAA.....AAAA"
-              ],
-              "layoutKey": "23131"
-            },
-            {
-              "time": "18:45",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22639&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                ".AAOOOOOOAA...",
-                "..............",
-                ".AAAOOAA.AA...",
-                ".OOOOOOOOOO...",
-                ".OOOOOOOOOA...",
-                ".OOOOOOOOOO...",
-                ".OOOOOOOOOOA..",
-                ".OOOOOOOOO?O..",
-                ".AOOOOOOOOOO..",
-                ".OO?OOOOOOOOO."
-              ],
-              "layoutKey": "22639"
-            },
-            {
-              "time": "20:45",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23134&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                ".............",
-                ".AAAAAAAAAA..",
-                ".............",
-                ".AAAAAAA.AA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAOAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                ".AAA.....AAAA"
-              ],
-              "layoutKey": "23134"
-            },
-            {
-              "time": "22:00",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22640&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAOOOOOOO...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAOOAA...",
-                ".OOAAOOOOAOO..",
-                ".OOOOAOOOA?A..",
-                ".AAOOOOOOOOA..",
-                ".OO?OOOOOOOAA."
-              ],
-              "layoutKey": "22640"
-            }
-          ]
-        },
-        {
           "title": "The Dog Stars",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
@@ -3494,7 +3494,7 @@
                 ".AAAAAAAA...",
                 ".AAAAAAAA...",
                 ".AAAAAAAAAA.",
-                ".AAAAAAAAAA.",
+                ".AAAAAAAAAO.",
                 ".AAA.....AAA"
               ],
               "layoutKey": "23132"
@@ -3506,6 +3506,164 @@
     {
       "date": "2026-09-12",
       "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "12:15",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22643&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAA...",
+                ".OOAAAAOOAA...",
+                ".AAAOOOAAAAA..",
+                ".AOAAOOOOA?A..",
+                ".AAAAAAAAAAA..",
+                ".OA?OOOOOAAAA."
+              ],
+              "layoutKey": "22643"
+            },
+            {
+              "time": "13:30",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23146&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                ".............",
+                ".AAAAAAAAAA..",
+                ".............",
+                ".AAAAAAA.AA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAAA.",
+                ".AAAAAAAAAAA.",
+                ".AAA.....AAAA"
+              ],
+              "layoutKey": "23146"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22644&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAOAA.AA...",
+                ".AAAAAAAAAA...",
+                ".OOOOOOOOOO...",
+                ".OOAOOOOOOO...",
+                ".OOOOOOOOOOA..",
+                ".OAOOOOOOA?A..",
+                ".OOOOOOOOOOA..",
+                ".AA?OOOOOOOOA."
+              ],
+              "layoutKey": "22644"
+            },
+            {
+              "time": "17:15",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23141&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                ".............",
+                ".AAAAAAAAAA..",
+                ".............",
+                ".AAAAAAA.AA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAOOAAAAA.",
+                ".AAAAOOAAAAA.",
+                ".AAA.....AAAA"
+              ],
+              "layoutKey": "23141"
+            },
+            {
+              "time": "18:45",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22642&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAOOAA.AA...",
+                ".OOOOOOAOOO...",
+                ".OOOOOOOOOO...",
+                ".OOOOOOOOOO...",
+                ".OOOOOOOOOOA..",
+                ".OOOOOOOOO?O..",
+                ".OOOOOOOOOOA..",
+                ".OO?AOOOOOOOO."
+              ],
+              "layoutKey": "22642"
+            },
+            {
+              "time": "20:45",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23140&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                ".............",
+                ".AAAAAAAAAA..",
+                ".............",
+                ".AAAAAAA.AA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAAA.",
+                ".AAAAAAAAAAA.",
+                ".AAA.....AAAA"
+              ],
+              "layoutKey": "23140"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22641&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAA...",
+                ".AAAAOOAAAA...",
+                ".AAOOAAAAAAA..",
+                ".AAAAOOOOA?A..",
+                ".AAAAOOOOOAA..",
+                ".AA?AAAAAAAAA."
+              ],
+              "layoutKey": "22641"
+            }
+          ]
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -3526,8 +3684,8 @@
                 ".AAAAAAAAAA...",
                 ".AAAAAAAAAA...",
                 ".A?AAA?AAAA...",
-                ".AAAAAAAAAAA..",
-                ".AAAAAAAAAAA..",
+                ".AAAAOOAAAAA..",
+                ".AAAAOOAAAAA..",
                 ".AAAAAAAAAAA..",
                 ".A?AAAAAAAAAA."
               ],
@@ -3622,9 +3780,9 @@
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAA?..",
+                ".AAAAOOAAAAA.",
                 ".AAAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                ".AAA.....AAAA"
+                ".AOO.....AAAA"
               ],
               "layoutKey": "23142"
             }
@@ -3676,164 +3834,6 @@
                 ".AAA.....AAA"
               ],
               "layoutKey": "23138"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "12:15",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22643&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAAAAA...",
-                ".OOAAAAOOAA...",
-                ".AAAOOOAAAAA..",
-                ".AOAAOOOOA?A..",
-                ".AAAAAAAAAAA..",
-                ".OA?OOOOOAAAA."
-              ],
-              "layoutKey": "22643"
-            },
-            {
-              "time": "13:30",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23146&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                ".............",
-                ".AAAAAAAAAA..",
-                ".............",
-                ".AAAAAAA.AA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                ".AAA.....AAAA"
-              ],
-              "layoutKey": "23146"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22644&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAOAA.AA...",
-                ".AAAAAAAAAA...",
-                ".OOOOOOOOOO...",
-                ".OOAOOOOOOO...",
-                ".OOOOOOOOOOA..",
-                ".OAOOOOOOA?A..",
-                ".OOOOOOOOOOA..",
-                ".AA?OOOOOOOOA."
-              ],
-              "layoutKey": "22644"
-            },
-            {
-              "time": "17:15",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23141&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                ".............",
-                ".AAAAAAAAAA..",
-                ".............",
-                ".AAAAAAA.AA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                ".AAA.....AAAA"
-              ],
-              "layoutKey": "23141"
-            },
-            {
-              "time": "18:45",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22642&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAOOAA.AA...",
-                ".AAOOOOAOOO...",
-                ".OOOOOOOOOO...",
-                ".OOOOOOOOOO...",
-                ".OOOOOOOOOOA..",
-                ".OOOOOOOOO?O..",
-                ".OOOOOOOOOOA..",
-                ".OO?AOOOOOOOO."
-              ],
-              "layoutKey": "22642"
-            },
-            {
-              "time": "20:45",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23140&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                ".............",
-                ".AAAAAAAAAA..",
-                ".............",
-                ".AAAAAAA.AA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                ".AAA.....AAAA"
-              ],
-              "layoutKey": "23140"
-            },
-            {
-              "time": "22:00",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22641&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAAAAA...",
-                ".AAAAOOAAAA...",
-                ".AAOOAAAAAAA..",
-                ".AAAAOOOOA?A..",
-                ".AAAAOOOOOAA..",
-                ".AA?AAAAAAAAA."
-              ],
-              "layoutKey": "22641"
             }
           ]
         },
@@ -3891,158 +3891,6 @@
     {
       "date": "2026-09-13",
       "movies": [
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "13:00",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23148&a=0000000001&l=3157&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAAAAA...",
-                ".A?AAA?AAAA...",
-                ".AAAAAAAAAAA..",
-                ".AAAAAAAAAAA..",
-                ".AAAAAAAAAAA..",
-                ".A?AAAAAAAAAA."
-              ],
-              "layoutKey": "23148"
-            },
-            {
-              "time": "16:45",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23152&a=0000000001&l=3157&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAAAAA...",
-                ".A?AAA?AAAA...",
-                ".AAAAAAAAAAA..",
-                ".AAAAAAAAAAA..",
-                ".AAAAAAAAAAA..",
-                ".A?AAAAAAAAAA."
-              ],
-              "layoutKey": "23152"
-            },
-            {
-              "time": "20:45",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23157&a=0000000001&l=3157&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAAAAA...",
-                ".A?AAA?AAAA...",
-                ".AAAAAAAAAAA..",
-                ".AAAAAAAAAAA..",
-                ".AAAAAAAAAAA..",
-                ".A?AAAAAAAAAA."
-              ],
-              "layoutKey": "23157"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "14:30",
-              "formats": [
-                "VIP 18+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23150&a=0000000001&l=3157&m=the-odyssey&ss=False",
-              "seats": [
-                ".............",
-                ".AAAAAAAAAA..",
-                ".............",
-                ".AAAAAAA.AA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAA?..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                ".AAA.....AAAA"
-              ],
-              "layoutKey": "23150"
-            },
-            {
-              "time": "20:00",
-              "formats": [
-                "VIP 18+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23156&a=0000000001&l=3157&m=the-odyssey&ss=False",
-              "seats": [
-                ".............",
-                ".AAAAAAAAAA..",
-                ".............",
-                ".AAAAAAA.AA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAA?..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                ".AAA.....AAAA"
-              ],
-              "layoutKey": "23156"
-            }
-          ]
-        },
-        {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "16:00",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23153&a=0000000001&l=3157&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "............",
-                ".AAAAAAAA...",
-                "............",
-                ".AAAAA.AA...",
-                ".AAAAAAAA...",
-                ".AAAAAAAA...",
-                ".AAAAAAAA...",
-                ".AAAAAAAAAA.",
-                ".AAAAAAAAAA.",
-                ".AAA.....AAA"
-              ],
-              "layoutKey": "23153"
-            }
-          ]
-        },
         {
           "title": "Practical Magic 2",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
@@ -4202,6 +4050,158 @@
           ]
         },
         {
+          "title": "Spider-Man: Brand New Day",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
+          "runtimeMinutes": 145,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23148&a=0000000001&l=3157&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAA...",
+                ".A?AAA?AAAA...",
+                ".AAAAAAAAAAA..",
+                ".AAAAAAAAAAA..",
+                ".AAAAAAAAAAA..",
+                ".A?AAAAAAAAAA."
+              ],
+              "layoutKey": "23148"
+            },
+            {
+              "time": "16:45",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23152&a=0000000001&l=3157&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAA...",
+                ".A?AAA?AAAA...",
+                ".AAAAOOOOAAA..",
+                ".AAAAAAAAAAA..",
+                ".AAAAAAAAAAA..",
+                ".A?AAAAAAAAAA."
+              ],
+              "layoutKey": "23152"
+            },
+            {
+              "time": "20:45",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23157&a=0000000001&l=3157&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAA...",
+                ".A?AAA?AAAA...",
+                ".AAAAAAAAAAA..",
+                ".AAAAAAAAAAA..",
+                ".AAAAAAAAAAA..",
+                ".A?AAAAAAAAAA."
+              ],
+              "layoutKey": "23157"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "14:30",
+              "formats": [
+                "VIP 18+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23150&a=0000000001&l=3157&m=the-odyssey&ss=False",
+              "seats": [
+                ".............",
+                ".AAAAAAAAAA..",
+                ".............",
+                ".AAAAAAA.AA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAA?..",
+                ".AAAAAAAAAAA.",
+                ".AAAAAAAAAAA.",
+                ".AAA.....AAAA"
+              ],
+              "layoutKey": "23150"
+            },
+            {
+              "time": "20:00",
+              "formats": [
+                "VIP 18+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23156&a=0000000001&l=3157&m=the-odyssey&ss=False",
+              "seats": [
+                ".............",
+                ".AAAAAAAAAA..",
+                ".............",
+                ".AAAAAAA.AA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAA?..",
+                ".AAAAAAAAAAA.",
+                ".AAAAAAAAAAA.",
+                ".AAA.....AAAA"
+              ],
+              "layoutKey": "23156"
+            }
+          ]
+        },
+        {
+          "title": "Fall 2: Deadpoint",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
+          "runtimeMinutes": 98,
+          "sessions": [
+            {
+              "time": "16:00",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23153&a=0000000001&l=3157&m=fall-2-deadpoint&ss=False",
+              "seats": [
+                "............",
+                ".AAAAAAAA...",
+                "............",
+                ".AAAAA.AA...",
+                ".AAAAAAAA...",
+                ".AAAAAAAA...",
+                ".AAAAAAAA...",
+                ".AAAAAAAAAA.",
+                ".AAAAAAAAAA.",
+                ".AAA.....AAA"
+              ],
+              "layoutKey": "23153"
+            }
+          ]
+        },
+        {
           "title": "The Dog Stars",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
@@ -4255,6 +4255,56 @@
     {
       "date": "2026-09-14",
       "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22650&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".AAAAAAAAAA...",
+                ".AAAAOOOOAA...",
+                ".OOAAOOOOAA...",
+                ".OOAAOOOOAAA..",
+                ".OOAAOOOOO?A..",
+                ".AAAAOOOOOOA..",
+                ".AA?AOOOOAAAA."
+              ],
+              "layoutKey": "22650"
+            },
+            {
+              "time": "20:15",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23174&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                ".............",
+                ".AAAAAAAAAA..",
+                ".............",
+                ".AAAAAAA.AA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAAA.",
+                ".AAAAAAAAAAA.",
+                ".AAA.....AAAA"
+              ],
+              "layoutKey": "23174"
+            }
+          ]
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -4342,56 +4392,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22650&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAAAAAAAA...",
-                ".AAAAOOOOAA...",
-                ".OOAAAAOOAA...",
-                ".OOAAOOOOAAA..",
-                ".OOAAOOAAA?A..",
-                ".AAAAOOOOOOA..",
-                ".AA?AOOOOAAAA."
-              ],
-              "layoutKey": "22650"
-            },
-            {
-              "time": "20:15",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23174&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                ".............",
-                ".AAAAAAAAAA..",
-                ".............",
-                ".AAAAAAA.AA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                ".AAA.....AAAA"
-              ],
-              "layoutKey": "23174"
-            }
-          ]
-        },
-        {
           "title": "The Dog Stars",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
@@ -4424,6 +4424,78 @@
     {
       "date": "2026-09-15",
       "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22651&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".AAAAAAOOOO...",
+                ".OOOOOOOOOO...",
+                ".OOOOOOOAOO...",
+                ".OOOOOOOOOOA..",
+                ".OOOOOOOOO?A..",
+                ".OOOOOOOOOOA..",
+                ".OO?OOOOOOOOA."
+              ],
+              "layoutKey": "22651"
+            },
+            {
+              "time": "19:30",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23168&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                ".............",
+                ".AAAAAAAAAA..",
+                ".............",
+                ".AAAAAAA.AA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAOAAAAAOOO.",
+                ".AAAAAAAAAAA.",
+                ".OOO.....AAAA"
+              ],
+              "layoutKey": "23168"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22652&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAAA..",
+                ".AAAOOOAAA?A..",
+                ".AAAAAAAAAAA..",
+                ".AA?AAAAAAAAA."
+              ],
+              "layoutKey": "22652"
+            }
+          ]
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -4533,78 +4605,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:45",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22651&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAAAAOOOO...",
-                ".OOOOOOOOOO...",
-                ".OOOOOOOAOO...",
-                ".OOOOOOOOOOA..",
-                ".OOOOOOOOO?A..",
-                ".OOOOOOOOOOA..",
-                ".OO?OOOOOOOOA."
-              ],
-              "layoutKey": "22651"
-            },
-            {
-              "time": "19:30",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23168&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                ".............",
-                ".AAAAAAAAAA..",
-                ".............",
-                ".AAAAAAA.AA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                ".AAA.....AAAA"
-              ],
-              "layoutKey": "23168"
-            },
-            {
-              "time": "22:00",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=22652&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAAAAAA..",
-                ".AAAOOOAAA?A..",
-                ".AAAAAAAAAAA..",
-                ".AA?AAAAAAAAA."
-              ],
-              "layoutKey": "22652"
-            }
-          ]
-        },
-        {
           "title": "The Dog Stars",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
@@ -4638,6 +4638,56 @@
       "date": "2026-09-16",
       "movies": [
         {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23178&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAAA..",
+                ".AAAAAAAAA?O..",
+                ".AAAAAAAAAAA..",
+                ".AA?AAAAAAAAA."
+              ],
+              "layoutKey": "23178"
+            },
+            {
+              "time": "20:15",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23181&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                ".............",
+                ".AAAAAAAAAA..",
+                ".............",
+                ".AAAAAAA.AA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAAA.",
+                ".AAAAAAAAAAA.",
+                ".AAA.....AAAA"
+              ],
+              "layoutKey": "23181"
+            }
+          ]
+        },
+        {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
@@ -4657,7 +4707,7 @@
                 ".AAAAAAAAAA...",
                 ".AAAAAAAAAA...",
                 ".A?AAA?AAAA...",
-                ".AAAAAAAAAAA..",
+                ".AAAAOOAAAAA..",
                 ".AAAAAAAAAAA..",
                 ".AAAAAAAAAAA..",
                 ".A?AAAAAAAAAA."
@@ -4724,56 +4774,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23178&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAAAAAA..",
-                ".AAAAAAAAA?A..",
-                ".AAAAAAAAAAA..",
-                ".AA?AAAAAAAAA."
-              ],
-              "layoutKey": "23178"
-            },
-            {
-              "time": "20:15",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23181&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                ".............",
-                ".AAAAAAAAAA..",
-                ".............",
-                ".AAAAAAA.AA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                ".AAA.....AAAA"
-              ],
-              "layoutKey": "23181"
-            }
-          ]
-        },
-        {
           "title": "The Dog Stars",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37918_320_470.jpg",
           "runtimeMinutes": 118,
@@ -4806,6 +4806,34 @@
     {
       "date": "2026-09-17",
       "movies": [
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "19:30",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23164&a=0000000001&l=3157&m=practical-magic-2&ss=False",
+              "seats": [
+                ".............",
+                ".AAAAAAAAAA..",
+                ".............",
+                ".AAAAAAA.AA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAAAAAAA..",
+                ".AAAAOOOOAAA.",
+                ".AAAAAAAAAAA.",
+                ".AAA.....AAAA"
+              ],
+              "layoutKey": "23164"
+            }
+          ]
+        },
         {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
@@ -4887,62 +4915,6 @@
           ]
         },
         {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "17:00",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23163&a=0000000001&l=3157&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "............",
-                ".AAAAAAAA...",
-                "............",
-                ".AAAAA.AA...",
-                ".AAAAAAAA...",
-                ".AAAAAAAA...",
-                ".AAAAAAAA...",
-                ".AAAAAAAAAA.",
-                ".AAAAAAAAAA.",
-                ".AAA.....AAA"
-              ],
-              "layoutKey": "23163"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "19:30",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23164&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                ".............",
-                ".AAAAAAAAAA..",
-                ".............",
-                ".AAAAAAA.AA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
-                ".AAA.....AAAA"
-              ],
-              "layoutKey": "23164"
-            }
-          ]
-        },
-        {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
           "runtimeMinutes": 94,
@@ -4960,7 +4932,7 @@
                 "..............",
                 ".AAAAAAA.AA...",
                 ".AAAAAAAAAA...",
-                ".AAAAAAAAAA...",
+                ".AAOOAAAAAA...",
                 ".AAAOOOOOAA...",
                 ".OAAAOOOOOOA..",
                 ".AAAAOOOOA?A..",
@@ -4990,6 +4962,34 @@
                 ".AA?AAAOOAAAA."
               ],
               "layoutKey": "23036"
+            }
+          ]
+        },
+        {
+          "title": "Fall 2: Deadpoint",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
+          "runtimeMinutes": 98,
+          "sessions": [
+            {
+              "time": "17:00",
+              "formats": [
+                "VIP 18+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23163&a=0000000001&l=3157&m=fall-2-deadpoint&ss=False",
+              "seats": [
+                "............",
+                ".AAAAAAAA...",
+                "............",
+                ".AAAAA.AA...",
+                ".AAAAAAAA...",
+                ".AAAAAAAA...",
+                ".AAAAAAAA...",
+                ".AAAAAAAAAA.",
+                ".AAAAAAAAAA.",
+                ".AAA.....AAA"
+              ],
+              "layoutKey": "23163"
             }
           ]
         },
@@ -5066,7 +5066,7 @@
                 "..............",
                 ".AAAAAAA.AA...",
                 ".AAAAAAAAAA...",
-                ".AAAAOOAAAA...",
+                ".AAAAOOOOAA...",
                 ".AAAAOOOAAA...",
                 ".OOOOOOOOAAA..",
                 ".AAAAOOOOA?A..",
@@ -5170,7 +5170,7 @@
                 ".AAAAOOOOAA...",
                 ".AAAAOOOOOAA..",
                 ".AAAAOOAAA?A..",
-                ".AAAAOOAAAAA..",
+                ".AAAAOOOOAAA..",
                 ".OO?AOOOOOOAA."
               ],
               "layoutKey": "23038"
@@ -5191,7 +5191,7 @@
                 ".AAAAOOAAAA...",
                 ".AAAAAAAAAA...",
                 ".AAAAOOAAAAA..",
-                ".AAAAAAAAA?A..",
+                ".AAAAAAAOO?A..",
                 ".AAOOOOOOOAA..",
                 ".AA?AAAAAAAAA."
               ],
