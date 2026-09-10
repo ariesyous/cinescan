@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:20:56.895Z",
+  "updatedAt": "2026-09-10T21:32:21.604Z",
   "theatre": {
     "id": 9186,
     "name": "Cinéma Galaxy Victoriaville"
@@ -99,94 +99,6 @@
         "..SSSSSSSSSSSSS.....",
         "..SSSSSSSSSSSSS.....",
         "SSSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "139607": {
-      "totalRows": 10,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".....................",
-        "..SSSSSSSSSSSSSSSSS..",
-        ".....................",
-        ".....SSSCW.WCSSSCWW..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "139608": {
-      "totalRows": 11,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSSS..",
-        "....................",
-        "..WWCSSCW.WCSSS.....",
-        "..SSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSS.....",
-        "SSSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "139609": {
-      "totalRows": 11,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        ".....................",
-        "..SSSSSSSSSSSSSSSSS..",
-        ".....................",
-        ".....SSSCWWWCSSSCWW..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "139610": {
@@ -5656,7 +5568,7 @@
                 "..AAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAOAAA.....",
                 "..AAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAA.....",
@@ -5676,7 +5588,7 @@
                 ".....................",
                 ".....AAAAA.AAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAOOAAAAAA..",
                 ".....AAAAAOOAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
@@ -5691,27 +5603,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61524_320_470.jpg",
           "runtimeMinutes": 103,
           "sessions": [
-            {
-              "time": "16:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139608&a=0000000001&l=9186&m=vf-coyote-vs-acme-version-francaise&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAAA..",
-                "....................",
-                "..AAAAAAA.AAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "AAAAAAAAAAAAAAAA???."
-              ],
-              "layoutKey": "139608"
-            },
             {
               "time": "19:00",
               "formats": [
@@ -5800,27 +5691,6 @@
           "runtimeMinutes": 95,
           "sessions": [
             {
-              "time": "16:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139609&a=0000000001&l=9186&m=mutinerie&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAA..",
-                ".....................",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139609"
-            },
-            {
               "time": "19:10",
               "formats": [
                 "Regular"
@@ -5840,33 +5710,6 @@
                 ".AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "139614"
-            }
-          ]
-        },
-        {
-          "title": "La Pat'Patrouille : le film mission Dino",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61786_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "16:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139607&a=0000000001&l=9186&m=la-patpatrouille-le-film-mission-dino&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAA..",
-                ".....................",
-                ".....AAAAA.AAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139607"
             }
           ]
         },

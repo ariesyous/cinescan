@@ -1,96 +1,10 @@
 {
-  "updatedAt": "2026-09-10T20:20:52.364Z",
+  "updatedAt": "2026-09-10T21:32:17.128Z",
   "theatre": {
     "id": 9121,
     "name": "Cinéma Cineplex Royalmount"
   },
   "auditoriums": {
-    "14661": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...................",
-        "...CW.WCSSSSCW.WC..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "14662": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...................",
-        "...CW.WCSSSSCW.WC..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "14663": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...................",
-        "..CW.WCSSSCW.WC....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS."
-      ]
-    },
     "14664": {
       "totalRows": 10,
       "totalColumns": 19,
@@ -4248,7 +4162,7 @@
                 "..?AAAAAAOOAAAAAA..",
                 "..AA.AAO.OA.AAA.A..",
                 "..?A.AOO.AA.AAA.A..",
-                "..AAAO?.?AAAAAAAAA."
+                "..AAAO?.?AAAAAOAAA."
               ],
               "layoutKey": "14667"
             },
@@ -4272,7 +4186,7 @@
                 "..?AAAAAAOOAAAAAA..",
                 "..AA.AAO.OA.AAA.A..",
                 "..?A.AOO.AA.AAA.A..",
-                "..AAAO?.?AAAAAAAAA."
+                "..AAAO?.?AAAAAOAAA."
               ],
               "layoutKey": "14667"
             },
@@ -4333,27 +4247,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "16:45",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14662&a=0000000001&l=9121&m=the-odyssey&ss=False",
-              "seats": [
-                "...................",
-                "...AA.AAAAAAAA.AA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAOOAAOOAAA..",
-                ".AAAAAOOAAAAAAAAA..",
-                ".AAAAAAAAOOAAAAAA..",
-                "AAAAAAAAA?AAAAAAAAA"
-              ],
-              "layoutKey": "14662"
-            },
-            {
               "time": "20:30",
               "formats": [
                 "Recliner",
@@ -4368,9 +4261,9 @@
                 "...AAAAAAOOAAAAAA..",
                 "...AAAAOOOOAAAAAA..",
                 "...AAAAOOOOAAAAAA..",
-                ".AAAAAAAAOOAAAAAA..",
+                ".AAAAAAAAOOOAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
-                "AAAAAOOAA?AAAAAAAAA"
+                "AAAAAOOAA?OOOOAAAAA"
               ],
               "layoutKey": "14664"
             }
@@ -4394,7 +4287,7 @@
                 "...AAAAAAAA?AAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
-                "...AAAA?OOAAAAAAA..",
+                "...AAAO?OOAAAAAAA..",
                 "...AAAAAOOOOAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAOOAAAAAA..",
@@ -4409,27 +4302,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61524_320_470.jpg",
           "runtimeMinutes": 103,
           "sessions": [
-            {
-              "time": "16:30",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14661&a=0000000001&l=9121&m=vf-coyote-vs-acme-version-francaise&ss=False",
-              "seats": [
-                "...................",
-                "...AA.AAAAAAAA.AA..",
-                "...AAAAAAAA?AAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAA?AAAAAAAAA..",
-                "...AAAAAAOOAAAAAA..",
-                ".AAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAA..",
-                ".AAAAAAA?AAAAAAAAA."
-              ],
-              "layoutKey": "14661"
-            },
             {
               "time": "22:00",
               "formats": [
@@ -4459,28 +4331,6 @@
           "runtimeMinutes": 106,
           "sessions": [
             {
-              "time": "16:10",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14663&a=0000000001&l=9121&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "...................",
-                "..??.??AAAAA.AA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAOOAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAA?????AAAAAA."
-              ],
-              "layoutKey": "14663"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "Recliner",
@@ -4498,7 +4348,7 @@
                 "..AAAAAAOOOAAAAOO..",
                 "..AAAAAAOOAAOOAAA..",
                 "..AAAAAOOOOAAAAAA..",
-                "..OOAAA?????AAAAAA."
+                "..OOAAA?????AAAAOO."
               ],
               "layoutKey": "14670"
             },
@@ -4546,7 +4396,7 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAA?"
@@ -4738,7 +4588,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
-                "..?AAAAAAAAAAAAAA..",
+                "..?AAAAAOOAAAAAAA..",
                 "..AA.AAA.AA.AAA.A..",
                 "..?A.AAA.AA.AAA.A..",
                 "..AAAA?.?AAAAAAAAA."
@@ -4760,7 +4610,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
-                "..?AAAAAAAAAAAAAA..",
+                "..?AAAAAOOAAAAAAA..",
                 "..AA.AAA.AA.AAA.A..",
                 "..?A.AAA.AA.AAA.A..",
                 "..AAAA?.?AAAAAAAAA."
@@ -4832,7 +4682,7 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAOOAAAAAAAAAAA..",
                 "..AAAAAAOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAA?"
@@ -5592,7 +5442,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAOOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAA?????AAAAAA."
@@ -5997,7 +5847,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAOOAAAAAA..",
-                ".AAAAAAAAAAAAAAAA..",
+                ".AAAAAAOOOOOAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 "AAAAAAAAA?AAAAAAAAA"
               ],

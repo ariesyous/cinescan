@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:21:13.649Z",
+  "updatedAt": "2026-09-10T21:32:39.371Z",
   "theatre": {
     "id": 7115,
     "name": "Cineplex Cinemas Fairview Mall"
@@ -654,6 +654,42 @@
       ]
     },
     "254035": {
+      "totalRows": 14,
+      "totalColumns": 24,
+      "rowLabels": [
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "seatTypes": [
+        ".SSSSSSSSSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSSSSSSSSS",
+        "........................",
+        "....SC.W.WCSSCW.CSSCW.CS",
+        "....SSSSSSSSSSSSSSSSSSSS",
+        "....SSSSSSSSSSSSSSSSSSSS",
+        "....SSSSSSSSSSSSSSSSSSSS",
+        "....SSSSSSSSSSSSSSSSSSSS",
+        "....SSSSSSSSSSSSSSSSSSSS",
+        "....SSSSSSSSSSSSSSSSSSSS",
+        "....SSSSSSSSSSSSSSSSSSSS",
+        "SS..SSSSSSSSSSSSSSSSSSSS",
+        "SS..SSSSSSSSSSSSSSSSSSSS",
+        "SS..SSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "254036": {
       "totalRows": 14,
       "totalColumns": 24,
       "rowLabels": [
@@ -9917,7 +9953,7 @@
                 "........................",
                 "....AA.A.AAAAAA.AAAAA.AA",
                 "....AAAAAAAAAAAAAAAAAAAA",
-                "....AAAAAAAAAAAAAAAAAAAA",
+                "....AAAAAAAAAOAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAA",
@@ -9975,8 +10011,8 @@
                 "...AAAAAAAAAAAAA.....",
                 "...AAAAAAAAAAAAA.....",
                 "...AAAAAAAAAAAAA.....",
-                "...AAAAAAAAAAAAA.....",
-                "...AAAAAAAAAAAAA.....",
+                "...OOAAAAAAAAAAA.....",
+                "...AAAAAAAAAAAAO.....",
                 "..AAAAAAAAAAAAAAAA...",
                 "....................."
               ],
@@ -10274,7 +10310,7 @@
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
+                ".....OAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
@@ -10324,10 +10360,10 @@
                 ".AAAAAAAAAAAAAAAAA..",
                 "....................",
                 "...AA.AAAAAA..AAA...",
-                "...AAAAAAAAAAAAAA...",
+                "...AAAAAAOAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAOOOAAAAA...",
-                "...AAAAAAOOOAAAAA...",
+                "...AAAAAAOOOAAAAO...",
                 "...?AAAAOOOAAAAAA...",
                 "...AAOOAAOOOOOOAA...",
                 "...AAAAAAOOAAAAAA...",
@@ -10352,7 +10388,7 @@
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAOOOAAAAAA...",
                 "...?OOAAAOOAAAAAA...",
-                "...AAAAAAAAAAAAAA...",
+                "...AAAAOOOOOOAAAA...",
                 "...AAAAAAOAAAAAAA...",
                 "...AAAOOAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAA"
@@ -10382,7 +10418,7 @@
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
+                "..AAAAAAAAOAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -10742,7 +10778,7 @@
                 "AAAAAAAAAAAAAAAAAAAA..AAAA..",
                 "AAAAAAAAAAAAAAAAAAAA..AAAA..",
                 "AAAAAAAAAAAAAAAAAAAA..AAAA..",
-                "AA.AAAA.?AAO.AAAA.AA..AAAAAA",
+                "AA.AAAA.?AAO.AAOA.AA..AAAAAA",
                 "AA.AAAA.AAAA.OOAA.AA..AAAAAA",
                 "AAAAAAAAAAAAAAAAAAAAAAAA...."
               ],
@@ -10766,7 +10802,7 @@
                 "AAAAAAAAAAAAAAAAAAAA..AAAA..",
                 "AAAAAAAAAAAAAAAAAAAA..AAAA..",
                 "AAAAAAAAAAAAAAAAAAAA..AAAA..",
-                "AA.AAAA.?AAO.AAAA.AA..AAAAAA",
+                "AA.AAAA.?AAO.AAOA.AA..AAAAAA",
                 "AA.AAAA.AAAA.OOAA.AA..AAAAAA",
                 "AAAAAAAAAAAAAAAAAAAAAAAA...."
               ],
@@ -12317,7 +12353,7 @@
                 "...?AAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAA...",
+                "...AAAAAOOOAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "255484"
@@ -14113,6 +14149,30 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
           "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Stars & Strollers"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=254036&a=0000000001&l=7115&m=practical-magic-2&ss=False",
+              "seats": [
+                ".AAAAAAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAAAAAAAAA",
+                "........................",
+                "....AA.A.AAAAAA.AAAAA.AA",
+                "....AAAAAAAAAAAAAAAAAAAA",
+                "....AAAAAAAAAAAAAAAAAAAA",
+                "....AAAAAAAAAAAAAAAAAAAA",
+                "....AAAAAAAAAAOAAAAAAAAA",
+                "....AAAAAAAAAAAAAAAAAAAA",
+                "....AAAAAAAAAAAAAAAAAAAA",
+                "....AAAAAAAAAAAAAAAAAAAA",
+                "AA..AAAAAAAAAAAAAAAAAAAA",
+                "AA..AAAAAAAAAAAAAAAAAAAA",
+                "AA..AAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "254036"
+            },
             {
               "time": "16:00",
               "formats": [
