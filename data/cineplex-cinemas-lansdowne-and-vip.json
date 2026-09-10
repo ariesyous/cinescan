@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T23:51:37.189Z",
+  "updatedAt": "2026-09-10T00:44:28.378Z",
   "theatre": {
     "id": 7311,
     "name": "Cineplex Cinemas Lansdowne and VIP"
@@ -1561,70 +1561,6 @@
         "SS.SSSSSSSSSSSSSSSSSSSS.",
         "SS.DD.DDDD.DDDD.DDDD.DD.",
         "SS.DD.DD........DDDD.DD."
-      ]
-    },
-    "129841": {
-      "totalRows": 12,
-      "totalColumns": 21,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K",
-        "L"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSSSSSSS",
-        "...SSSSSSSSCWWCSSCWWC"
-      ]
-    },
-    "129843": {
-      "totalRows": 12,
-      "totalColumns": 18,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "....SS.SS.SS......",
-        "..................",
-        "...SWCSSCW.WCS....",
-        "...SSSSSSSSSSS....",
-        "...SSSSSSSSSSS....",
-        "...SSSSSSSSSSS....",
-        "...SSSSSSSSSSS..SS",
-        "...SSSSSSSSSSS..SS",
-        "...SSSSSSSSSSS..SS",
-        "................SS",
-        "SS.SSSSSSSSS....SS",
-        "SSSSSSSSSSSSSS..SS"
       ]
     },
     "129847": {
@@ -5232,69 +5168,6 @@
   },
   "days": [
     {
-      "date": "2026-09-09",
-      "movies": [
-        {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "20:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129841&a=0000000001&l=7311&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAOOAAAAAAAAA",
-                "AAAAAAAAAAOOAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                ".AAAAAAAA?AAAAAAAAA?.",
-                ".AOAAAAAAAA?AAAAAAA?.",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "129841"
-            }
-          ]
-        },
-        {
-          "title": "By Any Means",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "20:00",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129843&a=0000000001&l=7311&m=by-any-means&ss=False",
-              "seats": [
-                "....AA.AA.AA......",
-                "..................",
-                "...AAAAAAA.AAA....",
-                "...AAAAA?AAAAA....",
-                "...AAAAOOOAAAA....",
-                "...AAAAAAAAAAA....",
-                "...AAAAAAAAAAA..AA",
-                "...AAAAAAAAAAA..AA",
-                "...AAAAAAAAAAA..AA",
-                "................AA",
-                "AA.AAAAAAAAA....AA",
-                "AA??AAAAAAAAAA..A?"
-              ],
-              "layoutKey": "129843"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-10",
       "movies": [
         {
@@ -5315,7 +5188,7 @@
                 "...AAAAA?AAAAA....",
                 "...AAAAOOOAAAA....",
                 "...OOOOOOOOOOO....",
-                "...AOOOOOOOOOO..AA",
+                "...AOOOOOOOOOO..OO",
                 "...AOOOOOOOOOO..AA",
                 "...OOOOOOOOAOO..OA",
                 "................AA",
@@ -5367,7 +5240,7 @@
                 ".AAAAAAAAA..",
                 ".AAAA?AAAA..",
                 ".OOAAOOAAA..",
-                ".AAAAAAAAA..",
+                ".AAAAOOAAA..",
                 "AAAAAAAAAAA."
               ],
               "layoutKey": "129847"
@@ -5445,7 +5318,7 @@
                 "....AAAAAAAAAAA.",
                 "....?AAAAAAAAAA.",
                 "....AAAAAAAAAAA.",
-                "....AAAAAAA?AAA.",
+                "....AAAOOOA?AAA.",
                 ".A..AAAAAAAAAAA.",
                 "AA.AAAAAAAAAAAAA"
               ],
@@ -5918,8 +5791,8 @@
                 "...AA.AAAAAAA..",
                 "...AAAAAAAAAA..",
                 "...AAAAAAAAAA..",
-                "...A?AAAAAAAA..",
-                "...AAAAAAAAA?..",
+                "...A?OOAAAAAA..",
+                "...AAAAOOAAA?..",
                 "AA.AAAAAA?AAA..",
                 "AA.AAAAAAAAAAA?"
               ],
@@ -6117,7 +5990,7 @@
                 ".AAAA?AAAA..",
                 ".AAAAAAAAA..",
                 ".OOOOOOAAA..",
-                "AAOOOAOAAAA."
+                "AAOOOAOOOOA."
               ],
               "layoutKey": "129083"
             },
@@ -6207,7 +6080,7 @@
                 "...AAAAAAAAAA..",
                 "...A?AAOOOOAA..",
                 "...AOOOOOOOA?..",
-                "AA.AAAAOO?OOO..",
+                "OO.AAAAOO?OOO..",
                 "OO.OOOOOOOOOOO?"
               ],
               "layoutKey": "129084"
