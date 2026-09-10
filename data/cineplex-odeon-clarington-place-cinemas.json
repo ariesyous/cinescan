@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T09:32:21.647Z",
+  "updatedAt": "2026-09-10T15:25:04.411Z",
   "theatre": {
     "id": 7241,
     "name": "Cineplex Odeon Clarington Place Cinemas"
@@ -4191,6 +4191,28 @@
         "................"
       ]
     },
+    "282448": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSS..",
+        "...WCSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "...WWCSSSSSCW..",
+        "..............."
+      ]
+    },
     "282449": {
       "totalRows": 7,
       "totalColumns": 16,
@@ -4257,7 +4279,7 @@
                 "..OOOOOOOOAAAA..",
                 "...AOOOOOOOAAA..",
                 "..OOOAAOOAOOOO..",
-                "..OOAOOOOOAAOO..",
+                "..OOAOOOOOOOOO..",
                 "..OOOOOOAOOAOO..",
                 "..O?OOOOOOOAOO..",
                 "...AAOOO?OOAAA..",
@@ -5010,7 +5032,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAOOAAAAA..",
                 "..AOOOOOOAAAAA..",
-                "..A?AAAOOAAAAA..",
+                "..O?AAAOOAAAAA..",
                 "...AAAAA?OAAAA..",
                 "................"
               ],
@@ -5047,7 +5069,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAAA..",
-                "..OOAAAAAAAOOO..",
+                "..OOAAAOOAAOOO..",
                 "..AAAAAOOAAAAA..",
                 "..AAOOAAOOAAAA..",
                 "..A?AAAOOOAAAA..",
@@ -5476,8 +5498,8 @@
                 "...AAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..??AAOOAAAAAA..",
-                "....AAAA?AAAAA..",
-                "....AAAAAAAAAA..",
+                "....AAAA?OAAAA..",
+                "....OOOOOOOOOO..",
                 ".....AAAAAAAAA..",
                 "................"
               ],
@@ -7798,6 +7820,30 @@
                 "................"
               ],
               "layoutKey": "282445"
+            }
+          ]
+        },
+        {
+          "title": "Buddy",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61883_320_470.jpg",
+          "runtimeMinutes": 96,
+          "sessions": [
+            {
+              "time": "19:15",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282448&a=0000000001&l=7241&m=buddy-2026&ss=False",
+              "seats": [
+                "..AAAAAAAAAAA..",
+                "...AAAAA?AAAA..",
+                "..A?AAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AA?AAAAAAAA..",
+                "...AAAAAAAAAA..",
+                "..............."
+              ],
+              "layoutKey": "282448"
             }
           ]
         },
