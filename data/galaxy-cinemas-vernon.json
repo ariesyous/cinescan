@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T15:25:43.733Z",
+  "updatedAt": "2026-09-10T19:33:54.796Z",
   "theatre": {
     "id": 1413,
     "name": "Galaxy Cinemas Vernon"
@@ -612,6 +612,40 @@
       ]
     },
     "182080": {
+      "totalRows": 13,
+      "totalColumns": 20,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "....................",
+        "...SSSSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSSSS.",
+        "....................",
+        "....SCW..CSCW.WCS...",
+        "....SSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSS...",
+        "SS..SSSSSSSSSSSSS...",
+        "SS..SSSSSSSSSSSSS...",
+        "SSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "182081": {
       "totalRows": 13,
       "totalColumns": 20,
       "rowLabels": [
@@ -4718,8 +4752,8 @@
                 "....AAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAA...",
+                "....AAAAAAAAAAOOO...",
                 "....AAAAAAAAAAAAA...",
-                "....OOAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAA...",
@@ -4898,12 +4932,12 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..",
                 "...........................",
-                "..AAA.AAAAAAAAAAAA..AAA....",
+                "..AAA.AAAAAAAOAAAA..AAA....",
                 "..AAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAOOO....",
+                "..AAAAAAAAOOAAAAAAAAOOO....",
                 "...AAAAAAAAOOAAAAOOOOO.....",
                 "...AAAAAOOAAAAAAAAAAAA...AA",
                 "..AAAAAAAAAAAAAAAAAAAAA..AA",
@@ -5255,7 +5289,7 @@
                 "....AAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAA...",
+                "....AAAAAOOAAAAAA...",
                 "AA..AAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAA...",
@@ -5428,7 +5462,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAOOOOAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAA.....",
                 "...AAAAAAOOOAAAAAAAAAA...AA",
                 "..AAAAAAAAAAAAAAAAAAAAA..AA",
@@ -8219,6 +8253,41 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "182076"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "movies": [
+        {
+          "title": "ParaNorman - Family Favourites",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62008_320_470.jpg",
+          "runtimeMinutes": 92,
+          "sessions": [
+            {
+              "time": "11:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=182081&a=0000000001&l=1413&m=paranorman-family-favourites&ss=False",
+              "seats": [
+                "....................",
+                "...AAAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAAAA.",
+                "....................",
+                "....AAA..AAAA.AAA...",
+                "....AAAOOAAAAAAAA...",
+                "....AAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAA...",
+                "AA..AAAAAAAAAAAAA...",
+                "AA..AAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "182081"
             }
           ]
         }
