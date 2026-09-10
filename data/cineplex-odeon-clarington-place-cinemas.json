@@ -1,38 +1,10 @@
 {
-  "updatedAt": "2026-09-10T22:26:07.203Z",
+  "updatedAt": "2026-09-10T22:56:42.033Z",
   "theatre": {
     "id": 7241,
     "name": "Cineplex Odeon Clarington Place Cinemas"
   },
   "auditoriums": {
-    "280841": {
-      "totalRows": 10,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        null
-      ],
-      "seatTypes": [
-        "....SSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSCW..",
-        "...WCSSSSSSSCW..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "...WCSSSSSSCWW..",
-        "................"
-      ]
-    },
     "280842": {
       "totalRows": 10,
       "totalColumns": 16,
@@ -761,28 +733,6 @@
         "................"
       ]
     },
-    "282288": {
-      "totalRows": 7,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSCW..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..WWCSSSSSSCW...",
-        "................"
-      ]
-    },
     "282289": {
       "totalRows": 10,
       "totalColumns": 16,
@@ -809,28 +759,6 @@
         "....SSSSSSSSSS..",
         ".....WCSSSSCWW..",
         "................"
-      ]
-    },
-    "282290": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSS..",
-        "...WCSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "...WWCSSSSSCW..",
-        "..............."
       ]
     },
     "282291": {
@@ -898,34 +826,6 @@
         "..SSSSSSSSSSSS..",
         "..SSSSSSSSSSSS..",
         "...WCSSSSSSCWW..",
-        "................"
-      ]
-    },
-    "282295": {
-      "totalRows": 10,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSCW..",
-        "...WCSSSSSSSCW..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..WWCSSSSSSSCW..",
         "................"
       ]
     },
@@ -4241,61 +4141,6 @@
       "date": "2026-09-10",
       "movies": [
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280841&a=0000000001&l=7241&m=practical-magic-2&ss=False",
-              "seats": [
-                "....AAAAAAAAAA..",
-                "..OOOOAAAAOOOO..",
-                "..OOOOOOOOAAAA..",
-                "...AOOOOOOOOOA..",
-                "..OOOOOOOAOOOO..",
-                "..OOOOOOOOOOOO..",
-                "..OOOOOOAOOOOO..",
-                "..O?OOOOOAAOOO..",
-                "...AAOOO?OOAAA..",
-                "................"
-              ],
-              "layoutKey": "280841"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282295&a=0000000001&l=7241&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "...AAAAAAAAAAA..",
-                "..AAAAA?AAAAAA..",
-                "..AAAAOOOOAAA?..",
-                "..AAAAOOOAA?AA..",
-                "..AAAAAAAAAAA?..",
-                "..AAAAAAAAAAAA..",
-                "................"
-              ],
-              "layoutKey": "282295"
-            }
-          ]
-        },
-        {
           "title": "Coyote vs ACME",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
@@ -4310,9 +4155,9 @@
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAA...",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..OOAAAAAAAAAA..",
-                "....AAAAAAAAA...",
+                "..AAAAAOOAAAAA..",
+                "..OOAAAOOAAAAA..",
+                "....AAAOOAAAA...",
                 "................"
               ],
               "layoutKey": "282297"
@@ -4361,9 +4206,9 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..?AAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "....AAAAAAAAA..",
+                "..?AAAAAAAAOO..",
+                "..OOOOAAAOOOO..",
+                "....AAOOOAAAA..",
                 "..............."
               ],
               "layoutKey": "282291"
@@ -4409,37 +4254,13 @@
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..?AAAAAAAAAAA..",
+                "..?AAAAOOAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AA?AAAAAAAAA..",
                 "...AAAAAA?AAAA..",
                 "................"
               ],
               "layoutKey": "282292"
-            }
-          ]
-        },
-        {
-          "title": "Spa Weekend",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60676_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "18:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282288&a=0000000001&l=7241&m=spa-weekend&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAOOOAAOO..",
-                "..AAAAAOOAAAAA..",
-                "..AAAAAAAAAAA...",
-                "................"
-              ],
-              "layoutKey": "282288"
             }
           ]
         },
@@ -4455,40 +4276,16 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282296&a=0000000001&l=7241&m=paw-patrol-the-dino-movie&ss=False",
               "seats": [
-                "..OOOAAAAAAAAA..",
-                "...AAAAAAAAAA...",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAOOAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "...AAAAAAAAAAA..",
+                "..????????????..",
+                "...??????????...",
+                "..????????????..",
+                "..????????????..",
+                "..????????????..",
+                "..????????????..",
+                "...???????????..",
                 "................"
               ],
               "layoutKey": "282296"
-            }
-          ]
-        },
-        {
-          "title": "The End of Oak Street",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36540_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "18:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282290&a=0000000001&l=7241&m=the-end-of-oak-street&ss=False",
-              "seats": [
-                "..???????????..",
-                "...??????????..",
-                "..???????????..",
-                "..???????????..",
-                "..???????????..",
-                "...??????????..",
-                "..............."
-              ],
-              "layoutKey": "282290"
             }
           ]
         }
@@ -4855,7 +4652,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..OOAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAAA..",
                 "................"
               ],
@@ -6922,7 +6719,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..?AAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAAOOOAAA..",
                 "....AAAAAAAAA..",
                 "..............."
               ],
