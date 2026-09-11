@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T21:39:40.659Z",
+  "updatedAt": "2026-09-11T22:24:09.527Z",
   "theatre": {
     "id": 6111,
     "name": "Cineplex Cinemas Fredericton"
@@ -989,26 +989,6 @@
         "..............."
       ]
     },
-    "166416": {
-      "totalRows": 6,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..W.WCSSSSSSS..",
-        "..............."
-      ]
-    },
     "166420": {
       "totalRows": 6,
       "totalColumns": 15,
@@ -1050,30 +1030,6 @@
         "..SSSSSSSSS..",
         "..SSSSSSSSS..",
         "..SSSSSCW.W..",
-        "............."
-      ]
-    },
-    "166424": {
-      "totalRows": 8,
-      "totalColumns": 13,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        ".............",
-        "...SSSSSSS...",
-        "..SSSSSSSSS..",
-        "..SSSSSSSSS..",
-        "..SSSSSSSSS..",
-        "..SSSSSSSSS..",
-        "..W.WCSSSSS..",
         "............."
       ]
     },
@@ -4626,7 +4582,7 @@
                 "................",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAOO..",
+                "..AAAAAOOAAAOO..",
                 "..AAOOAOOAAAAA..",
                 "..AAAAAOOOAA.A..",
                 "................"
@@ -4652,7 +4608,7 @@
                 "..............",
                 "..AAAAAA..AA..",
                 "..AAAAAAAAAA..",
-                "..AAAAAAAAAA..",
+                "..OOAAOOAAAA..",
                 "..AAOOOOAAOO..",
                 "..OOAAOOOOAA.."
               ],
@@ -4691,24 +4647,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "18:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166424&a=0000000001&l=6111&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                ".............",
-                "...OOOOAAA...",
-                "..OOOOAAOOO..",
-                "..OOOOOOOOO..",
-                "..OOOOOOOOO..",
-                "..OOOOOOOOA..",
-                "..A.AAAOOOO..",
-                "............."
-              ],
-              "layoutKey": "166424"
-            },
-            {
               "time": "21:20",
               "formats": [
                 "Recliner"
@@ -4721,7 +4659,7 @@
                 "..AAAAAAAAA..",
                 "..AAAOOOOAA..",
                 "..OOOAAAAAA..",
-                "..A.AAAAAOO..",
+                "..A.AAOOAOO..",
                 "............."
               ],
               "layoutKey": "166425"
@@ -4757,22 +4695,6 @@
           "runtimeMinutes": 106,
           "sessions": [
             {
-              "time": "18:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166416&a=0000000001&l=6111&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAOOAAAAA..",
-                "..OOAAAAAOOOO..",
-                "..A.AAAAAOOAA..",
-                "..............."
-              ],
-              "layoutKey": "166416"
-            },
-            {
               "time": "21:10",
               "formats": [
                 "Recliner"
@@ -4805,8 +4727,8 @@
                 "................",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAAOAAAAA..",
+                "..AAOOAAAAAAAA..",
                 "..A.AAAAAAAAAA..",
                 "................"
               ],
@@ -4829,7 +4751,7 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..OOOOAOOOAOO..",
-                "..OOOOOOOOOOA..",
+                "..OOOOOOOOOOO..",
                 "..OOOOOOOAA.A..",
                 "..............."
               ],
@@ -4882,9 +4804,9 @@
                 ".............",
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
-                "..AAAAAAAAO..",
+                "..AAAOOOAAO..",
                 "..OAAAAOOOO..",
-                "..OOAAAAAOO..",
+                "..OOOOAAAOO..",
                 "..AAAOOAA.A..",
                 "............."
               ],
@@ -4916,12 +4838,12 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166069&a=0000000001&l=6111&m=practical-magic-2&ss=False",
               "seats": [
                 ".......................",
-                "........AAAAAAAA.......",
+                "........AAOOAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAOOOOAAAAAAOO..",
                 "..OOAAOOOOOOOOOOOAAOO..",
-                "..OOOOAAAAAAOOAAAOOOO..",
+                "..OOOOAAAAOOOOAAAOOOO..",
                 "........OOAAAAAA......."
               ],
               "layoutKey": "166069"
@@ -4936,7 +4858,7 @@
                 ".......................",
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..OOAAAAAOOOOOAAAAAAA..",
+                "..OOAAAAAOOOOOAAAAAOO..",
                 "..AOOOOOOOOOOAAAOOAOO..",
                 "..OOOAAAAOOOOOAAOOOOO..",
                 "..OOOOOAAOOOOAOOOOOOO..",
@@ -5092,7 +5014,7 @@
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
                 "..OOOOAAAAAA..",
-                "..AAAAAAAAAA.."
+                "..OOAAAAAAAA.."
               ],
               "layoutKey": "166465"
             },
@@ -5208,7 +5130,7 @@
               "seats": [
                 "................",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAOAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..A.AAAAAAAAAA..",
@@ -5287,7 +5209,7 @@
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
-                "..A.AAAAAAAA..",
+                "..A.AAAAAAOO..",
                 ".............."
               ],
               "layoutKey": "166484"
@@ -5400,7 +5322,7 @@
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
-                "..A.AAAAAAAA..",
+                "..A.AAOOAAAA..",
                 ".............."
               ],
               "layoutKey": "166496"
@@ -5558,7 +5480,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAOOOOOAAAA..",
-                "..AAOOOOOAA.A..",
+                "..OOOOOOOAA.A..",
                 "..............."
               ],
               "layoutKey": "166476"
@@ -5706,7 +5628,7 @@
                 "........OOAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAAA..",
+                "..AAAAAAAAOOAAOOOAAAA..",
                 "..AAAAOOOOOOOOOAAAOOO..",
                 "..AAAAAOOOOOOOOOOAAAA..",
                 "........OOAAAAOO......."
@@ -8435,7 +8357,7 @@
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAAOAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAOOAAAAAAAA..",
+                "..AAAAAAAAOOOAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAA..",
                 "..OOOAAAAAAOOAAAAAOOO..",
                 "........OOAAAAAA......."
