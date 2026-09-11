@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T22:24:47.342Z",
+  "updatedAt": "2026-09-11T22:59:06.995Z",
   "theatre": {
     "id": 3141,
     "name": "Cineplex Odeon Grande Prairie Cinemas"
@@ -1703,64 +1703,6 @@
         "SSSSSSSSSSSSSS.",
         "SSSSSSSSSSSSSS.",
         "SSSSSSSSSSCWW.."
-      ]
-    },
-    "246456": {
-      "totalRows": 10,
-      "totalColumns": 25,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".........................",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".CW....SSSSSSSSSSSS....WC"
-      ]
-    },
-    "246457": {
-      "totalRows": 11,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "................",
-        "SSSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSCWW.."
       ]
     },
     "246459": {
@@ -6631,7 +6573,7 @@
                 ".AAA..AAAAAAAAAAAA..AAA",
                 ".AAA..AAAAAOOAAAAA..AAA",
                 ".AAA..AAAAOOOAAAAA..AAA",
-                ".AAA..AAAAAOOAAAAA..AAA",
+                ".AAA..AAAAAOOAAAAA..OAA",
                 ".AAO..AAAOOAAAAAAA..AAA",
                 ".AA...OOOAAOOOAAAA..AA."
               ],
@@ -6694,26 +6636,6 @@
           "runtimeMinutes": 99,
           "sessions": [
             {
-              "time": "16:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=246456&a=0000000001&l=3141&m=runner&ss=False",
-              "seats": [
-                ".........................",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...OOOOAAAAAAAA...AAA",
-                ".AAA...AAAAOAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAOOAAAAA...AAA",
-                ".AA....AAAAAAAAAAAA....AA"
-              ],
-              "layoutKey": "246456"
-            },
-            {
               "time": "19:10",
               "formats": [
                 "Regular"
@@ -6728,7 +6650,7 @@
                 ".AAA...AAAAAAAAAAAA...AAA",
                 ".AAA...AAAAAAAAAAAA...AAA",
                 ".AAA...AAAAAOOAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
+                ".AAA...AAAOOAAAAAAA...AAA",
                 ".AA....OOAAAAAAAOOO....AA"
               ],
               "layoutKey": "246470"
@@ -6776,8 +6698,8 @@
                 "AAA..OOAAAAAAAA..AAA",
                 "AAA..AAAAOOAAAA..AAA",
                 "AAA..AAAAAAAOOO..AAA",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAOOOOAAA..AAA"
+                "AAA..AAAAAAAAOO..AAA",
+                "AAA..AAAOOOOOOO..AAA"
               ],
               "layoutKey": "246461"
             },
@@ -6968,7 +6890,7 @@
                 "AAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAA.",
+                "AAAAAAOOAAAAAA.",
                 "AAAAAAAAAAAAA.."
               ],
               "layoutKey": "246454"
@@ -7006,27 +6928,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "16:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=246457&a=0000000001&l=3141&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "................",
-                "AAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAA.",
-                "AAAAAAAOOAAAAAA.",
-                "AAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "246457"
-            },
             {
               "time": "18:50",
               "formats": [
@@ -7122,7 +7023,7 @@
                 ".AAA..AAAAAOOAAAOO..AAA",
                 ".AAA..AAAAAAAAAAAA..AAA",
                 ".AAA..OOOAOOOOOOOO..AAA",
-                ".AOO..OOOAAAAAAAAA..AAA",
+                ".AOO..OOOAAAAOOAAA..AAA",
                 ".AA...AAAOOOOOOAAA..AA."
               ],
               "layoutKey": "245331"
@@ -7161,7 +7062,7 @@
                 ".AAA..AAAAAAAAAAAA..AAA",
                 ".AAA..OOOOOOOAAAOO..OOA",
                 ".AAA..AOOOAOOAAOOO..AAA",
-                ".AOO..AOOOOOOAOOOA..OOO",
+                ".AOO..AOOOOOOAAOOA..OOO",
                 ".AOO..AAOOOOOOOOOO..AAA",
                 ".AA...AAOOOOAAAAOO..AA."
               ],
@@ -7181,7 +7082,7 @@
                 ".AAA..AAAAAAAAAAAA..AAA",
                 ".AAA..AAAAAAAAAAAA..AAA",
                 ".AAA..AAAAAAAAAAAA..AAA",
-                ".AAA..AAAAAAAAAAAA..AAA",
+                ".AAA..AAAAAAAAAOOA..AAA",
                 ".AAA..AAAAAAAAAAOO..AAA",
                 ".AA...AAAAAAAAAAAA..AA."
               ],
@@ -8550,7 +8451,7 @@
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAA..AAA",
+                "AAA..AAAOOOOAAA..AAA",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAA..AAA"
