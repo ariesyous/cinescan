@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T03:22:24.007Z",
+  "updatedAt": "2026-09-11T05:42:55.822Z",
   "theatre": {
     "id": 3140,
     "name": "Galaxy Cinemas Medicine Hat"
@@ -2043,6 +2043,34 @@
         ".......SSSSS.SSSSSS.",
         ".......SSSSSSSSSSSS.",
         "...................."
+      ]
+    },
+    "255177": {
+      "totalRows": 10,
+      "totalColumns": 17,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        ".................",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        "....WWCSSSSSSSSS.",
+        "................."
       ]
     },
     "255178": {
@@ -8185,7 +8213,7 @@
                 ".AAAAAAAAAAAAAAAA.",
                 ".A?A?A?A?AAA?AAAA.",
                 ".AA?A?AA??AAAA?AA.",
-                ".A?AAAAA?AAAAAAAA.",
+                ".A?AAAAA?AAOOAAAA.",
                 ".???AAAA?AAAAAAA?.",
                 "..AAA?AA?AAAAA?AA.",
                 ".................."
@@ -12681,6 +12709,33 @@
     {
       "date": "2026-09-24",
       "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255177&a=0000000001&l=3140&m=forgotten-island&ss=False",
+              "seats": [
+                ".................",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAAA.",
+                "................."
+              ],
+              "layoutKey": "255177"
+            }
+          ]
+        },
         {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",

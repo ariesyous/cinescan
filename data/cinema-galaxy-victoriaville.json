@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T03:20:57.914Z",
+  "updatedAt": "2026-09-11T05:41:36.344Z",
   "theatre": {
     "id": 9186,
     "name": "Cinéma Galaxy Victoriaville"
@@ -570,6 +570,42 @@
       ]
     },
     "139630": {
+      "totalRows": 14,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        "CC",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "............................",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
+        "............................",
+        "..SSSSSCWWWWCSSSSSSCWWW.....",
+        "..SSSSSSSSSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSSSSSSSSS..SS.",
+        "..SSSSSSSSSSSSSSSSSSSSS..SS.",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "139631": {
       "totalRows": 14,
       "totalColumns": 28,
       "rowLabels": [
@@ -6809,7 +6845,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAA?AAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAAAOOAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAAAAAAAA..AA.",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -9346,6 +9382,42 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "139630"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "movies": [
+        {
+          "title": "L'île de l'oubli",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61297_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139631&a=0000000001&l=9186&m=lile-de-loubli&ss=False",
+              "seats": [
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAA?AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "139631"
             }
           ]
         }

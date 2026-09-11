@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T03:22:05.391Z",
+  "updatedAt": "2026-09-11T05:42:40.289Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
@@ -396,6 +396,36 @@
       ]
     },
     "153345": {
+      "totalRows": 11,
+      "totalColumns": 22,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        null
+      ],
+      "seatTypes": [
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..WWCSSSSSSSSSCW..",
+        "SSSS..WWCSSSSSSSSSCW..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "......SSSSCW.WCSSSSS..",
+        "......................"
+      ]
+    },
+    "153481": {
       "totalRows": 11,
       "totalColumns": 22,
       "rowLabels": [
@@ -5093,6 +5123,40 @@
                 "......................"
               ],
               "layoutKey": "153344"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "3D",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153481&a=0000000001&l=7206&m=forgotten-island&ss=False",
+              "seats": [
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "A?AA..AAAAAAA?AAA?AA..",
+                "AAAA..AAAAAA?AAAAAAA..",
+                "AA?A..AAA?AAAAAAAAAA..",
+                "AAAA..AAAAAA??AAAAAA..",
+                "AAAA..AAAAAA????AAAA..",
+                "......AAAAAA.AAAAAA?..",
+                "......................"
+              ],
+              "layoutKey": "153481"
             }
           ]
         }

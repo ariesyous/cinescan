@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T03:21:05.595Z",
+  "updatedAt": "2026-09-11T05:41:43.623Z",
   "theatre": {
     "id": 7415,
     "name": "Cineplex Cinemas Ancaster"
@@ -7981,6 +7981,78 @@
         "SSSSSS..SSSSSSSSSSSSS..SSSSSS",
         "SSSSSS..SSSSSSSSSSSSS..SSSSSS",
         "SSSSSS..SSSSSSSSSSSSS..SSSSSS"
+      ]
+    },
+    "308633": {
+      "totalRows": 14,
+      "totalColumns": 25,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        "CC",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        ".........................",
+        "...SSSSSSSSSSSSSSSSSSSS..",
+        "...SSSSSSSSSSSSSSSSSSSS..",
+        "...SSSSSSSSSSSSSSSS......",
+        ".........................",
+        "SS.....WCSSSSSSCW........",
+        "SS...SSSSSSSSSSSSSS......",
+        "SS...SSSSSSSSSSSSSS......",
+        "SS...SSSSSSSSSSSSSS......",
+        "SS...SSSSSSSSSSSSSS......",
+        "SS...SSSSSSSSSSSSSS..SSSS",
+        "SS...SSSSSSSSSSSSSS..SSSS",
+        "SS...SSSSSSSSSSSSSS..SSSS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "308634": {
+      "totalRows": 14,
+      "totalColumns": 25,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        "CC",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        ".........................",
+        "...SSSSSSSSSSSSSSSSSSSS..",
+        "...SSSSSSSSSSSSSSSSSSSS..",
+        "...SSSSSSSSSSSSSSSS......",
+        ".........................",
+        "SS.....WCSSSSSSCW........",
+        "SS...SSSSSSSSSSSSSS......",
+        "SS...SSSSSSSSSSSSSS......",
+        "SS...SSSSSSSSSSSSSS......",
+        "SS...SSSSSSSSSSSSSS......",
+        "SS...SSSSSSSSSSSSSS..SSSS",
+        "SS...SSSSSSSSSSSSSS..SSSS",
+        "SS...SSSSSSSSSSSSSS..SSSS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "308654": {
@@ -16809,7 +16881,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAAAAA....",
                 "...........................",
-                "........AAAAAAAAAA.....AA..",
+                "........AAAAOAAAAA.....AA..",
                 "......AAAAAAAAAAAAAA...AA..",
                 "......AAAAAAAAAAAAAA...AA..",
                 "......AAAAAAAAAAAAAA...AA..",
@@ -17202,7 +17274,7 @@
                 "AAAAAAOO..AAAAAAOOAAAAAAO..AAAAAAAA",
                 "AAAAAAAA..AAAAAAOOOAAAAAA..AAAAAAAA",
                 "AAAAAAAA..AAAAAAOOAAAAAAA..AAAAAAAA",
-                "AAAAAAAA..AAA.......OOAAA..AAAAAAAA"
+                "AAAAAAAO..AAA.......OOAAA..AAAAAAAA"
               ],
               "layoutKey": "308721"
             },
@@ -25282,6 +25354,61 @@
     {
       "date": "2026-09-24",
       "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "16:00",
+              "formats": [
+                "ScreenX"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=308633&a=0000000001&l=7415&m=forgotten-island&ss=False",
+              "seats": [
+                ".........................",
+                "...AAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAAAA......",
+                ".........................",
+                "AA.....AAAAAAAAAA........",
+                "AA...AAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA..AAAA",
+                "AA...AAAAAAAAAAAAAA..AAAA",
+                "AA...AAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "308633"
+            },
+            {
+              "time": "19:00",
+              "formats": [
+                "ScreenX"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=308634&a=0000000001&l=7415&m=forgotten-island&ss=False",
+              "seats": [
+                ".........................",
+                "...AAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAAAA......",
+                ".........................",
+                "AA.....AAAAAAAAAA........",
+                "AA...AAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA......",
+                "AA...AAAAAAAAAAAAAA..AAAA",
+                "AA...AAAAAAAAAAAAAA..AAAA",
+                "AA...AAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "308634"
+            }
+          ]
+        },
         {
           "title": "The Misanthrope - National Theatre Live",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61544_320_470.jpg",

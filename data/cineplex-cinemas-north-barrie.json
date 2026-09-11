@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T03:21:27.264Z",
+  "updatedAt": "2026-09-11T05:42:02.643Z",
   "theatre": {
     "id": 7135,
     "name": "Cineplex Cinemas North Barrie"
@@ -2245,6 +2245,40 @@
         "..SSSSSSSSSSSSSSSSSSSSSSSSS..SS"
       ]
     },
+    "102046": {
+      "totalRows": 13,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "............................",
+        "...SSSSSSSSSSSSSSSSSSSSSS...",
+        "...SSSSSSSSSSSSSSSSSSSSSS...",
+        "............................",
+        ".....CW.CCW..WCCW.WCCW..WC..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
     "102048": {
       "totalRows": 16,
       "totalColumns": 31,
@@ -2443,6 +2477,40 @@
         "..DD.DDDD.DDDD.DDDD.DDDD.DD..SS",
         "..SSSSSSSSSSSSSSSSSSSSSSSSS..SS",
         "..SSSSSSSSSSSSSSSSSSSSSSSSS..SS"
+      ]
+    },
+    "102059": {
+      "totalRows": 13,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "............................",
+        "...SSSSSSSSSSSSSSSSSSSSSS...",
+        "...SSSSSSSSSSSSSSSSSSSSSS...",
+        "............................",
+        ".....CW.CCW..WCCW.WCCW..WC..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "102060": {
@@ -6748,7 +6816,7 @@
                 ".AAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAA...AA",
-                ".AAAAAAAAAAAAAA...AA",
+                ".AAAAAAAAAAAAAA...OO",
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "102071"
@@ -10378,6 +10446,64 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA"
               ],
               "layoutKey": "101875"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102059&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102059"
+            },
+            {
+              "time": "21:45",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102046&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102046"
             }
           ]
         }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T03:21:23.581Z",
+  "updatedAt": "2026-09-11T05:41:58.796Z",
   "theatre": {
     "id": 5114,
     "name": "Cineplex Cinemas New Glasgow"
@@ -622,6 +622,42 @@
       ]
     },
     "95587": {
+      "totalRows": 14,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "EE",
+        "DD",
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "......................",
+        ".SSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSS..",
+        "......................",
+        ".......WCSSSSSSSSCW...",
+        ".....SSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSS..",
+        "...SSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "95703": {
       "totalRows": 14,
       "totalColumns": 22,
       "rowLabels": [
@@ -6697,6 +6733,37 @@
     {
       "date": "2026-09-24",
       "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=95703&a=0000000001&l=5114&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                ".AAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".......AAAAAAAAAAAA...",
+                ".....?AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "95703"
+            }
+          ]
+        },
         {
           "title": "The Misanthrope - National Theatre Live",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61544_320_470.jpg",

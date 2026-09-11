@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T03:21:42.072Z",
+  "updatedAt": "2026-09-11T05:42:18.935Z",
   "theatre": {
     "id": 5140,
     "name": "Cineplex Cinemas Truro"
@@ -606,6 +606,44 @@
       ]
     },
     "99627": {
+      "totalRows": 15,
+      "totalColumns": 25,
+      "rowLabels": [
+        null,
+        "DD",
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        ".........................",
+        ".SSSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSSS.",
+        ".........................",
+        "....WCSSSSSSSSSSSSCW.....",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "........................."
+      ]
+    },
+    "99751": {
       "totalRows": 15,
       "totalColumns": 25,
       "rowLabels": [
@@ -7148,6 +7186,43 @@
                 "........................."
               ],
               "layoutKey": "99627"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=99751&a=0000000001&l=5140&m=forgotten-island&ss=False",
+              "seats": [
+                ".........................",
+                ".AAAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAA?A.",
+                ".AAAAAAAAAAAAAAAAAAA?AA?.",
+                ".........................",
+                "....AAAAAAAAAAAAAAAA.....",
+                "..AAAAAAA?AAAAAAAAAAAA...",
+                "..AAA?AAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA?A...",
+                "..AAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAA...",
+                "........................."
+              ],
+              "layoutKey": "99751"
             }
           ]
         }

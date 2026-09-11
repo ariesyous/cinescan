@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T03:21:30.230Z",
+  "updatedAt": "2026-09-11T05:42:04.834Z",
   "theatre": {
     "id": 5143,
     "name": "Cineplex Cinemas Park Lane"
@@ -307,6 +307,78 @@
         "..SSSSSSSSSSSSSS....",
         "..SSSSSSSSSSSSSS....",
         "SSSSSSSSSSSSSSSSSS.."
+      ]
+    },
+    "128192": {
+      "totalRows": 14,
+      "totalColumns": 19,
+      "rowLabels": [
+        null,
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "...................",
+        ".SSSSSSSSSSSSS.....",
+        ".SSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSS..",
+        "...................",
+        ".....WCSSSSSSCW.W..",
+        "....SSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "128193": {
+      "totalRows": 14,
+      "totalColumns": 19,
+      "rowLabels": [
+        null,
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "...................",
+        ".SSSSSSSSSSSSS.....",
+        ".SSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSS..",
+        "...................",
+        ".....WCSSSSSSCW.W..",
+        "....SSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSS"
       ]
     },
     "128198": {
@@ -7434,7 +7506,7 @@
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAOOOAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
+                "..OOOAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "127838"
@@ -7739,6 +7811,61 @@
     {
       "date": "2026-09-24",
       "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=128192&a=0000000001&l=5143&m=forgotten-island&ss=False",
+              "seats": [
+                "...................",
+                ".AAAAAAAAAAAAA.....",
+                ".AAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAA..",
+                "...................",
+                ".....AAAAAAAAAA.A..",
+                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "128192"
+            },
+            {
+              "time": "21:45",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=128193&a=0000000001&l=5143&m=forgotten-island&ss=False",
+              "seats": [
+                "...................",
+                ".AAAAAAAAAAAAA.....",
+                ".AAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAA..",
+                "...................",
+                ".....AAAAAAAAAA.A..",
+                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "128193"
+            }
+          ]
+        },
         {
           "title": "The Misanthrope - National Theatre Live",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61544_320_470.jpg",

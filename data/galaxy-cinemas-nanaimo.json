@@ -1,10 +1,32 @@
 {
-  "updatedAt": "2026-09-11T03:22:22.774Z",
+  "updatedAt": "2026-09-11T05:42:55.192Z",
   "theatre": {
     "id": 1141,
     "name": "Galaxy Cinemas Nanaimo"
   },
   "auditoriums": {
+    "214987": {
+      "totalRows": 7,
+      "totalColumns": 17,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSS..",
+        "..CW.WCSSSSSSSS..",
+        "................."
+      ]
+    },
     "216101": {
       "totalRows": 10,
       "totalColumns": 16,
@@ -395,6 +417,28 @@
         "..SSSSSSSSSSSS..",
         "...CWWCSSSSWC...",
         "................"
+      ]
+    },
+    "217836": {
+      "totalRows": 7,
+      "totalColumns": 24,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "...CWWCSSSSSSSSSSSSWC...",
+        "........................"
       ]
     },
     "217850": {
@@ -3065,7 +3109,7 @@
                 "..AOOOOOOAAAAA..",
                 "..AAAAOOOOAAAA..",
                 "..AAOOOO?AAAAA..",
-                "..AAAAOOAAOOAA..",
+                "..AAAAOOOOOOAA..",
                 "..OOAAAOOAAAOO..",
                 "..OOAAAOOAAAOO..",
                 "...AAAAOOAAAA...",
@@ -3499,7 +3543,7 @@
                 "..AAAAAA?AAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAOO..",
                 "...AAAOOAAAAA...",
                 "................"
               ],
@@ -3579,7 +3623,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAOOOO..",
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAA?A?A..",
                 "................"
@@ -4104,7 +4148,7 @@
                 "..AAAAAOOAAAAA..",
                 "..AAOOAAAAAAAA..",
                 "..AAAAAA?AAAAA..",
-                "..OOAAAAAAAAAA..",
+                "..OOAAAAOAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAA...",
@@ -4473,7 +4517,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAA?AAAAAA..",
-                "..AAAA..AAAAA..",
+                "..AAOO..AAAAA..",
                 "..............."
               ],
               "layoutKey": "217924"
@@ -4783,7 +4827,7 @@
                 "..AAAAAAAAAAAA..",
                 "..OOAAAAOOAAAA..",
                 "..AAAAAA?AAAAA..",
-                "..AAOOOOAAAAOO..",
+                "..AAOOOOOOOOOO..",
                 "..AAAAAOOAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAA...",
@@ -5516,7 +5560,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "...AAAAAAAAAA...",
+                "...AAAAOOAAAA...",
                 "................"
               ],
               "layoutKey": "217644"
@@ -5815,6 +5859,60 @@
                 "................"
               ],
               "layoutKey": "217656"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "3D",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217836&a=0000000001&l=1141&m=forgotten-island&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA?AAA..",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA?..",
+                "...AAAAAAAAAAAAAAAAAA...",
+                "........................"
+              ],
+              "layoutKey": "217836"
+            }
+          ]
+        },
+        {
+          "title": "The Misanthrope - National Theatre Live",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61544_320_470.jpg",
+          "runtimeMinutes": 150,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=214987&a=0000000001&l=1141&m=the-misanthrope-national-theatre-live&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAA..",
+                "..AAAAAAA?AAAAA..",
+                "..AAAAAOOAAAAAA..",
+                "..AAAAAAAAAAAAO..",
+                "..AAAAOAAAAAAAA..",
+                "..AA.AAAAOOAAAA..",
+                "................."
+              ],
+              "layoutKey": "214987"
             }
           ]
         }

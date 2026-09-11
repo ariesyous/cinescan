@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T03:21:38.273Z",
+  "updatedAt": "2026-09-11T05:42:13.687Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
@@ -817,6 +817,34 @@
         "......................"
       ]
     },
+    "268163": {
+      "totalRows": 10,
+      "totalColumns": 22,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        ".....WCWWCSCWWCCW.....",
+        "......................"
+      ]
+    },
     "268179": {
       "totalRows": 7,
       "totalColumns": 15,
@@ -837,6 +865,32 @@
         "..SSSSSSSSSSS..",
         "..WWCCSSSSSSS..",
         "..............."
+      ]
+    },
+    "268377": {
+      "totalRows": 9,
+      "totalColumns": 20,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        "....SSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "...WWCCSSSSSSSSSCW..",
+        "...................."
       ]
     },
     "268401": {
@@ -4655,7 +4709,7 @@
                 "AA..A?OO?OOOOAAAOO..AA",
                 "AA..OOAAOOOOOOOOAA..AA",
                 "AA..OOOOOOOOOOOOAA..??",
-                "AO..AA?OOOOOAAOOOO..AA",
+                "AO..OO?OOOOOAAOOOO..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
               ],
@@ -4778,7 +4832,7 @@
                 "..AAA?AAAAAA?..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAOAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAOOAAAAA..",
                 "..............."
               ],
               "layoutKey": "268497"
@@ -5103,8 +5157,8 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAA???AAAAAA..",
-                "..AAAAAAAOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAOOOOAAAAAAA..",
                 "..AAAAAAAOOO?AAAAA..",
                 "...AAAAOOOOOOAAAAA..",
                 "...................."
@@ -5582,7 +5636,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAA???AAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAA?AAAAA..",
                 "...AAAAAAAAAAAAAAA..",
@@ -7727,7 +7781,7 @@
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAA??AAAAAA..AA",
-                "AA..A?AA?AAAAAAAAO..AA",
+                "OO..A?AA?AAAAAAAAO..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAO..??",
                 "AA..OA?AAAAAAAAAAO..AA",
@@ -8651,6 +8705,65 @@
                 "......................"
               ],
               "layoutKey": "268159"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "19:10",
+              "formats": [
+                "3D",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268377&a=0000000001&l=4108&m=forgotten-island&ss=False",
+              "seats": [
+                "....AAAAAAAAAAAA....",
+                "..AAAAAAA?AAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAA?..",
+                "..AAAAAAAAAA??AAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAA??AAAA..",
+                "...AAAAAAAAAAAAAAA..",
+                "...................."
+              ],
+              "layoutKey": "268377"
+            }
+          ]
+        },
+        {
+          "title": "Heart of the Beast",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
+          "runtimeMinutes": 101,
+          "sessions": [
+            {
+              "time": "19:30",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268163&a=0000000001&l=4108&m=heart-of-the-beast&ss=False",
+              "seats": [
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAA??AAAAAA..AA",
+                "AA..A?AA?AAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..??",
+                "AA..AA?AAAAAAAAAAA..AA",
+                ".....AAAAAAAAAAAA.....",
+                "......................"
+              ],
+              "layoutKey": "268163"
             }
           ]
         }

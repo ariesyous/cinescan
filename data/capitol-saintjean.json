@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T03:20:39.798Z",
+  "updatedAt": "2026-09-11T05:41:19.926Z",
   "theatre": {
     "id": 9190,
     "name": "Capitol Saint-Jean"
@@ -401,6 +401,58 @@
         "SSSSSSSSSSSSS",
         "DD.DDD.DDDD.D",
         "SSSCWWCSSSSS."
+      ]
+    },
+    "159772": {
+      "totalRows": 9,
+      "totalColumns": 13,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        null,
+        "G"
+      ],
+      "seatTypes": [
+        ".............",
+        ".SSSSSSSSSSS.",
+        ".SSSSSSSSSSSS",
+        ".SSSSSSSSSSSS",
+        ".SSSSSSSSSSSS",
+        ".SSSSSSSSSSSS",
+        ".SSSSSSSSSSSS",
+        ".............",
+        ".CW.WCSSSSS.."
+      ]
+    },
+    "159773": {
+      "totalRows": 9,
+      "totalColumns": 13,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        null,
+        "G"
+      ],
+      "seatTypes": [
+        ".............",
+        ".SSSSSSSSSSS.",
+        ".SSSSSSSSSSSS",
+        ".SSSSSSSSSSSS",
+        ".SSSSSSSSSSSS",
+        ".SSSSSSSSSSSS",
+        ".SSSSSSSSSSSS",
+        ".............",
+        ".CW.WCSSSSS.."
       ]
     },
     "159789": {
@@ -4026,7 +4078,7 @@
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAOOO?AAAAAA",
-                "AA.AAA.AAAA.A",
+                "AA.AAO.OAAA.A",
                 "?A?AAAAOOOAA."
               ],
               "layoutKey": "159872"
@@ -4043,7 +4095,7 @@
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAOOO?AAAAAA",
-                "AA.AAA.AAAA.A",
+                "AA.AAO.OAAA.A",
                 "?A?AAAAOOOAA."
               ],
               "layoutKey": "159872"
@@ -6355,6 +6407,57 @@
                 "?A?AAAAAAAAA."
               ],
               "layoutKey": "159602"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "movies": [
+        {
+          "title": "L'île de l'oubli",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61297_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "16:30",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159772&a=0000000001&l=9190&m=lile-de-loubli&ss=False",
+              "seats": [
+                ".............",
+                ".AA?AAAAAAAA.",
+                ".?AAAAAAAAAAA",
+                ".AAAAAAAAAAAA",
+                ".AAAAAAAAAAAA",
+                ".AAAAAAAAAAAA",
+                ".AAAAAAAAAAAA",
+                ".............",
+                ".AA.AAAAAAA.."
+              ],
+              "layoutKey": "159772"
+            },
+            {
+              "time": "19:15",
+              "formats": [
+                "3D",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159773&a=0000000001&l=9190&m=lile-de-loubli&ss=False",
+              "seats": [
+                ".............",
+                ".AA?AAAAAAAA.",
+                ".?AAAAAAAAAAA",
+                ".AAAAAAAAAAAA",
+                ".AAAAAAAAAAAA",
+                ".AAAAAAAAAAAA",
+                ".AAAAAAAAAAAA",
+                ".............",
+                ".AA.AAAAAAA.."
+              ],
+              "layoutKey": "159773"
             }
           ]
         }

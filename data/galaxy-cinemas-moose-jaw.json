@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T03:22:21.540Z",
+  "updatedAt": "2026-09-11T05:42:54.216Z",
   "theatre": {
     "id": 4113,
     "name": "Galaxy Cinemas Moose Jaw"
@@ -363,6 +363,36 @@
         "...SSSSSSSSSSSSSSSSSS..SS",
         "...SSSSSSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "129270": {
+      "totalRows": 11,
+      "totalColumns": 21,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        ".....................",
+        ".....WCSSSCWWCSSS....",
+        "...SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSS..SS",
+        "...SSSSSSSSSSSSSS..SS",
+        "...SSSSSSSSSSSSSS..SS",
+        "...SSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "129299": {
@@ -4594,6 +4624,39 @@
                 "AA?AAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "129175"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129270&a=0000000001&l=4113&m=forgotten-island&ss=False",
+              "seats": [
+                ".....................",
+                ".....AAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAA..AA",
+                "...AAAAAAAAAAAAAA..AA",
+                "...AAAAAAAAAAAAAA..AA",
+                "...AAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "129270"
             }
           ]
         }

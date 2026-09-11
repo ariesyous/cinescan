@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T03:21:55.781Z",
+  "updatedAt": "2026-09-11T05:42:31.524Z",
   "theatre": {
     "id": 7241,
     "name": "Cineplex Odeon Clarington Place Cinemas"
@@ -338,6 +338,34 @@
         "..SSSSSSSSSSSS..",
         "..SSSSSSSSSSSS..",
         "...WCSSSSSSCWW..",
+        "................"
+      ]
+    },
+    "281995": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "....SSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSCW..",
+        "...WCSSSSSSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "....SSSSSSSSSS..",
+        "....SSSSSSSSSS..",
+        ".....WCSSSSCWW..",
         "................"
       ]
     },
@@ -730,6 +758,34 @@
         "..SSSSSSSSSSSS..",
         "..SSSSSSSSSSSS..",
         "...WCSSSSSSCWW..",
+        "................"
+      ]
+    },
+    "282298": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSCW..",
+        "...WCSSSSSSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..WWCSSSSSSSCW..",
         "................"
       ]
     },
@@ -4037,7 +4093,7 @@
                 "..AAAAOOOOAAAA..",
                 "..AAAAOOOOOAAA..",
                 "..AAAAOOOOAAAA..",
-                "..A?AAAAAAAAOO..",
+                "..A?AAAOOAAAOO..",
                 "...AAOOO?AAAAA..",
                 "................"
               ],
@@ -4455,7 +4511,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAOOO..",
                 "..AAAAAAAAAAA...",
                 "................"
               ],
@@ -7667,6 +7723,66 @@
                 "................"
               ],
               "layoutKey": "282019"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "3D",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282298&a=0000000001&l=7241&m=forgotten-island&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAAA..",
+                "..AAAAA?AAAAAA..",
+                "..AAAAAAAAAAA?..",
+                "..AAAAAAAAA?AA..",
+                "..AAAAAAAAAAA?..",
+                "..AAAAAAAAAAAA..",
+                "................"
+              ],
+              "layoutKey": "282298"
+            }
+          ]
+        },
+        {
+          "title": "Heart of the Beast",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
+          "runtimeMinutes": 101,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=281995&a=0000000001&l=7241&m=heart-of-the-beast&ss=False",
+              "seats": [
+                "....AAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..??AAAAAAAAAA..",
+                "....AAAA?AAAAA..",
+                "....AAAAAAAAAA..",
+                ".....AAAAAAAAA..",
+                "................"
+              ],
+              "layoutKey": "281995"
             }
           ]
         }
