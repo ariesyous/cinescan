@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T03:26:26.086Z",
+  "updatedAt": "2026-09-12T05:13:15.361Z",
   "theatre": {
     "id": 7135,
     "name": "Cineplex Cinemas North Barrie"
@@ -2279,6 +2279,40 @@
         "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
+    "102047": {
+      "totalRows": 13,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "............................",
+        "...SSSSSSSSSSSSSSSSSSSSSS...",
+        "...SSSSSSSSSSSSSSSSSSSSSS...",
+        "............................",
+        ".....CW.CCW..WCCW.WCCW..WC..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
     "102048": {
       "totalRows": 16,
       "totalColumns": 31,
@@ -2317,6 +2351,40 @@
         "..DD.DDDD.DDDD.DDDD.DDDD.DD..SS",
         "..SSSSSSSSSSSSSSSSSSSSSSSSS..SS",
         "..SSSSSSSSSSSSSSSSSSSSSSSSS..SS"
+      ]
+    },
+    "102049": {
+      "totalRows": 13,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "............................",
+        "...SSSSSSSSSSSSSSSSSSSSSS...",
+        "...SSSSSSSSSSSSSSSSSSSSSS...",
+        "............................",
+        ".....CW.CCW..WCCW.WCCW..WC..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "102050": {
@@ -6698,7 +6766,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAOOOAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
@@ -9208,6 +9276,52 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA"
               ],
               "layoutKey": "102048"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102047&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102047"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102049&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102049"
             }
           ]
         }
@@ -9298,7 +9412,7 @@
                 "..AAA???AAAAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
-                "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
+                "..AA.AAAA.AAAO.OAAA.AAAA.AA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA"
               ],
@@ -9325,7 +9439,7 @@
                 "..AAA???AAAAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
-                "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
+                "..AA.AAAA.AAAO.OAAA.AAAA.AA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA"
               ],

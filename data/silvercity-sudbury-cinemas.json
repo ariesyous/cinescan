@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T03:27:30.978Z",
+  "updatedAt": "2026-09-12T05:15:01.565Z",
   "theatre": {
     "id": 7429,
     "name": "SilverCity Sudbury Cinemas"
@@ -720,6 +720,40 @@
       ]
     },
     "311266": {
+      "totalRows": 13,
+      "totalColumns": 24,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        "CC",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "........................",
+        ".SSSSSSSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSSSSSS...",
+        "........................",
+        "....WWCSSSSSSSCWW.......",
+        "..SSSSSSSSSSSSSSSS......",
+        "..SSSSSSSSSSSSSSSS......",
+        "..SSSSSSSSSSSSSSSS......",
+        "..SSSSSSSSSSSSSSSS......",
+        "..SSSSSSSSSSSSSSSS..SSSS",
+        "..SSSSSSSSSSSSSSSS..SSSS",
+        "SSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "311270": {
       "totalRows": 13,
       "totalColumns": 24,
       "rowLabels": [
@@ -2481,6 +2515,40 @@
         "SS..SSSSSSSSSSSSSSSS..SSSS",
         "SS..SSSSSSSSSSSSSSSS..SSSS",
         "SSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "311948": {
+      "totalRows": 13,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        "CC",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        null
+      ],
+      "seatTypes": [
+        "......................",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "......................",
+        "......WCSSSSSSSCWW....",
+        "......SSSSSSSSSSSSSS..",
+        "......SSSSSSSSSSSSSS..",
+        "......SSSSSSSSSSSSSS..",
+        "......SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSS",
+        "......................"
       ]
     },
     "311950": {
@@ -13287,7 +13355,7 @@
                 "AAAAAA..AAAAAAAAAAAAAA..AA....",
                 "AAAAAA..AAAAAAAAAAAAAA..AA....",
                 "AAAAAA..AAAAAAAAAAAAAA..AA....",
-                "AAAAAA..AAAAAAAAAOOAAA..AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA..AAAAAA",
                 "AAAAAA..AAAAAAAAAAAAAA..AAAAAA",
                 "AAAAAA..AAAAAAAAAAAAAA..AAAAAA",
                 "AAAAAA..AAAAAAAAAAAAAA..AAAAAA",
@@ -16014,7 +16082,7 @@
                 "AA..AAAAAAAAAAAAAAAA......",
                 "AA..AAAAAAAAAAAAAAAA......",
                 "AA..AAAAAAAAAAAAAAAA......",
-                "AA..AAAAAAAAAAAAAAAA......",
+                "AA..AAOAAAAAAAAAAAAA......",
                 "AA..AAAAAAAAAAAAAAAA..AAAA",
                 "AA..AAAAAAAAAAAAAAAA..AAAA",
                 "AA..AAAAAAAAAAAAAAAA..AAAA",
@@ -16778,6 +16846,71 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "311586"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "movies": [
+        {
+          "title": "Queen Budapest - The IMAX Experience®",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62097_320_470.jpg",
+          "runtimeMinutes": 92,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=311270&a=0000000001&l=7429&m=queen-budapest-the-imax-experience-2026&ss=False",
+              "seats": [
+                "........................",
+                ".AAAAAAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAAAAAA...",
+                "........................",
+                "....AAAAAAAAAAAAA.......",
+                "..AAAAAAAAAAAAAAAA......",
+                "..AAAAAAAAAAAAAAAA......",
+                "..AAAAAAAAAOOOOOOO......",
+                "..AAAAAAAAAAAAAAAA......",
+                "..AAAAAAAAAAAAAAAA..AAAA",
+                "..AAAAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "311270"
+            }
+          ]
+        },
+        {
+          "title": "Guillermo del Toro's Pan's Labyrinth 20th Anniversary (Spanish w/e.s.t.)",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62050_320_470.jpg",
+          "runtimeMinutes": 124,
+          "sessions": [
+            {
+              "time": "12:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=311948&a=0000000001&l=7429&m=guillermo-del-toros-pans-labyrinth-20th-an&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                "......AAAAAAAAAAAA....",
+                "......AAAAAAAAAAAAAA..",
+                "......AAAAAAAAAAAAAA..",
+                "......AAAAAAAAAAAAAA..",
+                "......AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAAAAAAAAOOAAAAAAAAAA",
+                "......................"
+              ],
+              "layoutKey": "311948"
             }
           ]
         }

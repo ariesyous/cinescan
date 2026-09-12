@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T03:27:12.534Z",
+  "updatedAt": "2026-09-12T05:14:26.976Z",
   "theatre": {
     "id": 7267,
     "name": "Galaxy Cinemas St. Thomas"
@@ -538,6 +538,82 @@
       ]
     },
     "130135": {
+      "totalRows": 15,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        "......................",
+        ".....SSSSSSSSSSS......",
+        "...SSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "......................",
+        ".....WCSSCWWCSSSSS....",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "130136": {
+      "totalRows": 15,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        "......................",
+        ".....SSSSSSSSSSS......",
+        "...SSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "......................",
+        ".....WCSSCWWCSSSSS....",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "130137": {
       "totalRows": 15,
       "totalColumns": 22,
       "rowLabels": [
@@ -2968,7 +3044,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AOOAAAAAAAAAAAAAAAA...",
                 "OO...AAAAAAAAAAAAAAAAAAA...",
-                "OO..OOAAAAAAAAAAAAAAAAAAA..",
+                "OO..OOAAAAAAAAAAAAOOOAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAOOAAAAAA"
               ],
@@ -5261,6 +5337,68 @@
                 ".AAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "130135"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130136&a=0000000001&l=7267&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                ".....AAAAAAAAAAA......",
+                "...AAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130136"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130137&a=0000000001&l=7267&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                ".....AAAAAAAAAAA......",
+                "...AAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130137"
             }
           ]
         }

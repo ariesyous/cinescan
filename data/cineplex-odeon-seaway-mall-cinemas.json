@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T03:26:55.042Z",
+  "updatedAt": "2026-09-12T05:14:00.764Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
@@ -396,6 +396,66 @@
       ]
     },
     "153345": {
+      "totalRows": 11,
+      "totalColumns": 22,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        null
+      ],
+      "seatTypes": [
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..WWCSSSSSSSSSCW..",
+        "SSSS..WWCSSSSSSSSSCW..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "......SSSSCW.WCSSSSS..",
+        "......................"
+      ]
+    },
+    "153479": {
+      "totalRows": 11,
+      "totalColumns": 22,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        null
+      ],
+      "seatTypes": [
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..WWCSSSSSSSSSCW..",
+        "SSSS..WWCSSSSSSSSSCW..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSS..",
+        "......SSSSCW.WCSSSSS..",
+        "......................"
+      ]
+    },
+    "153480": {
       "totalRows": 11,
       "totalColumns": 22,
       "rowLabels": [
@@ -4552,6 +4612,62 @@
                 "......................"
               ],
               "layoutKey": "153481"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "3D",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153479&a=0000000001&l=7206&m=forgotten-island&ss=False",
+              "seats": [
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "A?AA..AAAAAAA?AAA?AA..",
+                "AAAA..AAAAAA?AAAAAAA..",
+                "AA?A..AAA?AAAAAAAAAA..",
+                "AAAA..AAAAAA??AAAAAA..",
+                "AAAA..AAAAAA????AAAA..",
+                "......AAAAAA.AAAAAA?..",
+                "......................"
+              ],
+              "layoutKey": "153479"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "3D",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153480&a=0000000001&l=7206&m=forgotten-island&ss=False",
+              "seats": [
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAA..",
+                "A?AA..AAAAAAA?AAA?AA..",
+                "AAAA..AAAAAA?AAAAAAA..",
+                "AA?A..AAA?AAAAAAAAAA..",
+                "AAAA..AAAAAA??AAAAAA..",
+                "AAAA..AAAAAA????AAAA..",
+                "......AAAAAA.AAAAAA?..",
+                "......................"
+              ],
+              "layoutKey": "153480"
             }
           ]
         }
