@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T23:55:07.763Z",
+  "updatedAt": "2026-09-12T00:48:52.907Z",
   "theatre": {
     "id": 7296,
     "name": "Cineplex Cinemas Kitchener and VIP"
@@ -3939,34 +3939,6 @@
         "SS..DDD.DDDDD.DDDDDD.DDDDD.DD..",
         "SS..SSSSSSSSSSSSSSSSSSSSSSSSS..",
         "SS..SSSSSSSSSSSSSSSSSSSSSSSSS.."
-      ]
-    },
-    "128578": {
-      "totalRows": 10,
-      "totalColumns": 18,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "....SSSSSSSSS.....",
-        "..................",
-        "..SCW.WCCW.WC.....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSS"
       ]
     },
     "128579": {
@@ -8589,34 +8561,6 @@
         ".SSSSSSSSSSSSSSSSSS"
       ]
     },
-    "128754": {
-      "totalRows": 10,
-      "totalColumns": 18,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "......SS.SS.SS....",
-        "..................",
-        "....CW.WCSSSCWCS..",
-        "....SSSSSSSSSSSS..",
-        "....SSSSSSSSSSSS..",
-        "....SSSSSSSSSSSS..",
-        "....SSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSS..",
-        "SS..SSS....SSSS..."
-      ]
-    },
     "128755": {
       "totalRows": 10,
       "totalColumns": 18,
@@ -8730,27 +8674,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "20:30",
-              "formats": [
-                "VIP 19+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=128754&a=0000000001&l=7296&m=practical-magic-2&ss=False",
-              "seats": [
-                "......AA.AA.AA....",
-                "..................",
-                "....AA.AAAAAAAAA..",
-                "....AAAAAAAAAAAA..",
-                "....AAAAOOOOAAAA..",
-                "....OOAAOOOOAOOO..",
-                "....OOOOOOOOOOOO..",
-                "OO..OOOOOOOOOOOA..",
-                "AA..OOOOOOOOOAAA..",
-                "OO..OOO....OOOO..."
-              ],
-              "layoutKey": "128754"
-            },
-            {
               "time": "21:30",
               "formats": [
                 "UltraAVX",
@@ -8838,9 +8761,9 @@
                 ".A.AAAAA.AA....",
                 ".AAAAAAAAAA....",
                 ".AAAAAAAAAA....",
-                ".AAAAAAAAAA....",
+                ".AAAAAOOAAA....",
                 ".AAAAOOAAAA..AA",
-                ".AAAAAAAAAA..AA",
+                ".AAAAOOOOAA..AA",
                 "AAAAA.....AAAAA"
               ],
               "layoutKey": "128581"
@@ -8865,9 +8788,9 @@
                 "....AAAA.AAAAA..",
                 "....AAAAAAAAAA..",
                 "....AAOOAOOOOO..",
+                "....OOOOOOOOAO..",
                 "....OOOOOOOOOO..",
-                "....OOOOOOOOAA..",
-                "AAOO.......AOO.."
+                "OOOO.......AOO.."
               ],
               "layoutKey": "128571"
             },
@@ -8886,39 +8809,12 @@
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAOOAAAAAAAA..AA",
-                "..AAAAAAAAAOOAAAAOO..AA",
+                "..AAAAAAAAAAAAAAAOO..AA",
                 "..AAAAOOOOAAAAAAAAA..AA",
                 "..AAAAAAAAOOAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA"
               ],
               "layoutKey": "128579"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "19:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=128578&a=0000000001&l=7296&m=the-odyssey&ss=False",
-              "seats": [
-                "....AAAAAAAAA.....",
-                "..................",
-                "..AAA.AAAA.AA.....",
-                "..AAAAAAAAAAAA....",
-                "..AAAAAOAAAAAA....",
-                "..AAAAAAAAAAAA....",
-                "..AAAAAAOOAAAA....",
-                "..AAAOOOOAAAAA..AA",
-                "..AAAAAAOOAAAA..AA",
-                "AAAAAAOOAAAOOAAAAA"
-              ],
-              "layoutKey": "128578"
             }
           ]
         },
@@ -8939,10 +8835,10 @@
                 "..AAAAAAAAAAA......",
                 ".AAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAA.....",
+                ".AAAAAAAOOOAAA.....",
                 ".AAAAAAOOOAAAA.....",
                 ".AAAAAAAAAAAAA.....",
-                ".AAAAAAAOOAAAAAAAAO"
+                ".AAAAAAOOOAAAAAAAAO"
               ],
               "layoutKey": "128580"
             }
@@ -8969,7 +8865,7 @@
                 "....AAAAAOOAAAAAA..",
                 "AA..AAAAOOAOOAAAA..",
                 "AA..AOOAOOOOOOAAA..",
-                "AAAAAAOOOOOOOAAOO.."
+                "OOAAAAOOOOOOOAAOO.."
               ],
               "layoutKey": "128585"
             }
@@ -8994,9 +8890,9 @@
                 ".....AAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAOOAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAOOOAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAA..",
-                "OOAAAAAAAAAAOOAAAAAAAA.."
+                "AA...AAAAOOOOAOOOAAAAA..",
+                "AA...AAAAAAOOAAAAAAAAA..",
+                "OOAAAAAAAAAAOOAAAAAAOO.."
               ],
               "layoutKey": "128566"
             }
@@ -9184,7 +9080,7 @@
                 "....AAAA.AAAAA..",
                 "....AAAAAAAAAA..",
                 "....AAAAAAAAAA..",
-                "....AAOOOOOAOO..",
+                "....OOOOOOOAOO..",
                 "....OOOOOAOOOA..",
                 "AAOO.......AOA.."
               ],
@@ -9206,7 +9102,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAOOOAAAAAAAAAAA..",
                 "AA..OOOAAAAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAA.AAAAO.OOOAAA.AAAAA.AA..",
                 "AA..AAA.AAAAA.AAAAAA.AAAAA.AA..",
@@ -9230,7 +9126,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAOOOAAAAAAAAAAA..",
                 "AA..OOOAAAAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAA.AAAAO.OOOAAA.AAAAA.AA..",
                 "AA..AAA.AAAAA.AAAAAA.AAAAA.AA..",
@@ -9695,7 +9591,7 @@
                 ".....AAAAAAAAAAAAAAAAA..",
                 "AA...AAAOOOOAAAAOOAAAA..",
                 "AA...AAAAAAOOOAAAAAAAA..",
-                "AAAAAAAAAAAAOOAAAAAAAA.."
+                "AAAAAAAAAAOOOOAAAAAAAA.."
               ],
               "layoutKey": "128618"
             },
@@ -9988,7 +9884,7 @@
                 "..AAAAAAAAAAA......",
                 ".AAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAA.....",
-                ".AAAAAAAAOOAAA.....",
+                ".AAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAAAAAA"
