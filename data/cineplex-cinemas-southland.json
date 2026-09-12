@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T22:07:22.515Z",
+  "updatedAt": "2026-09-12T22:49:16.824Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
@@ -1015,28 +1015,6 @@
         "..............."
       ]
     },
-    "268412": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WWCCSSSSSSS..",
-        "..............."
-      ]
-    },
     "268413": {
       "totalRows": 7,
       "totalColumns": 15,
@@ -1100,28 +1078,6 @@
         "..SSSSSSSSSSS..",
         "..SSSSSSSSSSS..",
         "..SSSCW.WCSSS..",
-        "..............."
-      ]
-    },
-    "268418": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WWCCSSSSSSS..",
         "..............."
       ]
     },
@@ -3880,7 +3836,7 @@
               "seats": [
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..OOOOAAAAAAAAAA..AA",
                 "AA..OOAAAA??AAOOAA..AA",
                 "AA..A?OO?AAAAOOOOO..AA",
                 "AA..AAAAOOOOOOOOAA..AA",
@@ -3962,23 +3918,6 @@
           "runtimeMinutes": 99,
           "sessions": [
             {
-              "time": "16:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268412&a=0000000001&l=4108&m=runner&ss=False",
-              "seats": [
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAA?AAAAAA?..",
-                "..AAAAOOAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..............."
-              ],
-              "layoutKey": "268412"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "Recliner"
@@ -3988,7 +3927,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAA?AAAAAA?..",
-                "..AAAAAOOAAAA..",
+                "..AOOAAOOAAAA..",
                 "..AAAAOOOAAAA..",
                 "..AAAAAAAAAAA..",
                 "..............."
@@ -4031,7 +3970,7 @@
                 "..AAAAAAA?AAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAA?AAA?..",
-                "..AAAAAAAAAA??AAAA..",
+                "..AAOOOAAAAA??AAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAA??AAAA..",
                 "...AAAAAAAAAAAAAAA..",
@@ -4144,9 +4083,9 @@
                 "..?AAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAOOAAAA..",
-                "..OOAA?AAAAAA..",
+                "..OOAA?AAAAOO..",
                 "..AAAAA?A??AA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAOO..",
                 "..............."
               ],
               "layoutKey": "268411"
@@ -4202,7 +4141,7 @@
                 "..AAAAAAAAAA?..",
                 "..AAAAOOAAAAA..",
                 "..AAAAOOOAAAA..",
-                "..OOAAAOOAAAA..",
+                "..AAAAAOOAAAA..",
                 "..AAA?AAAAAAA..",
                 "..AAAAA.AAAAA..",
                 "..............."
@@ -4246,7 +4185,7 @@
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
                 "..OOOAAAAAOOOO?..",
-                "...AAAAAA?AAAOO..",
+                "...AAAAOO?AAAOO..",
                 "................."
               ],
               "layoutKey": "268408"
@@ -4262,37 +4201,13 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAA???AAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOOAAAAAA..",
                 "..AAAAAAAOOAAAAAAA..",
                 "..AAOOAAOOAA?AAAAA..",
                 "...AAAAAAOOAAAAAAA..",
                 "...................."
               ],
               "layoutKey": "268420"
-            }
-          ]
-        },
-        {
-          "title": "Cars 20th Anniversary",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62034_320_470.jpg",
-          "runtimeMinutes": 117,
-          "sessions": [
-            {
-              "time": "16:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268418&a=0000000001&l=4108&m=cars-20th-anniversary&ss=False",
-              "seats": [
-                "..?AAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAA?OOAAAA..",
-                "..AAAAA?A??AA..",
-                "..AAAAAAOOAAA..",
-                "..............."
-              ],
-              "layoutKey": "268418"
             }
           ]
         }
@@ -4319,7 +4234,7 @@
                 "AA..AAAAAA??AAAAAA..AA",
                 "AA..A?AA?AAAAAAAOO..AA",
                 "AA..AAAAAAOOAAAAAA..AA",
-                "AA..AAAAAAAAAOOAAA..??",
+                "AA..AAAAAAOAAOOAAA..??",
                 "AA..AA?AAAAAAAAAAA..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
@@ -4358,7 +4273,7 @@
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAA??AAAAAA..AA",
                 "AA..A?AA?AAAOOAAAA..AA",
-                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAOOOOOAAAAA..AA",
                 "AA..AAAAAOOOOAAAAA..??",
                 "AA..AA?AAAAAAAAAAA..AA",
                 ".....AAAAAAAAAAAA.....",
@@ -4607,7 +4522,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAA???AAAAAA..",
-                "..AOOOOOOOOAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAA?AAAAA..",
                 "...AAAAAAAAAAAAAAA..",
@@ -4797,7 +4712,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAA?AAA?..",
                 "..AAAAAAAAAA??AAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAOOOOOOAAAAA..",
                 "..AAAAAAAAAA??AAAA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...................."

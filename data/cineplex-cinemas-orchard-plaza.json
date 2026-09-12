@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T22:07:14.872Z",
+  "updatedAt": "2026-09-12T22:49:08.581Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -49,32 +49,6 @@
         "SS..SSSSSSSS..SS",
         "SS..SSSSSSSS..SS",
         "SS...WCSSSCW..SS"
-      ]
-    },
-    "125374": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSCW.WCSS..SSS",
-        "SCW..............SSS"
       ]
     },
     "125375": {
@@ -285,34 +259,6 @@
         "SSS..SSSSSSSSSS..SSS",
         "SSS..SSSCW.WCSS..SSS",
         "SCW..............SSS"
-      ]
-    },
-    "125384": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS...SSSSCWWCSSS..SSS",
-        "SCW..................."
       ]
     },
     "125386": {
@@ -1248,25 +1194,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "15:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125374&a=0000000001&l=1410&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAA..AAAAAAAAAA..???",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAA?..AAA",
-                "AAA..OOOAOOAAOO..AAA",
-                "AAA..AAOOOOA?AO..AAA",
-                "AAO..OOAAOOOOOO..AAA",
-                "AAA..AAAAAO?AAA..AAA",
-                "AAO..OOAAA.AAOO..AAA",
-                "???..............???"
-              ],
-              "layoutKey": "125374"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Recliner"
@@ -1275,7 +1202,7 @@
               "seats": [
                 "AAA..AAAAAAAAAA..???",
                 "AAA..AAAAAAAAAA..AAA",
-                "AAA..OOOOOOOOO?..OOA",
+                "AOO..OOOOOOOOO?..OOA",
                 "AAA..OOOOOOOAOO..OOA",
                 "AOO..OOAOOOO?OA..OOA",
                 "AOO..OOOOAOOOOO..OOO",
@@ -1297,7 +1224,7 @@
                 "AAA..AAAAAAAAA?..AAA",
                 "AAA..AAAAAAOOAA..AAA",
                 "AAA..AAAAAAA?AA..AAA",
-                "AAA..AAAAAAAAAA..AAA",
+                "AAA..AAAAOOAAAA..AAA",
                 "AAA..AAOOOO?AAA..AAA",
                 "AAA..AAAAA.AAAA..AAA",
                 "???..............???"
@@ -1311,26 +1238,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "15:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125384&a=0000000001&l=1410&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "A??..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAOOOAAAAA..AAA",
-                "AAA..AAAA?AOOAAOO..OOA",
-                "AAA..AAOOOOOOAAAA..AAA",
-                "AAA..AAAAOO?AOOAA..AAA",
-                "AAA..AAAAAAOOAAAA..AAA",
-                "AAA...OOOAAAAAA?A..AAA",
-                "???..................."
-              ],
-              "layoutKey": "125384"
-            },
             {
               "time": "18:40",
               "formats": [
@@ -1384,10 +1291,10 @@
               "seats": [
                 "AAAAA??AAAAAA?",
                 "AAAAAAAAAAAA?A",
-                "AAAAAOOAAAAAAA",
-                "AAAO?AAOOO..AA",
-                "AOOAAOOAAOOAAA",
-                "AAAAAAAAAAAAAA",
+                "AAAAAOOAAAAOOO",
+                "AOOO?AAOOO..AA",
+                "AOOAAOOOOOOAAA",
+                "AAAAAAAAAAAOOO",
                 "AA..AA..AA..AA"
               ],
               "layoutKey": "125386"
@@ -1403,8 +1310,8 @@
                 "AAAAAAAAAAAA?A",
                 "AAAAAAAAAAAAAA",
                 "AAAA?AAAAA..AA",
-                "AOOOOAAOAOOAAA",
-                "AOOAAOOAAAAAAA",
+                "AOOOOOOOAOOAAA",
+                "AOOAAOOAAOOAAA",
                 "AA..AA..AA..AA"
               ],
               "layoutKey": "125377"
@@ -1439,10 +1346,10 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125381&a=0000000001&l=1410&m=coyote-vs-acme-2026&ss=False",
               "seats": [
                 "AA..AAAAAAAA..AA",
-                "AA..AAA?OOAA..AA",
+                "AA..AAA?OOOA..AA",
                 "AA..AOOOOO??..?A",
-                "?A..OOAAOOOO..AA",
-                "OO...AAAAAAA..AA"
+                "?A..OOOOOOOO..AA",
+                "OO...AAOOOAA..AA"
               ],
               "layoutKey": "125381"
             },
@@ -1500,7 +1407,7 @@
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
-                "AAAAAAAOOAAAA",
+                "AAAOOAAOOAAAA",
                 "AAAAAOOOOAAAA",
                 "AAAAAOOAAAA..",
                 "AAAAA.AAAAA.."
@@ -1546,11 +1453,11 @@
                 "AAA..AAAAAAAAAA..???",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA?..AAA",
-                "AAA..AAAAOOAAAA..AAA",
+                "AAA..OOOAOOAAAA..AAA",
                 "AAA..OOOAOOA?AA..AAA",
                 "AAA..OOOOOOOAOO..AAA",
                 "AAA..OOOAAA?AOO..AAA",
-                "AAA..OOAAA.AAAA..AAA",
+                "AAA..OOAAA.AAOO..AAA",
                 "???..............???"
               ],
               "layoutKey": "125398"
@@ -1815,7 +1722,7 @@
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAA..",
-                "AAAAA.AAAAA.."
+                "AOOAA.AAAAA.."
               ],
               "layoutKey": "125420"
             }
