@@ -1,40 +1,10 @@
 {
-  "updatedAt": "2026-09-12T20:03:37.727Z",
+  "updatedAt": "2026-09-12T21:21:50.761Z",
   "theatre": {
     "id": 9121,
     "name": "Cinéma Cineplex Royalmount"
   },
   "auditoriums": {
-    "14759": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...................",
-        "..CW.WCSSSCW.WC....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS."
-      ]
-    },
     "14767": {
       "totalRows": 10,
       "totalColumns": 19,
@@ -300,34 +270,6 @@
         "..SSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "14776": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...................",
-        "...CW.WCSSSSCW.WC..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSS"
       ]
     },
@@ -3084,11 +3026,11 @@
                 "..AAAAAAAAAAAAA....",
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAOOOOAAAA....",
-                "..OOAAAOOAAAOOO....",
+                "..OOAOAOOOOAOOO....",
                 "..AAAOOOOOOOOOO....",
                 "..OOOOOOOOOOOOAOO..",
                 "..?OOOOOOOOOAOOOO..",
-                "..AA.AAO.OO.OOA.A..",
+                "..OO.AAO.OO.OOA.A..",
                 "..?A.AAO.OO.OAA.A..",
                 "..OOOO?.?OOOOOOOOO."
               ],
@@ -3106,11 +3048,11 @@
                 "..AAAAAAAAAAAAA....",
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAOOOOAAAA....",
-                "..OOAAAOOAAAOOO....",
+                "..OOAOAOOOOAOOO....",
                 "..AAAOOOOOOOOOO....",
                 "..OOOOOOOOOOOOAOO..",
                 "..?OOOOOOOOOAOOOO..",
-                "..AA.AAO.OO.OOA.A..",
+                "..OO.AAO.OO.OOA.A..",
                 "..?A.AAO.OO.OAA.A..",
                 "..OOOO?.?OOOOOOOOO."
               ],
@@ -3181,11 +3123,11 @@
                 "....AAAAAAAAAAAA?..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAOOOOAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAOOAAAAAA..",
-                "..AOOOOOOOOAAAAAA..",
-                "..AAAAOOOOOOOOAAA..",
-                "..AAAAAAOOOOOAAAA..",
+                "....AAAAOOOOAAAAA..",
+                "....AAAOOOOAAAAAA..",
+                "..AOOOOOOOOAOOAAA..",
+                "..OOAAOOOOOOOOAAA..",
+                "..AAAAOOOOOOOAAOO..",
                 "OOOOOOAAOOOAAAAAAA?"
               ],
               "layoutKey": "14775"
@@ -3204,7 +3146,7 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAOOAA..",
                 "..OOOOOOOOAAAAAAA..",
                 "..AAAAAOOOOAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
@@ -3220,27 +3162,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "16:45",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14776&a=0000000001&l=9121&m=the-odyssey&ss=False",
-              "seats": [
-                "...................",
-                "...AA.AAAAAAAA.AA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAOOAAAAAA..",
-                "...AAAOOOOOOOOOOO..",
-                "...AOOOOOOOOOOAAA..",
-                ".AOOAOOOOOOOAAAOO..",
-                ".AAAOOOOOOOOOOAAA..",
-                "AAAAAAAAA?OOAAAOOAA"
-              ],
-              "layoutKey": "14776"
-            },
-            {
               "time": "20:45",
               "formats": [
                 "Recliner",
@@ -3255,9 +3176,9 @@
                 "...AAAAAOOAAAAAAA..",
                 "...AOOAOOOOOAAAAA..",
                 "...AOOAAOOAAOOAAA..",
-                ".AAAAOOOOOAAOOOOO..",
-                ".AAOOOOOOOOOAAAOO..",
-                "AAAAAOOOO?OOOAAAAAA"
+                ".OOAAOOOOOAAOOOOO..",
+                ".AAOOOOOOOOOOOOOO..",
+                "OOAAAOOOO?OOOAAAAAA"
               ],
               "layoutKey": "14771"
             }
@@ -3281,10 +3202,10 @@
                 "...AAAAAOOOAAAAAA..",
                 "...AAAAAOOOOAAAAA..",
                 "...AAAA?AOOOOAAAA..",
-                "...AAAOOOOOOOOAAA..",
-                ".OOOOOOAAOOOOAAOO..",
+                "...AOOOOOOOOOOOOA..",
+                ".OOOOOOOOOOOOAAOO..",
                 ".AAAAAAAOOOAAAAAA..",
-                ".OOAAAOO?OOOOAAAAA."
+                ".OOAAAOO?OOOOOOOOO."
               ],
               "layoutKey": "14774"
             }
@@ -3308,7 +3229,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAA?AAAAAAAAA..",
-                "...AOOAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAOOOAAAAAAA..",
                 ".AAAAAAA?AAAAAAAAA."
@@ -3334,10 +3255,10 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAOOAAAAA....",
+                "..AAAAAAAAAAAOO....",
+                "..AAOOAAOOAAAAA....",
                 "..AAAAAAOOAAOOAAA..",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAOOAAAAAAAAAA..",
                 "..AAAAAAOOAAAAAAA..",
                 "..AAAAA?????AAOOAA."
               ],
@@ -3358,39 +3279,11 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAOOOAAAAAAA..",
-                "..AAAOOAAAAAAAAAA..",
+                "..AOOOOAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..OOAAA?????AAAAOO."
               ],
               "layoutKey": "14770"
-            }
-          ]
-        },
-        {
-          "title": "Vincent et la prophétie des mers",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61579_320_470.jpg",
-          "runtimeMinutes": 91,
-          "sessions": [
-            {
-              "time": "16:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14759&a=0000000001&l=9121&m=vincent-et-la-prophetie-des-mers&ss=False",
-              "seats": [
-                "...................",
-                "..??.??AAAAA.AA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAOOAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..OOOOAAAAAAAAA....",
-                "..OOOAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAOOOAAAAAAA..",
-                "..AAAAA?????AAAAAA."
-              ],
-              "layoutKey": "14759"
             }
           ]
         }
@@ -3815,7 +3708,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAA?AAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAOOOAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAA?AAAAAAAAA."
               ],
@@ -4650,7 +4543,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
                 "..?AAAAAOOAAAAAAA..",
-                "..AA.AAA.AA.AAA.A..",
+                "..OO.AAA.AA.AAA.A..",
                 "..?A.AAA.AA.AAA.A..",
                 "..AAAA?.?AAAAAAAAA."
               ],
@@ -4672,7 +4565,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
                 "..?AAAAAOOAAAAAAA..",
-                "..AA.AAA.AA.AAA.A..",
+                "..OO.AAA.AA.AAA.A..",
                 "..?A.AAA.AA.AAA.A..",
                 "..AAAA?.?AAAAAAAAA."
               ],
@@ -4860,7 +4753,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAA?AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAOOAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAA?AAAAAAAAA."
