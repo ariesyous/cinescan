@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T22:49:59.604Z",
+  "updatedAt": "2026-09-13T23:54:50.446Z",
   "theatre": {
     "id": 9121,
     "name": "Cinéma Cineplex Royalmount"
@@ -685,64 +685,6 @@
         ".SSSSSSSSSSSSSSSS..",
         ".SSSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "14883": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...................",
-        "..CW.WCSSSCW.WC....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS."
-      ]
-    },
-    "14885": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...................",
-        "...CW.WCSSSSCW.WC..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS."
       ]
     },
     "14887": {
@@ -2425,7 +2367,7 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAAOOOOAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "AAAAAAOOAAAAAAAAAA?"
               ],
@@ -2462,33 +2404,6 @@
           ]
         },
         {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "18:35",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14885&a=0000000001&l=9121&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...................",
-                "...AA.AAAAAAAA.AA..",
-                "...AAAAAAAA?AAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AOOOOOAAOOAAAA..",
-                "...AAAA?OOOOOAAAA..",
-                "...AOOAOOOOAAAOOO..",
-                ".AOOAAOOOOOOOOOOO..",
-                ".AAAAAAOOOAAOOAAA..",
-                ".OOOAAOO?OAAAOOAAA."
-              ],
-              "layoutKey": "14885"
-            }
-          ]
-        },
-        {
           "title": "Coyote vs ACME (version française)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61524_320_470.jpg",
           "runtimeMinutes": 103,
@@ -2520,27 +2435,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14883&a=0000000001&l=9121&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "...................",
-                "..??.??AAAAA.AA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAOOOOOOOOAAA....",
-                "..AAAAOOOOOOAAA....",
-                "..AAAAOOOOAOOOO....",
-                "..AAOOAAOOAAOOAAA..",
-                "..AAAAOOOOOAAAOOO..",
-                "..AAOOAAOOAAAAAAA..",
-                "..AAAOO?????OOAAOO."
-              ],
-              "layoutKey": "14883"
-            },
             {
               "time": "22:00",
               "formats": [
@@ -2590,7 +2484,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAO..",
-                "..?AAAAAAAAAAAAAA..",
+                "..?AAAOOAAAAAAAAA..",
                 "..AA.AAA.AA.AAA.A..",
                 "..?A.AAA.AA.AAA.A..",
                 "..OOA??.?AAAAAAAAA."
@@ -2612,7 +2506,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAO..",
-                "..?AAAAAAAAAAAAAA..",
+                "..?AAAOOAAAAAAAAA..",
                 "..AA.AAA.AA.AAA.A..",
                 "..?A.AAA.AA.AAA.A..",
                 "..OOA??.?AAAAAAAAA."
@@ -2680,8 +2574,8 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
-                "..?OAAAAAAAAAAAAA..",
-                "..AA.AAA.AA.AAA.A..",
+                "..?AAAAAAAAAAAAAA..",
+                "..AA.AAA.AA.AAO.O..",
                 "..?A.AAA.AA.AAA.A..",
                 "..AAA??.?AAAAAAAAA."
               ],
@@ -2702,8 +2596,8 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
-                "..?OAAAAAAAAAAAAA..",
-                "..AA.AAA.AA.AAA.A..",
+                "..?AAAAAAAAAAAAAA..",
+                "..AA.AAA.AA.AAO.O..",
                 "..?A.AAA.AA.AAA.A..",
                 "..AAA??.?AAAAAAAAA."
               ],
@@ -3540,7 +3434,7 @@
                 "..AAAAAAOOAAAAA....",
                 "..AAAAAAOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOOAAAA..",
                 "..AAAAA?????AAAAAA."
               ],
               "layoutKey": "14825"

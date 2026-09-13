@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T22:50:38.542Z",
+  "updatedAt": "2026-09-13T23:55:20.148Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
@@ -995,52 +995,6 @@
         "..SSSSSSSSSSSSSSSS..",
         "...WWCCSSSSSSSSSCW..",
         "...................."
-      ]
-    },
-    "268453": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSCW.WCSSS..",
-        "..............."
-      ]
-    },
-    "268454": {
-      "totalRows": 8,
-      "totalColumns": 17,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "...WWCCSSSSSSSS..",
-        "................."
       ]
     },
     "268456": {
@@ -3257,10 +3211,10 @@
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAA??OOOOAA..AA",
+                "AA..OOAAAA??OOOOAA..AA",
                 "AA..A?AA?AOOOOAAAA..AA",
                 "AA..AAAAOOOOOAAAAA..AA",
-                "AA..AAAAAOOOOAAAAA..??",
+                "AA..AAAAAOOOOAOAAA..??",
                 "AA..AA?AAOOOOAAAAA..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
@@ -3336,7 +3290,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAA?AAA?..",
                 "..AAAAAAAAAA??AAAA..",
-                "..AAAAAAAAAAAAAAOO..",
+                "..AAOOAAAAAAAAAAOO..",
                 "..AAAAAAAAAA??AAAA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...................."
@@ -3360,7 +3314,7 @@
                 "..AAAAA?AAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAA?AAAA..",
-                "..?AAOOOAAAAA..",
+                "..?OOOOOAAAAA..",
                 "..AAAA?AAOOAA..",
                 "..AAAAAAAAAAA..",
                 "..............."
@@ -3388,7 +3342,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAA?AAAAA..",
-                "...AAAAAAOOAAAAAAA..",
+                "...AAAAAAAAAAAAAAA..",
                 "...................."
               ],
               "layoutKey": "268456"
@@ -3425,23 +3379,6 @@
           "runtimeMinutes": 106,
           "sessions": [
             {
-              "time": "16:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268453&a=0000000001&l=4108&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "..AAAAAAAAAA?..",
-                "..AAAAAAAAAAA..",
-                "..AAAAOOAAAAA..",
-                "..OOAAOOAAAAA..",
-                "..AAA?OOOOAAA..",
-                "..AAAAA.AAAAA..",
-                "..............."
-              ],
-              "layoutKey": "268453"
-            },
-            {
               "time": "19:15",
               "formats": [
                 "Recliner"
@@ -3451,37 +3388,12 @@
                 "..AAAAAAAAAA?..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAAOOAAAA..",
                 "..AAA?AAAAAAA..",
                 "..OOAAA.AAAAA..",
                 "..............."
               ],
               "layoutKey": "268461"
-            }
-          ]
-        },
-        {
-          "title": "Mirzapur: The Movie (Hindi w/e.s.t.)",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62014_320_470.jpg",
-          "runtimeMinutes": 195,
-          "sessions": [
-            {
-              "time": "17:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268454&a=0000000001&l=4108&m=mirzapur-the-movie-hindi-west&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..??AAAAAAAAAAA..",
-                "..OOAAAOOAAAAAA..",
-                "..AAAAOOAAAOOAA..",
-                "..OOAAAOOOOOAA?..",
-                "...AAAAOA?AAOOO..",
-                "................."
-              ],
-              "layoutKey": "268454"
             }
           ]
         }
