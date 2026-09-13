@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T22:18:27.415Z",
+  "updatedAt": "2026-09-13T22:51:06.381Z",
   "theatre": {
     "id": 7289,
     "name": "Cineplex Odeon Oshawa Cinemas"
@@ -3315,58 +3315,6 @@
         "..SSSSSSSSSSSS.."
       ]
     },
-    "257964": {
-      "totalRows": 8,
-      "totalColumns": 18,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "......SSSSSS......",
-        "..................",
-        ".....SWCCWWCCW....",
-        "...SSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS.."
-      ]
-    },
-    "257965": {
-      "totalRows": 10,
-      "totalColumns": 24,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        ".....SSSSSSSSSSSSSS.....",
-        "........................",
-        "....SSCWCCWCCWWCCWCC....",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS.."
-      ]
-    },
     "257966": {
       "totalRows": 8,
       "totalColumns": 17,
@@ -6383,9 +6331,9 @@
                 "....................",
                 "...AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAOOAAAAAAAAA..",
-                "..AAAAAAAOOAAAAAAA..",
-                "..AAAAOOAAOOAAAAAA..",
+                "..AAAAAOOAAOAAAAAA..",
+                "..AAOOAAAOOAAAAAAA..",
+                "..AAAAOOAAOOAAOOOA..",
                 "..AA?AAAAAAAAAAAOO.."
               ],
               "layoutKey": "256831"
@@ -6406,9 +6354,9 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOOAAAAAAAA..",
                 "..AAAAAAAAAOOAAAOOAAAA..",
-                "..OAAAAAAAOOAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAA??AAAAAAAA??AAAA..",
+                "..OAAAOOAAOOAAAAAAAAAA..",
+                "..AAAAAAAAAOOAAAAAAAAA..",
+                "..AAAA??AAAOAAAA??AAAA..",
                 "..AA.AAA.....?AA.AAA.A.."
               ],
               "layoutKey": "257968"
@@ -6428,9 +6376,9 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOOAAAAAAAA..",
                 "..AAAAAAAAAOOAAAOOAAAA..",
-                "..OAAAAAAAOOAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAA??AAAAAAAA??AAAA..",
+                "..OAAAOOAAOOAAAAAAAAAA..",
+                "..AAAAAAAAAOOAAAAAAAAA..",
+                "..AAAA??AAAOAAAA??AAAA..",
                 "..AA.AAA.....?AA.AAA.A.."
               ],
               "layoutKey": "257968"
@@ -6514,11 +6462,11 @@
                 ".....AAAAAA......",
                 ".................",
                 "..AAAAAAAAA......",
-                "..AAAAAAAAAAAA...",
+                "..AAAAAOAAAAAA...",
                 "..OOAAAAAAAAAA...",
-                "..A?OAAOOAAAAA...",
+                "..A?AAAOOAAAAA...",
                 "..AAAAOO??AAAA...",
-                "..OOAAAAAAAAAAA.."
+                "..OOAAAAOOAAAAA.."
               ],
               "layoutKey": "257966"
             },
@@ -6547,27 +6495,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=257965&a=0000000001&l=7289&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".....AAAAAAAAAAAAAA.....",
-                "........................",
-                "....AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAOAAAAAAAAAA..",
-                "..AAOOAAAAAAAOOOOAAAAA..",
-                "..AAAAAAAAAOOAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAOAAAAAAAAAO.."
-              ],
-              "layoutKey": "257965"
-            },
             {
               "time": "21:55",
               "formats": [
@@ -6627,14 +6554,14 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=257969&a=0000000001&l=7289&m=oasis-dont-look-back-in-anger&ss=False",
               "seats": [
-                "......AAAAAA.....",
+                "......??????.....",
                 ".................",
-                "....AAAAAAAAAA...",
-                "...AAAAAAAAAAAA..",
-                "...AAAAAAAAAAAA..",
-                "...AAAAAOAAAAAA..",
-                "...AAAAAAOOAAAA..",
-                "..AAAAAAAAAAAAA.."
+                "....??????????...",
+                "...????????????..",
+                "...????????????..",
+                "...????????????..",
+                "...????????????..",
+                "..?????????????.."
               ],
               "layoutKey": "257969"
             },
@@ -6663,24 +6590,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
           "sessions": [
-            {
-              "time": "18:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=257964&a=0000000001&l=7289&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......AAAAAA......",
-                "..................",
-                ".....AAAAAAAAA....",
-                "...AAAAAAAAAAAA...",
-                "..AAAAOOOOOOAAA...",
-                "..AAAAAOOOOAAAA...",
-                "..AA?AAAAAAAAAA...",
-                "..OOOAAAOOAAAAAO.."
-              ],
-              "layoutKey": "257964"
-            },
             {
               "time": "21:00",
               "formats": [
@@ -6718,7 +6627,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAOOAAAAAAA..",
                 "..AAAAAOOAAA?A..",
-                "..AAAAAO?AAAAA.."
+                "..AAAAAO?AAAOO.."
               ],
               "layoutKey": "257958"
             },
@@ -6757,7 +6666,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAA?AAAAAAA..",
                 "..AAAAAOOAAAAA..",
-                "..OOOAAOOAAAOO.."
+                "..OOOAAOOAAOOO.."
               ],
               "layoutKey": "257967"
             },
@@ -6795,9 +6704,9 @@
                 "...AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
-                "..AAOOAAAOOAAAAAOO.."
+                "..AAOOAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAA..",
+                "..AAOOAAAOOAAAOOOO.."
               ],
               "layoutKey": "257984"
             },
@@ -8069,7 +7978,7 @@
                 "...AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AA?AAAAAAAAAAAAA.."
               ],

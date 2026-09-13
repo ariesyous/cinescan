@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T22:17:51.037Z",
+  "updatedAt": "2026-09-13T22:50:28.912Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -105,32 +105,6 @@
         "SSSCW.WCSSS.."
       ]
     },
-    "125394": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSCW.WCSS..SSS",
-        "SCW..............SSS"
-      ]
-    },
     "125397": {
       "totalRows": 5,
       "totalColumns": 16,
@@ -169,34 +143,6 @@
         "SSSSSSSSSSSSSS",
         "SSSSSSSSSSSSSS",
         "SS..CW..WC..CW"
-      ]
-    },
-    "125402": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS...SSSSCWWCSSS..SSS",
-        "SCW..................."
       ]
     },
     "125403": {
@@ -806,25 +752,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "15:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125394&a=0000000001&l=1410&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAA..AAAAAAAAAA..???",
-                "AAA..AAAAAAOOOO..AAA",
-                "AAA..OOOOOOOOO?..AAA",
-                "AAA..OOAAOOAOOO..AAA",
-                "AAA..OOOOOOO?OO..AAA",
-                "AAA..OOOOOOAOOO..OOO",
-                "AOO..OOOOOO?OOA..OOA",
-                "AAA..OOAAA.AAOA..OAA",
-                "???..............???"
-              ],
-              "layoutKey": "125394"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Recliner"
@@ -838,7 +765,7 @@
                 "AAA..OOAAOOO?OO..AAA",
                 "AAA..OOAOOOOOOO..AAA",
                 "AAA..AAOOOO?OOO..AAA",
-                "AAA..OOOOA.AAAA..AAA",
+                "AAA..OOOOA.AAAO..AAA",
                 "???..............???"
               ],
               "layoutKey": "125403"
@@ -850,26 +777,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "15:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125402&a=0000000001&l=1410&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "A??..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAOOOAOAAA..AAA",
-                "AAA..OOOA?AAOOOAA..AAA",
-                "AAA..AAOOAOOOAAAA..OOA",
-                "AAA..OOOOOO?AAAOO..AAA",
-                "AAA..OOOOOAAAOOAA..AAA",
-                "AAA...AAAAAAAAA?A..AAA",
-                "???..................."
-              ],
-              "layoutKey": "125402"
-            },
             {
               "time": "18:40",
               "formats": [
@@ -910,7 +817,7 @@
                 "AAAAAAAAAAAAAA",
                 "AAAA?OOOOA..AA",
                 "AAAOAAOAAAAOOA",
-                "OOAAAAAOOAAAAA",
+                "OOAAAAAOOOOOOA",
                 "OO..AA..AA..AA"
               ],
               "layoutKey": "125400"
@@ -929,9 +836,9 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125397&a=0000000001&l=1410&m=coyote-vs-acme-2026&ss=False",
               "seats": [
-                "AA..AAAAAAAA..AA",
-                "AA..AAA?OOOA..AA",
-                "AA..OOOOOA??..?A",
+                "AA..AAOOOAAA..OO",
+                "AA..OOA?OOOA..OO",
+                "OO..OOOOOA??..?A",
                 "?O..OOOOOOOO..OO",
                 "OO...AAOOOAA..OO"
               ],
@@ -969,9 +876,9 @@
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
-                "AAAAAAAAAAA..",
+                "AAOOOOOAAAAAA",
+                "AAAAAOOAAAAAA",
+                "AAAOOAAAAAA..",
                 "AAAAA.AAAAA.."
               ],
               "layoutKey": "125392"
@@ -986,7 +893,7 @@
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
-                "AAAOOOOOAAAAA",
+                "AAAAOOOOOAAAA",
                 "AAAAAOOAAAAAA",
                 "AAAAAAAAAOO..",
                 "AAAAA.AAAAA.."
