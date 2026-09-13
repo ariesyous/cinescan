@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T19:12:20.375Z",
+  "updatedAt": "2026-09-13T20:09:45.058Z",
   "theatre": {
     "id": 9153,
     "name": "Cinéma Cineplex Odeon Carrefour Dorion"
@@ -889,36 +889,6 @@
         ".................."
       ]
     },
-    "196377": {
-      "totalRows": 11,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        ".SSSSSSSSS...",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSSS.",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSSS.",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSSS.",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSSS.",
-        ".WCSCW.......",
-        "............."
-      ]
-    },
     "196378": {
       "totalRows": 11,
       "totalColumns": 13,
@@ -1004,38 +974,6 @@
         "..SSSSSSSSSSSSSSS.",
         ".SSSSSSSSSSSSSSSS.",
         ".........WCSSSSCW.",
-        ".................."
-      ]
-    },
-    "196381": {
-      "totalRows": 12,
-      "totalColumns": 18,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null,
-        null
-      ],
-      "seatTypes": [
-        "....SSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        ".........WCSSSSCW.",
-        "..................",
         ".................."
       ]
     },
@@ -2421,12 +2359,12 @@
                 "...AAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAOAAAAAAA.",
                 "..AAAAAOOAAAAAAAA.",
                 ".AAAAAAAOOOOAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
-                ".........AAAAAAAA.",
+                ".........AAOAAAAA.",
                 ".................."
               ],
               "layoutKey": "196380"
@@ -2467,13 +2405,13 @@
               "seats": [
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAA.",
+                "...AAAAAAOAAAAAAA.",
+                "..AAAAAAAOOAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAOO.",
+                ".AAAAAAAAOAAAAAAA.",
                 "........?AAAAAAAA.",
                 "..................",
                 ".................."
@@ -2509,28 +2447,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61565_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "15:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196381&a=0000000001&l=9153&m=vf-spiderman-un-jour-nouveau&ss=False",
-              "seats": [
-                "....AAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAOOOOAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".........AAAAAAAA.",
-                "..................",
-                ".................."
-              ],
-              "layoutKey": "196381"
-            },
             {
               "time": "19:00",
               "formats": [
@@ -2684,34 +2600,6 @@
           ]
         },
         {
-          "title": "La Pat'Patrouille : le film mission Dino",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61786_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "15:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196377&a=0000000001&l=9153&m=la-patpatrouille-le-film-mission-dino&ss=False",
-              "seats": [
-                ".AAAAAAAAA...",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAA.......",
-                "............."
-              ],
-              "layoutKey": "196377"
-            }
-          ]
-        },
-        {
           "title": "Vincent et la prophétie des mers",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61579_320_470.jpg",
           "runtimeMinutes": 91,
@@ -2726,9 +2614,9 @@
                 "..AAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
-                ".OOAAAA?AAAAAAAA.",
+                ".AAAAAA?AAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
-                ".AAAAAA???A.AAAA.",
+                ".AAAOOA???A.AAAA.",
                 "...A?.AAA.?A....."
               ],
               "layoutKey": "196396"
@@ -2769,7 +2657,7 @@
                 "..AAAAAAAAAAAA.",
                 ".AAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAA..",
+                ".AOAAAAAAAAAA..",
                 ".AAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAA.",
