@@ -1,36 +1,10 @@
 {
-  "updatedAt": "2026-09-13T21:23:32.982Z",
+  "updatedAt": "2026-09-13T22:18:43.600Z",
   "theatre": {
     "id": 7268,
     "name": "Galaxy Cinemas Waterloo"
   },
   "auditoriums": {
-    "276440": {
-      "totalRows": 9,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "........WWWSSSS.......",
-        ".....SSSSCWW..WCSSS...",
-        ".....SSSSSSSSSSSSSS...",
-        ".....SSSSSSSSSSSSSS...",
-        ".....SSSSSSSSSSSSSS...",
-        ".....SSSSSSSSSSSSSS...",
-        ".SS..SSSSSSSSSSSSSS...",
-        ".SS..SSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "276441": {
       "totalRows": 15,
       "totalColumns": 24,
@@ -719,7 +693,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAOOAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAAOOAAAAAAA..",
                 "AA..AAAAAAAOOOAAAA?AAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAA?OOAAAAAAAAAA"
@@ -774,10 +748,10 @@
                 "..AAAAAAAAAAAAAA........",
                 "..AAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAOAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAOOOOAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAAAA..AA.",
                 "AAAAAAAAAAAOOAAAAAAAAAA?"
               ],
@@ -815,25 +789,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
           "runtimeMinutes": 172,
           "sessions": [
-            {
-              "time": "17:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276440&a=0000000001&l=7268&m=the-odyssey&ss=False",
-              "seats": [
-                "........AAAAAAA.......",
-                ".....AAAAAAA..AAAAA...",
-                ".....AAAAAAAAAAAAAA...",
-                ".....AAAAOAAAAAAAAA...",
-                ".....AAAAAAAAAAAAAA...",
-                ".....AAAAAAAAAAAAAA...",
-                ".AA..AAAAAAOOAAAAAA...",
-                ".AA..AAAAOOAAAAAAAA...",
-                "?AAAAAAAAAAOAOOOOAAAAA"
-              ],
-              "layoutKey": "276440"
-            },
             {
               "time": "21:00",
               "formats": [
@@ -874,9 +829,9 @@
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAOOOOAAAAAAA..",
                 "AA..AAAAAAAOOAAAAAAAA..",
-                "AA..AAAAAAOOAAAAAAAAA..",
-                "?A..AAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAOOAAAAAAAAAAA"
+                "AA..AOOOOAOOAAAAOOAAA..",
+                "?A..OOOOOOOAAAOAAAAAA..",
+                "AAAAAAOOAAOOAAAAAAAOAAA"
               ],
               "layoutKey": "276443"
             },
@@ -1077,7 +1032,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAOOOOOOAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAA?AAAAAA..",
+                "AA..AAAAAAAAAOOAAA?AAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAA?AAAAAAAAAAAA"
               ],
