@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T22:24:26.520Z",
+  "updatedAt": "2026-09-14T23:03:17.741Z",
   "theatre": {
     "id": 3152,
     "name": "Cineplex Cinemas East Hills"
@@ -565,30 +565,6 @@
         ".SSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "59147": {
-      "totalRows": 8,
-      "totalColumns": 22,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSSSSS..",
-        "......................",
-        ".....CWWCSSSSSSSSWC...",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "59148": {
       "totalRows": 8,
       "totalColumns": 22,
@@ -699,36 +675,6 @@
         "..SSSSSSSSS....",
         "..SSSSSSSSSSS..",
         ".SSSSSSSSSSSSSS"
-      ]
-    },
-    "59155": {
-      "totalRows": 13,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null,
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "................",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSS...",
-        "................",
-        "...WWCSSSSS.....",
-        ".....SSSSSSSS...",
-        "................"
       ]
     },
     "59156": {
@@ -2290,25 +2236,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "16:25",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59147&a=0000000001&l=3152&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "59147"
-            },
-            {
               "time": "18:40",
               "formats": [
                 "Recliner"
@@ -2417,7 +2344,7 @@
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAA"
+                ".AAAAAAAOOAAAAAAAA"
               ],
               "layoutKey": "59152"
             }
@@ -2445,34 +2372,6 @@
                 "OOAAAAAAAAAAAAAAAAAAOO"
               ],
               "layoutKey": "59148"
-            }
-          ]
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "16:15",
-              "formats": [
-                "Clubhouse"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59155&a=0000000001&l=3152&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                "................",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAA...",
-                "................",
-                "...AAAAOOAA.....",
-                ".....AAAAAAAA...",
-                "................"
-              ],
-              "layoutKey": "59155"
             }
           ]
         },
@@ -4473,16 +4372,16 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=58916&a=0000000004&l=3152&m=resident-evil-2026&ss=False",
               "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                ".OOOOOOOOOOOOOOOOOOOOOOOOO..",
                 "............................",
-                "...AA.AAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAA?.AAAAAA?.AAAAAAA.AAA.."
+                "...OO.OOOOOOOOOOOOOOOOOOO...",
+                "..OOOOOOOOOOOOOOOOOOOOOOO...",
+                "..OOOOOOOOOOOOOOOOOOOOOOO...",
+                "..OOOOOOOOOOOOOOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOOOOOOOOOOOO..",
+                "..OOOO.OOOOOOO.OOOOOOO.OOO.."
               ],
               "layoutKey": "58916"
             },
@@ -4495,16 +4394,16 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=58916&a=0000000001&l=3152&m=resident-evil-2026&ss=False",
               "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                ".OOOOOOOOOOOOOOOOOOOOOOOOO..",
                 "............................",
-                "...AA.AAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAA?.AAAAAA?.AAAAAAA.AAA.."
+                "...OO.OOOOOOOOOOOOOOOOOOO...",
+                "..OOOOOOOOOOOOOOOOOOOOOOO...",
+                "..OOOOOOOOOOOOOOOOOOOOOOO...",
+                "..OOOOOOOOOOOOOOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOOOOOOOOOOOO..",
+                "..OOOO.OOOOOOO.OOOOOOO.OOO.."
               ],
               "layoutKey": "58916"
             }
