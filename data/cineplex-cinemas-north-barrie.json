@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T23:03:29.525Z",
+  "updatedAt": "2026-09-14T23:41:05.969Z",
   "theatre": {
     "id": 7135,
     "name": "Cineplex Cinemas North Barrie"
@@ -2683,100 +2683,6 @@
         "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "102137": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "......................",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "......................",
-        ".....CW.WCCW.CCCW.WC..",
-        ".....SSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSS..",
-        "SS...SSSSSSSSSSSSSSS..",
-        "SS...SSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "102138": {
-      "totalRows": 11,
-      "totalColumns": 17,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        ".................",
-        "...SSSSSSSSSSSS..",
-        ".................",
-        ".....CW.CC.C.WC..",
-        ".....SSSSSSSSSS..",
-        ".....SSSSSSSSSS..",
-        ".....SSSSSSSSSS..",
-        ".....SSSSSSSSSS..",
-        "SS...SSSSSSSSSS..",
-        "SS...SSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "102141": {
-      "totalRows": 13,
-      "totalColumns": 28,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "............................",
-        "...SSSSSSSSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSSSSSSS...",
-        "............................",
-        ".....CW.CCW..WCCW.WCCW..WC..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSSSS..",
-        "SS...SSSSSSSSSSSSSSSSSSSSS..",
-        "SS...SSSSSSSSSSSSSSSSSSSSS..",
-        "SS...SSSSSSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "102144": {
       "totalRows": 11,
       "totalColumns": 20,
@@ -3791,64 +3697,6 @@
       "date": "2026-09-14",
       "movies": [
         {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102141&a=0000000001&l=7135&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAOOOAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAOOOAAAAAAAAA..",
-                "AAAOOOOAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102141"
-            }
-          ]
-        },
-        {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "19:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102138&a=0000000001&l=7135&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                ".................",
-                "...AAAAAAAAAAAA..",
-                ".................",
-                ".....AA.AA.A.AA..",
-                ".....AAAAAAAAAA..",
-                ".....AAAAAAAAAA..",
-                ".....AAAAAAAAAA..",
-                ".....AAAAAAAAAA..",
-                "AA...AAAAAAAAAA..",
-                "AA...AAAAAAAAAA..",
-                "AAAAAAAAOOAAAAAAA"
-              ],
-              "layoutKey": "102138"
-            }
-          ]
-        },
-        {
           "title": "Buddy",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61883_320_470.jpg",
           "runtimeMinutes": 96,
@@ -3866,41 +3714,13 @@
                 ".A.AA.AAA.AA.AA.....",
                 ".AAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
+                ".AAAAAAOOAAAAAA.....",
+                ".AAAAOOOAAAOOAA.....",
                 ".AAAAAAAAAAAAAA...AA",
-                ".AAAAAAAAAAOOOA...AA",
+                ".OOOAAAAAAAOOOA...AA",
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "102144"
-            }
-          ]
-        },
-        {
-          "title": "Insidious: Out of the Further",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "19:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102137&a=0000000001&l=7135&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102137"
             }
           ]
         }
@@ -3986,10 +3806,10 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAA???AAAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAOOOOOAAAAAAA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
-                "..AAAOOAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAOOAAAAAAAOOAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAOOAAAAAAAOOO..AA"
               ],
               "layoutKey": "102149"
@@ -4012,10 +3832,10 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAA???AAAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAOOOOOAAAAAAA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
-                "..AAAOOAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAOOAAAAAAAOOAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAOOAAAAAAAOOO..AA"
               ],
               "layoutKey": "102149"
@@ -4772,7 +4592,7 @@
                 "..AA.AAAA.AAAA.OOAA.AAAA.AA..AA",
                 "..OO.AAOO.OAAO.OAAA.AAAA.AA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAOOAAAAAAAAAAA..AA"
+                "..AAAAAAAAOOAAOOAAAAAAAAAAA..AA"
               ],
               "layoutKey": "101857"
             },
@@ -4798,7 +4618,7 @@
                 "..AA.AAAA.AAAA.OOAA.AAAA.AA..AA",
                 "..OO.AAOO.OAAO.OAAA.AAAA.AA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAOOAAAAAAAAAAA..AA"
+                "..AAAAAAAAOOAAOOAAAAAAAAAAA..AA"
               ],
               "layoutKey": "101857"
             }
@@ -5470,7 +5290,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAOOAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAA???AAAOOOOOOOOOAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
@@ -5496,7 +5316,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAOOAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAA???AAAOOOOOOOOOAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
