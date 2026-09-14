@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T03:43:35.791Z",
+  "updatedAt": "2026-09-14T05:55:59.030Z",
   "theatre": {
     "id": 7291,
     "name": "Galaxy Cinemas Brantford"
@@ -798,6 +798,74 @@
       ]
     },
     "169694": {
+      "totalRows": 13,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "............................",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
+        "............................",
+        "........WWCSSSSSWSSSCW.WCS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        "SS....SSSSSSSSSSSSSSSSSSS...",
+        "SS....SSSSSSSSSSSSSSSSSSS...",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "169695": {
+      "totalRows": 13,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "............................",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
+        "............................",
+        "........WWCSSSSSWSSSCW.WCS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        "SS....SSSSSSSSSSSSSSSSSSS...",
+        "SS....SSSSSSSSSSSSSSSSSSS...",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "169696": {
       "totalRows": 13,
       "totalColumns": 28,
       "rowLabels": [
@@ -2305,7 +2373,7 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAOAAAAAAAAAAA"
               ],
               "layoutKey": "169765"
             }
@@ -2741,7 +2809,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAA...AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAAAA..AA"
+                "..AAAAAAAAAAAAAAAAAAAAAAAAAOO..AA"
               ],
               "layoutKey": "169802"
             }
@@ -3813,6 +3881,52 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "169694"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=169695&a=0000000001&l=7291&m=forgotten-island&ss=False",
+              "seats": [
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "............................",
+                "........AAAAAAAAAAAAAA.AAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA....AAAAAAAAAAAAAAAAAAA...",
+                "AA....AAAAAAAAAAAAAAAAAAA...",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "169695"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=169696&a=0000000001&l=7291&m=forgotten-island&ss=False",
+              "seats": [
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "............................",
+                "........AAAAAAAAAAAAAA.AAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA....AAAAAAAAAAAAAAAAAAA...",
+                "AA....AAAAAAAAAAAAAAAAAAA...",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "169696"
             }
           ]
         }

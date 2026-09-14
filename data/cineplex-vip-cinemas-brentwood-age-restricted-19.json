@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T03:43:31.428Z",
+  "updatedAt": "2026-09-14T05:55:56.649Z",
   "theatre": {
     "id": 1158,
     "name": "Cineplex VIP Cinemas Brentwood (age restricted 19+)"
@@ -398,62 +398,6 @@
       ]
     },
     "33093": {
-      "totalRows": 10,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "..............",
-        "....SSSSSS....",
-        "..............",
-        "...CW.WCSSSWC.",
-        "...SSSSSSSSSS.",
-        "...SSSSSSSSSS.",
-        "...SSSSSSSSSS.",
-        ".SSSSSSSSSSSS.",
-        ".SSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS"
-      ]
-    },
-    "33203": {
-      "totalRows": 10,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "..............",
-        "....SSSSSS....",
-        "..............",
-        ".CWSSSCW.WC...",
-        ".SSSSSSSSSS...",
-        ".SSSSSSSSSS...",
-        ".SSSSSSSSSS...",
-        ".SSSSSSSSSSSS.",
-        ".SSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS"
-      ]
-    },
-    "33204": {
       "totalRows": 10,
       "totalColumns": 14,
       "rowLabels": [
@@ -985,30 +929,6 @@
         "SSSSSSSSSSSSSS"
       ]
     },
-    "33284": {
-      "totalRows": 8,
-      "totalColumns": 12,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "............",
-        "...SSSSSS...",
-        "............",
-        ".CW.SSSSSWC.",
-        ".SSSSSSSSSS.",
-        ".SSSSSSSSSS.",
-        ".SSSSSSSSSS.",
-        "SSSSSSSSSSSS"
-      ]
-    },
     "33285": {
       "totalRows": 8,
       "totalColumns": 12,
@@ -1210,93 +1130,6 @@
   },
   "days": [
     {
-      "date": "2026-09-13",
-      "movies": [
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "21:15",
-              "formats": [
-                "VIP 19+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33204&a=0000000001&l=1158&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                "....AAAAAA....",
-                "..............",
-                "...AA.AAAAAAA.",
-                "...AAAAAAAAAA.",
-                "...AAOOOOAAOO.",
-                "...AAOOOOAAAA.",
-                ".AAAAAAOOAAAA.",
-                ".AAAAOOAAAAAA.",
-                "AAAAAA??OOOAAA"
-              ],
-              "layoutKey": "33204"
-            }
-          ]
-        },
-        {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
-          "sessions": [
-            {
-              "time": "21:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33284&a=0000000001&l=1158&m=runner&ss=False",
-              "seats": [
-                "............",
-                "...AAAAAA...",
-                "............",
-                ".AA.AAAAAAA.",
-                ".AAAAAAAAAA.",
-                ".AAAAAOAAAA.",
-                ".?OAAOOAAA?.",
-                "OOAAAAOOAAAA"
-              ],
-              "layoutKey": "33284"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "20:45",
-              "formats": [
-                "VIP 19+",
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33203&a=0000000001&l=1158&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..............",
-                "....AAAAAA....",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAAAAAAAA...",
-                ".AAAAOOAAA?...",
-                ".OOAAOOOOAA...",
-                ".AAOOOOOOAAOO.",
-                ".AAAAOOOOAAAA.",
-                "AAAAOOOAAAOOOO"
-              ],
-              "layoutKey": "33203"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-14",
       "movies": [
         {
@@ -1344,7 +1177,7 @@
                 "............",
                 ".AA.AAAAAAA.",
                 ".AAAAAAAAAA.",
-                ".AAAAAAAAAA.",
+                ".AAAAOOAAAA.",
                 ".?AAAAAAAA?.",
                 "AAAAAAAAAAAA"
               ],
@@ -1420,7 +1253,7 @@
                 "...AAAOOOOO?A.",
                 "...AAAAAAAAOO.",
                 ".AAAAAAOOAAAA.",
-                ".AAAAAAAAAAAA.",
+                ".AAAAOOOAAAAA.",
                 "AAAAAAAAAAAAAA"
               ],
               "layoutKey": "33244"
@@ -1493,7 +1326,7 @@
                 "...AA.AAAAAAA.",
                 "...AAAAOOAAAA.",
                 "...AAAAAAAAAA.",
-                "...AAAAOOAAAA.",
+                "...AAOOOOAAAA.",
                 ".AOOOAOOOAAAA.",
                 ".OOOOOOOOAAAA.",
                 "AAAAOOOOOOAAAA"
@@ -1580,7 +1413,7 @@
                 "............",
                 ".AA.AAAAAAA.",
                 ".AAAAAAAAAA.",
-                ".AAOAOOAAAA.",
+                ".AAAAOOAAAA.",
                 ".?AOOOAOOO?.",
                 "AAAAOOOAAAOO"
               ],
@@ -1625,7 +1458,7 @@
                 ".AAAAAAAAAA...",
                 ".AOOOOOOOAAAA.",
                 ".AAOOOOOOAAAA.",
-                "AAAOOOOOAAAAOO"
+                "AAAOOOOOOOAAOO"
               ],
               "layoutKey": "33249"
             }
@@ -1652,7 +1485,7 @@
                 "...AAAAAAAA?A.",
                 "...OOAAOOAAAA.",
                 ".AAOOAAAAAAAA.",
-                ".AAAAAAAAAAAA.",
+                ".AAAOOOOOAAAA.",
                 "AAOOAAOOOAAAAA"
               ],
               "layoutKey": "33255"
@@ -1671,7 +1504,7 @@
                 "...AAAAOOOOOOAA.",
                 "...OOOOOOOOOOOO.",
                 "...OOOOOOOOOOOO.",
-                "..OOOOOOOOOOOOAA"
+                "..OOOOOOOOOOOOOO"
               ],
               "layoutKey": "33247"
             },
@@ -1691,8 +1524,8 @@
                 "...AAAAAAAA?A.",
                 "...AAAAOOAAAA.",
                 ".AAAAOOOOOAAA.",
-                ".AAAAAAOOAAAA.",
-                "AAAAAAAAAAAAAA"
+                ".AAAAOOOOAAAA.",
+                "AAAAAAOOAAAAAA"
               ],
               "layoutKey": "33248"
             }
@@ -1853,7 +1686,7 @@
                 "....AAAAAA....",
                 "..............",
                 "...AA.AAAAAAA.",
-                "...AAAAAAAAAA.",
+                "...AAOOAAAAAA.",
                 "...AAOOOOAA?A.",
                 "...OOOOOAOOOA.",
                 ".AAAAOOOAAOOO.",
@@ -1964,7 +1797,7 @@
                 "...AAOOOAAAAA.",
                 "...OOAAOOAAAA.",
                 ".AAOOOOOOAAOO.",
-                ".AAAAAAOOAAAA.",
+                ".OOOAAAOOAAAA.",
                 "OAAAOOAOOOAAAA"
               ],
               "layoutKey": "33076"
@@ -2040,7 +1873,7 @@
                 "...AAAAOOAAAA.",
                 ".AAAAOOAAAAAA.",
                 ".AAAAAAAAOOAA.",
-                "AAAAAAOOOOAAAA"
+                "AAAAOOOOOOAAAA"
               ],
               "layoutKey": "33080"
             }
@@ -2114,7 +1947,7 @@
                 "...AAOOOOOOOO.",
                 "...AAAAOOAAAA.",
                 ".OOOOOAOOAAAA.",
-                ".AAAAOOAAAAAA.",
+                ".AAAAOOOOAAAA.",
                 "OOOOAAOOAAAAOO"
               ],
               "layoutKey": "33083"
@@ -2297,7 +2130,7 @@
                 "...AAAAAAAAAA.",
                 "...AAAAAAAAAA.",
                 ".AAAAAOOOAAAA.",
-                ".AAAAOOOAAAAA.",
+                ".AAAAOOOAOOAA.",
                 "AAAAAAOOAAAAOO"
               ],
               "layoutKey": "33093"
