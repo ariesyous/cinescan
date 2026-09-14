@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T21:19:46.811Z",
+  "updatedAt": "2026-09-14T22:24:16.062Z",
   "theatre": {
     "id": 9121,
     "name": "Cinéma Cineplex Royalmount"
@@ -537,64 +537,6 @@
         "..SSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSS."
-      ]
-    },
-    "14887": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...................",
-        "....CW.WCSSSCW.WC..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "14888": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...................",
-        "...CW.WCSSSSCW.WC..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
       ]
     },
     "14897": {
@@ -1927,8 +1869,8 @@
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAAOAAAAA....",
                 "..OOOOAAAAAAAAA....",
-                "..AAAAAAAAAAOOO....",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAOOAAAOOO....",
+                "..OOAAAAAAAAAAAAA..",
                 "..?AAAAAOOAAAAAAA..",
                 "..AA.AAA.AA.AAO.O..",
                 "..?A.AAA.AA.AAA.A..",
@@ -1949,8 +1891,8 @@
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAAOAAAAA....",
                 "..OOOOAAAAAAAAA....",
-                "..AAAAAAAAAAOOO....",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAOOAAAOOO....",
+                "..OOAAAAAAAAAAAAA..",
                 "..?AAAAAOOAAAAAAA..",
                 "..AA.AAA.AA.AAO.O..",
                 "..?A.AAA.AA.AAA.A..",
@@ -2011,28 +1953,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "18:00",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14887&a=0000000001&l=9121&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...................",
-                "....??.??AAA??.??..",
-                "....AAAAAAAAAAAA?..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAOOOOAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "..AAAAAAOOOAAAAAA..",
-                "..AAAAOOAAAAAAAAA..",
-                "..AAAAAAAOOOOAAAA..",
-                "AAAAAAAAAAAAAAAAAA?"
-              ],
-              "layoutKey": "14887"
-            },
-            {
               "time": "21:20",
               "formats": [
                 "3D",
@@ -2045,7 +1965,7 @@
                 "....AAAAAAAAAAAA?..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
+                "....AAAAAAOAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "..AAAAAAAOOAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
@@ -2061,27 +1981,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
           "runtimeMinutes": 172,
           "sessions": [
-            {
-              "time": "17:30",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14888&a=0000000001&l=9121&m=the-odyssey&ss=False",
-              "seats": [
-                "...................",
-                "...AA.AAAAAAAA.AA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAOOOOOOAAAAA..",
-                ".AAAAAAAOOOAAAAAA..",
-                ".AAAAAAAAOOAAAAAA..",
-                "AAAAOOAAA?AAAAAAAAA"
-              ],
-              "layoutKey": "14888"
-            },
             {
               "time": "21:00",
               "formats": [
@@ -2123,10 +2022,10 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAA?AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAOOAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
-                ".AAAAAAA?AAAAAAAAA."
+                ".AAAAAAA?OAAAAAAAA."
               ],
               "layoutKey": "14904"
             }
@@ -2177,8 +2076,8 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
+                "..AAAAAOOOAAAAA....",
+                "..AAAAAAOOAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAOOAAAAAAA..",
                 "..AAAAAAAAAAAOOAA..",
@@ -2324,7 +2223,7 @@
                 "..AAAAOOOOOAAAA....",
                 "..OOOAAOOOOAAOO....",
                 "..OOOOOOOOOOOOOOO..",
-                "..?OOAAOOOOOOAOOO..",
+                "..?OOOAOOOOOOAOOO..",
                 "..AA.AAA.AA.AAA.A..",
                 "..?A.AAA.AA.AAA.A..",
                 "..AAA??.?OOAAOOOOO."
@@ -2346,7 +2245,7 @@
                 "..AAAAOOOOOAAAA....",
                 "..OOOAAOOOOAAOO....",
                 "..OOOOOOOOOOOOOOO..",
-                "..?OOAAOOOOOOAOOO..",
+                "..?OOOAOOOOOOAOOO..",
                 "..AA.AAA.AA.AAA.A..",
                 "..?A.AAA.AA.AAA.A..",
                 "..AAA??.?OOAAOOOOO."
@@ -2419,7 +2318,7 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAA?"
@@ -2533,7 +2432,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAA?AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
+                "...AOOAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAA?AAAAAAAAA."
@@ -2578,7 +2477,7 @@
                 "...AA.AAAAAAAA.AA..",
                 "...AAAAAAAA?AAAAA..",
                 "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAOOAAAAAA..",
                 "...AAAA?OOAAAAAAA..",
                 "...AAAAAAOOAAOOAA..",
                 ".AAAAAAOOOOAAAAAA..",

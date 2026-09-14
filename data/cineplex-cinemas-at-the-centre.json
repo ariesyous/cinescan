@@ -1,36 +1,10 @@
 {
-  "updatedAt": "2026-09-14T21:19:54.201Z",
+  "updatedAt": "2026-09-14T22:24:22.442Z",
   "theatre": {
     "id": 4115,
     "name": "Cineplex Cinemas at The Centre"
   },
   "auditoriums": {
-    "84259": {
-      "totalRows": 9,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...................",
-        "...SSSSSSSSSSSSSS..",
-        "...................",
-        "..SSSSCW..WCSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSS"
-      ]
-    },
     "84260": {
       "totalRows": 9,
       "totalColumns": 19,
@@ -1023,58 +997,6 @@
         "..SSSSSSSSSS....",
         "..SSSSSSSSSS....",
         "SSSS........SSSS"
-      ]
-    },
-    "85464": {
-      "totalRows": 9,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "................",
-        "...SSSSSSSSSSS..",
-        "................",
-        "..SSCW..WCSS....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS....",
-        "..SS........SSSS"
-      ]
-    },
-    "85465": {
-      "totalRows": 9,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "................",
-        "...SSSSSSSSSSS..",
-        "................",
-        "....SSCW..WCSS..",
-        "....SSSSSSSSSS..",
-        "....SSSSSSSSSS..",
-        "....SSSSSSSSSS..",
-        "....SSSSSSSSSS..",
-        "SSSS........SS.."
       ]
     },
     "85466": {
@@ -2628,25 +2550,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "15:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=84259&a=0000000001&l=4115&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                "...AAAAAAAAAAAAAA..",
-                "...................",
-                "..AAAAAA..AAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAOOAAOOAAAAOO...",
-                "..AAAAAAAAAAAAOO...",
-                "..AAAAAAOOAAAAAAAAA"
-              ],
-              "layoutKey": "84259"
-            },
-            {
               "time": "18:40",
               "formats": [
                 "Recliner"
@@ -2688,11 +2591,11 @@
                 "...........................",
                 "....AA.AAAA.AAAAAAAAAA.AA..",
                 "....AAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAA..",
+                "....OAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAOOOAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AA.AAA.AAA.AA.AAA.AAA.A..",
                 "..AA.AAA.AAA.AA.AA?.AAA.A.."
@@ -2714,11 +2617,11 @@
                 "...........................",
                 "....AA.AAAA.AAAAAAAAAA.AA..",
                 "....AAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAA..",
+                "....OAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAOOOAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AA.AAA.AAA.AA.AAA.AAA.A..",
                 "..AA.AAA.AAA.AA.AA?.AAA.A.."
@@ -2815,8 +2718,8 @@
                 "....AAAA..AAAA..",
                 "....AAAAAAAAAA..",
                 "....AAAAAAAAAA..",
-                "....AAAAAAAAAA..",
-                "....AAAAAAAAAA..",
+                "....AAAAOAAAAA..",
+                "....AAOAAOOAAA..",
                 "A?AA........AAAA"
               ],
               "layoutKey": "85460"
@@ -2833,7 +2736,7 @@
                 "................",
                 "....AAAA..AAAA..",
                 "....AAAAAAAAAA..",
-                "....AAAAAAAAAA..",
+                "....AAAOOOAAAA..",
                 "....AAAAOOAAAA..",
                 "....AAAAAAAAAA..",
                 "AAAA........AA.."
@@ -2862,7 +2765,7 @@
                 "..AAAAOOAAAA....",
                 "..AAAAAAAAAA....",
                 "..AAAAAAAAAA....",
-                "AAOO........AAAA"
+                "AAOO........AAOO"
               ],
               "layoutKey": "85463"
             },
@@ -2894,25 +2797,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "15:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=85465&a=0000000001&l=4115&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "................",
-                "...AAAAAAAAAAA..",
-                "................",
-                "....AAAA..AAAA..",
-                "....AAAAAAAAAA..",
-                "....AAAAAAAAAA..",
-                "....AAAOOAAAAA..",
-                "....AAAAAAAAAA..",
-                "AAAA........AA.."
-              ],
-              "layoutKey": "85465"
-            },
             {
               "time": "20:00",
               "formats": [
@@ -2953,7 +2837,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAOOOOO..",
-                "..AAAAAAAAAAA..",
+                "..AAAOOOAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAOOOO..",
                 "..AAAAAAAAAAA.."
@@ -2967,25 +2851,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61598_320_470.jpg",
           "runtimeMinutes": 157,
           "sessions": [
-            {
-              "time": "15:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=85464&a=0000000001&l=4115&m=hope-korean-west&ss=False",
-              "seats": [
-                "................",
-                "...AAAAAAAAAAA..",
-                "................",
-                "..AAAA..AAAA....",
-                "..AAAAAAAAAA....",
-                "..AAAAAAAAAA....",
-                "..AAAAAAAAAA....",
-                "..AAAAOOOAAA....",
-                "..AA........AAAA"
-              ],
-              "layoutKey": "85464"
-            },
             {
               "time": "19:20",
               "formats": [
@@ -3032,7 +2897,7 @@
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAOO"
+                "..AAAAAAOOAAAAAAAOO"
               ],
               "layoutKey": "85475"
             },
@@ -3557,7 +3422,7 @@
                 "....AAAAAAAAAA..",
                 "....AAAAAAAAAA..",
                 "....AAAAOOAAAA..",
-                "....AAAAAAAAAA..",
+                "....AAOOOOAAAA..",
                 "A?AA........AAAA"
               ],
               "layoutKey": "85488"
