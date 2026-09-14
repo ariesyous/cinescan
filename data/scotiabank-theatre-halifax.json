@@ -1,41 +1,11 @@
 {
-  "updatedAt": "2026-09-14T20:46:30.791Z",
+  "updatedAt": "2026-09-14T21:21:02.902Z",
   "theatre": {
     "id": 5130,
     "name": "Scotiabank Theatre Halifax"
   },
   "auditoriums": {
     "340898": {
-      "totalRows": 11,
-      "totalColumns": 26,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        null,
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "....SSSSSSSSSSSSSSSSS.....",
-        "...SSSSSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSSSSSS.",
-        "..........................",
-        "..CWWCSSSSSSSSSSSSSSSCWWC.",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "340899": {
       "totalRows": 11,
       "totalColumns": 26,
       "rowLabels": [
@@ -10485,40 +10455,6 @@
         ".SS.SSSSSSSSSSSSSS."
       ]
     },
-    "343932": {
-      "totalRows": 13,
-      "totalColumns": 17,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        "DD",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".................",
-        "..SSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSS..",
-        ".................",
-        "....SSSSSSSSCW...",
-        "....SSSSSSSSSSS..",
-        "....SSSSSSSSSSS..",
-        "....SSSSSSSSSSS..",
-        "....SSSSSSSSSSS..",
-        "....SSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS."
-      ]
-    },
     "343933": {
       "totalRows": 13,
       "totalColumns": 17,
@@ -18257,10 +18193,10 @@
                 "..AA..AAAAAAAAAAAAA..AA..",
                 "..AA..AAAAAAAAAAAAA..AA..",
                 "..AA..AAAAAAAOOOOOO..AA..",
-                "..AA..AAAAAAOOAAAAA..OO..",
+                "..AA..AAAAAAOOOAAAA..OO..",
                 "??AA..AAAAAAAAAAAAA..AA??",
-                "AAAA..AAAAAOOOAAAAA..AAAA",
-                "AAAA..OOOAAAAAAAAAA..AAAA",
+                "AAAA..AAAAAOOOAOOOO..AAAA",
+                "AAAA..OOOAAAAAOOOOO..AAAA",
                 "AAAA..AAAAOOOOAAAOO..AAAA",
                 "AOOO.................AAAA"
               ],
@@ -18326,7 +18262,7 @@
                 "??AA..AAAAAAAAAAAAA..AA??",
                 "AAAA..AAAAAAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAAAAAA..AAAA",
-                "AAAA..AAAAAAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAAOAAA..AAAA",
                 "AAAA.................AAAA"
               ],
               "layoutKey": "344085"
@@ -18381,7 +18317,7 @@
                 ".AAAAAAAAAAAAAAAAA.",
                 "...................",
                 "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAA.",
+                "....AAAAAOOAAAAAAO.",
                 "....AAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAA.",
@@ -18440,15 +18376,15 @@
                 "..AA...AAAAAAAAAAA...AA..",
                 "..AA..AAAAAAAAAAAAA..AA..",
                 "..AA..AAAAAAAAAAAAA..AA..",
+                "..AA..AAAAOOOOAAAAA..AA..",
+                "..AA..AAAAAOOAAAAAA..AA..",
                 "..AA..AAAAAAAAAAAAA..AA..",
                 "..AA..AAAAAAAAAAAAA..AA..",
-                "..AA..AAAAAAAAAAAAA..AA..",
-                "..AA..AAAAAAAAAAAAA..AA..",
-                "..AA..AAAAAAAAAAAAA..AA..",
+                "..AA..AAAAAAAAOOAAA..AA..",
                 "??AA..AAAAAAAAAAAAA..AA??",
                 "AAAA..AAAAAAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAAAAAA..AAAA",
-                "AAAA..?OOAAAAAAAAAA..AAAA",
+                "AAAA..?OOAAAOOAAAAA..AAAA",
                 "AAAA.................AAAA"
               ],
               "layoutKey": "344087"
@@ -18471,7 +18407,7 @@
                 "..AAAAAAAAAAAA...",
                 "..AAAAAAAAAAAA...",
                 "..AAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAA."
+                "AAAAAAAAAAAAAAAO."
               ],
               "layoutKey": "343924"
             },
@@ -18511,28 +18447,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
           "runtimeMinutes": 172,
           "sessions": [
-            {
-              "time": "18:00",
-              "formats": [
-                "IMAX",
-                "70mm"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=340899&a=0000000001&l=5130&m=the-odyssey&ss=False",
-              "seats": [
-                "....AAAAAAAAAAAAAAAAA.....",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                ".AAAOOOOOOOOOOOOOOOAAAAAA.",
-                "..........................",
-                "..AAAAOOOOOOOOOOOOOOAAAAA.",
-                "OOOOOOOOOOOOOOOOOOOOOOOOOO",
-                "OOOOOOOOOOOOOOOOOOOOOOOOOO",
-                "OOOOOOOOOOOOOOOOOOOOOOOOOO",
-                "OOOOOOOOOOOOOOOOOOOOOOOOOO",
-                "OOOOOOOOOOOOOOOOOOOOOOOOOO"
-              ],
-              "layoutKey": "340899"
-            },
             {
               "time": "20:35",
               "formats": [
@@ -18708,7 +18622,7 @@
                 "..AA..AAAAAAAAAAAAA..AA..",
                 "..AA..AAAAAAAAAAAAA..AA..",
                 "..AA..OOAAAAAAAAAAA..AA..",
-                "??AA..AAAAAAAAAAAAA..AA??",
+                "??AA..AAAAAAOOAAAAA..AA??",
                 "AAAA..AA.AAA.AAAA.A..AAAA",
                 "AAAA..AA.AAA.AAAA.A..AAAA",
                 "AAAA..?A.AAA.AAAA.A..AAAA",
@@ -18737,7 +18651,7 @@
                 "..AA..AAAAAAAAAAAAA..AA..",
                 "..AA..AAAAAAAAAAAAA..AA..",
                 "..AA..OOAAAAAAAAAAA..AA..",
-                "??AA..AAAAAAAAAAAAA..AA??",
+                "??AA..AAAAAAOOAAAAA..AA??",
                 "AAAA..AA.AAA.AAAA.A..AAAA",
                 "AAAA..AA.AAA.AAAA.A..AAAA",
                 "AAAA..?A.AAA.AAAA.A..AAAA",
@@ -18825,7 +18739,7 @@
                 "..AAAAAAAAAA.....",
                 "..AAAAAAAAAAOO...",
                 "..AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAA...",
+                "..AAAOOAAAAAAA...",
                 "..AAAAAAAAAAAA...",
                 "..AAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAOO."
@@ -18920,17 +18834,17 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=343936&a=0000000001&l=5130&m=the-dog-stars&ss=False",
               "seats": [
                 ".................",
-                "..AAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAA..",
+                "..?????????????..",
+                ".??????????????..",
+                ".??????????????..",
                 ".................",
-                "..AAAAAAAAAA.....",
-                "..AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAA."
+                "..??????????.....",
+                "..????????????...",
+                "..????????????...",
+                "..????????????...",
+                "..????????????...",
+                "..????????????...",
+                "????????????????."
               ],
               "layoutKey": "343936"
             },
@@ -18979,7 +18893,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
+                "...OOAAAAAAAAAAAA..",
                 "...AAAAAOOAAAAAOO..",
                 ".AAAAAAAAAAAAAAAAA."
               ],
@@ -19053,29 +18967,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62034_320_470.jpg",
           "runtimeMinutes": 117,
           "sessions": [
-            {
-              "time": "18:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=343932&a=0000000001&l=5130&m=cars-20th-anniversary&ss=False",
-              "seats": [
-                ".................",
-                "..AAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAA..",
-                ".................",
-                "....AAAAAAAAAA...",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "..AAAAAAAAA?AAAA."
-              ],
-              "layoutKey": "343932"
-            },
             {
               "time": "20:55",
               "formats": [
@@ -20611,7 +20502,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
-                "...AAAAAOOOAAAAAA..",
+                "...AAAOOOOOAAAAAA..",
                 "...AAAAAAAOOOOAAA..",
                 "...AAAOOOOOOOAAAA..",
                 ".OOOOOOOOOOOOAAAAA."
