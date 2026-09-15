@@ -1,68 +1,10 @@
 {
-  "updatedAt": "2026-09-15T22:03:49.032Z",
+  "updatedAt": "2026-09-15T22:48:53.945Z",
   "theatre": {
     "id": 9121,
     "name": "Cinéma Cineplex Royalmount"
   },
   "auditoriums": {
-    "14822": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...................",
-        "....CW.WCSSSCW.WC..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "14823": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...................",
-        "...CW.WCSSSSCW.WC..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS."
-      ]
-    },
     "14824": {
       "totalRows": 14,
       "totalColumns": 19,
@@ -4843,7 +4785,7 @@
                 "..OOOOOOOOOOOOOOO..",
                 "..?OOOOOOOOOOAOOO..",
                 "..OO.AAO.OO.OAA.A..",
-                "..?A.AAA.OO.AAA.A..",
+                "..?A.AOO.OO.AAA.A..",
                 "..OOO??.?OOOOOOOOO."
               ],
               "layoutKey": "14824"
@@ -4865,7 +4807,7 @@
                 "..OOOOOOOOOOOOOOO..",
                 "..?OOOOOOOOOOAOOO..",
                 "..OO.AAO.OO.OAA.A..",
-                "..?A.AAA.OO.AAA.A..",
+                "..?A.AOO.OO.AAA.A..",
                 "..OOO??.?OOOOOOOOO."
               ],
               "layoutKey": "14824"
@@ -4883,7 +4825,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAOAAAAAA....",
-                "..AAAAAAAAAAAAA....",
+                "..AAAAAAOOAAAAA....",
                 "..AAAAAAAOAAAAA....",
                 "..AAAOOOOOAAAAAAA..",
                 "..?AAAAAOOOOOAAAA..",
@@ -4905,7 +4847,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAOAAAAAA....",
-                "..AAAAAAAAAAAAA....",
+                "..AAAAAAOOAAAAA....",
                 "..AAAAAAAOAAAAA....",
                 "..AAAOOOOOAAAAAAA..",
                 "..?AAAAAOOOOOAAAA..",
@@ -4923,28 +4865,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "18:00",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14822&a=0000000001&l=9121&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...................",
-                "....??.??AAA??.??..",
-                "....AAAAAAAAAAAA?..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAOOAAOOAA..",
-                "....AAAAOOOOAAAOO..",
-                "....AAAAAOOOOOAAA..",
-                "..AAOOOOOOOAOOOOA..",
-                "..AAAAOAAOOAAAAAA..",
-                "..AAAOOOOOOAAOOAA..",
-                "OOAAAAAAOOOOOOOOOO?"
-              ],
-              "layoutKey": "14822"
-            },
-            {
               "time": "21:20",
               "formats": [
                 "3D",
@@ -4957,9 +4877,9 @@
                 "....AAAAAAAAAAAA?..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
+                "....AAAAAAOAAAAAA..",
                 "....AAAAAOOAAAAAA..",
-                "..OOOOAAAAAAOOAAA..",
+                "..OOOOAAOOAAOOAAA..",
                 "..AAAAAAAOOAAAAOO..",
                 "..AAAAAOOAAAAAAAA..",
                 "AAAAAAOOOOOOOOAAAA?"
@@ -4990,36 +4910,9 @@
                 "...AOOAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
-                ".AAAAAAA?AAAAAAAAA."
+                ".AAAAAAA?OOAAAAAAA."
               ],
               "layoutKey": "14826"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14823&a=0000000001&l=9121&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...................",
-                "...AA.AAAAAAAA.AA..",
-                "...AAAAAAAA?AAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAOOOOOOOOAA..",
-                "...AAOO?OOOOAAOOO..",
-                "...AAOOOOOOOOOOAA..",
-                ".AAAOOOOOOOOOOAAA..",
-                ".AAAAAOOOOOOOOOAA..",
-                ".AAAAAOO?OOOOAAAAA."
-              ],
-              "layoutKey": "14823"
             }
           ]
         },
@@ -5068,12 +4961,12 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAOOAAAAA....",
                 "..OOAAAAOOAAAAA....",
+                "..OOAAAAOOAAAOO....",
                 "..AAAAAAOOAAAAAOO..",
-                "..OOAAAOOOOAAAAAA..",
+                "..OOAAAOOOOOOAAAA..",
                 "..AAAAAOOAAOOAAAA..",
-                "..AAAAA?????AAAAAA."
+                "..AAAOO?????AAOOAA."
               ],
               "layoutKey": "14825"
             },
@@ -5998,7 +5891,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAA?AAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
-                ".AAAAAAAAOOAAAAAA..",
+                ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAA?AAAAAAAAA."
               ],
@@ -6201,7 +6094,7 @@
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
-                "..AAAAA?????AAAAAA."
+                "..AAAAA?????OOAAAA."
               ],
               "layoutKey": "14943"
             },
@@ -6259,7 +6152,8 @@
             {
               "time": "13:00",
               "formats": [
-                "Regular"
+                "Recliner",
+                "Laser Projection"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15098&a=0000000001&l=9121&m=spiderman-brand-new-day&ss=False",
               "seats": [
@@ -6509,9 +6403,9 @@
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA..",
-                "..?AAAAAAAAAAAAAA..",
+                "..AAAOOOOOOOAAA....",
+                "..AAAAAAOOAAAAAAA..",
+                "..?AAAAAAOOAAAAAA..",
                 "..AA.AAA.AA.AAA.A..",
                 "..?A.AAA.AA.AAA.A..",
                 "..AAA??.?AAAAAAAAA."
@@ -6532,9 +6426,9 @@
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA..",
-                "..?AAAAAAAAAAAAAA..",
+                "..AAAOOOOOOOAAA....",
+                "..AAAAAAOOAAAAAAA..",
+                "..?AAAAAAOOAAAAAA..",
                 "..AA.AAA.AA.AAA.A..",
                 "..?A.AAA.AA.AAA.A..",
                 "..AAA??.?AAAAAAAAA."
@@ -7068,7 +6962,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
+                "..AAAAAAOAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
                 "..?AAAAAAAAAAAAAA..",
@@ -7091,7 +6985,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
+                "..AAAAAAOAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
                 "..?AAAAAAAAAAAAAA..",
@@ -7205,7 +7099,8 @@
             {
               "time": "11:00",
               "formats": [
-                "Regular"
+                "Recliner",
+                "Laser Projection"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15097&a=0000000001&l=9121&m=coyote-vs-acme-2026&ss=False",
               "seats": [
@@ -8612,7 +8507,7 @@
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
+                "..AAAAAAOOAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
                 "..?AAAAAAAAAAAAAA..",
                 "..AA.AAA.AA.AAA.A..",
@@ -8635,7 +8530,7 @@
                 "..?A?AAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
+                "..AAAAAAOOAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
                 "..?AAAAAAAAAAAAAA..",
                 "..AA.AAA.AA.AAA.A..",
@@ -8709,7 +8604,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
                 "..?AAAAAAAAAAAAAA..",
-                "..AA.AAA.AA.AAA.A..",
+                "..AA.AAO.OO.OAA.A..",
                 "..?A.AAA.AA.AAA.A..",
                 "..AAA??.?AAAAAAAAA."
               ],
@@ -8732,7 +8627,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
                 "..?AAAAAAAAAAAAAA..",
-                "..AA.AAA.AA.AAA.A..",
+                "..AA.AAO.OO.OAA.A..",
                 "..?A.AAA.AA.AAA.A..",
                 "..AAA??.?AAAAAAAAA."
               ],

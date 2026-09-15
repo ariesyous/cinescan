@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T22:04:53.069Z",
+  "updatedAt": "2026-09-15T22:50:17.036Z",
   "theatre": {
     "id": 1158,
     "name": "Cineplex VIP Cinemas Brentwood (age restricted 19+)"
@@ -715,58 +715,6 @@
         "SSSSSSSSSSSSSS"
       ]
     },
-    "33252": {
-      "totalRows": 10,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "..............",
-        "....SSSSSS....",
-        "..............",
-        "...CW.WCSSSWC.",
-        "...SSSSSSSSSS.",
-        "...SSSSSSSSSS.",
-        "...SSSSSSSSSS.",
-        ".SSSSSSSSSSSS.",
-        ".SSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS"
-      ]
-    },
-    "33253": {
-      "totalRows": 8,
-      "totalColumns": 12,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "............",
-        "...SSSSSS...",
-        "............",
-        ".CW.SSSSSWC.",
-        ".SSSSSSSSSS.",
-        ".SSSSSSSSSS.",
-        ".SSSSSSSSSS.",
-        "SSSSSSSSSSSS"
-      ]
-    },
     "33255": {
       "totalRows": 10,
       "totalColumns": 14,
@@ -1008,27 +956,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "15:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33252&a=0000000001&l=1158&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                "....AAAAAA....",
-                "..............",
-                "...AA.AAAAAAA.",
-                "...AAAAAAAAAA.",
-                "...AAAAAAAAAA.",
-                "...AAOOOOAAAA.",
-                ".AAOOOOOOOAAA.",
-                ".OAAAOOOAOOAA.",
-                "AAOOOAOOOOOAAA"
-              ],
-              "layoutKey": "33252"
-            },
-            {
               "time": "18:15",
               "formats": [
                 "VIP 19+",
@@ -1043,7 +970,7 @@
                 "...OOOOOOOOOA.",
                 "...OOOOOOOOOO.",
                 "...OOOOOOOOOO.",
-                ".OOOOOOOOAAOO.",
+                ".OOOOOOOOOOOO.",
                 ".OOOOOOOOOOOO.",
                 "OOOOOOOOOOOOOO"
               ],
@@ -1065,7 +992,7 @@
                 "...AAAAOAAAAA.",
                 "...OOOOOOOOAA.",
                 ".AOOOAOOOAOOO.",
-                ".OOOOOOOOOOAA.",
+                ".OOOOOOOOOOOO.",
                 "OOAOOOOOOOAOOO"
               ],
               "layoutKey": "33250"
@@ -1090,7 +1017,7 @@
                 "...OOAAAAOOAAAA.",
                 "...AAAAOOAAAAAA.",
                 "...AAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAA"
+                "..AAAAOAAOAAAAAA"
               ],
               "layoutKey": "33286"
             },
@@ -1138,25 +1065,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "15:30",
-              "formats": [
-                "VIP 19+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33253&a=0000000001&l=1158&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "............",
-                "...AAAAAA...",
-                "............",
-                ".AA.AAAAAAA.",
-                ".AAAAOOAAAA.",
-                ".OOOOOOAAAA.",
-                ".?AOOOOOOO?.",
-                "OOAOOOOAOOOO"
-              ],
-              "layoutKey": "33253"
-            },
-            {
               "time": "17:30",
               "formats": [
                 "VIP 19+",
@@ -1171,7 +1079,7 @@
                 ".AAOOOOOOOA...",
                 ".OOOOOOOOO?...",
                 ".OOOOOOOOOO...",
-                ".OAOOOOOOOOOO.",
+                ".AAOOOOOOOOOO.",
                 ".OOOOOOOOOOOO.",
                 "OOOOOOOOOAOOOO"
               ],
@@ -1191,7 +1099,7 @@
                 "..............",
                 ".AAAAAAA.AA...",
                 ".AAAAAOAAAA...",
-                ".AAAAOOAAA?...",
+                ".AAAAOOOOA?...",
                 ".OOOOOOOOOO...",
                 ".AOOOOOOOOOOO.",
                 ".OOOOOOOOOOOO.",
@@ -1220,7 +1128,7 @@
                 "...AA.AAAAAAA.",
                 "...AAAAAAAAAA.",
                 "...AAAAAAAA?A.",
-                "...OOOOOOAAAA.",
+                "...OOOOOOOAAA.",
                 ".AAOOOOOOAAAA.",
                 ".AAAOOOOOOOAO.",
                 "AAOOOOOOOAOOAA"
@@ -1259,10 +1167,10 @@
                 "...AA.AAAAAAA.",
                 "...AAAAAAAAAA.",
                 "...AAOOOOAA?A.",
-                "...AAOOOOOOOO.",
+                "...OOOOOOOOOO.",
                 ".AOOOOOOOOAOO.",
                 ".AOOOOOOOOOOO.",
-                "AAAOOOOOOOOOOO"
+                "AAAOOOOOOOAAOO"
               ],
               "layoutKey": "33248"
             }
@@ -1294,7 +1202,7 @@
                 "...AAAAOOAAAA.",
                 "...OOOOOOAAOO.",
                 ".OOOOOOOOOOOO.",
-                ".AAOOAOOOOOAA.",
+                ".OOOOAOOOOOAA.",
                 "AAOOOOOOOOOOOO"
               ],
               "layoutKey": "33232"
@@ -1346,7 +1254,7 @@
                 ".AAAAAAA.AA...",
                 ".AAAAAAAAAA...",
                 ".AAAAAAAAA?...",
-                ".AAAAAOOOAA...",
+                ".AAOOAOOOAA...",
                 ".AAAAOOOOAAAA.",
                 ".AAAAOOOAAAAA.",
                 "OOAAAAAAAAAAAA"
@@ -1479,8 +1387,8 @@
                 ".AAAAAAA.AA...",
                 ".AAAAAAAAAA...",
                 ".AAAAAAAAA?...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAAAAOAA.",
+                ".AAAAOOOOAA...",
+                ".AAAAAAOOAOAA.",
                 ".AAAAAAAAAAAA.",
                 "AAAAAAOOAAAAAA"
               ],
@@ -1566,7 +1474,7 @@
                 "...AAAAAAAAAA.",
                 "...AAAAAAAAAA.",
                 "...AAOOAAAAAA.",
-                ".AAAAAAOAAAAA.",
+                ".AAAAAAOAOOAA.",
                 ".AAAAOOAAAAAA.",
                 "AAAAAAOOAAAAOO"
               ],
@@ -1779,7 +1687,7 @@
                 "...AAOOAAAAAA.",
                 "...AAAAAAAAAA.",
                 "...AAOOOOAAAA.",
-                ".AAAAOOOOAAAA.",
+                ".AAAAOOOOOAAA.",
                 ".AAAAOOAAAAAA.",
                 "AAAAAAOOOOAAAA"
               ],

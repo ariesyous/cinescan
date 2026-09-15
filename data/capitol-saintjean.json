@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T22:03:41.628Z",
+  "updatedAt": "2026-09-15T22:48:44.135Z",
   "theatre": {
     "id": 9190,
     "name": "Capitol Saint-Jean"
@@ -1131,28 +1131,6 @@
         "CW.WC...SSSS"
       ]
     },
-    "159885": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null,
-        "E"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS",
-        "..SSSSSSSSSSSSS",
-        "..SSSSSSSSSSSSS",
-        "...............",
-        "..CW.WCSSSSSSSS"
-      ]
-    },
     "159892": {
       "totalRows": 6,
       "totalColumns": 10,
@@ -1335,28 +1313,6 @@
         ".SSSSSSSSSSSS",
         ".............",
         ".CW.WCSSSSS.."
-      ]
-    },
-    "159901": {
-      "totalRows": 8,
-      "totalColumns": 13,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null,
-        "F"
-      ],
-      "seatTypes": [
-        ".............",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "DD.DDD.DDDD.D",
-        "SSSCWWCSSSSS."
       ]
     },
     "159916": {
@@ -3412,41 +3368,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "18:30",
-              "formats": [
-                "D-BOX",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159901&a=0000000004&l=9190&m=amour-et-magie-2&ss=False",
-              "seats": [
-                ".............",
-                "AAAAAAAAAAAAA",
-                "AOOAAOOAOOOOO",
-                "OOOOOOOOOOOOA",
-                "OOOOOO?OOOOOO",
-                "AA.AAO.OOOA.A",
-                "?A?AAAAOOOOO."
-              ],
-              "layoutKey": "159901"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159901&a=0000000001&l=9190&m=amour-et-magie-2&ss=False",
-              "seats": [
-                ".............",
-                "AAAAAAAAAAAAA",
-                "AOOAAOOAOOOOO",
-                "OOOOOOOOOOOOA",
-                "OOOOOO?OOOOOO",
-                "AA.AAO.OOOA.A",
-                "?A?AAAAOOOOO."
-              ],
-              "layoutKey": "159901"
-            },
-            {
               "time": "21:30",
               "formats": [
                 "D-BOX",
@@ -3489,24 +3410,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "18:20",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159885&a=0000000001&l=9190&m=vf-spiderman-un-jour-nouveau&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA",
-                "..AAAAAOOAAAAAA",
-                "..AAAAAAAAAAAAA",
-                "...............",
-                "..AA.AAAAAAAAAA"
-              ],
-              "layoutKey": "159885"
-            },
-            {
               "time": "21:15",
               "formats": [
                 "3D",
@@ -3544,7 +3447,7 @@
                 "AAAAAAAAAAA.",
                 "AAAAAAAAAAA.",
                 "AAAAAAAAAAA.",
-                "AAAOAAAAAAA.",
+                "AAAOAAOAAAA.",
                 "AAOOOOOOOOA.",
                 "............",
                 "AA...AAAA.A?"
@@ -3585,9 +3488,9 @@
               "seats": [
                 "..........",
                 "..AAAAAAAA",
-                ".AAAAAAAAA",
+                ".AAAAOAAAA",
                 ".AOOOOOOAA",
-                "..AA.AAAAA",
+                "..AA.AAOAA",
                 ".........."
               ],
               "layoutKey": "159898"
@@ -3628,7 +3531,7 @@
                 ".AAAAAAAAAAAA",
                 ".AAAAAOOAAAAA",
                 ".AAAAAAAAAAAA",
-                ".AAAAAAAAAAAA",
+                ".AAAAOOOAAAAA",
                 ".............",
                 ".AA.AAAAAAA.."
               ],
@@ -3668,9 +3571,9 @@
                 "............",
                 ".AAAAAAAAAAA",
                 ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
-                ".AAAOOAAAAAA",
+                ".AAAAOOAAAAA",
+                ".AOAAAOAAAAA",
+                ".AAAOOOOAAAA",
                 "............",
                 "AA.AA...AA?A"
               ],
@@ -4083,7 +3986,7 @@
                 "..AAAAAAAAAAAAA",
                 "..AAAAOOOOOAAAA",
                 "...............",
-                "..AA.AAAAAAAAAA"
+                "..AA.AAAAOOAAAA"
               ],
               "layoutKey": "159836"
             }
