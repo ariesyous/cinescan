@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T15:51:27.239Z",
+  "updatedAt": "2026-09-15T20:01:26.119Z",
   "theatre": {
     "id": 7271,
     "name": "Galaxy Cinemas Midland"
@@ -511,40 +511,6 @@
         "SSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "150205": {
-      "totalRows": 13,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".......................",
-        ".SSSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSS..",
-        ".......................",
-        "....WWCSSSSSSSSSCW.....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "150206": {
       "totalRows": 13,
       "totalColumns": 23,
@@ -639,42 +605,6 @@
         "...SSSSSSSSSSSSSSS....",
         "...SSSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "150209": {
-      "totalRows": 14,
-      "totalColumns": 27,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...........................",
-        "..SSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSC..WW...",
-        "...........................",
-        ".......WWCSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSSSS...",
-        "..SS..SSSSSSSSSSSSSSSSSS...",
-        "..SS..SSSSSSSSSSSSSSSSSS...",
-        "..SS..SSSSSSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "150210": {
@@ -892,30 +822,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "15:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=150209&a=0000000001&l=7271&m=practical-magic-2&ss=False",
-              "seats": [
-                "...........................",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..AA...",
-                "...........................",
-                ".......AAAAAAAAAAAAAAAAA...",
-                "......?A?AAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAA?AAAAAA...",
-                "......AAAAAAAAAAAAAAAAAA...",
-                "..AA..AAAAAAAOOAAAAAAAAA...",
-                "..AA..AAAAAAAAAAAAAAAAAA...",
-                "..AA..AAAAAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAAAA?AAAAAAA"
-              ],
-              "layoutKey": "150209"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Regular"
@@ -929,10 +835,10 @@
                 "...........................",
                 ".......AAAAAAAAAAAAAAAAA...",
                 "......?A?AAAAAAAAAAAAAAA...",
+                "......AAAAAAAOOAAAAAAAAA...",
+                "......AAAAAAAAAOO?AAAAAA...",
                 "......AAAAAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAA?AAAAAA...",
-                "......AAAAAAAAAAAAAAAAAA...",
-                "..OO..AAAAAAAAAAAAAAAAAA...",
+                "..OO..AOAAAAAAAAAAAAAAAA...",
                 "..AA..AAAAAAOOOOAAAAAAAA...",
                 "..AA..AAAAAAAAAAAAAAAAAA...",
                 ".AAAAAAAAAAAOOAAAAA?AAAAAAA"
@@ -958,15 +864,15 @@
                 ".AAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAA..",
                 ".....................",
-                ".....AAAAAA?AAAAA....",
+                ".....AAAAAA?OAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAA?AAAAAAAAAAA"
+                "..AAAAAAAOAAAAAAA..AA",
+                "..AAAAOOAAAAAAAAA..AA",
+                "AAAAAAAAA?AAAAAAOAAAA"
               ],
               "layoutKey": "150210"
             },
@@ -990,7 +896,7 @@
                 "..AAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAA?AAAAAAAAAAA"
+                "AAAAAAAAA?AAOOAAAAAAA"
               ],
               "layoutKey": "150211"
             }
@@ -1012,13 +918,13 @@
                 "...AAAAAAAAAAAAAAAA??.",
                 "...AAAAAAAAAAAAAAAAAA.",
                 "......................",
-                "....AAAAAAAAAAAAA.....",
+                "....AAAAAAOOAAAAA.....",
                 "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAA??AAAAA..AA",
-                "AAAAAAAAA?AAAAAAAAAAAA"
+                "...AAAAAAAOAAOOAAA....",
+                "...AAAAAOOOOAAAAAA....",
+                "...AAAAAAAAAAAAOOO....",
+                "...AAAAAOOA??AAAAA..AA",
+                "AAAAAAAAA?AAAAAOOAAAAA"
               ],
               "layoutKey": "150214"
             },
@@ -1036,7 +942,7 @@
                 "....AAAAAAAAAAAAA.....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAOOAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAA??AAAAA..AA",
                 "AAAAAAAAA?AAAAAAAAAAAA"
@@ -1050,29 +956,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "15:40",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=150205&a=0000000001&l=7271&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".......................",
-                ".AAAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA..",
-                ".......................",
-                "....AAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA..A?",
-                "..AAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "150205"
-            },
             {
               "time": "18:50",
               "formats": [
@@ -1117,12 +1000,12 @@
                 ".....AAAAAAAAAAAAAA....",
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAOAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAA..",
                 "?A..AAAAAAAAAAAAAAAAA..",
-                "AAAAAAOOOAAAAAAAAAAAAA?"
+                "AAAOOOOOOOAAAAAAAAAAAA?"
               ],
               "layoutKey": "150217"
             },
@@ -1145,7 +1028,7 @@
                 "..AAAAAAAAOOAAAAAAA..AA",
                 "..AAAAAAOOAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAA?AAAAA"
+                "AAAAAAOOAAAAAAAAA?AAAAA"
               ],
               "layoutKey": "150204"
             }
