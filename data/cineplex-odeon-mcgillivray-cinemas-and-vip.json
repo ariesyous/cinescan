@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:43:59.201Z",
+  "updatedAt": "2026-09-15T05:57:38.319Z",
   "theatre": {
     "id": 2111,
     "name": "Cineplex Odeon McGillivray Cinemas and VIP"
@@ -2741,6 +2741,50 @@
         "................."
       ]
     },
+    "266524": {
+      "totalRows": 18,
+      "totalColumns": 17,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        null
+      ],
+      "seatTypes": [
+        ".................",
+        ".SSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSS",
+        ".SCW.WSSSSSSW.WCS",
+        "................."
+      ]
+    },
     "266531": {
       "totalRows": 18,
       "totalColumns": 21,
@@ -4927,7 +4971,7 @@
                 "AAOOOOAOOO",
                 "AAAAOOAAAA",
                 "AAAAAAAAAA",
-                ".AAAAAAAAA"
+                ".OOAAAAAAA"
               ],
               "layoutKey": "265498"
             },
@@ -7769,6 +7813,41 @@
       "date": "2026-09-28",
       "movies": [
         {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=266524&a=0000000001&l=2111&m=forgotten-island&ss=False",
+              "seats": [
+                ".................",
+                ".AAAAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                ".AAA.AAAAAAAA.AAA",
+                "................."
+              ],
+              "layoutKey": "266524"
+            }
+          ]
+        },
+        {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
           "runtimeMinutes": 101,
@@ -7800,6 +7879,20 @@
                 "...................."
               ],
               "layoutKey": "266225"
+            }
+          ]
+        },
+        {
+          "title": "BETWEEN THE MOUNTAIN AND THE SKY",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61989_320_470.jpg",
+          "runtimeMinutes": 92,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=266719&a=0000000001&l=2111&m=between-the-mountain-and-the-sky&ss=False"
             }
           ]
         }

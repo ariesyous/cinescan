@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:44:26.905Z",
+  "updatedAt": "2026-09-15T05:58:11.122Z",
   "theatre": {
     "id": 7413,
     "name": "SilverCity Burlington Cinemas"
@@ -2781,6 +2781,48 @@
         "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
+    "280915": {
+      "totalRows": 17,
+      "totalColumns": 31,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        "CC",
+        "DD",
+        "EE",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        "...............................",
+        "...SSSSSSSSSSSSSSSSSSSSSSSSS...",
+        "...SSSSSSSSSSSSSSSSSSSSSSSSS...",
+        "...SSSSSSSSSSSSSSSSSSSSSSSSS...",
+        "...SSSSSSSSSSSSSSSSSSSSSSSSS...",
+        "...CWW..SSSSSSSSSSSSSSSSSSSS...",
+        "...............................",
+        "....SS...WCSSSSSSSCWW....SSSSSS",
+        "....SS..SSSSSSSSSSSSSS...SSSSSS",
+        "....SS..SSSSSSSSSSSSSS...SSSSSS",
+        "....SS..SSSSSSSSSSSSSS...SSSSSS",
+        "....SS..SSSSSSSSSSSSSS...SSSSSS",
+        "....SS..SSSSSSSSSSSSSS...SSSSSS",
+        "SSSSSS..SSSSSSSSSSSSSS...SSSSSS",
+        "SSSSSS..SSSSSSSSSSSSSS...SSSSSS",
+        "SSSSSS..SSSSSSSSSSSSSS...SSSSSS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
     "280919": {
       "totalRows": 17,
       "totalColumns": 31,
@@ -4324,7 +4366,7 @@
                 ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
                 ".....AA..AAAAAAOOAAAAAAAAA..AAAA",
                 ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
-                ".....AA..AAAAAAAAAAAAAAAAA..AAAA",
+                ".....AA..AAAAAAOOAAAAAAAAA..AAAA",
                 "A?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "279849"
@@ -5511,7 +5553,7 @@
                 "......AAAAAAAAAAAAAAA..AAAA",
                 "......AAAAAAAAAAAAAAA..AAAA",
                 "......AAAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAOOAAAAAAAAAAAA"
               ],
               "layoutKey": "281121"
             }
@@ -6318,7 +6360,7 @@
                 "...AAAAAAAAAAAAAAAA.AA....",
                 "..........................",
                 "AA...AAAAAAAOOAAAAAA......",
-                "AA..AAAAAAAAAAAAAAAA......",
+                "AA..AAAAAAOOOOAAAAAA......",
                 "AA..AAAAAOOOOOOOOAAA......",
                 "AA..AOOAOOOOOOAAAAAA......",
                 "AA..AAAAOOAOOOOAAAAA......",
@@ -7099,6 +7141,40 @@
     {
       "date": "2026-09-28",
       "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=280915&a=0000000001&l=7413&m=forgotten-island&ss=False",
+              "seats": [
+                "...............................",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAA..AAAAAAAAAAAAAAAAAAAA...",
+                "...............................",
+                "....AA...AAAAAAAAAAAA....AAAAAA",
+                "....AA..AA??AAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "....AA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAA..AAAAAAAAAAAAAA...AAAAAA",
+                "AAAAAAA??AAAAAAAAAAAAA??AAAAAAA"
+              ],
+              "layoutKey": "280915"
+            }
+          ]
+        },
         {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",

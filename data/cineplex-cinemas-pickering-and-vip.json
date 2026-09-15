@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:43:37.599Z",
+  "updatedAt": "2026-09-15T05:57:16.176Z",
   "theatre": {
     "id": 7312,
     "name": "Cineplex Cinemas Pickering and VIP"
@@ -1519,6 +1519,70 @@
         "SS..SSSSSSSSSSSSSSSSSSSSSSS..",
         "SS..SSSSSSSSSSSSSSSSSSSSSSS..",
         "SS..DD.DDDD.DDD.DDDD.DDDD.D.."
+      ]
+    },
+    "95221": {
+      "totalRows": 12,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        null,
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "...............",
+        "...SSSSSSSSS...",
+        "..SSSSSSSSSSSS.",
+        "..SSSSSSSSSSSS.",
+        "..SSSSSSSSSSSS.",
+        "...............",
+        "..SCW.WCWC.....",
+        "..SSSSSSSSS....",
+        "..SSSSSSSSS....",
+        "..SSSSSSSSS....",
+        "..SSSSSSSSS....",
+        "..............."
+      ]
+    },
+    "95222": {
+      "totalRows": 12,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        null,
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "...............",
+        "...SSSSSSSSS...",
+        "..SSSSSSSSSSSS.",
+        "..SSSSSSSSSSSS.",
+        "..SSSSSSSSSSSS.",
+        "...............",
+        "..SCW.WCWC.....",
+        "..SSSSSSSSS....",
+        "..SSSSSSSSS....",
+        "..SSSSSSSSS....",
+        "..SSSSSSSSS....",
+        "..............."
       ]
     },
     "95223": {
@@ -3916,7 +3980,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAA..",
                 "....OAAAAAAAAAAAAAAAAA?AAAA..",
                 "AA..AAAAAAAAAAOOAAAAAAAAAAA..",
-                "AA..AAAOOAAAAAOOAAAAAAAAAOO..",
+                "AA..AAAOOAAOOAOOAAAAAAAAAOO..",
                 "AA..AAAAAAAOOAAAOOAAAAAAAAA..",
                 "AA..AAAAAAAAAAOOAAAAAAA?OOO..",
                 "AA..AA.AAAA.AAA.AAAA.AAAA.A.."
@@ -3940,7 +4004,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAA..",
                 "....OAAAAAAAAAAAAAAAAA?AAAA..",
                 "AA..AAAAAAAAAAOOAAAAAAAAAAA..",
-                "AA..AAAOOAAAAAOOAAAAAAAAAOO..",
+                "AA..AAAOOAAOOAOOAAAAAAAAAOO..",
                 "AA..AAAAAAAOOAAAOOAAAAAAAAA..",
                 "AA..AAAAAAAAAAOOAAAAAAA?OOO..",
                 "AA..AA.AAAA.AAA.AAAA.AAAA.A.."
@@ -4452,8 +4516,8 @@
                 "..AAAAAAAAAAA....",
                 "..AAAAOOOAAAA....",
                 "..AAAOOOOOOAA....",
-                "..OOAAAAAAAOO..A?",
-                "..AAOO.......AAAA"
+                "..OOAAAOOAAOO..A?",
+                "..AAOO.......AOOO"
               ],
               "layoutKey": "95512"
             }
@@ -5380,7 +5444,7 @@
                 "...AA.AAAAAAAAA..",
                 "...AAAAAAAAAAAA..",
                 "...OOOAAAAAAAAA..",
-                "...AAAAAAAAA?AA..",
+                "...AAAAOOOAA?AA..",
                 "AAAAA?AAAAAAAAA.."
               ],
               "layoutKey": "95280"
@@ -7726,6 +7790,50 @@
                 "AA..AA.AAAA.AAA.AAAA.AAAA.A.."
               ],
               "layoutKey": "95220"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "Clubhouse"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=95221&a=0000000001&l=7312&m=forgotten-island&ss=False",
+              "seats": [
+                "...............",
+                "...AAAAAAAAA...",
+                "..AAAAAAAAAAAA.",
+                "..AAAAAAAAAAAA.",
+                "..AAAAAAAAAAAA.",
+                "...............",
+                "..AAA.AAAA.....",
+                "..AAAAAAAAA....",
+                "..AAAAAAAAA....",
+                "..AAAAAAAAA....",
+                "..AAAAAAAAA....",
+                "..............."
+              ],
+              "layoutKey": "95221"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "Clubhouse"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=95222&a=0000000001&l=7312&m=forgotten-island&ss=False",
+              "seats": [
+                "...............",
+                "...AAAAAAAAA...",
+                "..AAAAAAAAAAAA.",
+                "..AAAAAAAAAAAA.",
+                "..AAAAAAAAAAAA.",
+                "...............",
+                "..AAA.AAAA.....",
+                "..AAAAAAAAA....",
+                "..AAAAAAAAA....",
+                "..AAAAAAAAA....",
+                "..AAAAAAAAA....",
+                "..............."
+              ],
+              "layoutKey": "95222"
             }
           ]
         }

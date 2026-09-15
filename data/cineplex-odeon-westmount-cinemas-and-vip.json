@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:44:04.627Z",
+  "updatedAt": "2026-09-15T05:57:44.475Z",
   "theatre": {
     "id": 7112,
     "name": "Cineplex Odeon Westmount Cinemas and VIP"
@@ -2666,6 +2666,54 @@
         "..SSSSSSSSSSSSSS....",
         "..SSSSSSSSSSSSSSSSS."
       ]
+    },
+    "237090": {
+      "totalRows": 8,
+      "totalColumns": 20,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSSSS...",
+        "....................",
+        "..CWCSCW.WCSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSS."
+      ]
+    },
+    "237091": {
+      "totalRows": 8,
+      "totalColumns": 20,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSSSS...",
+        "....................",
+        "..CWCSCW.WCSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSS."
+      ]
     }
   },
   "days": [
@@ -2960,7 +3008,7 @@
                 "...????AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA...",
+                "...AAAAOOAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAAAA.."
               ],
@@ -3539,7 +3587,7 @@
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAOO....",
-                "..OOAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "237014"
@@ -5713,6 +5761,54 @@
                 "..AAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "237089"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "movies": [
+        {
+          "title": "Primetime",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
+          "runtimeMinutes": 107,
+          "sessions": [
+            {
+              "time": "16:10",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237090&a=0000000001&l=7112&m=primetime&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAAAA...",
+                "....................",
+                "..AAAAAA.AAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAA."
+              ],
+              "layoutKey": "237090"
+            },
+            {
+              "time": "19:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237091&a=0000000001&l=7112&m=primetime&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAAAA...",
+                "....................",
+                "..AAAAAA.AAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAA."
+              ],
+              "layoutKey": "237091"
             }
           ]
         }

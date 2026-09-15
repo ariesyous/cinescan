@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:43:12.834Z",
+  "updatedAt": "2026-09-15T05:56:49.334Z",
   "theatre": {
     "id": 9186,
     "name": "Cinéma Galaxy Victoriaville"
@@ -966,6 +966,42 @@
       ]
     },
     "139641": {
+      "totalRows": 14,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        "CC",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "............................",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
+        "............................",
+        "..SSSSSCWWWWCSSSSSSCWWW.....",
+        "..SSSSSSSSSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSSSSSSSSS..SS.",
+        "..SSSSSSSSSSSSSSSSSSSSS..SS.",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "139642": {
       "totalRows": 14,
       "totalColumns": 28,
       "rowLabels": [
@@ -4531,6 +4567,42 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "139641"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "movies": [
+        {
+          "title": "L'île de l'oubli",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61297_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139642&a=0000000001&l=9186&m=lile-de-loubli&ss=False",
+              "seats": [
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "............................",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAA?AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "139642"
             }
           ]
         }

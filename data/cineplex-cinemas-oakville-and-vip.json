@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:43:34.923Z",
+  "updatedAt": "2026-09-15T05:57:13.325Z",
   "theatre": {
     "id": 7273,
     "name": "Cineplex Cinemas Oakville and VIP"
@@ -1705,6 +1705,40 @@
         ".SSSSSSSSSSSSSSSSSSSSSSSS..SS",
         ".DD.DDD.DDD.DDD.DDD.DDD.D..SS",
         ".DD.DDD.DDD.DDD.DDD.DDD.D..SS"
+      ]
+    },
+    "253104": {
+      "totalRows": 13,
+      "totalColumns": 26,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "..........................",
+        "...SSSSSSSSSSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSSSSSSSSSS.",
+        "..........................",
+        ".......WCSSSSSSSSSCW.WCS..",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "253108": {
@@ -4055,7 +4089,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAOOAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA.",
                 "AA..AAAAAAAAAAAOOAAAAAAAAAAAAA.",
                 "AA..?AAAAAAAAAAAAAAAAAAAAAAAAA.",
@@ -5028,7 +5062,7 @@
                 ".AAAAAAAAAA....",
                 ".AAAAOOAAAA....",
                 ".AAAAOOAAOO....",
-                ".AAAAOOAAAA..OO",
+                ".AAAAOOOOAA..OO",
                 ".AAAAAAAAAA..AA",
                 "AAAAAOOAAAA..AA",
                 ".........AAAAAA"
@@ -6719,6 +6753,36 @@
     {
       "date": "2026-09-28",
       "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=253104&a=0000000001&l=7273&m=forgotten-island&ss=False",
+              "seats": [
+                "..........................",
+                "...AAAAAAAAAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAAAAAAAAAA.",
+                "..........................",
+                ".......AAAAAAAAAAAAA.AAA..",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAA?AAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "253104"
+            }
+          ]
+        },
         {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",

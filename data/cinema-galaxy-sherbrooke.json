@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:43:13.687Z",
+  "updatedAt": "2026-09-15T05:56:50.381Z",
   "theatre": {
     "id": 9188,
     "name": "Cinéma Galaxy Sherbrooke"
@@ -3051,6 +3051,46 @@
         "..SSSSSSSSSSSSSSSSSSSSSS..SS"
       ]
     },
+    "454071": {
+      "totalRows": 16,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        "CC",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "seatTypes": [
+        "............................",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        "............................",
+        ".......WCSSSSSSCW.WCSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSSSSSSSSSSSS..SS"
+      ]
+    },
     "454072": {
       "totalRows": 16,
       "totalColumns": 28,
@@ -5988,6 +6028,62 @@
         "..SSSSSSSSSSSSSSSSSSSSSSS...",
         ".SSSSSSSSSSSSSSSSSSSSSSSSSS."
       ]
+    },
+    "454405": {
+      "totalRows": 10,
+      "totalColumns": 28,
+      "rowLabels": [
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        ".SSSSSSSSSSSSSSSSSSSSSSSS...",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSS..",
+        "............................",
+        "..SSSSSSSSSCW.WCSSSSCW......",
+        "..SSSSSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSS."
+      ]
+    },
+    "454406": {
+      "totalRows": 10,
+      "totalColumns": 28,
+      "rowLabels": [
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        ".SSSSSSSSSSSSSSSSSSSSSSSS...",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSS..",
+        "............................",
+        "..SSSSSSSSSCW.WCSSSSCW......",
+        "..SSSSSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSS."
+      ]
     }
   },
   "days": [
@@ -6302,7 +6398,7 @@
                 "..AAAAAAAAAAA.",
                 "..AAAAAAAAAAA.",
                 "..AAAAAAAAAAA.",
-                "..AAAAAAAAAAA.",
+                "..AAAAOOAAAAA.",
                 "..AAAAAAAAAAA.",
                 "..AAAAAAAAAA..",
                 ".............."
@@ -10111,6 +10207,32 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..AA"
               ],
               "layoutKey": "454070"
+            },
+            {
+              "time": "19:00",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=454071&a=0000000001&l=9188&m=lile-de-loubli&ss=False",
+              "seats": [
+                "............................",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                "............................",
+                ".......AAAAAAAAAA.AAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAA??AAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAA???AAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAAAAAA..AA"
+              ],
+              "layoutKey": "454071"
             }
           ]
         },
@@ -10168,6 +10290,53 @@
                 "?AAAAAAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "453707"
+            }
+          ]
+        },
+        {
+          "title": "En Direct",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61917_320_470.jpg",
+          "runtimeMinutes": 106,
+          "sessions": [
+            {
+              "time": "16:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=454406&a=0000000001&l=9188&m=en-direct&ss=False",
+              "seats": [
+                ".AAAAAAAAAAAAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "............................",
+                "..AAAAAAAAAAA.AAAAAAAA......",
+                "..AAAAAA????AAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAA??AAAAAAAAAAAAA."
+              ],
+              "layoutKey": "454406"
+            },
+            {
+              "time": "19:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=454405&a=0000000001&l=9188&m=en-direct&ss=False",
+              "seats": [
+                ".AAAAAAAAAAAAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "............................",
+                "..AAAAAAAAAAA.AAAAAAAA......",
+                "..AAAAAA????AAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAA??AAAAAAAAAAAAA."
+              ],
+              "layoutKey": "454405"
             }
           ]
         }

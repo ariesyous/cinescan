@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:43:28.395Z",
+  "updatedAt": "2026-09-15T05:57:05.273Z",
   "theatre": {
     "id": 7285,
     "name": "Cineplex Cinemas Milton"
@@ -900,6 +900,42 @@
       ]
     },
     "190714": {
+      "totalRows": 14,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "............................",
+        "...SSSSSSSSSSSSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSSSSSSSSSSSS.",
+        "............................",
+        ".......WWCSSSSCWCSSCW..WCS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".SS..SSSSSSSSSSSSSSSSSSSSS..",
+        ".SS..SSSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+        "............................"
+      ]
+    },
+    "190718": {
       "totalRows": 14,
       "totalColumns": 28,
       "rowLabels": [
@@ -4081,6 +4117,42 @@
                 "............................"
               ],
               "layoutKey": "190714"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=190718&a=0000000001&l=7285&m=forgotten-island&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAAAAAAAAAAAA.",
+                "............................",
+                ".......AAAAAAAAAAAAAA..AAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".AA..AAAAAAAAAAAAAAAAAAAAA..",
+                ".AA..AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "............................"
+              ],
+              "layoutKey": "190718"
             }
           ]
         }

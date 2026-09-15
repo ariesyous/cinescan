@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:44:27.253Z",
+  "updatedAt": "2026-09-15T05:58:11.472Z",
   "theatre": {
     "id": 3150,
     "name": "SilverCity CrossIron Mills Cinemas and XSCAPE Entertainment Centre"
@@ -810,6 +810,36 @@
       ]
     },
     "128931": {
+      "totalRows": 11,
+      "totalColumns": 22,
+      "rowLabels": [
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "......................",
+        "....SCW.WCSSSCW..SS...",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSS...",
+        "SS..SSSSSSSSSSSSSSS...",
+        "SSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "128932": {
       "totalRows": 11,
       "totalColumns": 22,
       "rowLabels": [
@@ -2934,7 +2964,7 @@
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA..AA",
+                "...AAAAAAAAAAAAOOO..AA",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "129063"
@@ -4918,6 +4948,39 @@
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "128931"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=128932&a=0000000001&l=3150&m=forgotten-island&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAAAAAA?..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                "....AAA.AAAAAAA..AA...",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAA...",
+                "AA..AAAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "128932"
             }
           ]
         }

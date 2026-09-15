@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:43:06.166Z",
+  "updatedAt": "2026-09-15T05:56:42.199Z",
   "theatre": {
     "id": 9153,
     "name": "Cinéma Cineplex Odeon Carrefour Dorion"
@@ -638,6 +638,38 @@
       ]
     },
     "196314": {
+      "totalRows": 12,
+      "totalColumns": 18,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        null,
+        null
+      ],
+      "seatTypes": [
+        "....SSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".........WCSSSSCW.",
+        "..................",
+        ".................."
+      ]
+    },
+    "196315": {
       "totalRows": 12,
       "totalColumns": 18,
       "rowLabels": [
@@ -3069,6 +3101,40 @@
                 ".................."
               ],
               "layoutKey": "196314"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "movies": [
+        {
+          "title": "L'île de l'oubli",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61297_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196315&a=0000000001&l=9153&m=lile-de-loubli&ss=False",
+              "seats": [
+                "....AAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".........AAAAAAAA.",
+                "..................",
+                ".................."
+              ],
+              "layoutKey": "196315"
             }
           ]
         }

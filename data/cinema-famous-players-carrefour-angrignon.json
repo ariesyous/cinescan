@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:43:11.722Z",
+  "updatedAt": "2026-09-15T05:56:48.322Z",
   "theatre": {
     "id": 9195,
     "name": "Cinéma Famous Players Carrefour Angrignon"
@@ -2154,6 +2154,48 @@
       ]
     },
     "234231": {
+      "totalRows": 17,
+      "totalColumns": 24,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        null
+      ],
+      "seatTypes": [
+        "........................",
+        "SSSS...SSSSSSSSSSS......",
+        "SSSS...SSSSSSSSSS...SSSS",
+        "SSSS...SSSSSSSSSSS..SSSS",
+        "SSSS...SSSSSSSSSS...SSSS",
+        "SSSS...SSSSSSSSSSS..SSSS",
+        "SSSS...SSSSSSSSSS...SSSS",
+        "SSSS...SSSSSSSSSSS..SSSS",
+        "SSSS...SSSSSSSSSS...SSSS",
+        "SSSS...SSSSSSSSSSS..SSSS",
+        "SSSS...SSSSSSSSSS...SSSS",
+        "SSSS...SSSSSSSSSSS..SSSS",
+        "SSSS...SSSSSSSSSS...SSSS",
+        "SSSS...SSSSSSSSSSS..SSSS",
+        "SSSS...SSSSS........SSSS",
+        "SSSS...SSSS...CW........",
+        "........................"
+      ]
+    },
+    "234232": {
       "totalRows": 17,
       "totalColumns": 24,
       "rowLabels": [
@@ -6060,7 +6102,7 @@
                 "AAAAAA...AAAAAAAAOAAAAAA...AAAAAA",
                 "AAAAAA...AAAAAAAAAAAAAAAA..AAAAAA",
                 "AAAAAA...AA?AAAA?AAAAAAA...AAAAAA",
-                "??AAAA...AAAAAAAAAAAAAAAA..AAAAAA",
+                "??AAAA...AAAAAAAAAAAAAAAA..AOOOOA",
                 "AAAAAA...AAAAA?AAAAAAAAA...AAAAAA",
                 "AAAAAA...AAAAAAAAAAAAAAAA..AAAAAA",
                 "....AA...AAAAAAAAAAAAAAA...AAAAAA",
@@ -7388,6 +7430,40 @@
     {
       "date": "2026-09-28",
       "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=234232&a=0000000001&l=9195&m=forgotten-island&ss=False",
+              "seats": [
+                "........................",
+                "????...???????????......",
+                "???A...AAAAAA???A...AAAA",
+                "???A...AAAAAAAAAAA..AAAA",
+                "?AAA...AAAAAAAAAA...AA??",
+                "AAAA...?AAAAAAAAAA..AAAA",
+                "AAAA...AAAAAAAAAA...AAAA",
+                "AAAA...?AAAAAAA???..AAAA",
+                "AAAA...AAAAAAAAAA...A?AA",
+                "AAAA...AAAA?AAAAAA..AAAA",
+                "AAAA...AAAAAAAAAA...AAAA",
+                "AAAA...AAAAAAAAAAA..AAAA",
+                "AAAA...AAAAAAAAAA...AAAA",
+                "A?AA...AAAAAAAAAAA..AAAA",
+                "AAAA...AAAAA........A?AA",
+                "AAAA...AAAA...AA........",
+                "........................"
+              ],
+              "layoutKey": "234232"
+            }
+          ]
+        },
         {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",

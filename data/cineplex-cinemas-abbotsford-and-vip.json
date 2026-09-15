@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:43:13.588Z",
+  "updatedAt": "2026-09-15T05:56:50.182Z",
   "theatre": {
     "id": 1148,
     "name": "Cineplex Cinemas Abbotsford and VIP"
@@ -4042,6 +4042,40 @@
         "SS...SSSSSSSSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
+    },
+    "161550": {
+      "totalRows": 13,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "............................",
+        "...SSSSSSSSSSSSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSSSSSSSSSSSS.",
+        "............................",
+        ".....CWWCSSSSWSSSSCWWC......",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
     }
   },
   "days": [
@@ -4277,7 +4311,7 @@
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA...",
                 "AAOOOOOAAA...",
-                "AAAAAAA?AA.AA",
+                "AAAAAAA?AO.AA",
                 "AA?AAAOOAA.AA",
                 "AAAAAAAAAA.AA",
                 "AAAA....AA.AA",
@@ -4383,7 +4417,7 @@
                 ".....AAAAAAAAAAAAAAAA.",
                 "AA...AAAAOOOAAAAAAAAA.",
                 "AA...AAAAAAAAAAOOAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAOOOAAAAAAAAA"
               ],
               "layoutKey": "161467"
             }
@@ -4410,7 +4444,7 @@
                 "......AAAAAAAAAAAAA...",
                 "......AAAAAAAAAAAA?...",
                 ".AA...AAAAAAAAAAAAA.AA",
-                ".AA...AAAAAAAAAAAAA...",
+                ".AA...AAAAAOOAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "161497"
@@ -4538,7 +4572,7 @@
                 "AAAAAAAAAAAA...",
                 "AAAAAAAAAAAA...",
                 "AA?AAAAAAAAA...",
-                "AAAAAAAAAAAA...",
+                "AAAAAOOOAAAA...",
                 "AAAAAAOOOAAA...",
                 "?AOOAAOOOAAA.OO",
                 "AAAAOOOOAAAA.AA",
@@ -4651,7 +4685,7 @@
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
+                "OOOOAAAAAA...",
                 "AAAAAAA?AA.AA",
                 "AA?AAAAAAA.AA",
                 "AAAAOOAAAA.AA",
@@ -4849,7 +4883,7 @@
                 "...AAAAAAAAAAAA",
                 "...AAAAAAAAAAAA",
                 "...AAAAAAAAAAAA",
-                "AA.AAAAAAAAAAAA",
+                "AA.AAAAOOOAAAAA",
                 "AA.AAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAA",
                 "AA.AAA....AAAAA",
@@ -5250,7 +5284,7 @@
                 "AAAAOOOOOOAA.AA",
                 "AAAAOOOOOAAA.AA",
                 "AAAAA....AAA.AA",
-                "AOOO......OO.AA"
+                "AOOO......OO.OA"
               ],
               "layoutKey": "161133"
             },
@@ -5326,12 +5360,12 @@
                 "AAAAAAAAAAAA...",
                 "AA?AAAAAAAAA...",
                 "AAAAAAAAAAAA...",
-                "AAOOAAAAAAAA...",
+                "AAAAAAAAAAAA...",
                 "?AAAAAAAAAAA.AA",
                 "AAAAAAAAAAAA.AA",
                 "AAAAAAOOAAOO.AA",
                 "AAAAA....AAA.AA",
-                "AAAA......AA.AA"
+                "AAAA......OO.AA"
               ],
               "layoutKey": "161134"
             }
@@ -5682,6 +5716,41 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "161549"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "movies": [
+        {
+          "title": "Primetime",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
+          "runtimeMinutes": 107,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=161550&a=0000000001&l=1148&m=primetime&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAAAAAAAAAAAA.",
+                "............................",
+                ".....AAAAAAAAAAAAAAAAA......",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAA?..",
+                "AA...A?AAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "161550"
             }
           ]
         }

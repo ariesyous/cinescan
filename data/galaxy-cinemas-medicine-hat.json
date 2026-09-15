@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:44:12.498Z",
+  "updatedAt": "2026-09-15T05:57:52.437Z",
   "theatre": {
     "id": 3140,
     "name": "Galaxy Cinemas Medicine Hat"
@@ -1938,6 +1938,34 @@
       ]
     },
     "255172": {
+      "totalRows": 10,
+      "totalColumns": 17,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        ".................",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        "....WWCSSSSSSSSS.",
+        "................."
+      ]
+    },
+    "255173": {
       "totalRows": 10,
       "totalColumns": 17,
       "rowLabels": [
@@ -4242,6 +4270,66 @@
       ]
     },
     "255387": {
+      "totalRows": 11,
+      "totalColumns": 18,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "J",
+        null
+      ],
+      "seatTypes": [
+        "..................",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        "..WWCSSSSSSSSSSCW.",
+        ".................."
+      ]
+    },
+    "255388": {
+      "totalRows": 11,
+      "totalColumns": 18,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "J",
+        null
+      ],
+      "seatTypes": [
+        "..................",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        "..WWCSSSSSSSSSSCW.",
+        ".................."
+      ]
+    },
+    "255389": {
       "totalRows": 11,
       "totalColumns": 18,
       "rowLabels": [
@@ -7232,7 +7320,7 @@
           "runtimeMinutes": 109,
           "sessions": [
             {
-              "time": "15:30",
+              "time": "15:50",
               "formats": [
                 "Regular"
               ],
@@ -7250,6 +7338,26 @@
                 "................."
               ],
               "layoutKey": "255172"
+            },
+            {
+              "time": "18:40",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255173&a=0000000001&l=3140&m=forgotten-island&ss=False",
+              "seats": [
+                ".................",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAAA.",
+                "................."
+              ],
+              "layoutKey": "255173"
             }
           ]
         },
@@ -7303,6 +7411,55 @@
                 "...................."
               ],
               "layoutKey": "254916"
+            }
+          ]
+        },
+        {
+          "title": "Primetime",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
+          "runtimeMinutes": 107,
+          "sessions": [
+            {
+              "time": "16:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255389&a=0000000001&l=3140&m=primetime&ss=False",
+              "seats": [
+                "..................",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAA?AAAAAAAA.",
+                ".A?A?A?A?AAA?AAAA.",
+                ".AA?A?AA??AAAA?AA.",
+                ".A?AAAAA?AAAAAAAA.",
+                ".???AAAA?AAAAAAA?.",
+                "..AAA?AA?AAAAA?AA.",
+                ".................."
+              ],
+              "layoutKey": "255389"
+            },
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255388&a=0000000001&l=3140&m=primetime&ss=False",
+              "seats": [
+                "..................",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAA?AAAAAAAA.",
+                ".A?A?A?A?AAA?AAAA.",
+                ".AA?A?AA??AAAA?AA.",
+                ".A?AAAAA?AAAAAAAA.",
+                ".???AAAA?AAAAAAA?.",
+                "..AAA?AA?AAAAA?AA.",
+                ".................."
+              ],
+              "layoutKey": "255388"
             }
           ]
         }

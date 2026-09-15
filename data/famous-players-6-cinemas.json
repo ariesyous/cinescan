@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:44:06.569Z",
+  "updatedAt": "2026-09-15T05:57:45.950Z",
   "theatre": {
     "id": 1415,
     "name": "Famous Players 6 Cinemas"
@@ -870,6 +870,44 @@
       ]
     },
     "148132": {
+      "totalRows": 15,
+      "totalColumns": 25,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        null
+      ],
+      "seatTypes": [
+        ".........................",
+        ".....SSSSSSSSSSSSSS......",
+        "....SSSSSSSSSSSSSSS......",
+        ".....SSSSSSSSSSSSSS..SSSS",
+        "....SSSSSSSSSSSSSSS..SSSS",
+        "SS...SSSSSSSSSSSSSS..SSSS",
+        "SS..SSSSSSSSSSSSSSS..WWWC",
+        "SS...SSSSSSSSSSSSSS..WWWC",
+        "SS..SSSSSSSSSSSSSSS..SSSS",
+        "SS...SSSSSSSSSSSSSS..SSSS",
+        "SS..SSSSSSSSSSSSSSS..SSSS",
+        "SS...SSSSSSSSSSSSSS..SSSS",
+        "SS..SSSSSSSSSSSSSSS..SSSS",
+        "SS....SSSSSSSSSSCW...SSSS",
+        "........................."
+      ]
+    },
+    "148133": {
       "totalRows": 15,
       "totalColumns": 25,
       "rowLabels": [
@@ -3074,6 +3112,43 @@
                 "........................."
               ],
               "layoutKey": "148130"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=148133&a=0000000001&l=1415&m=forgotten-island&ss=False",
+              "seats": [
+                ".........................",
+                ".....?????AAAAAAAAA......",
+                "....AAAAAAAAAAAAAAA......",
+                ".....AAAAAAAAAAAAAA..AAAA",
+                "....AAAAAAAAAAAAAAA..AAAA",
+                "AA...AAAAAAAAAAAAAA..AAAA",
+                "AA..AAAAAAAAAAAAAAA..AAAA",
+                "AA...AAAAAAA??AAAAA..AAAA",
+                "AA..AAAAA??AAAAAA??..AAAA",
+                "AA...AAAAAAAAAAAAAA..AA??",
+                "AA..?AAAAAAAAAAAAAA..AAAA",
+                "AA...AAAAAAAAAAAAAA..AAAA",
+                "AA..AAAAAAAAAAAAAAA..AAAA",
+                "AA....AAAAAAAAAAAA...AAAA",
+                "........................."
+              ],
+              "layoutKey": "148133"
             }
           ]
         }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:43:44.393Z",
+  "updatedAt": "2026-09-15T05:57:23.028Z",
   "theatre": {
     "id": 5103,
     "name": "Cineplex Cinemas Sydney"
@@ -2689,6 +2689,46 @@
         "SSSSSSSSSSSSSSSSSSSSSSSSS."
       ]
     },
+    "147999": {
+      "totalRows": 16,
+      "totalColumns": 26,
+      "rowLabels": [
+        null,
+        "DD",
+        "CC",
+        "BB",
+        "AA",
+        null,
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "..........................",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..........................",
+        "..........................",
+        "....SCW..WCSSSSSCW..WCS...",
+        "....SSSSSSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSSSSSS...",
+        "....SSSSSSSSSSSSSSSSSSS...",
+        ".....SSSSSSSSSSSSSSSSS....",
+        ".....SSSSSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSSSSSSS...",
+        "SS..SSSSSSSSSSSSSSSSSSS...",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS."
+      ]
+    },
     "148193": {
       "totalRows": 16,
       "totalColumns": 25,
@@ -5080,6 +5120,66 @@
       ]
     },
     "148292": {
+      "totalRows": 11,
+      "totalColumns": 24,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "........................",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "........................",
+        "...WWCSSSSSSSSSSSSCWW...",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "...SSSSSSSSSSSSSSSSSS...",
+        "...SSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "148293": {
+      "totalRows": 11,
+      "totalColumns": 24,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "........................",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "........................",
+        "...WWCSSSSSSSSSSSSCWW...",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "...SSSSSSSSSSSSSSSSSS...",
+        "...SSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "148294": {
       "totalRows": 11,
       "totalColumns": 24,
       "rowLabels": [
@@ -7648,7 +7748,7 @@
                 "....AAAAAAAAAAAAAAAAAAA...",
                 ".....AAAAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAAAA....",
-                "....AAAAAAAAOAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAAAAAA...",
                 "??..AAAAAAAAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA."
               ],
@@ -8487,6 +8587,39 @@
       "date": "2026-09-28",
       "movies": [
         {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=147999&a=0000000001&l=5103&m=forgotten-island&ss=False",
+              "seats": [
+                "..........................",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..........................",
+                "..........................",
+                "....AAA..AAAAAAAAA..AAA...",
+                "....AAAAAAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAAAAAA...",
+                ".....AAAAAAAAAAAAAAAAA....",
+                ".....AAAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAAAAAA...",
+                "??..AAAAAAAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA."
+              ],
+              "layoutKey": "147999"
+            }
+          ]
+        },
+        {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
           "runtimeMinutes": 101,
@@ -8516,6 +8649,55 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "147712"
+            }
+          ]
+        },
+        {
+          "title": "Primetime",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
+          "runtimeMinutes": 107,
+          "sessions": [
+            {
+              "time": "16:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=148293&a=0000000001&l=5103&m=primetime&ss=False",
+              "seats": [
+                "........................",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "........................",
+                "...AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAA?"
+              ],
+              "layoutKey": "148293"
+            },
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=148294&a=0000000001&l=5103&m=primetime&ss=False",
+              "seats": [
+                "........................",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "........................",
+                "...AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAA?"
+              ],
+              "layoutKey": "148294"
             }
           ]
         }

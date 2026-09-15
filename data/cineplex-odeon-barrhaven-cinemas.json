@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:43:52.261Z",
+  "updatedAt": "2026-09-15T05:57:31.471Z",
   "theatre": {
     "id": 7286,
     "name": "Cineplex Odeon Barrhaven Cinemas"
@@ -870,6 +870,42 @@
       ]
     },
     "172134": {
+      "totalRows": 14,
+      "totalColumns": 30,
+      "rowLabels": [
+        "AA",
+        "BB",
+        "CC",
+        "DD",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        ".......SSSSSSSSSSSSSSSSS......",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSSS..",
+        "..............................",
+        "..SSSSSSSSCW.WCSSCW....WCS....",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSSSSSSS.....",
+        "...SSSSSSSSSSSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "172135": {
       "totalRows": 14,
       "totalColumns": 30,
       "rowLabels": [
@@ -2047,7 +2083,7 @@
                 "AA.....AAAAAAAAAAAAA...",
                 "AA....AAAAAAAAAAAAAAA..",
                 "AA....AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAOOAAAAAAAAAAA"
               ],
               "layoutKey": "172210"
             },
@@ -3353,6 +3389,42 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "172134"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=172135&a=0000000001&l=7286&m=forgotten-island&ss=False",
+              "seats": [
+                ".......AAAAAAAAAAAAAAAAA......",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..............................",
+                "..AAAAAAAAAA.AAAAAA....AAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAAAAAAA.....",
+                "...AAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "172135"
             }
           ]
         }

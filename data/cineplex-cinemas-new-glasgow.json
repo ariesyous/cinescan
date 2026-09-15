@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:43:30.256Z",
+  "updatedAt": "2026-09-15T05:57:07.071Z",
   "theatre": {
     "id": 5114,
     "name": "Cineplex Cinemas New Glasgow"
@@ -1018,6 +1018,42 @@
       ]
     },
     "95713": {
+      "totalRows": 14,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "EE",
+        "DD",
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "......................",
+        ".SSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSS..",
+        "......................",
+        ".......WCSSSSSSSSCW...",
+        ".....SSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSS..",
+        "...SSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "95714": {
       "totalRows": 14,
       "totalColumns": 22,
       "rowLabels": [
@@ -3369,6 +3405,42 @@
                 "...AAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "95712"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=95714&a=0000000001&l=5114&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                ".AAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".......AAAAAAAAAAAA...",
+                ".....?AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "95714"
             }
           ]
         }
