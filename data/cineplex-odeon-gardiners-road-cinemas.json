@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T22:50:11.015Z",
+  "updatedAt": "2026-09-15T23:24:28.589Z",
   "theatre": {
     "id": 7259,
     "name": "Cineplex Odeon Gardiners Road Cinemas"
@@ -1773,36 +1773,6 @@
         "..SSSSSSSSSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSSSSSSSS",
         "...DDDDDDDDDDDDDDDDDDDD..."
-      ]
-    },
-    "299541": {
-      "totalRows": 11,
-      "totalColumns": 27,
-      "rowLabels": [
-        "AA",
-        "BB",
-        "CC",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS.",
-        "...........................",
-        "....CW.WCSSSSSCW.WCCW.WC...",
-        "....SSSSSSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSSSSSS...",
-        "SS..SSSSSSSSSSSSSSSSSSSS.SS",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "299542": {
@@ -3609,46 +3579,6 @@
         "..SSSSSSSSSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSSSSSSSS",
         "...DDDDDDDDDDDDDDDDDDDD..."
-      ]
-    },
-    "300925": {
-      "totalRows": 6,
-      "totalColumns": 14,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "....SSWCCWWC..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        ".SSSSSSSSSSSS."
-      ]
-    },
-    "300926": {
-      "totalRows": 6,
-      "totalColumns": 14,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "..CWWCCWSS....",
-        "..SSSSSSSSSSS.",
-        "..SSSSSSSSSSS.",
-        "..SSSSSSSSSSS.",
-        "..SSSSSSSSSSS.",
-        "..SSSSSSSSSS.."
       ]
     },
     "300927": {
@@ -9794,27 +9724,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "19:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=299541&a=0000000001&l=7259&m=practical-magic-2&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA.",
-                "...........................",
-                "....AA.AAAAAAAAA.AAAA.AA...",
-                "....AAAAAAAAOOOAAAAAAAAA...",
-                "....OOOOOAOOOOOAAAOOOOAA...",
-                "....O?OOOOOOOOOOOOOOOOOO...",
-                "....OOOAOOOAOOOOOOOOOOOO...",
-                "AA..OOOOAOOOOOOOOOOAAOOO.OO",
-                "AAAAOOOOOOOOOOOOOOOAAAOOAAA"
-              ],
-              "layoutKey": "299541"
-            },
-            {
               "time": "22:00",
               "formats": [
                 "Recliner"
@@ -9842,22 +9751,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
           "runtimeMinutes": 128,
           "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=300926&a=0000000001&l=7259&m=the-uprising&ss=False",
-              "seats": [
-                "..AAAAAAAA....",
-                "..AAAAAAAAAAA.",
-                "..AAAAAAAAAAA.",
-                "..AAAAAAAAAAA.",
-                "..AAAAAAAOAAA.",
-                "..OAAAOAAAAA.."
-              ],
-              "layoutKey": "300926"
-            },
             {
               "time": "21:50",
               "formats": [
@@ -9959,22 +9852,6 @@
           "runtimeMinutes": 123,
           "sessions": [
             {
-              "time": "18:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=300925&a=0000000001&l=7259&m=oasis-dont-look-back-in-anger&ss=False",
-              "seats": [
-                "....AAAAAAAA..",
-                "..AAAAAAAAAA..",
-                "..AAAAAAAAAA..",
-                "..AAAAOOAAAA..",
-                "..AAAAAAOOAA..",
-                ".AAAAAOOAAAAA."
-              ],
-              "layoutKey": "300925"
-            },
-            {
               "time": "21:45",
               "formats": [
                 "Recliner"
@@ -10033,10 +9910,10 @@
                 "..AA.AAAAAAAA...",
                 "..AAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAA.",
-                "OOAAAAAAOOAAAAAA"
+                "..AAAAAOOOAAAAA.",
+                "..AAOOAAAAAAAAA.",
+                "..AAAAAOOOAAAAA.",
+                "OOAAAOAAOOOOAAAA"
               ],
               "layoutKey": "300927"
             }
@@ -10106,7 +9983,7 @@
                 ".AAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAA..",
                 ".AOOOOOOO?AAAA..",
-                ".AAAAOOOOOOAAA..",
+                ".AOOOOOOOOOAAA..",
                 "AAAAAOOOOO?AAAAA"
               ],
               "layoutKey": "300928"
@@ -10354,7 +10231,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAA?AAAA?AAAAAA..."
+                "...AAAAAAAA?OOAA?AAAAAA..."
               ],
               "layoutKey": "300942"
             },
@@ -10376,7 +10253,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAA?AAAA?AAAAAA..."
+                "...AAAAAAAA?OOAA?AAAAAA..."
               ],
               "layoutKey": "300942"
             },
@@ -11506,7 +11383,7 @@
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAOOAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
+                "....AAOOAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAAAA."
               ],
@@ -11736,7 +11613,7 @@
                 "..AAAAAAAA....",
                 "..AAAAAAAAAAA.",
                 "..AAAAAAAAAAA.",
-                "..AAAAAAAAAAA.",
+                "..AAAAOOAAAAA.",
                 "..AAAAAAAAAAA.",
                 "..AA?AAAAAAA.."
               ],

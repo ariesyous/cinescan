@@ -1,61 +1,11 @@
 {
-  "updatedAt": "2026-09-15T22:49:33.912Z",
+  "updatedAt": "2026-09-15T23:23:50.877Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
   },
   "auditoriums": {
     "123763": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS...SSSSCWWCSSS..SSS",
-        "SCW..................."
-      ]
-    },
-    "125411": {
-      "totalRows": 7,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSCW",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSS..",
-        "SSSCW.WCSSS.."
-      ]
-    },
-    "125413": {
       "totalRows": 10,
       "totalColumns": 22,
       "rowLabels": [
@@ -2094,27 +2044,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "15:40",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125413&a=0000000001&l=1410&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "A??..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..OOOOAAAAAAAA..AAA",
-                "AAA..AAAA?AAAAAAA..AAA",
-                "AAA..AAAAAAOOAAAA..AAA",
-                "AAA..AAOOOA?AAOOO..AAA",
-                "AAA..AAAAOOOOAAAA..AAA",
-                "AAA...AAAAAAAAA?A..AAA",
-                "???..................."
-              ],
-              "layoutKey": "125413"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "3D",
@@ -2175,9 +2104,9 @@
               "seats": [
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
-                "AA..AAAAAA??..?A",
+                "AA..OOOAAA??..?A",
                 "?A..OOOOOOOO..AA",
-                "AA...AAOOAAA..AA"
+                "AO...AAOOOOA..OA"
               ],
               "layoutKey": "125414"
             },
@@ -2203,23 +2132,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "15:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125411&a=0000000001&l=1410&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "AAA??AAAAAAAA",
-                "AA?AAAAAA?A??",
-                "?AAAAOOAAAAAA",
-                "AAAAAAAAAAAAA",
-                "AAAAAOOAAAAAA",
-                "AAAAAOOAAAA..",
-                "AAAAA.AAAAA.."
-              ],
-              "layoutKey": "125411"
-            },
             {
               "time": "19:15",
               "formats": [
@@ -2333,7 +2245,7 @@
               "seats": [
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
-                "AA..AAAAAA??..?A",
+                "AA..AAOOOO??..?A",
                 "?A..AAAAOOAA..AA",
                 "AA...AAAAAAA..AA"
               ],
@@ -2438,7 +2350,7 @@
               "seats": [
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
-                "AA..AAAAOA??..?A",
+                "AA..AAAAOO??..?A",
                 "?A..AAAAAAAA..AA",
                 "AA...AAAAAAA..AA"
               ],
@@ -3516,7 +3428,7 @@
                 "AAA..AAAAAAAAA?..AAA",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAA??A..AAA",
-                "AAA..AAAAAAAAAA..AAA",
+                "AAA..AAAAOOAAAA..AAA",
                 "AAA..AAAAAA?AAA..AAA",
                 "AAA..AAAAA.AAAA..AAA",
                 "???..............???"
