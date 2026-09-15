@@ -1,36 +1,10 @@
 {
-  "updatedAt": "2026-09-15T00:20:22.068Z",
+  "updatedAt": "2026-09-15T01:04:41.331Z",
   "theatre": {
     "id": 4115,
     "name": "Cineplex Cinemas at The Centre"
   },
   "auditoriums": {
-    "84260": {
-      "totalRows": 9,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...................",
-        "...SSSSSSSSSSSSSS..",
-        "...................",
-        "..SSSSCW..WCSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSS"
-      ]
-    },
     "84261": {
       "totalRows": 9,
       "totalColumns": 19,
@@ -971,32 +945,6 @@
         "..SSSSSSSSSSSSSSSSSSSSSSS..",
         "..DD.DDD.DDD.DD.DDD.DDD.D..",
         "..DD.DDD.DDD.DD.DDD.DDD.D.."
-      ]
-    },
-    "85469": {
-      "totalRows": 9,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "................",
-        "...SSSSSSSSSSS..",
-        "................",
-        "....SSCW..WCSS..",
-        "....SSSSSSSSSS..",
-        "....SSSSSSSSSS..",
-        "....SSSSSSSSSS..",
-        "....SSSSSSSSSS..",
-        "SSSS........SS.."
       ]
     },
     "85470": {
@@ -2429,32 +2377,6 @@
       "date": "2026-09-14",
       "movies": [
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=84260&a=0000000001&l=4115&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                "...AAAAAAAAAAAAAA..",
-                "...................",
-                "..AAAAAA..AAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAOOOAAAAA...",
-                "..AAAOOAOOOAAOOO...",
-                "..AAAAAAOOOAAAAA...",
-                "..AAAAAAOOAAAAAAAAA"
-              ],
-              "layoutKey": "84260"
-            }
-          ]
-        },
-        {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
@@ -2473,7 +2395,7 @@
                 "..AAAAAAAAAA....",
                 "..AAAAAAAAAA....",
                 "..AAAAOOAAAA....",
-                "..AAAAAAAAAA....",
+                "..AAAAAAOOOO....",
                 "AAAA........AAAA"
               ],
               "layoutKey": "85467"
@@ -2532,32 +2454,6 @@
           ]
         },
         {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=85469&a=0000000001&l=4115&m=the-odyssey&ss=False",
-              "seats": [
-                "................",
-                "...AAAAAAAAAAA..",
-                "................",
-                "....AAAA..AAAA..",
-                "....AAAAAAAAAA..",
-                "....AAAOOOAAAA..",
-                "....AAAOOOAAOO..",
-                "....OAAOOAOOAA..",
-                "AAAA........AA.."
-              ],
-              "layoutKey": "85469"
-            }
-          ]
-        },
-        {
           "title": "Coyote vs ACME",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
@@ -2602,7 +2498,7 @@
                 "................",
                 "....AAAA..AAAA..",
                 "....AAAAAAAAAA..",
-                "....AAAAAAAAAA..",
+                "....OOAAAAAAAA..",
                 "....AOOOAAAAAA..",
                 "....AAAAAAAAAA..",
                 "A?AA........AAAA"
@@ -2628,10 +2524,10 @@
                 "................",
                 "..AAAA..AAAA....",
                 "..AAAAAAAAAA....",
-                "..AAAAAOAAAA....",
-                "..AAAAAAAAAA....",
+                "..AAOAAOAAAA....",
+                "..AAOOAAAAAA....",
                 "..AAAAAOOAAA....",
-                "..AA........AAAA"
+                "..OO........AAAA"
               ],
               "layoutKey": "85470"
             }
@@ -2697,9 +2593,9 @@
                 "...................",
                 "..AAAAAA..AAAAAA...",
                 "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
+                "..AAOOOOAAAAAAAA...",
                 "..AAOOOOOOOOOOOO...",
-                "..OOAAOOOOAAAAOO...",
+                "..OOAAOOOOOOAAOO...",
                 "..AOOOOOOOOOAAAAAAA"
               ],
               "layoutKey": "84262"
