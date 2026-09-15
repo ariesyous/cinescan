@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T23:41:35.342Z",
+  "updatedAt": "2026-09-15T00:21:09.657Z",
   "theatre": {
     "id": 3144,
     "name": "Cineplex Odeon South Edmonton Cinemas"
@@ -51,28 +51,28 @@
     },
     "519497": {
       "totalRows": 9,
-      "totalColumns": 18,
+      "totalColumns": 20,
       "rowLabels": [
-        null,
-        "AA",
         null,
         "A",
         "B",
         "C",
         "D",
         "E",
-        "F"
+        "F",
+        "G",
+        "H"
       ],
       "seatTypes": [
-        "..................",
-        "..SSSSSSSSSSSSSSS.",
-        "..................",
-        "..SSSSCW.WCSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS..."
+        "....................",
+        ".SSSSSSCW.WCSSSSSCW.",
+        ".SSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSS."
       ]
     },
     "519498": {
@@ -6837,36 +6837,6 @@
         ".SSSSSSSSSS...."
       ]
     },
-    "524459": {
-      "totalRows": 11,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null,
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSCW.SSSSS.",
-        ".SSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSS.",
-        "...............",
-        "..SSSSCW.SSSSS.",
-        ".SSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSS.",
-        ".SSSSSSSSSS...."
-      ]
-    },
     "524460": {
       "totalRows": 9,
       "totalColumns": 18,
@@ -12737,14 +12707,14 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=524444&a=0000000001&l=3144&m=practical-magic-2&ss=False",
               "seats": [
                 "..................",
-                "..AAAAAAAAAAAAAAA.",
+                "..???????????????.",
                 "..................",
-                "..AAAAAA.AAAAAA...",
-                "..AAAAAAAAAAAAA...",
-                "..AAAAOAAOOOAOO...",
-                "..OOOAAOOOOOOAO...",
-                "..AAAAAAOOOAAOO...",
-                "..OAAOOAAOOOAAA..."
+                "..??????.??????...",
+                "..?????????????...",
+                "..?????????????...",
+                "..?????????????...",
+                "..?????????????...",
+                "..?????????????..."
               ],
               "layoutKey": "524444"
             },
@@ -12876,7 +12846,7 @@
                 "AAAAA.AAAAA",
                 "AAAAAAAAAAA",
                 "AAAAOAAAAAA",
-                "AAAA?AAAAAA",
+                "OOAA?OOOOOA",
                 "AAAOOAAAAAA",
                 "AAAAAOAAAOO"
               ],
@@ -12917,9 +12887,9 @@
                 "AAAAA.AAAAA",
                 "AAAAAAAAAAA",
                 "AAAAAAAAAAA",
-                "AAAAAAAAAAA",
-                "AAAOOAAAAAA",
-                "AAAAAAAAAAA"
+                "AAAAOAAOAAA",
+                "AAAOOAAOOAA",
+                "AAAAOOAOOAA"
               ],
               "layoutKey": "524443"
             },
@@ -13012,7 +12982,7 @@
                 "..AAAAA....AAAAAAAAAAAAAA...AAAA...",
                 "AAAAAAA....AAAAAAAAAAAAAA...AAAA...",
                 "AAAAAAA....AAAAAAOOAAAAAA...AAAAAAA",
-                "AAAAAAA....AAAAAAAAAAAAAA...AAAAAAA",
+                "AAAAAAA....AAAAOOAAAAAAAA...AAAAAAA",
                 "AAAAAAA....AAAAAOOOOAAAOO...AAAAAAA",
                 "AAAAAAA....AAAAAAOOAAAAAA...AAAAAAA",
                 "AAAAAAA....AAAAAAAAAAAAAA...AAAAAAA",
@@ -13073,27 +13043,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "18:00",
-              "formats": [
-                "Clubhouse"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=524459&a=0000000001&l=3144&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAA.AAAAA.",
-                ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAA.",
-                "...............",
-                "..AAAAAA.AAAAA.",
-                ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAA.",
-                ".AAAAAAAAAA...."
-              ],
-              "layoutKey": "524459"
-            },
-            {
               "time": "20:50",
               "formats": [
                 "Clubhouse"
@@ -13130,10 +13079,10 @@
               "seats": [
                 "...........",
                 "AAAAA.AAAAA",
-                "AAAAAAAAAAA",
+                "AAAAOOAAAAA",
                 "AAAAAAAAAAA",
                 "AAAAAAAAAOO",
-                "OOAAAAAAA?A",
+                "OOAAOAOOA?A",
                 "AAAAOOAAAOO"
               ],
               "layoutKey": "524480"
@@ -13218,9 +13167,9 @@
                 "...AAAAAA.AAAAAA..",
                 "...AAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAA..",
+                "...AAAAAAAOOAAAA..",
                 "...AAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAA..",
-                "...AAAAAOOAAAAAA.."
+                "...AAAAAOOOOAAAA.."
               ],
               "layoutKey": "524465"
             }
@@ -13244,7 +13193,7 @@
                 "AAAAAAAAAAA",
                 "AAAAAAAAAAA",
                 "AAAAAAAAAAA",
-                "AAAAAAAAAAA"
+                "AAAAAOOAAAA"
               ],
               "layoutKey": "524450"
             },
@@ -13283,9 +13232,9 @@
                 "AAAAA.AAAAA",
                 "AAAAAAAAAAA",
                 "AAAAAAAAAAA",
-                "AAAAAAOOOAA",
+                "AAAOOAOOOAA",
                 "AAAOOAAAAAA",
-                "AAAAAAAAAAA"
+                "OOAAAAOOAAA"
               ],
               "layoutKey": "524482"
             }
@@ -13332,7 +13281,7 @@
                 "..................",
                 "..AAAAAA.AAAAAA...",
                 "..AOOOAAAAAAAAA...",
-                "..AAOOOOOOOOOOO...",
+                "..OOOOOOOOOOOOO...",
                 "..OOOAOOOOOOOOA...",
                 "..OOOOOOOOOOAOO...",
                 "..OOOOOOOOOOAOO..."
@@ -13360,8 +13309,8 @@
                 "..AAAAAAAAAAAAAAAA",
                 "..AAAAAAAAAAAAAAAA",
                 "..AAAAAAAAAAAAAOOO",
-                "..AAAAAOOOOAAAAA?A",
-                "..OOOOOAAOOAAOOAAA"
+                "..AAAOOOOOOAAAAA?A",
+                "..OOOOOAAOOOOOOAAA"
               ],
               "layoutKey": "524681"
             },
@@ -13378,7 +13327,7 @@
                 "...AAAA.AAAAAAAAAA",
                 "..AAAAAAAAAAAAAAAA",
                 "..AAAAAAAAAAAAAAAA",
-                "..AAOOOAAAAAAAAAAA",
+                "..AAAAAAAAAAAAAAAA",
                 "..OOAAAAAAAAAAAA?A",
                 "..AAAAAAAOOAAAAAAA"
               ],
@@ -13877,7 +13826,7 @@
                 "AAAAAAAAAAA",
                 "AAAAAAAAAAA",
                 "AAAAOOAAAAA",
-                "AAAAAAAAAAA",
+                "AAAOOAAAAAA",
                 "AAAAAAAAAAA"
               ],
               "layoutKey": "524501"
@@ -13923,7 +13872,7 @@
                 ".AAAAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAOAAAAAAAA.",
                 ".AAAAAAAAOAAAAOOAAA.",
-                ".OOOOOOAAAAAAAAAAAA.",
+                ".OOOOOOAAAAOAAAAAAA.",
                 ".AAAAAAAAOOAAAAOOOO."
               ],
               "layoutKey": "524492"
@@ -14019,7 +13968,7 @@
                 "..AAAAA....AAAAAAAAAAAAAA...AAAA...",
                 "..AAAAA....AAAAAAAAAAAAAA...AAAA...",
                 "AAAAAAA....AAAAAAAAAAAAAA...AAAA...",
-                "AAAAAAA....AAAAAAOOAAOOAA...AAAOOAA",
+                "AAAAAAA....AAAAAAOOAAAAAA...AAAOOAA",
                 "AAAAAAA....AAAAAOOOAAAAAA...AAAAAAA",
                 "AAAAAAA....AAAAAAAAAAAAAA...AAAAAAA",
                 "AAAAAAA....AAAAAAAAAAAAAA...AAAAAAA",
@@ -14665,7 +14614,7 @@
                 "..AAAAAAAAAAAAAAAA",
                 "..AAAAAAOOAAAAAAAA",
                 "..AAAAAAAAAAAAAA?A",
-                "..OOAAAAAOOOOOAAAA"
+                "..OOOOAAAOOOOOAAAA"
               ],
               "layoutKey": "524684"
             },
@@ -14724,7 +14673,7 @@
                 "AAAAAAAAAAA",
                 "AAAAAAAAAAA",
                 "AAOOAAAAAAA",
-                "AAAOOOOOOAA",
+                "AAAOOOOOOOO",
                 "OOAAOOOOOOA"
               ],
               "layoutKey": "524528"
@@ -14812,10 +14761,10 @@
               "seats": [
                 "...........",
                 "AOOAA.AAOOA",
-                "OOOOOOOOAOO",
+                "OOOOOOAAAOO",
                 "OOOOOOOOOOA",
                 "OOOOOOOOOOA",
-                "OOOOOAOOOOO",
+                "OOOOOOOOOOO",
                 "OOOOOOOOOOO"
               ],
               "layoutKey": "523139"
@@ -16041,7 +15990,7 @@
                 "..AAAAAA.AAAAAA...",
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAA...",
-                "..OOOAAAAAAAAAA...",
+                "..AAAAAAAAAAAAA...",
                 "..AAAAAOOAAAAAA...",
                 "..AAAAOOOOAAAAA..."
               ],
@@ -16872,7 +16821,7 @@
                 "AAAAAAA....AAAAAAAAAAAAAA...AAAA...",
                 "AAAAAAA....AAAAAAAAAAAAAA...AAAAAAA",
                 "AAAAAAA....OOAAAAAAAAAAAA...AAAAAAA",
-                "AAAAAAA....AAAAAAAAAAAAAA...AAAAAAA",
+                "AAAAAAA....AAAAAAOAAAAAAA...AAAAAAA",
                 "AAAAAAA....AAAAAAAAAAAAAA...AAAAAAA",
                 "AAAAAAA....AAAAAAAAAAAAAA...AAAAAAA",
                 "AAAAAAAAAAAAAAA......AAAAAAAAAAAAAA"
@@ -17711,7 +17660,7 @@
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA..."
+                "..AAAAAAOOAAAAA..."
               ],
               "layoutKey": "524611"
             }
@@ -17837,7 +17786,7 @@
                 ".AA?A??AAOOAAAAAAAA.",
                 ".AAAAOOOOOOOOOAAOOO.",
                 ".AAAAAOOOOOAAAAAAAA.",
-                "AAAAAAAOOOOAAAOAAOO."
+                "AAAAAAAOOOOOOAOAAOO."
               ],
               "layoutKey": "523673"
             },
@@ -17883,7 +17832,7 @@
                 ".AAAAAAAAAAAAAAAAOO.",
                 ".AA?A??AAOOAAAAAAAA.",
                 ".AAAAAAAAOOAAAAAAAA.",
-                ".AAAAAAAOAAAAAAAAAA.",
+                ".AAAAAAAOOAAAAAAAAA.",
                 "AAAAAAAAAOOAAAAAAAA."
               ],
               "layoutKey": "523674"
@@ -18204,15 +18153,15 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=519497&a=0000000001&l=3144&m=est-twenty-years-of-met-english-west-met&ss=True",
               "seats": [
-                "..................",
-                "..AAAAA?AAAAAAAAA.",
-                "..................",
-                "..AAAAAA.AAAAAA...",
-                "..AAOAAAAAOOAAA...",
-                "..AAAAAAAAAAAAA...",
-                "..AAOOAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA..."
+                "....................",
+                ".AAAAAAAA.AAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAO.",
+                ".AAAAAAAAAAAAAAAAAA.",
+                ".AAAAAOAAAAAOOAAAAO.",
+                ".AAAAAAAAAAAAAAAAAA.",
+                ".AAAAAOOAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "519497"
             },
@@ -19308,7 +19257,7 @@
                 "AAAAAAA....AOOOOOOOOOOOOO...OAAAAAA",
                 "AAAAAAA....OOOOOOOOOOOOOO...AAAAAAA",
                 "AAAAAAA....OOOOOOOOOOOOOO...AAAAAAA",
-                "OAAAAAAAAOOOOOO......OOOOOAAAAAAAAA"
+                "OAAAAAAAAOOOOOO......OOOOOOOAAAAAAA"
               ],
               "layoutKey": "523160"
             }

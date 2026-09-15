@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T23:41:26.768Z",
+  "updatedAt": "2026-09-15T00:20:59.354Z",
   "theatre": {
     "id": 7257,
     "name": "Cineplex Odeon Devonshire Mall Cinemas"
@@ -5745,80 +5745,6 @@
         "..SSSSSSSSSSSSSSSSSSSSSSS..."
       ]
     },
-    "348142": {
-      "totalRows": 8,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "................",
-        ".SSSSSSSSSSSSS..",
-        "................",
-        "...CW.WCCW.SSSS.",
-        "...SSSSSSSSSSSS.",
-        "...SSSSSSSSSSSS.",
-        "...SSSSSSSSSSSS.",
-        "...SSSSSSSSSSSS."
-      ]
-    },
-    "348143": {
-      "totalRows": 9,
-      "totalColumns": 24,
-      "rowLabels": [
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSSS..",
-        "........................",
-        "..CWWCCWWCWCSSSSS.......",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS...."
-      ]
-    },
-    "348150": {
-      "totalRows": 8,
-      "totalColumns": 21,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSS.",
-        ".....................",
-        "...SSSSSCW.WCCW.WC...",
-        "..SSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSS..."
-      ]
-    },
     "348154": {
       "totalRows": 8,
       "totalColumns": 19,
@@ -9196,87 +9122,6 @@
   },
   "days": [
     {
-      "date": "2026-09-14",
-      "movies": [
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "19:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=348143&a=0000000001&l=7257&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAAA..",
-                "........................",
-                "..AAAAAAAAAAAAAAA.......",
-                "..AAAAAAAAAAAAA?AAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..A??AAAAAOOAAAAAAAA....",
-                "..AAAAAAAAOOOOAAAAAA....",
-                "..AAAA?AAAAAAAAAAAAA...."
-              ],
-              "layoutKey": "348143"
-            }
-          ]
-        },
-        {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "19:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=348142&a=0000000001&l=7257&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "................",
-                ".AAAAAAAAAAAAA..",
-                "................",
-                "...AA.AAAA.AAAA.",
-                "...AAAAAAAAAAAA.",
-                "...AAAAAAAAAAAA.",
-                "...AAAAAOAAAAAA.",
-                "...AAAAOOOAAAAA."
-              ],
-              "layoutKey": "348142"
-            }
-          ]
-        },
-        {
-          "title": "Insidious: Out of the Further",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "19:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=348150&a=0000000001&l=7257&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAA.",
-                ".....................",
-                "...AAAA?AA.AAAA.AA...",
-                "..AAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAA...",
-                "..OOOOAAAAAAAAAAAA...",
-                "..AAA?AAAAAAAAAAAA...",
-                "..AAAAAAOOOAAAAAOO..."
-              ],
-              "layoutKey": "348150"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-15",
       "movies": [
         {
@@ -9341,7 +9186,7 @@
                 "...............................",
                 "...AAAAAA.AAAAAA.AAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAOOOOAAOOOOAAAAAA..",
+                "...AAAAAAAAAAOOOOAAOOOOAAAOOO..",
                 "...AAOOAOOOOOAAOOOOAAOOAAOOOO..",
                 "...AAOOAOOOOOOOAAOOOOOOOAAAAA..",
                 "...OOOOAAAAAOOOOAAOOOOOAAOOOO..",
@@ -9362,7 +9207,7 @@
                 "...............................",
                 "...AAAAAA.AAAAAA.AAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAOOOOAAOOOOAAAAAA..",
+                "...AAAAAAAAAAOOOOAAOOOOAAAOOO..",
                 "...AAOOAOOOOOAAOOOOAAOOAAOOOO..",
                 "...AAOOAOOOOOOOAAOOOOOOOAAAAA..",
                 "...OOOOAAAAAOOOOAAOOOOOAAOOOO..",
@@ -9447,7 +9292,7 @@
               "seats": [
                 ".AAAAAAAAAAAAAAAAAA..",
                 ".....................",
-                "..AAAAAAAAAAAAA......",
+                "..AAAAAAAOOOAAA......",
                 "..AAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA...",
                 "..AAAAAAAOOAAAAAAA...",
@@ -9557,7 +9402,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAA?A...",
                 "..AAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA?AAAAAAA...",
+                "..AAAAAAAAAAAOO?AAAAAAA...",
                 "..AAAAAAAAAAAAA?AA?AAAA..."
               ],
               "layoutKey": "348157"
@@ -10598,7 +10443,7 @@
                 "..AAAAAAA.AAAA.AA....",
                 ".AAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAA....",
+                ".AAOOAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAA...."
               ],
@@ -11103,7 +10948,7 @@
                 "...AAAAAAAAA.AAAA.AAAA.AA...",
                 "..AAAAAAAA??AAAAAAAAAAAAA...",
                 "..AAAAAA??AAAOOAAAAAAAAAA...",
-                "..AAAAAAAAAAAOAAOOAAAAAAA...",
+                "..AAAAAAAOOAAOAAOOAAAAAAA...",
                 "..AAAAAAAAOOOOOAOOOAAAOAA...",
                 "..AAAAAAAAOOOOOAAOOOAAAAA...",
                 "..OAAAAAOOOAAOOAAOOAAAAAA..."
