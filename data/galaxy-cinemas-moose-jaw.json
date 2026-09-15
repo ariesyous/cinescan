@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T01:05:36.046Z",
+  "updatedAt": "2026-09-15T03:44:10.866Z",
   "theatre": {
     "id": 4113,
     "name": "Galaxy Cinemas Moose Jaw"
@@ -576,9 +576,12 @@
       ]
     },
     "129270": {
-      "totalRows": 11,
-      "totalColumns": 21,
+      "totalRows": 14,
+      "totalColumns": 25,
       "rowLabels": [
+        null,
+        "BB",
+        "AA",
         null,
         "A",
         "B",
@@ -592,17 +595,20 @@
         "J"
       ],
       "seatTypes": [
-        ".....................",
-        ".....WCSSSCWWCSSS....",
-        "...SSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSS"
+        ".........................",
+        ".......SSSSSSSSSSSS......",
+        "...SSSSSSSSSSSSSSSSSS....",
+        ".........................",
+        ".....WCSSSSSCWWCSSSSS....",
+        "...SSSSSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSSSS...SS",
+        "....SSSSSSSSSSSSSSSS...SS",
+        "...SSSSSSSSSSSSSSSSSS..SS",
+        "...SSSSSSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "129307": {
@@ -965,66 +971,6 @@
         "SSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "129431": {
-      "totalRows": 11,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        ".....................",
-        ".....WCSSSCWWCSSS....",
-        "...SSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "129432": {
-      "totalRows": 11,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "................",
-        ".....WCSSSCW....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS..SS",
-        "..SSSSSSSSSS..SS",
-        "..SSSSSSSSSS..SS",
-        "..SSSSSSSSSS....",
-        "SSSSSSSSSSSSSS.."
-      ]
-    },
     "129433": {
       "totalRows": 13,
       "totalColumns": 22,
@@ -1226,67 +1172,6 @@
   },
   "days": [
     {
-      "date": "2026-09-14",
-      "movies": [
-        {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129431&a=0000000001&l=4113&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                ".....................",
-                ".....????????????....",
-                "...??????????????....",
-                "...??????????????....",
-                "...??????????????....",
-                "...??????????????....",
-                "...??????????????..??",
-                "...??????????????..??",
-                "...??????????????..??",
-                "...??????????????..??",
-                "?????????????????????"
-              ],
-              "layoutKey": "129431"
-            }
-          ]
-        },
-        {
-          "title": "By Any Means",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129432&a=0000000001&l=4113&m=by-any-means&ss=False",
-              "seats": [
-                "................",
-                ".....AAAAAAA....",
-                "..AAAAAAAAAA....",
-                "..AAAAAAAAAA....",
-                "..AAAAAAAAAA....",
-                "..AAAOOAAAOO....",
-                "..AOOAAAAAAA..AA",
-                "..AAAAAAAAAA..AA",
-                "..AAAAAAAAAA..AA",
-                "..AAAAAAAAOA....",
-                "AAAOOAOOAAAAAA.."
-              ],
-              "layoutKey": "129432"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-15",
       "movies": [
         {
@@ -1310,7 +1195,7 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAA...",
-                "AA...AAAAAAAAAAAAAA...",
+                "AA...AAAAAOOAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAA?..",
                 "AAAAAAAAAAAAAAAAAAAAAA"
@@ -1949,7 +1834,7 @@
               "layoutKey": "129170"
             },
             {
-              "time": "21:20",
+              "time": "21:30",
               "formats": [
                 "Regular"
               ],
@@ -1985,7 +1870,7 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "16:20",
+              "time": "16:00",
               "formats": [
                 "Regular"
               ],
@@ -2123,17 +2008,20 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129270&a=0000000001&l=4113&m=forgotten-island&ss=False",
               "seats": [
-                ".....................",
-                ".....AAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAA..AA",
-                "...AAAAAAAAAAAAAA..AA",
-                "...AAAAAAAAAAAAAA..AA",
-                "...AAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAA"
+                ".........................",
+                ".......AAAAAAAAAAAA......",
+                "...AAAAAAAAAAAAAAAAAA....",
+                ".........................",
+                ".....AAAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAAA...AA",
+                "....AAAAAAAAAAAAAAAA...AA",
+                "...AAAAAAAAAAAAAAAAAA..AA",
+                "...AAAAAAAAAAAAAAAAAA..AA",
+                "AA?AAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "129270"
             }
