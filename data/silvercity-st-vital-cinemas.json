@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T22:52:36.997Z",
+  "updatedAt": "2026-09-16T23:33:17.250Z",
   "theatre": {
     "id": 2402,
     "name": "SilverCity St. Vital Cinemas"
@@ -5005,28 +5005,6 @@
         "..DD.DD.DDD.DDD.DD.DDD.D...."
       ]
     },
-    "325142": {
-      "totalRows": 7,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "..................",
-        "..CW.WCSSSSCW.WC..",
-        "..SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS.."
-      ]
-    },
     "325148": {
       "totalRows": 8,
       "totalColumns": 23,
@@ -5049,28 +5027,6 @@
         "....SSSSSSSSSSSSSSSSS..",
         "....SSSSSSSSSSSSSSSSS..",
         "....SSSSSSSSSSSSSSSSS.."
-      ]
-    },
-    "325153": {
-      "totalRows": 7,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "......................",
-        "..CW.WCSSSSSSSSCW.WC..",
-        "..SSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS.."
       ]
     },
     "325155": {
@@ -12483,10 +12439,10 @@
                 "..........................",
                 "..AA.AAAAAAAAAAAAAAAA.AA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..OOAAAAAAAAOOAAAAAAAAAA..",
+                "..AAAOOAAOOAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOAAAAAAAAAA..",
-                "..AAAAAAAOOAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAOOAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAOOAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOAAOOOOAAAA.."
               ],
               "layoutKey": "325161"
@@ -12514,7 +12470,7 @@
                 "..AA.AAAAAAAAAAAAAAAA.AA....",
                 "..AAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAOO?OOAAAAAOOO....",
-                "..OOAAAAAAAAAAAAAAAAAAAA....",
+                "..OOAAAAAAAAAAAAAAOAAAAA....",
                 "..AAAAAAAAAAOOOOAAAAAAAA....",
                 "..AA.AA.AAA.AAA.AA.AAA.A....",
                 "..AA.AA.AAA.AAA.AA.AAA.A...."
@@ -12536,7 +12492,7 @@
                 "..AA.AAAAAAAAAAAAAAAA.AA....",
                 "..AAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAOO?OOAAAAAOOO....",
-                "..OOAAAAAAAAAAAAAAAAAAAA....",
+                "..OOAAAAAAAAAAAAAAOAAAAA....",
                 "..AAAAAAAAAAOOOOAAAAAAAA....",
                 "..AA.AA.AAA.AAA.AA.AAA.A....",
                 "..AA.AA.AAA.AAA.AA.AAA.A...."
@@ -12564,54 +12520,6 @@
           ]
         },
         {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "18:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=325153&a=0000000001&l=2402&m=the-odyssey&ss=False",
-              "seats": [
-                "......................",
-                "..AA.AAAAAAAAAAAA.AA..",
-                "..AAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAOOAAAAAA..",
-                "..AAAOOAAOOOOAAOOAAA..",
-                "..OOAAAOOAOOAAAAAAAA..",
-                "..AAAAAAAAOOAAAOOAAA.."
-              ],
-              "layoutKey": "325153"
-            }
-          ]
-        },
-        {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "18:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=325142&a=0000000001&l=2402&m=runner&ss=False",
-              "seats": [
-                "..................",
-                "..AA.AAAAAAAA.AA..",
-                "..OAAAAAAAAAOOAA..",
-                "..AAAAAAAAAAAAAA..",
-                "..OOAAAAOOAAAAAA..",
-                "..AAAAAOAAAAAAAA..",
-                "..AAAAAAOOAAAAAA.."
-              ],
-              "layoutKey": "325142"
-            }
-          ]
-        },
-        {
           "title": "Coyote vs ACME",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
@@ -12627,10 +12535,10 @@
                 "....AA.AAAAAAAAAA.AA...",
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAOOOAAAAAAAA..",
-                "....AAAAAAOOOOAAAAAAA..",
-                "....OOOOOAAAAAAOOOAAA..",
-                "....AAAAAAAOOAAAAOOAA..",
-                "....AAAAAAAAAAAAAAAAA.."
+                "....AAAAAAOOOOAAOOOOA..",
+                "....OOOOOAAOOAAOOOAAA..",
+                "....AAAOOAAOOAAAAOOAA..",
+                "....OAAAOOOOOOAAAOOAA.."
               ],
               "layoutKey": "325148"
             }
@@ -12653,7 +12561,7 @@
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..OOAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAOAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "325158"
@@ -12700,7 +12608,7 @@
                 "..AA.AAAAAAAA.AA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAOOAA?AAAAAA..",
-                "..AAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAA?AAAAAAA.."
               ],
@@ -13551,7 +13459,7 @@
                 "..AA.AAAAAAAAAAAAAAAA.AA....",
                 "..AAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAA?AAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAOOAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAA....",
                 "..AA.AA.AAA.AAA.AA.AAA.A....",
                 "..AA.AA.AAA.AAA.AA.AAA.A...."
@@ -13573,7 +13481,7 @@
                 "..AA.AAAAAAAAAAAAAAAA.AA....",
                 "..AAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAA?AAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAOOAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAA....",
                 "..AA.AA.AAA.AAA.AA.AAA.A....",
                 "..AA.AA.AAA.AAA.AA.AAA.A...."
@@ -13833,7 +13741,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAOOAAAAAAA..",
-                "..AAAAAAAAAAOOAAAAOOOAAA..",
+                "..AAAAAAAAAAOOAAAOOOOAAA..",
                 "..AAOOOOOAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA.."
               ],
@@ -14046,7 +13954,7 @@
                 "..AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAA..",
-                "..AAAA.AAAAAAAA.AAA.."
+                "..AAAA.AAOOAAAA.AAA.."
               ],
               "layoutKey": "325287"
             },
@@ -14064,7 +13972,7 @@
                 "..AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAA..",
-                "..AAAA.AAAAAAAA.AAA.."
+                "..AAAA.AAOOAAAA.AAA.."
               ],
               "layoutKey": "325287"
             }
@@ -14206,7 +14114,7 @@
         {
           "title": "Runner",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
+          "runtimeMinutes": 98,
           "sessions": [
             {
               "time": "12:45",
@@ -14254,7 +14162,7 @@
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAA?AAAAAA..",
                 "..AAAAAOOAAAAAAA..",
-                "..AAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAA..",
                 "..AAAAAA?AAAAAAA.."
               ],
               "layoutKey": "325294"
@@ -14654,7 +14562,7 @@
                 "..AAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAOOOAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOOOOAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "325373"
@@ -14676,7 +14584,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAOOOOO?OOOOAAAAAA....",
                 "..AAAAAAAOOOOOOOOOAAAAAA....",
-                "..AAAOOOOAAOOOOOOAAAAAAA....",
+                "..AAAOOOOAAOOOOOOOOOOAAA....",
                 "..AA.AA.OOO.OOO.AO.OAA.A....",
                 "..AA.AA.AAA.OOA.AA.AAA.A...."
               ],
@@ -14698,7 +14606,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAOOOOO?OOOOAAAAAA....",
                 "..AAAAAAAOOOOOOOOOAAAAAA....",
-                "..AAAOOOOAAOOOOOOAAAAAAA....",
+                "..AAAOOOOAAOOOOOOOOOOAAA....",
                 "..AA.AA.OOO.OOO.AO.OAA.A....",
                 "..AA.AA.AAA.OOA.AA.AAA.A...."
               ],
@@ -14934,7 +14842,7 @@
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAA..",
+                "....OOAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "325352"
@@ -15009,7 +14917,7 @@
                 "..AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAOOAAAAAAOO..",
                 "..AAAAAAAAAAAAAAAAA..",
-                "..AAAA.AAAAAAAA.AAA.."
+                "..AAAO.OAAAAAAA.AAA.."
               ],
               "layoutKey": "325365"
             },
@@ -15027,7 +14935,7 @@
                 "..AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAOOAAAAAAOO..",
                 "..AAAAAAAAAAAAAAAAA..",
-                "..AAAA.AAAAAAAA.AAA.."
+                "..AAAO.OAAAAAAA.AAA.."
               ],
               "layoutKey": "325365"
             },
@@ -15224,7 +15132,7 @@
         {
           "title": "Runner",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
+          "runtimeMinutes": 98,
           "sessions": [
             {
               "time": "14:00",
@@ -15741,7 +15649,7 @@
                 "............................",
                 "..AA.AAAAAAAAAAAAAAAA.AA....",
                 "..AAAAAAAAAOOOOOAAAAAAAA....",
-                "..AAAAAAAAAAA?AAAAAAAAAA....",
+                "..AAAAAAAAAAA?OOAAAAAAAA....",
                 "..AAAAAAAAOOOOOOAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAA....",
                 "..AA.AA.AAA.AAA.AA.AAA.A....",
@@ -15763,7 +15671,7 @@
                 "............................",
                 "..AA.AAAAAAAAAAAAAAAA.AA....",
                 "..AAAAAAAAAOOOOOAAAAAAAA....",
-                "..AAAAAAAAAAA?AAAAAAAAAA....",
+                "..AAAAAAAAAAA?OOAAAAAAAA....",
                 "..AAAAAAAAOOOOOOAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAA....",
                 "..AA.AA.AAA.AAA.AA.AAA.A....",
@@ -17526,7 +17434,7 @@
                 "..AA.AAAAAAAAAAAA.AA..",
                 "..AAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA.."
               ],
@@ -18226,7 +18134,7 @@
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAA.."
+                "..AAAAAOOOAAAAAA.."
               ],
               "layoutKey": "325331"
             },
@@ -19678,7 +19586,7 @@
         {
           "title": "Runner",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 98,
+          "runtimeMinutes": 99,
           "sessions": [
             {
               "time": "13:30",
@@ -20276,7 +20184,7 @@
                 "..OOOOOOOOOOOOOOOOAOOOOO....",
                 "..OOOOOOOOOOOOOOOOOOOOOO....",
                 "..OO.OO.OOO.OOO.OO.OAA.A....",
-                "..AA.OO.OOO.OOO.OO.OAA.A...."
+                "..AA.OO.OOO.OOO.OO.OAA.O...."
               ],
               "layoutKey": "324624"
             },
@@ -20298,7 +20206,7 @@
                 "..OOOOOOOOOOOOOOOOAOOOOO....",
                 "..OOOOOOOOOOOOOOOOOOOOOO....",
                 "..OO.OO.OOO.OOO.OO.OAA.A....",
-                "..AA.OO.OOO.OOO.OO.OAA.A...."
+                "..AA.OO.OOO.OOO.OO.OAA.O...."
               ],
               "layoutKey": "324624"
             },

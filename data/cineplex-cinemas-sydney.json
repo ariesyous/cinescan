@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T22:50:49.077Z",
+  "updatedAt": "2026-09-16T23:31:54.989Z",
   "theatre": {
     "id": 5103,
     "name": "Cineplex Cinemas Sydney"
@@ -10922,6 +10922,34 @@
         ".SSSSSSSSSSSSSSSSSSS...SS",
         "SSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
+    },
+    "148548": {
+      "totalRows": 10,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "...............",
+        ".SSSSS...SSSSSS",
+        "SSSSSS...SSSSSS",
+        "SSSSSS...SSSSSS",
+        "SSSSSS...SSSSSS",
+        "SSSSSS...SSSSSS",
+        "SSSSSS...SSSSSS",
+        "SSSSSS...SSSSSS",
+        "SSSSSS...SSSSSS",
+        "CWCW..........."
+      ]
     }
   },
   "days": [
@@ -11131,7 +11159,7 @@
                 "AAAAA?...AAAAAA",
                 "AAAAAA...AAAAAA",
                 "AAAAA?...AAAAAA",
-                "AAAAA?...AAAAAA",
+                "AAAAA?...OAAAAA",
                 "AAAAAA...AAAAAA",
                 "AAAAAA...AAAAAA",
                 "AAAA..........."
@@ -11196,7 +11224,7 @@
         {
           "title": "Runner",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
+          "runtimeMinutes": 98,
           "sessions": [
             {
               "time": "15:55",
@@ -11625,7 +11653,7 @@
                 ".AAAAAAAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAOOAAAAAA.....",
+                ".OAAAAAAAAAAOOAAAAAA.....",
                 ".AAAAAAAOOOAAOOAAAAA.....",
                 ".AAAAAAAAOOOOOAAAAAA...??",
                 ".AAAAAAAAAOOOAAAAAAA...AA",
@@ -12664,7 +12692,7 @@
                 ".....AAAAAAAAAAAAAAAAA....",
                 "....AAAAAAAAAAAAAAAAAAA...",
                 "??..AAAAAAAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAAAA."
+                "AAAAAAAAAAAAOOOAAAAAAAAAA."
               ],
               "layoutKey": "148365"
             },
@@ -13342,6 +13370,33 @@
                 "AAAAAAAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "148332"
+            }
+          ]
+        },
+        {
+          "title": "The Lego Batman Movie",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/23050_320_470.jpg",
+          "runtimeMinutes": 104,
+          "sessions": [
+            {
+              "time": "11:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=148548&a=0000000001&l=5103&m=the-lego-batman-movie&ss=False",
+              "seats": [
+                "...............",
+                ".AAAAA...AAAAAA",
+                "AAAAAA...AAAAAA",
+                "AAAAA?...AAAAAA",
+                "AAAAAA...AAAAAA",
+                "AAAAA?...AAAAAA",
+                "AAAAA?...AAAAAA",
+                "AAAAAA...AAAAAA",
+                "AAAAAA...AAAAAA",
+                "AAAA..........."
+              ],
+              "layoutKey": "148548"
             }
           ]
         },
@@ -15421,7 +15476,7 @@
         {
           "title": "Runner",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 99,
+          "runtimeMinutes": 98,
           "sessions": [
             {
               "time": "14:30",

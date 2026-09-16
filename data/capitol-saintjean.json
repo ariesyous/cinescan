@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T22:49:09.465Z",
+  "updatedAt": "2026-09-16T23:30:43.066Z",
   "theatre": {
     "id": 9190,
     "name": "Capitol Saint-Jean"
@@ -817,30 +817,6 @@
         ".........."
       ]
     },
-    "159822": {
-      "totalRows": 8,
-      "totalColumns": 12,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        null,
-        "F"
-      ],
-      "seatTypes": [
-        "............",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        "............",
-        "CW.WC...SSSS"
-      ]
-    },
     "159824": {
       "totalRows": 9,
       "totalColumns": 13,
@@ -865,28 +841,6 @@
         ".SSSSSSSSSSSS",
         ".............",
         ".CW.WCSSSSS.."
-      ]
-    },
-    "159825": {
-      "totalRows": 8,
-      "totalColumns": 13,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null,
-        "F"
-      ],
-      "seatTypes": [
-        ".............",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "DD.DDD.DDDD.D",
-        "SSSCWWCSSSSS."
       ]
     },
     "159831": {
@@ -1071,30 +1025,6 @@
         ".SSSSSSSSSSS",
         "............",
         "CW.WC...SSSS"
-      ]
-    },
-    "159919": {
-      "totalRows": 8,
-      "totalColumns": 12,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        null,
-        "F"
-      ],
-      "seatTypes": [
-        "............",
-        "SSSSSSSSSSS.",
-        "SSSSSSSSSSS.",
-        "SSSSSSSSSSS.",
-        "SSSSSSSSSSS.",
-        "SSSSSSSSSSS.",
-        "............",
-        "SS...SSCW.WC"
       ]
     },
     "159920": {
@@ -3049,73 +2979,6 @@
       "date": "2026-09-16",
       "movies": [
         {
-          "title": "Amour et magie 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61314_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "D-BOX",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159825&a=0000000004&l=9190&m=amour-et-magie-2&ss=False",
-              "seats": [
-                ".............",
-                "AAAAAAAAAAAAA",
-                "AAAAAOOAAAAAA",
-                "OOOOOOOOOOAAA",
-                "AOOOOO?OOOOOO",
-                "AA.AAA.AAAA.A",
-                "?O?AAAAOOOOA."
-              ],
-              "layoutKey": "159825"
-            },
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159825&a=0000000001&l=9190&m=amour-et-magie-2&ss=False",
-              "seats": [
-                ".............",
-                "AAAAAAAAAAAAA",
-                "AAAAAOOAAAAAA",
-                "OOOOOOOOOOAAA",
-                "AOOOOO?OOOOOO",
-                "AA.AAA.AAAA.A",
-                "?O?AAAAOOOOA."
-              ],
-              "layoutKey": "159825"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME (version française)",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61524_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "19:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159919&a=0000000001&l=9190&m=vf-coyote-vs-acme-version-francaise&ss=False",
-              "seats": [
-                "............",
-                "AAAAAAAAAAA.",
-                "AAAAAAAAAAA.",
-                "AAAAAOOAAAA.",
-                "AAAAAOOAAAA.",
-                "AAAAAAAAAAA.",
-                "............",
-                "AA...AAAA.A?"
-              ],
-              "layoutKey": "159919"
-            }
-          ]
-        },
-        {
           "title": "Par tous les moyens",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61443_320_470.jpg",
           "runtimeMinutes": 106,
@@ -3131,7 +2994,7 @@
                 "..AAAAAAAA",
                 ".AAAAAAAAA",
                 ".AAAAAAAAA",
-                "..AA.AAAAA",
+                "..AA.AAAAO",
                 ".........."
               ],
               "layoutKey": "159821"
@@ -3161,31 +3024,6 @@
                 ".AA.AAAAAAA.."
               ],
               "layoutKey": "159824"
-            }
-          ]
-        },
-        {
-          "title": "La constellation du chien",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61789_320_470.jpg",
-          "runtimeMinutes": 118,
-          "sessions": [
-            {
-              "time": "18:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159822&a=0000000001&l=9190&m=la-constellation-du-chien&ss=False",
-              "seats": [
-                "............",
-                ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
-                ".AAAAAOAAAAA",
-                "............",
-                "AA.AA...AA?A"
-              ],
-              "layoutKey": "159822"
             }
           ]
         }
@@ -3616,7 +3454,7 @@
                 ".AAAAAAAAAAA",
                 ".AAAAAAAAAAA",
                 ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
+                ".AAAOOOOAAAA",
                 ".AAAAAAAAAAA",
                 "............",
                 "AA.AA...AA?A"
