@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T19:53:30.704Z",
+  "updatedAt": "2026-09-16T20:49:55.528Z",
   "theatre": {
     "id": 7138,
     "name": "Galaxy Cinemas Sarnia"
@@ -5466,6 +5466,36 @@
         "..SSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSS"
       ]
+    },
+    "112750": {
+      "totalRows": 11,
+      "totalColumns": 18,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "..................",
+        "..SSSSSSSSSSSS....",
+        "..................",
+        "..CW.WCSS.WC......",
+        "..SSSSSSSSSSS.....",
+        "..SSSSSSSSSSS.....",
+        "..SSSSSSSSSSS.....",
+        "..SSSSSSSSSSS.....",
+        "..SSSSSSSSSSS...SS",
+        "..SSSSSSSSSSS...SS",
+        "SSSSSSSSSSSSSSSSSS"
+      ]
     }
   },
   "days": [
@@ -5500,7 +5530,7 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAOOAAAAAAAAAAA..AA",
                 "AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
-                "AA.AAAA.AAAA.AAAA.AAAA.AA..AA"
+                "AA.AAAA.AAAA.OOOA.AAAA.AA..AA"
               ],
               "layoutKey": "112611"
             },
@@ -5526,7 +5556,7 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAOOAAAAAAAAAAA..AA",
                 "AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
-                "AA.AAAA.AAAA.AAAA.AAAA.AA..AA"
+                "AA.AAAA.AAAA.OOOA.AAAA.AA..AA"
               ],
               "layoutKey": "112611"
             }
@@ -5760,11 +5790,11 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "AAAAAAAAAAAAAAAAAAAAAAAAA..OA",
+                "AAAAAAAAAAAAAAAAAAAOOOOAA..OA",
                 "AAAAAAAAAAAAAAOAAAAAAAAAA..OA",
-                "AAAAAAAAAAAOOAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAOOAAAAAAOOOOOO..AA",
                 "AAAAAAAAAAAAAAAOOAAAAAAAA..AA",
-                "AAAAAAAAAAAAAOOAAAAAAAAAA..AA",
+                "AAAAAAAAAOOAAOOAAAAAAAAAA..AA",
                 "AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
                 "AA.AAAA.AAAO.OAAO.OAAA.AA..AA"
               ],
@@ -5786,11 +5816,11 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
-                "AAAAAAAAAAAAAAAAAAAAAAAAA..OA",
+                "AAAAAAAAAAAAAAAAAAAOOOOAA..OA",
                 "AAAAAAAAAAAAAAOAAAAAAAAAA..OA",
-                "AAAAAAAAAAAOOAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAOOAAAAAAOOOOOO..AA",
                 "AAAAAAAAAAAAAAAOOAAAAAAAA..AA",
-                "AAAAAAAAAAAAAOOAAAAAAAAAA..AA",
+                "AAAAAAAAAOOAAOOAAAAAAAAAA..AA",
                 "AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
                 "AA.AAAA.AAAO.OAAO.OAAA.AA..AA"
               ],
@@ -8007,6 +8037,35 @@
           ]
         },
         {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "15:30",
+              "formats": [
+                "Early Access",
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=112750&a=0000000001&l=7138&m=forgotten-island&ss=False",
+              "seats": [
+                "..................",
+                "..AA?AAAAAAAA?....",
+                "..................",
+                "..AA.AAAA.AA......",
+                "..?AAAAAAAAAA.....",
+                "..AAAAAAAAAAA.....",
+                "..AAAAAAAAAAA.....",
+                "..AAAAAAAAAAA.....",
+                "..AAAAAAAAAAA...AA",
+                "..AAAAAAAAAAA...AA",
+                "AAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "112750"
+            }
+          ]
+        },
+        {
           "title": "The Uprising",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
           "runtimeMinutes": 128,
@@ -8517,7 +8576,7 @@
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAOOAAAAAAAAA"
               ],
               "layoutKey": "112740"
             },

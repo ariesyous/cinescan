@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T19:51:53.269Z",
+  "updatedAt": "2026-09-16T20:47:46.385Z",
   "theatre": {
     "id": 6111,
     "name": "Cineplex Cinemas Fredericton"
@@ -1721,24 +1721,24 @@
     },
     "166646": {
       "totalRows": 7,
-      "totalColumns": 14,
+      "totalColumns": 16,
       "rowLabels": [
-        null,
         null,
         "A",
         "B",
         "C",
         "D",
-        "E"
+        "E",
+        null
       ],
       "seatTypes": [
-        "..............",
-        "..............",
-        "..SSSSCW..WC..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS.."
+        "................",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSCW.W..",
+        "................"
       ]
     },
     "166647": {
@@ -1759,50 +1759,6 @@
         "..SSSSSSSSSSS..",
         "..W.WCSSSSSSS..",
         "..............."
-      ]
-    },
-    "166650": {
-      "totalRows": 8,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".......................",
-        "........SSSSSSSS.......",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "........SSCWWWCS......."
-      ]
-    },
-    "166654": {
-      "totalRows": 6,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null
-      ],
-      "seatTypes": [
-        "..............",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..W.WCSSSSSS..",
-        ".............."
       ]
     },
     "166655": {
@@ -1897,24 +1853,24 @@
     },
     "166659": {
       "totalRows": 7,
-      "totalColumns": 16,
+      "totalColumns": 14,
       "rowLabels": [
+        null,
         null,
         "A",
         "B",
         "C",
         "D",
-        "E",
-        null
+        "E"
       ],
       "seatTypes": [
-        "................",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSCW.W..",
-        "................"
+        "..............",
+        "..............",
+        "..SSSSCW..WC..",
+        "..SSSSSSSSSS..",
+        "..SSSSSSSSSS..",
+        "..SSSSSSSSSS..",
+        "..SSSSSSSSSS.."
       ]
     },
     "166660": {
@@ -2306,24 +2262,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "16:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166650&a=0000000001&l=6111&m=practical-magic-2&ss=False",
-              "seats": [
-                ".......................",
-                "........AAAAAAAA.......",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAOAAAAAAAAAAA..",
-                "..OOAAAAAAAOOOOAAAAOO..",
-                "..OOOOOAOOAAOOAAAAAOO..",
-                "..AOOOOOAAAAAAAOOOOOO..",
-                "........OOAAAAAA......."
-              ],
-              "layoutKey": "166650"
-            },
-            {
               "time": "19:45",
               "formats": [
                 "Recliner"
@@ -2334,8 +2272,8 @@
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AOOOOOOOOOAAAAAAAOO..",
-                "..OOOOAAOOAOOAAAAAAAA..",
+                "..AOOOOOOOOOAAOOAAAOO..",
+                "..OOOOAAOOAOOAAOOOAAA..",
                 "..AOOOOOAAAOOAAAAOOOO..",
                 "........OOAAAAAA......."
               ],
@@ -2356,13 +2294,13 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166659&a=0000000001&l=6111&m=spiderman-brand-new-day&ss=False",
               "seats": [
-                "................",
-                "..????????????..",
-                "..??AAAAAA??AA..",
-                "..??AAAAAAAAAA..",
-                "..??AAAOOAAAAA..",
-                "..??AAOOOOAA.A..",
-                "................"
+                "..............",
+                "..............",
+                "..AAOOAA..AA..",
+                "..AAAAAAAAAA..",
+                "..AAAOOAAAOO..",
+                "..AAOOOOOAAA..",
+                "..AAAAAAAAAA.."
               ],
               "layoutKey": "166659"
             }
@@ -2385,7 +2323,7 @@
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
                 "..AAAOOOAAA..",
-                "..AAAAAAAAA..",
+                "..AAAAOOOAA..",
                 "..A.AAAAAAA..",
                 "............."
               ],
@@ -2405,13 +2343,13 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166646&a=0000000001&l=6111&m=the-uprising&ss=False",
               "seats": [
-                "..............",
-                "..............",
-                "..AAAAAA..AA..",
-                "..AAAAAAAAAA..",
-                "..AAAAAAAAAA..",
-                "..AAAAAAAA?A..",
-                "..??????????.."
+                "................",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAA.A..",
+                "................"
               ],
               "layoutKey": "166646"
             }
@@ -2441,29 +2379,6 @@
           ]
         },
         {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "16:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166654&a=0000000001&l=6111&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "..............",
-                "..AAAAAAAAAA..",
-                "..AAAAAAAAAA..",
-                "..AAAAAAAOAA..",
-                "..A.AAAAAAAA..",
-                ".............."
-              ],
-              "layoutKey": "166654"
-            }
-          ]
-        },
-        {
           "title": "By Any Means",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61193_320_470.jpg",
           "runtimeMinutes": 106,
@@ -2477,7 +2392,7 @@
               "seats": [
                 "..............",
                 "..AAAAAAAAAA..",
-                "..AAAAAAAAAO..",
+                "..OOAAAAAAAO..",
                 "..OOAAAAAAAO..",
                 "..A.AAOOOOOO..",
                 ".............."
@@ -3047,7 +2962,7 @@
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAOAAAAAAAAA..",
                 "..OOOOOAAAAOOOOAAAAAA..",
-                "..OOOOOOOAOOOOOOOAAAA..",
+                "..OOOOOOOAOOOOOOOAAOO..",
                 "..AOOOOOOOOOOOOOOOOOO..",
                 "..OOOOAOOAAOOOOOOOAOO..",
                 "........OOAAAAAA......."
@@ -3115,7 +3030,7 @@
                 "..AAAAAAAAAOOAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAAA..",
                 "..AAAAAAOOOOOOOAAAAAA..",
-                "..AAAAAAAOOOOAAAOOOAA..",
+                "..OAAAAAAOOOOAAAOOOAA..",
                 "........OOAAAAAA......."
               ],
               "layoutKey": "166094"
@@ -3262,7 +3177,7 @@
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOOAAAAAAAA..",
                 "..AAOOAAAAAOOAAAAAAAA..",
                 "..AAAAAAAAOOOOAAAAAAA..",
                 "........AAAAAAAA......."
@@ -3375,7 +3290,7 @@
                 ".......................",
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..OOOOOOOOOOOOOOOOOAA..",
+                "..OOOOOOOOOOOOOOOOOOO..",
                 "..AAAAAAAAOOOOAAAAAAA..",
                 "..AAAAAAAOOOOOOAAAAAA..",
                 "..AAAAAAAOOOOAAAAAOOO..",
@@ -3661,7 +3576,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..A.AAAAAAAAAA..",
+                "..A.AAAAAAAOOO..",
                 "................"
               ],
               "layoutKey": "166895"
@@ -3862,7 +3777,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..OOAAAAAAAAAA..",
                 "..A.AAAAAAAAAA..",
                 "................"
               ],
