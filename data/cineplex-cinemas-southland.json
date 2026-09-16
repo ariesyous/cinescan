@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T22:03:08.996Z",
+  "updatedAt": "2026-09-16T22:50:40.688Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
@@ -1229,30 +1229,6 @@
         "..SSSSSSSSSSSSSSSS..",
         "...WWCCSSSSSSSSSCW..",
         "...................."
-      ]
-    },
-    "268556": {
-      "totalRows": 8,
-      "totalColumns": 17,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "...WWCCSSSSSSSS..",
-        "................."
       ]
     },
     "268557": {
@@ -6302,9 +6278,9 @@
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAA??AAAAAA..AA",
-                "AA..A?AA?AAAAAAAAA..AA",
+                "AA..A?AA?AAOOAAAAA..AA",
                 "AA..AAAAAAOOAAAAAA..AA",
-                "AA..AAAAAAAAAAAAAA..??",
+                "AA..AAAAOOOAAAAAAA..??",
                 "AA..AA?AAAAAAAAAAA..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
@@ -6321,7 +6297,7 @@
                 "..?????????????..",
                 "..AAA???????AAA..",
                 "..AAAAAAAAAAAAA..",
-                "..AAAAAOO?AAAAA..",
+                "..AAAAAOO?AOOAA..",
                 "..AAAAAOO?AAAAA..",
                 "..AAAAAOOAAAAA?..",
                 "...AAAAAAAAAAAA..",
@@ -6366,7 +6342,7 @@
                 "..?AAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAA?AAAAAA..",
+                "..AAAA?OAAAAA..",
                 "..AAAAA?A??AA..",
                 "..AAAAAAAAAAA..",
                 "..............."
@@ -6406,12 +6382,12 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268557&a=0000000001&l=4108&m=the-odyssey&ss=False",
               "seats": [
-                "..AAAAA?AAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAA?AAAA..",
-                "..?AAAAAAAAAA..",
-                "..AAAA?AAAAAA..",
-                "..AAAAAAAAAOO..",
+                "..???????????..",
+                "..???????????..",
+                "..???????????..",
+                "..???????????..",
+                "..???????????..",
+                "..???????????..",
                 "..............."
               ],
               "layoutKey": "268557"
@@ -6493,9 +6469,9 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAA?AAAAAA?..",
+                "..AAAAAAOOAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAAAAOOAA..",
                 "..............."
               ],
               "layoutKey": "268563"
@@ -6538,7 +6514,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAA?AAAAA..",
-                "...AAAAAAAAAAAAAAA..",
+                "...AAAAAAOOAAAAAAA..",
                 "...................."
               ],
               "layoutKey": "268565"
@@ -6636,24 +6612,6 @@
           "runtimeMinutes": 195,
           "sessions": [
             {
-              "time": "16:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268556&a=0000000001&l=4108&m=mirzapur-the-movie-hindi-west&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..??AAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA?..",
-                "...AAAAOO?AAAAA..",
-                "................."
-              ],
-              "layoutKey": "268556"
-            },
-            {
               "time": "19:20",
               "formats": [
                 "Recliner"
@@ -6663,7 +6621,7 @@
                 "..AAAAAAAAAA?..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAOOOAAAA..",
                 "..AAA?OOAAAAA..",
                 "..AAAAA.AAAAA..",
                 "..............."
@@ -6687,11 +6645,11 @@
                 "....AAAAAAAAAAAA....",
                 "..AAAAAAA?AAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAA?AAA?..",
+                "..AAOOOAAAAAA?AAA?..",
                 "..AAAAAAAAAA??AAAA..",
                 "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAA??AAAA..",
-                "...AAAAAAAAAAAAAAA..",
+                "..AAAAAAOOAA??AAAA..",
+                "...AAAAAAOOAOOAAAA..",
                 "...................."
               ],
               "layoutKey": "268560"
@@ -10097,7 +10055,7 @@
         {
           "title": "Runner",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 98,
+          "runtimeMinutes": 99,
           "sessions": [
             {
               "time": "19:10",
@@ -11036,7 +10994,7 @@
                 "AA..A?AA?AAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAOAAAAAA..??",
-                "AA..AA?AAAAAAAAAAA..AA",
+                "AA..AA?AAAOOAAAAAA..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
               ],
