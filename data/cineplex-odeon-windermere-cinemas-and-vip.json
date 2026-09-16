@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T20:49:31.328Z",
+  "updatedAt": "2026-09-16T22:04:00.872Z",
   "theatre": {
     "id": 3149,
     "name": "Cineplex Odeon Windermere Cinemas and VIP"
@@ -5857,36 +5857,6 @@
         "SSSSSSSSSSSSSSSSS"
       ]
     },
-    "171059": {
-      "totalRows": 11,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "..................",
-        "..SSSSSSSSSSSSSS..",
-        "..................",
-        ".....CW..WCSS.WC..",
-        ".....SSSSSSSSSSS..",
-        ".....SSSSSSSSSSS..",
-        ".....SSSSSSSSSSS..",
-        ".....SSSSSSSSSSS..",
-        ".SS..SSSSSSSSSSS..",
-        ".SS..SSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "171060": {
       "totalRows": 14,
       "totalColumns": 26,
@@ -8314,6 +8284,36 @@
         ".SS..SSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSS"
       ]
+    },
+    "171144": {
+      "totalRows": 11,
+      "totalColumns": 18,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "..................",
+        "..SSSSSSSSSSSSSS..",
+        "..................",
+        ".....CW..WCSS.WC..",
+        ".....SSSSSSSSSSS..",
+        ".....SSSSSSSSSSS..",
+        ".....SSSSSSSSSSS..",
+        ".....SSSSSSSSSSS..",
+        ".SS..SSSSSSSSSSS..",
+        ".SS..SSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSS"
+      ]
     }
   },
   "days": [
@@ -8440,7 +8440,7 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170936&a=0000000001&l=3149&m=spiderman-brand-new-day&ss=False",
               "seats": [
-                ".AA.AA.AA....",
+                ".AA.OO.AA....",
                 ".............",
                 "AAAAAAA.AA...",
                 "AAAAAAAAAA...",
@@ -8680,7 +8680,7 @@
                 "...AAAAAAOOAAAA",
                 "...AAAAAOAAAAAA",
                 "AA.AAAAAAAAAAAA",
-                "AA.AAOOAAAAAAAA",
+                "AA.AAOOAAAAAAOO",
                 "AA.AAAAA?AAAAAA",
                 "AA.OOAAAAOOAAAA",
                 "AA.OO......OOOO"
@@ -8708,7 +8708,7 @@
                 "AA..AAAAAAAAAAAOOAAAAAAAAAAAA",
                 "AA..AAAAAAAAAOOAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
+                "AA..AAAAAAAAAA??OOAAAAAAAAAAA",
                 "AA..AA.AAAA.AAAA.AAAA.AAAA.AA",
                 "....?A.AAAA.A?AA.AAAA.AAAA.?A"
               ],
@@ -8734,7 +8734,7 @@
                 "AA..AAAAAAAAAAAOOAAAAAAAAAAAA",
                 "AA..AAAAAAAAAOOAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
+                "AA..AAAAAAAAAA??OOAAAAAAAAAAA",
                 "AA..AA.AAAA.AAAA.AAAA.AAAA.AA",
                 "....?A.AAAA.A?AA.AAAA.AAAA.?A"
               ],
@@ -9121,7 +9121,7 @@
                 "AA..AAAAAAAAOOOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
-                "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
+                "AA..AAAAAAAAAA??OOAAAAAAAAAAA",
                 "AA..AA.AAAA.AAOO.AAAA.AAAA.AA",
                 "....?A.AAAA.A?AA.AAAA.AAAA.?A"
               ],
@@ -9147,7 +9147,7 @@
                 "AA..AAAAAAAAOOOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
-                "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
+                "AA..AAAAAAAAAA??OOAAAAAAAAAAA",
                 "AA..AA.AAAA.AAOO.AAAA.AAAA.AA",
                 "....?A.AAAA.A?AA.AAAA.AAAA.?A"
               ],
@@ -9320,7 +9320,7 @@
                 "...AAAAAAAAAA",
                 "...AAAAAAAAAA",
                 "...AAAAAAAAAA",
-                "AA.AAAAAAAAAA",
+                "AA.AAOOOOAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AA....AAAA",
@@ -11778,20 +11778,13 @@
                 "AAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "171139"
-            }
-          ]
-        },
-        {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
+            },
             {
-              "time": "15:40",
+              "time": "15:30",
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171059&a=0000000001&l=3149&m=the-uprising&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171144&a=0000000001&l=3149&m=forgotten-island&ss=False",
               "seats": [
                 "..................",
                 "..AAAAAAAAAAAAAA..",
@@ -11805,8 +11798,15 @@
                 ".AA..AAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAA"
               ],
-              "layoutKey": "171059"
-            },
+              "layoutKey": "171144"
+            }
+          ]
+        },
+        {
+          "title": "The Uprising",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
+          "runtimeMinutes": 128,
+          "sessions": [
             {
               "time": "18:40",
               "formats": [
