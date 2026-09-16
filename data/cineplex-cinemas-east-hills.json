@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T17:05:53.348Z",
+  "updatedAt": "2026-09-16T19:51:51.360Z",
   "theatre": {
     "id": 3152,
     "name": "Cineplex Cinemas East Hills"
@@ -3928,8 +3928,8 @@
       ]
     },
     "59328": {
-      "totalRows": 8,
-      "totalColumns": 22,
+      "totalRows": 7,
+      "totalColumns": 18,
       "rowLabels": [
         "AA",
         null,
@@ -3937,18 +3937,16 @@
         "B",
         "C",
         "D",
-        "E",
-        "F"
+        "E"
       ],
       "seatTypes": [
-        "..SSSSSSSSSSSSSSSSSS..",
-        "......................",
-        ".....CWWCSSSSSSSSWC...",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSS"
+        "..SSSSSSSSSSSSSS..",
+        "..................",
+        "..SSSSSSSCWWC.....",
+        "..SSSSSSSSSSSS....",
+        "..SSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSS"
       ]
     },
     "59329": {
@@ -4018,8 +4016,8 @@
       ]
     },
     "59332": {
-      "totalRows": 7,
-      "totalColumns": 18,
+      "totalRows": 8,
+      "totalColumns": 22,
       "rowLabels": [
         "AA",
         null,
@@ -4027,16 +4025,18 @@
         "B",
         "C",
         "D",
-        "E"
+        "E",
+        "F"
       ],
       "seatTypes": [
-        "..SSSSSSSSSSSSSS..",
-        "..................",
-        "..SSSSSSSCWWC.....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS"
+        "..SSSSSSSSSSSSSSSSSS..",
+        "......................",
+        ".....CWWCSSSSSSSSWC...",
+        "....SSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "59333": {
@@ -5397,7 +5397,7 @@
                 ".....AAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAAOOAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "59249"
@@ -5495,7 +5495,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAOOAAAAAAAAAAA..",
                 "..AAA?.AAAAAA?.AAAAAAA.AAA.."
               ],
               "layoutKey": "58905"
@@ -5517,7 +5517,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAOOAAAAAAAAAAA..",
                 "..AAA?.AAAAAA?.AAAAAAA.AAA.."
               ],
               "layoutKey": "58905"
@@ -5717,7 +5717,7 @@
                 "..AAAAAAAAAOOOOAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAA"
+                ".AAAAAAAAAAAOOAAAAAAAAAAAA"
               ],
               "layoutKey": "59258"
             },
@@ -6171,7 +6171,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAOOAAAAAAAAAAA..",
+                "..AAAAOAAAAAAOOAAAAAAAAAAA..",
                 "..AAA?.AAAAAA?.AAAAAAA.AAA.."
               ],
               "layoutKey": "58909"
@@ -6193,7 +6193,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAOOAAAAAAAAAAA..",
+                "..AAAAOAAAAAAOOAAAAAAAAAAA..",
                 "..AAA?.AAAAAA?.AAAAAAA.AAA.."
               ],
               "layoutKey": "58909"
@@ -7193,20 +7193,19 @@
               "layoutKey": "59325"
             },
             {
-              "time": "18:45",
+              "time": "19:10",
               "formats": [
                 "Recliner"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59328&a=0000000001&l=3152&m=spiderman-brand-new-day&ss=False",
               "seats": [
-                "..??????????????????..",
-                "......................",
-                ".....??????????????...",
-                "....??AAAAAAAAAAA???..",
-                "....??AAAAAAAAAAAA??..",
-                "..????AAAAAAAAAAAA??..",
-                "..????AAAAAAAAAAAAAA..",
-                "?????AAAAAAAAAAAAAAAAA"
+                "..AAAAAAAAAAAAAA..",
+                "..................",
+                "..AAAAAAAAAAA.....",
+                "..AAAAAAAAAAAA....",
+                "..AAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "59328"
             }
@@ -7235,19 +7234,20 @@
               "layoutKey": "59329"
             },
             {
-              "time": "19:10",
+              "time": "18:45",
               "formats": [
                 "Recliner"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59332&a=0000000001&l=3152&m=the-odyssey&ss=False",
               "seats": [
-                "..??????????????..",
-                "..................",
-                "..AAAAAAAAAAA.....",
-                "..AAAAAAAAAAAA....",
-                "..AAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAA"
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "59332"
             }
@@ -7583,7 +7583,7 @@
             {
               "time": "18:45",
               "formats": [
-                "Regular"
+                "Recliner"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59319&a=0000000001&l=3152&m=resident-evil-2026&ss=False",
               "seats": [
@@ -7610,7 +7610,7 @@
             {
               "time": "19:20",
               "formats": [
-                "Regular"
+                "Recliner"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59321&a=0000000001&l=3152&m=practical-magic-2&ss=False",
               "seats": [
@@ -7634,7 +7634,7 @@
             {
               "time": "18:30",
               "formats": [
-                "Regular"
+                "Recliner"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59320&a=0000000001&l=3152&m=spiderman-brand-new-day&ss=False",
               "seats": [
@@ -7658,7 +7658,7 @@
             {
               "time": "18:50",
               "formats": [
-                "Regular"
+                "Clubhouse"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59323&a=0000000001&l=3152&m=shaun-the-sheep-the-beast-of-mossy-bottom&ss=False",
               "seats": [
@@ -7733,7 +7733,8 @@
             {
               "time": "19:15",
               "formats": [
-                "Regular"
+                "3D",
+                "Recliner"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59324&a=0000000001&l=3152&m=forgotten-island&ss=False",
               "seats": [
@@ -7758,7 +7759,7 @@
             {
               "time": "19:45",
               "formats": [
-                "Regular"
+                "Recliner"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59322&a=0000000001&l=3152&m=insidious-out-of-the-further&ss=False",
               "seats": [

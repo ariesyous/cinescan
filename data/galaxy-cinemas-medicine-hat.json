@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T17:08:33.666Z",
+  "updatedAt": "2026-09-16T19:53:26.887Z",
   "theatre": {
     "id": 3140,
     "name": "Galaxy Cinemas Medicine Hat"
@@ -396,6 +396,36 @@
       ]
     },
     "254902": {
+      "totalRows": 11,
+      "totalColumns": 27,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        null
+      ],
+      "seatTypes": [
+        "..SS..SSSSSSSSSSSSSSS..SS..",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS...SSSSSSSSSSSSS...SSSS",
+        "SSSS...SSSSSSSSSSSSS...SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "CWW...SSSSSSSSSSSSSSS..WWC.",
+        "..........................."
+      ]
+    },
+    "254903": {
       "totalRows": 11,
       "totalColumns": 27,
       "rowLabels": [
@@ -9816,6 +9846,66 @@
         ".......SSSSSSSSSSSS.",
         "...................."
       ]
+    },
+    "255594": {
+      "totalRows": 12,
+      "totalColumns": 23,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        null
+      ],
+      "seatTypes": [
+        ".......................",
+        "..SSS.SSSSSSSSSSS.SS...",
+        ".SSSS.SSSSSSSSSSS.SSS..",
+        ".SSSS.SSSSSSSSSSS.SSSS.",
+        ".SSSS.SSSSSSSSSSS.SSSS.",
+        ".SSSS.SSSSSSSSSSS.SSSS.",
+        ".SSSS.SSSSSSSSSSS.SSSS.",
+        ".SSSS.SSSSSSSSSSS.SSSS.",
+        ".SSSS.SSSSSSSSSSS.SSSS.",
+        ".SSSS.SSSSSSSSSSS.SSSS.",
+        ".CWW..SSSSSSSSSSS..WWC.",
+        "......................."
+      ]
+    },
+    "255595": {
+      "totalRows": 10,
+      "totalColumns": 17,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        ".................",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        "....WWCSSSSSSSSS.",
+        "................."
+      ]
     }
   },
   "days": [
@@ -9842,7 +9932,7 @@
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAOOAAAAAA.",
                 "..AAAAAAAAAAAA..",
                 "................"
               ],
@@ -9862,7 +9952,7 @@
                 "AAAA..?AAAAAAAAAAAAAA..AAAA",
                 "AAAA...AAAAAAAAAAAAA...AAAA",
                 "AAAA...AAAAAAAAAAAAA...AAAA",
-                "AAAA..AAAAAAAOOAAAAAA..AAAA",
+                "AAAA..AAAAAAAOOAAOOAA..AAAA",
                 "AAAA..AAAAAAAAAAAAAAA..AAAA",
                 "AAA...AAAAAAAAAAAAAAA..AAA.",
                 "..........................."
@@ -13417,6 +13507,35 @@
           ]
         },
         {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "15:15",
+              "formats": [
+                "Early Access"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255594&a=0000000001&l=3140&m=forgotten-island&ss=False",
+              "seats": [
+                ".......................",
+                "..AAA.AAAAAAAAAAA.AA...",
+                ".AAAA.AAAAAAAAAAA.AAA..",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAA..AAAAAAAAAAA..AAA.",
+                "......................."
+              ],
+              "layoutKey": "255594"
+            }
+          ]
+        },
+        {
           "title": "The Uprising",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
           "runtimeMinutes": 128,
@@ -14352,6 +14471,27 @@
                 "..........................."
               ],
               "layoutKey": "254902"
+            },
+            {
+              "time": "21:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=254903&a=0000000001&l=3140&m=resident-evil-2026&ss=False",
+              "seats": [
+                "..AA..AAAAAAAAAAAAAAA..AA..",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAAA..?AAAAAAAAAAAAAA..AAAA",
+                "AAAA...AAAAAAAAAAAAA...AAAA",
+                "AAAA...AAAAAAAAAAAAA...AAAA",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAA...AAAAAAAOAAAAAAA..AAA.",
+                "..........................."
+              ],
+              "layoutKey": "254903"
             }
           ]
         },
@@ -14867,6 +15007,26 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
           "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255595&a=0000000001&l=3140&m=practical-magic-2&ss=False",
+              "seats": [
+                ".................",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                "....AAAAAAAAAAAA.",
+                "................."
+              ],
+              "layoutKey": "255595"
+            },
             {
               "time": "16:50",
               "formats": [

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T17:05:38.777Z",
+  "updatedAt": "2026-09-16T19:51:39.172Z",
   "theatre": {
     "id": 1148,
     "name": "Cineplex Cinemas Abbotsford and VIP"
@@ -5819,36 +5819,6 @@
         "SSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "161628": {
-      "totalRows": 11,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "..................",
-        "...SSSSSSSSSSSSSS.",
-        "..................",
-        ".....CWSSCWWC.....",
-        ".....SSSSSSSSSS...",
-        ".....SSSSSSSSSS...",
-        ".....SSSSSSSSSS...",
-        ".....SSSSSSSSSS...",
-        "SS...SSSSSSSSSS...",
-        "SS...SSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "161629": {
       "totalRows": 11,
       "totalColumns": 21,
@@ -8094,6 +8064,36 @@
         ".SS...SSSSSSSSSSSSS...",
         "SSSSSSSSSSSSSSSSSSSS.."
       ]
+    },
+    "161698": {
+      "totalRows": 11,
+      "totalColumns": 18,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "..................",
+        "...SSSSSSSSSSSSSS.",
+        "..................",
+        ".....CWSSCWWC.....",
+        ".....SSSSSSSSSS...",
+        ".....SSSSSSSSSS...",
+        ".....SSSSSSSSSS...",
+        ".....SSSSSSSSSS...",
+        "SS...SSSSSSSSSS...",
+        "SS...SSSSSSSSSS...",
+        "SSSSSSSSSSSSSSSSSS"
+      ]
     }
   },
   "days": [
@@ -8118,10 +8118,10 @@
                 "AAAAAAAAAAAA...",
                 "AAAAAAAAAAAA...",
                 "AA?AAAAAAAAA...",
-                "AAAAAOOOAAAA...",
+                "AAAAAOOOAAOO...",
                 "AAAAAAOOOAAA...",
                 "?AOOAAOOOAAA.OO",
-                "AAAAOOOOAAAA.AA",
+                "AAAAOOOOAAOO.AA",
                 "AAAOOOOOAAAA.AA",
                 "AAOOA....OOO.AA",
                 "AAAA......AA.AA"
@@ -8146,7 +8146,7 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..??",
-                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAOOAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
@@ -8430,7 +8430,7 @@
                 "AAAAAAAAAAAA...",
                 "AAAAAAOOAAAA...",
                 "?AAAAAOOAAAA.AA",
-                "OOAAAAAAOAOO.AA",
+                "OOAAOOAOOAOO.AA",
                 "AAAAAAOOAAAA.OO",
                 "AAAAA....AAA.AA",
                 "AAOO......OO.OO"
@@ -8794,14 +8794,14 @@
                 "?A.AAAAAA.AA...",
                 "AAAAAAAAAAAA...",
                 "AAAAAAAAAAAA...",
-                "AA?AAAAAAAAA...",
-                "AAAAAOOOAAAA...",
+                "AA?AAAOOOOAA...",
+                "OOOOAOOOAAOA...",
                 "AAAAOOOOOAAA...",
                 "?AAAAOOOOOAA.AA",
                 "AAOOAOOOOOAA.AA",
-                "AAAOOOAAOOAA.AA",
+                "AAAOOOOOOOAA.AA",
                 "OOOAA....AAA.AA",
-                "OOOO......AA.OO"
+                "AAAA......AA.OO"
               ],
               "layoutKey": "161130"
             },
@@ -8877,8 +8877,8 @@
                 "...AAAAAAAAAAAA",
                 "...OOOOOOAAAAAA",
                 "AA.AAAAAAAAAAAA",
-                "AA.OOOOOOAAAAAA",
-                "AA.AAAAAAAAAAAA",
+                "AA.OOOOOOAAOOOO",
+                "AA.AAAAOOAAAAAA",
                 "AA.AAA....AAAAA",
                 "AA.AA......AOOO"
               ],
@@ -9656,7 +9656,7 @@
                 "...AAAAAAAAAAAA",
                 "...AAAAAAOOAAAA",
                 "AA.AOOOAAAAAAAA",
-                "AA.AAAAAAAAAAAA",
+                "OO.AAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAA",
                 "AA.AAA....AAAAA",
                 "AA.AA......AAAA"
@@ -10553,7 +10553,7 @@
                 "AAAAAAAAAAAA...",
                 "AA?AAAAAAAAA...",
                 "AAAAAAAAAAAA...",
-                "AAAAAAAAAAAA...",
+                "AAAAAAOOAAAA...",
                 "?AAAAAAAAAAA.AA",
                 "AAAAAAAAAAAA.AA",
                 "AAAAAAOOAAOO.AA",
@@ -10890,6 +10890,35 @@
           ]
         },
         {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "15:45",
+              "formats": [
+                "Early Access",
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=161698&a=0000000001&l=1148&m=forgotten-island&ss=False",
+              "seats": [
+                "..................",
+                "...AAAAAAAAAAAAAA.",
+                "..................",
+                ".....AAAAAAAA.....",
+                ".....AAAAAAAAAA...",
+                ".....AAAAAAAAAA...",
+                ".....AAAAAAAAAA...",
+                ".....AAAAAAAAAA...",
+                "??...AAAAAAAAAA...",
+                "AA...AAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "161698"
+            }
+          ]
+        },
+        {
           "title": "The Uprising",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
           "runtimeMinutes": 128,
@@ -10914,27 +10943,6 @@
                 "AAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "161639"
-            },
-            {
-              "time": "15:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=161628&a=0000000001&l=1148&m=the-uprising&ss=False",
-              "seats": [
-                "..................",
-                "...OOOOOOOOOOOOOO.",
-                "..................",
-                ".....OOOOOOOO.....",
-                ".....OOOOOOOOOO...",
-                ".....OOOOOOOOOO...",
-                ".....OOOOOOOOOO...",
-                ".....OOOOOOOOOO...",
-                "OO...OOOOOOOOOO...",
-                "OO...OOOOOOOOOO...",
-                "OOOOOOOOOOOOOOOOOO"
-              ],
-              "layoutKey": "161628"
             },
             {
               "time": "19:10",
@@ -12524,10 +12532,10 @@
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAOOAAAAOOAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAAAAAA?..",
                 "AA...A?AAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAOOAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAOOAAAAAOOAAAAAA"
               ],
               "layoutKey": "161540"
             }
@@ -12618,7 +12626,7 @@
                 "AA...AAAAAAAAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAAAAAA?..",
                 "AA...A?AAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAOOAAAAAAAAAAAAA"
               ],
               "layoutKey": "161541"
             },

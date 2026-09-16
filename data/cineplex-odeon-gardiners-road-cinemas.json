@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T17:07:51.341Z",
+  "updatedAt": "2026-09-16T19:52:57.593Z",
   "theatre": {
     "id": 7259,
     "name": "Cineplex Odeon Gardiners Road Cinemas"
@@ -3689,28 +3689,6 @@
         "....SSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSSS..",
         ".SSSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "300937": {
-      "totalRows": 7,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "....SSSSWCCWWC..",
-        ".SSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSS"
       ]
     },
     "300938": {
@@ -10228,6 +10206,26 @@
         "SSSSSSSSSSSSSSSSSSSSSSSSSS",
         "...DDDDDDDDDDDDDDDDDDDD..."
       ]
+    },
+    "301254": {
+      "totalRows": 6,
+      "totalColumns": 14,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "....SSCWCWWC..",
+        "..SSSSSSSSSS..",
+        "..SSSSSSSSSS..",
+        "..SSSSSSSSSS..",
+        "..SSSSSSSSSS..",
+        ".SSSSSSSSSSS.."
+      ]
     }
   },
   "days": [
@@ -10253,8 +10251,8 @@
                 "....AA.AAAAAAAAA.AAAA.AA...",
                 "....AAAAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAOOAAAAAAAAAA...",
-                "....A?AAAAAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAAAAAA...",
+                "....A?AAAAAAAAAAAAAAOOOO...",
+                "....AAAAAAOAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAAAAAA.AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -10309,23 +10307,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "15:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=300937&a=0000000001&l=7259&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "....AAAAAAAAAA..",
-                ".AAAAAAAAA?AAA..",
-                ".AAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "300937"
-            },
             {
               "time": "18:10",
               "formats": [
@@ -10390,7 +10371,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAOO..",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "...AAAAAAAA?OOAA?AAAAAA..."
               ],
@@ -10412,7 +10393,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAOO..",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "...AAAAAAAA?OOAA?AAAAAA..."
               ],
@@ -10479,9 +10460,9 @@
               "seats": [
                 "..AAAAAAAA....",
                 "..AAAAAAAAAAA.",
-                "..AAAAAAAAAAA.",
-                "..AAAAAAAAAAA.",
-                "..AAAAAAAAAAA.",
+                "..AAOOAAAAAAA.",
+                "..AAAAOOAAAAA.",
+                "..AAAAAOOAAAA.",
                 "..AAAAAAAAAA.."
               ],
               "layoutKey": "300938"
@@ -10496,7 +10477,7 @@
                 "..AAAAAAAA....",
                 "..AAAAAAAAAAA.",
                 "..AAAAAAAAAAA.",
-                "..AAAAAAAAAAA.",
+                "..AAAAOOAAAAA.",
                 "..AAAAAAAAAAA.",
                 "..AAAAAAAAAA.."
               ],
@@ -10534,9 +10515,9 @@
               "seats": [
                 "....AAAAAAAA..",
                 "..AAAAAAAAAA..",
-                "..AAAAAAAAAA..",
-                "..AAAAAAAAAA..",
-                "..AAAAAAAAAA..",
+                "..AOOAOOAAAA..",
+                "..AAAAOOAAAA..",
+                "..OOOAAAAAAA..",
                 ".AAAAAAAAAAAA."
               ],
               "layoutKey": "300940"
@@ -10616,10 +10597,10 @@
                 "..AA.AAAAAAAA...",
                 "..AAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAO.",
                 "..AAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAA"
+                "AAAAAAAAOAAAAAAA"
               ],
               "layoutKey": "300944"
             },
@@ -10820,7 +10801,7 @@
                 "..AAAAAAAAAAA.",
                 "..AAAAAAAAAAA.",
                 "..AAAAAAAAAAA.",
-                "..AA?AAOOAAA.."
+                "..AA?AAAAAAA.."
               ],
               "layoutKey": "300946"
             },
@@ -10870,7 +10851,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOAAAAAAAAAA..",
                 "..AAAAAAAAAOAAOAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAO",
+                "AAAAAAAAAAAAAOAAAAAAAAAAAO",
                 "...AAAAAAOO?AAAA?AAAAAA..."
               ],
               "layoutKey": "300403"
@@ -10892,7 +10873,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOAAAAAAAAAA..",
                 "..AAAAAAAAAOAAOAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAO",
+                "AAAAAAAAAAAAAOAAAAAAAAAAAO",
                 "...AAAAAAOO?AAAA?AAAAAA..."
               ],
               "layoutKey": "300403"
@@ -10961,7 +10942,7 @@
                 "..AAAAAAAAOOOOAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOAAAAAAAAA..",
                 "AAAAAAAOOAAOOOOAAAAAAAAAAA",
-                "...AAAAAAAA?OOAA?AAAAAA..."
+                "...AAAAAAAO?OOAA?AAAAAA..."
               ],
               "layoutKey": "300405"
             },
@@ -10983,7 +10964,7 @@
                 "..AAAAAAAAOOOOAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOAAAAAAAAA..",
                 "AAAAAAAOOAAOOOOAAAAAAAAAAA",
-                "...AAAAAAAA?OOAA?AAAAAA..."
+                "...AAAAAAAO?OOAA?AAAAAA..."
               ],
               "layoutKey": "300405"
             },
@@ -11654,9 +11635,9 @@
                 "..AAA.AAAAAA..AAAAAA.AAA..",
                 "..OAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAAAAAAAA..",
                 "..OOAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAOOAAAAAOOOAAAAAA",
+                "AAAAAAAAAAOOOOOAAOOOAAAAAA",
                 "...AAAAAOOO?OOOA?AAAAAA..."
               ],
               "layoutKey": "300409"
@@ -11676,9 +11657,9 @@
                 "..AAA.AAAAAA..AAAAAA.AAA..",
                 "..OAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAAAAAAAA..",
                 "..OOAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAOOAAAAAOOOAAAAAA",
+                "AAAAAAAAAAOOOOOAAOOOAAAAAA",
                 "...AAAAAOOO?OOOA?AAAAAA..."
               ],
               "layoutKey": "300409"
@@ -11786,7 +11767,7 @@
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAOOAAAAAAAA..",
-                "....AAAAAAAOOAAAAAAAA..",
+                "....AAOOOAAOOAAAAAAAA..",
                 "..AAAAAAAOOAAAAAAAAAA..",
                 ".AAAAAAAAAAOOAAAAAAAAA."
               ],
@@ -12205,7 +12186,7 @@
         {
           "title": "Mitti De Putt (Punjabi w/e.s.t.)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62015_320_470.jpg",
-          "runtimeMinutes": 152,
+          "runtimeMinutes": 136,
           "sessions": [
             {
               "time": "18:00",
@@ -12321,7 +12302,7 @@
                 "..AAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAA.",
+                "..AAAAAAOAAAAAA.",
                 "..AAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAOO"
               ],
@@ -13231,7 +13212,7 @@
                 "..OAAAAAAAAA..",
                 "..AAAAAAAAAA..",
                 "..AAAOOOAAAA..",
-                "..AAAAOOAAAA..",
+                "..AAOOOOAAAA..",
                 ".OAAOOOOOAAA.."
               ],
               "layoutKey": "300474"
@@ -13588,7 +13569,7 @@
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAOOOAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOOOAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "301100"
@@ -13862,6 +13843,30 @@
           ]
         },
         {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "14:50",
+              "formats": [
+                "Early Access",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=301254&a=0000000001&l=7259&m=forgotten-island&ss=False",
+              "seats": [
+                "....AAAAAAAA..",
+                "..AAAAAAAAAA..",
+                "..AAAAAAAAAA..",
+                "..AAAAAAAAAA..",
+                "..AAAAAAAAAA..",
+                ".AAAAAAAAAAA.."
+              ],
+              "layoutKey": "301254"
+            }
+          ]
+        },
+        {
           "title": "The Uprising",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
           "runtimeMinutes": 128,
@@ -14025,7 +14030,7 @@
         {
           "title": "Mitti De Putt (Punjabi w/e.s.t.)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62015_320_470.jpg",
-          "runtimeMinutes": 152,
+          "runtimeMinutes": 136,
           "sessions": [
             {
               "time": "18:00",
@@ -14700,7 +14705,7 @@
         {
           "title": "Mitti De Putt (Punjabi w/e.s.t.)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62015_320_470.jpg",
-          "runtimeMinutes": 152,
+          "runtimeMinutes": 136,
           "sessions": [
             {
               "time": "18:00",
@@ -15525,7 +15530,7 @@
         {
           "title": "Mitti De Putt (Punjabi w/e.s.t.)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62015_320_470.jpg",
-          "runtimeMinutes": 152,
+          "runtimeMinutes": 136,
           "sessions": [
             {
               "time": "18:00",
@@ -16879,7 +16884,7 @@
         {
           "title": "Mitti De Putt (Punjabi w/e.s.t.)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62015_320_470.jpg",
-          "runtimeMinutes": 152,
+          "runtimeMinutes": 136,
           "sessions": [
             {
               "time": "18:00",
