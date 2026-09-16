@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T03:40:40.739Z",
+  "updatedAt": "2026-09-16T05:44:37.473Z",
   "theatre": {
     "id": 7285,
     "name": "Cineplex Cinemas Milton"
@@ -968,6 +968,78 @@
       ]
     },
     "190718": {
+      "totalRows": 14,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "............................",
+        "...SSSSSSSSSSSSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSSSSSSSSSSSS.",
+        "............................",
+        ".......WWCSSSSCWCSSCW..WCS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".SS..SSSSSSSSSSSSSSSSSSSSS..",
+        ".SS..SSSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+        "............................"
+      ]
+    },
+    "190722": {
+      "totalRows": 14,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "............................",
+        "...SSSSSSSSSSSSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSSSSSSSSSSSS.",
+        "............................",
+        ".......WWCSSSSCWCSSCW..WCS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".SS..SSSSSSSSSSSSSSSSSSSSS..",
+        ".SS..SSSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+        "............................"
+      ]
+    },
+    "190723": {
       "totalRows": 14,
       "totalColumns": 28,
       "rowLabels": [
@@ -5659,7 +5731,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAOOOOOOAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAOOOAAAAAAAAAA..AA",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAAAOOAAAAAAAAAA..AA",
                 ".AA.AAA.AAAA.AAA.AAA.AAAA.A..AA",
                 ".AA.AAA.AAAA.AAO.AAA.AAAA.A..AA",
                 ".AAAAAAAAAAAAOOAAAAAAAAAAAA..AA"
@@ -5683,7 +5755,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAOOOOOOAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAOOOAAAAAAAAAA..AA",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAAAOOAAAAAAAAAA..AA",
                 ".AA.AAA.AAAA.AAA.AAA.AAAA.A..AA",
                 ".AA.AAA.AAAA.AAO.AAA.AAAA.A..AA",
                 ".AAAAAAAAAAAAOOAAAAAAAAAAAA..AA"
@@ -9274,6 +9346,66 @@
                 "............................"
               ],
               "layoutKey": "190718"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=190722&a=0000000001&l=7285&m=forgotten-island&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAAAAAAAAAAAA.",
+                "............................",
+                ".......AAAAAAAAAAAAAA..AAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".AA..AAAAAAAAAAAAAAAAAAAAA..",
+                ".AA..AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "............................"
+              ],
+              "layoutKey": "190722"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=190723&a=0000000001&l=7285&m=forgotten-island&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAAAAAAAAAAAA.",
+                "............................",
+                ".......AAAAAAAAAAAAAA..AAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".AA..AAAAAAAAAAAAAAAAAAAAA..",
+                ".AA..AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "............................"
+              ],
+              "layoutKey": "190723"
             }
           ]
         }

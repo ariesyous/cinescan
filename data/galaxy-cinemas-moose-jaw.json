@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T03:42:07.231Z",
+  "updatedAt": "2026-09-16T05:46:03.352Z",
   "theatre": {
     "id": 4113,
     "name": "Galaxy Cinemas Moose Jaw"
@@ -576,6 +576,36 @@
       ]
     },
     "129268": {
+      "totalRows": 11,
+      "totalColumns": 21,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        ".....................",
+        ".....WCSSSCWWCSSS....",
+        "...SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSS..SS",
+        "...SSSSSSSSSSSSSS..SS",
+        "...SSSSSSSSSSSSSS..SS",
+        "...SSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "129269": {
       "totalRows": 11,
       "totalColumns": 21,
       "rowLabels": [
@@ -3085,7 +3115,7 @@
                 "...AAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAAA...AA",
+                "....AAAAAAAOOAAAAAAA...AA",
                 "....AAAAAAAAAAOOAAAA...AA",
                 "...AAAAAAAAAAAAAAAAAA..AA",
                 "...AAAAAAAAAAAAAAAAAA..AA",
@@ -3315,7 +3345,7 @@
                 "....AAAAAAAAAAAAAAAA...AA",
                 "...AAAAAAAAAAAAAAAAAA..AA",
                 "...AAAAAAAAAAAAAAAAAA..AA",
-                "AA?AAAAAOOAAOOOOOAAAAAAAA"
+                "AA?OOAAAOOAAOOOOOAAAAAAAA"
               ],
               "layoutKey": "129167"
             },
@@ -5182,6 +5212,39 @@
                 "AAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "129268"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129269&a=0000000001&l=4113&m=forgotten-island&ss=False",
+              "seats": [
+                ".....................",
+                ".....AAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAA..AA",
+                "...AAAAAAAAAAAAAA..AA",
+                "...AAAAAAAAAAAAAA..AA",
+                "...AAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "129269"
             }
           ]
         }

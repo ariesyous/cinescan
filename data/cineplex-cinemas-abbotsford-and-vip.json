@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T03:40:12.452Z",
+  "updatedAt": "2026-09-16T05:44:07.759Z",
   "theatre": {
     "id": 1148,
     "name": "Cineplex Cinemas Abbotsford and VIP"
@@ -3456,6 +3456,40 @@
       ]
     },
     "161550": {
+      "totalRows": 13,
+      "totalColumns": 28,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "............................",
+        "...SSSSSSSSSSSSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSSSSSSSSSSSS.",
+        "............................",
+        ".....CWWCSSSSWSSSSCWWC......",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        ".....SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SS...SSSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "161551": {
       "totalRows": 13,
       "totalColumns": 28,
       "rowLabels": [
@@ -8088,8 +8122,8 @@
                 "AAAAAAOOOAAA...",
                 "?AOOAAOOOAAA.OO",
                 "AAAAOOOOAAAA.AA",
-                "AAAAAAOOAAAA.AA",
-                "AAAAA....OOO.AA",
+                "AAAOOOOOAAAA.AA",
+                "AAOOA....OOO.AA",
                 "AAAA......AA.AA"
               ],
               "layoutKey": "161483"
@@ -8593,7 +8627,7 @@
                 "AAAAAAAAAAAA...",
                 "AAAAAAOOAAAA...",
                 "?AAAAAOOAAAA.AA",
-                "OOAAOOAAOAAA.AA",
+                "OOAAAAAAOAAA.AA",
                 "AAAAAAOOAAAA.OO",
                 "AAAAA....AAA.AA",
                 "AAOO......OO.OO"
@@ -8710,12 +8744,12 @@
                 "...AAAAAAAAAAAA",
                 "...AAAAAAAAAAAA",
                 "...AAAAAAAAAAAA",
-                "...AAAAAAAAAAAA",
+                "...OOOOOOAAAAAA",
                 "AA.AAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAA",
                 "AA.AAA....AAAAA",
-                "AA.AA......AAAA"
+                "AA.AA......AOOO"
               ],
               "layoutKey": "161647"
             },
@@ -9053,7 +9087,7 @@
                 "AAOOAOOOOOAA.AA",
                 "AAAOOOAAOOAA.AA",
                 "AAAAA....AAA.AA",
-                "AAAA......AA.OO"
+                "OOOO......AA.OO"
               ],
               "layoutKey": "161130"
             },
@@ -9590,7 +9624,7 @@
                 ".....AAAAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAOOAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAA?AAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAA?AAAAAAAAAA.."
@@ -9640,8 +9674,8 @@
                 "AAAAAAA?AA.AA",
                 "AA?AAAAAAA.AA",
                 "AAAAAAAAAA.AA",
-                "AAAA....AA.AA",
-                "A?A........AA"
+                "OOOO....AA.AA",
+                "A?A........OO"
               ],
               "layoutKey": "161591"
             },
@@ -10778,7 +10812,7 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAA..OO",
                 "AAAAAAAAAAAAA?AAAAAAAAAAA..AA"
               ],
               "layoutKey": "161620"
@@ -12830,6 +12864,41 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "161550"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "movies": [
+        {
+          "title": "Primetime",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
+          "runtimeMinutes": 107,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=161551&a=0000000001&l=1148&m=primetime&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAAAAAAAAAAAA.",
+                "............................",
+                ".....AAAAAAAAAAAAAAAAA......",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAA?..",
+                "AA...A?AAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAOOOOAAAAAAAAAAA"
+              ],
+              "layoutKey": "161551"
             }
           ]
         }

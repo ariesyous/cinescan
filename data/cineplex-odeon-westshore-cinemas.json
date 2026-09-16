@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T03:41:54.377Z",
+  "updatedAt": "2026-09-16T05:45:50.502Z",
   "theatre": {
     "id": 1146,
     "name": "Cineplex Odeon Westshore Cinemas"
@@ -1914,6 +1914,44 @@
       ]
     },
     "134831": {
+      "totalRows": 15,
+      "totalColumns": 25,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "seatTypes": [
+        ".........................",
+        ".SSSSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSS..",
+        ".........................",
+        ".CW..WCSSSC.WCSSCW.WC....",
+        ".SSSSSSSSSSSSSSSSSSSS....",
+        ".SSSSSSSSSSSSSSSSSSSS....",
+        ".SSSSSSSSSSSSSSSSSSSS....",
+        ".SSSSSSSSSSSSSSSSSSSS....",
+        ".SSSSSSSSSSSSSSSSSSSS....",
+        ".SSSSSSSSSSSSSSSSSSSS..SS",
+        ".SSSSSSSSSSSSSSSSSSSS..SS",
+        ".SSSSSSSSSSSSSSSSSSSS..SS",
+        ".SSSSSSSSSSSSSSSSSSSS..SS",
+        ".SSSSSSSSSSSSSSSSSSSS..SS"
+      ]
+    },
+    "134832": {
       "totalRows": 15,
       "totalColumns": 25,
       "rowLabels": [
@@ -5813,7 +5851,7 @@
                 "AAAAAAAAAAAAOOOOAAAAAAAA....",
                 "AAAAAAAAAAAAAOOAAOOAAAAA..AA",
                 "AAAAAAAAAAAAOOOOAAAAAAAA..AA",
-                "AAAAAAAAAAOAAAAAAOOAAAAA..AA",
+                "AAAAAAAAAAOAAAAAAOOAOOAA..AA",
                 "AAAAAAAAAAAOOAAOAAAAAAAA..AA",
                 "AAAAAAAAAOOAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAA..AA",
@@ -5924,8 +5962,8 @@
                 "....AAAAAAAAAAA..",
                 "....AAAAAAAAAAA..",
                 "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAA"
+                "....AAAOOAAAAAA..",
+                "AAAAAAAAAOOAAAAAA"
               ],
               "layoutKey": "134993"
             },
@@ -9147,6 +9185,43 @@
                 ".AAAAAAAAAAAAAAAAAAAA..AA"
               ],
               "layoutKey": "134831"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=134832&a=0000000001&l=1146&m=forgotten-island&ss=False",
+              "seats": [
+                ".........................",
+                ".AAAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAA..",
+                ".........................",
+                ".AA..AAAAAA.AAAAAA.AA....",
+                ".AAAAAAAAAAAAAAAAAAAA....",
+                ".AAAAAAAAAAAAAAAAAAAA....",
+                ".AAAAAAAAAAAAAAAAAAAA....",
+                ".AAAAAAAAAAAAAAAAAAAA....",
+                ".AAAAAAAAAAAAAAAAAAAA....",
+                ".AAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAAAAAAAAA..AA"
+              ],
+              "layoutKey": "134832"
             }
           ]
         }

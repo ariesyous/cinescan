@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T03:40:34.681Z",
+  "updatedAt": "2026-09-16T05:44:31.054Z",
   "theatre": {
     "id": 7290,
     "name": "Cineplex Cinemas Hamilton Mountain"
@@ -2525,6 +2525,54 @@
         "..SSSSSSSSSSSS.."
       ]
     },
+    "204442": {
+      "totalRows": 8,
+      "totalColumns": 16,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "................",
+        "..WCSSCWWCSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS.."
+      ]
+    },
+    "204443": {
+      "totalRows": 8,
+      "totalColumns": 16,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "................",
+        "..WCSSCWWCSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS.."
+      ]
+    },
     "204444": {
       "totalRows": 15,
       "totalColumns": 27,
@@ -4729,6 +4777,74 @@
         "...SSSSSSSSSSSSSSSS..SS",
         "...SSSSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "204803": {
+      "totalRows": 13,
+      "totalColumns": 26,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "..........................",
+        "..SSSSSSSSSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSSSSSSSSSS.",
+        "..........................",
+        "....WCSSSSCW...SSSSCW.....",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "204804": {
+      "totalRows": 13,
+      "totalColumns": 26,
+      "rowLabels": [
+        null,
+        "AA",
+        "BB",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "..........................",
+        "..SSSSSSSSSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSSSSSSSSSS.",
+        "..........................",
+        "....WCSSSSCW...SSSSCW.....",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "204924": {
@@ -11120,7 +11236,7 @@
                 "AA..AAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAA..",
                 "AA..?AAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAOOAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "204927"
             },
@@ -12769,7 +12885,7 @@
                 ".AA..AAAAAAAAAAAAAAA..",
                 ".AA..AAAAAAAAAAAAAAA..",
                 ".AA..AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAOOAAAAAAAAAA"
+                "AAAAAAAAAAOOOOAAAAAAAA"
               ],
               "layoutKey": "205022"
             }
@@ -17325,7 +17441,7 @@
                 "..OOOOOOOOOOOO..",
                 "..OOOOOOOOOOOO..",
                 "..OOOOOOOOOOOO..",
-                "..OOOOOOOOOOOA..",
+                "..OOOOOOOOOOOO..",
                 "..OOOOOOOOOOOO.."
               ],
               "layoutKey": "204433"
@@ -17416,7 +17532,7 @@
                 "....AAAAAAAA...AAAAAA.....",
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAOOAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAA..",
@@ -18182,6 +18298,59 @@
       "date": "2026-09-29",
       "movies": [
         {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=204803&a=0000000001&l=7290&m=forgotten-island&ss=False",
+              "seats": [
+                "..........................",
+                "..AAAAAAAAAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAAAAAAAAAA.",
+                "..........................",
+                "....AAAAAAAA...AAAAAA.....",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAAAAAAAAAA..",
+                "AA..?AAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "204803"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=204804&a=0000000001&l=7290&m=forgotten-island&ss=False",
+              "seats": [
+                "..........................",
+                "..AAAAAAAAAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAAAAAAAAAA.",
+                "..........................",
+                "....AAAAAAAA...AAAAAA.....",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAAAAAAAAAA..",
+                "AA..?AAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "204804"
+            }
+          ]
+        },
+        {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
           "runtimeMinutes": 101,
@@ -18203,9 +18372,9 @@
                 "...AAAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAA..AA",
-                "...AAAAAAAAAAAAAAAAAAA..AA",
+                "...AAAAAAAAAAAAAAAAAAA..OO",
                 "..AAAAAAAAAAAAAAAAAAAA..AA",
-                "A?AAAAAAAAAAA?AAAAAAAAAAAA"
+                "A?AAAAAAAAAOO?AAAAAAAAAAAA"
               ],
               "layoutKey": "204496"
             },
@@ -18231,6 +18400,49 @@
                 "A?AAAAAAAAAAA?AAAAAAAAAAAA"
               ],
               "layoutKey": "204497"
+            }
+          ]
+        },
+        {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "18:00",
+              "formats": [
+                "4DX"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=204442&a=0000000001&l=7290&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "................",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAOOAAAA..",
+                "..AAAAOOOOOOOO..",
+                "..AOOOOOOOAOOO..",
+                "..OOOOOOOOOOOA..",
+                "..AOOOOOOOOOAA..",
+                "..OOOOOOOOOAOO.."
+              ],
+              "layoutKey": "204442"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "4DX"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=204443&a=0000000001&l=7290&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "................",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAOOAAAAA..",
+                "..AAAAAOOOAAAA..",
+                "..OOAAOOOOOOAA.."
+              ],
+              "layoutKey": "204443"
             }
           ]
         }

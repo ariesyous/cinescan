@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T03:42:08.941Z",
+  "updatedAt": "2026-09-16T05:46:05.797Z",
   "theatre": {
     "id": 1141,
     "name": "Galaxy Cinemas Nanaimo"
@@ -594,6 +594,28 @@
       ]
     },
     "217848": {
+      "totalRows": 7,
+      "totalColumns": 24,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSS..",
+        "...CWWCSSSSSSSSSSSSWC...",
+        "........................"
+      ]
+    },
+    "217849": {
       "totalRows": 7,
       "totalColumns": 24,
       "rowLabels": [
@@ -3451,9 +3473,9 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAA?AAAAA..",
-                "..OOOOOOOAAAAA..",
+                "..AAAAAOOAAAAA..",
+                "..AOOOAA?AAAAA..",
+                "..OOOOOOOAOAAA..",
                 "..OOOAAAAOOAAA..",
                 "..AAAAAAAAAAOO..",
                 "...AAAAAAAAAA...",
@@ -3752,7 +3774,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAOAAAAA..",
-                "..OOAAOO?AAAAA..",
+                "..OOOOOO?AAAAA..",
                 "..AAAAAOOAAAOO..",
                 "..OOAAOOOOAAAA..",
                 "..AAAAAAAOAAAA..",
@@ -4497,8 +4519,8 @@
               "seats": [
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA?AAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAOOOAAAAAAA?AAA..",
+                "..AAAAAAOOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA?..",
                 "...AAAAAAAAAAAAAAAAAA...",
                 "........................"
@@ -5005,7 +5027,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAOO..",
                 "..AAAA?AAAAAA..",
                 "..AAAA..AAAAA..",
                 "..............."
@@ -5163,7 +5185,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA...........",
                 "........................."
@@ -6668,6 +6690,36 @@
                 "........................"
               ],
               "layoutKey": "217848"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "3D",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217849&a=0000000001&l=1141&m=forgotten-island&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA?AAA..",
+                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA?..",
+                "...AAAAAAAAAAAAAAAAAA...",
+                "........................"
+              ],
+              "layoutKey": "217849"
             }
           ]
         }

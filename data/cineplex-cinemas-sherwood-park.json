@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T03:41:06.457Z",
+  "updatedAt": "2026-09-16T05:45:00.449Z",
   "theatre": {
     "id": 3146,
     "name": "Cineplex Cinemas Sherwood Park"
@@ -733,6 +733,32 @@
         "SSSSSSSSSSSSSSSSSSSS.."
       ]
     },
+    "253118": {
+      "totalRows": 9,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "......................",
+        ".....SSSSSSSSSSSS.....",
+        "......................",
+        "..CW.SSSSSSSSSCW.WC...",
+        "..SSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSS...",
+        "SSSSSSSSSSSSSSSSSSSS.."
+      ]
+    },
     "253121": {
       "totalRows": 9,
       "totalColumns": 22,
@@ -1072,6 +1098,32 @@
       ]
     },
     "253341": {
+      "totalRows": 9,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "......................",
+        ".....SSSSSSSSSSSS.....",
+        "......................",
+        "..SCW..SSSSSSSCW.WC...",
+        "..SSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSS...",
+        "SSSSSSSSSSSSSSSSSSSS.."
+      ]
+    },
+    "253342": {
       "totalRows": 9,
       "totalColumns": 22,
       "rowLabels": [
@@ -4885,7 +4937,7 @@
                 "..AA.AAAAAAAAAAA.AA...",
                 "..AAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAA...",
-                "..AAAAAA?AAAAAAAAAA...",
+                "..AAAAAA?AAAAOOAAAA...",
                 "..AAAAAAAOOAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAA.."
               ],
@@ -5393,7 +5445,7 @@
                 "..AAAAAAAAAAAAAAAAA...",
                 "..AAOOOOOOAAAAAAAAA...",
                 "..AAAOOOAAOOAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAA.."
+                "AAAAAAAAAOOAAAAAAAAA.."
               ],
               "layoutKey": "253508"
             },
@@ -5682,7 +5734,7 @@
                 "...................",
                 ".AAAAAAAAAAAA.AA...",
                 ".AAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAA...",
+                ".AAAAAAOOAAAAAAA...",
                 ".AAAAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAA.."
               ],
@@ -6028,7 +6080,7 @@
                 "...AAAAAAAAAAAA..",
                 "...AAAAAAAAAAAA..",
                 "...AAAAAAAAAAAA..",
-                "..AAAAAOOOOAAAA.."
+                "..AAAAOOOOOOAAA.."
               ],
               "layoutKey": "253511"
             }
@@ -6468,7 +6520,7 @@
                 "....AA..AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAOOOOAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAOOAAAAAAAAAAAA..",
                 ".....AA.AAAAA.?AAAA.AAAAA.....",
                 "....AAA.AAAAA.AAAAA.AAAAA.AA.."
               ],
@@ -6489,7 +6541,7 @@
                 "....AA..AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAOOOOAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAOOAAAAAAAAAAAA..",
                 ".....AA.AAAAA.?AAAA.AAAAA.....",
                 "....AAA.AAAAA.AAAAA.AAAAA.AA.."
               ],
@@ -6625,7 +6677,7 @@
                 "..............................",
                 "....AA..AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAOOOOAAAAAAAAAAA..",
+                "....AAAAAAAAOOOOOAAAAAAAAAAA..",
                 "....AAAAAAAAAAOOAAOOAAAAAAAA..",
                 ".....AA.AAAAA.?AAAA.AAAAA.....",
                 "....AAA.AAAAA.AAAAA.AAAAA.AA.."
@@ -6646,7 +6698,7 @@
                 "..............................",
                 "....AA..AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAOOOOAAAAAAAAAAA..",
+                "....AAAAAAAAOOOOOAAAAAAAAAAA..",
                 "....AAAAAAAAAAOOAAOOAAAAAAAA..",
                 ".....AA.AAAAA.?AAAA.AAAAA.....",
                 "....AAA.AAAAA.AAAAA.AAAAA.AA.."
@@ -9632,6 +9684,64 @@
                 "AAAAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "253117"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "3D",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=253342&a=0000000001&l=3146&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                ".....AAAAAAAAAAAA.....",
+                "......................",
+                "..AAA..AAAAAAAAA.AA...",
+                "..AAAAAAAA?AAAAAAAA...",
+                "..AAAAAAA?AAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "253342"
+            }
+          ]
+        },
+        {
+          "title": "Heart of the Beast",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
+          "runtimeMinutes": 101,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=253118&a=0000000001&l=3146&m=heart-of-the-beast&ss=False",
+              "seats": [
+                "......................",
+                ".....AAAAAAAAAAAA.....",
+                "......................",
+                "..AA.AAAAAAAAAAA.AA...",
+                "..AAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAOOOAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "253118"
             }
           ]
         }
