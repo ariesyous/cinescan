@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T00:53:55.087Z",
+  "updatedAt": "2026-09-16T03:39:46.666Z",
   "theatre": {
     "id": 9196,
     "name": "Cinéma Cineplex IMAX aux Galeries de la Capitale"
@@ -3935,6 +3935,36 @@
         "....SSSSSS.SS.................SS.SSSSSS..."
       ]
     },
+    "18885": {
+      "totalRows": 11,
+      "totalColumns": 42,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "J",
+        "K",
+        "L"
+      ],
+      "seatTypes": [
+        "....SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.",
+        "WWCCSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSCCWW",
+        "...SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSS.SS.................SS.SSSSSS..."
+      ]
+    },
     "18886": {
       "totalRows": 11,
       "totalColumns": 42,
@@ -4108,7 +4138,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA??AAAAAAA.",
                 ".AAAAAAAAAAAAAAAAAAAOOOAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAAOOAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAOOOOAAAAAOOAAAAAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAA?AAAAAAA.",
                 "AAAAAAAAAAAAAAAAAAAAOOAAAAAAAAAAAAAAAAAAAA",
                 "...AAAAAAAAAAAAAAAAA???AAOOOOAAAAAAAAAAA..",
@@ -4266,7 +4296,7 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=18821&a=0000000001&l=9196&m=resident-evil-2026&ss=False",
               "seats": [
-                "....?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "....?AAAAAAAAAAAAAAAOOAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAAOOAAAAAAAAAAAAAAAAAAA.",
@@ -4287,6 +4317,27 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61421_320_470.jpg",
           "runtimeMinutes": 94,
           "sessions": [
+            {
+              "time": "16:20",
+              "formats": [
+                "IMAX"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=18885&a=0000000001&l=9196&m=vf-resident-evil-version-francaise&ss=False",
+              "seats": [
+                "....?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA??AAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA?AAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAAAA???AAAAAAAAAAAAAAAAA..",
+                "....AAAAAA.AA.................AA.AAAAAA..."
+              ],
+              "layoutKey": "18885"
+            },
             {
               "time": "21:20",
               "formats": [
