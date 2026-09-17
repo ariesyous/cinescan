@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T23:32:31.227Z",
+  "updatedAt": "2026-09-17T00:10:06.244Z",
   "theatre": {
     "id": 1415,
     "name": "Famous Players 6 Cinemas"
@@ -2035,40 +2035,6 @@
         "....................."
       ]
     },
-    "148239": {
-      "totalRows": 13,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K",
-        null
-      ],
-      "seatTypes": [
-        ".....................",
-        "....SSSSSSSSSSSS.....",
-        "....SSSSSSSSSSSSS....",
-        "SS..SSSSSSSSSSSS...SS",
-        "SS..SSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSS...SS",
-        "SS..SSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSS...SS",
-        "SS..SSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSS...SS",
-        "SS..WCSSSSSCW......SS",
-        "...................SS",
-        "....................."
-      ]
-    },
     "148240": {
       "totalRows": 13,
       "totalColumns": 21,
@@ -3205,6 +3171,40 @@
         "SSSS..SSSSSSSSSSSSSSS..SS",
         "SSSS.....SSSSSSSSSSCW..SS",
         "........................."
+      ]
+    },
+    "148271": {
+      "totalRows": 13,
+      "totalColumns": 21,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        null
+      ],
+      "seatTypes": [
+        ".....................",
+        "....SSSSSSSSSSSS.....",
+        "....SSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSS.....",
+        "SS..SSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSS...SS",
+        "SS..SSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSS...SS",
+        "SS..SSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSS...SS",
+        "SS....WCSSSSSCW....SS",
+        "SS...................",
+        "....................."
       ]
     },
     "148272": {
@@ -5711,29 +5711,6 @@
           "runtimeMinutes": 98,
           "sessions": [
             {
-              "time": "01:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=148239&a=0000000001&l=1415&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                ".....................",
-                "....OOOOOOOOOOOO.....",
-                "....OOOOOOOOOOOOO....",
-                "OO..OOOOOOOOOOOO...OO",
-                "OO..OOOOOOOOOOOOO..OO",
-                "OO..OOOOOOOOOOOO...OO",
-                "OO..OOOOOOOOOOOOO..OO",
-                "OO..OOOOOOOOOOOO...OO",
-                "OO..OOOOOOOOOOOOO..OO",
-                "OO..OOOOOOOOOOOO...OO",
-                "OO..OOOOOOOOO......OO",
-                "...................OO",
-                "....................."
-              ],
-              "layoutKey": "148239"
-            },
-            {
               "time": "21:30",
               "formats": [
                 "Regular"
@@ -6407,6 +6384,36 @@
                 "....................."
               ],
               "layoutKey": "148272"
+            }
+          ]
+        },
+        {
+          "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61021_320_470.jpg",
+          "runtimeMinutes": 81,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=148271&a=0000000001&l=1415&m=shaun-the-sheep-the-beast-of-mossy-bottom&ss=False",
+              "seats": [
+                ".....................",
+                "....AAAAAAAAAAAA.....",
+                "....AAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAA.....",
+                "AA..AAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAA...AA",
+                "AA..AAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAA...AA",
+                "AA..?AAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAA...AA",
+                "AA....AAAAAAAAA....AA",
+                "AA...................",
+                "....................."
+              ],
+              "layoutKey": "148271"
             }
           ]
         },
