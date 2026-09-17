@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T20:53:24.473Z",
+  "updatedAt": "2026-09-17T22:03:23.113Z",
   "theatre": {
     "id": 3146,
     "name": "Cineplex Cinemas Sherwood Park"
@@ -1191,6 +1191,30 @@
         "...SSSSSSSSSSSSS.",
         "...SSSSSSSSSSSSS.",
         "..SSSSSSSSSSSSSSS"
+      ]
+    },
+    "253482": {
+      "totalRows": 8,
+      "totalColumns": 19,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "seatTypes": [
+        "...................",
+        ".SSSSSSSSSSSSSSSSS.",
+        "...................",
+        ".SSSSSSSSSSCW.WC...",
+        ".SSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSS...",
+        "SSSSSSSSSSSSSSSSS.."
       ]
     },
     "253483": {
@@ -4595,7 +4619,7 @@
                 "....AA..AAAAAAOOAAAAAAAAAAAA..",
                 "....AAAAAAAAAAOAAAAAAAAAAAAA..",
                 "....OOOOAAAOOOOOOOOOAAOOAAAA..",
-                "....OOOOOOOOOOOOOOOAOOOOOAOO..",
+                "....OOOOOOOOOOOOOOOOOOOOOAOO..",
                 ".....AA.AAAAA.AOOOA.AAAAA.....",
                 "....AAA.AAAAA.OOOAA.AAAAA.AA.."
               ],
@@ -4616,7 +4640,7 @@
                 "....AA..AAAAAAOOAAAAAAAAAAAA..",
                 "....AAAAAAAAAAOAAAAAAAAAAAAA..",
                 "....OOOOAAAOOOOOOOOOAAOOAAAA..",
-                "....OOOOOOOOOOOOOOOAOOOOOAOO..",
+                "....OOOOOOOOOOOOOOOOOOOOOAOO..",
                 ".....AA.AAAAA.AOOOA.AAAAA.....",
                 "....AAA.AAAAA.OOOAA.AAAAA.AA.."
               ],
@@ -4641,7 +4665,7 @@
                 "..................",
                 "....AAAAAAAAAAAA..",
                 "...AAAAOOOOAAAAA..",
-                "...AAAAOOOOAAAAA..",
+                "...AOOAOOOOAOOAA..",
                 "...OOOOOOOOOOOOO..",
                 "..AAAAOOOOOAAOOO.."
               ],
@@ -4676,6 +4700,31 @@
           ]
         },
         {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "18:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=253482&a=0000000001&l=3146&m=the-odyssey&ss=False",
+              "seats": [
+                "...................",
+                ".AAAAAAAAAAAAAAAAA.",
+                "...................",
+                ".AAAAAAAAAAAA.AA...",
+                ".AAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAA...",
+                "AAAAAAAOOAAAAAAOO.."
+              ],
+              "layoutKey": "253482"
+            }
+          ]
+        },
+        {
           "title": "The Uprising",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
           "runtimeMinutes": 128,
@@ -4693,7 +4742,7 @@
                 "...AA.AAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAAA.",
+                "...AAAAAAOAAAAAAAA.",
                 "..AAAAAAAAAOOAAAAAA"
               ],
               "layoutKey": "253483"
@@ -4723,20 +4772,6 @@
                 "AAAAAAAAAAOAAAAAAAAA.."
               ],
               "layoutKey": "253485"
-            }
-          ]
-        },
-        {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=253479&a=0000000001&l=3146&m=fall-2-deadpoint&ss=False"
             }
           ]
         },
@@ -4914,9 +4949,9 @@
                 "...................",
                 ".AAAAAAAAAAAA.AA...",
                 ".AAAAAAAAAAAAAAA...",
-                ".AAAAAAOOAAAAAAA...",
+                ".AAAAAAOOOOOAAAA...",
                 ".AAAAAAAOOAAAAAA...",
-                "AAAAAAAAOOAAAAAAA.."
+                "AAAOOAAAOOAAAAAAA.."
               ],
               "layoutKey": "253497"
             },
@@ -5081,7 +5116,7 @@
                 "..AA.AAAAAAAAAAA.AA...",
                 "..AAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAA...",
-                "..AAOOOOOOOOOOAAAAA...",
+                "..AAOOOOOOOOOOAAAOO...",
                 "..OOOOOOOOOOOOOOOOO...",
                 "OOOOOOAOOOOOOOOOOOAA.."
               ],
@@ -5707,7 +5742,7 @@
                 "....AA..AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAOOOOOAAAAAAAAAA..",
                 "....AAAAAAAAAAAOOAAAAAAAAAAA..",
-                "....AAAOOAAAOOOOOOOOOOAAAAAA..",
+                "....AAAOOAAAOOOOOOOOOOOOAAAA..",
                 ".....AA.AAAAA.AOAAA.AAAAA.....",
                 "....AAA.AAAAA.OOOOA.AAAAA.AA.."
               ],
@@ -5728,7 +5763,7 @@
                 "....AA..AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAOOOOOAAAAAAAAAA..",
                 "....AAAAAAAAAAAOOAAAAAAAAAAA..",
-                "....AAAOOAAAOOOOOOOOOOAAAAAA..",
+                "....AAAOOAAAOOOOOOOOOOOOAAAA..",
                 ".....AA.AAAAA.AOAAA.AAAAA.....",
                 "....AAA.AAAAA.OOOOA.AAAAA.AA.."
               ],
