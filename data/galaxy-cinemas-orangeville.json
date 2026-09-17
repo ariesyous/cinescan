@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T09:57:00.434Z",
+  "updatedAt": "2026-09-17T15:50:27.929Z",
   "theatre": {
     "id": 7270,
     "name": "Galaxy Cinemas Orangeville"
@@ -4384,6 +4384,36 @@
         "...SSSSSSSSSSSSSSS..SS",
         ".SSSSSSSSSSSSSSSSSSSSS"
       ]
+    },
+    "166545": {
+      "totalRows": 11,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "......................",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "......................",
+        ".....WCSSSCW.WCSS.....",
+        "...SSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSS..SS",
+        ".SSSSSSSSSSSSSSSSSSSSS"
+      ]
     }
   },
   "days": [
@@ -4412,9 +4442,9 @@
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
                 "OA....AAAAAAOAAAAAAA..",
-                "AA....AAAAAAAAAAAAAA..",
+                "AA....AAAAOOAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAOOAAAAAAAAAA"
+                "AAAAAAAAAAOOAAAOOAAAAA"
               ],
               "layoutKey": "166180"
             }
@@ -4443,7 +4473,7 @@
                 "....AAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAOOAAAAAAAAA..",
                 "A?...AAAAAAAAAAAAAAAA....",
-                "AA...AAAAAAAAAAAAAAAA....",
+                "AA...AAAAAAAOOAAAAAAA....",
                 "AA..AAAAAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -5173,7 +5203,7 @@
                 "...AAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAA....",
-                "....AAAAAAOOAAAAAA...AA",
+                "....AAAAAAOOAOOAAA...AA",
                 "....AAAAAAAAAAAAAA...AA",
                 "...AAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAA"
@@ -6047,6 +6077,35 @@
                 ".AAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "166485"
+            }
+          ]
+        },
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "15:40",
+              "formats": [
+                "Early Access",
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166545&a=0000000001&l=7270&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AAAAAAA.AAAA.....",
+                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAA..AA",
+                ".?AAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "166545"
             }
           ]
         },

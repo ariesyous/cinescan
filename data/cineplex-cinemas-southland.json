@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T09:56:08.544Z",
+  "updatedAt": "2026-09-17T15:49:29.443Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
@@ -5483,6 +5483,28 @@
         "................."
       ]
     },
+    "268845": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..WWCCSSSSSSS..",
+        "..............."
+      ]
+    },
     "268846": {
       "totalRows": 7,
       "totalColumns": 15,
@@ -5846,7 +5868,7 @@
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAA??AAAAAA..AA",
-                "AA..A?AA?AAAAAAAAA..AA",
+                "AA..A?AA?AAOAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..??",
                 "AA..AA?AAAAAAAAAAA..AA",
@@ -5867,7 +5889,7 @@
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAA??AAAAAA..AA",
                 "AA..A?AA?OOOOOOAAA..AA",
-                "AA..AAAAAAAAOOOOAA..AA",
+                "AA..AAAAAOAAOOOOAA..AA",
                 "AA..AAOOOOOOOOOAAA..??",
                 "AA..OA?AOOOOAAAAOO..AA",
                 ".....AAAAAAAAAAAA.....",
@@ -5896,7 +5918,7 @@
                 "OO..A?AA?AAAAAAAOO..AA",
                 "AA..AAOOAAOOAAAOAA..AA",
                 "AO..OOOOAAOOOAAAOO..??",
-                "AO..OO?OAAAAAAAAAO..OA",
+                "AO..OO?OAAAAAAAAOO..OA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
               ],
@@ -6813,6 +6835,23 @@
                 "..............."
               ],
               "layoutKey": "268716"
+            },
+            {
+              "time": "21:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268845&a=0000000001&l=4108&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "..?AAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAA?AAAAAA..",
+                "..AAAAA?A??AA..",
+                "..AAAAAAAAAAA..",
+                "..............."
+              ],
+              "layoutKey": "268845"
             }
           ]
         },
@@ -10114,7 +10153,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAA???AAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAOO..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAA?AAAAA..",
                 "...AAAAAAAAAAAAAAA..",
