@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T23:21:55.299Z",
+  "updatedAt": "2026-09-17T23:56:30.751Z",
   "theatre": {
     "id": 6111,
     "name": "Cineplex Cinemas Fredericton"
@@ -863,30 +863,6 @@
         "........SSCWWWCS......."
       ]
     },
-    "166105": {
-      "totalRows": 8,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".......................",
-        "........SSSSSSSS.......",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "........SSCWWWCS......."
-      ]
-    },
     "166388": {
       "totalRows": 7,
       "totalColumns": 16,
@@ -1260,26 +1236,6 @@
       ]
     },
     "166407": {
-      "totalRows": 6,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..W.WCSSSSSSS..",
-        "..............."
-      ]
-    },
-    "166608": {
       "totalRows": 6,
       "totalColumns": 15,
       "rowLabels": [
@@ -5640,59 +5596,6 @@
   },
   "days": [
     {
-      "date": "2026-09-17",
-      "movies": [
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "20:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166105&a=0000000001&l=6111&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".......................",
-                "........AAAAAAAA.......",
-                "..AAAAAAAAAOOAAAAAAAA..",
-                "..OOAAOOOOOOOOOOOOOAO..",
-                "..OOOOOOOOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOOO..",
-                "........OOAAAAAO......."
-              ],
-              "layoutKey": "166105"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "20:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166608&a=0000000001&l=6111&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAOOOAAAA..",
-                "..OOOOOAAOOAA..",
-                "..A.AAAOOAAOO..",
-                "..............."
-              ],
-              "layoutKey": "166608"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-18",
       "movies": [
         {
@@ -5713,7 +5616,7 @@
                 "..AAAAAOOOOOOAAOOAAAA..",
                 "..AAOOOOOOOOOAAAOOOOO..",
                 "..AAOOAAOOOOOOOOOOOOA..",
-                "..OOAAOOOOOOOAAAOOAAA..",
+                "..OOAAAOOOOOOAAAOOAAA..",
                 "........OOAAAAAO......."
               ],
               "layoutKey": "166089"
@@ -5764,7 +5667,7 @@
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAOOOOOAOAAAAAA..",
-                "..AAAAAAAAAOOOOAAAAAA..",
+                "..AAAOOOOOOOOOOAAAAAA..",
                 "..AAOOOOOAOOOOAAAOOOO..",
                 "..AAAOOOOOOOOOOAAAAOO..",
                 "........OAAAAAAA......."
@@ -6351,7 +6254,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAAA..",
-                "..AAAAOOOOOOOOOAAAAAA..",
+                "..AAOOOOOOOOOOOAAAAAA..",
                 "..OOAAAAAOOOOAAAOOOAA..",
                 "........OOAAAAAA......."
               ],
@@ -7206,7 +7109,7 @@
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAOOOOOOOOOAAAAAAAA..",
-                "..AAAAAAAAAOOAAAAAAAA..",
+                "..AAAAAAAOOOOAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAA..",
                 "..AAAAAAOOOOOOOAAAAAA..",
                 "........OOAAAAAA......."
@@ -7280,7 +7183,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOOAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "........AAAAAAAA......."
+                "........OOAAAAAA......."
               ],
               "layoutKey": "166099"
             }
@@ -7301,7 +7204,7 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..AAAAOOOOAAA..",
-                "..OOOOOOOOAAA..",
+                "..OOOOOOOOOOO..",
                 "..A.AAOOOAAAA..",
                 "..............."
               ],
@@ -7333,7 +7236,7 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..OOOAAAAAOOO..",
+                "..OOOOAAAAOOO..",
                 "..A.AAAAAAAOO..",
                 "..............."
               ],

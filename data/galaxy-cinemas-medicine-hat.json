@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T23:23:18.408Z",
+  "updatedAt": "2026-09-17T23:58:08.003Z",
   "theatre": {
     "id": 3140,
     "name": "Galaxy Cinemas Medicine Hat"
@@ -2165,34 +2165,6 @@
         ".SSSS.SSSSSSSSSSS.SSSS.",
         ".CWW..SSSSSSSSSSS..WWC.",
         "......................."
-      ]
-    },
-    "255353": {
-      "totalRows": 10,
-      "totalColumns": 17,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        ".................",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        "....WWCSSSSSSSSS.",
-        "................."
       ]
     },
     "255354": {
@@ -7015,6 +6987,34 @@
         ".................."
       ]
     },
+    "255516": {
+      "totalRows": 10,
+      "totalColumns": 18,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        "..................",
+        "...SSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSS.",
+        "....WCSSSSSSSCWW..",
+        ".................."
+      ]
+    },
     "255517": {
       "totalRows": 11,
       "totalColumns": 16,
@@ -9046,7 +9046,7 @@
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAOOAAAAOO.",
-                ".AAAAAAAAAAAAAA.",
+                ".OOAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 "..AAOOAAAAAAAA..",
@@ -9174,26 +9174,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
           "sessions": [
-            {
-              "time": "17:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255353&a=0000000001&l=3140&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                ".................",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                "....AAAAAAAAAAAA.",
-                "................."
-              ],
-              "layoutKey": "255353"
-            },
             {
               "time": "18:35",
               "formats": [
@@ -9523,7 +9503,7 @@
                 ".AAAA.AAAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAOOAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAA..AAAAAOAAAAA..AAA.",
+                ".AAA..AAAAOOOOAAA..AAA.",
                 "......................."
               ],
               "layoutKey": "255424"
@@ -12603,7 +12583,20 @@
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255516&a=0000000001&l=3140&m=coyote-vs-acme-2026&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255516&a=0000000001&l=3140&m=coyote-vs-acme-2026&ss=False",
+              "seats": [
+                "..................",
+                "...AAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAA.",
+                "...AAAAAAA?AAAAA?.",
+                "...A??AA?AAAAAA?A.",
+                "...?AAAAAAAAA?AAA.",
+                "...?AAAA?A?A?AA?A.",
+                "....AA??AA??AAAA..",
+                ".................."
+              ],
+              "layoutKey": "255516"
             }
           ]
         },
