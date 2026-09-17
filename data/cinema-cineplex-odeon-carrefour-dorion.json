@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T00:08:18.841Z",
+  "updatedAt": "2026-09-17T00:58:24.981Z",
   "theatre": {
     "id": 9153,
     "name": "Cinéma Cineplex Odeon Carrefour Dorion"
@@ -4710,6 +4710,28 @@
         "..................",
         ".................."
       ]
+    },
+    "196565": {
+      "totalRows": 7,
+      "totalColumns": 17,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSS.SSSS.",
+        "...WC.SSS.CW....."
+      ]
     }
   },
   "days": [
@@ -6583,6 +6605,30 @@
                 ".................."
               ],
               "layoutKey": "196516"
+            }
+          ]
+        },
+        {
+          "title": "L'ÎLE DE L'OUBLI - ACCÈS EN AVANT-PREMIÈRE",
+          "poster": null,
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "12:30",
+              "formats": [
+                "Early Access"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196565&a=0000000001&l=9153&m=lile-de-loubli-acces-en-avantpremiere&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAA?AAAAAAAA.",
+                ".AAAAAAAAAAAAAAA.",
+                ".AAAAAA???A.AAAA.",
+                "...A?.AAA.?A....."
+              ],
+              "layoutKey": "196565"
             }
           ]
         },
