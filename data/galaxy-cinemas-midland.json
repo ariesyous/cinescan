@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T22:04:32.070Z",
+  "updatedAt": "2026-09-17T22:48:21.321Z",
   "theatre": {
     "id": 7271,
     "name": "Galaxy Cinemas Midland"
@@ -169,40 +169,6 @@
         "...SSSSSSSSSSSSSSS....",
         "...SSSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "150201": {
-      "totalRows": 13,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".......................",
-        ".SSSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSS..",
-        ".......................",
-        "....WWCSSSSSSSSSCW.....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "150202": {
@@ -3480,6 +3446,36 @@
         "..SSSSSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSSSSS"
       ]
+    },
+    "150324": {
+      "totalRows": 11,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "......................",
+        "...SSSSSSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSSSSSS.",
+        "......................",
+        "....WWCSSSSSSSSCW.....",
+        "...SSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSSS"
+      ]
     }
   },
   "days": [
@@ -3503,14 +3499,14 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..AA...",
                 "...........................",
-                ".......AAAAAAOOAAAAAAAAA...",
+                ".......AAAAAAOOAAOAAAAAA...",
                 "......?A?AAAAAAAAAAAAAAA...",
                 "......AAAAAAAOAAOOAAAAAA...",
-                "......AAAAAAAAAAA?AAAAAA...",
+                "......AAAAAAOOOAA?AAAAAA...",
                 "......AAAAAAAOOAAAAAAAAA...",
-                "..AA..AAAAAAAOAAAAAAAAAA...",
-                "..AA..AAAAAAAAAOOOAAAAAA...",
-                "..AA..AAAAAOOOOAAAAAAAAA...",
+                "..OA..AAAAAAAOAOOAAAAAAA...",
+                "..AA..AAOAAAAAAOOOAAAAAA...",
+                "..AA..AAAAAOOOOAAAOOOOAA...",
                 ".OOAAAAAAOOOOOOAAAA?OOOAAAA"
               ],
               "layoutKey": "150202"
@@ -3536,43 +3532,13 @@
                 "......................",
                 "....AAAAAAAAAAAAA.....",
                 "...OOOOAAAOOAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAOOAOOAOO....",
                 "...AAAAAAAOOAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "...AAAAAOOAAAAOOOO....",
+                "...AAOOAAOOAAAAAAA..AA",
+                "AAAAAAAAAOOOAAAAAAAAAA"
               ],
               "layoutKey": "150200"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=150201&a=0000000001&l=7271&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                ".......................",
-                ".AAAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA..",
-                ".......................",
-                "....AAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA..A?",
-                "..AAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "150201"
             }
           ]
         },
@@ -3593,7 +3559,7 @@
                 ".AAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAA..",
                 ".....................",
-                ".....AAAAAA?AAAAA....",
+                ".....AAAOOA?AAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
@@ -3625,8 +3591,8 @@
                 "......................",
                 "....AAAAAAAAAAAAA.....",
                 "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAOOAAAAAAA....",
+                "...AAAAAAAAAOOAAAA....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAA??AAAAA..AA",
                 "AAAAAAAAA?AAAAAAAAAAAA"
@@ -3654,8 +3620,8 @@
                 "....AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAOOAAAAAA....",
+                "..AAAAAAAAAAAAAAOOO....",
                 "..AAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
@@ -5100,6 +5066,35 @@
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "150268"
+            }
+          ]
+        },
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "15:30",
+              "formats": [
+                "Early Access",
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=150324&a=0000000001&l=7271&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAA??.",
+                "...AAAAAAAAAAAAAAAAAA.",
+                "......................",
+                "....AAAAAAAAAAAAA.....",
+                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAA??AAAAA..AA",
+                "AAAAAAAAA?AAAAAAAAAAAA"
+              ],
+              "layoutKey": "150324"
             }
           ]
         },

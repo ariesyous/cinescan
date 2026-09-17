@@ -1,40 +1,10 @@
 {
-  "updatedAt": "2026-09-17T22:02:20.276Z",
+  "updatedAt": "2026-09-17T22:46:47.594Z",
   "theatre": {
     "id": 9121,
     "name": "Cinéma Cineplex Royalmount"
   },
   "auditoriums": {
-    "14923": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...................",
-        "....CW.WCSSSCW.WC..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "14933": {
       "totalRows": 11,
       "totalColumns": 19,
@@ -243,34 +213,6 @@
         "..DD.DDD.DD.DDD.D..",
         "..DD.DDD.DD.DDD.D..",
         "..SSSSS.SSSSSSSSSS."
-      ]
-    },
-    "14940": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...................",
-        "...CW.WCSSSSCW.WC..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS."
       ]
     },
     "14941": {
@@ -3770,11 +3712,11 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAOO....",
-                "..AAAAAAAOOAAAA....",
+                "..AAAAOOAOOAAAA....",
                 "..AAOOOAAOOAAAO....",
-                "..AAAAAAOOAAOOAAA..",
-                "..AAAAOOAAOOOAAAA..",
-                "..AA.AAA.AA.AAA.A..",
+                "..AAAAAAOOOOOOAAA..",
+                "..AAAOOOAAOOOAAAA..",
+                "..AA.AAO.OA.AAA.A..",
                 "..AA.AAA.AA.AAA.A..",
                 "..AAAAA.OOAAAAAAAA."
               ],
@@ -3792,11 +3734,11 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAOO....",
-                "..AAAAAAAOOAAAA....",
+                "..AAAAOOAOOAAAA....",
                 "..AAOOOAAOOAAAO....",
-                "..AAAAAAOOAAOOAAA..",
-                "..AAAAOOAAOOOAAAA..",
-                "..AA.AAA.AA.AAA.A..",
+                "..AAAAAAOOOOOOAAA..",
+                "..AAAOOOAAOOOAAAA..",
+                "..AA.AAO.OA.AAA.A..",
                 "..AA.AAA.AA.AAA.A..",
                 "..AAAAA.OOAAAAAAAA."
               ],
@@ -3855,28 +3797,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "18:00",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14923&a=0000000001&l=9121&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...................",
-                "....??.??AAA??.??..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAOOAAAAOO..",
-                "..AAAAAAAOOAAAAAA..",
-                "..AAAAAAAOOAAAAAA..",
-                "..AAAAAAAOOAAAAAA..",
-                "AAAAAAOAAAAAAAAAAAA"
-              ],
-              "layoutKey": "14923"
-            },
-            {
               "time": "21:20",
               "formats": [
                 "3D",
@@ -3918,40 +3838,13 @@
                 "...AAAAAAAA?AAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
-                "...AAAA?AAAAAAAAA..",
+                "...AAAA?AAOOAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAOOAAA..",
                 ".AAAAAAAOOAAOOAAA..",
                 ".OOAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "14937"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=14940&a=0000000001&l=9121&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...................",
-                "...AA.AAAAAAAA.AA..",
-                "...AAAAAAAA?AAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAA?OOAAOOAAA..",
-                "...AAAAAAAAAAAAAA..",
-                ".AAAAAAAAOOAAAAAA..",
-                ".AAAAAAAAOOAAAAAA..",
-                ".AAAAAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "14940"
             }
           ]
         },
@@ -4000,12 +3893,12 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAOOAAAAA....",
-                "..AAAAAAAAAAAAA....",
+                "..AAAOOAAAAAAAA....",
                 "..AAAAAAOOAAAAA....",
-                "..AAOOAAAAAAAAAAA..",
+                "..AAOOAAOOOOAAAAA..",
                 "..AAAAAAOOOAAAAAA..",
                 "..AAAAAAOOAAAAAAA..",
-                "..AAAAA????AAAAAAA."
+                "..AAAOO????AAOAAAA."
               ],
               "layoutKey": "14938"
             },
@@ -4061,7 +3954,7 @@
                 "..AAAAAAAAAAAAAAA..",
                 "..OO.AAO.OA.AAA.A..",
                 "..AA.AAA.OA.AAA.A..",
-                "..AAAAA.AAAAAAAAAA."
+                "..AAAAA.AAAAAAAAAO."
               ],
               "layoutKey": "14955"
             },
@@ -4084,7 +3977,7 @@
                 "..AAAAAAAAAAAAAAA..",
                 "..OO.AAO.OA.AAA.A..",
                 "..AA.AAA.OA.AAA.A..",
-                "..AAAAA.AAAAAAAAAA."
+                "..AAAAA.AAAAAAAAAO."
               ],
               "layoutKey": "14955"
             },
@@ -4199,10 +4092,10 @@
                 "..AAAAAOOOOAAAA....",
                 "..OOAAOOOOOAAAA....",
                 "..AAAOOOOOOOOOOAA..",
-                "..AAAAAOOOOOOOOAA..",
+                "..OOOOAOOOOOOOOAA..",
                 "..AA.AAO.OO.OOO.A..",
                 "..AO.OOA.AA.AAA.A..",
-                "..AAAOO.AOOOOAAAAA."
+                "..AAAOO.AOOOOAAOOO."
               ],
               "layoutKey": "14958"
             },
@@ -4222,10 +4115,10 @@
                 "..AAAAAOOOOAAAA....",
                 "..OOAAOOOOOAAAA....",
                 "..AAAOOOOOOOOOOAA..",
-                "..AAAAAOOOOOOOOAA..",
+                "..OOOOAOOOOOOOOAA..",
                 "..AA.AAO.OO.OOO.A..",
                 "..AO.OOA.AA.AAA.A..",
-                "..AAAOO.AOOOOAAAAA."
+                "..AAAOO.AOOOOAAOOO."
               ],
               "layoutKey": "14958"
             }
@@ -4691,7 +4584,7 @@
                 "..AAAAAOOOOAAAA....",
                 "..OOAAAAOOOOOAAAA..",
                 "..AAAAAAAAAAAAAAA..",
-                "..OO.OAA.AA.AAA.A..",
+                "..AA.AAA.AA.AAA.A..",
                 "..AA.AAA.AA.AAA.A..",
                 "..AAAAA.AOOOOAAAAA."
               ],
@@ -4714,7 +4607,7 @@
                 "..AAAAAOOOOAAAA....",
                 "..OOAAAAOOOOOAAAA..",
                 "..AAAAAAAAAAAAAAA..",
-                "..OO.OAA.AA.AAA.A..",
+                "..AA.AAA.AA.AAA.A..",
                 "..AA.AAA.AA.AAA.A..",
                 "..AAAAA.AOOOOAAAAA."
               ],
@@ -4880,7 +4773,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAOOAAAAA....",
                 "..OOAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAOOAAAAAAAA..",
                 "..AAOOOOOOAAAAAAA..",
                 "..AAAAAOOOOAAAAAA..",
                 "..AAAAA????AAAAAAA."
@@ -6493,7 +6386,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA..",
+                "..OOAAAAAAAAAAAAA..",
                 "..AAAAAAAOAAAAAAA..",
                 "..AAAAAAAAOAAAAAA..",
                 "..AAAAA????AAAAAAA."

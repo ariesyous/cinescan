@@ -1,42 +1,10 @@
 {
-  "updatedAt": "2026-09-17T22:02:53.329Z",
+  "updatedAt": "2026-09-17T22:47:12.341Z",
   "theatre": {
     "id": 5119,
     "name": "Cineplex Cinemas Lower Sackville"
   },
   "auditoriums": {
-    "97010": {
-      "totalRows": 12,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "....................",
-        ".SSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS..",
-        "....................",
-        "....WWWCSSSSSSCWWW..",
-        "....SSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS."
-      ]
-    },
     "97011": {
       "totalRows": 15,
       "totalColumns": 25,
@@ -529,38 +497,6 @@
         "...SSSSSSSSSSSSSSSSSSSS..",
         "...SSSSSSSSSSSSSSSSSSSS..",
         "...SSSSSSSSSSSSSSSSSSSS.."
-      ]
-    },
-    "97114": {
-      "totalRows": 12,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "...................",
-        ".SSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSS.",
-        "...................",
-        "...WWWCSSSSSSCWWW..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS"
       ]
     },
     "97133": {
@@ -4490,69 +4426,6 @@
   },
   "days": [
     {
-      "date": "2026-09-17",
-      "movies": [
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=97010&a=0000000001&l=5119&m=resident-evil-2026&ss=False",
-              "seats": [
-                "....................",
-                ".?AAAAAAAAAA?AAAAA..",
-                ".AAAAAAAAAAAAAAAAA..",
-                "....................",
-                "....AAAAAAOAAAAAAA..",
-                "....AOAAAAAAAAOOAA..",
-                "....OAAAAOOAAAAAAA..",
-                "....AAOOAOOAAOOAAA..",
-                "....OOOOOOOOOAAOOO..",
-                "....OOOOOOOAAOOAAA..",
-                "....OOOAAOOAAOAAOO..",
-                "..OOOOAOOAAOAAAOOAA."
-              ],
-              "layoutKey": "97010"
-            }
-          ]
-        },
-        {
-          "title": "Cars 20th Anniversary",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62034_320_470.jpg",
-          "runtimeMinutes": 117,
-          "sessions": [
-            {
-              "time": "19:15",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=97114&a=0000000001&l=5119&m=cars-20th-anniversary&ss=False",
-              "seats": [
-                "...................",
-                ".AAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAA.",
-                "...................",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAA?AAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "97114"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-18",
       "movies": [
         {
@@ -4971,7 +4844,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAOOAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAOOAAAAAAAAAA.."
