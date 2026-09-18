@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T22:27:14.772Z",
+  "updatedAt": "2026-09-18T22:59:25.259Z",
   "theatre": {
     "id": 3152,
     "name": "Cineplex Cinemas East Hills"
@@ -1299,36 +1299,6 @@
         "..SSSSSSSSS....",
         "..SSSSSSSSSSS..",
         ".SSSSSSSSSSSSSS"
-      ]
-    },
-    "59255": {
-      "totalRows": 13,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null,
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "................",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSS...",
-        "................",
-        "...WWCSSSSS.....",
-        ".....SSSSSSSS...",
-        "................"
       ]
     },
     "59256": {
@@ -3366,13 +3336,13 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "............................",
                 "...AA.AAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAOAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAOOOOAAAAAAAAAA..",
-                "..OOAAAAAAAAOOOOAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOAAAOAAAAAAAAAAO..",
-                "..OOA?.AAAAOO?.AAAAAAA.AAA.."
+                "..AAAAAOOAAAOOOOAAAAAAAAAA..",
+                "..OOAAAAAAOOOOOOAAAAAAAAAA..",
+                "..AAAAAAAAOOOAOOAAAAAOAAAA..",
+                "..AAAAOOAAOAAAOAAAOOAAAAAO..",
+                "..OOA?.AOOAOO?.AAAAAAA.AAA.."
               ],
               "layoutKey": "58901"
             },
@@ -3388,13 +3358,13 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "............................",
                 "...AA.AAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAOAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAOOOOAAAAAAAAAA..",
-                "..OOAAAAAAAAOOOOAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOAAAOAAAAAAAAAAO..",
-                "..OOA?.AAAAOO?.AAAAAAA.AAA.."
+                "..AAAAAOOAAAOOOOAAAAAAAAAA..",
+                "..OOAAAAAAOOOOOOAAAAAAAAAA..",
+                "..AAAAAAAAOOOAOOAAAAAOAAAA..",
+                "..AAAAOOAAOAAAOAAAOOAAAAAO..",
+                "..OOA?.AOOAOO?.AAAAAAA.AAA.."
               ],
               "layoutKey": "58901"
             },
@@ -3414,7 +3384,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOOAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
-                ".AAOOAAAAOOAAOOAAOOAAAAAOO"
+                ".AAOOAAAAOOAAOOAAAAAAAAAOO"
               ],
               "layoutKey": "59241"
             },
@@ -3435,7 +3405,7 @@
                 "..AAAAAAAAAAOOOAAAAAAAAAA...",
                 "..AAAAAAAOAAOOOOAAAAAAAAAO..",
                 "..AAAAOOAAOOOOOOOOOOAAAAAA..",
-                "..AAOAOOOOOOOOOOAAOOOOAAAA..",
+                "..AAOAOOOOOOOOOOOOOOOOAAAA..",
                 "..AAAOOOOOOAOOOOOOOOOOOAOO..",
                 "..AOO?.AAOOOO?.OOOOAAA.AAO.."
               ],
@@ -3457,7 +3427,7 @@
                 "..AAAAAAAAAAOOOAAAAAAAAAA...",
                 "..AAAAAAAOAAOOOOAAAAAAAAAO..",
                 "..AAAAOOAAOOOOOOOOOOAAAAAA..",
-                "..AAOAOOOOOOOOOOAAOOOOAAAA..",
+                "..AAOAOOOOOOOOOOOOOOOOAAAA..",
                 "..AAAOOOOOOAOOOOOOOOOOOAOO..",
                 "..AOO?.AAOOOO?.OOOOAAA.AAO.."
               ],
@@ -3500,7 +3470,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAOOAAOOAAOOAAAAAAA..",
                 "..AAAAAOOOOAOOOOOAAOOAAAAA..",
-                "..AAAAAAAOOOOOOOOOOAAAAAAA..",
+                "..AAAOOAAOOOOOOOOOOAAAAAAA..",
                 "..AAAAAAAAAAOOOAOOOOOOAAAA..",
                 "..AAA?.OOAAOO?.OOAAAAA.AAA.."
               ],
@@ -3522,7 +3492,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAOOAAOOAAOOAAAAAAA..",
                 "..AAAAAOOOOAOOOOOAAOOAAAAA..",
-                "..AAAAAAAOOOOOOOOOOAAAAAAA..",
+                "..AAAOOAAOOOOOOOOOOAAAAAAA..",
                 "..AAAAAAAAAAOOOAOOOOOOAAAA..",
                 "..AAA?.OOAAOO?.OOAAAAA.AAA.."
               ],
@@ -3564,7 +3534,7 @@
                 "..AAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA..",
+                "..AAOOAAAAAAAAAA..",
                 ".AAAAAAAOOAAAAAAAA"
               ],
               "layoutKey": "59252"
@@ -3662,27 +3632,6 @@
           "runtimeMinutes": 81,
           "sessions": [
             {
-              "time": "16:30",
-              "formats": [
-                "Clubhouse"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59255&a=0000000001&l=3152&m=shaun-the-sheep-the-beast-of-mossy-bottom&ss=False",
-              "seats": [
-                "................",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..OOAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAA...",
-                "................",
-                "...AAAAOAAA.....",
-                ".....AAAAAAAA...",
-                "................"
-              ],
-              "layoutKey": "59255"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "Clubhouse"
@@ -3750,7 +3699,7 @@
                 ".....AAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAOOAAAAAA..",
-                "..AAOOAAAAAAAAAAA..",
+                "..AAOOAAOOAAAAAOO..",
                 "AAAAAAAAOOAAAAAAAA."
               ],
               "layoutKey": "59248"
@@ -3798,10 +3747,10 @@
                 "............................",
                 "...AA.AAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAOOAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAAAAAAAAAA..",
+                "..AAOAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOOAAAAAAAAAAA..",
                 "..AAA?.AAAAAA?.OOAAAAA.AAA.."
               ],
@@ -3820,10 +3769,10 @@
                 "............................",
                 "...AA.AAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAOOAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAAAAAAAAAA..",
+                "..AAOAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOOAAAAAAAAAAA..",
                 "..AAA?.AAAAAA?.OOAAAAA.AAA.."
               ],
@@ -3841,7 +3790,7 @@
                 ".....AAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -4308,7 +4257,7 @@
                 "..AAAAAAAAAAA...",
                 "................",
                 "...AAAAAAAA.....",
-                ".....AAAAAAAA...",
+                ".....AAOOOAAA...",
                 "................"
               ],
               "layoutKey": "59281"
@@ -4391,7 +4340,7 @@
                 ".....AAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
+                "..OOAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "59268"

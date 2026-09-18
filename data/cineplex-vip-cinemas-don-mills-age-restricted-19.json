@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T22:28:33.684Z",
+  "updatedAt": "2026-09-18T23:00:53.233Z",
   "theatre": {
     "id": 7139,
     "name": "Cineplex VIP Cinemas Don Mills (age restricted 19+)"
@@ -451,38 +451,6 @@
         "SSSSSSSSSS.SS",
         "SSSSSSSSSS.SS",
         "SSSSSSSSSS.SS"
-      ]
-    },
-    "63457": {
-      "totalRows": 12,
-      "totalColumns": 13,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "....SS.SS.SS.",
-        ".............",
-        "...CWWCSSS.WC",
-        "...SSSSSSSSSS",
-        "...SSSSSSSSSS",
-        "...SSSSSSSSSS",
-        "...SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SSSSSSSSSS"
       ]
     },
     "63459": {
@@ -1769,6 +1737,38 @@
         "SSSSSSSSSS.SS"
       ]
     },
+    "63507": {
+      "totalRows": 12,
+      "totalColumns": 13,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        "....SS.SS.SS.",
+        ".............",
+        "...CWWCSSS.WC",
+        "...SSSSSSSSSS",
+        "...SSSSSSSSSS",
+        "...SSSSSSSSSS",
+        "...SSSSSSSSSS",
+        "SS.SSSSSSSSSS",
+        "SS.SSSSSSSSSS",
+        "SS.SSSSSSSSSS",
+        "SS.SSSSSSSSSS",
+        "SS.SSSSSSSSSS"
+      ]
+    },
     "63508": {
       "totalRows": 12,
       "totalColumns": 13,
@@ -1865,29 +1865,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "18:30",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63457&a=0000000001&l=7139&m=practical-magic-2&ss=False",
-              "seats": [
-                "....AA.AA.AA.",
-                ".............",
-                "...AAAAAAA.AA",
-                "...AAAAAAAAAA",
-                "...AAAAAAAAAA",
-                "...AAAAOOAAAA",
-                "...AA?AOOAAAA",
-                "AO.OOOOOOAAOA",
-                "AA.AAOOOAAOOO",
-                "AO.AOOOOAOOAA",
-                "AA.AAAAAAAAAA",
-                "AA.AAOOAOOOAA"
-              ],
-              "layoutKey": "63457"
-            },
-            {
               "time": "21:45",
               "formats": [
                 "VIP 19+",
@@ -1931,7 +1908,7 @@
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
                 "AAOOOOOOOOAA",
-                "AAOO?AOOAAAA",
+                "AAOO?AOOAAAO",
                 "............",
                 "..OOOOAAAA..",
                 "OOAAOOOOOOOO"
@@ -1955,12 +1932,12 @@
               "seats": [
                 "AAAAAAAAA?AA",
                 "AAAAAAAAAAAA",
-                "AAAAOOOOOOAA",
+                "OOAAOOOOOOAA",
                 "OOOOOOOAOOAO",
                 "OOOOOOOOOOOO",
                 "............",
                 "..AAAOOOOO..",
-                "OOA?OOOOOOA.",
+                "OOO?OOOOOOA.",
                 "..........OO"
               ],
               "layoutKey": "63459"
@@ -2095,7 +2072,7 @@
                 "AAAAAAAAAA.AA",
                 "AAAAAAAAAA.OO",
                 "AAAAAAAAAA.AA",
-                "AAAAAOAAAA.AA"
+                "AAAAAOAAAA.OO"
               ],
               "layoutKey": "63267"
             }
@@ -2123,7 +2100,7 @@
                 "AAAAAAAAAA...",
                 "AAAAAOAAAA.AA",
                 "AAAAAAAAOO.AA",
-                "AAAAAAAAAA.AA",
+                "AAAAOOAAAA.AA",
                 "AAAAAAAAAA.AA",
                 "AAAAAAAAAA.AA"
               ],
@@ -2267,7 +2244,7 @@
                 "AAAAAAAAAAAA",
                 "............",
                 "..AAAAAAAA..",
-                "OOA?AAAAOOO.",
+                "OOA?OAAAOOO.",
                 "..........OA"
               ],
               "layoutKey": "63466"
@@ -2661,7 +2638,7 @@
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
-                "AAAAAAAAAAAA",
+                "AAAAAAOOAAAA",
                 "............",
                 "..AAAAOOAA..",
                 "AAA?OOAAAAA.",
@@ -3333,7 +3310,22 @@
                 "VIP 19+",
                 "Laser Projection"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63507&a=0000000001&l=7139&m=practical-magic-2&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63507&a=0000000001&l=7139&m=practical-magic-2&ss=False",
+              "seats": [
+                "....AA.AA.AA.",
+                ".............",
+                "...AAAAAAA.AA",
+                "...AAAAAAAAAA",
+                "...AAAAAAAAAA",
+                "...AAAAAAAAAA",
+                "...AA?AAAAAAA",
+                "AA.AAAAAAAAAA",
+                "AA.AAAAAAAAAA",
+                "AA.AAAAAAAAAA",
+                "AA.AAAAAAAAAA",
+                "AA.AAAAAAAAAA"
+              ],
+              "layoutKey": "63507"
             }
           ]
         },
