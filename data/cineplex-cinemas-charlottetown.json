@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T00:54:33.825Z",
+  "updatedAt": "2026-09-18T03:31:16.269Z",
   "theatre": {
     "id": 6161,
     "name": "Cineplex Cinemas Charlottetown"
@@ -1203,64 +1203,6 @@
         "...DD.DDDD.DDDD.D...",
         "...DD.DDDD.DDDD.D...",
         "...DD.DDDD.DDDD.D..."
-      ]
-    },
-    "121003": {
-      "totalRows": 8,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "................",
-        "SSSSSSS..SSSSSSS",
-        "SSSSSSS..SSSSSSS",
-        "SSSSSSS..SSSSSSS",
-        "SSSSSSS..SSSSSSS",
-        "SSSSSSS..SSSSSSS",
-        "SSCW............",
-        "................"
-      ]
-    },
-    "121004": {
-      "totalRows": 13,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "................",
-        ".SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSS.",
-        "................",
-        "..SSSSSSSSCW.W..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS.."
       ]
     },
     "121010": {
@@ -5542,66 +5484,6 @@
   },
   "days": [
     {
-      "date": "2026-09-17",
-      "movies": [
-        {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
-            {
-              "time": "21:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=121003&a=0000000001&l=6161&m=the-uprising&ss=False",
-              "seats": [
-                "................",
-                "AAAAAAA..AAAAAAA",
-                "AAAAAAA..AAAAAAA",
-                "AAAAAOO..OAAAAAA",
-                "AAAAAAA..AAAOOAA",
-                "AAAAAAA..AAAAAAA",
-                "AAAA............",
-                "................"
-              ],
-              "layoutKey": "121003"
-            }
-          ]
-        },
-        {
-          "title": "Fall 2: Deadpoint",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "21:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=121004&a=0000000001&l=6161&m=fall-2-deadpoint&ss=False",
-              "seats": [
-                "................",
-                ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
-                "................",
-                "..AAAAAAAAAA.A..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAOOAAAAA..",
-                "..AAAA??AAAAOO.."
-              ],
-              "layoutKey": "121004"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-18",
       "movies": [
         {
@@ -5622,7 +5504,7 @@
                 ".AAAAAAAAAAAAAAAAAA.",
                 "....................",
                 "....AAAAAOOAAAAA....",
-                "...OOOAAAAAAAAAOO...",
+                "...OOOAAOOOOAAAOO...",
                 "...AAAAAAOOAAAAAA...",
                 "...AAAAAOOOOAAAAA...",
                 "...OOAOOOOOOOOOOO...",
@@ -5647,7 +5529,7 @@
                 ".AAAAAAAAAAAAAAAAAA.",
                 "....................",
                 "....AAAAAOOAAAAA....",
-                "...OOOAAAAAAAAAOO...",
+                "...OOOAAOOOOAAAOO...",
                 "...AAAAAAOOAAAAAA...",
                 "...AAAAAOOOOAAAAA...",
                 "...OOAOOOOOOOOOOO...",
@@ -5676,7 +5558,7 @@
                 "..AAAAA..AAAAAA",
                 "..AAAAA..AAAAAA",
                 "..AAAAA..AAAAAA",
-                "..AAAOO..AAAAAA",
+                "..AAAOO..OOAAAA",
                 "..AAAAA..AAOOAA",
                 "..AAAAAOOAAAAAA"
               ],
@@ -5757,7 +5639,7 @@
                 "..AOOOO..OOOAAA",
                 "..AAAOO..OOAOOO",
                 "..OOOOO..OOOAAA",
-                "..AAAAA..AAAAAA",
+                "..AAAOO..AAAAAA",
                 "..AAAAAAAAAAAAA"
               ],
               "layoutKey": "121065"
@@ -5968,7 +5850,7 @@
                 "..AAAAA..AAAAAA",
                 "..AAAAA..OOOOAA",
                 "..AAAAA..AAAAAA",
-                "..AAAOO..AAAAAA",
+                "..AAAAA..AAAAAA",
                 "..AAAAAAAAAAAAA"
               ],
               "layoutKey": "121068"
@@ -6064,7 +5946,7 @@
                 ".AAAAAAAAAAAAAAAAAA.",
                 "....................",
                 "....AAAAAOOAAAAA....",
-                "...AAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAOO...",
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAO...",
                 "...AAAAAAAAAAAAAA...",
@@ -6089,7 +5971,7 @@
                 ".AAAAAAAAAAAAAAAAAA.",
                 "....................",
                 "....AAAAAOOAAAAA....",
-                "...AAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAOO...",
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAO...",
                 "...AAAAAAAAAAAAAA...",
@@ -6192,7 +6074,7 @@
                 "...AAAAOOOOOAAAAA...",
                 "...AAAAAAAAAAAAAA...",
                 "...OAAAAAOOAAAAAA...",
-                "...AAAAAOOOOOAAAA...",
+                "...OAAAAOOOOOAAAA...",
                 "...OO.OOOO.OAAA.A...",
                 "...AA.AAAA.AAAA.A...",
                 "...OO.OOOA.AAAA.A..."
@@ -6217,7 +6099,7 @@
                 "...AAAAOOOOOAAAAA...",
                 "...AAAAAAAAAAAAAA...",
                 "...OAAAAAOOAAAAAA...",
-                "...AAAAAOOOOOAAAA...",
+                "...OAAAAOOOOOAAAA...",
                 "...OO.OOOO.OAAA.A...",
                 "...AA.AAAA.AAAA.A...",
                 "...OO.OOOA.AAAA.A..."
