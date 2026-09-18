@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T07:01:50.561Z",
+  "updatedAt": "2026-09-18T09:33:37.337Z",
   "theatre": {
     "id": 1412,
     "name": "Cineplex Cinemas Coquitlam and VIP"
@@ -16073,6 +16073,40 @@
         "SSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
+    "573080": {
+      "totalRows": 13,
+      "totalColumns": 24,
+      "rowLabels": [
+        null,
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "........................",
+        "..SSSSSSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSSSSSS...",
+        "........................",
+        "...........WCSSSSSSSCW..",
+        "......SSSSSSSSSSSSSSSS..",
+        "......SSSSSSSSSSSSSSSS..",
+        "......SSSSSSSSSSSSSSSS..",
+        "......SSSSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
     "573081": {
       "totalRows": 13,
       "totalColumns": 24,
@@ -24540,6 +24574,40 @@
         "SSSS..SSSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSSSSSS"
       ]
+    },
+    "573381": {
+      "totalRows": 13,
+      "totalColumns": 24,
+      "rowLabels": [
+        null,
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "........................",
+        "..SSSSSSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSSSSSS...",
+        "........................",
+        "...........WCSSSSSSSCW..",
+        "......SSSSSSSSSSSSSSSS..",
+        "......SSSSSSSSSSSSSSSS..",
+        "......SSSSSSSSSSSSSSSS..",
+        "......SSSSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSSSS..",
+        "SSSS..SSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
     }
   },
   "days": [
@@ -25109,7 +25177,7 @@
                 ".AAAAAAAAAAAA.....",
                 ".AAAAAAA?AAAA.....",
                 ".AAAAAAA?AAAA.....",
-                ".AAAAAAOOAAAA.....",
+                ".OOAAAAOOAAAA.....",
                 ".AAAAOOOOOOAA..AA.",
                 "AAAAAAAAOOAAAAAAAA"
               ],
@@ -27486,7 +27554,7 @@
                 ".....AAAAAAAAAAAAAA.....",
                 "AAA..AAAAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAAAA..AAA",
-                "AAAAAAAAAAAAOOAAAAAAAAAA"
+                "AAAAAAAAAAAAOOOAAAAAAAAA"
               ],
               "layoutKey": "573024"
             }
@@ -27975,7 +28043,7 @@
                 "..AAAAAAA?AAAAAA......",
                 "..AAAAAOOAAAAAAA......",
                 "..AAAAAAAAAAAAAA......",
-                "..AAAAAAAAAAAAOO..AAAA",
+                "..AAAOOAAAAAAAOO..AAAA",
                 "AAAAAAAAAAAAAAAAAAAAOO"
               ],
               "layoutKey": "573009"
@@ -29024,10 +29092,63 @@
           ]
         },
         {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "15:50",
+              "formats": [
+                "Early Access"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=573381&a=0000000001&l=1412&m=forgotten-island&ss=False",
+              "seats": [
+                "........................",
+                "..AA?A?A?AAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAAAAAA...",
+                "........................",
+                "...........AAAAAAAAAAA..",
+                "......AAAAAA?AAAAAAA?A..",
+                "......?AAAAAAAAAA?AAAA..",
+                "......AAAAAAA?AAAAAAAA..",
+                "......?AAAAAAAAAAAAAAA..",
+                "AAAA..AA?AAAA?AAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "573381"
+            }
+          ]
+        },
+        {
           "title": "The Uprising",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
           "runtimeMinutes": 128,
           "sessions": [
+            {
+              "time": "12:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=573080&a=0000000001&l=1412&m=the-uprising&ss=False",
+              "seats": [
+                "........................",
+                "..AA?A?A?AAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAAAAAA...",
+                "........................",
+                "...........AAAAAAAAAAA..",
+                "......AAAAAA?AAAAAAA?A..",
+                "......?AAAAAAAAAA?AAAA..",
+                "......AAAAAAA?AAAAAAAA..",
+                "......?AAAAAAAAAAAAAAA..",
+                "AAAA..AA?AAAA?AAAAAAAA..",
+                "AAAA..AAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "573080"
+            },
             {
               "time": "18:45",
               "formats": [
@@ -31357,7 +31478,7 @@
                 "???AAAA...AAAAOOOOOOAAA..AAAAAAA",
                 "AAAAAAA...AAAAOOOOOAAAA..OOAAAAA",
                 "AAAAAAA...AAOOOOOOOOAAA..AAAAAAA",
-                "AAAAAAA...AAAAAOOOOAAAA..AAAAAAA",
+                "AAAAAAA...AOOOOOOOOAAAA..AAAAAAA",
                 "AAAAAAA...AAAOOOOOAAAAA..AAAAAAA",
                 "AAAAAAAAAAOOOAAOOOOOAAAAAAAAAAAA"
               ],
@@ -35485,7 +35606,7 @@
                 "....AAA...OOOOOOOOOOOOA..AAAAAAA",
                 "....AAA...OOOOOOOOOOOOO..AAAAAAA",
                 "???AAAA...OOOOOOOOOOOOO..AAAAAAA",
-                "AAAAAOO...AOOOOOOOOOOOO..OOOAAAA",
+                "AAAAAOO...OOOOOOOOOOOOO..OOOAAAA",
                 "AAAAAOO...OOOOOOOOOOOOO..OOAAAAA",
                 "AAAAAOO...OOOOOOOOOOOOO..OOAAAAA",
                 "AAOOOOO...OOOOOOOOOOOOO..OOAAAOO",
