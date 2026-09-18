@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T03:32:08.487Z",
+  "updatedAt": "2026-09-18T05:39:05.087Z",
   "theatre": {
     "id": 7241,
     "name": "Cineplex Odeon Clarington Place Cinemas"
@@ -678,6 +678,34 @@
       ]
     },
     "282020": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "....SSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSCW..",
+        "...WCSSSSSSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "...WCSSSSSSCWW..",
+        "................"
+      ]
+    },
+    "282021": {
       "totalRows": 10,
       "totalColumns": 16,
       "rowLabels": [
@@ -8720,6 +8748,38 @@
                 "................"
               ],
               "layoutKey": "282481"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "movies": [
+        {
+          "title": "Verity",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38401_320_470.jpg",
+          "runtimeMinutes": 115,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282021&a=0000000001&l=7241&m=verity&ss=False",
+              "seats": [
+                "....AAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAA?AAAA..",
+                "..AAAAAAAAAAAA..",
+                "..A?AAAAAAAAAA..",
+                "...AAOOO?AAAAA..",
+                "................"
+              ],
+              "layoutKey": "282021"
             }
           ]
         }
