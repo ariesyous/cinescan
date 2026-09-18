@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T23:57:10.792Z",
+  "updatedAt": "2026-09-18T00:55:10.203Z",
   "theatre": {
     "id": 5140,
     "name": "Cineplex Cinemas Truro"
@@ -3171,38 +3171,6 @@
         ".SSSSSSSSSSSSSSSSS."
       ]
     },
-    "99940": {
-      "totalRows": 12,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "...................",
-        ".SSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSS.",
-        "...................",
-        "....WCSSSSSSCW.....",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSSS."
-      ]
-    },
     "99941": {
       "totalRows": 12,
       "totalColumns": 19,
@@ -4646,6 +4614,38 @@
         ".SSSSSSSSSSSSSSSSS.",
         "..................."
       ]
+    },
+    "99984": {
+      "totalRows": 12,
+      "totalColumns": 19,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "...................",
+        ".SSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSS.",
+        "...................",
+        "....WCSSSSSSCW.....",
+        "..SSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSSS."
+      ]
     }
   },
   "days": [
@@ -6084,6 +6084,35 @@
           ]
         },
         {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "15:05",
+              "formats": [
+                "Early Access"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=99984&a=0000000001&l=5140&m=forgotten-island&ss=False",
+              "seats": [
+                "...................",
+                ".AAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAA.",
+                "...................",
+                "....AAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAAA."
+              ],
+              "layoutKey": "99984"
+            }
+          ]
+        },
+        {
           "title": "The Uprising",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
           "runtimeMinutes": 128,
@@ -6110,28 +6139,6 @@
                 "..................."
               ],
               "layoutKey": "99945"
-            },
-            {
-              "time": "15:05",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=99940&a=0000000001&l=5140&m=the-uprising&ss=False",
-              "seats": [
-                "...................",
-                ".AAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAA.",
-                "...................",
-                "....AAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "99940"
             },
             {
               "time": "18:40",
