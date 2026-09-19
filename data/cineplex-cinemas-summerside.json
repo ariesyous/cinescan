@@ -1,48 +1,10 @@
 {
-  "updatedAt": "2026-09-19T00:49:01.038Z",
+  "updatedAt": "2026-09-19T03:28:37.057Z",
   "theatre": {
     "id": 6160,
     "name": "Cineplex Cinemas Summerside"
   },
   "auditoriums": {
-    "64184": {
-      "totalRows": 15,
-      "totalColumns": 24,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        "DD",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "........................",
-        ".SSSSSSSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSSSSSSS.",
-        "........................",
-        "......WCSSSSSSSSSSSCW...",
-        "..SSSSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSSS...",
-        "........................"
-      ]
-    },
     "64185": {
       "totalRows": 15,
       "totalColumns": 24,
@@ -763,40 +725,6 @@
         "..SSSSSSSSSSSSSSSSSSS...",
         "..SSSSSSSSSSSSSSSSSSS...",
         "........................"
-      ]
-    },
-    "64388": {
-      "totalRows": 13,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "...................",
-        ".SSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSS.",
-        "...................",
-        ".....WCSSSSSSCW....",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSSS.",
-        "..................."
       ]
     },
     "64400": {
@@ -2544,73 +2472,6 @@
   },
   "days": [
     {
-      "date": "2026-09-18",
-      "movies": [
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "21:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64184&a=0000000001&l=6160&m=resident-evil-2026&ss=False",
-              "seats": [
-                "........................",
-                ".AAAAAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAAAAA.",
-                "........................",
-                "......AAAAAAAAAAAAAAA...",
-                "..OOAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAOAAAAAAAA....",
-                "...AAAAOOAAAAOOAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA...",
-                "..AAAAOOAAOOOOAAAAOOO...",
-                "........................"
-              ],
-              "layoutKey": "64184"
-            }
-          ]
-        },
-        {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "21:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64388&a=0000000001&l=6160&m=runner&ss=False",
-              "seats": [
-                "...................",
-                ".AAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAA.",
-                "...................",
-                ".....AAAAAAAAAA....",
-                "..AA???AAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAOOAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                ".AAAAAAAOOAAAAAAAA.",
-                "..................."
-              ],
-              "layoutKey": "64388"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-19",
       "movies": [
         {
@@ -2661,7 +2522,7 @@
                 "...AAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAOOAAAAAAAA...",
                 "........................"
               ],
               "layoutKey": "64188"
