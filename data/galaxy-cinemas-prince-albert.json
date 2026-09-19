@@ -1,50 +1,10 @@
 {
-  "updatedAt": "2026-09-19T19:57:04.805Z",
+  "updatedAt": "2026-09-19T21:25:03.262Z",
   "theatre": {
     "id": 4112,
     "name": "Galaxy Cinemas Prince Albert"
   },
   "auditoriums": {
-    "154630": {
-      "totalRows": 16,
-      "totalColumns": 26,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K"
-      ],
-      "seatTypes": [
-        "..........................",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSSSSS..",
-        "..........................",
-        "..SSSSSCWWWWCSSSSSCCWW....",
-        "..SSSSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSSSS...SS",
-        "...SSSSSSSSSSSSSSSSSS...SS",
-        "..SSSSSSSSSSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "154631": {
       "totalRows": 16,
       "totalColumns": 26,
@@ -811,30 +771,6 @@
         "SS....SSSSSSSSSSSSSSS..",
         "SS...SSSSSSSSSSSSSSSSS.",
         "SSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "154969": {
-      "totalRows": 8,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        ".....................",
-        "SSSSSSSSSSSSSSSSSSSS.",
-        ".....................",
-        "..WWCSSSSSSCWWWWCSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS"
       ]
     },
     "154970": {
@@ -2524,32 +2460,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "14:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=154630&a=0000000001&l=4112&m=resident-evil-2026&ss=False",
-              "seats": [
-                "..........................",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..........................",
-                "..?AAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAA?AAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAAAA...AA",
-                "...AAAAAAAAAAAAAAAAAA...AA",
-                "..AAAAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "154630"
-            },
-            {
               "time": "16:00",
               "formats": [
                 "Regular"
@@ -2613,7 +2523,7 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAOOAAAAAAA..",
-                "AA..AAAAOOAAAAAAAAAA..",
+                "AA..AAAAOOAAAAOOAAAA..",
                 "AA..AAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -2685,7 +2595,7 @@
                 "..AAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAOOOAA...AA",
+                "...AAAAAAAAAAAAAAAAAA...AA",
                 "...AAAAAAAAAAAAAAAAAA...AA",
                 "..AAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAA..AA",
@@ -2715,11 +2625,11 @@
                 ".....AAAAAAAAAAAAAAAAA.",
                 ".....AAAAAAOOAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAAA.",
-                "AA....AAAAAAAAAAAAAAA..",
+                ".....OOAAAAAAAAAAAAAAA.",
+                "AA....AAAAAAOAAAAAAAA..",
                 "AA....AAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAOOAAAAAAAAA"
               ],
               "layoutKey": "154983"
             },
@@ -2789,11 +2699,11 @@
                 ".....AAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAA..",
-                "......AAAAAAAAAAAAAA...",
-                "AA....AAAAAAAAAAAAAA...",
+                ".....AAAAAAOOOAAAAAAA..",
+                "......AAAAAAAAAAOAAA...",
+                "AA....AAAAAOOOAAAAAA...",
                 "AA...AAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAOAAOOOAAOOOAAAAAA"
               ],
               "layoutKey": "154979"
             },
@@ -2844,24 +2754,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61021_320_470.jpg",
           "runtimeMinutes": 81,
           "sessions": [
-            {
-              "time": "14:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=154969&a=0000000001&l=4112&m=shaun-the-sheep-the-beast-of-mossy-bottom&ss=False",
-              "seats": [
-                ".....................",
-                "AAAAAAAAAAAAAAAAAAAA.",
-                ".....................",
-                "..AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "154969"
-            },
             {
               "time": "16:45",
               "formats": [
@@ -2942,10 +2834,10 @@
                 "......................",
                 "AAAAAAAAAAAAAAAAA.....",
                 "AAAAAAAAAAAAAAAAA.....",
+                "OOAAAAAAAAAAAAAAA.....",
+                "OOOAAAAAAAAAAAAAA.....",
                 "AAAAAAAAAAAAAAAAA.....",
-                "AAAAAAAAAAAAAAAAA.....",
-                "AAAAAAAAAAAAAAAAA.....",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAOOOOOAAAAAA"
               ],
               "layoutKey": "154987"
             }
@@ -3145,7 +3037,7 @@
                 "..AAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAA...AA",
-                "...AAAAAAAAAAAAAAAAAA...AA",
+                "...AAAAAAAAAOOAAAAAAA...AA",
                 "..AAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA"

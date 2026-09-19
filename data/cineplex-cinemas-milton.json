@@ -1,45 +1,11 @@
 {
-  "updatedAt": "2026-09-19T19:56:07.168Z",
+  "updatedAt": "2026-09-19T21:24:05.117Z",
   "theatre": {
     "id": 7285,
     "name": "Cineplex Cinemas Milton"
   },
   "auditoriums": {
     "190055": {
-      "totalRows": 13,
-      "totalColumns": 31,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
-        "...............................",
-        ".CW.WCSSSSCW..WCSSSSSSCW.WC....",
-        ".SSSSSSSSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSSSSSSSSSS..SS",
-        ".SSSSSSSSSSSSSSSSSSSSSSSSSS..SS",
-        ".DD.DDD.DDDD.DDD.DDD.DDDD.D..SS",
-        ".DD.DDD.DDDD.DDD.DDD.DDDD.D..SS",
-        ".SSSSSSSSSSSSSSSSSSSSSSSSSS..SS"
-      ]
-    },
-    "190514": {
       "totalRows": 13,
       "totalColumns": 31,
       "rowLabels": [
@@ -1465,38 +1431,6 @@
         ".SSSSSSSSSSSSSSSSSSSSSSSSSS..SS"
       ]
     },
-    "190882": {
-      "totalRows": 12,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSSS..",
-        "....................",
-        "....SC.WCSSCW..WCS..",
-        "....SSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSS",
-        "...................."
-      ]
-    },
     "190883": {
       "totalRows": 12,
       "totalColumns": 20,
@@ -1559,36 +1493,6 @@
         "SS..SSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSS",
         "...................."
-      ]
-    },
-    "190886": {
-      "totalRows": 11,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "....................",
-        "SSSSSSSSSSSSSSSSS...",
-        "....................",
-        "..SCW.WCSSC..WCS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "190887": {
@@ -1917,36 +1821,6 @@
         "....SSSSSSSSSSSS..SS",
         "....SSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSS..SS"
-      ]
-    },
-    "190905": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "......................",
-        "..SSSSSSSSSSSSSSSSSSS.",
-        "......................",
-        "....SCWCSCWCCW...WCS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "190906": {
@@ -3958,77 +3832,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "16:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=190882&a=0000000001&l=7285&m=resident-evil-2026&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAAA..",
-                "....................",
-                "....AA.AAAAAA..AAA..",
-                "....AAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAA..",
-                "....AAAAAOOAAAAAAA..",
-                "AA..AAAAOOOOAAAAAA..",
-                "OO..AAAAAOOAAAAAAA..",
-                "OOOAAAAAAAAAAAAAAAAA",
-                "...................."
-              ],
-              "layoutKey": "190882"
-            },
-            {
-              "time": "17:00",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=190514&a=0000000004&l=7285&m=resident-evil-2026&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "...............................",
-                ".AA.AAAAAAAA..AAAAAAAAAA.AA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAOOOOAAAAAAAAA....",
-                ".AAAAAAAAAAAOOAAAAAOOOOAAAA..AA",
-                ".AAAAAAAAAAAAAOOAAAAAAAAAAA..AA",
-                ".AA.AAA.AAAO.OAA.AAA.AAAA.A..AA",
-                ".AA.AAA.AAAA.AAA.OOA.AAAA.A..OO",
-                ".AAAAAAAAAAAAAAOAAAAAAAAAAA..OO"
-              ],
-              "layoutKey": "190514"
-            },
-            {
-              "time": "17:00",
-              "formats": [
-                "UltraAVX",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=190514&a=0000000001&l=7285&m=resident-evil-2026&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "...............................",
-                ".AA.AAAAAAAA..AAAAAAAAAA.AA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAOOOOAAAAAAAAA....",
-                ".AAAAAAAAAAAOOAAAAAOOOOAAAA..AA",
-                ".AAAAAAAAAAAAAOOAAAAAAAAAAA..AA",
-                ".AA.AAA.AAAO.OAA.AAA.AAAA.A..AA",
-                ".AA.AAA.AAAA.AAA.OOA.AAAA.A..OO",
-                ".AAAAAAAAAAAAAAOAAAAAAAAAAA..OO"
-              ],
-              "layoutKey": "190514"
-            },
-            {
               "time": "18:40",
               "formats": [
                 "Regular"
@@ -4045,7 +3848,7 @@
                 "....AAAOOOOOOAAAAA..",
                 "OO..AOOAOOOOOOOAAA..",
                 "OA..AAAAOOOOOOOAAA..",
-                "AAAAAAAAAOOAAOOAAAAA",
+                "AAAAAOOAAOOAAOOAAAAA",
                 "...................."
               ],
               "layoutKey": "190883"
@@ -4067,11 +3870,11 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAOOOAAAAAAAAAA....",
-                ".AAAAAAAAAAOOAOOAAAOOAAAAAA..AA",
-                ".AAAAAAAAAOOOOOOOOAAAAAAAAA..AA",
+                ".OOOAAAAAAAOOAOOAAAOOAAAAAA..OO",
+                ".AAAAAAAAAOOOOOOOAAAAAAAAAA..AA",
                 ".AA.OOA.AAAO.OOO.OAO.OOOA.A..AA",
-                ".AA.AAA.AAAA.OOA.AAO.OAAA.A..AA",
-                ".AAAAAOOAAAAOOOOAAAAAAAAAAA..AA"
+                ".AA.AAA.AAAA.OOA.AAO.OAAO.O..AA",
+                ".AAAAAOOAAAAOOOOAAOOAAAAAAA..AA"
               ],
               "layoutKey": "190515"
             },
@@ -4091,11 +3894,11 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAOOOAAAAAAAAAA....",
-                ".AAAAAAAAAAOOAOOAAAOOAAAAAA..AA",
-                ".AAAAAAAAAOOOOOOOOAAAAAAAAA..AA",
+                ".OOOAAAAAAAOOAOOAAAOOAAAAAA..OO",
+                ".AAAAAAAAAOOOOOOOAAAAAAAAAA..AA",
                 ".AA.OOA.AAAO.OOO.OAO.OOOA.A..AA",
-                ".AA.AAA.AAAA.OOA.AAO.OAAA.A..AA",
-                ".AAAAAOOAAAAOOOOAAAAAAAAAAA..AA"
+                ".AA.AAA.AAAA.OOA.AAO.OAAO.O..AA",
+                ".AAAAAOOAAAAOOOOAAOOAAAAAAA..AA"
               ],
               "layoutKey": "190515"
             },
@@ -4114,7 +3917,7 @@
                 "....AAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAA..",
                 "....AAAAAOOOAAAAOO..",
-                "AA..AAAAAAAOOAAAAA..",
+                "AA..AAAOOAAOOAAAAA..",
                 "AA..AAAAAOOAOOOOOO..",
                 "AAAAAAAAAOOAAOOAAAAA",
                 "...................."
@@ -4138,9 +3941,9 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAOOAAAAAAAAAAA....",
+                ".AAAAAAAAAAAAAAOOAAAAAAAAAA..OO",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA..OO",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA..OO",
-                ".AA.AAA.AAAA.OOO.OAA.AAAA.A..AA",
+                ".AA.AAA.AAAA.OOO.OOO.AAAA.A..AA",
                 ".AA.AAA.AAAA.AAA.AAA.AAAA.A..AA",
                 ".AAAAAAAAOOOOAAOOOOAAAAAAAA..AA"
               ],
@@ -4162,9 +3965,9 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAOOAAAAAAAAAAA....",
+                ".AAAAAAAAAAAAAAOOAAAAAAAAAA..OO",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA..OO",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA..OO",
-                ".AA.AAA.AAAA.OOO.OAA.AAAA.A..AA",
+                ".AA.AAA.AAAA.OOO.OOO.AAAA.A..AA",
                 ".AA.AAA.AAAA.AAA.AAA.AAAA.A..AA",
                 ".AAAAAAAAOOOOAAOOOOAAAAAAAA..AA"
               ],
@@ -4192,12 +3995,12 @@
                 "...AAAAAAAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAAAAAA....",
-                "...AAAAAAAOOOAAAAAAAAAAAAA....",
+                "...AAAOOAAOOOAAAAAAAAAAOOO....",
                 "...OOAAAOOAAAAOOAAOOAAAAAA....",
                 "...OOOAAAAAAAAOOAAAAAAAAOO....",
-                "...AAAAAAAAAAOOAAAAOOAAAAA..AA",
-                "...OOAAAAAAAAOOOOOAAAAAAAA..OO",
-                "AAAAAAAAAAAAAOOOOAAAAAAAAAA?OO"
+                "...AAAAAAAAAAOOAAAAOOAAAAA..OO",
+                "...OOAAAAAAAAOOOOOAAAAAOOO..OO",
+                "AAAAAAAAAAAAAOOOOAAAAAAAAOO?OO"
               ],
               "layoutKey": "190891"
             },
@@ -4243,15 +4046,15 @@
                 "...AAAAAAAAAAAAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA.",
                 "............................",
-                ".......AAAAAAAAAAAAAA..AAA..",
+                ".......AAAAAOOOAAAAAA..AAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....OOAAAAAAOOAAAAAAAAAAA..",
-                ".....AAAAAAAAAOOAAAAAAAAAA..",
+                ".....OOAAAAAAOOAAAAAOOAAAA..",
+                ".....AAAAAAAAAOOOOAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAOOOOO..",
                 ".AA..OOOOOOAAOOOOOAAAAAAAA..",
                 ".AA..OOOOOOOAAAAOOOAAAAAAA..",
-                "AAAAAAAAAAAAOOOOAAAAAAAAAAAA",
+                "AAAAAAAAAAAAOOOOAAAAOOOOAAAA",
                 "............................"
               ],
               "layoutKey": "190894"
@@ -4288,27 +4091,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "16:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=190905&a=0000000001&l=7285&m=the-odyssey&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAAA.",
-                "......................",
-                "....AAAAAAAAAA...AAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAOAAAAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "....OOAAOOAOOAAOOAAA..",
-                "AA..AAAAAAAOOAAAAAAA..",
-                "AA..AAAAAOOOAAAAAAAA..",
-                "AAAAAAAAAAAAAOOAAAAAAA"
-              ],
-              "layoutKey": "190905"
-            },
-            {
               "time": "20:00",
               "formats": [
                 "Regular"
@@ -4325,7 +4107,7 @@
                 "....AAAAAAAOOAAAAAAA..",
                 "AA..AAAAAOOOOOAAAAAA..",
                 "AA..AAAAAAOOAAOOAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAOOAAAAAAAAAAAA"
               ],
               "layoutKey": "190906"
             }
@@ -4336,27 +4118,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61021_320_470.jpg",
           "runtimeMinutes": 81,
           "sessions": [
-            {
-              "time": "16:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=190886&a=0000000001&l=7285&m=shaun-the-sheep-the-beast-of-mossy-bottom&ss=False",
-              "seats": [
-                "....................",
-                "AAAAAAAAAAAAAAAAA...",
-                "....................",
-                "..AAA.AAAAA..AAA....",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAOOO....",
-                "..AAOOAAOOAAAAAA..AA",
-                "..AAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "190886"
-            },
             {
               "time": "19:00",
               "formats": [
@@ -4372,7 +4133,7 @@
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAOOOOAAAA....",
-                "..AAAAAAAAAAAAAA..AA",
+                "..AAAAAAOOAAAAAA..AA",
                 "..AAAAAAAAAAAAAA..AA",
                 "OOOOAAAAAAAAAAAAAAAA"
               ],
@@ -4421,7 +4182,7 @@
                 "....AAAAAAAAAAAA....",
                 "....AAAAAOOAAAAA....",
                 "....AAAAAAAAAAAA....",
-                "....AAAAAAAAAAAA..AA",
+                "....AAAAAOOAAAAA..AA",
                 "....AAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAA..AA"
               ],
@@ -4449,9 +4210,9 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAOOAAOOOAAA..",
-                "....AOOOOOOAOOAAAAAA..",
+                "....AOOOOAAAOOAAAAAA..",
                 "AA..OOOAAAOOAAAAOOOO..",
-                "AA..AAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAOOAAAAAAAA..",
                 "AAAAAAAAOOOOOOOOAAAAAA"
               ],
               "layoutKey": "190898"
@@ -4473,7 +4234,7 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAOOAAAAAAAA..",
                 "AA..AAAAAAOOAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAA..",
+                "AA..AAAAOOAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "190899"
@@ -4502,7 +4263,7 @@
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAOOAAAAAAAAA"
               ],
               "layoutKey": "190888"
             }
@@ -4535,7 +4296,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAAOOOAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAOOAAAAAAAAAAA..AA",
                 ".AA.AAA.AAAA.AAA.AAA.AAAA.A..AA",
                 ".AA.AAA.AAAA.AAA.AAA.AAAA.A..AA",
@@ -4559,7 +4320,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAAOOOAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAOOAAAAAAAAAAA..AA",
                 ".AA.AAA.AAAA.AAA.AAA.AAAA.A..AA",
                 ".AA.AAA.AAAA.AAA.AAA.AAAA.A..AA",
@@ -5749,7 +5510,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAOOAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAOOAAAAAAAAAAA..OO",
-                ".AAAAAAAAAAAAOOOAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAOOOOAAAAAAAAAA..AA",
                 ".AA.AAA.AAAA.AAA.AAA.AAAA.A..AA",
                 ".AA.AAA.AAAA.AAA.AAA.AAAA.A..AA",
                 ".AAAAAAAAOOAAAOOAAAAAAAAAAA..AA"
@@ -5773,7 +5534,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAOOAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAOOAAAAAAAAAAA..OO",
-                ".AAAAAAAAAAAAOOOAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAOOOOAAAAAAAAAA..AA",
                 ".AA.AAA.AAAA.AAA.AAA.AAAA.A..AA",
                 ".AA.AAA.AAAA.AAA.AAA.AAAA.A..AA",
                 ".AAAAAAAAOOAAAOOAAAAAAAAAAA..AA"
@@ -6010,7 +5771,7 @@
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
+                "..AOOOOAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAA"

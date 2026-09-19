@@ -1,34 +1,10 @@
 {
-  "updatedAt": "2026-09-19T19:57:07.411Z",
+  "updatedAt": "2026-09-19T21:25:05.730Z",
   "theatre": {
     "id": 7268,
     "name": "Galaxy Cinemas Waterloo"
   },
   "auditoriums": {
-    "276539": {
-      "totalRows": 8,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "..................",
-        "..................",
-        "..SCW.SSSSS.WCS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSS.."
-      ]
-    },
     "276542": {
       "totalRows": 7,
       "totalColumns": 18,
@@ -231,34 +207,6 @@
         "..SSSSSSSSSSSS....",
         "..SSSSSSSSSSSS....",
         "SSSSSSSSSSSSSSSS.."
-      ]
-    },
-    "276551": {
-      "totalRows": 11,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "..SCW.WCSCWSSCW.WCS....",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..DDD.DDDDD.DDDDDD.DD.."
       ]
     },
     "276556": {
@@ -1259,32 +1207,6 @@
         "SSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "276618": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSSS..",
-        "....................",
-        "...CW..CWSSSSWC.WC..",
-        "...SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "276620": {
       "totalRows": 9,
       "totalColumns": 20,
@@ -1530,70 +1452,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "15:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276618&a=0000000001&l=7268&m=resident-evil-2026&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAAA..",
-                "....................",
-                "...AA..AAAAAAAA.AA..",
-                "...AAAAAAOOOAAAAAA..",
-                "...AAAAAAOOAAAAAAA..",
-                "...AAOOAAOAAAOAAAA..",
-                "...AAAAAAOOAAOAAAA..",
-                "AAAAAAOOAAOOAAAAAAOO"
-              ],
-              "layoutKey": "276618"
-            },
-            {
-              "time": "17:00",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276551&a=0000000004&l=7268&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..OOOAAOOAAOOAAAAAAAA..",
-                "..AAAAOOAAAOOAAAAAAAA..",
-                "..AAAAAAOAAOOAAAOOAAA..",
-                "..AAOOOAAAAOAAAAAAAAA..",
-                "..AAA.AAAAO.AAAAAA.AO.."
-              ],
-              "layoutKey": "276551"
-            },
-            {
-              "time": "17:00",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276551&a=0000000001&l=7268&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..OOOAAOOAAOOAAAAAAAA..",
-                "..AAAAOOAAAOOAAAAAAAA..",
-                "..AAAAAAOAAOOAAAOOAAA..",
-                "..AAOOOAAAAOAAAAAAAAA..",
-                "..AAA.AAAAO.AAAAAA.AO.."
-              ],
-              "layoutKey": "276551"
-            },
-            {
               "time": "18:10",
               "formats": [
                 "Recliner"
@@ -1604,11 +1462,11 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "....................",
                 "...AA..AAAAAAAA.AA..",
-                "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAAOOAAAAAA..",
-                "...OOAAAAOOAAAAAAA..",
-                "AAAAAAAAOOOAOOOOOAAA"
+                "...AAOOAAAAAAAAAAA..",
+                "...AAAAAAOOAAAAAAA..",
+                "...AAOOOOOOOAOOAAA..",
+                "...OOAAAAOOOOOAAAA..",
+                "AAAAAOAAOOOAOOOOOAAA"
               ],
               "layoutKey": "276616"
             },
@@ -1626,12 +1484,12 @@
                 ".......................",
                 "..AAA.AAAAAAAAA.AAA....",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAOAAAAAAAAAAAAAA..",
                 "..AAAAAAAOOOOAAAAAAAA..",
-                "..OOOOOAAAOOAAAOOAAAA..",
-                "..AOOOAOOAOOOOOOOOOAA..",
-                "..AAAAOOOOOOOOOOOAAOO..",
-                "..OOA.AOAAO.OOOAOO.OO.."
+                "..OOOOOOOOOOOOAOOAAAA..",
+                "..AAAOAOOAOOOOOOOOOAA..",
+                "..OOOOOOOOOOOOOOOAAOO..",
+                "..OOA.AOOOO.OOOAOO.OO.."
               ],
               "layoutKey": "276543"
             },
@@ -1648,12 +1506,12 @@
                 ".......................",
                 "..AAA.AAAAAAAAA.AAA....",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAOAAAAAAAAAAAAAA..",
                 "..AAAAAAAOOOOAAAAAAAA..",
-                "..OOOOOAAAOOAAAOOAAAA..",
-                "..AOOOAOOAOOOOOOOOOAA..",
-                "..AAAAOOOOOOOOOOOAAOO..",
-                "..OOA.AOAAO.OOOAOO.OO.."
+                "..OOOOOOOOOOOOAOOAAAA..",
+                "..AAAOAOOAOOOOOOOOOAA..",
+                "..OOOOOOOOOOOOOOOAAOO..",
+                "..OOA.AOOOO.OOOAOO.OO.."
               ],
               "layoutKey": "276543"
             },
@@ -1691,7 +1549,7 @@
                 "..AAA.AAAAAAAAA.AAA....",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAAA..",
                 "..AAAAAAAAOOOAAOOAAAA..",
                 "..AAAAAAAAOOOOOOAAAAA..",
@@ -1713,7 +1571,7 @@
                 "..AAA.AAAAAAAAA.AAA....",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAAA..",
                 "..AAAAAAAAOOOAAOOAAAA..",
                 "..AAAAAAAAOOOOOOAAAAA..",
@@ -1741,10 +1599,10 @@
                 "....AAA.AAAAA.AAA..",
                 "....AAAAAAAAAAAAA..",
                 "....OOAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAOOAAOOAAAOO..",
+                "....AAAAAOOAAAAAA..",
+                "....AAOOOOOOAAAOO..",
                 "....OOOAOOOOOAAAA..",
-                "OOOAAAAAAAAAAAAAAAA"
+                "OOOAAAAAAOOAAAAAAOO"
               ],
               "layoutKey": "276544"
             },
@@ -1783,7 +1641,7 @@
                 "..................",
                 "..AAAAAAAA.AAA....",
                 "..AAAAAAOOAAAA....",
-                "..AAAAOOOOAAAA....",
+                "..AAAAOOOOOOAA....",
                 "..AAOOAOOOOAOO....",
                 "AAAOOAAOOOOOOAAA.."
               ],
@@ -1804,7 +1662,7 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
+                "....AAAAOOAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAA"
               ],
@@ -1817,24 +1675,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
           "sessions": [
-            {
-              "time": "17:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276539&a=0000000001&l=7268&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "..................",
-                "..................",
-                "..AAA.AAAAA.AAA...",
-                "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAOOOO...",
-                "AAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "276539"
-            },
             {
               "time": "19:30",
               "formats": [
@@ -1849,7 +1689,7 @@
                 "..AAAAAAAAAAAAA...",
                 "..AAOOAAOOOOAAA...",
                 "..OOOAAOOOOOAAA...",
-                "AAAAAAAAAAAAAAAA.."
+                "AAAAAAAAOOAAAAAA.."
               ],
               "layoutKey": "276545"
             },
@@ -2028,9 +1868,9 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAAA..",
-                "..AAA.AAAAA.AAAAAA.AA.."
+                "..AAAAAAAAOOAAAAAAAAA..",
+                "..AAA.AAAAO.OAAAAA.AA.."
               ],
               "layoutKey": "276563"
             },
@@ -2050,9 +1890,9 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAAA..",
-                "..AAA.AAAAA.AAAAAA.AA.."
+                "..AAAAAAAAOOAAAAAAAAA..",
+                "..AAA.AAAAO.OAAAAA.AA.."
               ],
               "layoutKey": "276563"
             },

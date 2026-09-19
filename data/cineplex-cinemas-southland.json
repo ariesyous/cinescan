@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T19:56:22.767Z",
+  "updatedAt": "2026-09-19T21:24:21.651Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
@@ -62,34 +62,6 @@
       ]
     },
     "268149": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        null
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        ".....WCWWCSCWWCCW.....",
-        "......................"
-      ]
-    },
-    "268150": {
       "totalRows": 10,
       "totalColumns": 22,
       "rowLabels": [
@@ -1439,30 +1411,6 @@
         "..............."
       ]
     },
-    "268650": {
-      "totalRows": 8,
-      "totalColumns": 17,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "...WWCCSSSSSSSS..",
-        "................."
-      ]
-    },
     "268651": {
       "totalRows": 8,
       "totalColumns": 17,
@@ -1638,28 +1586,6 @@
       ]
     },
     "268661": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WWCCSSSSSSS..",
-        "..............."
-      ]
-    },
-    "268662": {
       "totalRows": 7,
       "totalColumns": 15,
       "rowLabels": [
@@ -4458,44 +4384,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "14:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268650&a=0000000001&l=4108&m=resident-evil-2026&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..??AAAAAAAAAAA..",
-                "..OOAAAAAAAAAAA..",
-                "..AAAAAOOAAAAOO..",
-                "..AAAOOAAAAAAA?..",
-                "...AAAAAA?AAAAA..",
-                "................."
-              ],
-              "layoutKey": "268650"
-            },
-            {
-              "time": "14:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268150&a=0000000001&l=4108&m=resident-evil-2026&ss=False",
-              "seats": [
-                "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAA??AAAAAA..AA",
-                "AA..A?AA?AAAAAAAAA..AA",
-                "AA..AAAAAAAAOAAAAA..AA",
-                "AA..AAAAAAOOAAAAAA..??",
-                "AA..AA?AAAOOAAAAAA..AA",
-                ".....AAAAAAAAAAAA.....",
-                "......................"
-              ],
-              "layoutKey": "268150"
-            },
-            {
               "time": "16:25",
               "formats": [
                 "Recliner"
@@ -4513,10 +4401,10 @@
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAA??AAAAAA..AA",
-                "AA..A?AA?AAOOAAAAA..AA",
+                "AA..A?AA?OOOOAAAAA..AA",
                 "AA..AAAAAOOOAAAAAA..AA",
                 "AA..AAAAAAOOAAAAAA..??",
-                "AA..AA?AAAAAAAAAAA..AA",
+                "AA..AA?AAOOOOAAAAA..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
               ],
@@ -4532,10 +4420,10 @@
                 "..?????????????..",
                 "..AAA???????AAA..",
                 "..AAAAAAAAAAAAA..",
-                "..AAAAAAA?AAOOO..",
+                "..AAAOOOO?AAOOO..",
                 "..AAAOOOO?AAAAA..",
-                "..AAAAAAOOAAAA?..",
-                "...AAAAOOAAAAAA..",
+                "..AAOOAAOOOOOA?..",
+                "...AAAAOOAAOOAA..",
                 "................."
               ],
               "layoutKey": "268651"
@@ -4551,9 +4439,9 @@
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAA??AAAAAA..AA",
-                "AA..A?AA?AAOOAAAAA..AA",
-                "AA..AAAAAOOOAAAAAA..AA",
-                "AA..AAAAAOOAAOOOAA..??",
+                "AA..A?OO?AAOOAAAAA..AA",
+                "AA..AAAAAOOOAAOOAA..AA",
+                "AA..AOOOOOOOAOOOAA..??",
                 "AA..OO?AAAAOOAAAAA..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
@@ -4591,7 +4479,7 @@
                 "AA..AAAAAA??AAAAAA..AA",
                 "OO..A?AA?AAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAOOOOOOOOOOOO..??",
+                "OO..AAOOOOOOOOOOOO..??",
                 "AA..AA?AAAAAAAAAAA..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
@@ -4616,9 +4504,9 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAA???AAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..OOAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOOAAA..",
-                "..AAAAAAAAAA?AAAAA..",
+                "..AAAAAAAAAA?AAAOO..",
                 "...AAAAAAAAAAAAAAA..",
                 "...................."
               ],
@@ -4678,12 +4566,12 @@
               "seats": [
                 "....AAAAAAAAAAAA....",
                 "..AAAAAAA?AAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAA?AAA?..",
-                "..AAAAAAAOOO??AAAA..",
-                "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAOOAA??AAAA..",
-                "...AAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAOAAA..",
+                "..OOOOAAAAAAA?AAA?..",
+                "..AOOOOAAOOO??AAAA..",
+                "..AAAAAAOOOAAAAAAA..",
+                "..AOOOOAOOAA??AAAA..",
+                "...AAAAAAOOOOOAAAA..",
                 "...................."
               ],
               "layoutKey": "268656"
@@ -4703,7 +4591,7 @@
                 "..AAAAAAAAOO??AAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAA??AAAA..",
-                "...AAAAAAAAAAAAAAA..",
+                "...AAAAOOOAAAAAAAA..",
                 "...................."
               ],
               "layoutKey": "268635"
@@ -4735,23 +4623,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61021_320_470.jpg",
           "runtimeMinutes": 81,
           "sessions": [
-            {
-              "time": "14:35",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268662&a=0000000001&l=4108&m=shaun-the-sheep-the-beast-of-mossy-bottom&ss=False",
-              "seats": [
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAA?AAAAAA?..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..............."
-              ],
-              "layoutKey": "268662"
-            },
             {
               "time": "16:50",
               "formats": [
@@ -4788,7 +4659,7 @@
                 "..AAAAA???AAAAA..",
                 "..AAAAAAA??AAAA..",
                 "..??AA?A??AAAAA..",
-                "..AAAAA?AAAAAAA..",
+                "..AAAAA?AAOOOOA..",
                 "...AAAAAAAAAAAA..",
                 "................."
               ],
@@ -4824,7 +4695,7 @@
                 "..AAAAA???AAAAA..",
                 "..AAAAAAA??AAAA..",
                 "..??AA?A??AAAAA..",
-                "..AAAAA?AAAAAAA..",
+                "..AAAAA?AAOOAAA..",
                 "...AAAAAAAAAAAA..",
                 "................."
               ],
@@ -4887,10 +4758,10 @@
               "seats": [
                 "..?AAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..OOOA?OOAAAA..",
-                "..AAAAA?A??AA..",
-                "..AAAAOOOOOAA..",
+                "..AAOOOOOOOOO..",
+                "..OOOA?OOAOOO..",
+                "..AOOOO?A??OO..",
+                "..AAAAOOOOOOO..",
                 "..............."
               ],
               "layoutKey": "268661"
@@ -5005,8 +4876,8 @@
                 "..AAAAAAAAAAAAA..",
                 "..??AAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA?..",
+                "..AAAAAOOAAAAAA..",
+                "..AAAAAOOAAAAA?..",
                 "...AAAAAA?AAAAA..",
                 "................."
               ],
@@ -5023,7 +4894,7 @@
                 "..AAAAAAAAAAAAA..",
                 "..??AAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
-                "..AAAAOOOOAAAAA..",
+                "..OOAAOOOOAAAAA..",
                 "..AAAAAAAAAAAA?..",
                 "...AAAAOO?AAAAA..",
                 "................."
@@ -5065,7 +4936,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAA?AAAA..",
                 "..?OOAOOAAAAA..",
-                "..AAAA?AAAAAA..",
+                "..AAAA?OOAAAA..",
                 "..AAAAAAAAAAA..",
                 "..............."
               ],
@@ -5229,7 +5100,7 @@
                 "AA..A?AA?AAAAAAAOO..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..??",
-                "AA..AA?AAAAAAAAAAA..AA",
+                "AA..AA?AAOOOOOOAAA..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
               ],

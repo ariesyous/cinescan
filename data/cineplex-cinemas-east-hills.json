@@ -1,39 +1,11 @@
 {
-  "updatedAt": "2026-09-19T19:55:57.869Z",
+  "updatedAt": "2026-09-19T21:23:54.353Z",
   "theatre": {
     "id": 3152,
     "name": "Cineplex Cinemas East Hills"
   },
   "auditoriums": {
     "58545": {
-      "totalRows": 11,
-      "totalColumns": 28,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "............................",
-        "...CW.WCSSSSSSSSSSSCWWCSS...",
-        "..SSSSSSSSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..DDDD.DDDDDDD.DDDDDDD.DDD.."
-      ]
-    },
-    "58905": {
       "totalRows": 11,
       "totalColumns": 28,
       "rowLabels": [
@@ -1109,28 +1081,6 @@
         "SSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "59267": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "...SSSSSSSSS...",
-        "...............",
-        "..SSSSCWWC.....",
-        "..SSSSSSSSS....",
-        "..SSSSSSSSS....",
-        "..SSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSS"
-      ]
-    },
     "59268": {
       "totalRows": 7,
       "totalColumns": 19,
@@ -1195,28 +1145,6 @@
         "....SSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "59271": {
-      "totalRows": 7,
-      "totalColumns": 18,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSS..",
-        "..................",
-        "..SSSSSSSCWWC.....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS"
       ]
     },
     "59272": {
@@ -2768,51 +2696,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "14:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=58905&a=0000000004&l=3152&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                "...AA.AAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAOAAAAAAAAAAA..",
-                "..AAAAAAAAAAAOOOAAAAAAAAAA..",
-                "..AAAAAOOOOAAOOOOAAOOOAAAA..",
-                "..AAAAAOOAAOOOOAAOOAAAAAAA..",
-                "..AAA?.AAAAAA?.OOAAAAA.AAA.."
-              ],
-              "layoutKey": "58905"
-            },
-            {
-              "time": "14:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=58905&a=0000000001&l=3152&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                "...AA.AAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAOAAAAAAAAAAA..",
-                "..AAAAAAAAAAAOOOAAAAAAAAAA..",
-                "..AAAAAOOOOAAOOOOAAOOOAAAA..",
-                "..AAAAAOOAAOOOOAAOOAAAAAAA..",
-                "..AAA?.AAAAAA?.OOAAAAA.AAA.."
-              ],
-              "layoutKey": "58905"
-            },
-            {
               "time": "17:00",
               "formats": [
                 "UltraAVX",
@@ -2870,10 +2753,10 @@
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOOOOOOAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAOOAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAAAAAOO"
+                ".AAAAAAAAAAOOOAAAAAAAAAAOO"
               ],
               "layoutKey": "59260"
             },
@@ -2892,9 +2775,9 @@
                 "...AA.AAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAOOOAAAAAAAAA...",
-                "..AAAAAAAAAAAOOAAAAAAAAAAA..",
-                "..AAAAAAAAAOOOOOAAAAAAAAAA..",
-                "..AAAAAOOOOOOOOOOAAAAAAAAA..",
+                "..AAAAAAAAAAAOOAAOOOOAAAAA..",
+                "..AAAAAAAAAOOOOOAAOOOOOOAA..",
+                "..AAAAAOOOOOOOOOOAAOOAAAAA..",
                 "..AAAAAAAOOAAOOOOAAAAAAOOO..",
                 "..AAA?.AAAAOO?.OOAAAAA.AAA.."
               ],
@@ -2914,9 +2797,9 @@
                 "...AA.AAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAOOOAAAAAAAAA...",
-                "..AAAAAAAAAAAOOAAAAAAAAAAA..",
-                "..AAAAAAAAAOOOOOAAAAAAAAAA..",
-                "..AAAAAOOOOOOOOOOAAAAAAAAA..",
+                "..AAAAAAAAAAAOOAAOOOOAAAAA..",
+                "..AAAAAAAAAOOOOOAAOOOOOOAA..",
+                "..AAAAAOOOOOOOOOOAAOOAAAAA..",
                 "..AAAAAAAOOAAOOOOAAAAAAOOO..",
                 "..AAA?.AAAAOO?.OOAAAAA.AAA.."
               ],
@@ -2933,7 +2816,7 @@
                 "...................",
                 ".....AAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAOO..",
                 "..AAAAAAAAAAAAAAA..",
                 "AAAAAAAAOOOAAAAAAA."
               ],
@@ -3003,11 +2886,11 @@
                 ".....AAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOOOOAAAAAOO..",
-                "..AAAAOOAAOOAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAOOAAAAA..",
-                ".AAAAAAAAAAAOOAAAAAAAAAAAA"
+                "..AAAAOOAAOOAAOOAAAAAAAA..",
+                "..AAAAAAAAAAOOAAAOOAAAAA..",
+                ".AAAAAAAAOOAOOAOOOOAAAAAAA"
               ],
               "layoutKey": "59259"
             },
@@ -3053,24 +2936,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "15:00",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59267&a=0000000001&l=3152&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...AAAAAAAAA...",
-                "...............",
-                "..AAAAAAAA.....",
-                "..AAAAAAAAA....",
-                "..AAAAAAAAA....",
-                "..AAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "59267"
-            },
-            {
               "time": "18:35",
               "formats": [
                 "Recliner"
@@ -3082,7 +2947,7 @@
                 ".....AAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAOOOOOAAAAAAA..",
                 "..OOOAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAOOAAOOAAAAAA"
               ],
@@ -3102,7 +2967,7 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOOAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "59264"
@@ -3114,23 +2979,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
           "runtimeMinutes": 172,
           "sessions": [
-            {
-              "time": "14:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59271&a=0000000001&l=3152&m=the-odyssey&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAA..",
-                "..................",
-                "..AAAAAAAAAAA.....",
-                "..AAAAAAAAAAAA....",
-                "..AAAAAAOOAAAA....",
-                "..AAAAOOAAAAAAAA..",
-                ".AAAAAAAOOAAAAAAAA"
-              ],
-              "layoutKey": "59271"
-            },
             {
               "time": "18:15",
               "formats": [
@@ -3188,7 +3036,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAOOAAAOO..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAA...",
+                "..AAAAAAOOOOO...",
                 "................",
                 "...AAAAAAAA.....",
                 ".....AAAAAAAA...",
@@ -3234,9 +3082,9 @@
                 "..AAAAAAAAAAAAAAA..",
                 "...................",
                 ".....AAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "..OOAAAAAAAAAAOOO..",
+                "....AAAOOAAAAAAAA..",
+                "....AAAAAAAAAOOOA..",
+                "..OOAAAAAOOAAAOOO..",
                 "AAAAAAAAOOOAAAAAAA."
               ],
               "layoutKey": "59268"
@@ -3283,7 +3131,7 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AAAOOAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "59263"
             },
@@ -3370,7 +3218,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..OOOAAAAAAAOOAAAAAAAAAAAA..",
                 "..AAAAOAAAAAAAAAAAAAAAAAAA..",
-                "..AAA?.AAAAAA?.AAAAAAA.AAA.."
+                "..AAA?.AAAAAA?.OOAAAAA.AAA.."
               ],
               "layoutKey": "58909"
             },
@@ -3392,7 +3240,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..OOOAAAAAAAOOAAAAAAAAAAAA..",
                 "..AAAAOAAAAAAAAAAAAAAAAAAA..",
-                "..AAA?.AAAAAA?.AAAAAAA.AAA.."
+                "..AAA?.AAAAAA?.OOAAAAA.AAA.."
               ],
               "layoutKey": "58909"
             },
@@ -3499,7 +3347,7 @@
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOOOAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -3959,7 +3807,7 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAOOOAAAA"
               ],
               "layoutKey": "59294"
             },
