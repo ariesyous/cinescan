@@ -1,38 +1,10 @@
 {
-  "updatedAt": "2026-09-19T22:39:19.840Z",
+  "updatedAt": "2026-09-19T23:56:22.659Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
   },
   "auditoriums": {
-    "268147": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        null
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        ".....WCWWCSCWWCCW.....",
-        "......................"
-      ]
-    },
     "268148": {
       "totalRows": 10,
       "totalColumns": 22,
@@ -1227,30 +1199,6 @@
         "................."
       ]
     },
-    "268641": {
-      "totalRows": 8,
-      "totalColumns": 17,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "...WWCCSSSSSSSS..",
-        "................."
-      ]
-    },
     "268642": {
       "totalRows": 8,
       "totalColumns": 17,
@@ -1485,28 +1433,6 @@
         "..SSSSSSSSSSSSS..",
         "...WWCCSSSSSSSS..",
         "................."
-      ]
-    },
-    "268663": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WWCCSSSSSSS..",
-        "..............."
       ]
     },
     "268664": {
@@ -4242,33 +4168,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "16:25",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268652&a=0000000001&l=4108&m=resident-evil-2026&ss=False"
-            },
-            {
-              "time": "17:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268147&a=0000000001&l=4108&m=resident-evil-2026&ss=False",
-              "seats": [
-                "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAA??OOOAAA..AA",
-                "AA..A?AA?OOOOOOAAA..AA",
-                "AA..AAAAAOOOAAAOOO..AA",
-                "AA..AAAOAAOOAOAAAA..??",
-                "AA..AA?AAOOOOAAOOO..AA",
-                ".....AAAAAAAAAAAA.....",
-                "......................"
-              ],
-              "layoutKey": "268147"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "Recliner"
@@ -4279,7 +4178,7 @@
                 "..AAA???????AAA..",
                 "..AAAAAAAAAAAAA..",
                 "..AOOOOOO?AAOOO..",
-                "..AAAOOOO?AAAAA..",
+                "..OOOOOOO?OOOOO..",
                 "..AAOOAAOOOOOA?..",
                 "...AAAAOOAAOOAA..",
                 "................."
@@ -4297,8 +4196,8 @@
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAA??AAAAAA..AA",
-                "AA..A?OO?AAOOAAAAA..AA",
-                "AA..AAAAAOOOAAOOAA..AA",
+                "AA..A?OO?OOOOAAAAA..AA",
+                "AA..AAOOOOOOAAOOAA..OO",
                 "AA..AOOOOOOOAOOOAA..??",
                 "AA..OO?OOAAOOAAOOA..AA",
                 ".....AAAAAAAAAAAA.....",
@@ -4317,9 +4216,9 @@
                 "..AAA???????AAA..",
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAA?AAAAA..",
-                "..AOOOOOA?AAAAA..",
+                "..AOOOOOA?AAAOO..",
                 "..AAAAOOOOAAAA?..",
-                "...AAAAOOOOAAAA..",
+                "...AAAAOOOOAAAO..",
                 "................."
               ],
               "layoutKey": "268653"
@@ -4338,7 +4237,7 @@
                 "OO..A?AA?AAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "OO..AAOOOOOOOOOOOO..??",
-                "AA..AA?AAAAAAAAAAA..AA",
+                "AA..AA?AAAOOOOOOOA..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
               ],
@@ -4407,8 +4306,8 @@
                 "....AAAAAAAAAAAA....",
                 "..AAAAAAA?AAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAA?AAA?..",
-                "..AAAAAAAAOO??AAAA..",
+                "..AAAAOOOOOAA?AAA?..",
+                "..AOOOAAAAOO??AAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAA??AAAA..",
                 "...AAAAOOOAAAAAAAA..",
@@ -4439,30 +4338,6 @@
           ]
         },
         {
-          "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61021_320_470.jpg",
-          "runtimeMinutes": 81,
-          "sessions": [
-            {
-              "time": "16:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268663&a=0000000001&l=4108&m=shaun-the-sheep-the-beast-of-mossy-bottom&ss=False",
-              "seats": [
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAA?AAAAAA?..",
-                "..AAAAOOAAAAA..",
-                "..AAAAAOAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..............."
-              ],
-              "layoutKey": "268663"
-            }
-          ]
-        },
-        {
           "title": "The Uprising",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
           "runtimeMinutes": 128,
@@ -4478,7 +4353,7 @@
                 "..AAAAAOOAAAAAA..",
                 "..AAAAA???AAAAA..",
                 "..AAAAAOO??AAAA..",
-                "..??AA?A??AAAAA..",
+                "..??AA?A??OOAOA..",
                 "..AAAAA?AAAAAAA..",
                 "...AAAAAAAAAAAA..",
                 "................."
@@ -4520,7 +4395,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAA?AAAAAA?..",
-                "..AAAAAAAAAAA..",
+                "..AAAAAOOAAAA..",
                 "..AAAAOOAAAAA..",
                 "..AAAAAAAAAOO..",
                 "..............."
@@ -4560,8 +4435,8 @@
               "seats": [
                 "..?AAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAA?AAAAAA..",
+                "..AOOOOOOOAAA..",
+                "..AAAA?OOOAAA..",
                 "..OOAAA?A??AA..",
                 "..AAAAAOOOOOO..",
                 "..............."
@@ -4633,24 +4508,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62014_320_470.jpg",
           "runtimeMinutes": 195,
           "sessions": [
-            {
-              "time": "16:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268641&a=0000000001&l=4108&m=mirzapur-the-movie-hindi-west&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..??AAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAOOAAAAAA..",
-                "..AAAAAOOAAAAA?..",
-                "...AAAAAA?AAAAA..",
-                "................."
-              ],
-              "layoutKey": "268641"
-            },
             {
               "time": "20:50",
               "formats": [
@@ -4916,7 +4773,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAA?AAAAA..",
-                "...AAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAOOAAAA..",
                 "...................."
               ],
               "layoutKey": "268692"
@@ -5064,7 +4921,7 @@
                 "..AAAAAAA??AAAA..",
                 "..??AA?A??AAAAA..",
                 "..AAAAA?AAAAAAA..",
-                "...AAAAAAAAAAAA..",
+                "...AAAAAAAAOOAA..",
                 "................."
               ],
               "layoutKey": "268843"

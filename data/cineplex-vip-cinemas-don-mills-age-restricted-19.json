@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T22:39:52.425Z",
+  "updatedAt": "2026-09-19T23:56:56.440Z",
   "theatre": {
     "id": 7139,
     "name": "Cineplex VIP Cinemas Don Mills (age restricted 19+)"
@@ -35,38 +35,6 @@
         "SS.SSSSSSSSSS",
         "SS.SSSSSSSSSS",
         "SS.SSSSSSSSSS"
-      ]
-    },
-    "63266": {
-      "totalRows": 12,
-      "totalColumns": 13,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        ".SS.SS.SS....",
-        ".............",
-        "CW.SSSCWWC...",
-        "SSSSSSSSSS...",
-        "SSSSSSSSSS...",
-        "SSSSSSSSSS...",
-        "SSSSSSSSSS...",
-        "SSSSSSSSSS.SS",
-        "SSSSSSSSSS.SS",
-        "SSSSSSSSSS.SS",
-        "SSSSSSSSSS.SS",
-        "SSSSSSSSSS.SS"
       ]
     },
     "63267": {
@@ -381,30 +349,6 @@
         "..CWWCSSSS..",
         "SSSSSSSSSSS.",
         "..........SS"
-      ]
-    },
-    "63475": {
-      "totalRows": 8,
-      "totalColumns": 12,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        null,
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSS",
-        "SSSSSSSSSSSS",
-        "SSSSSSSSSSSS",
-        "SSSSSSSSSSSS",
-        "SSSSSSSSSSSS",
-        "............",
-        "..SSSSCWWC..",
-        "SSSSSSSSSSSS"
       ]
     },
     "63476": {
@@ -1342,29 +1286,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "19:30",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63266&a=0000000001&l=7139&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAOOOOAA...",
-                "OOOOOOOOOO...",
-                "OOOOOOOOOO...",
-                "OOOOOOOOOO...",
-                "OOOOOOOOOO.OO",
-                "AOOOOOOOOO.OO",
-                "OOOOOOOOOO.OO",
-                "OOOOOOOOOO.OO",
-                "OOOOOOOAOO.OO"
-              ],
-              "layoutKey": "63266"
-            },
-            {
               "time": "22:15",
               "formats": [
                 "VIP 19+",
@@ -1377,10 +1298,10 @@
                 "AA.AAAAAAA...",
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA...",
-                "AAAAOOAOOO...",
+                "AAOOOOAOOO...",
                 "OOOAOOOOAA...",
-                "AAOOAOOOAO.AA",
-                "AAOOOOOOAO.AA",
+                "AAOOAOOOOO.AA",
+                "OOOOOOOOAO.OO",
                 "AOOOOOOOOO.OO",
                 "OOOOOOOOOO.OO",
                 "OOOOAOOOOO.OO"
@@ -1410,40 +1331,12 @@
                 "AAAAOOAAAA...",
                 "AAAAAAAAAA...",
                 "OOOAOOOOOO.AA",
-                "AAAAOOAAOO.AA",
+                "AAAAOOOOOO.AA",
                 "AAAAOOOOAA.AA",
                 "AAAAAAAAAA.AA",
                 "OOAAOOAAAO.AA"
               ],
               "layoutKey": "63471"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63475&a=0000000001&l=7139&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAAAAAAA",
-                "AAAAOOOOOOOO",
-                "OOOOOOOOOOOO",
-                "OOOOOOOOOOOO",
-                "OOOO?OOOOOOO",
-                "............",
-                "..OOOOAAAA..",
-                "OOOOOOOOOOOO"
-              ],
-              "layoutKey": "63475"
             }
           ]
         },
@@ -1461,10 +1354,10 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63473&a=0000000001&l=7139&m=the-odyssey&ss=False",
               "seats": [
                 "AAOOAAAAA?AA",
-                "OOOOOOAAOOOO",
+                "OOAAOOAAOOOO",
                 "OOOOAOOOOOOO",
                 "OOOOOOOOOOOO",
-                "OOOOOOOAOOOO",
+                "OOOOOOOOOOOO",
                 "............",
                 "..AAAAOOOO..",
                 "OOA?OOOOOOA.",
@@ -1574,7 +1467,7 @@
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA...",
                 "AAAOOOOOAA...",
-                "AAAAOOOAAA...",
+                "AAAAOOOAOO...",
                 "AAAOOOOOAA.AA",
                 "AAAAOOOOAA.AA",
                 "AAAAOOAAAA.AA",
@@ -1721,7 +1614,7 @@
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
-                "AAAAAAAAAAAA",
+                "AAAAOOOOAAAA",
                 "AAAA?AAAAAAA",
                 "............",
                 "..AAAAAAAA..",
@@ -1750,7 +1643,7 @@
                 "AAAAOOOOAAAA",
                 "AAAAOAOOAAAA",
                 "............",
-                "..AAAAAAAA..",
+                "..AAAAAAOO..",
                 "OOA?AAOOAAA.",
                 "..........AA"
               ],
@@ -1771,7 +1664,7 @@
                 "AAAAAAOOAAAA",
                 "............",
                 "..AAAAOOAA..",
-                "AAA?OOAAAAA.",
+                "AAA?OOAAOOA.",
                 "..........AA"
               ],
               "layoutKey": "63479"
@@ -2181,7 +2074,7 @@
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
-                "AAAAOOAAAAAA",
+                "AAAAOOAAOOAA",
                 "............",
                 "..AAAAOAOO..",
                 "AAA?OOAAAAA.",

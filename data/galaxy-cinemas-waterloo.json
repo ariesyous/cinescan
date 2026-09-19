@@ -1,90 +1,10 @@
 {
-  "updatedAt": "2026-09-19T22:40:08.757Z",
+  "updatedAt": "2026-09-19T23:57:13.902Z",
   "theatre": {
     "id": 7268,
     "name": "Galaxy Cinemas Waterloo"
   },
   "auditoriums": {
-    "276543": {
-      "totalRows": 11,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "..SCW.WCSCWSSCW.WCS....",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..DDD.DDDDD.DDDDDD.DD.."
-      ]
-    },
-    "276544": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "...................",
-        "..SSSSSSSSSSSSSSS..",
-        "...................",
-        "....SCW.WCSCW.WCS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "276545": {
-      "totalRows": 8,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "..................",
-        "..................",
-        "..SCW.SSSSS.WCS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSS.."
-      ]
-    },
     "276546": {
       "totalRows": 11,
       "totalColumns": 23,
@@ -1404,51 +1324,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "19:20",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276543&a=0000000004&l=7268&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAOAAAAAAAAAAAAAA..",
-                "..AAAAAOOOOOOAAAAAAAA..",
-                "..OOOOOOOOOOOOAOOAAAA..",
-                "..AAAOAOOOOOOOOOOOOAA..",
-                "..OOOOOOOOOOOOOOOAAOO..",
-                "..OOA.AOOOO.OOOOOO.OO.."
-              ],
-              "layoutKey": "276543"
-            },
-            {
-              "time": "19:20",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276543&a=0000000001&l=7268&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAOAAAAAAAAAAAAAA..",
-                "..AAAAAOOOOOOAAAAAAAA..",
-                "..OOOOOOOOOOOOAOOAAAA..",
-                "..AAAOAOOOOOOOOOOOOAA..",
-                "..OOOOOOOOOOOOOOOAAOO..",
-                "..OOA.AOOOO.OOOOOO.OO.."
-              ],
-              "layoutKey": "276543"
-            },
-            {
               "time": "21:00",
               "formats": [
                 "Recliner"
@@ -1460,10 +1335,10 @@
                 "....................",
                 "...AA..AAAAAAAA.AA..",
                 "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAOOAAAAAAA..",
-                "...AAAAAAAAAAOOAAA..",
-                "...AAAAAAOOAAAAAAA..",
-                "OOAAAOOAAOOAAOOAAOAA"
+                "...AAAAAAOOOOOOAAA..",
+                "...AAAAOAOOOOOOAAA..",
+                "...OOAAAOOOOOOOAOO..",
+                "OOAAAOOOOOOAAOOAAOAA"
               ],
               "layoutKey": "276617"
             },
@@ -1484,9 +1359,9 @@
                 "..AAAAAAAAAOOAAAAAAAA..",
                 "..AAAAAAAAAOAAAAAAAAA..",
                 "..AAAAAAAAOOAAOOAAAAA..",
-                "..AAAAAAAAOOOAAOOAAAA..",
+                "..AOAAAAAAOOOAAOOOOOO..",
                 "..OOAAAAAAOOOOOOAAAAA..",
-                "..AAA.OOAAA.AAAAAA.AA.."
+                "..AAA.OOAOO.OOOAAA.AA.."
               ],
               "layoutKey": "276546"
             },
@@ -1506,9 +1381,9 @@
                 "..AAAAAAAAAOOAAAAAAAA..",
                 "..AAAAAAAAAOAAAAAAAAA..",
                 "..AAAAAAAAOOAAOOAAAAA..",
-                "..AAAAAAAAOOOAAOOAAAA..",
+                "..AOAAAAAAOOOAAOOOOOO..",
                 "..OOAAAAAAOOOOOOAAAAA..",
-                "..AAA.OOAAA.AAAAAA.AA.."
+                "..AAA.OOAOO.OOOAAA.AA.."
               ],
               "layoutKey": "276546"
             }
@@ -1519,26 +1394,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
           "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276544&a=0000000001&l=7268&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                "..AAAAAAAAAAAAAAA..",
-                "...................",
-                "....AAA.AAAAA.AAA..",
-                "....AAAAAAAAAAAAA..",
-                "....OOAAAOOOAAAAA..",
-                "....AAAAAOOAAAOAA..",
-                "....AAOOOOOOAAAOO..",
-                "....OOOAOOOOOOOOA..",
-                "OOOAAAAAAOOAOOAAAOO"
-              ],
-              "layoutKey": "276544"
-            },
             {
               "time": "21:30",
               "formats": [
@@ -1577,9 +1432,9 @@
                 "....AAA.AAAAA.AAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
+                "....AAAAAOOAAAAAA..",
                 "....AAAAOOAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
+                "....AAAAAAOOAAAAA..",
                 "AAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "276548"
@@ -1592,24 +1447,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "19:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276545&a=0000000001&l=7268&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "..................",
-                "..................",
-                "..AAA.AAAAA.AAA...",
-                "..AAAAOOOOAAAAA...",
-                "..AAAAAAOOAAAAA...",
-                "..AAOOAAOOOOAAA...",
-                "..OOOAAOOOOOAAA...",
-                "AAAAOOAAOOAAAAAA.."
-              ],
-              "layoutKey": "276545"
-            },
-            {
               "time": "22:00",
               "formats": [
                 "Recliner"
@@ -1621,8 +1458,8 @@
                 "..AAA.AAAAA.AAA...",
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
+                "..AAAAOOOOAAAAA...",
+                "..AAAAAAAAAOOAA...",
                 "AAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "276547"
@@ -1825,7 +1662,7 @@
                 "...AA..AAAAAAAA.AA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAA..",
+                "...AAAAOOAAAOOAAAA..",
                 "...AAAAAAOOAAAAAAA..",
                 "AAAAAAAAAAOOAAAAAAAA"
               ],
@@ -1891,7 +1728,7 @@
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
-                "OOAAAAAAAAAAAAAAAAAA"
+                "OOAAAAAAOOAAAAAAAAAA"
               ],
               "layoutKey": "276622"
             },
