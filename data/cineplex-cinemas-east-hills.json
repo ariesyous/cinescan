@@ -1,39 +1,11 @@
 {
-  "updatedAt": "2026-09-20T19:16:42.092Z",
+  "updatedAt": "2026-09-20T20:11:20.141Z",
   "theatre": {
     "id": 3152,
     "name": "Cineplex Cinemas East Hills"
   },
   "auditoriums": {
     "58545": {
-      "totalRows": 11,
-      "totalColumns": 28,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "............................",
-        "...CW.WCSSSSSSSSSSSCWWCSS...",
-        "..SSSSSSSSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..DDDD.DDDDDDD.DDDDDDD.DDD.."
-      ]
-    },
-    "58909": {
       "totalRows": 11,
       "totalColumns": 28,
       "rowLabels": [
@@ -1107,60 +1079,6 @@
         "SSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "59295": {
-      "totalRows": 8,
-      "totalColumns": 22,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSSSSS..",
-        "......................",
-        ".....CWWCSSSSSSSSWC...",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "59296": {
-      "totalRows": 13,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null,
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "................",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSS...",
-        "................",
-        "...WWCSSSSS.....",
-        ".....SSSSSSSS...",
-        "................"
-      ]
-    },
     "59297": {
       "totalRows": 13,
       "totalColumns": 16,
@@ -2118,69 +2036,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "13:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59295&a=0000000001&l=3152&m=resident-evil-2026&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAOOOOAAAAAAA..",
-                "AAAAAAAAAOOOOAAAAAAAAA"
-              ],
-              "layoutKey": "59295"
-            },
-            {
-              "time": "13:50",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=58909&a=0000000004&l=3152&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                "...AA.AAAAAAAAAAAAAAAAAAA...",
-                "..AAOOOAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAOOAAOOAAAAAAA..",
-                "..AAAAAAAAAOOOOOAOOOAAAAAA..",
-                "..OOOAAAAAAAOOAAAAAAAAAAAA..",
-                "..AAAAOAAAOOAAOAAOAAAAAAAA..",
-                "..AOO?.AAAAAA?.OOAAOOA.AAA.."
-              ],
-              "layoutKey": "58909"
-            },
-            {
-              "time": "13:50",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=58909&a=0000000001&l=3152&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                "...AA.AAAAAAAAAAAAAAAAAAA...",
-                "..AAOOOAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAOOAAOOAAAAAAA..",
-                "..AAAAAAAAAOOOOOAOOOAAAAAA..",
-                "..OOOAAAAAAAOOAAAAAAAAAAAA..",
-                "..AAAAOAAAOOAAOAAOAAAAAAAA..",
-                "..AOO?.AAAAAA?.OOAAOOA.AAA.."
-              ],
-              "layoutKey": "58909"
-            },
-            {
               "time": "16:20",
               "formats": [
                 "UltraAVX",
@@ -2198,7 +2053,7 @@
                 "..AAAAAAAAAAOOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOOOOAAAAAAAA..",
                 "..AAAAAAAAAOOOAAAAAAAAAAAA..",
-                "..AAAAAAAOOOOOOAAAAAAAAAAA..",
+                "..AAAAAAAOOOOOOAAOOAAAAAAA..",
                 "..AAA?.AAAAOO?.AAAAAAA.AAA.."
               ],
               "layoutKey": "58910"
@@ -2220,7 +2075,7 @@
                 "..AAAAAAAAAAOOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOOOOAAAAAAAA..",
                 "..AAAAAAAAAOOOAAAAAAAAAAAA..",
-                "..AAAAAAAOOOOOOAAAAAAAAAAA..",
+                "..AAAAAAAOOOOOOAAOOAAAAAAA..",
                 "..AAA?.AAAAOO?.AAAAAAA.AAA.."
               ],
               "layoutKey": "58910"
@@ -2284,9 +2139,9 @@
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAOOOO..",
                 "..AAAAAAAAAOOOAAAAAAAAAA..",
-                "..AAAAAAAAAAOOOAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAOOOOAAAAAAAAAAAA"
+                "..AAOOOOAAAAOOOAAAAAAAAA..",
+                "..OOAAAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAOOOOAAAAAOOAAAAA"
               ],
               "layoutKey": "59283"
             },
@@ -2350,7 +2205,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAOOAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "59287"
@@ -2378,7 +2233,7 @@
                 "..AAAAAOOAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOAAAAAAAAA..",
-                ".AAAAAAAAAAAOOAAAAAAAAAAAA"
+                ".AAAAAAAOOAAOOAAAAAAAAAAAA"
               ],
               "layoutKey": "59284"
             },
@@ -2498,7 +2353,7 @@
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAAAAAAA....",
                 "..AAOOOAAAAOOAAA..",
-                ".AAAAAOOOOAAOOAAAA"
+                ".AAAAAOOOOOAOOAAAA"
               ],
               "layoutKey": "59286"
             },
@@ -2543,27 +2398,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61021_320_470.jpg",
           "runtimeMinutes": 81,
           "sessions": [
-            {
-              "time": "13:30",
-              "formats": [
-                "Clubhouse"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59296&a=0000000001&l=3152&m=shaun-the-sheep-the-beast-of-mossy-bottom&ss=False",
-              "seats": [
-                "................",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAO..",
-                "..AAAAAAAAAAA...",
-                "................",
-                "...AAAAAAAA.....",
-                ".....AAAOOOAA...",
-                "................"
-              ],
-              "layoutKey": "59296"
-            },
             {
               "time": "16:00",
               "formats": [
@@ -2626,7 +2460,7 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "..AAOOOAAAAOOOOAA..",
-                "AAAAAAAAAAAAAAAAAA."
+                "AAAAAAAAOOAAAAAAAA."
               ],
               "layoutKey": "59289"
             },
