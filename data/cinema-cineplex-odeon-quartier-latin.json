@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T23:55:47.197Z",
+  "updatedAt": "2026-09-20T00:30:37.018Z",
   "theatre": {
     "id": 9172,
     "name": "Cinéma Cineplex Odeon Quartier Latin"
@@ -5083,44 +5083,6 @@
         "SSSSSS.SSSSSSSSSSSS.SSSSSS",
         "SSSSSS.SSCWW..WWCSS.SSSSSS",
         "SSSS..................SSSS"
-      ]
-    },
-    "595942": {
-      "totalRows": 15,
-      "totalColumns": 25,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K",
-        "L",
-        "M",
-        null
-      ],
-      "seatTypes": [
-        ".........................",
-        "......SSSSSSSSSSSS.......",
-        "SSSS..SSSSSSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSSSSS...SSSS",
-        "SSSS..SSSSSSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSSSSS...SSSS",
-        "SSSS..SSSSSSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSSSSS...SSSS",
-        "SSSS..SSSSSSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSSSSS...SSSS",
-        "SSSS..SSSSSSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSSSSSS..SSSS",
-        "SSSS..SSSSSSSSSSSSS..SSSS",
-        "......SS..SSSCWWCS.......",
-        "........................."
       ]
     },
     "595943": {
@@ -13324,15 +13286,15 @@
                 "AAAA..AAAAAAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAAAAAA..AAAA",
-                "AAAA..AAAAAAAAAAAAA..AAAA",
+                "AAAA..AAAAAOOAAAAAA..AAAA",
                 ".........................",
                 ".....AAAAOOAAA.....AAAA..",
                 ".........................",
-                "...AAAAOOOOOOAOOO..AAAA..",
+                "...AAAAOOOOOOOOOO..AAAA..",
                 "...AAAAAAAAAAAAAA..OOAA..",
                 "...AAAAAAAOOAAAAA..AAAA..",
                 "...AAAAAAAAAOOAAA..AAAA..",
-                ".AAAAAAAAAOAAAAAA........"
+                ".AAAAAAAAAOAAAAOO........"
               ],
               "layoutKey": "595906"
             }
@@ -13393,7 +13355,7 @@
                 "..AAAAAAAAAA...AAAA",
                 "..AAAAAAAAAAA..AAAA",
                 "..AAAAAAAAAAA..AAAA",
-                ".....AAAAAA........"
+                ".....AAOOAA........"
               ],
               "layoutKey": "595903"
             }
@@ -13447,7 +13409,7 @@
                 "...AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAA..",
                 "...AAAAAAOOAAAAAAA..",
                 "...AAAAAAOAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
@@ -13474,12 +13436,12 @@
                 "......AAAAAAAAAA.....",
                 "...AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAA..",
+                "...AAAAAAAOOAAAAAAA..",
                 "..AAAAAAOOOOAAAAAAA..",
                 "...AAAAAOOAAOOAAAAA..",
-                "..AAAAAAAAOOAAAAAAA..",
+                "..AAAOOOAAOOAAAAAAA..",
                 "...AAAAAAAOOAAAAAAA..",
-                "...AAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAAAO..",
                 ".....AAAAAAAAAAAA....",
                 "....................."
               ],
@@ -13571,35 +13533,43 @@
           ]
         },
         {
+          "title": "La Bataille De Gaulle : Résistance (partie 1)",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61155_320_470.jpg",
+          "runtimeMinutes": 158,
+          "sessions": [
+            {
+              "time": "20:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=595947&a=0000000001&l=9172&m=p1-la-bataille-de-gaulle-resistance-partie-1&ss=False",
+              "seats": [
+                "AAAA...AAAAAAAAAAA.AAAA",
+                "AAAA....AAAAAAAAAA.AAAA",
+                "AAAA...AAAAAAAAAAA.AAAA",
+                "AAAA....AAAOOOAAAA.AAAA",
+                "AAAA...AAAAAAOOAAA.AAAA",
+                "AAAA....AAAAOOOOOO.AAAA",
+                "AAAA...OAAOOAAAAOO.AAAA",
+                "AAAA....AOOOOOAOOO.AAAA",
+                "AAA....................",
+                ".......................",
+                "AAA......AAAOOAAA......",
+                "AAAA...AAAOOOOOOOA.AAAA",
+                "AAAA..AAOAAOOAAOOO.AAAA",
+                "AAAA...AAAAOOOAAAA.AAAA",
+                "AAAA..AAAAOOAAOAAA.AAAA",
+                "AAAA...AAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "595947"
+            }
+          ]
+        },
+        {
           "title": "La Bataille De Gaulle : Liberté (partie 2)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61156_320_470.jpg",
           "runtimeMinutes": 160,
           "sessions": [
-            {
-              "time": "20:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=595942&a=0000000001&l=9172&m=la-bataille-de-gaulle-liberte-partie-2&ss=False",
-              "seats": [
-                ".........................",
-                "......AAAAAAAAAAAA.......",
-                "AAAA..AAAAAAAAAAAAA..AAAA",
-                "AAAA..AAAAAAAAAAAA...AAAA",
-                "AAAA..AOAAAAOAAAAAA..AAAA",
-                "AAAA..AAAAAAAAAAAA...AAAA",
-                "AAAA..OOAAAOOAAOAAO..AAAA",
-                "AAAA..AAAOOOOOOOOO...AAAA",
-                "AAAA..OOOOOOOOAOAAA..AAAA",
-                "AAAA..AAAOOOOOOAOA...AAAA",
-                "AAAA..OOAAAOAAAOOAA..AAAA",
-                "AAAA..AAOAAOOAAOOAA..AAAA",
-                "AAAA..OOAAOOAOOAAAO..AAAA",
-                "......AA..AAAAAAAA.......",
-                "........................."
-              ],
-              "layoutKey": "595942"
-            },
             {
               "time": "21:00",
               "formats": [
@@ -13615,11 +13585,11 @@
                 "AAAAAA.AAAAAAAAAAAA.AAAAAA",
                 "AAAAAA.AAAAAAAAAAAA.AAAAAA",
                 "AAAAAA.AAAAAOAAAAAA.AAAAAA",
+                "AAAAAA.AAAAOOOOAAAA.AAAAAA",
                 "AAAAAA.AAAAAAAAAAAA.AAAAAA",
                 "AAAAAA.AAAAAAAAAAAA.AAAAAA",
-                "AAAAAA.AAAAAAAAAAAA.AAAAAA",
-                "AAAAAA.AAAAAAAAAAAA.AAAAAA",
-                "AAAAAA.AAAAAAAAAAAA.AAAAAA",
+                "AAAAAA.AAAAAAAAAAOO.AAAAAA",
+                "AAAAAA.AAAAAOOAAAAA.AAAAAA",
                 "AAAAAA.AAAAAAAAAAAA.AAAAAA",
                 "AAAAAA.?AAAA..AAAAA.AAAAAA",
                 "AAAA..................AAAA"
@@ -13629,35 +13599,28 @@
           ]
         },
         {
-          "title": "La Bataille De Gaulle : Résistance (partie 1)",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61155_320_470.jpg",
-          "runtimeMinutes": 158,
+          "title": "Rédemptions",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61204_320_470.jpg",
+          "runtimeMinutes": 114,
           "sessions": [
             {
-              "time": "20:30",
+              "time": "21:15",
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=595947&a=0000000001&l=9172&m=p1-la-bataille-de-gaulle-resistance-partie-1&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=595944&a=0000000001&l=9172&m=redemptions&ss=False",
               "seats": [
-                "AAAA...AAAAAAAAAAA.AAAA",
-                "AAAA....AAAAAAAAAA.AAAA",
-                "AAAA...AAAAAAAAAAA.AAAA",
-                "AAAA....AAAAAAAAAA.AAAA",
-                "AAAA...AAAAAAAAAAA.AAAA",
-                "AAAA....AAAAAAAAAA.AAAA",
-                "AAAA...AAAAAAAAAAA.AAAA",
-                "AAAA....AAAAAAAAAA.AAAA",
-                "AAA....................",
-                ".......................",
-                "AAA......AAAAAAAA......",
-                "AAAA...AAAOOAAOOOA.AAAA",
-                "AAAA..AAAAAOOAAAAA.AAAA",
-                "AAAA...AAAAOOOAAAA.AAAA",
-                "AAAA..AAAAOOAAAAAA.AAAA",
-                "AAAA...AAAAAAAAAAAAAAAA"
+                "....................",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAA...",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AA...AAAAAAA..AA..",
+                "...................."
               ],
-              "layoutKey": "595947"
+              "layoutKey": "595944"
             }
           ]
         },
@@ -13679,7 +13642,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAA..",
                 "..AAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAA.....",
                 "...................."
@@ -13705,39 +13668,13 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAOO..",
                 "...AAAAAAOAAAAAA....",
                 "...................."
               ],
               "layoutKey": "595940"
-            }
-          ]
-        },
-        {
-          "title": "Rédemptions",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61204_320_470.jpg",
-          "runtimeMinutes": 114,
-          "sessions": [
-            {
-              "time": "21:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=595944&a=0000000001&l=9172&m=redemptions&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAA..",
-                "..AA...AAAAAAA..AA..",
-                "...................."
-              ],
-              "layoutKey": "595944"
             }
           ]
         },
@@ -14958,7 +14895,7 @@
                 ".AAAA...................",
                 "........................",
                 ".AAAA....AAAOOAAA.......",
-                ".AAAA...AAAOOOAOOAA.AAAA",
+                ".AAAA...OAAOOOAOOAA.AAAA",
                 ".AAAA..AAAAAAAAAAAA.AAAA",
                 ".AAAA...AAAAAAAAAAA.AAAA",
                 ".AAAA..AAAAAAAAAAAA.AAAA",
@@ -14984,7 +14921,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA...",
                 "..AAAAAAAOAAAAAAAA..",
-                "..AAAAOAOOOAAAAAAA..",
+                "..AAAAOAOOOOAAAAAA..",
                 "..AAAAOOAOOAAAAAA...",
                 "..AAAAAAAOOAAAAAAA..",
                 "..AA...OOOOOOO..AA..",
@@ -17894,7 +17831,7 @@
                 "..AAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAOOOOAAAAAA..",
-                "..AAAAOAAOOOOAAAA...",
+                "..AAAAOAOOOOOAAAA...",
                 "..AAAAAAOOOAAAAAAA..",
                 "..AA...AAAAAAA..AA..",
                 "...................."

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T23:56:13.397Z",
+  "updatedAt": "2026-09-20T00:31:03.692Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -55,34 +55,6 @@
         "SSS..SSSSSSSSSS..SSS",
         "SSS..SSSCW.WCSS..SSS",
         "SCW..............SSS"
-      ]
-    },
-    "125453": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS...SSSSCWWCSSS..SSS",
-        "SCW..................."
       ]
     },
     "125454": {
@@ -191,28 +163,6 @@
         "SS..SSSSSSSS..SS",
         "SS..SSSSSSSS..SS",
         "SS...WCSSSCW..SS"
-      ]
-    },
-    "125463": {
-      "totalRows": 7,
-      "totalColumns": 14,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSS..CW",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SS..CW..WC..CW"
       ]
     },
     "125464": {
@@ -1468,26 +1418,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "17:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125453&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
-              "seats": [
-                "A??..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAOOOOAAAA..AAA",
-                "AAO..OOOOOOOOOOAA..AAA",
-                "AAA..OOOO?OOOOOOO..AAA",
-                "AAA..OOOOOOOOOOAA..AAA",
-                "AAA..OOOOOO?AOOOO..AAA",
-                "AOO..OOOOOOOOOOOO..AAA",
-                "AOO...AOOAAAAAA?A..AAA",
-                "???..................."
-              ],
-              "layoutKey": "125453"
-            },
-            {
               "time": "19:30",
               "formats": [
                 "Recliner"
@@ -1496,8 +1426,8 @@
               "seats": [
                 "A??..AAAAAAAAAAAA..AAA",
                 "AAA..OOAAAAAAAAAA..AAA",
-                "AAA..AAAAAOAAAAAA..AAA",
-                "AOO..OOOOOOOOOOOO..AAA",
+                "AAA..AAAAAOOOAAAA..OOA",
+                "AOO..OOOOOOOOOOOO..OOA",
                 "AAA..OOOO?AOOAOOO..OOA",
                 "AOO..OOOOOOOOOOOO..OOA",
                 "AOO..OOOOOO?OOOOO..OOO",
@@ -1519,8 +1449,8 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAA?AAAOOAA..AAA",
-                "AOO..AAAAOOOOAAAA..AAA",
-                "AAA..AAAAOO?AAAAA..OOA",
+                "AOO..AAAAOOOOAAAA..OOA",
+                "AAA..AAAAOO?AAAAO..OOA",
                 "AAA..OOOAOOAAAAAA..AAA",
                 "AOA...AOOOOOAAA?O..AAA",
                 "???..................."
@@ -1622,23 +1552,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "17:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125463&a=0000000001&l=1410&m=the-odyssey&ss=False",
-              "seats": [
-                "AAAAA??AAAAAA?",
-                "AAAAAAAAAAAA?A",
-                "OOOOOOOOOOOAOO",
-                "OOOO?OOOOA..AA",
-                "AOOOOOOOO?OOOO",
-                "OOOOOOOOOOOOOA",
-                "AO..AA..AA..AA"
-              ],
-              "layoutKey": "125463"
-            },
-            {
               "time": "21:05",
               "formats": [
                 "Recliner"
@@ -1670,7 +1583,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125461&a=0000000001&l=1410&m=coyote-vs-acme-2026&ss=False",
               "seats": [
                 "AA..AAOOOAAA..AA",
-                "AA..AAA?AAAA..AA",
+                "AA..OOO?AAAA..AA",
                 "AA..AAOOAA??..?A",
                 "?A..OOOOOOOA..AA",
                 "AA...AAOOOAA..AA"
@@ -1758,7 +1671,7 @@
                 "AAA..AAAA?AOOAAAO..AAA",
                 "AAA..AAAAOOOOAAAA..AAA",
                 "AAA..OOAAOO?OOAAA..AAA",
-                "AAA..AAAAAAOOAAAA..AAA",
+                "AAA..AAAOAAOOAAAA..AAA",
                 "AOO...AAAAAAAAA?A..AAA",
                 "???..................."
               ],
@@ -1815,7 +1728,7 @@
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
                 "?AAOOOOAAAAAA",
-                "AOOAAOOOOAAAA",
+                "AOOOOOOOOAAAA",
                 "AAAOOOOOOOOOA",
                 "AOOAOOOOOOO..",
                 "OOAAA.AAAOO.."
@@ -2002,7 +1915,7 @@
                 "A??..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
+                "AAA..AAAAAAOOAAAA..AAA",
                 "AAA..AAAA?AAAAAAA..AAA",
                 "AAA..AAAAAAOOAAAA..AAA",
                 "AAA..AAAAOO?AAAAA..AAA",

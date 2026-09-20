@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T23:56:52.541Z",
+  "updatedAt": "2026-09-20T00:31:38.436Z",
   "theatre": {
     "id": 1129,
     "name": "Cineplex Odeon Victoria Cinemas"
@@ -845,34 +845,6 @@
         "......WWCCSSSSSSSS"
       ]
     },
-    "217271": {
-      "totalRows": 10,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "..................",
-        "......SSSSSSSSSSSS",
-        ".....SSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "..WCSSSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "..SSSSSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "......WWCCSSSSSSSS"
-      ]
-    },
     "217275": {
       "totalRows": 7,
       "totalColumns": 19,
@@ -1411,30 +1383,6 @@
         "..WWCSSSSSSSSSSSS.."
       ]
     },
-    "217322": {
-      "totalRows": 8,
-      "totalColumns": 34,
-      "rowLabels": [
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
-        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
-        "..................................",
-        ".............SSS...SSS.....SS.....",
-        "CWWCCW.......SSSSSSSSS.....SS.SSSS",
-        "SSSSSSS.SSSSSSSSSSSSSSSSSSSSS.SSS.",
-        "....SSS.SSSSSSSSSSSSSSSSSSSSS.SS..",
-        "......SSSSS....SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "217324": {
       "totalRows": 10,
       "totalColumns": 18,
@@ -1916,26 +1864,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "16:55",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217271&a=0000000001&l=1129&m=resident-evil-2026&ss=False",
-              "seats": [
-                "..................",
-                "......AAAOAAAAAAAA",
-                ".....AAAAAAAAAAAAA",
-                "...AAAAOOOAAOOAAAA",
-                "..AAAAAAAOOAAOAAAA",
-                "...AAOOOOOOAAAOOOA",
-                "..AAAAAAOOOAOOAAAA",
-                "...AAAOAAOOAOOAAAA",
-                "...AAAAOOAAOAAAAAA",
-                "......AAAAOOAAAAAA"
-              ],
-              "layoutKey": "217271"
-            },
-            {
               "time": "19:25",
               "formats": [
                 "Recliner"
@@ -1948,9 +1876,9 @@
                 "...AAAAOOOOOOAAAAA",
                 "..AAAAAOOOOOOAAAAA",
                 "...OOOOOOOOOOOOOAA",
-                "..OOAOOOOOOOOOAAOO",
-                "...OOOOOOOOOOOAAAA",
-                "...AOOOOOOOOOAAAAA",
+                "..OOAOOOOOOOOOOOOO",
+                "...OOOOOOOOOOOOOAA",
+                "...AOOOOOOOOOOOAAA",
                 "......AAAAOOOOAAAA"
               ],
               "layoutKey": "217270"
@@ -1971,7 +1899,7 @@
                 "..AAAAAOOAAOOAAAAA",
                 "...AAAAAOOAAAAAAAA",
                 "...AAAAAOOOOOOAAAA",
-                "......AAAAAAAAAAAA"
+                "......AAAAAAOOAAOO"
               ],
               "layoutKey": "217269"
             }
@@ -2036,7 +1964,7 @@
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAA?AAAAAAA..",
-                "..AAAAAAOOOOAAOOO..",
+                "..AAAAOOOOOOAAOOO..",
                 "..AAAAAAOOOAAAAAA..",
                 "..AAAA?AAAAAAAAAA.."
               ],
@@ -2162,24 +2090,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "16:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217322&a=0000000001&l=1129&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "..??AAAAAAAAAAAAAAAAAAAAAAAAAAAA??",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "..................................",
-                ".............AAA...AAA.....AA.....",
-                "AAAAAA.......AAAAOOAAA.....AA.????",
-                "AAAAAAA.AAAAAOOAAOOAAAAAAAOAA.???.",
-                "....AOO.AAAAAAAOOAAOOAA?AAAAA.AA..",
-                "......A?AAA....A??AA?AAAAAAAAAAA?A"
-              ],
-              "layoutKey": "217322"
-            },
-            {
               "time": "19:10",
               "formats": [
                 "Recliner"
@@ -2218,9 +2128,9 @@
                 "A?AAAAAAAAAAA..",
                 "AAAOOOAAAOOAA..",
                 "AAAAAAOOOOAAA..",
-                "AAAOOOOOAOAA?..",
+                "AAOOOOOOAOAA?..",
                 "AAAAOOAOOOOOO..",
-                "A?OOOOAAAA....."
+                "A?OOOOOOAA....."
               ],
               "layoutKey": "217260"
             },
@@ -2235,9 +2145,9 @@
                 ".A..AAA?AAAA...AAA.",
                 "AA..AAAAAAAAA..AAAA",
                 "AA..AAAAAAAAA..AA?A",
-                "AA..AAAAAOOAA..AAAA",
+                "AA..AAAAAOOAA..OOAA",
                 "AA..OOO?OOOOO..AAAA",
-                "OO..?OOOOOAAA..AA.A",
+                "OO..?OOOOOOOA..AA.A",
                 "..................."
               ],
               "layoutKey": "217263"
@@ -2286,7 +2196,7 @@
                 ".....AAAAAAAAAAAAA",
                 "...AAAAAAAAAAAAAAA",
                 "..AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA",
+                "...AAAAAOOAAAAAAAA",
                 "..AAAAAAOOAAAAAAAA",
                 "...AAAAAAAOOAAAAAA",
                 "...AAAAAAAAAAAAAAA",
@@ -3656,7 +3566,7 @@
                 "AA..AAAAAAAAA..AAAA",
                 "AA..AAAAAAAAA..AA?A",
                 "AA..OOOOAAAOO..AAAA",
-                "AA..AAA?AAAAA..AAAA",
+                "AA..AAA?AOOAA..AAAA",
                 "AA..?AAAAAAAA..AA.A",
                 "..................."
               ],
