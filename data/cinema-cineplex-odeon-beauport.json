@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T21:24:03.186Z",
+  "updatedAt": "2026-09-20T22:19:53.611Z",
   "theatre": {
     "id": 9181,
     "name": "Cinéma Cineplex Odeon Beauport"
@@ -2274,46 +2274,6 @@
       ]
     },
     "510230": {
-      "totalRows": 16,
-      "totalColumns": 35,
-      "rowLabels": [
-        "AA",
-        "BB",
-        "CC",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K",
-        "L"
-      ],
-      "seatTypes": [
-        "...SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS.",
-        "...................................",
-        ".....CW.WCSSSSSCW..WCSSSSCW.WC.....",
-        ".....SSSSSSSSSSSSSSSSSSSSSSSSS.....",
-        "....SSSSSSSSSSSSSSSSSSSSSSSSSS.....",
-        "....SSSSSSSSSSSSSSSSSSSSSSSSSS.....",
-        "....SSSSSSSSSSSSSSSSSSSSSSSSSS.....",
-        "SS..SSSSSSSSSSSSSSSSSSSSSSSSSS.....",
-        "SS...SSSSSSSSSSSSSSSSSSSSSSSSS..SSS",
-        "SS...SSSSSSSSSSSSSSSSSSSSSSSSS..SSS",
-        "SS...SSSSSSSSSSSSSSSSSSSSSSSSS..SSS",
-        "SS...SSSSSSSSSSSSSSSSSSSSSSSSS..SSS",
-        "SS...SSSSSSSSSSSSSSSSSSSSSSSSS..SSS",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "510731": {
       "totalRows": 16,
       "totalColumns": 35,
       "rowLabels": [
@@ -14438,33 +14398,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "17:10",
-              "formats": [
-                "UltraAVX",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=510731&a=0000000001&l=9181&m=vf-resident-evil-version-francaise&ss=False",
-              "seats": [
-                "...AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
-                "...................................",
-                ".....AA.AAAAAAAAA..AAAAAAAA.AA.....",
-                ".....AAAAAAAAAAAAAAAAAAAAAAAAA.....",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAAA.....",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAAA.....",
-                "....AAAAAAAAAAAAAAAAAAAAAAAAAA.....",
-                "AA..AAAAAAAAAAAAAOOOAAAAAAAAAA.....",
-                "AA...AAAAAAAAAAAAAAAOAAAAAAAOO..AAA",
-                "AA...AAAAAAAAAAAAAAAAAAAAAAAAA..AAA",
-                "AA...AAAAAAAAAAAOOOOOAAAAAAAAA..AAA",
-                "AA...AAAAAAAAAAAAOOAAAAAAAAAAA..AAA",
-                "AA...AAAAAAAAOOAAAAAAAAAAAAAAA..AAA",
-                "AAAAAAAAAOAAAAAAAOOOAAAAAAAAAAAAOOO"
-              ],
-              "layoutKey": "510731"
-            },
-            {
               "time": "18:50",
               "formats": [
                 "Regular"
@@ -14480,13 +14413,13 @@
                 "........AAAAAAAAAAOOAAAAAAAAA.......",
                 ".....AAAAAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAAAAAAAAAAAAAA....",
+                ".....AAAAAAAOOAAAOAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".....AAAAAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".....AAAAAAAAOOAAAAAAAAAAAAAAAAA..AA",
-                "AAA..AAAAAAAAAAAAAAAAOOOAAOOOOAA..AA",
+                ".....AAAAAAAAOOAAAOAAAAAAAAAAAAA..AA",
+                "AAA..AAAAAAAAAAAAAAAAOOOAAAAAAAO..AA",
                 "AAA..AAAAAAAAAAAAOOOAAAAAAAAAAAA..AA",
-                "AAA..AAAAAAAAAAAAOOOOAAAAAAAAAAA..AA",
-                "AAA..AAAAAAAAAAOOAAAAAAAAAAAAAAA..AA",
+                "OOO..AAAAAAAAAAAAOOOOAAAAAAAAAAA..AA",
+                "AAA..AAOOOOAAAAOOAAAOAAAAAAAAAAA..AA",
                 "AOO..AAAAAAAAAAAAAAOOOOOOAAAAAAA..AA",
                 "AAAAAAAAAAAAAOOAAOOAAAAAAAAAAAAAOOAA"
               ],
@@ -14510,12 +14443,12 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA.....",
                 "....AAAAAAAAAAAAOOAAAAAAAAAAAA.....",
                 "AA..AAAAAAAAAOOAAAAAAAAAAAAAAA.....",
-                "AA...AAAAAAAAAAAOOAAOAAAAAAAAA..AAA",
-                "AA...AAAAAAOOOAAAAAAAAOOAAAAAA..AAA",
+                "AA...AAAAAAOOOAAOOAAOAAAAAAAAA..AAA",
+                "AA...AAAAAAOOOAAOOAAAAOOAAAAAA..AAA",
                 "AA...AAAAAAAAAAOOOOOAAAAAAAAAA..AAA",
-                "AA...AAAAAAAAAAAOOAAAAAAAAAAAA..AAA",
+                "AA...AAAAAOOAAAAOOAAAAAAAAAAAA..AAA",
                 "AA...AAAAAAAAOOAAAAOOAAAAAAAAA..AAA",
-                "AAAAAAOOAAAAAOOOOOOAAOOOAAAAAAAAAAA"
+                "AAAAAAOOAAAAAOOOOOOAAOOOAAAAOOAAAAA"
               ],
               "layoutKey": "510732"
             }
@@ -14543,9 +14476,9 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAOAAAAAAAAAA...",
+                "...AAAAAAAAOOAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAOOAAAAAAAAA...",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..",
                 ".........................."
               ],
@@ -14576,7 +14509,7 @@
                 ".....AAAAAAAAAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAA.AAAAAAAAAOOAAAAAAAAAAA....",
-                ".AAA.AAAAAAAAAAAAAAAAAAAAAA....",
+                ".AAA.AAAAAAAAAAAAOOAAAAAAAA....",
                 ".AAA.AA.AA.AAA.AAA.AA.AAA.A....",
                 ".AAA.AA.AA.AAA.AAA.AA.AAA.A....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
@@ -14602,7 +14535,7 @@
                 ".....AAAAAAAAAAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAA.AAAAAAAAAOOAAAAAAAAAAA....",
-                ".AAA.AAAAAAAAAAAAAAAAAAAAAA....",
+                ".AAA.AAAAAAAAAAAAOOAAAAAAAA....",
                 ".AAA.AA.AA.AAA.AAA.AA.AAA.A....",
                 ".AAA.AA.AA.AAA.AAA.AA.AAA.A....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAAAAA.",
@@ -14629,12 +14562,12 @@
                 ".............................",
                 "....AAAAAAAAAAAAAAA.A........",
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAOOAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAOAAAAAAAAAA.....",
                 "..AAAAAAAAAAOOAAAAAAAAAA.....",
-                "..AAAAAAOOAAAAOOAAAAAAAA..AAA",
-                "..AAAAAAAAAAOOAAAAAAAAAA..AAA",
+                "..AAAAAAAOOAAAOOAAAOOOOO..AAA",
+                "..AAAAAOAAAAOOAAAAAAAAAA..AAA",
                 "..AAAAAAAOOAAAOOOOOAAAAA..AAA",
                 "..AAAAAAAAAAOOOOOOAAAAAA..AAA",
                 "AAAAAAAOAAAAOOAAAAAAAAAAAAAAA"
@@ -14660,13 +14593,13 @@
                 "AAAAAAAAAAAAAAAAA",
                 ".................",
                 "...AAAAAAAAAAA...",
-                "..OAAAAAAAAAAOOO.",
-                "..AAAAAAAAAAAAAA.",
-                "..AAOOAAOOAAAAAA.",
-                "..OOAAOOAAAAAAAA.",
-                "..AAAAAOOAAOOOAA.",
-                "..AAAAAAAAAAAAAA.",
-                "OOAAOOAAOOAAAAAAA",
+                "..OAAAAAOOAAAOOO.",
+                "..AAAAAOOAAOAAAA.",
+                "..AAOOAAOOAAOOAA.",
+                "..OOOOOOOOOOOOOO.",
+                "..OOOAAOOAAOOOAA.",
+                "..AAOOAAOOOAAAAA.",
+                "OOAAOOAAOOOOAAAOO",
                 "................."
               ],
               "layoutKey": "512045"
@@ -14696,7 +14629,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA.",
                 "...AAOOAAAAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAAAAAOOA.",
                 ".AAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "512050"
@@ -14727,7 +14660,7 @@
                 "...AAAAAAAAAAAOAAAAA...",
                 "...AAAOOAAOOAAAAAAAA...",
                 "...AAAAAAOOOOAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAA...",
+                "...AAAOOAAAAAAAAAAAA...",
                 ".OOAAAAAAAAOOAAAAAAAA..",
                 "......................."
               ],
@@ -14758,8 +14691,8 @@
                 "...AAAAAAAAAAAAOO...",
                 "...AAAAAOOOOAAAAA...",
                 "...AAAAAAAAAAAAOO...",
-                "...AAOOAAAAAAAAAA...",
-                ".AAAAAAAAOOAAAAAAA..",
+                "...AAOOAAAAAOAAAA...",
+                ".AAAAOOAAOOAAAAAAA..",
                 "...................."
               ],
               "layoutKey": "512061"
@@ -14785,7 +14718,7 @@
                 "....................",
                 "....AAAAAAAAAAAA....",
                 "...OOAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAA...",
+                "...AAAAAOOAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
@@ -14820,8 +14753,8 @@
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAOOAAAAAA...",
-                "...AAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAO...",
+                ".AAAAAOOAAAAAAAAAA..",
                 "...................."
               ],
               "layoutKey": "512060"
@@ -14845,15 +14778,15 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAAAAAAAAAA.",
                 "..........................",
-                ".....AAAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAOOOAAAAAAAAAA...",
+                ".....AAAAAAAAOAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAOO...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAOOOAAAAAAAA...",
+                "...AAAAAAAOOAAOOAAAAAAA...",
+                "...AAAAAAAAAAOAAAAAAAAA...",
+                "...OOAAAAAOOOAAAAAAAAAA...",
+                "...OOAAAAAAOOOOAAAAAAOO...",
+                "...AAAOOAAAAAOOAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAOAAAAAAA..",
                 ".........................."
               ],
               "layoutKey": "512051"
@@ -14881,10 +14814,10 @@
                 "..AAAAAAAAAAOAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAOOAA..",
                 "..AAOOAAAOOAAAAAAAAAAA..",
-                "..OOAAAAAAAOOAAAAAAAAA..",
-                "..AAAAAAAAAAOOOAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAA."
+                "..OOAAAAAAAOOAAAAAAAOO..",
+                "..OAAAAAAAAAOOOAAAOOAA..",
+                "..AAAAAAAAAAAAAAAOAAAA..",
+                "AAAAAAAAOAAAAAAAAAAAAAA."
               ],
               "layoutKey": "512070"
             }
@@ -14907,12 +14840,12 @@
                 "..AAAAAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAAAA.",
                 "....................",
-                ".....AAAAAAAAAAAA...",
+                ".....AAAAOOAAAAAA...",
                 "...AAAAAAAAAAAAOO...",
-                "...AAAAAAAAAAAAAA...",
                 "...AAAAAAOOAAAAAA...",
+                "...AAAAAAOOAAAAOO...",
                 "...OOAAAOOOOAAAOO...",
-                "...AAOOAAAAAAAAAA...",
+                "...AAAAAAOOAAAOAA...",
                 "...OOAAAAOOAAAAAA...",
                 ".AAAAAAAAAAAAAAAAA..",
                 "...................."
@@ -14975,9 +14908,9 @@
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAOOAA...",
+                "...AAAAAAAOAAOOAA...",
                 "...AAAAAAAAAAAAAA...",
-                ".AAAAAOAAOOAAAAAAA..",
+                ".AAAAAOAAOOAAAOAAA..",
                 "...................."
               ],
               "layoutKey": "512067"
@@ -15717,7 +15650,7 @@
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAA...",
+                "...AAAAAAOOAAAAAA...",
                 "...AAAAAAAAAAAAAA...",
                 ".AAAAAAAAAAAAAAAAA..",
                 "...................."
@@ -19908,8 +19841,8 @@
                 "...AAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAA.",
+                "..AAAAAOOAAAAAAA.",
                 "..AAAAAAAAAAAAAA.",
-                "..OOAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAAAA",
