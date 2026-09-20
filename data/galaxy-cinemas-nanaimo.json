@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T22:20:57.245Z",
+  "updatedAt": "2026-09-20T22:57:04.139Z",
   "theatre": {
     "id": 1141,
     "name": "Galaxy Cinemas Nanaimo"
@@ -439,54 +439,6 @@
         "..SSSSSSSSSSSSSSSSSSSS..",
         "...CWWCSSSSSSSSSSSSWC...",
         "........................"
-      ]
-    },
-    "218037": {
-      "totalRows": 7,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "...CWWCSSSSSSS..",
-        "................"
-      ]
-    },
-    "218038": {
-      "totalRows": 9,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSS..CWWCS..",
-        "..............."
       ]
     },
     "218040": {
@@ -1618,12 +1570,12 @@
               "seats": [
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAOOAAAAAAAA..",
-                "..AAAAAO?OOAAA..",
-                "..OOAAAOOAAAAA..",
+                "..AAOAAAAAAAAA..",
+                "..AAOOAAAAAAOO..",
+                "..AAAAAO?OOOOO..",
+                "..OOAAAOOAAAOO..",
                 "..AAAAOOOOAAAA..",
-                "..AAAAAAAAAAOO..",
+                "..OOOOAOOAAAOO..",
                 "...AAAAOOAAAA...",
                 "................"
               ],
@@ -1642,8 +1594,8 @@
                 "..AAOOOOOOOAAA..",
                 "..AAOOOO?OOAAA..",
                 "..AAAOOOOOOAOO..",
-                "..OOAAAOOOOAAA..",
-                "..AAAOOAAOOAAA..",
+                "..OOOOOOOOOAAA..",
+                "..AOOOOAAOOAAA..",
                 "...AAAAAOOAAA...",
                 "................"
               ],
@@ -1656,25 +1608,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
           "sessions": [
-            {
-              "time": "15:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=218038&a=0000000001&l=1141&m=practical-magic-2&ss=False",
-              "seats": [
-                "..???????????..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAOOAAOO..",
-                "..AAAAOOOOAAA..",
-                "..OOOOOOOAAOA..",
-                "..AAAA?OOAAAA..",
-                "..AAAA..AAAAA..",
-                "..............."
-              ],
-              "layoutKey": "218038"
-            },
             {
               "time": "18:40",
               "formats": [
@@ -1709,12 +1642,12 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=218040&a=0000000001&l=1141&m=spiderman-brand-new-day&ss=False",
               "seats": [
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..A?AAAOOAAOOOA..",
-                "..AAAOOOOOAAAAA..",
-                "..AAOOOO?AAAAAA..",
-                "..AAAAAAAAAAAA...",
+                "..AAAAAOOAAAAAA..",
+                "..AAAAAAOOAAAAA..",
+                "..A?OOOOOAAOOOA..",
+                "..AAAOOOOOAOOOO..",
+                "..AAOOOO?AOOOAA..",
+                "..AAAAAOOOAAAA...",
                 "................."
               ],
               "layoutKey": "218040"
@@ -1730,7 +1663,7 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA?AAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA?..",
+                "..AAAAAAAAAAOOAAAAAAA?..",
                 "...AAAAAAAOOOOAAAAAAA...",
                 "........................"
               ],
@@ -1752,7 +1685,7 @@
               "seats": [
                 "..AAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAA..",
-                "..OOOAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOOAAAAAAAAAA..",
                 "..AAAAAAAOOAAOOAAAAAAAA..",
                 "..AAAAAAAAAAAAAOOAAAAAA..",
                 "..AAAAAAAAOOAA...........",
@@ -1809,23 +1742,6 @@
           "runtimeMinutes": 98,
           "sessions": [
             {
-              "time": "15:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=218037&a=0000000001&l=1141&m=runner&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAA?AAA..",
-                "..AAAAAOAAAAAO..",
-                "..AAAAAAAAAAAA..",
-                "...AAAA?OOAAAO..",
-                "................"
-              ],
-              "layoutKey": "218037"
-            },
-            {
               "time": "18:15",
               "formats": [
                 "Recliner"
@@ -1859,7 +1775,7 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA?AAA..",
-                "..AAOOAAAAAAAAAAAAAAAA..",
+                "..AAOOAAOAAAOOOAAOOAAA..",
                 "..AAAAAAAAAAAAAAAAAAA?..",
                 "...AAAAAAAAAAAAAAAAAA...",
                 "........................"
@@ -1901,8 +1817,8 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAOOOAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "...AAAAAAA?A?A..",
+                "..AAAAAAAOOAAA..",
+                "...AAAAAAO?A?A..",
                 "................"
               ],
               "layoutKey": "218041"
@@ -1951,7 +1867,7 @@
                 "..OOOAOOAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "...AAAAAAAAAA...",
+                "...AAAAAAOOAA...",
                 "................"
               ],
               "layoutKey": "218057"

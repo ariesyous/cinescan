@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T22:19:52.077Z",
+  "updatedAt": "2026-09-20T22:55:44.475Z",
   "theatre": {
     "id": 9153,
     "name": "Cinéma Cineplex Odeon Carrefour Dorion"
@@ -1075,28 +1075,6 @@
         "..............."
       ]
     },
-    "196512": {
-      "totalRows": 7,
-      "totalColumns": 17,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSS.SSSS.",
-        "...WC.SSS.CW....."
-      ]
-    },
     "196515": {
       "totalRows": 12,
       "totalColumns": 13,
@@ -1157,68 +1135,6 @@
         "..SSSSSSSSSSSSSSS.",
         ".........WCSSSSCW.",
         ".................."
-      ]
-    },
-    "196524": {
-      "totalRows": 12,
-      "totalColumns": 18,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null,
-        null
-      ],
-      "seatTypes": [
-        "....SSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        ".........WCSSSSCW.",
-        "..................",
-        ".................."
-      ]
-    },
-    "196528": {
-      "totalRows": 11,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        ".SSSSSSSSS...",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSSS.",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSSS.",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSSS.",
-        ".SSSSSSSSSS..",
-        ".SSSSSSSSSSS.",
-        ".WCSCW.......",
-        "............."
       ]
     },
     "196529": {
@@ -2305,10 +2221,10 @@
                 "...AAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAOOAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
+                ".AAAAOOAAAAAAAAAA.",
+                "..AAAAAAOOOOAAAAA.",
+                ".AAAAAOOOAAAAAAAA.",
+                "..AAAOOAAAAAAAOOA.",
                 ".AAAAAAAOOAAAAAAA.",
                 ".........AAAAAAAA.",
                 ".................."
@@ -2335,43 +2251,14 @@
                 "..AAAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
                 "..AAAAAAOOAAAAAAA.",
-                "...AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAOOAA.",
+                "..AAAAAAOOAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 "........?AAAAAAAA.",
                 "..................",
                 ".................."
               ],
               "layoutKey": "196508"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man : Un jour nouveau",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61565_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196524&a=0000000001&l=9153&m=vf-spiderman-un-jour-nouveau&ss=False",
-              "seats": [
-                "....AAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".........AAAOOOAA.",
-                "..................",
-                ".................."
-              ],
-              "layoutKey": "196524"
             }
           ]
         },
@@ -2404,30 +2291,6 @@
           ]
         },
         {
-          "title": "La révolte",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61856_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196512&a=0000000001&l=9153&m=la-revolte&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAA?AAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAA???A.AAAA.",
-                "...A?.AAA.?A....."
-              ],
-              "layoutKey": "196512"
-            }
-          ]
-        },
-        {
           "title": "Coyote vs ACME (version française)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61524_320_470.jpg",
           "runtimeMinutes": 103,
@@ -2453,34 +2316,6 @@
                 "............."
               ],
               "layoutKey": "196515"
-            }
-          ]
-        },
-        {
-          "title": "Juste une illusion",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61859_320_470.jpg",
-          "runtimeMinutes": 119,
-          "sessions": [
-            {
-              "time": "18:35",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196528&a=0000000001&l=9153&m=juste-une-illusion&ss=False",
-              "seats": [
-                ".AAAAAAAAA...",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAOOOAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAAAAAAA..",
-                ".AAAAAAAAAAA.",
-                ".AAAAA.......",
-                "............."
-              ],
-              "layoutKey": "196528"
             }
           ]
         },

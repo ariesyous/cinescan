@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T22:20:19.622Z",
+  "updatedAt": "2026-09-20T22:56:17.354Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -61,32 +61,6 @@
         "SCW..................."
       ]
     },
-    "125470": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSCW.WCSS..SSS",
-        "SCW..............SSS"
-      ]
-    },
     "125473": {
       "totalRows": 7,
       "totalColumns": 14,
@@ -125,28 +99,6 @@
         "SS..SSSSSSSS..SS",
         "SS..SSSSSSSS..SS",
         "SS...WCSSSCW..SS"
-      ]
-    },
-    "125477": {
-      "totalRows": 7,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSCW",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSS..",
-        "SSSCW.WCSSS.."
       ]
     },
     "125478": {
@@ -1130,11 +1082,11 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAOOOAAAAA..AAA",
-                "AAA..AAAA?OOOOOAA..AAA",
+                "AAA..AAOA?OOOOOAA..AAA",
                 "AAA..AAAAOOOAOOAA..AAA",
                 "AAA..AAAOOO?OAAAA..OOO",
                 "AOO..OOOOOO?OAAOO..AAA",
-                "AAA...OOOOAAAAA?O..OOA",
+                "AOO...OOOOAAAAA?O..OOA",
                 "???..................."
               ],
               "layoutKey": "125469"
@@ -1150,9 +1102,9 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AOOOOOOOAAAA..AAA",
                 "AAA..AAAOOOOOAAAA..AAA",
-                "AAA..AAAA?AOOAAAO..AAA",
+                "AAA..AAOO?AOOAAAO..AAA",
                 "AAA..OOOOOOOOOOOO..AAA",
-                "AAA..OOOOOO?OOOAA..AAA",
+                "AAA..OOOOOO?OOOOO..AAA",
                 "AAA..OOAOOO?OOAOO..AAA",
                 "AOO...OAAAAAAAA?A..AAA",
                 "???..................."
@@ -1167,23 +1119,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "15:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125477&a=0000000001&l=1410&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAA??AAAAAAAA",
-                "AA?AAAAAA?A??",
-                "?OOAAAAAAAAAA",
-                "OOOOOOOOOOOOO",
-                "AOOOOOOOOOAOO",
-                "OOOOOOOOOOO..",
-                "OOOAA.AOOOO.."
-              ],
-              "layoutKey": "125477"
-            },
-            {
               "time": "18:45",
               "formats": [
                 "Recliner"
@@ -1191,7 +1126,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125479&a=0000000001&l=1410&m=practical-magic-2&ss=False",
               "seats": [
                 "AAA??AAAAAAAA",
-                "AA?AAAAAA?A??",
+                "AA?OOOOOA?A??",
                 "?AAOOOOOOAAAA",
                 "AOOOOOOOOOOAA",
                 "AOOOOOOOOOOOA",
@@ -1207,26 +1142,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "15:20",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125470&a=0000000001&l=1410&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAA..AAAAAAAAAA..???",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAOAOOOA?..AAA",
-                "AAA..AAAAOOOAAA..AAA",
-                "AAA..OOOAOOA??A..AAA",
-                "AAA..OAAAOOOAAA..AAA",
-                "AAA..AAAAOO?AAA..AAA",
-                "AAA..AAAAA.AAAA..AAA",
-                "???..............???"
-              ],
-              "layoutKey": "125470"
-            },
             {
               "time": "18:50",
               "formats": [
@@ -1286,8 +1201,8 @@
               "seats": [
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
-                "AA..AOOOOO??..?A",
-                "?A..AAOOOOOO..AA",
+                "OO..AOOOOO??..?O",
+                "?A..OOOOOOOO..OO",
                 "OO...AAOOAAA..AA"
               ],
               "layoutKey": "125475"
@@ -1302,7 +1217,7 @@
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
                 "AA..AAAAAA??..?A",
-                "?A..AAOOOOOO..OO",
+                "?A..AAAAOOOO..OO",
                 "AA...AAAAAAA..AA"
               ],
               "layoutKey": "125480"
