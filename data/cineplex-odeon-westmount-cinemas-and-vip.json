@@ -1,10 +1,34 @@
 {
-  "updatedAt": "2026-09-20T03:45:56.474Z",
+  "updatedAt": "2026-09-20T05:51:48.995Z",
   "theatre": {
     "id": 7112,
     "name": "Cineplex Odeon Westmount Cinemas and VIP"
   },
   "auditoriums": {
+    "234272": {
+      "totalRows": 8,
+      "totalColumns": 20,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSSSS...",
+        "....................",
+        "..CWCSCW.WCSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSS."
+      ]
+    },
     "236357": {
       "totalRows": 11,
       "totalColumns": 26,
@@ -4039,7 +4063,7 @@
                 "..........",
                 "..AAAA.AAA",
                 "..AAAAOOOO",
-                "..AAAOAAAA",
+                "..OAAOAAAA",
                 "..AAOOAAAA",
                 "??AAOOAAAA"
               ],
@@ -4082,7 +4106,7 @@
                 "..AAAAAAAA",
                 "..AAOAAAAA",
                 "..AAAAAAAA",
-                "??AAAAAAOO"
+                "??AAOOAAOO"
               ],
               "layoutKey": "237159"
             },
@@ -4179,7 +4203,7 @@
                 "..AAAAA.AAAAAA.....",
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAA.....",
+                "..AAAAAAOOAAAA.....",
                 "..AAAAOOAAAAAA.....",
                 "..OOAAOO?OOAAA..???"
               ],
@@ -6844,6 +6868,36 @@
                 "..AAAOOAAAAAAAAAAAA."
               ],
               "layoutKey": "237095"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "movies": [
+        {
+          "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61729_320_470.jpg",
+          "runtimeMinutes": 240,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=234272&a=0000000001&l=7112&m=est-cosi-fan-tutte-mozart-italian-west-met&ss=True",
+              "seats": [
+                "..AAAAAAAAAAAAAAA...",
+                "....................",
+                "..AAAAAA.AAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                "..OOAAOOOAAAAAOO....",
+                "..OOAAAAAOOOOOOO....",
+                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAA."
+              ],
+              "layoutKey": "234272"
             }
           ]
         }

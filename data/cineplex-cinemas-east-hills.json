@@ -1,39 +1,11 @@
 {
-  "updatedAt": "2026-09-20T03:44:51.048Z",
+  "updatedAt": "2026-09-20T05:51:01.105Z",
   "theatre": {
     "id": 3152,
     "name": "Cineplex Cinemas East Hills"
   },
   "auditoriums": {
     "58545": {
-      "totalRows": 11,
-      "totalColumns": 28,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSSSSSSSS..",
-        "............................",
-        "...CW.WCSSSSSSSSSSSCWWCSS...",
-        "..SSSSSSSSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSSS..",
-        "..DDDD.DDDDDDD.DDDDDDD.DDD.."
-      ]
-    },
-    "58908": {
       "totalRows": 11,
       "totalColumns": 28,
       "rowLabels": [
@@ -867,74 +839,6 @@
         "..SSSSSSSSSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSSSSSSSS..",
         "..DDDD.DDDDDDD.DDDDDDD.DDD.."
-      ]
-    },
-    "59264": {
-      "totalRows": 8,
-      "totalColumns": 22,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSSSSS..",
-        "......................",
-        ".....CWWCSSSSSSSSWC...",
-        "....SSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "59275": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "...SSSSSSSSS...",
-        "...............",
-        "..SSSSCWWC.....",
-        "..SSSSSSSSS....",
-        "..SSSSSSSSS....",
-        "..SSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSS"
-      ]
-    },
-    "59277": {
-      "totalRows": 7,
-      "totalColumns": 18,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSS..",
-        "..................",
-        "..SSSSSSSCWWC.....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS"
       ]
     },
     "59282": {
@@ -2300,137 +2204,6 @@
   },
   "days": [
     {
-      "date": "2026-09-19",
-      "movies": [
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "22:00",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=58908&a=0000000004&l=3152&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                "...AA.AAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAOOOOOOAAOOOOAAAAAAAAAA..",
-                "..AAAAOOAAAOOOOOOAAAAAAAAA..",
-                "..AAAAAOOOAAOOOOOOOOOAOOAA..",
-                "..OOAAOOOOOOAOOOOAAAOOAAAA..",
-                "..OOA?.AOOOOO?.OOOOOAO.OOO.."
-              ],
-              "layoutKey": "58908"
-            },
-            {
-              "time": "22:00",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=58908&a=0000000001&l=3152&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "............................",
-                "...AA.AAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAAAAA...",
-                "..AAOOOOOOAAOOOOAAAAAAAAAA..",
-                "..AAAAOOAAAOOOOOOAAAAAAAAA..",
-                "..AAAAAOOOAAOOOOOOOOOAOOAA..",
-                "..OOAAOOOOOOAOOOOAAAOOAAAA..",
-                "..OOA?.AOOOOO?.OOOOOAO.OOO.."
-              ],
-              "layoutKey": "58908"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "21:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59277&a=0000000001&l=3152&m=practical-magic-2&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAA..",
-                "..................",
-                "..AAAAAAAAAAA.....",
-                "..AAAAAAAAAAAA....",
-                "..OOOOAAOOAAAA....",
-                "..AAOOAAAAAAOOAA..",
-                ".AAOOAAOOOOOAAAAAA"
-              ],
-              "layoutKey": "59277"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "21:50",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59264&a=0000000001&l=3152&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AAAAAAAAAAAAAA...",
-                "....AAAAAAOOAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAOOOOAAAAAAA..",
-                "..AAAAAAAOOOAAAOOAAA..",
-                "AAAAAAAAOOOOOOAAAAAAAA"
-              ],
-              "layoutKey": "59264"
-            }
-          ]
-        },
-        {
-          "title": "Insidious: Out of the Further",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "22:05",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59275&a=0000000001&l=3152&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "...AAAAAAAAA...",
-                "...............",
-                "..AAAAAAAA.....",
-                "..AAAAAAAAA....",
-                "..AAOOOOOAA....",
-                "..AAAOOOAAAAA..",
-                ".OOAOAOOOOAOOAA"
-              ],
-              "layoutKey": "59275"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-20",
       "movies": [
         {
@@ -2564,7 +2337,7 @@
                 "..AAAAAAAAAAOOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOAAAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAOOAAAAAAAAAAA..",
+                "..AAOOOAAAAAAOOAAAAAAAAAAA..",
                 "..AAA?.AAAAAA?.OOOOOAA.AAA.."
               ],
               "layoutKey": "58911"
@@ -2586,7 +2359,7 @@
                 "..AAAAAAAAAAOOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOAAAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAOOAAAAAAAAAAA..",
+                "..AAOOOAAAAAAOOAAAAAAAAAAA..",
                 "..AAA?.AAAAAA?.OOOOOAA.AAA.."
               ],
               "layoutKey": "58911"
@@ -2628,7 +2401,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOOAAAAAAAAAA..",
-                "..AAAAAAAAAAAOOAAAAAAAAAAA..",
+                "..AAAAAAAAAAOOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOOAAAAAAAAAAA..",
                 "..AAA?.AAAAAA?.AAAAAAA.AAA.."
               ],
@@ -2650,7 +2423,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOOAAAAAAAAAA..",
-                "..AAAAAAAAAAAOOAAAAAAAAAAA..",
+                "..AAAAAAAAAAOOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOOAAAAAAAAAAA..",
                 "..AAA?.AAAAAA?.AAAAAAA.AAA.."
               ],
@@ -2855,7 +2628,7 @@
                 "..AAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAOOAAAA....",
-                "..AAAAAAAAAOOAAA..",
+                "..AAOOOAAAAOOAAA..",
                 ".AAAAAAAOOAAAAAAAA"
               ],
               "layoutKey": "59286"
@@ -3379,7 +3152,7 @@
                 "..AAAAAAAAAAOOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOOOOOAAAAAAAAA..",
-                "..OOAAAAAAAAAOOAAAOOAAAAAA..",
+                "..OOAAAAAAAAAOOOOAOOAAAAAA..",
                 "..AAA?.AAAAAA?.OOAAAAA.AAA.."
               ],
               "layoutKey": "58915"
@@ -3401,7 +3174,7 @@
                 "..AAAAAAAAAAOOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOOOOOAAAAAAAAA..",
-                "..OOAAAAAAAAAOOAAAOOAAAAAA..",
+                "..OOAAAAAAAAAOOOOAOOAAAAAA..",
                 "..AAA?.AAAAAA?.OOAAAAA.AAA.."
               ],
               "layoutKey": "58915"

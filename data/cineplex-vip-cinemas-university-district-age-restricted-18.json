@@ -1,40 +1,10 @@
 {
-  "updatedAt": "2026-09-20T03:45:57.297Z",
+  "updatedAt": "2026-09-20T05:51:51.010Z",
   "theatre": {
     "id": 3157,
     "name": "Cineplex VIP Cinemas University District (age restricted 18+)"
   },
   "auditoriums": {
-    "23037": {
-      "totalRows": 11,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "..............",
-        ".SSSSSSSSSS...",
-        "..............",
-        ".CWCSSCW.WC...",
-        ".SSSSSSSSSS...",
-        ".SSSSSSSSSS...",
-        ".SSSSSSSSSS...",
-        ".SSSSSSSSSSS..",
-        ".SSSSSSSSSSS..",
-        ".SSSSSSSSSSS..",
-        ".SSSSSSSSSSSS."
-      ]
-    },
     "23041": {
       "totalRows": 11,
       "totalColumns": 14,
@@ -216,36 +186,6 @@
       ]
     },
     "23048": {
-      "totalRows": 11,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "..............",
-        ".SSSSSSSSSS...",
-        "..............",
-        ".CWCSSCW.WC...",
-        ".SSSSSSSSSS...",
-        ".SSSSSSSSSS...",
-        ".SSSSSSSSSS...",
-        ".SSSSSSSSSSS..",
-        ".SSSSSSSSSSS..",
-        ".SSSSSSSSSSS..",
-        ".SSSSSSSSSSSS."
-      ]
-    },
-    "23208": {
       "totalRows": 11,
       "totalColumns": 14,
       "rowLabels": [
@@ -1250,69 +1190,6 @@
   },
   "days": [
     {
-      "date": "2026-09-19",
-      "movies": [
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "22:15",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23037&a=0000000001&l=3157&m=resident-evil-2026&ss=False",
-              "seats": [
-                "..............",
-                ".AAOOOAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAOOAAOOAA...",
-                ".OOOOOOOOOO...",
-                ".OOOOOOOOOA...",
-                ".OOOOOOOOOOO..",
-                ".OOOOOOOOO?O..",
-                ".OOOOOOOOOAO..",
-                ".OO?AOOOOOOOO."
-              ],
-              "layoutKey": "23037"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "21:45",
-              "formats": [
-                "VIP 18+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23208&a=0000000001&l=3157&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAAAAAAAA...",
-                ".AAAAOOAAAA...",
-                ".A?AAO?OOAA...",
-                ".AAAAOOOAAAA..",
-                ".AOOOOOOOAAA..",
-                ".AAAAOOAAAAA..",
-                ".A?AAOOAAOOAA."
-              ],
-              "layoutKey": "23208"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-20",
       "movies": [
         {
@@ -1335,7 +1212,7 @@
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAA..",
                 ".AAOOAAAAA?..",
-                ".AAAAOOAAOOO.",
+                ".AOOOOOAAOOO.",
                 ".AAOOOOOAAAA.",
                 ".AOO.....AAAA"
               ],
@@ -1379,7 +1256,7 @@
                 ".AAOOOOOOAA..",
                 ".AAOOOOOOA?..",
                 ".AAOOOOOOOAA.",
-                ".AAAAOOAAAAA.",
+                ".AAOOOOAAAAA.",
                 ".AAA.....AAAA"
               ],
               "layoutKey": "23231"
@@ -1419,7 +1296,7 @@
                 ".............",
                 ".AAAAAAA.AA..",
                 ".AAAAAAAAAA..",
-                ".AAAAAAAAAA..",
+                ".AAAAAAAAOO..",
                 ".AAAAOOOOO?..",
                 ".OOOOOOOOAAA.",
                 ".AAAAOOOAOOA.",
@@ -1465,8 +1342,8 @@
                 ".AAAAAAAAAA...",
                 ".AAAAOOAAAA...",
                 ".AAAAAAAAAAA..",
-                ".AAAAOOAAA?A..",
-                ".AAAAOOAAAAA..",
+                ".AAAAOOAAO?A..",
+                ".OOOAOOAAAAA..",
                 ".OO?AAAOOAAOO."
               ],
               "layoutKey": "23043"
@@ -1496,7 +1373,7 @@
                 ".OOAAOOAAAAA..",
                 ".OOOOAOOOOOA..",
                 ".AAOOOOOOAAA..",
-                ".A?AAOOOOOAAA."
+                ".A?OOOOOOOAAA."
               ],
               "layoutKey": "23225"
             },
@@ -1517,7 +1394,7 @@
                 ".A?AAA?OOOO...",
                 ".OOAAOOOOOOA..",
                 ".AAAAOOOAAAA..",
-                ".OOOOOAOOAAA..",
+                ".OOOOOAAAAAA..",
                 ".A?AOOOOOOOAA."
               ],
               "layoutKey": "23226"
@@ -1736,7 +1613,7 @@
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAA?..",
                 ".AAAAAAAAAAA.",
-                ".AAAAAAAAAAA.",
+                ".AAAAOOAAAAA.",
                 ".AAA.....AAAA"
               ],
               "layoutKey": "23236"
@@ -2103,7 +1980,7 @@
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAA?..",
-                ".AAAAAAAAAAA.",
+                ".AAAAOOAAAAA.",
                 ".AAAAAAAAAAA.",
                 ".AAA.....AAAA"
               ],

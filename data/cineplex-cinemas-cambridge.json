@@ -1,10 +1,38 @@
 {
-  "updatedAt": "2026-09-20T03:44:45.147Z",
+  "updatedAt": "2026-09-20T05:50:56.826Z",
   "theatre": {
     "id": 7269,
     "name": "Cineplex Cinemas Cambridge"
   },
   "auditoriums": {
+    "220992": {
+      "totalRows": 10,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        "......................",
+        "......SSSSSSSSSSS.....",
+        "....SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "....CWCCWWCCWWCCWSS...",
+        "......................"
+      ]
+    },
     "222783": {
       "totalRows": 9,
       "totalColumns": 22,
@@ -2830,7 +2858,7 @@
                 "...??AAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAOOOOAAAAAAAAA..",
-                "...AAAAAAAAAOOOAAAAAAAAA..",
+                "...AAAAAAOOOOOOAAAAAAAAA..",
                 "...AAAAAAAAAOOOAAAAAOOAA..",
                 "...AAAAAAOAAAAAAAAAAAOOO..",
                 "........AAAAAAAAAAAAAAAA..",
@@ -3022,7 +3050,7 @@
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAA?AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAA...",
                 "......................"
@@ -3284,7 +3312,7 @@
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAOO..",
                 "..AAAAAAAAAOAAAAAAAA..",
-                "....AAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAOO...",
                 "......................"
               ],
               "layoutKey": "223054"
@@ -3836,7 +3864,7 @@
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAA?AAOOOOAAAAAAA..",
                 "..AAAAAAAAOOOAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAA...",
                 "......................"
               ],
@@ -4074,7 +4102,7 @@
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
-                "..AAAAOOAAAAAAAA..",
+                "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAA...",
                 ".................."
@@ -5097,6 +5125,38 @@
                 "......................"
               ],
               "layoutKey": "222800"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "movies": [
+        {
+          "title": "Così fan tutte (Mozart) Italian w/e.s.t. – Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61729_320_470.jpg",
+          "runtimeMinutes": 240,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=220992&a=0000000001&l=7269&m=est-cosi-fan-tutte-mozart-italian-west-met&ss=True",
+              "seats": [
+                "......................",
+                "......AAAAAAAAAAA.....",
+                "....AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA...",
+                "......................"
+              ],
+              "layoutKey": "220992"
             }
           ]
         }
