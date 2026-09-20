@@ -1,46 +1,10 @@
 {
-  "updatedAt": "2026-09-20T20:12:51.512Z",
+  "updatedAt": "2026-09-20T21:25:45.222Z",
   "theatre": {
     "id": 1407,
     "name": "SilverCity Mission Cinemas"
   },
   "auditoriums": {
-    "283775": {
-      "totalRows": 14,
-      "totalColumns": 25,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".........................",
-        "..SSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSS..",
-        ".........................",
-        "......W.WCSSSSSSSCW.W..SS",
-        "......SSSSSSSSSSSSSSS..SS",
-        "......SSSSSSSSSSSSSSS..SS",
-        "......SSSSSSSSSSSSSSS..SS",
-        "......SSSSSSSSSSSSSSS..SS",
-        "SSSS..SSSSSSSSSSSSSSS..SS",
-        "SSSS..SSSSSSSSSSSSSSS..SS",
-        "SSSS..SSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "283776": {
       "totalRows": 14,
       "totalColumns": 25,
@@ -2514,38 +2478,6 @@
         "..SSSSSSSSSSSSSS......",
         "..SSSSSSSSSSSSSS......",
         "..SSSSSSSSSSSSSS..SSSS",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "284448": {
-      "totalRows": 12,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "......................",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "......................",
-        "......W.WCSSSSSSSCW...",
-        "......SSSSSSSSSSSSSS..",
-        "......SSSSSSSSSSSSSS..",
-        "......SSSSSSSSSSSSSS..",
-        "......SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
@@ -5234,30 +5166,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "13:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=283775&a=0000000001&l=1407&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".........................",
-                "..AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAOAAAAAAAAAA..",
-                ".........................",
-                "......A.AAAAAAAAAAA.A..AA",
-                "......AAAAAAAAAAAAAAA..AA",
-                "......AAAAAAAAAAAAAAA..AA",
-                "......AAAAAOOOAAAAAAA..AA",
-                "......AAAAAAAAAAAAAAA..AA",
-                "AAAA..AAAAAAAAAAAAAAA..AA",
-                "AAAA..AAAAAAAAAAAAAAA..AA",
-                "AAAA..AAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAOOOAAAAAAAAAA"
-              ],
-              "layoutKey": "283775"
-            },
-            {
               "time": "16:20",
               "formats": [
                 "Regular"
@@ -5437,11 +5345,11 @@
                 "......A.AAAAAAAAAAAA.A...",
                 "......AAAAAAAAAAAAAAAA...",
                 "......AAAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAAAA...",
+                "......AAAAAOOOAAAAAAAA...",
+                "......AOOOAAAAAAAAAAAA...",
+                "AAAA..AAAAAAOOOOAAAAAA...",
                 "AAAA..AAAAAAAAAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAAA."
+                "AAAAAAAAAOOOOOOAAAAAAAAA."
               ],
               "layoutKey": "284446"
             },
@@ -5594,28 +5502,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "13:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=284448&a=0000000001&l=1407&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                "......A.AAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA..",
-                "......AAAAAAAAAAAAAA..",
-                "......AAAAAAAAAAAAAA..",
-                "......AAAAAAAAOOOAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "284448"
-            },
-            {
               "time": "16:00",
               "formats": [
                 "Regular"
@@ -5684,12 +5570,12 @@
                 "....AA..AAAAAAAAAAAAA..AAAAAA",
                 "....AA..AAAAAAAAAAAAA..AAAAAA",
                 "....AA..AAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA..AAAAAAA?AAAAA..AAAAAA",
+                "AAAAAA..AAAOOOO?AAAAA..AAAAAA",
+                "AAAAAA..AAAAAAAAAAOOO..AAAAAA",
+                "AAAAAA..AAAAAAAAAOOOO..AAAAAA",
                 "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
-                "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
-                "AA??AA..AAAAOOAAAOOAA..AAAAAA",
-                "AAAAAAOAAOOAAAAAOOOOOAAAAAAAA"
+                "AA??AA..OOAAOOAAAOOAA..AAAAAA",
+                "AAAAAAOAAOOAAAAAOOOOOAAAAAAOO"
               ],
               "layoutKey": "284462"
             }
@@ -5835,9 +5721,9 @@
                 "..AAAAAAAAAAAAAA......",
                 "..AAAAAAAAAAAAAA......",
                 "..AAAAAAAAAAAAAA......",
-                "..AAAAAAAAAAAAAA......",
+                "..AAAAAAOOAAAAAA......",
                 "..AAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAOOAAAAAAAAAA"
               ],
               "layoutKey": "284447"
             },
@@ -5856,7 +5742,7 @@
                 "...AAAAAAAAAAA.A......",
                 "..AAAAAAAAAAAAAA......",
                 "..AAAAAAAAAAAAAA......",
-                "..AAAAAAAAAAAAAA......",
+                "..AAAAAAAOOOAAAA......",
                 "..AAAAAAAAAAAAAA......",
                 "..AAAAAAAAAAAAAA..AAAA",
                 "AAAAAAAAAAAAAAAAAAAAAA"
@@ -5940,13 +5826,13 @@
                 "AAAAAA..AAAAAAAAAAAAA..AA....",
                 "AAAAAA..AAAAAAAAAAAAA..AA....",
                 "AAAAAA..AAAAAAAAAAAAA..AA....",
-                "AAAAAA..??AAAAAAAAAAA..AA....",
+                "AAAAAA..??AAAOOOAAAAA..OO....",
                 "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
                 "AAAAAA..AAAAOOOOOAAAA..AAAAAA",
                 "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
                 "AAAAAA..AAAAAAOOAAAAA..AAAAAA",
                 "AAAAAA..AAAAAAAAAAAAA..AAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAOOAAAAAOOOAAAAAAAAAAAOO"
               ],
               "layoutKey": "284464"
             },
@@ -6262,6 +6148,35 @@
           ]
         },
         {
+          "title": "Hope (Korean w/e.s.t.)",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61598_320_470.jpg",
+          "runtimeMinutes": 157,
+          "sessions": [
+            {
+              "time": "18:35",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=284484&a=0000000001&l=1407&m=hope-korean-west&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                "...AAAAAAAAAAA.A......",
+                "..AAAAAAAAAAAAAA......",
+                "..AAAAAAAAAAAAAA......",
+                "..AAAAAAAAAAAAAA......",
+                "..AAAAAAAAAAAAAA......",
+                "..AAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "284484"
+            }
+          ]
+        },
+        {
           "title": "The Weight",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62071_320_470.jpg",
           "runtimeMinutes": 113,
@@ -6288,35 +6203,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "284478"
-            }
-          ]
-        },
-        {
-          "title": "Hope (Korean w/e.s.t.)",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61598_320_470.jpg",
-          "runtimeMinutes": 157,
-          "sessions": [
-            {
-              "time": "18:35",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=284484&a=0000000001&l=1407&m=hope-korean-west&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                "...AAAAAAAAAAA.A......",
-                "..AAAAAAAAAAAAAA......",
-                "..AAAAAAAAAAAAAA......",
-                "..AAAAAAAAAAAAAA......",
-                "..AAAAAAAAAAAAAA......",
-                "..AAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "284484"
             }
           ]
         }
@@ -7657,6 +7543,35 @@
           ]
         },
         {
+          "title": "Hope (Korean w/e.s.t.)",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61598_320_470.jpg",
+          "runtimeMinutes": 157,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=284504&a=0000000001&l=1407&m=hope-korean-west&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                "...AAAAAAAAAAA.A......",
+                "..AAAAAAAAAAAAAA......",
+                "..AAAAAAAAAAAAAA......",
+                "..AAAAAAAAAAAAAA......",
+                "..AAAAAAAAAAAAAA......",
+                "..AAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "284504"
+            }
+          ]
+        },
+        {
           "title": "The Weight",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62071_320_470.jpg",
           "runtimeMinutes": 113,
@@ -7683,35 +7598,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "284499"
-            }
-          ]
-        },
-        {
-          "title": "Hope (Korean w/e.s.t.)",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61598_320_470.jpg",
-          "runtimeMinutes": 157,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=284504&a=0000000001&l=1407&m=hope-korean-west&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                "...AAAAAAAAAAA.A......",
-                "..AAAAAAAAAAAAAA......",
-                "..AAAAAAAAAAAAAA......",
-                "..AAAAAAAAAAAAAA......",
-                "..AAAAAAAAAAAAAA......",
-                "..AAAAAAAAAAAAAA..AAAA",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "284504"
             }
           ]
         }

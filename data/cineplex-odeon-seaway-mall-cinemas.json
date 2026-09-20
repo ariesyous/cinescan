@@ -1,41 +1,11 @@
 {
-  "updatedAt": "2026-09-20T20:12:12.314Z",
+  "updatedAt": "2026-09-20T21:25:08.417Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
   },
   "auditoriums": {
     "153340": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "......SSSSCW.WCSSSSS..",
-        "......................"
-      ]
-    },
-    "153341": {
       "totalRows": 11,
       "totalColumns": 22,
       "rowLabels": [
@@ -543,50 +513,6 @@
         "SSSS..SSSSSSSSSSSSSS..",
         "......SSSSCW.WCSSSSS..",
         "......................"
-      ]
-    },
-    "153629": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
-    "153631": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
       ]
     },
     "153632": {
@@ -1408,27 +1334,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "16:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153341&a=0000000001&l=7206&m=resident-evil-2026&ss=False",
-              "seats": [
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAOOAAAAAAA..",
-                "A?AA..OAAOOOO?AAA?AA..",
-                "AAAA..AAAAOO?OOAAAAA..",
-                "OO?A..AAA?OOAAAOOOOO..",
-                "AAAA..OOAAOOOOAAOOOO..",
-                "AAOO..AAOOAAA?AAA?OO..",
-                "......OOOOAA.AAAAOO?..",
-                "......................"
-              ],
-              "layoutKey": "153341"
-            },
-            {
               "time": "18:50",
               "formats": [
                 "Recliner"
@@ -1440,7 +1345,7 @@
                 "AAAA..AAAAAAAOAAAAAA..",
                 "AAAA..AAAAAAAAAAAAAA..",
                 "A?AA..OOOOOOO?AAA?AA..",
-                "AAAA..AAAAOO?AAAAAAA..",
+                "AAAA..OOAAOO?AAAAAAA..",
                 "AA?A..AAA?OOAAAAAAAA..",
                 "AAAA..AAAAAAAOOOAAAA..",
                 "AAAA..AAAAAOO?AAA?AA..",
@@ -1496,7 +1401,7 @@
                 "..A?AAAAAAAAA..",
                 "..AAAAAAOOO??..",
                 "..AA?OOOOAAAA..",
-                "..AAAAAAAAAAA.."
+                "..AAAAOOAAAAA.."
               ],
               "layoutKey": "153632"
             }
@@ -1523,30 +1428,6 @@
                 "..AAAA?A??AAA.."
               ],
               "layoutKey": "153637"
-            }
-          ]
-        },
-        {
-          "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61021_320_470.jpg",
-          "runtimeMinutes": 81,
-          "sessions": [
-            {
-              "time": "16:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153631&a=0000000001&l=7206&m=shaun-the-sheep-the-beast-of-mossy-bottom&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAA?AAAAAAA..",
-                "..AOOOAAAAAAA.."
-              ],
-              "layoutKey": "153631"
             }
           ]
         },
@@ -1579,23 +1460,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
           "sessions": [
-            {
-              "time": "16:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153629&a=0000000001&l=7206&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............",
-                "..A?AAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAOOAAAA..",
-                "..AAOOAAAAAAA..",
-                "..AA?AAOOOAAA..",
-                "..AAAAAOOAAAA.."
-              ],
-              "layoutKey": "153629"
-            },
             {
               "time": "18:40",
               "formats": [
@@ -1632,7 +1496,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAA?OOAAAAA..",
+                "..AAA?OOAAAOO..",
                 "..AAAAAAAAAAA.."
               ],
               "layoutKey": "153636"
@@ -2139,7 +2003,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..?AAAAAAAAA?..",
-                "..AAAAAAAAAAA.."
+                "..AOOAAAAAAAA.."
               ],
               "layoutKey": "153660"
             }
