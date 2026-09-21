@@ -1,10 +1,36 @@
 {
-  "updatedAt": "2026-09-21T03:39:45.378Z",
+  "updatedAt": "2026-09-21T05:59:14.316Z",
   "theatre": {
     "id": 9190,
     "name": "Capitol Saint-Jean"
   },
   "auditoriums": {
+    "157155": {
+      "totalRows": 9,
+      "totalColumns": 13,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        null,
+        "G"
+      ],
+      "seatTypes": [
+        ".............",
+        ".SSSSSSSSSSS.",
+        ".SSSSSSSSSSSS",
+        ".SSSSSSSSSSSS",
+        ".SSSSSSSSSSSS",
+        ".SSSSSSSSSSSS",
+        ".SSSSSSSSSSSS",
+        ".............",
+        ".CW.WCSSSSS.."
+      ]
+    },
     "158249": {
       "totalRows": 8,
       "totalColumns": 12,
@@ -2562,6 +2588,37 @@
                 "AA.AA...AA?A"
               ],
               "layoutKey": "158249"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "movies": [
+        {
+          "title": "Rêve d'Afrique - Les aventuriers voyageurs",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61368_320_470.jpg",
+          "runtimeMinutes": 100,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=157155&a=0000000001&l=9190&m=reve-dafrique-les-aventuriers-voyageurs&ss=False",
+              "seats": [
+                ".............",
+                ".AA?AAAAAAAA.",
+                ".?AAAAOOAAAAA",
+                ".OOOOOOOOAAAA",
+                ".OOOOOOOOOAOO",
+                ".OOOOOOOAAOOO",
+                ".OOAOOOOOOAAA",
+                ".............",
+                ".AA.AAAAAAA.."
+              ],
+              "layoutKey": "157155"
             }
           ]
         }
