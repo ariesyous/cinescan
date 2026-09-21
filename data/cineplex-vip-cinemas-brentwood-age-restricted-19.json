@@ -1,38 +1,10 @@
 {
-  "updatedAt": "2026-09-21T00:40:21.512Z",
+  "updatedAt": "2026-09-21T03:40:41.062Z",
   "theatre": {
     "id": 1158,
     "name": "Cineplex VIP Cinemas Brentwood (age restricted 19+)"
   },
   "auditoriums": {
-    "33086": {
-      "totalRows": 10,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "..............",
-        "....SSSSSS....",
-        "..............",
-        "...CW.WCSSSWC.",
-        "...SSSSSSSSSS.",
-        "...SSSSSSSSSS.",
-        "...SSSSSSSSSS.",
-        ".SSSSSSSSSSSS.",
-        ".SSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS"
-      ]
-    },
     "33089": {
       "totalRows": 10,
       "totalColumns": 14,
@@ -197,30 +169,6 @@
         "SSSSSSSSSSSS"
       ]
     },
-    "33347": {
-      "totalRows": 8,
-      "totalColumns": 12,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "............",
-        "...SSSSSS...",
-        "............",
-        ".CW.SSSSSWC.",
-        ".SSSSSSSSSS.",
-        ".SSSSSSSSSS.",
-        ".SSSSSSSSSS.",
-        "SSSSSSSSSSSS"
-      ]
-    },
     "33350": {
       "totalRows": 7,
       "totalColumns": 16,
@@ -269,56 +217,6 @@
         ".SSSSSSSSSSSS.",
         ".SSSSSSSSSSSS.",
         "SSSSSSSSSSSSSS"
-      ]
-    },
-    "33352": {
-      "totalRows": 10,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "..............",
-        "....SSSSSS....",
-        "..............",
-        "...CW.WCSSSWC.",
-        "...SSSSSSSSSS.",
-        "...SSSSSSSSSS.",
-        "...SSSSSSSSSS.",
-        ".SSSSSSSSSSSS.",
-        ".SSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS"
-      ]
-    },
-    "33353": {
-      "totalRows": 7,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "................",
-        "...CWSSSSSCW.WC.",
-        "...SSSSSSSSSSSS.",
-        "...SSSSSSSSSSSS.",
-        "...SSSSSSSSSSSS.",
-        "...SSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSS"
       ]
     },
     "33356": {
@@ -898,27 +796,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "19:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33086&a=0000000001&l=1158&m=resident-evil-2026&ss=False",
-              "seats": [
-                "..............",
-                "....AAOOAA....",
-                "..............",
-                "...AA.AAOOOAA.",
-                "...OOOOOOOOOO.",
-                "...OOOOOOOOAO.",
-                "...OOOOOOOOOO.",
-                ".OOOOOOOOOOOO.",
-                ".OOOOOOOOOOOO.",
-                "OOOOOOOOOOOOOO"
-              ],
-              "layoutKey": "33086"
-            },
-            {
               "time": "21:30",
               "formats": [
                 "VIP 19+",
@@ -927,7 +804,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33297&a=0000000001&l=1158&m=resident-evil-2026&ss=False",
               "seats": [
                 "..............",
-                "....AAAAAA....",
+                "....OOAAAA....",
                 "..............",
                 "...AA.AAOOAAA.",
                 "...OOAOOOAOOO.",
@@ -947,24 +824,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "17:45",
-              "formats": [
-                "VIP 19+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33353&a=0000000001&l=1158&m=practical-magic-2&ss=False",
-              "seats": [
-                "................",
-                "...AAAAAOAAA.AA.",
-                "...AAAAAAAAAAAA.",
-                "...OOAAOOOOAAAA.",
-                "...AAOOOOOOOAAA.",
-                "...OOOOOOOOOAAA.",
-                "..AAOOOOOOOOAAOO"
-              ],
-              "layoutKey": "33353"
-            },
-            {
               "time": "21:00",
               "formats": [
                 "VIP 19+",
@@ -976,9 +835,9 @@
                 "...AAAAAAAAA.AA.",
                 "...AAAAAAAAAAAA.",
                 "...AAAAAAAAAAAA.",
+                "...AAAAOOOAAAAA.",
                 "...AAAAAAAAAAAA.",
-                "...AAAAAAAAAAAA.",
-                "..AAAAAOOOAAAAAA"
+                "..OOAAAOOOAAAOOA"
               ],
               "layoutKey": "33350"
             }
@@ -1004,40 +863,12 @@
                 ".AAAAAAA.AA...",
                 ".AAAAAAAAAA...",
                 ".OOAAAAAAA?...",
-                ".AAAAOOAAAA...",
-                ".AAOOOOOOAAOO.",
-                ".AAAAOOOOOAAA.",
-                "OOOAOOOOOOOOAA"
+                ".OOAAOOOOAA...",
+                ".AOOOOOOOAAOO.",
+                ".AAOOOOOOOOOO.",
+                "OOOAOOOOOOOOAO"
               ],
               "layoutKey": "33351"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "18:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33352&a=0000000001&l=1158&m=the-odyssey&ss=False",
-              "seats": [
-                "..............",
-                "....AAAAAA....",
-                "..............",
-                "...AA.AAAAAAA.",
-                "...AAAAAAAAAA.",
-                "...OOAAAAAA?A.",
-                "...OOOOOOOOAA.",
-                ".OOAAOOOOAOOO.",
-                ".AAAAOOOOOOAA.",
-                "AAOOAOOOOOOOAA"
-              ],
-              "layoutKey": "33352"
             }
           ]
         },
@@ -1046,24 +877,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
           "runtimeMinutes": 98,
           "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=33347&a=0000000001&l=1158&m=runner&ss=False",
-              "seats": [
-                "............",
-                "...AAAAAA...",
-                "............",
-                ".AA.AAAAAAA.",
-                ".AAAAAAAAAA.",
-                ".AAAAOOAAAA.",
-                ".?AOOAAAAA?.",
-                "OOOOOAOOAAAA"
-              ],
-              "layoutKey": "33347"
-            },
             {
               "time": "21:10",
               "formats": [
@@ -1077,7 +890,7 @@
                 ".AA.AAAAAAA.",
                 ".AAAAOOAAAA.",
                 ".AAAAOOOAAA.",
-                ".?AAAAAAAA?.",
+                ".?AAAAAAAO?.",
                 "AAAAAAOOAAAA"
               ],
               "layoutKey": "33345"
@@ -1136,7 +949,7 @@
                 "...AAOOAAAAAAAA.",
                 "...AAAAOOAAAAAA.",
                 "...AAAAOOOOAAAA.",
-                "..AAOOOOOAAAAAAA"
+                "..AAOOOOOAAAAAOO"
               ],
               "layoutKey": "33357"
             }
@@ -1246,10 +1059,10 @@
                 "..............",
                 "...AA.AAAAAAA.",
                 "...AAOOOOOOAA.",
-                "...OOOOOOOOAA.",
+                "...OOOOOOOOOO.",
                 "...OOOOOOOOOO.",
                 ".AAOOAOOOOOOA.",
-                ".AOOOOOOOOOAA.",
+                ".AOOOOOOOOOOO.",
                 "OOOOOOOOOOOOOO"
               ],
               "layoutKey": "33093"
@@ -1288,8 +1101,8 @@
                 "..............",
                 "...AA.AAAAAAA.",
                 "...AAOOOOOOAA.",
-                "...OOOOOOOOAA.",
-                "...AOOOOOOOOO.",
+                "...OOOOOOOOOO.",
+                "...OOOOOOOOOO.",
                 ".OOOOOOOOOOOO.",
                 ".AOOOOOOOOOOO.",
                 "OOOOOOOOOAOOOO"
@@ -1408,7 +1221,7 @@
                 "...AAAAAA...",
                 "............",
                 ".AA.OOAAAAA.",
-                ".AAOOOOAAAA.",
+                ".OOOOOOAAAA.",
                 ".OOOOOOOOAA.",
                 ".?AOOOOOOO?.",
                 "AOOOOOOOOOOO"
@@ -1534,7 +1347,7 @@
                 "...AAAAAAAAAAAA.",
                 "...AAAAOOAAAAAA.",
                 "...OOOAOOAAAAAA.",
-                "...AAAAOOOOAAOO.",
+                "...AOOOOOOOAAOO.",
                 "..OOOAOOOOOAAAAA"
               ],
               "layoutKey": "33363"
@@ -1648,8 +1461,8 @@
                 "...OOOOOAOOAO.",
                 "...OOOOOOOOOO.",
                 ".OOOOOOOOOOOO.",
-                ".AAOOOOOAOOAA.",
-                "AAAAAAOAOOAAAA"
+                ".OOOOOOOAOOAA.",
+                "AAAAOOOAOOAAAA"
               ],
               "layoutKey": "33369"
             }
