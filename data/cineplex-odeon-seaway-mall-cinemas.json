@@ -1,40 +1,10 @@
 {
-  "updatedAt": "2026-09-20T22:56:50.851Z",
+  "updatedAt": "2026-09-21T00:40:18.526Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
   },
   "auditoriums": {
-    "153340": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "......SSSSCW.WCSSSSS..",
-        "......................"
-      ]
-    },
     "153342": {
       "totalRows": 11,
       "totalColumns": 22,
@@ -513,56 +483,6 @@
         "SSSS..SSSSSSSSSSSSSS..",
         "......SSSSCW.WCSSSSS..",
         "......................"
-      ]
-    },
-    "153635": {
-      "totalRows": 10,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "....................",
-        "....SSSSSSSSSS..SSSS",
-        "...WWCSSSSSSCW..WWCS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "....SSSSSSSSSS..SSSS",
-        "........SSSSSS......"
-      ]
-    },
-    "153636": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
       ]
     },
     "153638": {
@@ -1238,90 +1158,6 @@
   },
   "days": [
     {
-      "date": "2026-09-20",
-      "movies": [
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153340&a=0000000001&l=7206&m=resident-evil-2026&ss=False",
-              "seats": [
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAOAAAAAA..",
-                "AAAA..AAAAAOOAAAAAAA..",
-                "A?AO..OOOOOOO?AAA?AA..",
-                "AOOO..OOAAOO?OOOAAAA..",
-                "AA?A..AAO?OOAOOAAOOA..",
-                "OOAA..AOOAOOAOOOAAAA..",
-                "AAOO..AAOOOOO?AAA?AA..",
-                "......AOOOAA.AAAAOO?..",
-                "......................"
-              ],
-              "layoutKey": "153340"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153635&a=0000000001&l=7206&m=practical-magic-2&ss=False",
-              "seats": [
-                "....................",
-                "....AAAAAAAAAA..AAAA",
-                "...AAAAAAAAAAA..AAAA",
-                "..AAAAOOOOOOAA..AAAA",
-                "..OOOOOAAOOAAA..AAAA",
-                "..AAAOOOOOOOOO..AAAA",
-                "..OOAAAAAOOOOO..AAAA",
-                "..AAOOOOOOOOOO..AAAA",
-                "....AA?AAAOO??..AAAA",
-                "........AAAOOO......"
-              ],
-              "layoutKey": "153635"
-            }
-          ]
-        },
-        {
-          "title": "The Weight",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62071_320_470.jpg",
-          "runtimeMinutes": 113,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153636&a=0000000001&l=7206&m=the-weight&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAOAAAA..",
-                "..AOO?OOAAAOO..",
-                "..AAAAAAAAAAA.."
-              ],
-              "layoutKey": "153636"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-21",
       "movies": [
         {
@@ -1344,7 +1180,7 @@
                 "AAAA..AAAAAA?AAAAAAA..",
                 "AA?A..AAA?AOOOOAAAAA..",
                 "AAAA..OOAAOOAAAAAAAA..",
-                "AAOO..AAAAAAA?AAA?AA..",
+                "AAOO..AAAAAAA?AAA?OO..",
                 "......AAAAAA.AAAAAA?..",
                 "......................"
               ],
@@ -1593,7 +1429,7 @@
                 "..AAAAAAAAAAOO..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
-                "....AA?AAAAA??..AAAA",
+                "....AA?AOOOO??..AAAA",
                 "........OOOAAA......"
               ],
               "layoutKey": "153653"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T22:56:52.827Z",
+  "updatedAt": "2026-09-21T00:40:19.782Z",
   "theatre": {
     "id": 1129,
     "name": "Cineplex Odeon Victoria Cinemas"
@@ -127,34 +127,6 @@
         "......WWCCSSSSSSSS"
       ]
     },
-    "217236": {
-      "totalRows": 10,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "..................",
-        "......SSSSSSSSSSSS",
-        ".....SSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "..WCSSSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "..SSSSSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "......WWCCSSSSSSSS"
-      ]
-    },
     "217238": {
       "totalRows": 10,
       "totalColumns": 15,
@@ -205,28 +177,6 @@
         "..WWCSSSSSSSSSSSS.."
       ]
     },
-    "217240": {
-      "totalRows": 7,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...................",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..WWCSSSSSSSSSSSS.."
-      ]
-    },
     "217244": {
       "totalRows": 8,
       "totalColumns": 34,
@@ -252,30 +202,6 @@
       ]
     },
     "217246": {
-      "totalRows": 8,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "...................",
-        ".SSS..SSSSSSSS...S.",
-        "SSSS..SSSSSSSSS..SS",
-        "SSSS..SSSSSSSSS..SS",
-        "SSSS..SSSSSSSSS..SS",
-        "SSSS..SSSSSSSSS..SS",
-        "C.WW..CSSSSSSSS..SS",
-        "..................."
-      ]
-    },
-    "217247": {
       "totalRows": 8,
       "totalColumns": 19,
       "rowLabels": [
@@ -1296,26 +1222,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "17:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217236&a=0000000001&l=1129&m=resident-evil-2026&ss=False",
-              "seats": [
-                "..................",
-                "......AAAAAAAAAAAA",
-                ".....AAAAAAAAAAAAA",
-                "...AAAAOOAAAOOAAAA",
-                "..AAAAAAAOOAAAAAAA",
-                "...AAAAAOOAAOOOAAA",
-                "..AAOOOAOOOOAAAAAA",
-                "...AAOOOOOOOOOOAAA",
-                "...AAAAAAAAAAAAAAA",
-                "......AAAAOOAAAAAO"
-              ],
-              "layoutKey": "217236"
-            },
-            {
               "time": "19:30",
               "formats": [
                 "Recliner"
@@ -1326,9 +1232,9 @@
                 "......AAAAAAAAAAAA",
                 ".....AAAOOAAAAAAAA",
                 "...AAAAOOOOAAAAAAA",
-                "..AAAAOOOOAAOOAAAA",
+                "..AAAAOOOOOAOOAAAA",
                 "...AAOOOOOOOOOAAAA",
-                "..OOOOOAOOOOOOAAAA",
+                "..OOOOOAOOOOOOOOAA",
                 "...OOOOOOOOOOOOAAA",
                 "...OOOOOOOOOOAOOAA",
                 "......AAAAAAAAAAOO"
@@ -1402,9 +1308,9 @@
                 "...................",
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAOOAAAAAA..",
-                "...AAAAAA?AAAAAAA..",
+                "..AAAAAAOOAAAAAAA..",
+                "..OAAAAAAOOAAAAAA..",
+                "...AAAAAA?AAOOOAA..",
                 "..AAAA?AAAOOAAAAA.."
               ],
               "layoutKey": "217233"
@@ -1417,24 +1323,6 @@
           "runtimeMinutes": 128,
           "sessions": [
             {
-              "time": "16:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217247&a=0000000001&l=1129&m=the-uprising&ss=False",
-              "seats": [
-                "...................",
-                ".AAA..AAAAAAAA...A.",
-                "AAAA..AAAAAAAAA..AA",
-                "A?AA..AAAAAAAAA..AA",
-                "AAAA..AAAAAAAAA..?A",
-                "AAAA..?AAAAAAAA..AA",
-                "A.AA..AAAAAAAAA..AA",
-                "..................."
-              ],
-              "layoutKey": "217247"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "Recliner"
@@ -1444,7 +1332,7 @@
                 "...................",
                 ".AAA..AAAAAAAA...A.",
                 "AAAA..AAAAAAAAA..AA",
-                "A?AA..AAAAAAAAA..AA",
+                "A?AA..AAAOOOAAA..AA",
                 "AAAA..AAAAAAAAA..?A",
                 "AAAA..?AAAAAAAA..AA",
                 "A.AA..AAAAAAAAA..AA",
@@ -1460,23 +1348,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "16:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217240&a=0000000001&l=1129&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...................",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAA?AAAAAAA..",
-                "..AAAAAAOOOAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAA?AAAAAAAAAA.."
-              ],
-              "layoutKey": "217240"
-            },
-            {
               "time": "19:15",
               "formats": [
                 "Recliner"
@@ -1487,7 +1358,7 @@
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAA?AAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAOOOOOOAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAA?AAAAAAAAAA.."
               ],
@@ -1513,8 +1384,8 @@
                 "AAAAAAAAAAAA...",
                 "A?AAAAAAAAAAA..",
                 "AAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAA..",
-                "AAAOOOOAAAAA?..",
+                "AAAAAOOOOAAOO..",
+                "OOAOOOOAAAAA?..",
                 "OOOOAOOOOOOOO..",
                 "A?AOOOAAAA....."
               ],
@@ -1837,9 +1708,9 @@
                 ".....AAAAAAAAAAAAA",
                 "...AAOOOOOOOOAAAAA",
                 "..AAAAAAOOAAAAAAAA",
-                "...AAAAAOOOOOAAAAA",
+                "...OOOAAOOOOOAAAAA",
                 "..AAAAAAOOAAAAAAAA",
-                "...AAAAOOOOOAAAAAA",
+                "...AAAAAAAOOAAAAAA",
                 "...AAAAAOOAAAAAAAA",
                 "......AAAAOOAAAAAA"
               ],
@@ -1878,7 +1749,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217331&a=0000000001&l=1129&m=practical-magic-2&ss=False",
               "seats": [
                 "...................",
-                ".A..AAA?AAAA...AAA.",
+                ".A..AOO?AAAA...AAA.",
                 "AA..AAAAAAAAA..AAAA",
                 "AA..AAAAAOOAA..AA?A",
                 "AA..AAAOOOOAA..AAAA",
@@ -2439,7 +2310,7 @@
                 "AA..AAAAOOOOO..AA?A",
                 "AA..OOAOOOAAO..AAAA",
                 "AA..OAA?AAAAO..AAAA",
-                "AO..?OAAAOOOA..AA.A",
+                "AO..?OAAOOOOA..AA.A",
                 "..................."
               ],
               "layoutKey": "214584"

@@ -1,39 +1,11 @@
 {
-  "updatedAt": "2026-09-20T22:56:17.354Z",
+  "updatedAt": "2026-09-21T00:39:54.637Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
   },
   "auditoriums": {
     "123761": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS...SSSSCWWCSSS..SSS",
-        "SCW..................."
-      ]
-    },
-    "125469": {
       "totalRows": 10,
       "totalColumns": 22,
       "rowLabels": [
@@ -81,24 +53,6 @@
         "SSSSSSSSSSSSSS",
         "SSSSSSSSSSSSSS",
         "SS..CW..WC..CW"
-      ]
-    },
-    "125475": {
-      "totalRows": 5,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSS..SS",
-        "CW..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS...WCSSSCW..SS"
       ]
     },
     "125478": {
@@ -1072,26 +1026,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "16:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125469&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
-              "seats": [
-                "A??..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAOOOAAAAA..AAA",
-                "AAA..AAOA?OOOOOAA..AAA",
-                "AAA..AAAAOOOAOOAA..AAA",
-                "AAA..AAAOOO?OAAAA..OOO",
-                "AOO..OOOOOO?OAAOO..AAA",
-                "AOO...OOOOAAAAA?O..OOA",
-                "???..................."
-              ],
-              "layoutKey": "125469"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "Recliner"
@@ -1101,12 +1035,12 @@
                 "A??..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AOOOOOOOAAAA..AAA",
-                "AAA..AAAOOOOOAAAA..AAA",
+                "AAA..AAAOOOOOOOAA..AAA",
                 "AAA..AAOO?AOOAAAO..AAA",
                 "AAA..OOOOOOOOOOOO..AAA",
                 "AAA..OOOOOO?OOOOO..AAA",
                 "AAA..OOAOOO?OOAOO..AAA",
-                "AOO...OAAAAAAAA?A..AAA",
+                "AOO...OAAAAAAAA?O..AAA",
                 "???..................."
               ],
               "layoutKey": "125478"
@@ -1131,7 +1065,7 @@
                 "AOOOOOOOOOOAA",
                 "AOOOOOOOOOOOA",
                 "AOOOOOOOOOO..",
-                "OOAAA.AOOOO.."
+                "OOOOA.AOOOO.."
               ],
               "layoutKey": "125479"
             }
@@ -1175,12 +1109,12 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125473&a=0000000001&l=1410&m=the-odyssey&ss=False",
               "seats": [
-                "AAAAA??AAAAAA?",
+                "AAAAA??OOAAAA?",
                 "AAAAAAAAAAAA?A",
                 "AAAAAOOAAAAAAA",
-                "AAAA?OOAAA..AA",
-                "OOOAAOOOOOOAAA",
-                "AAAAAOOAAOOAAA",
+                "AAAA?OOOOA..AA",
+                "OOOAAOOOOOOOAA",
+                "AAAOOOOAAOOAAA",
                 "AA..AA..AA..AA"
               ],
               "layoutKey": "125473"
@@ -1193,21 +1127,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "15:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125475&a=0000000001&l=1410&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "AA..AAAAAAAA..AA",
-                "AA..AAA?AAAA..AA",
-                "OO..AOOOOO??..?O",
-                "?A..OOOOOOOO..OO",
-                "OO...AAOOAAA..AA"
-              ],
-              "layoutKey": "125475"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Recliner"
@@ -1216,7 +1135,7 @@
               "seats": [
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
-                "AA..AAAAAA??..?A",
+                "AA..AAAOAA??..?A",
                 "?A..AAAAOOOO..OO",
                 "AA...AAAAAAA..AA"
               ],
@@ -1272,7 +1191,7 @@
                 "AA?AAAAAA?A??",
                 "?AAAAOOAAAAAA",
                 "AOOOOAAAAAAOO",
-                "AAAAAOOOOAAAA",
+                "AAAOOOOOOAAAA",
                 "OOOOAAAOOAA..",
                 "AAAAA.AAAAA.."
               ],
@@ -1395,7 +1314,7 @@
                 "AAA..AAAAOOOOAAAA..AAA",
                 "AAA..AAAA?AAAAAAO..AAA",
                 "AAA..AAAAOOOOOOAA..AAA",
-                "AAA..AAAAAA?AAAAA..AAA",
+                "AAA..AAOOOO?AAAAA..AAA",
                 "AAA..AAAAOOAAOOAA..AAA",
                 "AAA...AAAAAAAAA?A..AAA",
                 "???..................."
@@ -1435,8 +1354,8 @@
               "seats": [
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
-                "?AAAAAAAAAAAA",
-                "OOOOOOOOOOOAA",
+                "?AAOOOOAAAAAA",
+                "OOOOOOOOOOOOO",
                 "AAOOOOOOOOOAA",
                 "AOOOOOOOOOO..",
                 "OOAAA.AAAOO.."
@@ -1775,7 +1694,7 @@
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
                 "AA..AAOOAA??..?A",
-                "?A..AAAAAAAA..AA",
+                "?A..AAAOOOAA..AA",
                 "AA...AAAAAAA..AA"
               ],
               "layoutKey": "125493"
