@@ -1,32 +1,10 @@
 {
-  "updatedAt": "2026-09-21T22:34:04.405Z",
+  "updatedAt": "2026-09-21T23:08:05.630Z",
   "theatre": {
     "id": 7268,
     "name": "Galaxy Cinemas Waterloo"
   },
   "auditoriums": {
-    "276577": {
-      "totalRows": 7,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..................",
-        "..................",
-        "..SCWSSSSS.WCS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "SSSSSSSSSSSSSSSS.."
-      ]
-    },
     "276578": {
       "totalRows": 11,
       "totalColumns": 23,
@@ -515,32 +493,6 @@
         "..DDD.DDDDD.DDDDDD.DD.."
       ]
     },
-    "276624": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSSS..",
-        "....................",
-        "...CW..CWSSSSWC.WC..",
-        "...SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "276625": {
       "totalRows": 9,
       "totalColumns": 20,
@@ -656,25 +608,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "18:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276624&a=0000000001&l=7268&m=resident-evil-2026&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAAA..",
-                "....................",
-                "...AA..AAAAAAAA.AA..",
-                "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAOOAAAAAAA..",
-                "...AAAAAAOOAAAAAAO..",
-                "...AOOAAOOOOAAAAAA..",
-                "OOAAAAOOAAOOOOAOOAAA"
-              ],
-              "layoutKey": "276624"
-            },
-            {
               "time": "19:30",
               "formats": [
                 "UltraAVX",
@@ -690,9 +623,9 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAOAAOOAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAAA..",
-                "..AOOAAAOOOOOOOAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAAA..",
+                "..AAAAAAAAOOAAOOAAAAA..",
+                "..AAAAAOOOOOOOOAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAOO..",
                 "..AAO.OAOOO.OOAAAA.AA.."
               ],
               "layoutKey": "276578"
@@ -712,9 +645,9 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAOAAOOAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAAA..",
-                "..AOOAAAOOOOOOOAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAAA..",
+                "..AAAAAAAAOOAAOOAAAAA..",
+                "..AAAAAOOOOOOOOAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAOO..",
                 "..AAO.OAOOO.OOAAAA.AA.."
               ],
               "layoutKey": "276578"
@@ -741,34 +674,10 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAOOAAAAAA..",
                 "....AAAAAAAAAAAOO..",
-                "....OOAAAAAAAAAAA..",
+                "....OOAAAAAOOAAAA..",
                 "AAAAAAAAOOAAAAAAAAA"
               ],
               "layoutKey": "276579"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276577&a=0000000001&l=7268&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..................",
-                "..................",
-                "..AAAAAAAA.AAA....",
-                "..AAAAAAAAAAAA....",
-                "..AAAAAAAAAAOO....",
-                "..AAOOAAOOAAAA....",
-                "AAOOAAOOAAAAOOAA.."
-              ],
-              "layoutKey": "276577"
             }
           ]
         },
@@ -787,10 +696,10 @@
                 "..................",
                 "..................",
                 "..AAA.AAAAA.AAA...",
-                "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
+                "..AAAOOOOAAAAAA...",
+                "..AAAAAAAAAAAOO...",
                 "..AAAAAOOOAAAAA...",
-                "..AAOOAAOOAAAAA...",
+                "..AAOOAAOOAAAOO...",
                 "AAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "276580"
@@ -907,7 +816,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAOOOOAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AOAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAA.AAAAA.AAAAAA.AA.."
               ],
@@ -929,7 +838,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAOOOOAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AOAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAA.AAAAA.AAAAAA.AA.."
               ],
@@ -1040,9 +949,9 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAOOO..",
-                "....AAOAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "AAAAAAAAAOOAAAAAAAA"
+                "....AAAAAAAAAAAAA..",
+                "AAAAAAAAAOOOAAAAAAA"
               ],
               "layoutKey": "276591"
             },

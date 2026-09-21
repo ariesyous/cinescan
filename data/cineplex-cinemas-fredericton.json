@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T22:33:17.887Z",
+  "updatedAt": "2026-09-21T23:07:27.664Z",
   "theatre": {
     "id": 6111,
     "name": "Cineplex Cinemas Fredericton"
@@ -480,30 +480,6 @@
       ]
     },
     "166088": {
-      "totalRows": 8,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".......................",
-        "........SSSSSSSS.......",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "........SSCWWWCS......."
-      ]
-    },
-    "166101": {
       "totalRows": 8,
       "totalColumns": 23,
       "rowLabels": [
@@ -1253,28 +1229,6 @@
         "..SSSSSSSSSSS..",
         "..W.WCSSSSSSS..",
         "..............."
-      ]
-    },
-    "166795": {
-      "totalRows": 7,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..............",
-        "..............",
-        "..SSSSCW..WC..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS.."
       ]
     },
     "166797": {
@@ -3025,55 +2979,6 @@
       "date": "2026-09-21",
       "movies": [
         {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "19:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166101&a=0000000001&l=6111&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".......................",
-                "........AAAOOAAA.......",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..OOOAAAOAAOOAAAAAAOO..",
-                "..OOOAOOOAOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOOO..",
-                "........OAAAAAAA......."
-              ],
-              "layoutKey": "166101"
-            }
-          ]
-        },
-        {
-          "title": "The Uprising",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
-          "runtimeMinutes": 128,
-          "sessions": [
-            {
-              "time": "19:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166795&a=0000000001&l=6111&m=the-uprising&ss=False",
-              "seats": [
-                "..............",
-                "..............",
-                "..AAAAAA..AA..",
-                "..AAAAAAAAAA..",
-                "..AAAAAAAAAA..",
-                "..AAOOAAAAAA..",
-                "..AAAAAAAAAA.."
-              ],
-              "layoutKey": "166795"
-            }
-          ]
-        },
-        {
           "title": "Fall 2: Deadpoint",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60873_320_470.jpg",
           "runtimeMinutes": 98,
@@ -3087,7 +2992,7 @@
               "seats": [
                 "...............",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAOOOOOOAA..",
                 "..AAAAAAAAAOO..",
                 "..A.AAAAAAAAA..",
                 "..............."
@@ -3141,9 +3046,9 @@
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOOOOAAAAAA..",
-                "..AAAAAOOAAOOAAOOAAAA..",
-                "..AAOOOOAAOOOOOOAAOOO..",
-                "..OOOAAAAOOOOOAAAAAOO..",
+                "..AAAAAOOAAOOAAOOOOOO..",
+                "..AAOOOOOOOOOOOOAAOOO..",
+                "..OOOAAAAOOOOOOOAAAOO..",
                 "........OOAAAAAA......."
               ],
               "layoutKey": "166102"
@@ -3297,7 +3202,7 @@
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
-                "..OOOOAAAAA..",
+                "..OOOOAAOOA..",
                 "..A.AAAAAOO..",
                 "............."
               ],
@@ -3436,7 +3341,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAOOAAAOO..",
-                "..AAOOAAAAA.A..",
+                "..AAOOOOAAA.A..",
                 "..............."
               ],
               "layoutKey": "166842"
@@ -3662,7 +3567,7 @@
                 ".............",
                 "...AAAAAAA...",
                 "..AAAAAAAAA..",
-                "..AAAAAAAAA..",
+                "..AAAAAAAOO..",
                 "..AAAAOOAAA..",
                 "..AAAOOOOOA..",
                 "..A.AAAAAAA..",
@@ -3782,7 +3687,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAOOOAOOOOOOOAAAOO..",
+                "..AAAOOOAOOOOOOOOOAOO..",
                 "..AAAAAAAAAOOAAOOAAAA..",
                 "........OOAAAAAA......."
               ],
@@ -3822,7 +3727,7 @@
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
-                "..AAAAAAAAAA..",
+                "..OOAAAAAAAA..",
                 "..OOOOAAAAAA..",
                 "..OOOOOOAA.A..",
                 ".............."
@@ -4211,7 +4116,7 @@
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
                 "..AAAAOOAAAA..",
-                "..AAAAAAAOOO..",
+                "..OOOAAAAOOO..",
                 "..OOOOOOAA.A..",
                 ".............."
               ],
@@ -4846,7 +4751,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAOO..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAOOO..",
                 "........OOAAAAAO......."
               ],
               "layoutKey": "166077"
@@ -5033,8 +4938,8 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAOOOAA.A..",
+                "..OOOOAAAAAAAA..",
+                "..OOOOAOOOAA.A..",
                 "................"
               ],
               "layoutKey": "166395"
@@ -5599,7 +5504,7 @@
                 ".......................",
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..OOOOOOAAAAAAAAAAAAA..",
                 "..OOOOOOAOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOOOOOOO..",
                 "..OOOOOOAAAAOOOOOOAAO..",
