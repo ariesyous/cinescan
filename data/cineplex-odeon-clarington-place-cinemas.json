@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T03:39:06.235Z",
+  "updatedAt": "2026-09-22T05:56:30.706Z",
   "theatre": {
     "id": 7241,
     "name": "Cineplex Odeon Clarington Place Cinemas"
@@ -650,6 +650,34 @@
       ]
     },
     "282030": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "....SSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSCW..",
+        "...WCSSSSSSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "...WCSSSSSSCWW..",
+        "................"
+      ]
+    },
+    "282031": {
       "totalRows": 10,
       "totalColumns": 16,
       "rowLabels": [
@@ -4039,7 +4067,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAOOAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAOOAAAAA..",
                 "...AAAAOOAAAAA..",
                 "................"
               ],
@@ -4292,6 +4320,38 @@
                 "................"
               ],
               "layoutKey": "282030"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "movies": [
+        {
+          "title": "Verity",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38401_320_470.jpg",
+          "runtimeMinutes": 117,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282031&a=0000000001&l=7241&m=verity&ss=False",
+              "seats": [
+                "....AAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAA?AAAA..",
+                "..AAAAAAAAAAAA..",
+                "..A?AAAAAAAAAA..",
+                "...AAAAA?AAAAA..",
+                "................"
+              ],
+              "layoutKey": "282031"
             }
           ]
         }

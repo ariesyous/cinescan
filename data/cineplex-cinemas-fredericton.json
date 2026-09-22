@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T03:38:37.708Z",
+  "updatedAt": "2026-09-22T05:56:08.930Z",
   "theatre": {
     "id": 6111,
     "name": "Cineplex Cinemas Fredericton"
@@ -792,6 +792,54 @@
       ]
     },
     "166116": {
+      "totalRows": 8,
+      "totalColumns": 23,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        ".......................",
+        "........SSSSSSSS.......",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "........SSCWWWCS......."
+      ]
+    },
+    "166117": {
+      "totalRows": 8,
+      "totalColumns": 23,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        ".......................",
+        "........SSSSSSSS.......",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSS..",
+        "........SSCWWWCS......."
+      ]
+    },
+    "166118": {
       "totalRows": 8,
       "totalColumns": 23,
       "rowLabels": [
@@ -2952,9 +3000,9 @@
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOOOOAAAAAA..",
-                "..OOOAAOOOOOOAAOOOOOO..",
+                "..OOOAAOOAAOOAAOOOOOO..",
                 "..AAOOOOOOOOOOOOOOOOO..",
-                "..OOOAAAAOOOOOOOAAAOO..",
+                "..OOOAOOOOOOOOOOAAAOO..",
                 "........OOAAAAAA......."
               ],
               "layoutKey": "166102"
@@ -2986,7 +3034,7 @@
               "seats": [
                 ".......................",
                 "........AAAAAAAA.......",
-                "..OAAOOOAAOOOOOOAAOOO..",
+                "..OOOOOOAAOOOOOOAAOOO..",
                 "..OOOOOOOOOOOOOOOOOOO..",
                 "..OOOAOOOAOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOOOOOOO..",
@@ -3063,7 +3111,7 @@
                 "..............",
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
-                "..AAAAAAAAAA..",
+                "..AAAAOOAAAA..",
                 "..AAAOOOOAAA..",
                 "..AAAOOOAAAA..",
                 "..OOOOOOAA.A..",
@@ -3288,7 +3336,7 @@
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
-                "..AAAAAAA.A..",
+                "..AAOAAAA.A..",
                 "............."
               ],
               "layoutKey": "166847"
@@ -5650,6 +5698,54 @@
                 "........AAAAAAAA......."
               ],
               "layoutKey": "166116"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "movies": [
+        {
+          "title": "Verity",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38401_320_470.jpg",
+          "runtimeMinutes": 117,
+          "sessions": [
+            {
+              "time": "16:10",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166118&a=0000000001&l=6111&m=verity&ss=False",
+              "seats": [
+                ".......................",
+                "........AAAAAAAA.......",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOOOAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "........AAAAAAAA......."
+              ],
+              "layoutKey": "166118"
+            },
+            {
+              "time": "19:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166117&a=0000000001&l=6111&m=verity&ss=False",
+              "seats": [
+                ".......................",
+                "........AAAAAAAA.......",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAA..",
+                "........AAAAAAAA......."
+              ],
+              "layoutKey": "166117"
             }
           ]
         }

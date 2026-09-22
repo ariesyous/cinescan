@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T03:39:26.482Z",
+  "updatedAt": "2026-09-22T05:56:46.288Z",
   "theatre": {
     "id": 3140,
     "name": "Galaxy Cinemas Medicine Hat"
@@ -4253,6 +4253,40 @@
         ".SSSSSSSSSSSSSSS.",
         "....WWCSSSSSSSSS.",
         "................."
+      ]
+    },
+    "255642": {
+      "totalRows": 13,
+      "totalColumns": 20,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        null,
+        "H",
+        "J",
+        "K",
+        null
+      ],
+      "seatTypes": [
+        "....................",
+        "..SSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        ".SSSSSSSSSSSSSSSS...",
+        "....................",
+        ".....WWCSSSS.SSSSSS.",
+        ".......SSSSS.SSSSSS.",
+        ".......SSSSSSSSSSSS.",
+        "...................."
       ]
     },
     "255644": {
@@ -8784,7 +8818,7 @@
                 ".AAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 ".OOAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
+                ".AAOOAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAA..",
                 ".................."
@@ -9763,9 +9797,9 @@
                 ".AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
+                ".AAAAAAAOAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
+                ".AOAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAA.",
                 "................."
@@ -9834,7 +9868,7 @@
                 ".AAAAAAAAAAAAAAAA...",
                 ".AAAAAAAAAAAAAAAA...",
                 ".AAAAAAAAAAAAAAAA...",
-                "..AAAAAAOOAAAAAA....",
+                "..AAAAAAOOOAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAA...",
                 "....................",
@@ -10514,7 +10548,7 @@
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAA?AAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAOO.",
                 "..AAAAA?AAAAAA..",
                 "................"
               ],
@@ -14673,8 +14707,31 @@
         {
           "title": "Verity",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38401_320_470.jpg",
-          "runtimeMinutes": 115,
+          "runtimeMinutes": 117,
           "sessions": [
+            {
+              "time": "16:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255642&a=0000000001&l=3140&m=verity&ss=False",
+              "seats": [
+                "....................",
+                "..AAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                ".AAAAAAAAAAAAAAAA...",
+                "....................",
+                ".....AAAAAAA.AAAAAA.",
+                ".......AAAAA.AAAAAA.",
+                ".......AAAAAAAAAAAA.",
+                "...................."
+              ],
+              "layoutKey": "255642"
+            },
             {
               "time": "19:00",
               "formats": [
