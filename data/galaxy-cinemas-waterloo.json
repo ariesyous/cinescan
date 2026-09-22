@@ -1,84 +1,10 @@
 {
-  "updatedAt": "2026-09-22T15:54:00.124Z",
+  "updatedAt": "2026-09-22T20:02:36.470Z",
   "theatre": {
     "id": 7268,
     "name": "Galaxy Cinemas Waterloo"
   },
   "auditoriums": {
-    "276585": {
-      "totalRows": 8,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "..................",
-        "..................",
-        "..SCW.SSSSS.WCS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSS.."
-      ]
-    },
-    "276586": {
-      "totalRows": 7,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..................",
-        "..................",
-        "..SCWSSSSS.WCS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "SSSSSSSSSSSSSSSS.."
-      ]
-    },
-    "276587": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "...................",
-        "..SSSSSSSSSSSSSSS..",
-        "...................",
-        "....SCW.WCSCW.WCS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "276588": {
       "totalRows": 11,
       "totalColumns": 23,
@@ -796,9 +722,9 @@
                 "...AA..AAAAAAAA.AA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAOOAAAAAAA..",
-                "...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAA"
+                "...AAAAAAOOOOOOAAA..",
+                "...AAAOOAAAOOAAAAA..",
+                "AAAAAAAOOOOOOAAAAAAA"
               ],
               "layoutKey": "276628"
             },
@@ -861,10 +787,10 @@
                 "....................",
                 "...AA..AAAAAAAA.AA..",
                 "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAAOAAAAAAA..",
-                "...AAOOAAOOAOOOOOO..",
-                "...AAOOOOOOOOOOAAA..",
-                "AAAAAOOOOOOOOOOAAOAA"
+                "...AAOOOAAOAAAAAAA..",
+                "...AAOOOAOOAOOOOOO..",
+                "...OOOOOOOOOOOOOOO..",
+                "AAAAAOOOOOOOOOOOOOAA"
               ],
               "layoutKey": "276626"
             },
@@ -886,7 +812,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAOOOOAAAAAAAA..",
-                "..AAAAAAAAAOAAAAAAAAA..",
+                "..AAAAAAAAAOOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAOO..",
                 "..AAA.AOAAO.OAAAAA.AA.."
               ],
@@ -909,7 +835,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAOOOOAAAAAAAA..",
-                "..AAAAAAAAAOAAAAAAAAA..",
+                "..AAAAAAAAAOOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAOO..",
                 "..AAA.AOAAO.OAAAAA.AA.."
               ],
@@ -929,8 +855,8 @@
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAOOOOOOOAA..",
                 "...AAAOOOOOOOAAAAA..",
-                "...AAAAOOOOAAAAAAA..",
-                "OOAAAAAAAOOOOOOOOOAA"
+                "...AAAAOOOOOOAAAAA..",
+                "OOAAOOOOOOOOOOOOOOAA"
               ],
               "layoutKey": "276627"
             },
@@ -952,9 +878,9 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOOAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAA.AAAAA.AAAAAA.AA.."
+                "..AAA.AAAAO.OAAAAA.AA.."
               ],
               "layoutKey": "276593"
             },
@@ -975,9 +901,9 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOOAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAA.AAAAA.AAAAAA.AA.."
+                "..AAA.AAAAO.OAAAAA.AA.."
               ],
               "layoutKey": "276593"
             }
@@ -988,26 +914,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
           "sessions": [
-            {
-              "time": "15:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276587&a=0000000001&l=7268&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                "..AAAAAAAAAAAAAAA..",
-                "...................",
-                "....AAA.AAAAA.AAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "AAAAAAAAAOOAAAAAAAA"
-              ],
-              "layoutKey": "276587"
-            },
             {
               "time": "19:00",
               "formats": [
@@ -1022,7 +928,7 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAOOO..",
-                "....AAAAAAAAAAAAA..",
+                "....AAAAOOAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "AAAAAAAAAOOOAAAAAAA"
               ],
@@ -1042,7 +948,7 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
+                "....AAAAAOAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAA"
               ],
@@ -1055,25 +961,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "15:30",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276585&a=0000000001&l=7268&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..................",
-                "..................",
-                "..AAA.AAAAA.AAA...",
-                "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "276585"
-            },
             {
               "time": "18:15",
               "formats": [
@@ -1118,23 +1005,6 @@
           "runtimeMinutes": 103,
           "sessions": [
             {
-              "time": "15:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276586&a=0000000001&l=7268&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "..................",
-                "..................",
-                "..AAAAAAAA.AAA....",
-                "..AAAAAAAAAAAA....",
-                "..AAAAAAAAAAAA....",
-                "..AAAAAOOAAAAA....",
-                "AAAAAAAAAAOOAAAA.."
-              ],
-              "layoutKey": "276586"
-            },
-            {
               "time": "18:45",
               "formats": [
                 "Recliner"
@@ -1164,7 +1034,7 @@
                 "..AAAAAAAA.AAA....",
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAAAAAAA....",
-                "..AAAAAAAAAAAA....",
+                "..AAAAAAOOAAAA....",
                 "AAAAAAAAOOAAAAAA.."
               ],
               "layoutKey": "276594"
@@ -1194,7 +1064,7 @@
                 "...AA..AAAAAAAA.AA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAOOAAAAAAA..",
+                "...AOOOAAOOAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
                 "AAAAAAAAAOOOAAAAAAAA"
               ],
@@ -1374,7 +1244,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAA.AAAAA.AAAAAA.AA.."
+                "..AAA.AAAOO.OOAAAA.AA.."
               ],
               "layoutKey": "276602"
             },
@@ -1397,7 +1267,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAA.AAAAA.AAAAAA.AA.."
+                "..AAA.AAAOO.OOAAAA.AA.."
               ],
               "layoutKey": "276602"
             },

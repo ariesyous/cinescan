@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T15:52:55.750Z",
+  "updatedAt": "2026-09-22T20:01:16.671Z",
   "theatre": {
     "id": 9190,
     "name": "Capitol Saint-Jean"
@@ -735,30 +735,6 @@
         "SSSCWWCSSSSS."
       ]
     },
-    "159985": {
-      "totalRows": 8,
-      "totalColumns": 12,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        null,
-        "F"
-      ],
-      "seatTypes": [
-        "............",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        "............",
-        "CW.WC...SSSS"
-      ]
-    },
     "159986": {
       "totalRows": 8,
       "totalColumns": 12,
@@ -875,32 +851,6 @@
         "SSSSSSSSSSS.",
         "............",
         "SS...SSCW.WC"
-      ]
-    },
-    "159991": {
-      "totalRows": 9,
-      "totalColumns": 13,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null,
-        "G"
-      ],
-      "seatTypes": [
-        ".............",
-        ".SSSSSSSSSSS.",
-        ".SSSSSSSSSSSS",
-        ".SSSSSSSSSSSS",
-        ".SSSSSSSSSSSS",
-        ".SSSSSSSSSSSS",
-        ".SSSSSSSSSSSS",
-        ".............",
-        ".CW.WCSSSSS.."
       ]
     },
     "159992": {
@@ -1104,10 +1054,10 @@
                 ".............",
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
+                "AAAAOOOOAAAAA",
                 "OOAAAA?AAAAAA",
                 "AA.AAO.OOAA.A",
-                "?A?AAAAAAAAA."
+                "?A?AAAAOOAAA."
               ],
               "layoutKey": "159600"
             },
@@ -1121,10 +1071,10 @@
                 ".............",
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
+                "AAAAOOOOAAAAA",
                 "OOAAAA?AAAAAA",
                 "AA.AAO.OOAA.A",
-                "?A?AAAAAAAAA."
+                "?A?AAAAOOAAA."
               ],
               "layoutKey": "159600"
             },
@@ -1176,7 +1126,7 @@
                 "AAAAAAAAAAAAA",
                 "AAAAAOOAAAAAA",
                 "AAAAAA?AAAAAA",
-                "AA.AOO.OAAA.A",
+                "AA.AOO.OOOA.A",
                 "?A?AAAAAAAAA."
               ],
               "layoutKey": "159602"
@@ -1193,7 +1143,7 @@
                 "AAAAAAAAAAAAA",
                 "AAAAAOOAAAAAA",
                 "AAAAAA?AAAAAA",
-                "AA.AOO.OAAA.A",
+                "AA.AOO.OOOA.A",
                 "?A?AAAAAAAAA."
               ],
               "layoutKey": "159602"
@@ -1206,24 +1156,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "15:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159985&a=0000000001&l=9190&m=amour-et-magie-2&ss=False",
-              "seats": [
-                "............",
-                ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
-                ".AAAAOOAAOOO",
-                "............",
-                "AA.AA...AA?A"
-              ],
-              "layoutKey": "159985"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Recliner"
@@ -1235,7 +1167,7 @@
                 ".AAAAAAAAAAA",
                 ".AAAOOOOOAAA",
                 ".AOOAOOOOOAA",
-                ".AOOOOAOOAAA",
+                ".AAAOOAOOOOA",
                 "............",
                 "AA.AA...OO?A"
               ],
@@ -1253,7 +1185,7 @@
                 ".AAAAAAAAAAA",
                 ".AAAAAAAAAAA",
                 ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
+                ".AAAAOOAAAAA",
                 "............",
                 "AA.AA...AA?A"
               ],
@@ -1267,26 +1199,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "15:40",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159991&a=0000000001&l=9190&m=vf-spiderman-un-jour-nouveau&ss=False",
-              "seats": [
-                ".............",
-                ".AA?AAAAAAAA.",
-                ".?AAAAAAAAAAA",
-                ".AAAAAAAAAAAA",
-                ".AAAAAOOAAAAA",
-                ".AAAAAAAAAAAA",
-                ".AAAAAAAAAAAA",
-                ".............",
-                ".AA.AAAAAAA.."
-              ],
-              "layoutKey": "159991"
-            },
-            {
               "time": "18:20",
               "formats": [
                 "Recliner"
@@ -1299,7 +1211,7 @@
                 "..AAAAAAAAAAAAA",
                 "..AAAAAAAAAAAAA",
                 "...............",
-                "..AA.AAAAAAAAAA"
+                "..AA.AAOOAAAAAA"
               ],
               "layoutKey": "159998"
             },
@@ -1344,7 +1256,7 @@
                 "AAAAAAAAAAA.",
                 "AAAAAA?AAAA.",
                 "............",
-                "AA...AAAA.A?"
+                "OO...AAAA.A?"
               ],
               "layoutKey": "159990"
             },
@@ -1359,7 +1271,7 @@
                 "AAAAAAAAAAA.",
                 "AAAAAAAAAAA.",
                 "AAAAAAAAAAA.",
-                "AAAAAAAAAAA.",
+                "AAAAAOOAAAA.",
                 "AAAAAA?AAAA.",
                 "............",
                 "AA...AAAA.A?"
@@ -1383,8 +1295,8 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..AAAAAOOAAAAAA",
-                "..AAAAAAAAAAAAA",
-                "..AAAAAAAAAAAAA",
+                "..OOOAAOAAAAAAA",
+                "..AAAAAAAAOAAAA",
                 "...............",
                 "..AA.AAAAAAAAAA"
               ],
@@ -1742,7 +1654,7 @@
                 ".OOOOOOOAAAA",
                 ".AOOOOAAAAAA",
                 ".AAAAOOOAAAA",
-                ".AAAAOOAAAAA",
+                ".OOOOOOAAAAA",
                 "............",
                 "AA.AA...AA?A"
               ],
