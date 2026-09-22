@@ -1,45 +1,11 @@
 {
-  "updatedAt": "2026-09-22T22:51:13.224Z",
+  "updatedAt": "2026-09-22T23:27:16.362Z",
   "theatre": {
     "id": 4115,
     "name": "Cineplex Cinemas at The Centre"
   },
   "auditoriums": {
     "84944": {
-      "totalRows": 15,
-      "totalColumns": 27,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null,
-        null
-      ],
-      "seatTypes": [
-        "...........................",
-        ".....SSSSSSSSSSSSSSSS......",
-        "...........................",
-        "....CW.SSCW.WCSSSSSSSS.WC..",
-        "....SSSSSSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSS..",
-        "..DD.DDD.DDD.DD.DDD.DDD.D..",
-        "..DD.DDD.DDD.DD.DDD.DDD.D.."
-      ]
-    },
-    "85219": {
       "totalRows": 15,
       "totalColumns": 27,
       "rowLabels": [
@@ -565,32 +531,6 @@
         "..SSSSSSSSSSSSSSSSSSSSSSS..",
         "..DD.DDD.DDD.DD.DDD.DDD.D..",
         "..DD.DDD.DDD.DD.DDD.DDD.D.."
-      ]
-    },
-    "85639": {
-      "totalRows": 9,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "................",
-        "...SSSSSSSSSSS..",
-        "................",
-        "....SSCW..WCSS..",
-        "....SSSSSSSSSS..",
-        "....SSSSSSSSSS..",
-        "....SSSSSSSSSS..",
-        "....SSSSSSSSSS..",
-        "SSSS........SSSS"
       ]
     },
     "85640": {
@@ -2016,57 +1956,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "17:00",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=85219&a=0000000004&l=4115&m=resident-evil-2026&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAA?A......",
-                "...........................",
-                "....AA.AAAA.AAAAAAAAAA.AA..",
-                "....AAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAA..",
-                "....AOAAAAOOOOAAAAAAAAAAA..",
-                "..AOOAAAOOAAOOAAOOAAOOAAA..",
-                "..AAAAAAAAAOOOOOAAAAAAAAA..",
-                "..AAOOOOAAAAOOAAAOOAAAAOO..",
-                "..AA.AAA.AAA.AA.AAA.AAA.A..",
-                "..AA.AAA.AAO.AA.?AA.AAA.A.."
-              ],
-              "layoutKey": "85219"
-            },
-            {
-              "time": "17:00",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=85219&a=0000000001&l=4115&m=resident-evil-2026&ss=False",
-              "seats": [
-                "...........................",
-                ".....AAAAAAAAAAAAAA?A......",
-                "...........................",
-                "....AA.AAAA.AAAAAAAAAA.AA..",
-                "....AAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAAA..",
-                "....AOAAAAOOOOAAAAAAAAAAA..",
-                "..AOOAAAOOAAOOAAOOAAOOAAA..",
-                "..AAAAAAAAAOOOOOAAAAAAAAA..",
-                "..AAOOOOAAAAOOAAAOOAAAAOO..",
-                "..AA.AAA.AAA.AA.AAA.AAA.A..",
-                "..AA.AAA.AAO.AA.?AA.AAA.A.."
-              ],
-              "layoutKey": "85219"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "Recliner"
@@ -2156,7 +2045,7 @@
                 "..AAAAAA..AAAAAA...",
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAOOOOOOAA...",
-                "..OOAAOOOOOOOAAA...",
+                "..OOAAOOOOOOOOOA...",
                 "..OOAAAOOOOOOAOO...",
                 "..OOAAOOOOOOOAOOOOO"
               ],
@@ -2212,7 +2101,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA.."
+                "..AAAAOOAAAAA.."
               ],
               "layoutKey": "85641"
             }
@@ -2223,25 +2112,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/36750_320_470.jpg",
           "runtimeMinutes": 106,
           "sessions": [
-            {
-              "time": "17:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=85639&a=0000000001&l=4115&m=insidious-out-of-the-further&ss=False",
-              "seats": [
-                "................",
-                "...AAAAAAAAAAA..",
-                "................",
-                "....AAAA..AAAA..",
-                "....AAAAAAAAAA..",
-                "....AAAAAAAAAA..",
-                "....AAAAAAAAAA..",
-                "....AAAAAAAAAA..",
-                "A?AA........AAAA"
-              ],
-              "layoutKey": "85639"
-            },
             {
               "time": "19:40",
               "formats": [
@@ -2486,7 +2356,7 @@
                 "..AAAA..AAAA....",
                 "..AAAAAAAAAA....",
                 "..AAAAAAAAAA....",
-                "..AAAAOOAAAA....",
+                "..AAAAAAAAAA....",
                 "..AAAAAAAAAA....",
                 "AAAA........AAAA"
               ],
