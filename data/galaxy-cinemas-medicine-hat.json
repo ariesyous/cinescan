@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T03:39:21.227Z",
+  "updatedAt": "2026-09-23T05:38:42.858Z",
   "theatre": {
     "id": 3140,
     "name": "Galaxy Cinemas Medicine Hat"
@@ -3978,6 +3978,66 @@
       ]
     },
     "255639": {
+      "totalRows": 11,
+      "totalColumns": 27,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        null
+      ],
+      "seatTypes": [
+        "..SS..SSSSSSSSSSSSSSS..SS..",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS...SSSSSSSSSSSSS...SSSS",
+        "SSSS...SSSSSSSSSSSSS...SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "CWW...SSSSSSSSSSSSSSS..WWC.",
+        "..........................."
+      ]
+    },
+    "255640": {
+      "totalRows": 11,
+      "totalColumns": 27,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        null
+      ],
+      "seatTypes": [
+        "..SS..SSSSSSSSSSSSSSS..SS..",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS...SSSSSSSSSSSSS...SSSS",
+        "SSSS...SSSSSSSSSSSSS...SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSS..SSSSSSSSSSSSSSS..SSSS",
+        "CWW...SSSSSSSSSSSSSSS..WWC.",
+        "..........................."
+      ]
+    },
+    "255641": {
       "totalRows": 11,
       "totalColumns": 27,
       "rowLabels": [
@@ -9430,7 +9490,7 @@
                 ".AAAA.AAAAAAAAA..AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
-                ".AAA..AAAAAAAAAA..AAA.",
+                ".AAA..AAAAOOAAAA..AAA.",
                 "......................"
               ],
               "layoutKey": "255644"
@@ -12417,7 +12477,7 @@
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAAOAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
@@ -12637,7 +12697,7 @@
                 ".AAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 ".AAAAAAA?AAAAAAAA.",
-                ".A?A?A?A?AAA?AAAA.",
+                ".A?A?A?A?OAA?AAAA.",
                 ".AA?A?AA??AAAA?AA.",
                 ".A?AAAAA?AAAAAAAA.",
                 ".???AAAA?AAAAAAA?.",
@@ -14398,9 +14458,58 @@
       "date": "2026-10-06",
       "movies": [
         {
+          "title": "Digger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
+          "runtimeMinutes": 129,
+          "sessions": [
+            {
+              "time": "15:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255640&a=0000000001&l=3140&m=digger&ss=False",
+              "seats": [
+                "..AA..AAAAAAAAAAAAAAA..AA..",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAAA..?AAAAAAAAAAAAAA..AAAA",
+                "AAAA...AAAAAAAAAAAAA...AAAA",
+                "AAAA...AAAAAAAAAAAAA...AAAA",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAA...AAAAAAAAAAAAAAA..AAA.",
+                "..........................."
+              ],
+              "layoutKey": "255640"
+            },
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255641&a=0000000001&l=3140&m=digger&ss=False",
+              "seats": [
+                "..AA..AAAAAAAAAAAAAAA..AA..",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAAA..?AAAAAAAAAAAAAA..AAAA",
+                "AAAA...AAAAAAAAAAAAA...AAAA",
+                "AAAA...AAAAAAAAAAAAA...AAAA",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAAA..AAAAAAAAAAAAAAA..AAAA",
+                "AAA...AAAAAAAAAAAAAAA..AAA.",
+                "..........................."
+              ],
+              "layoutKey": "255641"
+            }
+          ]
+        },
+        {
           "title": "Verity",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38401_320_470.jpg",
-          "runtimeMinutes": 115,
+          "runtimeMinutes": 117,
           "sessions": [
             {
               "time": "15:50",

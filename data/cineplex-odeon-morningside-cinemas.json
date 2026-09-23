@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T03:39:01.329Z",
+  "updatedAt": "2026-09-23T05:38:21.038Z",
   "theatre": {
     "id": 7240,
     "name": "Cineplex Odeon Morningside Cinemas"
@@ -3230,6 +3230,78 @@
       ]
     },
     "299610": {
+      "totalRows": 14,
+      "totalColumns": 20,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        null
+      ],
+      "seatTypes": [
+        "....................",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSSSSS",
+        "...WCSSSSSSSSSSCW...",
+        "...................."
+      ]
+    },
+    "299611": {
+      "totalRows": 14,
+      "totalColumns": 20,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        null
+      ],
+      "seatTypes": [
+        "....................",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSSSSS",
+        ".SSSSSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSSSSS",
+        "SSSSSSSSSSSSSSSSSSSS",
+        "...WCSSSSSSSSSSCW...",
+        "...................."
+      ]
+    },
+    "299612": {
       "totalRows": 14,
       "totalColumns": 20,
       "rowLabels": [
@@ -7889,7 +7961,7 @@
                 "OOAAAAAAAAAAAAAA",
                 "AAAAAAAOOAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
+                "AAAAAAOOAAAAAAAA",
                 ".AAAAAAAAAAAA...",
                 "................"
               ],
@@ -11335,7 +11407,7 @@
                 "AAAAAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAOOAAAAAAAA",
                 "...AAAAAAAAAAAAAA..",
                 "..................."
               ],
@@ -12940,9 +13012,64 @@
       "date": "2026-10-06",
       "movies": [
         {
+          "title": "Digger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
+          "runtimeMinutes": 129,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=299611&a=0000000001&l=7240&m=digger&ss=False",
+              "seats": [
+                "....................",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAAAAA",
+                ".AAA??AAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAA...",
+                "...................."
+              ],
+              "layoutKey": "299611"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=299612&a=0000000001&l=7240&m=digger&ss=False",
+              "seats": [
+                "....................",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAAAAA",
+                ".AAA??AAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAA...",
+                "...................."
+              ],
+              "layoutKey": "299612"
+            }
+          ]
+        },
+        {
           "title": "Verity",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38401_320_470.jpg",
-          "runtimeMinutes": 115,
+          "runtimeMinutes": 117,
           "sessions": [
             {
               "time": "18:40",

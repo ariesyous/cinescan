@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T03:38:09.929Z",
+  "updatedAt": "2026-09-23T05:37:24.452Z",
   "theatre": {
     "id": 7296,
     "name": "Cineplex Cinemas Kitchener and VIP"
@@ -4374,6 +4374,58 @@
       ]
     },
     "129012": {
+      "totalRows": 9,
+      "totalColumns": 18,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "......SS.SS.SS....",
+        "..................",
+        "....CW.WCSSSCWCS..",
+        "....SSSSSSSSSSSS..",
+        "....SSSSSSSSSSSS..",
+        "....SSSSSSSSSSSS..",
+        "....SSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSS.."
+      ]
+    },
+    "129013": {
+      "totalRows": 9,
+      "totalColumns": 18,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "......SS.SS.SS....",
+        "..................",
+        "....CW.WCSSSCWCS..",
+        "....SSSSSSSSSSSS..",
+        "....SSSSSSSSSSSS..",
+        "....SSSSSSSSSSSS..",
+        "....SSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSS.."
+      ]
+    },
+    "129014": {
       "totalRows": 9,
       "totalColumns": 18,
       "rowLabels": [
@@ -10399,7 +10451,7 @@
                 "....AAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAA.."
+                "AAAAAAAAAOOOAAAAA.."
               ],
               "layoutKey": "128940"
             },
@@ -10419,7 +10471,7 @@
                 "....AAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAA.."
+                "AAAAAAAAAOOAAAAAA.."
               ],
               "layoutKey": "128954"
             }
@@ -11320,7 +11372,7 @@
                 "....AAAAAAAAAAAA..",
                 "....OOOOOOOOAAAA..",
                 "OO..AAAAAAAAAAAA..",
-                "AA..AAAAOOOAAAAA.."
+                "AA..AAAAOOOAAOOO.."
               ],
               "layoutKey": "129029"
             },
@@ -12805,7 +12857,7 @@
                 ".....AAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAA..",
                 "AA...OOAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAOOAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "129055"
@@ -13241,7 +13293,7 @@
                 "....AAAAAAAAAAAA..",
                 "....AAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAA.."
+                "AA..OOAAAAAAAAAA.."
               ],
               "layoutKey": "129121"
             }
@@ -13878,7 +13930,7 @@
                 "....AAAAAAAAAAAA..",
                 "....AAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAA..",
+                "AA..AAAAOOAAAAAA..",
                 "AA..AAA....AAAA..."
               ],
               "layoutKey": "129118"
@@ -16633,7 +16685,7 @@
                 "....AA.AAAAAAAAA..",
                 "....AAAAAAAAAAAA..",
                 "....AAAAAAAAAAAA..",
-                "....AAAAAAAAAAAA..",
+                "....AAAAOAAAAAAA..",
                 "....AAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAA.."
@@ -16887,6 +16939,58 @@
                 "AA..AAAAAAAAAAAA.."
               ],
               "layoutKey": "129012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "movies": [
+        {
+          "title": "Digger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
+          "runtimeMinutes": 129,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129013&a=0000000001&l=7296&m=digger&ss=False",
+              "seats": [
+                "......AA.AA.AA....",
+                "..................",
+                "....AA.AAAAAAAAA..",
+                "....AAAAAAAAAAAA..",
+                "....AAAAAAAAAAAA..",
+                "....AAAAAAAAAAAA..",
+                "....AAAAAAAAAAAA..",
+                "AA..OOAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAA.."
+              ],
+              "layoutKey": "129013"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129014&a=0000000001&l=7296&m=digger&ss=False",
+              "seats": [
+                "......AA.AA.AA....",
+                "..................",
+                "....AA.AAAAAAAAA..",
+                "....AAAAAAAAAAAA..",
+                "....AAAAAAAAAAAA..",
+                "....AAAAAAAAAAAA..",
+                "....AAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAA.."
+              ],
+              "layoutKey": "129014"
             }
           ]
         }

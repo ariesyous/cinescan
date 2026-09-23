@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T03:39:10.339Z",
+  "updatedAt": "2026-09-23T05:38:32.330Z",
   "theatre": {
     "id": 7112,
     "name": "Cineplex Odeon Westmount Cinemas and VIP"
@@ -1644,6 +1644,50 @@
       ]
     },
     "237343": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "...............",
+        "..CWWCSSSS.....",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS.."
+      ]
+    },
+    "237344": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "...............",
+        "..CWWCSSSS.....",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS.."
+      ]
+    },
+    "237345": {
       "totalRows": 7,
       "totalColumns": 15,
       "rowLabels": [
@@ -6020,7 +6064,7 @@
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAOOAAAAA....",
                 "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAOOAAAAAAAA."
+                "..OOAAAAAOOAAAAAAAA."
               ],
               "layoutKey": "237237"
             }
@@ -6603,7 +6647,7 @@
                 "....................",
                 "..AAAAAA.AAAAAAA....",
                 "..AAAAAAOOAAAAAA....",
-                "..AAAAAAAOOAAAAA....",
+                "..OOOOOOOOOAAAAA....",
                 "..AAAAOOOOOAAAAA....",
                 "..AAAOOOOOOOOOAA....",
                 "..AAOOOAAAOAAAAAAAA."
@@ -7293,7 +7337,7 @@
                 "..AAOOOOOOOAAAOO....",
                 "..AOOOOOOOOOOOOO....",
                 "..OOOOOOOOOOOAOO....",
-                "..AAAOOAOOOOOOOOOOA."
+                "..AOOOOAOOOOOOOOOOA."
               ],
               "layoutKey": "237081"
             },
@@ -7326,7 +7370,7 @@
                 "....................",
                 "..AAAAAA.AAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAOOOAAAAA....",
                 "..AAAAOOOOOOOOAA....",
                 "..OOOOOOOOOAOOOO....",
                 "..AAAAAOOOOAAAAAAAA."
@@ -11599,6 +11643,54 @@
                 "..AAAAAAAAAAA.."
               ],
               "layoutKey": "237343"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "movies": [
+        {
+          "title": "Digger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
+          "runtimeMinutes": 129,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237344&a=0000000001&l=7112&m=digger&ss=False",
+              "seats": [
+                "...............",
+                "..AAAAAAAA.....",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA.."
+              ],
+              "layoutKey": "237344"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237345&a=0000000001&l=7112&m=digger&ss=False",
+              "seats": [
+                "...............",
+                "..AAAAAAAA.....",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA.."
+              ],
+              "layoutKey": "237345"
             }
           ]
         }

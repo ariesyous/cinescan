@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T03:39:05.211Z",
+  "updatedAt": "2026-09-23T05:38:26.644Z",
   "theatre": {
     "id": 1129,
     "name": "Cineplex Odeon Victoria Cinemas"
@@ -678,6 +678,34 @@
       ]
     },
     "217357": {
+      "totalRows": 10,
+      "totalColumns": 18,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "..................",
+        "......SSSSSSSSSSSS",
+        ".....SSSSSSSSSSSSS",
+        "...SSSSSSSSSSSSSSS",
+        "..WCSSSSSSSSSSSSSS",
+        "...SSSSSSSSSSSSSSS",
+        "..SSSSSSSSSSSSSSSS",
+        "...SSSSSSSSSSSSSSS",
+        "...SSSSSSSSSSSSSSS",
+        "......WWCCSSSSSSSS"
+      ]
+    },
+    "217358": {
       "totalRows": 10,
       "totalColumns": 18,
       "rowLabels": [
@@ -3620,9 +3648,9 @@
                 "...AAAAAAAOOAAAAAA",
                 "..AAAAAOOOOOOOOOAA",
                 "...AAOOOOOAAOOAAAA",
-                "..AAAAAAOOOOAAAAAA",
+                "..AAOOAAOOOOAAAAAA",
                 "...AAAAAOOOAAAAAAA",
-                "...AAAAAOOOOOOAAAA",
+                "...OOAAAOOOOOOAAAA",
                 "......AAAAOOAAAAAA"
               ],
               "layoutKey": "217305"
@@ -3828,7 +3856,7 @@
                 "..................................",
                 ".............AAA...AAA.....AA.....",
                 "AAAAAA.......AAAOOOAAA.....AA.????",
-                "AAAAAAA.OOAAAOOOOAAAAAOOAAAAA.???.",
+                "AAAAAAA.OOAAAOOOOOOOAAOOAAAAA.???.",
                 "....AAA.OOAAAAAAAOOAAAA?AAAAA.AA..",
                 "......A?AAA....A??AA?AAAAAAAAAAA?A"
               ],
@@ -3924,7 +3952,7 @@
                 "...................",
                 ".A..AAA?AAAA...AAA.",
                 "AA..AAAAAAAAA..AAAA",
-                "AA..AAAAAAOOO..AA?A",
+                "AA..AAAOOOOOO..AA?A",
                 "AA..OOAOOOAAO..AAAA",
                 "AA..OAA?AOOOO..AAAA",
                 "AO..?OAAOOOOA..AA.A",
@@ -4007,7 +4035,7 @@
                 "..AAAAAAAAAAAAAAAA",
                 "...AAAAAAAAAAAAAAA",
                 "...AAAAAAAAAAAAAAA",
-                "......AAAAAAAAAAAA"
+                "......AAAAOOAAAAAA"
               ],
               "layoutKey": "217363"
             },
@@ -5641,7 +5669,7 @@
                 "AAAAAAAAAAAA...",
                 "A?AAAAAAAAAAA..",
                 "AAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAA..",
+                "AAAAOOOOOAAAA..",
                 "AAAAAAAAAAAA?..",
                 "AAAAAAAAAAAAA..",
                 "A?AAAAAAAA....."
@@ -6812,6 +6840,38 @@
                 "......AAAAAAAAAAAA"
               ],
               "layoutKey": "217357"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "movies": [
+        {
+          "title": "Digger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
+          "runtimeMinutes": 129,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217358&a=0000000001&l=1129&m=digger&ss=False",
+              "seats": [
+                "..................",
+                "......AAAAAAAAAAAA",
+                ".....AAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAA",
+                "..AAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAA",
+                "..AAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAA",
+                "......AAAAAAAAAAAA"
+              ],
+              "layoutKey": "217358"
             }
           ]
         }
