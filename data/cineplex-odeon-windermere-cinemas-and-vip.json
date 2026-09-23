@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T15:45:06.063Z",
+  "updatedAt": "2026-09-23T20:01:06.864Z",
   "theatre": {
     "id": 3149,
     "name": "Cineplex Odeon Windermere Cinemas and VIP"
@@ -8672,6 +8672,40 @@
         "SS.SSSSSSSSSSSS",
         "SS.SS......SSSS"
       ]
+    },
+    "171380": {
+      "totalRows": 13,
+      "totalColumns": 15,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "seatTypes": [
+        ".....SS.SS.SS..",
+        "...............",
+        "...CW.WCSSSSSWC",
+        "...SSSSSSSSSSSS",
+        "...SSSSSSSSSSSS",
+        "...SSSSSSSSSSSS",
+        "...SSSSSSSSSSSS",
+        "...SSSSSSSSSSSS",
+        "SS.SSSSSSSSSSSS",
+        "SS.SSSSSSSSSSSS",
+        "SS.SSSSSSSSSSSS",
+        "SS.SSSSSSSSSSSS",
+        "SS.SS......SSSS"
+      ]
     }
   },
   "days": [
@@ -8749,10 +8783,10 @@
                 "...AAAAAAAAAAAA",
                 "...AAAAAAAAAAAA",
                 "...AAAAAAAAAAAA",
-                "...AAAAAAAAAAAA",
+                "...AAAAOOAAAAAA",
                 "...AAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAA",
-                "AA.AAAAAAAAAAAA",
+                "AA.AAAAAAAAOOAA",
                 "AA.AAAAA?AAAAAA",
                 "AA.AAAAOOAAAAAA",
                 "AA.AA......AAAA"
@@ -8776,7 +8810,7 @@
                 ".AAAAAAAAAAAAAAAA.....",
                 ".AAAAAAAAA?AAAAAA.....",
                 ".AAAAAAAAAAOOAAAA..AA.",
-                ".AAAAAAAAAAAAAAAA..AA.",
+                ".AAAAAAAAOOAAAAAA..AA.",
                 "AAAAAAAAA??OOAAAAAAAAA"
               ],
               "layoutKey": "171100"
@@ -8859,7 +8893,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAOOAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAOOAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAA??AAAAAA..AA.",
@@ -9278,7 +9312,7 @@
                 ".....AAAAAAAAAA..",
                 ".....AAAAAAAAAA..",
                 ".....AAAAAAAAAA..",
-                ".....AAAAAAAAAA..",
+                ".....OOOOAAAAAA..",
                 ".AA..AAAAAAAAAA..",
                 ".AA..AAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAA"
@@ -9358,7 +9392,6 @@
               "time": "15:30",
               "formats": [
                 "UltraAVX",
-                "3D",
                 "D-BOX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170775&a=0000000004&l=3149&m=forgotten-island&ss=False",
@@ -9385,8 +9418,7 @@
             {
               "time": "15:30",
               "formats": [
-                "UltraAVX",
-                "3D"
+                "UltraAVX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170775&a=0000000001&l=3149&m=forgotten-island&ss=False",
               "seats": [
@@ -9477,13 +9509,36 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAOOAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAA??AAAAAA..AA.",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAA???"
               ],
               "layoutKey": "171207"
+            },
+            {
+              "time": "16:45",
+              "formats": [
+                "VIP 18+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171380&a=0000000001&l=3149&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                ".....AA.AA.AA..",
+                "...............",
+                "...AA.AAAAAAAAA",
+                "...AAAAAAAAAAAA",
+                "...AAAAAAAAAAAA",
+                "...OOOAAAAAAAAA",
+                "...AAAAAAAAAAAA",
+                "...AAAAAAAAAAAA",
+                "AA.AAAAAAAAAAAA",
+                "AA.AAAAAAAAAAAA",
+                "AA.AAAAA?AAAAAA",
+                "AA.AAAAAAAAAAAA",
+                "AA.AA......AAAA"
+              ],
+              "layoutKey": "171380"
             },
             {
               "time": "20:15",
@@ -9661,7 +9716,7 @@
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
                 "AA..AA.AAAA.AAAA.AAAA.AAAA.AA",
-                "....?A.AAAA.A?AA.AAAA.AAAA.?A"
+                "....?A.AAAA.A?OO.AAAA.AAAA.?A"
               ],
               "layoutKey": "171193"
             },
@@ -9687,7 +9742,7 @@
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
                 "AA..AA.AAAA.AAAA.AAAA.AAAA.AA",
-                "....?A.AAAA.A?AA.AAAA.AAAA.?A"
+                "....?A.AAAA.A?OO.AAAA.AAAA.?A"
               ],
               "layoutKey": "171193"
             },
@@ -9741,7 +9796,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAA?AAAAAAAA..AA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAOOAAA"
               ],
               "layoutKey": "171194"
             },
@@ -10005,7 +10060,7 @@
                 ".....AAAAAAAAAA..",
                 ".....AAAAAAAAAA..",
                 ".....AAAAAAAAAA..",
-                ".AA..AAAAAAAAAA..",
+                ".AA..AAAOOAAAAA..",
                 ".AA..AAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAA"
               ],
@@ -10125,7 +10180,6 @@
               "time": "12:30",
               "formats": [
                 "UltraAVX",
-                "3D",
                 "D-BOX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170781&a=0000000004&l=3149&m=forgotten-island&ss=False",
@@ -10152,8 +10206,7 @@
             {
               "time": "12:30",
               "formats": [
-                "UltraAVX",
-                "3D"
+                "UltraAVX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170781&a=0000000001&l=3149&m=forgotten-island&ss=False",
               "seats": [
@@ -10180,7 +10233,6 @@
               "time": "15:30",
               "formats": [
                 "UltraAVX",
-                "3D",
                 "D-BOX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170778&a=0000000004&l=3149&m=forgotten-island&ss=False",
@@ -10207,8 +10259,7 @@
             {
               "time": "15:30",
               "formats": [
-                "UltraAVX",
-                "3D"
+                "UltraAVX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170778&a=0000000001&l=3149&m=forgotten-island&ss=False",
               "seats": [
@@ -10562,7 +10613,7 @@
                 "...AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
-                "AA.AAAAAAAAAA",
+                "AA.AAOOAAAAAA",
                 "AA.AA....AAAA",
                 "AA.........AA"
               ],
@@ -10586,7 +10637,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
+                "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
@@ -10612,7 +10663,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
+                "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
@@ -10770,7 +10821,7 @@
                 "..AAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAOOAAAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAAOOAAAAAAAA..AA.",
                 "..AAAAAAAAAA?AAAAAAAA..AA.",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -11170,7 +11221,7 @@
                 ".....AAAAAAAAAAA..",
                 ".....AAAAAAAAAAA..",
                 ".AA..AAAAAAAAAAA..",
-                ".AA..AAAAAAAAAAA..",
+                ".AA..AAAAAAOOAAA..",
                 "AAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "171226"
@@ -11296,7 +11347,6 @@
               "time": "12:30",
               "formats": [
                 "UltraAVX",
-                "3D",
                 "D-BOX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170782&a=0000000004&l=3149&m=forgotten-island&ss=False",
@@ -11323,8 +11373,7 @@
             {
               "time": "12:30",
               "formats": [
-                "UltraAVX",
-                "3D"
+                "UltraAVX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170782&a=0000000001&l=3149&m=forgotten-island&ss=False",
               "seats": [
@@ -11351,7 +11400,6 @@
               "time": "15:30",
               "formats": [
                 "UltraAVX",
-                "3D",
                 "D-BOX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170783&a=0000000004&l=3149&m=forgotten-island&ss=False",
@@ -11367,7 +11415,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
+                "AA..AAAAAAOOOOOOOOOOOOAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
                 "AA..AA.AAAA.AAAA.AAAA.AAAA.AA",
@@ -11378,8 +11426,7 @@
             {
               "time": "15:30",
               "formats": [
-                "UltraAVX",
-                "3D"
+                "UltraAVX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170783&a=0000000001&l=3149&m=forgotten-island&ss=False",
               "seats": [
@@ -11394,7 +11441,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
+                "AA..AAAAAAOOOOOOOOOOOOAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
                 "AA..AA.AAAA.AAAA.AAAA.AAAA.AA",
@@ -11526,7 +11573,7 @@
                 "..AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAA.....",
+                "..AAAAAAAOOAAAAA.....",
                 "..AAAAAA?AAAA?AA..AA.",
                 "..AAAAAAAAAAAAAA..AA.",
                 "AAAAAAAAAAAAAAAAAAAAA"
@@ -12296,7 +12343,7 @@
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
+                "AAOOOOAAAA.AA",
                 "AAAA.......AA",
                 "AAAA.......AA"
               ],
@@ -12425,7 +12472,6 @@
               "time": "15:45",
               "formats": [
                 "UltraAVX",
-                "3D",
                 "D-BOX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171307&a=0000000004&l=3149&m=forgotten-island&ss=False",
@@ -12452,8 +12498,7 @@
             {
               "time": "15:45",
               "formats": [
-                "UltraAVX",
-                "3D"
+                "UltraAVX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171307&a=0000000001&l=3149&m=forgotten-island&ss=False",
               "seats": [
@@ -12566,7 +12611,7 @@
                 "...AAAAAAAAAAAA",
                 "...AAAAAAAAAAAA",
                 "...AAAAAAAAAAAA",
-                "...AAAAAAAAAAAA",
+                "...AAOOAAAAAAAA",
                 "AA.AAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAA",
                 "AA.AAAAA?AAAAAA",
@@ -13170,7 +13215,6 @@
               "time": "12:30",
               "formats": [
                 "UltraAVX",
-                "3D",
                 "D-BOX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171342&a=0000000004&l=3149&m=forgotten-island&ss=False",
@@ -13197,8 +13241,7 @@
             {
               "time": "12:30",
               "formats": [
-                "UltraAVX",
-                "3D"
+                "UltraAVX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171342&a=0000000001&l=3149&m=forgotten-island&ss=False",
               "seats": [
@@ -13225,7 +13268,6 @@
               "time": "15:30",
               "formats": [
                 "UltraAVX",
-                "3D",
                 "D-BOX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171349&a=0000000004&l=3149&m=forgotten-island&ss=False",
@@ -13252,8 +13294,7 @@
             {
               "time": "15:30",
               "formats": [
-                "UltraAVX",
-                "3D"
+                "UltraAVX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171349&a=0000000001&l=3149&m=forgotten-island&ss=False",
               "seats": [
@@ -13421,7 +13462,7 @@
                 "...AAAAAAAAAA",
                 "...AAAAAAAAAA",
                 "...AAAAAAAAAA",
-                "...AAAAAAAAAA",
+                "...AAAAOOAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
