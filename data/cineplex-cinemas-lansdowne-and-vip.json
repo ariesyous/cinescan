@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T09:52:09.756Z",
+  "updatedAt": "2026-09-23T15:43:35.218Z",
   "theatre": {
     "id": 7311,
     "name": "Cineplex Cinemas Lansdowne and VIP"
@@ -5698,9 +5698,9 @@
                 "...AAAAAAAAAAA....",
                 "...AAAAAAAAAAA..AA",
                 "...AAAAAAAAAAA..AA",
-                "...OOOOOAAAAAA..AA",
+                "...OOOOOAAOOAA..AA",
                 "................AA",
-                "AA.AAAAAAAAA....AA",
+                "OO.AAAAAAAAA....AA",
                 "AA??AAAAAAAAOO..A?"
               ],
               "layoutKey": "130119"
@@ -5722,7 +5722,7 @@
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA.AAAAAAAAAA?AAAAAAAAAA",
                 "AA.AAAAAA?OOOOOO?AAAAAAA",
-                "AA.AAAAAAAAAOOAAAAAAAAAA",
+                "AA.AAAAAOOAAOOAAAAAAAAAA",
                 "AA.AAAAAAAOAAAOOAAAAAAAA",
                 "AA......................",
                 "AA.AAAAAAAOOAAAAAAAAAAA.",
@@ -5748,7 +5748,7 @@
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA.AAAAAAAAAA?AAAAAAAAAA",
                 "AA.AAAAAA?OOOOOO?AAAAAAA",
-                "AA.AAAAAAAAAOOAAAAAAAAAA",
+                "AA.AAAAAOOAAOOAAAAAAAAAA",
                 "AA.AAAAAAAOAAAOOAAAAAAAA",
                 "AA......................",
                 "AA.AAAAAAAOOAAAAAAAAAAA.",
@@ -5890,9 +5890,9 @@
                 "AAAAAAAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAOOAAAAAAAAA",
                 "AAAAAAAAAAOOAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                ".AAAAAAAA?OOOAAAAAA?.",
-                ".AAAAAAAAOO?AAOOAAA?.",
+                "AAAAAAAAAOOAAAAAAAAAA",
+                ".OOAAAAAA?OOOAAAAAA?.",
+                ".AAAOOAAAOO?AAOOAAA?.",
                 "AAAAAOOAAAOOAAAAAAAAA",
                 "AAAAAAAAAOOOAAAAAAAAA",
                 "...AAAAAAAAAAAAAAAAAA"
@@ -5978,9 +5978,9 @@
                 "...AAAAAOOOOAA....",
                 "...AAAOOOOAAAA..AA",
                 "...OAAOOOOOAAA..AA",
-                "...AAAAOOOAAAA..AA",
+                "...AAAAOOOOOAA..AA",
                 "................AA",
-                "AA.AAAAAAAAA....AA",
+                "AA.AAAAOOOAA....AA",
                 "AA??AAOOAAAAAA..A?"
               ],
               "layoutKey": "130129"
@@ -6099,7 +6099,7 @@
                 "OOAAAAAAAAAAAAAAAAAAAAAA",
                 "..AAAAAAAAAAAAAAAAAAAAA.",
                 "..AAAA?AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAOOOAAAAAAAAAA",
+                "AAAAAAOOAAAOOOAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAAAAAAAAAA",
                 ".....AAAAAAAAAAAAAAAAAA?"
               ],
@@ -6239,6 +6239,73 @@
       "date": "2026-09-25",
       "movies": [
         {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "15:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130303&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAA?AAAAAAAAA?.",
+                ".AOAAAAAAAA?AAAAAAA?.",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130303"
+            },
+            {
+              "time": "18:00",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130195&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130195"
+            },
+            {
+              "time": "21:50",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130196&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130196"
+            }
+          ]
+        },
+        {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
           "runtimeMinutes": 94,
@@ -6330,13 +6397,13 @@
                 "AA.AAAAAAAA.AAAAAAA.AAAA",
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
-                "AA.AAAAAAAAAA?AAAAAAAAAA",
+                "AA.AAAAAAAAOO?AAAAAAAAAA",
                 "AA.AAAAAA?AAAAAA?AAAAAAA",
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA.AAAAAAAAOOAAAAAAAAAAA",
                 "AA......................",
                 "AA.AAAAAAAAOOAAAAAAAAOO.",
-                "AA.AAAAAAAAAAAAAAAAAAAA.",
+                "AA.OOOOAAAAAAAAAAAAAAAA.",
                 "AA.AA.AAAA.AAAA.AAAA.AA.",
                 "AA.AA.AA........AAAA.?A."
               ],
@@ -6356,13 +6423,13 @@
                 "AA.AAAAAAAA.AAAAAAA.AAAA",
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
-                "AA.AAAAAAAAAA?AAAAAAAAAA",
+                "AA.AAAAAAAAOO?AAAAAAAAAA",
                 "AA.AAAAAA?AAAAAA?AAAAAAA",
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA.AAAAAAAAOOAAAAAAAAAAA",
                 "AA......................",
                 "AA.AAAAAAAAOOAAAAAAAAOO.",
-                "AA.AAAAAAAAAAAAAAAAAAAA.",
+                "AA.OOOOAAAAAAAAAAAAAAAA.",
                 "AA.AA.AAAA.AAAA.AAAA.AA.",
                 "AA.AA.AA........AAAA.?A."
               ],
@@ -6458,6 +6525,193 @@
                 "AA.AAAAOOAAAAAAA"
               ],
               "layoutKey": "130220"
+            }
+          ]
+        },
+        {
+          "title": "Heart of the Beast",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
+          "runtimeMinutes": 104,
+          "sessions": [
+            {
+              "time": "16:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130202&a=0000000001&l=7311&m=heart-of-the-beast&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "..AAAAAAAAAAAAAAAAAAAAA.",
+                "..AAAA?AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                ".....AAAAAAAAAAAAAAAAAA?"
+              ],
+              "layoutKey": "130202"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130203&a=0000000001&l=7311&m=heart-of-the-beast&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "..AAAAAAAAAAAAAAAAAAAAA.",
+                "..AAAA?AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                ".....AAAAAAAAAAAAAAAAAA?"
+              ],
+              "layoutKey": "130203"
+            },
+            {
+              "time": "21:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130204&a=0000000001&l=7311&m=heart-of-the-beast&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "..AAAAAAAAAAAAAAAAAAAAA.",
+                "..AAAA?AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                ".....AAAAAAAAAAAAAAAAAA?"
+              ],
+              "layoutKey": "130204"
+            }
+          ]
+        },
+        {
+          "title": "Primetime",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
+          "runtimeMinutes": 110,
+          "sessions": [
+            {
+              "time": "15:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130198&a=0000000001&l=7311&m=primetime&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAOAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130198"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130213&a=0000000001&l=7311&m=primetime&ss=False",
+              "seats": [
+                "....AA.AA.AA......",
+                "..................",
+                "...AAAAAAA.AAA....",
+                "...AAAAA?AAAAA....",
+                "...AAAAAAAAAAA....",
+                "...AAAAAAAAAAA....",
+                "...AAAAAAOAAAA..AA",
+                "...AAAOOAAAAAA..AA",
+                "...AAAAAOOAAAA..AA",
+                "................AA",
+                "OO.AAAAAAAAA....AA",
+                "AA??AAAAAAAAAA..A?"
+              ],
+              "layoutKey": "130213"
+            },
+            {
+              "time": "19:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130199&a=0000000001&l=7311&m=primetime&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAOAAAAAAAAAA",
+                "AAAAAAAAAAOOAAAAAAAAA",
+                ".AAAAAAAO?AAAAAAAAA?.",
+                ".AAAAAAAAAA?AAAAAAA?.",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130199"
+            },
+            {
+              "time": "21:15",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130214&a=0000000001&l=7311&m=primetime&ss=False",
+              "seats": [
+                "....AA.AA.AA......",
+                "..................",
+                "...AAAAAAA.AAA....",
+                "...AAAAA?AAAAA....",
+                "...AAAAAAAAAAA....",
+                "...AAAAAAAAAAA....",
+                "...AAAAAAAAAAA..AA",
+                "...AAAAAAAAAAA..AA",
+                "...AAAAAAAAAAA..AA",
+                "................AA",
+                "AA.AAAAAOOAA....AA",
+                "AA??AAAAAAAAOO..A?"
+              ],
+              "layoutKey": "130214"
+            },
+            {
+              "time": "21:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130200&a=0000000001&l=7311&m=primetime&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAA?AAAAAAAAA?.",
+                ".AAAAAAAAAA?AAAAAAA?.",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130200"
             }
           ]
         },
@@ -6583,7 +6837,7 @@
                 "AAAAAAAOOAAAAAAA",
                 "AAAAAAA?AAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAA"
+                "...OAAAAAAAAAAAA"
               ],
               "layoutKey": "130189"
             }
@@ -6606,266 +6860,12 @@
                 "...AA.AAAAAAA..",
                 "...AAAAAAAAAA..",
                 "...AAAAAAAAAA..",
-                "...A?AAAAAAAA..",
+                "...A?AAOOOOAA..",
                 "...OOAAAAAAA?..",
                 "AA.AAAAAA?AAA..",
                 "AA.AAAAAAAAAAA?"
               ],
               "layoutKey": "130219"
-            }
-          ]
-        },
-        {
-          "title": "Heart of the Beast",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 104,
-          "sessions": [
-            {
-              "time": "16:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130202&a=0000000001&l=7311&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "..AAAAAAAAAAAAAAAAAAAAA.",
-                "..AAAA?AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                ".....AAAAAAAAAAAAAAAAAA?"
-              ],
-              "layoutKey": "130202"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130203&a=0000000001&l=7311&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "..AAAAAAAAAAAAAAAAAAAAA.",
-                "..AAAA?AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                ".....AAAAAAAAAAAAAAAAAA?"
-              ],
-              "layoutKey": "130203"
-            },
-            {
-              "time": "21:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130204&a=0000000001&l=7311&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "..AAAAAAAAAAAAAAAAAAAAA.",
-                "..AAAA?AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                ".....AAAAAAAAAAAAAAAAAA?"
-              ],
-              "layoutKey": "130204"
-            }
-          ]
-        },
-        {
-          "title": "Primetime",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
-          "runtimeMinutes": 110,
-          "sessions": [
-            {
-              "time": "15:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130198&a=0000000001&l=7311&m=primetime&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAOAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130198"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130213&a=0000000001&l=7311&m=primetime&ss=False",
-              "seats": [
-                "....AA.AA.AA......",
-                "..................",
-                "...AAAAAAA.AAA....",
-                "...AAAAA?AAAAA....",
-                "...AAAAAAAAAAA....",
-                "...AAAAAAAAAAA....",
-                "...AAAAAAOAAAA..AA",
-                "...AAAOOAAAAAA..AA",
-                "...AAAAAOOAAAA..AA",
-                "................AA",
-                "AA.AAAAAAAAA....AA",
-                "AA??AAAAAAAAAA..A?"
-              ],
-              "layoutKey": "130213"
-            },
-            {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130199&a=0000000001&l=7311&m=primetime&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAOOAAAAAAAAA",
-                ".AAAAAAAA?AAAAAAAAA?.",
-                ".AAAAAAAAAA?AAAAAAA?.",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130199"
-            },
-            {
-              "time": "21:15",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130214&a=0000000001&l=7311&m=primetime&ss=False",
-              "seats": [
-                "....AA.AA.AA......",
-                "..................",
-                "...AAAAAAA.AAA....",
-                "...AAAAA?AAAAA....",
-                "...AAAAAAAAAAA....",
-                "...AAAAAAAAAAA....",
-                "...AAAAAAAAAAA..AA",
-                "...AAAAAAAAAAA..AA",
-                "...AAAAAAAAAAA..AA",
-                "................AA",
-                "AA.AAAAAOOAA....AA",
-                "AA??AAAAAAAAAA..A?"
-              ],
-              "layoutKey": "130214"
-            },
-            {
-              "time": "21:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130200&a=0000000001&l=7311&m=primetime&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                ".AAAAAAAA?AAAAAAAAA?.",
-                ".AAAAAAAAAA?AAAAAAA?.",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130200"
-            }
-          ]
-        },
-        {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
-          "sessions": [
-            {
-              "time": "15:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130303&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                ".AAAAAAAA?AAAAAAAAA?.",
-                ".AAAAAAAAAA?AAAAAAA?.",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130303"
-            },
-            {
-              "time": "18:00",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130195&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130195"
-            },
-            {
-              "time": "21:50",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130196&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130196"
             }
           ]
         }
@@ -6874,6 +6874,70 @@
     {
       "date": "2026-09-26",
       "movies": [
+        {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "14:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130221&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130221"
+            },
+            {
+              "time": "18:00",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130238&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130238"
+            },
+            {
+              "time": "21:50",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130237&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130237"
+            }
+          ]
+        },
         {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
@@ -7009,7 +7073,7 @@
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA......................",
-                "AA.AAAAAAAAAAAAAAAAAAAA.",
+                "AA.AAAAAAAAOOAAAAAAAAAA.",
                 "AA.AAAAAAAAAAAAAAAAAAAA.",
                 "AA.AA.AAAA.AAAA.AAAA.AA.",
                 "AA.AA.AA........AAAA.?A."
@@ -7035,7 +7099,7 @@
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA......................",
-                "AA.AAAAAAAAAAAAAAAAAAAA.",
+                "AA.AAAAAAAAOOAAAAAAAAAA.",
                 "AA.AAAAAAAAAAAAAAAAAAAA.",
                 "AA.AA.AAAA.AAAA.AAAA.AA.",
                 "AA.AA.AA........AAAA.?A."
@@ -7146,7 +7210,7 @@
                 ".AA??AAAAA..",
                 ".AAAAAAAAA..",
                 ".AAAA?AAAA..",
-                ".AAAAAAAAA..",
+                ".AAAAOAAAA..",
                 ".AAAAAAAAA..",
                 "AAAAAAAAAAA."
               ],
@@ -7223,201 +7287,6 @@
                 "AA.AAAAAAAAAAAAA"
               ],
               "layoutKey": "130239"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "12:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130225&a=0000000001&l=7311&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAA?AAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130225"
-            },
-            {
-              "time": "18:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130223&a=0000000001&l=7311&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAA?AAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130223"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130222&a=0000000001&l=7311&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130222"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "13:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130228&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                ".AAAAAAAA?AAAAAAAAA?.",
-                ".AAAAAAAAAA?AAAAAAA?.",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130228"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130336&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAA?AAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130336"
-            },
-            {
-              "time": "18:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130227&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130227"
-            },
-            {
-              "time": "21:40",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130226&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAA?AAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130226"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "16:00",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130253&a=0000000001&l=7311&m=the-odyssey&ss=False",
-              "seats": [
-                "....AA.AA.AA...",
-                "...............",
-                "...AA.AAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...A?AAAAAAAA..",
-                "...AAAAAAAAA?..",
-                "AA.AAAAAA?AAA..",
-                "AA.AAAAAAAAAAA?"
-              ],
-              "layoutKey": "130253"
-            },
-            {
-              "time": "20:00",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130240&a=0000000001&l=7311&m=the-odyssey&ss=False",
-              "seats": [
-                "....AA.AA.AA...",
-                "...............",
-                "...AA.AAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...A?AAAAAAAA..",
-                "...AAAAAAAAA?..",
-                "AA.AAAAAA?AAA..",
-                "AA.AAAAAAAAAAA?"
-              ],
-              "layoutKey": "130240"
             }
           ]
         },
@@ -7602,7 +7471,7 @@
                 ".AAAAAAAAAA?AAAAAAA?.",
                 "AAAAAAAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAAAAA"
+                "...OAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "130235"
             },
@@ -7623,7 +7492,7 @@
                 "...AAAAAAAAAAA..AA",
                 "...AAAAAAAAAAA..AA",
                 "................AA",
-                "AA.AAAAAAAAA....AA",
+                "AA.AAAAAAAAO....AA",
                 "AA??AAAAAAAAAA..A?"
               ],
               "layoutKey": "130243"
@@ -7697,66 +7566,197 @@
           ]
         },
         {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "14:00",
+              "time": "12:40",
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130221&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130225&a=0000000001&l=7311&m=practical-magic-2&ss=False",
               "seats": [
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAA?AAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAA"
               ],
-              "layoutKey": "130221"
+              "layoutKey": "130225"
             },
             {
-              "time": "18:00",
+              "time": "18:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130223&a=0000000001&l=7311&m=practical-magic-2&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAA?AAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130223"
+            },
+            {
+              "time": "21:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130222&a=0000000001&l=7311&m=practical-magic-2&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130222"
+            }
+          ]
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
+          "runtimeMinutes": 145,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130228&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAA?AAAAAAAAA?.",
+                ".AAAAAAAAAA?AAAAAAA?.",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130228"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130336&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAA?AAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130336"
+            },
+            {
+              "time": "18:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130227&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130227"
+            },
+            {
+              "time": "21:40",
               "formats": [
                 "3D"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130238&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130226&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
               "seats": [
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAA?AAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAA"
               ],
-              "layoutKey": "130238"
+              "layoutKey": "130226"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "16:00",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130253&a=0000000001&l=7311&m=the-odyssey&ss=False",
+              "seats": [
+                "....AA.AA.AA...",
+                "...............",
+                "...AA.AAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...A?AAOOAAAA..",
+                "...AAAAAAAAA?..",
+                "AA.AAAAAA?AAA..",
+                "AA.AAAAAAAAAAA?"
+              ],
+              "layoutKey": "130253"
             },
             {
-              "time": "21:50",
+              "time": "20:00",
               "formats": [
-                "3D"
+                "VIP 19+"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130237&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130240&a=0000000001&l=7311&m=the-odyssey&ss=False",
               "seats": [
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA"
+                "....AA.AA.AA...",
+                "...............",
+                "...AA.AAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...A?AAAAAAAA..",
+                "...AAAAAAAAA?..",
+                "AA.AAAAAA?AAA..",
+                "AA.AAAAAAAAAAA?"
               ],
-              "layoutKey": "130237"
+              "layoutKey": "130240"
             }
           ]
         },
@@ -7791,6 +7791,51 @@
     {
       "date": "2026-09-27",
       "movies": [
+        {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "14:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130259&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAOAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130259"
+            },
+            {
+              "time": "18:00",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130270&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "...AAAAOOAAAAAAAAA"
+              ],
+              "layoutKey": "130270"
+            }
+          ]
+        },
         {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
@@ -7835,8 +7880,8 @@
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA......................",
-                "AA.AAAAAAAAAAAAAAAAAAAA.",
-                "AA.AAAAAAAAAAAAAAAAAAAA.",
+                "AA.AAAAAAAAAOOAAAAAAAAA.",
+                "AA.AAAAAAAAOOAAAAAAAAAA.",
                 "AA.AA.AAAA.AAAA.AAAA.AA.",
                 "AA.AA.AA........AAAA.?A."
               ],
@@ -7861,8 +7906,8 @@
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA.AAAAAAAAAAAAAAAAAAAAA",
                 "AA......................",
-                "AA.AAAAAAAAAAAAAAAAAAAA.",
-                "AA.AAAAAAAAAAAAAAAAAAAA.",
+                "AA.AAAAAAAAAOOAAAAAAAAA.",
+                "AA.AAAAAAAAOOAAAAAAAAAA.",
                 "AA.AA.AAAA.AAAA.AAAA.AA.",
                 "AA.AA.AA........AAAA.?A."
               ],
@@ -8049,182 +8094,6 @@
                 "AA.AAAAAAAAAAAAA"
               ],
               "layoutKey": "130268"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "12:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130256&a=0000000001&l=7311&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130256"
-            },
-            {
-              "time": "15:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130257&a=0000000001&l=7311&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130257"
-            },
-            {
-              "time": "18:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130258&a=0000000001&l=7311&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130258"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "13:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130265&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                ".AAAAAAAA?AAAAAAAAA?.",
-                ".AAAAAAAAAA?AAAAAAA?.",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130265"
-            },
-            {
-              "time": "15:00",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130282&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAA?AAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130282"
-            },
-            {
-              "time": "18:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130266&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAA?AAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130266"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "14:00",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130274&a=0000000001&l=7311&m=the-odyssey&ss=False",
-              "seats": [
-                "....AA.AA.AA...",
-                "...............",
-                "...AA.AAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...A?AAAAAAAA..",
-                "...AAAAAAAAA?..",
-                "AA.AAAAAA?AAA..",
-                "AA.AAAAAAAAAAA?"
-              ],
-              "layoutKey": "130274"
-            },
-            {
-              "time": "18:00",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130269&a=0000000001&l=7311&m=the-odyssey&ss=False",
-              "seats": [
-                "....AA.AA.AA...",
-                "...............",
-                "...AA.AAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...A?AAAAAAAA..",
-                "...AAAAAAAAA?..",
-                "AA.AAAAAA?AAA..",
-                "AA.AAAAAAAAAAA?"
-              ],
-              "layoutKey": "130269"
             }
           ]
         },
@@ -8438,16 +8307,197 @@
           ]
         },
         {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "12:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130256&a=0000000001&l=7311&m=practical-magic-2&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130256"
+            },
+            {
+              "time": "15:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130257&a=0000000001&l=7311&m=practical-magic-2&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130257"
+            },
+            {
+              "time": "18:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130258&a=0000000001&l=7311&m=practical-magic-2&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130258"
+            }
+          ]
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
+          "runtimeMinutes": 145,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130265&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAA?AAAAAAAAA?.",
+                ".AAAAAAAAAA?AAAAAAA?.",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130265"
+            },
+            {
+              "time": "15:00",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130282&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAA?AAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130282"
+            },
+            {
+              "time": "18:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130266&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAA?AAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130266"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "14:00",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130274&a=0000000001&l=7311&m=the-odyssey&ss=False",
+              "seats": [
+                "....AA.AA.AA...",
+                "...............",
+                "...AA.AAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...A?AAAAAAAA..",
+                "...AAAAAAAAA?..",
+                "AA.AAAAAA?AAA..",
+                "AA.AAAAAAAAAAA?"
+              ],
+              "layoutKey": "130274"
+            },
+            {
+              "time": "18:00",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130269&a=0000000001&l=7311&m=the-odyssey&ss=False",
+              "seats": [
+                "....AA.AA.AA...",
+                "...............",
+                "...AA.AAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...A?AAAAAAAA..",
+                "...AAAAAAAAA?..",
+                "AA.AAAAAA?AAA..",
+                "AA.AAAAAAAAAAA?"
+              ],
+              "layoutKey": "130269"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "movies": [
+        {
           "title": "Avengers Endgame: Encore",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
           "runtimeMinutes": 185,
           "sessions": [
             {
-              "time": "14:00",
+              "time": "18:30",
               "formats": [
-                "Regular"
+                "3D"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130259&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130287&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
               "seats": [
                 "AAAAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAAAA",
@@ -8459,34 +8509,10 @@
                 "AAAAAAAAAAAAAAAAAA",
                 "...AAAAAAAAAAAAAAA"
               ],
-              "layoutKey": "130259"
-            },
-            {
-              "time": "18:00",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130270&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "...AAAAOOAAAAAAAAA"
-              ],
-              "layoutKey": "130270"
+              "layoutKey": "130287"
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
-      "movies": [
+        },
         {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
@@ -8586,84 +8612,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130283&a=0000000001&l=7311&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130283"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130284&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAA?AAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130284"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130288&a=0000000001&l=7311&m=the-odyssey&ss=False",
-              "seats": [
-                "....AA.AA.AA...",
-                "...............",
-                "...AA.AAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...A?AAAAAAAA..",
-                "...AAAAAAAAA?..",
-                "AA.AAAAAA?AAA..",
-                "AA.AAAAAAAAAAA?"
-              ],
-              "layoutKey": "130288"
-            }
-          ]
-        },
-        {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
           "runtimeMinutes": 104,
@@ -8744,28 +8692,80 @@
           ]
         },
         {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130283&a=0000000001&l=7311&m=practical-magic-2&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130283"
+            }
+          ]
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
+          "runtimeMinutes": 145,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130284&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAA?AAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130284"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
           "sessions": [
             {
               "time": "18:30",
               "formats": [
-                "3D"
+                "VIP 19+"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130287&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130288&a=0000000001&l=7311&m=the-odyssey&ss=False",
               "seats": [
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA"
+                "....AA.AA.AA...",
+                "...............",
+                "...AA.AAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...A?AAAAAAAA..",
+                "...AAAAAAAAA?..",
+                "AA.AAAAAA?AAA..",
+                "AA.AAAAAAAAAAA?"
               ],
-              "layoutKey": "130287"
+              "layoutKey": "130288"
             }
           ]
         }
@@ -8774,6 +8774,73 @@
     {
       "date": "2026-09-29",
       "movies": [
+        {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "15:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130304&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAA?AAAAAAAAA?.",
+                ".AAAAAAAAAA?AAAAAAA?.",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130304"
+            },
+            {
+              "time": "18:00",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130320&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAOOOAAAAAAA",
+                "...AAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130320"
+            },
+            {
+              "time": "21:50",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130319&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAOOOAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130319"
+            }
+          ]
+        },
         {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
@@ -8998,160 +9065,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "15:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130307&a=0000000001&l=7311&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130307"
-            },
-            {
-              "time": "18:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130306&a=0000000001&l=7311&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAOOAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130306"
-            },
-            {
-              "time": "21:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130305&a=0000000001&l=7311&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130305"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "15:00",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130310&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAA?AAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130310"
-            },
-            {
-              "time": "18:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130309&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAA?AAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130309"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130308&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "AAAAAAA?AAAAAAAA",
-                "AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130308"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "20:00",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130322&a=0000000001&l=7311&m=the-odyssey&ss=False",
-              "seats": [
-                "....AA.AA.AA...",
-                "...............",
-                "...AA.AAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...A?AAAAAAAA..",
-                "...AAAAAAAAA?..",
-                "AA.AAAAAA?AAA..",
-                "AA.AAAAAAAAAAA?"
-              ],
-              "layoutKey": "130322"
-            }
-          ]
-        },
-        {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
           "runtimeMinutes": 104,
@@ -9339,69 +9252,156 @@
           ]
         },
         {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "15:10",
+              "time": "15:45",
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130304&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130307&a=0000000001&l=7311&m=practical-magic-2&ss=False",
               "seats": [
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                ".AAAAAAAA?AAAAAAAAA?.",
-                ".AAAAAAAAAA?AAAAAAA?.",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAA"
               ],
-              "layoutKey": "130304"
+              "layoutKey": "130307"
             },
             {
-              "time": "18:00",
+              "time": "18:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130306&a=0000000001&l=7311&m=practical-magic-2&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAOOAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130306"
+            },
+            {
+              "time": "21:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130305&a=0000000001&l=7311&m=practical-magic-2&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130305"
+            }
+          ]
+        },
+        {
+          "title": "Spider-Man: Brand New Day",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
+          "runtimeMinutes": 145,
+          "sessions": [
+            {
+              "time": "15:00",
               "formats": [
                 "3D"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130320&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130310&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
               "seats": [
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAA?AAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAA"
               ],
-              "layoutKey": "130320"
+              "layoutKey": "130310"
             },
             {
-              "time": "21:50",
+              "time": "18:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130309&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAA?AAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130309"
+            },
+            {
+              "time": "21:30",
               "formats": [
                 "3D"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130319&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130308&a=0000000001&l=7311&m=spiderman-brand-new-day&ss=False",
               "seats": [
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAOOOAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "AAAAAAA?AAAAAAAA",
+                "AAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAA"
               ],
-              "layoutKey": "130319"
+              "layoutKey": "130308"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "20:00",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130322&a=0000000001&l=7311&m=the-odyssey&ss=False",
+              "seats": [
+                "....AA.AA.AA...",
+                "...............",
+                "...AA.AAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...A?AAAAAAAA..",
+                "...AAAAAAAAA?..",
+                "AA.AAAAAA?AAA..",
+                "AA.AAAAAAAAAAA?"
+              ],
+              "layoutKey": "130322"
             }
           ]
         }
@@ -9410,6 +9410,32 @@
     {
       "date": "2026-09-30",
       "movies": [
+        {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130298&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130298"
+            }
+          ]
+        },
         {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
@@ -9509,6 +9535,86 @@
           ]
         },
         {
+          "title": "Heart of the Beast",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
+          "runtimeMinutes": 104,
+          "sessions": [
+            {
+              "time": "19:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130300&a=0000000001&l=7311&m=heart-of-the-beast&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "..AAAAAAAAAAAAAAAAAAAAA.",
+                "..AAAA?AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAAAAA",
+                ".....AAAAAAAAAAAAAAAAAA?"
+              ],
+              "layoutKey": "130300"
+            }
+          ]
+        },
+        {
+          "title": "Primetime",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
+          "runtimeMinutes": 110,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130295&a=0000000001&l=7311&m=primetime&ss=False",
+              "seats": [
+                "....AA.AA.AA......",
+                "..................",
+                "...AAAAAAA.AAA....",
+                "...AAAAA?AAAAA....",
+                "...AAAAAAAAAAA....",
+                "...AAAAAAAAAAA....",
+                "...AAAAAAAAAAA..AA",
+                "...AAAAAAAAAAA..AA",
+                "...AAAAAAAAAAA..AA",
+                "................AA",
+                "AA.AAAAAAAAA....AA",
+                "AA??AAAAAAAAAA..A?"
+              ],
+              "layoutKey": "130295"
+            },
+            {
+              "time": "19:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130299&a=0000000001&l=7311&m=primetime&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                ".AAAAAAAA?AAAAAAAAA?.",
+                ".AAAAAAAAAA?AAAAAAA?.",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAAAAAA",
+                "...OOAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130299"
+            }
+          ]
+        },
+        {
           "title": "Practical Magic 2",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
@@ -9585,87 +9691,12 @@
               "layoutKey": "130297"
             }
           ]
-        },
-        {
-          "title": "Heart of the Beast",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 104,
-          "sessions": [
-            {
-              "time": "19:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130300&a=0000000001&l=7311&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "..AAAAAAAAAAAAAAAAAAAAA.",
-                "..AAAA?AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
-                ".....AAAAAAAAAAAAAAAAAA?"
-              ],
-              "layoutKey": "130300"
-            }
-          ]
-        },
-        {
-          "title": "Primetime",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
-          "runtimeMinutes": 110,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130295&a=0000000001&l=7311&m=primetime&ss=False",
-              "seats": [
-                "....AA.AA.AA......",
-                "..................",
-                "...AAAAAAA.AAA....",
-                "...AAAAA?AAAAA....",
-                "...AAAAAAAAAAA....",
-                "...AAAAAAAAAAA....",
-                "...AAAAAAAAAAA..AA",
-                "...AAAAAAAAAAA..AA",
-                "...AAAAAAAAAAA..AA",
-                "................AA",
-                "AA.AAAAAAAAA....AA",
-                "AA??AAAAAAAAAA..A?"
-              ],
-              "layoutKey": "130295"
-            },
-            {
-              "time": "19:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130299&a=0000000001&l=7311&m=primetime&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                ".AAAAAAAA?AAAAAAAAA?.",
-                ".AAAAAAAAAA?AAAAAAA?.",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130299"
-            }
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "movies": [
         {
           "title": "Avengers Endgame: Encore",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
@@ -9676,7 +9707,7 @@
               "formats": [
                 "3D"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130298&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130335&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
               "seats": [
                 "AAAAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAAAA",
@@ -9688,15 +9719,10 @@
                 "AAAAAAAAAAAAAAAAAA",
                 "...AAAAAAAAAAAAAAA"
               ],
-              "layoutKey": "130298"
+              "layoutKey": "130335"
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2026-10-01",
-      "movies": [
+        },
         {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
@@ -9739,58 +9765,6 @@
                 "AA.AAAAAAAAAAAAA"
               ],
               "layoutKey": "130329"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130332&a=0000000001&l=7311&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130332"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130328&a=0000000001&l=7311&m=the-odyssey&ss=False",
-              "seats": [
-                "....AA.AA.AA...",
-                "...............",
-                "...AA.AAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...AAAAAAAAAA..",
-                "...A?AAAAAAAA..",
-                "...AAAAAAAAA?..",
-                "AA.AAAAAA?AAA..",
-                "AA.AAAAAAAAAAA?"
-              ],
-              "layoutKey": "130328"
             }
           ]
         },
@@ -9868,32 +9842,6 @@
                 "AAAAAAAAAAA."
               ],
               "layoutKey": "130330"
-            }
-          ]
-        },
-        {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130335&a=0000000001&l=7311&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "AAAAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "130335"
             }
           ]
         },
@@ -9976,6 +9924,58 @@
                 "AA??AAAAAAAAAA..A?"
               ],
               "layoutKey": "130184"
+            }
+          ]
+        },
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130332&a=0000000001&l=7311&m=practical-magic-2&ss=False",
+              "seats": [
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "AAAAAAAAAAAAAAAAA",
+                "...AAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "130332"
+            }
+          ]
+        },
+        {
+          "title": "The Odyssey",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
+          "runtimeMinutes": 172,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=130328&a=0000000001&l=7311&m=the-odyssey&ss=False",
+              "seats": [
+                "....AA.AA.AA...",
+                "...............",
+                "...AA.AAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...AAAAAAAAAA..",
+                "...A?AAAAAAAA..",
+                "...AAAAAAAAA?..",
+                "AA.AAAAAA?AAA..",
+                "AA.AAAAAAAAAAA?"
+              ],
+              "layoutKey": "130328"
             }
           ]
         }
