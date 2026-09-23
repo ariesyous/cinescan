@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T22:53:37.322Z",
+  "updatedAt": "2026-09-23T23:26:42.065Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
@@ -366,80 +366,6 @@
       ]
     },
     "153491": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "......SSSSCW.WCSSSSS..",
-        "......................"
-      ]
-    },
-    "153659": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
-    "153660": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
-    "153661": {
       "totalRows": 11,
       "totalColumns": 22,
       "rowLabels": [
@@ -2602,87 +2528,6 @@
   },
   "days": [
     {
-      "date": "2026-09-23",
-      "movies": [
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153660&a=0000000001&l=7206&m=resident-evil-2026&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..OOAAOOAOOOO..",
-                "..OOOOOOOOAOO..",
-                "..OAAOOAOOOOO..",
-                "..?OOAAOOOOO?..",
-                "..AOOOOOOOOAA.."
-              ],
-              "layoutKey": "153660"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153661&a=0000000001&l=7206&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAOOAAAAAAAAA..",
-                "AAAA..AAAAAAAAAOOAAA..",
-                "A?AA..OOAAAAA?AAA?AA..",
-                "AAAA..AAOOAA?AAAOOOO..",
-                "AA?A..AOO?AAAAOOAOOA..",
-                "AAAA..OOAAAAOOAAAAAA..",
-                "AAAA..AAAOOAA?AAA?AA..",
-                "......OOOAAA.AAAAAA?..",
-                "......................"
-              ],
-              "layoutKey": "153661"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153659&a=0000000001&l=7206&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............",
-                "..A?AAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAOAAAAAAA..",
-                "..AAAAAOOAAAA..",
-                "..AA?AAOOAAAA..",
-                "..AAAAAAAAOAA.."
-              ],
-              "layoutKey": "153659"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-24",
       "movies": [
         {
@@ -2728,7 +2573,7 @@
               "seats": [
                 "...............",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAOOOAAAA..",
                 "..OOOOOAA?AAA..",
                 "..AOOOOOOAAAA..",
                 "..OOOO?OOAAAA..",
@@ -2980,7 +2825,7 @@
                 "..A?AAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAOOAAAAA..",
                 "..OO?AAAAAAOO..",
                 "..AAAAAAAAAAA.."
               ],

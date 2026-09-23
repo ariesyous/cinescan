@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T22:53:07.794Z",
+  "updatedAt": "2026-09-23T23:26:12.086Z",
   "theatre": {
     "id": 3103,
     "name": "Cineplex Cinemas Seton and VIP"
@@ -3245,30 +3245,6 @@
         "SSSSS................."
       ]
     },
-    "109893": {
-      "totalRows": 8,
-      "totalColumns": 17,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        ".................",
-        "..SSSSSSSSSSSSS..",
-        ".................",
-        "....SSSSCW.WCSS..",
-        "....SSSSSSSSSSS..",
-        "....SSSSSSSSSSS..",
-        "SS..SSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSS"
-      ]
-    },
     "109894": {
       "totalRows": 8,
       "totalColumns": 17,
@@ -3367,36 +3343,6 @@
         "....SSSSSSSSSSS..",
         "SS..SSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "109902": {
-      "totalRows": 11,
-      "totalColumns": 17,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        ".................",
-        "..SSSSSSSSSSSSS..",
-        ".................",
-        "..CW.WCSSSSSS....",
-        "..SSSSSSSSSSS....",
-        "..SSSSSSSSSSS....",
-        "..SSSSSSSSSSS....",
-        "..SSSSSSSSSSS..SS",
-        "..SSSSSSSSSSS..SS",
-        "..SSSSSSSSSSS..SS",
-        "SSSSSS......SSSSS"
       ]
     },
     "109903": {
@@ -11552,27 +11498,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "17:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=109902&a=0000000001&l=3103&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".................",
-                "..AAAAAAAAAAAAA..",
-                ".................",
-                "..AA.AAAAAAAA....",
-                "..AAAAAAAAAAA....",
-                "..AAAAAAOOAAA....",
-                "..AAAAAOOAAAA....",
-                "..AAOOAOOAAAA..AA",
-                "..AAAAAAAAOAA..AA",
-                "..OAAAAOOAAAA..AA",
-                "AAAOOO......AAAAA"
-              ],
-              "layoutKey": "109902"
-            },
-            {
               "time": "18:00",
               "formats": [
                 "Recliner"
@@ -11589,7 +11514,7 @@
                 "....AAAAAAAOOAAAAAAAAA..",
                 "AA..AAAAAAAAAOOAAAAAAA..",
                 "AA..AAAOOOAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAA...",
+                "AA..AAAAAAAAOOAAAAAAA...",
                 "AAAA...................."
               ],
               "layoutKey": "109885"
@@ -11615,8 +11540,8 @@
                 "AA..AAAAAAAAOOOOAAAAAAAAAA..",
                 "AA..AAAAAAAAAAOAAAAAAAAAAA..",
                 "AA..AAAAAAAAAOOAAAAAAAAAAA..",
-                "AA..AAAAAAAAOAAAAAAAAAAAAA..",
-                "....AA.AA.AOO.OAA.?A.AAA.A.."
+                "AA..AAAAAAAAOAAOOAAAAAAAAA..",
+                "....AA.AA.AOO.OOO.?A.AAA.A.."
               ],
               "layoutKey": "109881"
             },
@@ -11640,8 +11565,8 @@
                 "AA..AAAAAAAAOOOOAAAAAAAAAA..",
                 "AA..AAAAAAAAAAOAAAAAAAAAAA..",
                 "AA..AAAAAAAAAOOAAAAAAAAAAA..",
-                "AA..AAAAAAAAOAAAAAAAAAAAAA..",
-                "....AA.AA.AOO.OAA.?A.AAA.A.."
+                "AA..AAAAAAAAOAAOOAAAAAAAAA..",
+                "....AA.AA.AOO.OOO.?A.AAA.A.."
               ],
               "layoutKey": "109881"
             },
@@ -11660,10 +11585,10 @@
                 "....AAAAAAAAAAAA..",
                 "....AAAAAAOOAAAA..",
                 "....AAAOOOOOAAAA..",
-                "AA..OOAAAOAAAOOO..",
-                "AA..OOOOOOAAAAAA..",
+                "AA..OOOOAOAAAOOO..",
+                "AA..OOOOOOOOOOAA..",
                 "OO..OOAOOOAAAAAA..",
-                "AAAOOO......OOAAAA"
+                "OOAOOO......OOAAAA"
               ],
               "layoutKey": "109984"
             },
@@ -11763,7 +11688,7 @@
                 "....AAOOOAAAOO..",
                 "....AAOOOOAAOO..",
                 "AA..OOAAAOOOOO..",
-                "AAAA........AAOO"
+                "AAAO........AAOO"
               ],
               "layoutKey": "109981"
             },
@@ -11870,7 +11795,7 @@
                 ".................",
                 "....AA.AAAAAAAA..",
                 "....AAAAAAAAAAA..",
-                "....AAAAAAAAAAA..",
+                "....AAAAOOOAAAA..",
                 "....AOOOAAAAOOO..",
                 "AA..AAAAOOAAAAA..",
                 "AAAAOOAAAAAAAAAAA"
@@ -11988,7 +11913,7 @@
                 "..AAAAAOOOOAA..AA",
                 "..AAAAAAAAAAA..AA",
                 "..AAAAAAOOAAA..AA",
-                "AAAAAA......AAAAA"
+                "OOAAAA......AAAAA"
               ],
               "layoutKey": "109903"
             },
@@ -12012,31 +11937,6 @@
                 "AAAAAA......AAAAA"
               ],
               "layoutKey": "109904"
-            }
-          ]
-        },
-        {
-          "title": "Paw Patrol: The Dino Movie",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37346_320_470.jpg",
-          "runtimeMinutes": 89,
-          "sessions": [
-            {
-              "time": "16:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=109893&a=0000000001&l=3103&m=paw-patrol-the-dino-movie&ss=False",
-              "seats": [
-                ".................",
-                "..AAAAAAAAAAAAA..",
-                ".................",
-                "....AAAAAA.AAAA..",
-                "....AAAAAAAA?AA..",
-                "....OOAAAAAAAAA..",
-                "AA..AAAAAAAAAAA..",
-                "AAAAA?AAAAAAAAAAA"
-              ],
-              "layoutKey": "109893"
             }
           ]
         },
@@ -12305,7 +12205,7 @@
                 "....AAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA?AA..",
                 "....AAAAAOOOOOOAAAAAAA..",
-                "AA..AAAAAAAAAAOOAAAAAA..",
+                "AA..AAAAAAAAAAOOAAOOAA..",
                 "AA..AAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAOOOAAAAAAA...",
                 "AAAA...................."
@@ -12519,7 +12419,7 @@
                 "....AAAAAAAAAA..",
                 "....AAAAAAAAAA..",
                 "....AAAAOOAAAA..",
-                "AA..AAAAAAAAAA..",
+                "AA..AAOOAAAAAA..",
                 "AAAA........AAAA"
               ],
               "layoutKey": "109986"
@@ -13235,7 +13135,7 @@
                 "..AAAAAAAAAA....",
                 "..AAAAOOAAAA..AA",
                 "..AAAAAAAAAA..AA",
-                "..OOOAAAOOAA..A?",
+                "..OOOOAAOOAA..A?",
                 "..AAAA......AAAA"
               ],
               "layoutKey": "110223"
@@ -13508,7 +13408,7 @@
                 "..AAAAAAAAAAAAAAA..",
                 "...................",
                 "..AA.AAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
+                "..AOOOOAAAAAAAA....",
                 "..AAAOOAOOAAAAO....",
                 "..OOOOOOOOAOOOO....",
                 "..AOOOOOOOOOOOO..OO",
@@ -13561,7 +13461,7 @@
                 "OO..AOOOOOOOAAAA..",
                 "AA..AAAOOOOOAAAA..",
                 "AA..AAOOOOOOAAAA..",
-                "AAAAOO......AAAAAA"
+                "AAAAOO......OOAAAA"
               ],
               "layoutKey": "110218"
             },
@@ -14523,7 +14423,7 @@
                 "..AAAAAAOOAAAAA....",
                 "..AAAAAOOOAAAOO....",
                 "..OOAOOAAOAAAAA..AA",
-                ".AAAAAAAAOOAAAA..AA",
+                ".AAAAOOAAOOAAAA..AA",
                 ".............OOAAAA"
               ],
               "layoutKey": "110076"
@@ -15538,7 +15438,7 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAOO..AA",
                 "..AAAAAAAAAAAAAAAAAAAA",
                 "AAAAA................."
               ],
@@ -15783,7 +15683,7 @@
                 "....AAAAAAAAAA..",
                 "....AAAAAAAAAA..",
                 "AA..AAAAAAAAAA..",
-                "AAAA........AAAA"
+                "AAAA........OOAA"
               ],
               "layoutKey": "110240"
             },
@@ -16510,7 +16410,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA..AA",
+                "..AAAAAAOOAAAAA..AA",
                 ".AAAAAAAAAAAAAA..AA",
                 ".............AAAAAA"
               ],
@@ -16977,7 +16877,7 @@
                 "..AA..AAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAOOAAAAAA....",
+                "..AAAAOOOOOOAAAAAA....",
                 "..OOOOAOOOOOOOAAAA..AA",
                 "..AAAOOOOOOOOOAAAA..AA",
                 "..AAAAAOOAAOOOOOOAAAAA",
@@ -17234,7 +17134,7 @@
                 "..AAAAAAA.AA....",
                 "..AAAAAAAAAA....",
                 "..AAAAAAAAAA....",
-                "..OOAAAAAAAA....",
+                "..OOAAOOAAAA....",
                 "..AAAAOOAAAA..AA",
                 "AAAAAAAAAAAAAAAA"
               ],
@@ -17353,7 +17253,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAOOAAAAA....",
                 "..AAAAAAOOAAAAA....",
-                "..AAAAAAAOOAAAA..OO",
+                "..OOAAAAAAAAAAA..OO",
                 ".AAAAAAOOAAAAAA..AA",
                 ".............AAAAAA"
               ],
