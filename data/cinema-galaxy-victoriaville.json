@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T16:03:46.004Z",
+  "updatedAt": "2026-09-24T20:21:35.621Z",
   "theatre": {
     "id": 9186,
     "name": "Cinéma Galaxy Victoriaville"
@@ -39,6 +39,36 @@
         "..SSSSSSSSSSSSSSSSSSSSS..SS.",
         "..SSSSSSSSSSSSSSSSSSSSS..SS.",
         "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "138222": {
+      "totalRows": 11,
+      "totalColumns": 20,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "....................",
+        "..SSSSSSSSSSSSSSSS..",
+        "....................",
+        "..WWCSSCW.WCSSS.....",
+        "..SSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSS.....",
+        "SSSSSSSSSSSSSSSSSSS."
       ]
     },
     "138314": {
@@ -4871,7 +4901,7 @@
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAOOAAAAAA..",
                 ".....AOOOAOOOOOOAAA..",
-                ".....AAAAOOAAAAAAAA..",
+                ".....AAAAOOOAAAAAAA..",
                 ".....AAAAOOOAAAAAAA..",
                 ".AAAAAAAAAAOAAAAAAAAA"
               ],
@@ -5647,7 +5677,7 @@
                 "..AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAA.....",
+                "..AAAAAAOOAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
                 "AAAAAAAAAAAAAAAAAAAA."
@@ -6283,33 +6313,6 @@
           ]
         },
         {
-          "title": "Super Wings : Vitesse maximum - Les films en famille",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62153_320_470.jpg",
-          "runtimeMinutes": 90,
-          "sessions": [
-            {
-              "time": "12:25",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139997&a=0000000001&l=9186&m=super-wings-vitesse-maximum-les-films-en-famille&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAA..",
-                ".....................",
-                ".....AAAAA.AAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "139997"
-            }
-          ]
-        },
-        {
           "title": "Pauline Julien Femme pays",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61142_320_470.jpg",
           "runtimeMinutes": 110,
@@ -6401,6 +6404,33 @@
                 "AAAAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "139993"
+            }
+          ]
+        },
+        {
+          "title": "Super Wings : Vitesse maximum - Les films en famille",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62153_320_470.jpg",
+          "runtimeMinutes": 90,
+          "sessions": [
+            {
+              "time": "12:25",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=139997&a=0000000001&l=9186&m=super-wings-vitesse-maximum-les-films-en-famille&ss=False",
+              "seats": [
+                ".....................",
+                "..AAAAAAAAAAAAAAAAA..",
+                ".....................",
+                ".....AAAAA.AAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "139997"
             }
           ]
         }
@@ -6874,7 +6904,7 @@
                 "..AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAA.....",
+                "..AOOOOAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
                 "AAAAAAAAAAAAAAAAAAAA."
@@ -7933,7 +7963,7 @@
         {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 104,
+          "runtimeMinutes": 101,
           "sessions": [
             {
               "time": "18:30",
@@ -8192,7 +8222,7 @@
                 "..AAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAA.....",
-                "AAAAAAAAOOOAAAAA???."
+                "AAAAAAAAAAAAAAAA???."
               ],
               "layoutKey": "138314"
             }
@@ -8273,7 +8303,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAA?AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAOOAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAAAAAAAA..AA.",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -8651,6 +8681,39 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "139946"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "movies": [
+        {
+          "title": "Macbeth (Verdi) Italien avec s.-t.fr. - Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61725_320_470.jpg",
+          "runtimeMinutes": 210,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=138222&a=0000000001&l=9186&m=stf-macbeth-verdi-italien-avec-stfr-met&ss=True",
+              "seats": [
+                "....................",
+                "..AAAAAAAAAAAAAAAA..",
+                "....................",
+                "..AAAAAAA.AAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "AAAAAAAOOOAAAAAA???."
+              ],
+              "layoutKey": "138222"
             }
           ]
         }

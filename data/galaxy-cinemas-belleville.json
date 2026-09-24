@@ -1,11 +1,39 @@
 {
-  "updatedAt": "2026-09-24T16:05:25.241Z",
+  "updatedAt": "2026-09-24T20:24:15.478Z",
   "theatre": {
     "id": 7409,
     "name": "Galaxy Cinemas Belleville"
   },
   "auditoriums": {
     "184706": {
+      "totalRows": 10,
+      "totalColumns": 21,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        ".....................",
+        "..SSSSSSSSSSSSSSSSSS.",
+        ".....................",
+        ".....SSWCSSSS.WWCS...",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS."
+      ]
+    },
+    "184707": {
       "totalRows": 10,
       "totalColumns": 21,
       "rowLabels": [
@@ -595,34 +623,6 @@
         "...D.DD.DDD.DD.DDD.DD....."
       ]
     },
-    "186740": {
-      "totalRows": 10,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".....................",
-        "..SSSSSSSSSSSSSSSSSS.",
-        ".....................",
-        ".....SSWCSSSS.WWCS...",
-        "....SSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS."
-      ]
-    },
     "186741": {
       "totalRows": 10,
       "totalColumns": 21,
@@ -763,40 +763,6 @@
         ".SSSSSSSSSSSSSSSSSS.."
       ]
     },
-    "186746": {
-      "totalRows": 13,
-      "totalColumns": 24,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "........................",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "........................",
-        "....SCWW.SSWCSSSWCS.....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS.....",
-        "...SSSSSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "186747": {
       "totalRows": 13,
       "totalColumns": 24,
@@ -829,34 +795,6 @@
         "...SSSSSSSSSSSSSSSS.....",
         "..SSSSSSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "186774": {
-      "totalRows": 10,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".....................",
-        ".SSSSSSSSSSSSSSSSSS..",
-        ".....................",
-        "...SCWW.SSSSCWSS.....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSSS.."
       ]
     },
     "186775": {
@@ -4870,6 +4808,34 @@
         "SS..SSSSSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSSSSSS"
       ]
+    },
+    "186915": {
+      "totalRows": 10,
+      "totalColumns": 21,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        ".....................",
+        "..SSSSSSSSSSSSSSSSSS.",
+        ".....................",
+        ".....SSWCSSSS.WWCS...",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS."
+      ]
     }
   },
   "days": [
@@ -4881,26 +4847,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
           "runtimeMinutes": 109,
           "sessions": [
-            {
-              "time": "16:00",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=186774&a=0000000001&l=7409&m=forgotten-island&ss=False",
-              "seats": [
-                ".....................",
-                ".AAAAAAAAAAAAAAAAAA..",
-                ".....................",
-                "...AAAA.AAAAAAAA.....",
-                "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "186774"
-            },
             {
               "time": "16:30",
               "formats": [
@@ -4915,7 +4861,7 @@
                 "...A.AA...AAA.AAAA...AA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAA?AAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAOOAAAA...",
                 "...A?AAAAAA?OAAAAAAAAAA...",
                 "...A.AA.AAO.OO.AAA.AA....."
               ],
@@ -4934,7 +4880,7 @@
                 "...A.AA...AAA.AAAA...AA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAA?AAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAOOAAAA...",
                 "...A?AAAAAA?OAAAAAAAAAA...",
                 "...A.AA.AAO.OO.AAA.AA....."
               ],
@@ -4954,7 +4900,7 @@
                 "...A.AA...AAA.AAAA...AA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAA?AAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAOOAAA...",
                 "...A?AAAAAA?AAAAAAAAAAA...",
                 "...A.AA.AAA.AA.AAA.AA....."
               ],
@@ -4973,7 +4919,7 @@
                 "...A.AA...AAA.AAAA...AA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAA?AAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAOOAAA...",
                 "...A?AAAAAA?AAAAAAAAAAA...",
                 "...A.AA.AAA.AA.AAA.AA....."
               ],
@@ -5000,9 +4946,9 @@
                 "...AA...AAAAAAA..AAA..A...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAAAAA?AAAAAA?...",
+                "...AAAAAAAAOOAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...A.AA.AAA.AA.AAA.AA....."
+                "...A.AA.AAO.OA.AAA.AA....."
               ],
               "layoutKey": "186736"
             },
@@ -5019,9 +4965,9 @@
                 "...AA...AAAAAAA..AAA..A...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAAAAA?AAAAAA?...",
+                "...AAAAAAAAOOAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...A.AA.AAA.AA.AAA.AA....."
+                "...A.AA.AAO.OA.AAA.AA....."
               ],
               "layoutKey": "186736"
             },
@@ -5063,7 +5009,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAAAAA?AAAAAA?...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAOOAAAAAAAAA...",
                 "...A.OA.AAA.AA.AAA.AA....."
               ],
               "layoutKey": "186737"
@@ -5082,7 +5028,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAAAAA?AAAAAA?...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAOOAAAAAAAAA...",
                 "...A.OA.AAA.AA.AAA.AA....."
               ],
               "layoutKey": "186737"
@@ -5094,26 +5040,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
           "sessions": [
-            {
-              "time": "15:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=186740&a=0000000001&l=7409&m=practical-magic-2&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAAA.",
-                ".....................",
-                ".....AAAAAAAA.AAAA...",
-                "....AAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAA?AAA..",
-                "....AAAAAAAAAAAAAAA..",
-                "....AOOOA???AAAAAAA..",
-                "....AAAAAAAAAAOOAAA..",
-                "..AAAAAAAOOAAAAAAAAA."
-              ],
-              "layoutKey": "186740"
-            },
             {
               "time": "18:45",
               "formats": [
@@ -5141,29 +5067,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "15:50",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=186746&a=0000000001&l=7409&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "........................",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "........................",
-                "....AAAA.AAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAA.....",
-                "...AAAAAAAAAAAAAAA?.....",
-                "..AAAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAOOAAAAAAAAAAA"
-              ],
-              "layoutKey": "186746"
-            },
             {
               "time": "19:20",
               "formats": [
@@ -5282,7 +5185,7 @@
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
                 "....OOOOAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAA..",
+                "....AAAOAOAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA."
               ],
@@ -5326,10 +5229,10 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "........................",
                 "....AAAAAAAAAA..AAAA....",
+                "....AAAAAAAAAOOOAAAAAA..",
+                "....AAAAAAOOAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAOOOAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAA...",
                 ".....AAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAA..",
@@ -5406,7 +5309,7 @@
                 "...AAA?AAAAAAAA?AAAAAA?...",
                 "...AAAAAOOOOOOAAAAAAAAA...",
                 "...AAAAAAAAAOOAAAAAAAAA...",
-                "...A.AA.AAA.OO.OOO.OO....."
+                "...A.OO.AAA.OO.OOO.OO....."
               ],
               "layoutKey": "186452"
             },
@@ -5426,7 +5329,7 @@
                 "...AAA?AAAAAAAA?AAAAAA?...",
                 "...AAAAAOOOOOOAAAAAAAAA...",
                 "...AAAAAAAAAOOAAAAAAAAA...",
-                "...A.AA.AAA.OO.OOO.OO....."
+                "...A.OO.AAA.OO.OOO.OO....."
               ],
               "layoutKey": "186452"
             },
@@ -5491,8 +5394,8 @@
                 ".....AAAAAAAA.AAAA...",
                 "....AAAAAAAAAAAAAOO..",
                 "....AAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAA..",
                 "....AAAAAOOOAAAAAAA..",
+                "....AAAOOOOOAAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOOAAAAAAA."
               ],
@@ -5541,7 +5444,7 @@
                 "...AAAAAAAAAA?AAAAAAAAA...",
                 "...AAAAAAAOOAAAAAAAAAAA...",
                 "...A?AAAAAA?OOOOAAAAAAA...",
-                "...A.AA.AAA.AA.AAA.OO....."
+                "...A.AA.AAO.OA.AAA.OO....."
               ],
               "layoutKey": "186788"
             },
@@ -5560,7 +5463,7 @@
                 "...AAAAAAAAAA?AAAAAAAAA...",
                 "...AAAAAAAOOAAAAAAAAAAA...",
                 "...A?AAAAAA?OOOOAAAAAAA...",
-                "...A.AA.AAA.AA.AAA.OO....."
+                "...A.AA.AAO.OA.AAA.OO....."
               ],
               "layoutKey": "186788"
             },
@@ -5578,9 +5481,9 @@
                 "...A.AA...AAA.AAAA...AA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAOO?OOAAAAAOO...",
-                "...OOAAAOOOOOOOOOOOOAAA...",
+                "...OOAAAOOOOOOOOOOOOOOO...",
                 "...A?OOOOOO?OOOOOOAAAOO...",
-                "...A.AA.AAA.OO.AAA.AA....."
+                "...O.OA.AOO.OO.OOA.AA....."
               ],
               "layoutKey": "186789"
             },
@@ -5597,9 +5500,9 @@
                 "...A.AA...AAA.AAAA...AA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAOO?OOAAAAAOO...",
-                "...OOAAAOOOOOOOOOOOOAAA...",
+                "...OOAAAOOOOOOOOOOOOOOO...",
                 "...A?OOOOOO?OOOOOOAAAOO...",
-                "...A.AA.AAA.OO.AAA.AA....."
+                "...O.OA.AOO.OO.OOA.AA....."
               ],
               "layoutKey": "186789"
             },
@@ -5667,7 +5570,7 @@
         {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 104,
+          "runtimeMinutes": 101,
           "sessions": [
             {
               "time": "15:50",
@@ -5710,7 +5613,7 @@
                 "..AAAAAAAOOOOAAAAAAA....",
                 "...AAAAAAAAAAAAAAAA.....",
                 "...AAAAAAAAAAAAAAA?.....",
-                "..AAAAAAAOOAAAAAAAAA..AA",
+                "..OOOAAAAOOAAAAOOOOO..AA",
                 "OOOOAAOOAAAAAAAAAAOOAAAA"
               ],
               "layoutKey": "186786"
@@ -5732,7 +5635,7 @@
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAA.....",
-                "...AAAAAAAAAAAAAAA?.....",
+                "...AAAAAAAOOAAAAAA?.....",
                 "..AAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAOOAAAAAAAAOOAA"
               ],
@@ -5777,7 +5680,7 @@
                 ".....................",
                 ".....AAAAAAAA.AAAA...",
                 "....AAAAAOOOOOAAAAA..",
-                "....AAAAAAAAAAA?AAA..",
+                "....AAAAAOOOOAA?AAA..",
                 "....AAAAAOOOAAAAAAA..",
                 "....AAAAA???AAAAAAA..",
                 "....AAAAAOOAAOOAAAA..",
@@ -6029,7 +5932,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAAAAA?AAAAAA?...",
                 "...AOOOAOOOOOOOOOAAAAAA...",
-                "...OOAAAAAAOOOOAAAAAAAO...",
+                "...OOAAAAAAOOOOOOAAAAAO...",
                 "...A.AA.AAA.AA.AAA.AA....."
               ],
               "layoutKey": "186457"
@@ -6048,7 +5951,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAA?AAAAAAAA?AAAAAA?...",
                 "...AOOOAOOOOOOOOOAAAAAA...",
-                "...OOAAAAAAOOOOAAAAAAAO...",
+                "...OOAAAAAAOOOOOOAAAAAO...",
                 "...A.AA.AAA.AA.AAA.AA....."
               ],
               "layoutKey": "186457"
@@ -6216,7 +6119,7 @@
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "186816"
@@ -6263,7 +6166,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAA?AAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
-                "...A?AAAAAA?AAAAAAAAAAA...",
+                "...A?AAAAAA?AAAAAAAAAOO...",
                 "...A.AA.AAA.AA.AAA.AA....."
               ],
               "layoutKey": "186824"
@@ -6282,7 +6185,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAA?AAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
-                "...A?AAAAAA?AAAAAAAAAAA...",
+                "...A?AAAAAA?AAAAAAAAAOO...",
                 "...A.AA.AAA.AA.AAA.AA....."
               ],
               "layoutKey": "186824"
@@ -7230,7 +7133,7 @@
         {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 104,
+          "runtimeMinutes": 101,
           "sessions": [
             {
               "time": "13:00",
@@ -7248,7 +7151,7 @@
                 "..AAAAAAAAAAAAAAAAOO....",
                 "..AAAAAAAAOOAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAA.....",
+                "...AAAAAAAAAAAAAAOO.....",
                 "...AAAAAAAAAAAAAAA?.....",
                 "..AAAAAAAAAAAAAAAAAA..OO",
                 "OOOOAAAAAAAAOOAAAAAAAAAA"
@@ -7270,7 +7173,7 @@
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
+                "..OOAAAAAAAAAAAAAAOO....",
                 "...AAAAAAAAAAAAAAAA.....",
                 "...AAAAAAAAAAAAAAA?.....",
                 "..AAAAAAAAAAAAAAAAAA..AA",
@@ -7324,7 +7227,7 @@
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAA???AAAAAAA..",
                 "....AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAOAAAAAAAA."
+                "..OOAAAAAAAOAAAAAAAA."
               ],
               "layoutKey": "186844"
             },
@@ -7860,7 +7763,7 @@
         {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 104,
+          "runtimeMinutes": 101,
           "sessions": [
             {
               "time": "16:40",
@@ -7970,7 +7873,7 @@
                 "....AAAAAAAAAAA?AAA..",
                 "....AAAAAAAAAAAAAAA..",
                 "....AAAAA???AAAAAAA..",
-                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "186850"
@@ -8517,7 +8420,7 @@
         {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 104,
+          "runtimeMinutes": 101,
           "sessions": [
             {
               "time": "16:40",
@@ -9519,7 +9422,7 @@
         {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 104,
+          "runtimeMinutes": 101,
           "sessions": [
             {
               "time": "16:40",
@@ -9561,7 +9464,7 @@
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAA.....",
-                "...AAAAAAAAAAAAAAA?.....",
+                "...AAAAAAOOOOAAAAA?.....",
                 "..AAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -9773,6 +9676,38 @@
       ]
     },
     {
+      "date": "2026-10-02",
+      "movies": [
+        {
+          "title": "Coraline - Family Favourites",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62009_320_470.jpg",
+          "runtimeMinutes": 110,
+          "sessions": [
+            {
+              "time": "11:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=186915&a=0000000001&l=7409&m=coraline-family-favourites&ss=False",
+              "seats": [
+                ".....................",
+                "..AAAAAAAAAAAAAAAAAA.",
+                ".....................",
+                ".....AAAAAAAA.AAAA...",
+                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAA?AAA..",
+                "....AAAAAAAAAAAAAAA..",
+                "....AAAAA???AAAAAAA..",
+                "....AAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA."
+              ],
+              "layoutKey": "186915"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-10-03",
       "movies": [
         {
@@ -9799,6 +9734,38 @@
                 "..AAAAAAAAAAAAAAAAAO."
               ],
               "layoutKey": "184706"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "movies": [
+        {
+          "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61726_320_470.jpg",
+          "runtimeMinutes": 210,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=184707&a=0000000001&l=7409&m=est-macbeth-verdi-italian-west-met&ss=True",
+              "seats": [
+                ".....................",
+                "..AAAAAAAAAAAAAAAAAA.",
+                ".....................",
+                ".....AAAAAAAA.AAAA...",
+                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA."
+              ],
+              "layoutKey": "184707"
             }
           ]
         }
