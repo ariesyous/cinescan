@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T09:51:38.444Z",
+  "updatedAt": "2026-09-24T16:05:32.949Z",
   "theatre": {
     "id": 7270,
     "name": "Galaxy Cinemas Orangeville"
@@ -1237,6 +1237,34 @@
         "....SSSSSSSSSSSSSS...SS",
         "...SSSSSSSSSSSSSSSS..SS",
         ".SSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "166567": {
+      "totalRows": 10,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "......................",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "......................",
+        "...SSSSCW...SSSSCW....",
+        "...SSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSS..SS",
+        ".SSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "166568": {
@@ -4082,7 +4110,7 @@
                 "...AAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAA....",
                 "...AAAAAAAOAAAAAAAA....",
-                "....AAAAAAAAAAAAAA...AA",
+                "....OOAAAAAAAAAAAA...AA",
                 "....AAAAAAAAAAAAAA...AA",
                 "...AAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAA"
@@ -4141,7 +4169,7 @@
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA..AA",
+                "...AAAAAAAOAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "166544"
@@ -4288,7 +4316,7 @@
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
                 "AA....AAAAAAAAAAAAAA..",
-                "AA....AAAAAAAAAAAAAA..",
+                "AA....AAAAAAOOAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -5368,7 +5396,7 @@
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
-                "AA....AAAAAAAAAAAAAA..",
+                "AA....OOAAAAAAAAAAAA..",
                 "AA....AAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAAAAAAAAA"
@@ -6188,7 +6216,7 @@
                 ".....AAAAAAAAAAAAAAAA.",
                 "AA....AAAAAAAAAAAAAA..",
                 "AA....AAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...OOAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "166632"
@@ -6443,7 +6471,7 @@
         {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 104,
+          "runtimeMinutes": 101,
           "sessions": [
             {
               "time": "18:30",
@@ -6798,6 +6826,33 @@
                 ".AAAAAAAAAAAAAAAAAAAA?"
               ],
               "layoutKey": "164755"
+            }
+          ]
+        },
+        {
+          "title": "Coraline - Family Favourites",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62009_320_470.jpg",
+          "runtimeMinutes": 110,
+          "sessions": [
+            {
+              "time": "11:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166567&a=0000000001&l=7270&m=coraline-family-favourites&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                "...AAAAAA...AAAAAA....",
+                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "166567"
             }
           ]
         }

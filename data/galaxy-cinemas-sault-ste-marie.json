@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T09:51:41.359Z",
+  "updatedAt": "2026-09-24T16:05:37.877Z",
   "theatre": {
     "id": 7266,
     "name": "Galaxy Cinemas Sault Ste Marie"
@@ -75,6 +75,40 @@
         ".....SSSSSSSSSSSS...",
         "....SSSSSSSSSSSSSS..",
         "...SSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "224105": {
+      "totalRows": 13,
+      "totalColumns": 19,
+      "rowLabels": [
+        null,
+        "EE",
+        "DD",
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "...................",
+        "SSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSS..",
+        "...................",
+        "..SCW.WCSSCW.WCS...",
+        "..SSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS...",
+        "SSSSSSSSSSSSSSSSS.."
       ]
     },
     "224237": {
@@ -4228,7 +4262,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAAAAA.."
+                "...AAAAAAAAAAAOOAAAAAAAAAAA.."
               ],
               "layoutKey": "224443"
             },
@@ -4495,7 +4529,7 @@
                 ".....AOOOAAAOOOAAAA..",
                 ".....OAAAAAOOAAAAAA..",
                 ".....AAAAAOOAAOAAAA..",
-                ".....AAAAAAAOOOAAAA..",
+                ".....AAAOOAAOOOAAAA..",
                 "...OOAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "224470"
@@ -4521,7 +4555,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAOAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAAAAAAAA....",
+                "....AAAAAAOOAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA.."
@@ -4556,7 +4590,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAOOAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA.."
@@ -6665,7 +6699,7 @@
         {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 104,
+          "runtimeMinutes": 101,
           "sessions": [
             {
               "time": "16:00",
@@ -7374,6 +7408,36 @@
                 "...AAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "222605"
+            }
+          ]
+        },
+        {
+          "title": "Coraline - Family Favourites",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62009_320_470.jpg",
+          "runtimeMinutes": 110,
+          "sessions": [
+            {
+              "time": "11:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224105&a=0000000001&l=7266&m=coraline-family-favourites&ss=False",
+              "seats": [
+                "...................",
+                "AAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAA..",
+                "...................",
+                "..AAA.AAAAAA.AAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "224105"
             }
           ]
         }
