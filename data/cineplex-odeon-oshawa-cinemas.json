@@ -1,30 +1,10 @@
 {
-  "updatedAt": "2026-09-24T23:10:29.428Z",
+  "updatedAt": "2026-09-24T23:46:20.676Z",
   "theatre": {
     "id": 7289,
     "name": "Cineplex Odeon Oshawa Cinemas"
   },
   "auditoriums": {
-    "254282": {
-      "totalRows": 6,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "................",
-        "...SSSCWWCCWC...",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS.."
-      ]
-    },
     "254594": {
       "totalRows": 6,
       "totalColumns": 16,
@@ -3249,28 +3229,6 @@
         "..DD.DDD.....DDD.DDD.D.."
       ]
     },
-    "257834": {
-      "totalRows": 7,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "....................",
-        "...WCSSWCCWWCSSSS...",
-        "..SSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS.."
-      ]
-    },
     "257835": {
       "totalRows": 7,
       "totalColumns": 20,
@@ -3750,34 +3708,6 @@
       ]
     },
     "258375": {
-      "totalRows": 11,
-      "totalColumns": 24,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        ".....SSSSSSSSSSSSSS.....",
-        "........................",
-        "....CCWCCWWCCWCCWCSS....",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..DD.DDD.....DDD.DDD.D.."
-      ]
-    },
-    "258376": {
       "totalRows": 11,
       "totalColumns": 24,
       "rowLabels": [
@@ -10122,24 +10052,6 @@
           "runtimeMinutes": 109,
           "sessions": [
             {
-              "time": "19:00",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=257834&a=0000000001&l=7289&m=forgotten-island&ss=False",
-              "seats": [
-                "....................",
-                "...AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
-                "..AAOOOOAOOAAAAAAA..",
-                "..AAOOOOOAOOOOOAAA..",
-                "..AA?AAAAOOAAAAAAA.."
-              ],
-              "layoutKey": "257834"
-            },
-            {
               "time": "21:45",
               "formats": [
                 "3D",
@@ -10164,51 +10076,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
           "runtimeMinutes": 94,
           "sessions": [
-            {
-              "time": "19:10",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=258376&a=0000000004&l=7289&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".....AAAAAAAAAAAAAA.....",
-                "........................",
-                "....AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOAAAAAAAAA..",
-                "..AAAAAOOAAOOAAAAAAAAA..",
-                "..AAAAAAAAOOOOAAAAAAAA..",
-                "..AAAAOOOOOOOOOOAAOOAA..",
-                "..OAAA??OOOOOOOO??AAAA..",
-                "..OO.OOO.....?OO.OOO.O.."
-              ],
-              "layoutKey": "258376"
-            },
-            {
-              "time": "19:10",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=258376&a=0000000001&l=7289&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".....AAAAAAAAAAAAAA.....",
-                "........................",
-                "....AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOAAAAAAAAA..",
-                "..AAAAAOOAAOOAAAAAAAAA..",
-                "..AAAAAAAAOOOOAAAAAAAA..",
-                "..AAAAOOOOOOOOOOAAOOAA..",
-                "..OAAA??OOOOOOOO??AAAA..",
-                "..OO.OOO.....?OO.OOO.O.."
-              ],
-              "layoutKey": "258376"
-            },
             {
               "time": "21:10",
               "formats": [
@@ -10402,29 +10269,6 @@
           ]
         },
         {
-          "title": "The Misanthrope - National Theatre Live",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61544_320_470.jpg",
-          "runtimeMinutes": 150,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=254282&a=0000000001&l=7289&m=the-misanthrope-national-theatre-live&ss=False",
-              "seats": [
-                "................",
-                "...AAAAAOAAAA...",
-                "..AAAAAAAAAAAA..",
-                "..AAAA?AAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAOO.."
-              ],
-              "layoutKey": "254282"
-            }
-          ]
-        },
-        {
           "title": "Oasis: Don’t Look Back in Anger",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61442_320_470.jpg",
           "runtimeMinutes": 123,
@@ -10440,7 +10284,7 @@
                 "...A..AAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAA?A..",
+                "..AAAAOOAAAA?A..",
                 "..AAAAAA?AAAAA.."
               ],
               "layoutKey": "258363"
@@ -10649,7 +10493,7 @@
                 "...A..AAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAA?A..",
+                "..AAAAAOOAAA?A..",
                 "..AAOOAA?OOOOA.."
               ],
               "layoutKey": "258494"
@@ -10818,7 +10662,7 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAA??AAOOOOAA??AAAA..",
+                "..AAAA??AAOOOOOO??AAAA..",
                 "..AA.AAA.....?OO.AAA.A.."
               ],
               "layoutKey": "258500"
@@ -10840,7 +10684,7 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAA??AAOOOOAA??AAAA..",
+                "..AAAA??AAOOOOOO??AAAA..",
                 "..AA.AAA.....?OO.AAA.A.."
               ],
               "layoutKey": "258500"
@@ -11872,7 +11716,7 @@
                 "...AAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAA...",
-                "..AA?AAAAAAAAAA...",
+                "..AA?AAAOOAAAAA...",
                 "..AAAAAAAAAAAAAA.."
               ],
               "layoutKey": "258528"
@@ -11934,7 +11778,7 @@
                 "..AAAAAAAAAAAA...",
                 "..A?AAOOAAAAAA...",
                 "..AAAAAA??AAAA...",
-                "..AAAAAAAAAAAAA.."
+                "..AAAAAAOAAAAAA.."
               ],
               "layoutKey": "258513"
             },
@@ -12834,7 +12678,7 @@
                 "..AAAAAAAAA......",
                 "..AAAAAAAAAAAA...",
                 "..AAAAAAAAAAAA...",
-                "..A?OOAAAAAAAA...",
+                "..A?AAAAAAAAAA...",
                 "..AAAAAA??AAAA...",
                 "..AAAAAAAAAAAAA.."
               ],
@@ -16090,8 +15934,8 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAOOAAAAAAAAAAAAA..",
-                "..OAAAOOAAOOOAAAAAAOOO..",
-                "..OOOOOOOOOOOOOOAAAAAA..",
+                "..OAAAAAAAOOOAAAAAAOOO..",
+                "..OOOOOOOOOOOOOOAAAOOO..",
                 "..OOOOOOAOOOOOOOAOOAAA.."
               ],
               "layoutKey": "257490"

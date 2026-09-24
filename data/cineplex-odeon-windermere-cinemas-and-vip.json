@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T23:10:35.365Z",
+  "updatedAt": "2026-09-24T23:46:26.069Z",
   "theatre": {
     "id": 3149,
     "name": "Cineplex Odeon Windermere Cinemas and VIP"
@@ -1835,6 +1835,36 @@
         "SSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
+    "171110": {
+      "totalRows": 11,
+      "totalColumns": 18,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "..................",
+        "..SSSSSSSSSSSSSS..",
+        "..................",
+        ".....CW..WCSS.WC..",
+        ".....SSSSSSSSSSS..",
+        ".....SSSSSSSSSSS..",
+        ".....SSSSSSSSSSS..",
+        ".....SSSSSSSSSSS..",
+        ".SS..SSSSSSSSSSS..",
+        ".SS..SSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSS"
+      ]
+    },
     "171111": {
       "totalRows": 15,
       "totalColumns": 30,
@@ -1871,6 +1901,38 @@
         "..SSSSSSSSSSSSSSSSSSSSSSS..SS.",
         "..SSSSSSSSSSSSSSSSSSSSSSS..SS.",
         "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "171113": {
+      "totalRows": 12,
+      "totalColumns": 13,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "seatTypes": [
+        ".SS.SS.SS....",
+        ".............",
+        "CWSSSCW.WC...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS...",
+        "SSSSSSSSSS.SS",
+        "SSSSSSSSSS.SS",
+        "SSSS.......SS",
+        "SSSS.......SS"
       ]
     },
     "171114": {
@@ -9107,7 +9169,7 @@
                 ".AAAAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAAAA.....",
-                ".AAAAAAAAA?AAAAAA.....",
+                ".AAAAAAAOO?AAAAAA.....",
                 ".AAAAAAAAAOOAAAAA..AA.",
                 ".AAAAAAAAAAAAAAOO..AA.",
                 "OOAAAAAAA??AAAAAAAAAAA"
@@ -9139,7 +9201,7 @@
                 "AA.AAAAOOAAAA",
                 "AA.AAOOAAOOAA",
                 "AA.AAAAOOAAAA",
-                "AA.OO....AAAA",
+                "AA.OO....OOAA",
                 "AA.........AA"
               ],
               "layoutKey": "171104"
@@ -9163,7 +9225,7 @@
                 "..AAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAOOO..AA.",
                 "..AAAAAAAAAAAAAAAAAAA..AA.",
-                "..AAAAAAAAAA?AAAAAAAA..AA.",
+                "..AAOAAAAAAA?AAAAAAAA..AA.",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "171109"
@@ -9212,7 +9274,22 @@
               "formats": [
                 "VIP 18+"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171113&a=0000000001&l=3149&m=the-odyssey&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171113&a=0000000001&l=3149&m=the-odyssey&ss=False",
+              "seats": [
+                ".??.??.??....",
+                ".............",
+                "AAAAAAA.AA...",
+                "??????????...",
+                "AA??AAAAA?...",
+                "AAAAAAAAAA...",
+                "AAAAAA?AAA...",
+                "AAAAAAAAAA...",
+                "AAOOAAAAAA.A?",
+                "AOOAAAAAAA.A?",
+                "AOAA.......A?",
+                "AAAA.......AA"
+              ],
+              "layoutKey": "171113"
             }
           ]
         },
@@ -9238,9 +9315,37 @@
                 ".....OOOOAAOOOO..",
                 ".AA..AAAAAAAAAA..",
                 ".AA..AAAAAAAAAA..",
-                "AAAOAAAAAAAAAAAAA"
+                "AAAOAAAAAOAAAAAAA"
               ],
               "layoutKey": "171114"
+            }
+          ]
+        },
+        {
+          "title": "The Uprising",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61279_320_470.jpg",
+          "runtimeMinutes": 128,
+          "sessions": [
+            {
+              "time": "18:35",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171110&a=0000000001&l=3149&m=the-uprising&ss=False",
+              "seats": [
+                "..................",
+                "..AAAAAAAAAAAAAA..",
+                "..................",
+                ".....AA..AAAA.AA..",
+                ".....AAAAAAAAAAA..",
+                ".....AAAAAAAAAAA..",
+                ".....AAAAOAAAAAA..",
+                ".....AAAAAAAAAAA..",
+                ".AA..AAAAAAAAAAA..",
+                ".AA..AAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "171110"
             }
           ]
         }
@@ -11282,7 +11387,7 @@
                 "....AAAAAAAAAOOOOOAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAOOOOOOOOOOOOOOAAAAA",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
+                "AA..AAAAAAAAAOOOOAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
                 "AA..AA.AAAA.AAAA.AAAA.AAAA.AA",
                 "....?A.AAAA.A?AA.AAAA.AAAA.?A"
@@ -11308,7 +11413,7 @@
                 "....AAAAAAAAAOOOOOAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAOOOOOOOOOOOOOOAAAAA",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
+                "AA..AAAAAAAAAOOOOAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
                 "AA..AA.AAAA.AAAA.AAAA.AAAA.AA",
                 "....?A.AAAA.A?AA.AAAA.AAAA.?A"
@@ -12208,7 +12313,7 @@
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
+                "AAAAAAOOOO.AA",
                 "AAOOOOAAAA.AA",
                 "AAAA.......AA",
                 "AAAA.......AA"
@@ -13095,7 +13200,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
+                "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
@@ -13121,7 +13226,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
+                "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??AAAAAAAAAAAAA",

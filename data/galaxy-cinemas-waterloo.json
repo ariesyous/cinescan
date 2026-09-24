@@ -1,38 +1,10 @@
 {
-  "updatedAt": "2026-09-24T23:10:55.937Z",
+  "updatedAt": "2026-09-24T23:46:43.575Z",
   "theatre": {
     "id": 7268,
     "name": "Galaxy Cinemas Waterloo"
   },
   "auditoriums": {
-    "276602": {
-      "totalRows": 11,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "..SCW.WCSCWSSCW.WCS....",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..DDD.DDDDD.DDDDDD.DD.."
-      ]
-    },
     "276605": {
       "totalRows": 11,
       "totalColumns": 23,
@@ -2372,53 +2344,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "19:15",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276602&a=0000000004&l=7268&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAOOAAAAOAAA..",
-                "..AAAAAAAOOOOAAAAAAAA..",
-                "..AAAAAAOOOOOOOOOAAAA..",
-                "..AAAAAOAOOOOOAAOOAAA..",
-                "..AAA.AOOOO.OOOOAA.AA.."
-              ],
-              "layoutKey": "276602"
-            },
-            {
-              "time": "19:15",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276602&a=0000000001&l=7268&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAOOAAAAOAAA..",
-                "..AAAAAAAOOOOAAAAAAAA..",
-                "..AAAAAAOOOOOOOOOAAAA..",
-                "..AAAAAOAOOOOOAAOOAAA..",
-                "..AAA.AOOOO.OOOOAA.AA.."
-              ],
-              "layoutKey": "276602"
-            },
-            {
               "time": "21:00",
               "formats": [
                 "Recliner"
@@ -2431,9 +2356,9 @@
                 "...AA..AAAAAAAA.AA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAA..",
+                "...AAAAAOOAAAAAAAA..",
                 "...AAAAAAAOOAAAAAA..",
-                "OAAAAAOOAAAAAAAAAAAA"
+                "OAAAAAOOAAAAOAAAAAAA"
               ],
               "layoutKey": "276630"
             },
@@ -2454,7 +2379,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAA.AAAAO.OAAAAA.AA.."
@@ -2477,7 +2402,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAA.AAAAO.OAAAAA.AA.."
@@ -2753,7 +2678,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOOAAAAAAAA..",
                 "..AAAOOAAAOOOOOAAAAAA..",
                 "..OAAAAAOAAOOAAAOOOOO..",
                 "..AAA.AAAOO.AAAAAA.AA.."
@@ -2777,7 +2702,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOOAAAAAAAA..",
                 "..AAAOOAAAOOOOOAAAAAA..",
                 "..OAAAAAOAAOOAAAOOOOO..",
                 "..AAA.AAAOO.AAAAAA.AA.."
@@ -2844,7 +2769,7 @@
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAOOAAAAAAA..",
-                "...AAOOOAAAAAAAAAA..",
+                "...AAOOOAAAAAAAAOO..",
                 "AAAAAAAAOOOOOAAAAAAA"
               ],
               "layoutKey": "276656"
@@ -3326,7 +3251,7 @@
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAOOAAAAAAA..",
-                "...AAAAAAAAAAAAAAA..",
+                "...AAAAAAOOAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "276648"
@@ -4135,7 +4060,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAA.AAAAA.AAAAAA.AA.."
+                "..AAO.AAAAA.AAAAAA.AA.."
               ],
               "layoutKey": "276690"
             },
@@ -4159,7 +4084,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAA.AAAAA.AAAAAA.AA.."
+                "..AAO.AAAAA.AAAAAA.AA.."
               ],
               "layoutKey": "276690"
             }
@@ -4418,7 +4343,7 @@
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAOOAAAAAAA..",
-                "...AAAAAAAAAAAAAAA..",
+                "...AAAAAOOOOOAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "276713"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T23:08:28.190Z",
+  "updatedAt": "2026-09-24T23:44:33.137Z",
   "theatre": {
     "id": 9190,
     "name": "Capitol Saint-Jean"
@@ -53,32 +53,6 @@
         ".SSSSSSSSSSS",
         "............",
         "CW.WC...SSSS"
-      ]
-    },
-    "159773": {
-      "totalRows": 9,
-      "totalColumns": 13,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null,
-        "G"
-      ],
-      "seatTypes": [
-        ".............",
-        ".SSSSSSSSSSS.",
-        ".SSSSSSSSSSSS",
-        ".SSSSSSSSSSSS",
-        ".SSSSSSSSSSSS",
-        ".SSSSSSSSSSSS",
-        ".SSSSSSSSSSSS",
-        ".............",
-        ".CW.WCSSSSS.."
       ]
     },
     "159774": {
@@ -419,26 +393,6 @@
         ".CW.WCSSSSS.."
       ]
     },
-    "159982": {
-      "totalRows": 6,
-      "totalColumns": 10,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null
-      ],
-      "seatTypes": [
-        "..........",
-        "..SSSSSSSS",
-        ".SSSSSSSSS",
-        ".SSSSSSSSS",
-        "..CW.WCSSS",
-        ".........."
-      ]
-    },
     "159983": {
       "totalRows": 7,
       "totalColumns": 15,
@@ -459,28 +413,6 @@
         "..SSSSSSSSSSSSS",
         "...............",
         "..CW.WCSSSSSSSS"
-      ]
-    },
-    "159984": {
-      "totalRows": 8,
-      "totalColumns": 13,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null,
-        "F"
-      ],
-      "seatTypes": [
-        ".............",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "DD.DDD.DDDD.D",
-        "SSSCWWCSSSSS."
       ]
     },
     "160047": {
@@ -2399,75 +2331,6 @@
       "date": "2026-09-24",
       "movies": [
         {
-          "title": "L'île de l'oubli",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61297_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "19:15",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159773&a=0000000001&l=9190&m=lile-de-loubli&ss=False",
-              "seats": [
-                ".............",
-                ".AA?AAAAAAAA.",
-                ".?AAAAAAAAAAA",
-                ".AAAAAAAAAAAA",
-                ".AAAAAAAAAAAA",
-                ".AAAAAAAAAAAA",
-                ".AAAAAAAAAAAA",
-                ".............",
-                ".AA.AAAAAAA.."
-              ],
-              "layoutKey": "159773"
-            }
-          ]
-        },
-        {
-          "title": "Resident Evil (version française)",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61421_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "D-BOX",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159984&a=0000000004&l=9190&m=vf-resident-evil-version-francaise&ss=False",
-              "seats": [
-                ".............",
-                "AAAAAAAAAAAAA",
-                "AAAAAOOAAAAAA",
-                "AAAAOOOOOOAAO",
-                "AAOOAA?OOAAOO",
-                "AA.AAO.OAAO.O",
-                "?A?AAAAOOOOO."
-              ],
-              "layoutKey": "159984"
-            },
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159984&a=0000000001&l=9190&m=vf-resident-evil-version-francaise&ss=False",
-              "seats": [
-                ".............",
-                "AAAAAAAAAAAAA",
-                "AAAAAOOAAAAAA",
-                "AAAAOOOOOOAAO",
-                "AAOOAA?OOAAOO",
-                "AA.AAO.OAAO.O",
-                "?A?AAAAOOOOO."
-              ],
-              "layoutKey": "159984"
-            }
-          ]
-        },
-        {
           "title": "Shaun le mouton : La bêêête de la ferme",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61444_320_470.jpg",
           "runtimeMinutes": 81,
@@ -2488,29 +2351,6 @@
                 "..AA.AAAAAAAAAA"
               ],
               "layoutKey": "159983"
-            }
-          ]
-        },
-        {
-          "title": "Insidieux : Hors du plus loin",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61420_320_470.jpg",
-          "runtimeMinutes": 106,
-          "sessions": [
-            {
-              "time": "19:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=159982&a=0000000001&l=9190&m=insidieux-hors-du-plus-loin&ss=False",
-              "seats": [
-                "..........",
-                "..AAAAAAAA",
-                ".AAAOOAAAA",
-                ".AOOOOAAOO",
-                "..AA.AAOOA",
-                ".........."
-              ],
-              "layoutKey": "159982"
             }
           ]
         }
@@ -2730,7 +2570,7 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA",
-                "..AAOOOOOAAAAAA",
+                "..AAOOOOOOOAAAA",
                 "..AAOOAAOOAOAAA",
                 "...............",
                 "..AA.AAOOOOAAAA"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T23:10:12.568Z",
+  "updatedAt": "2026-09-24T23:46:05.341Z",
   "theatre": {
     "id": 7241,
     "name": "Cineplex Odeon Clarington Place Cinemas"
@@ -985,30 +985,6 @@
         "................"
       ]
     },
-    "282470": {
-      "totalRows": 8,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSS..",
-        "...WCSSSSSSCW...",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "...WCSSSSSSCWW..",
-        "................"
-      ]
-    },
     "282471": {
       "totalRows": 8,
       "totalColumns": 16,
@@ -1295,50 +1271,6 @@
         "..SSSSSSSSSSSS..",
         "...WCSSSSSSCWW..",
         "................"
-      ]
-    },
-    "282613": {
-      "totalRows": 7,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSCW..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "...WCSSSSSSCWW..",
-        "................"
-      ]
-    },
-    "282618": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSS..",
-        "..WWCSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "....WCSSSSCWW..",
-        "..............."
       ]
     },
     "282663": {
@@ -4400,84 +4332,6 @@
   },
   "days": [
     {
-      "date": "2026-09-24",
-      "movies": [
-        {
-          "title": "Primetime",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
-          "runtimeMinutes": 110,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282470&a=0000000001&l=7241&m=primetime&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAA..",
-                "...AAAAAAAAAA...",
-                "..AAAOAOOAAAAA..",
-                "..OOAAOOOOAAAA..",
-                "..OOOOOOOOOOOO..",
-                "..AAOAAOOOOOAA..",
-                "...AAOOOOOAAAA..",
-                "................"
-              ],
-              "layoutKey": "282470"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "19:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282618&a=0000000001&l=7241&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAOOAAAA..",
-                "..?AAAAAAAAAA..",
-                "..OOOOAAAAAAA..",
-                "....AAAAAAAAA..",
-                "..............."
-              ],
-              "layoutKey": "282618"
-            }
-          ]
-        },
-        {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "19:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282613&a=0000000001&l=7241&m=runner&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAO..",
-                "..AAAAAAAAAAAA..",
-                "...AAAAOOAAAAA..",
-                "................"
-              ],
-              "layoutKey": "282613"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-25",
       "movies": [
         {
@@ -5249,7 +5103,7 @@
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..??AAAAAAAAAA..",
+                "..??AAAAAAAAOO..",
                 "....AAAA?AAAAA..",
                 "....AAAAAAAAAA..",
                 ".....AAAAAAAAA..",
