@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T22:11:58.917Z",
+  "updatedAt": "2026-09-24T23:08:39.262Z",
   "theatre": {
     "id": 9153,
     "name": "Cinéma Cineplex Odeon Carrefour Dorion"
@@ -35,38 +35,6 @@
         "......WCSSCW.",
         ".............",
         "............."
-      ]
-    },
-    "196304": {
-      "totalRows": 12,
-      "totalColumns": 18,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null,
-        null
-      ],
-      "seatTypes": [
-        "....SSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSS.",
-        ".........WCSSSSCW.",
-        "..................",
-        ".................."
       ]
     },
     "196305": {
@@ -1053,28 +1021,6 @@
         ".SSSSSSSSSSS.",
         ".WCSCW.......",
         "............."
-      ]
-    },
-    "196549": {
-      "totalRows": 7,
-      "totalColumns": 17,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSS.SSSS.",
-        "...WC.SSS.CW....."
       ]
     },
     "196550": {
@@ -4177,35 +4123,6 @@
       "date": "2026-09-24",
       "movies": [
         {
-          "title": "L'île de l'oubli",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61297_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196304&a=0000000001&l=9153&m=lile-de-loubli&ss=False",
-              "seats": [
-                "....AAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".........AAAAAAAA.",
-                "..................",
-                ".................."
-              ],
-              "layoutKey": "196304"
-            }
-          ]
-        },
-        {
           "title": "Resident Evil (version française)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61421_320_470.jpg",
           "runtimeMinutes": 94,
@@ -4220,11 +4137,11 @@
                 "...AAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAOOAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAOOAAAAAAAAA.",
+                "..AAAAAAAOOAAAAAA.",
+                ".AAAAAAOOAAAAAAAA.",
                 ".........AAAAAAAA.",
                 ".................."
               ],
@@ -4258,30 +4175,6 @@
                 ".................."
               ],
               "layoutKey": "196544"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man : Un jour nouveau",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61565_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196549&a=0000000001&l=9153&m=vf-spiderman-un-jour-nouveau&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAA?AAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAA???A.OOAA.",
-                "...A?.AAA.?A....."
-              ],
-              "layoutKey": "196549"
             }
           ]
         },
@@ -4329,7 +4222,7 @@
                 ".....AAAAAAAAAAA..",
                 ".....AAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAA.",
+                "...AAAAAAOOAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
@@ -4359,9 +4252,9 @@
                 ".AAAAAAAAAAA.",
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAAA.",
-                ".AAAAAAAAAA..",
+                ".AAAAOOAAAA..",
                 ".AAAAAAAAAAA.",
-                ".AAAAAAAAAA..",
+                ".AAOAAAAAAA..",
                 ".AAAAAAAAAOO.",
                 ".AAAAA.......",
                 "............."
@@ -4388,7 +4281,7 @@
                 ".AAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAA.",
+                ".AAAAAOOAAAAAA.",
                 ".AAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAA.",
                 ".AAAAAA........",
@@ -4632,7 +4525,7 @@
                 "..AAAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAA.",
+                "...AAAAAOOAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 "........?AAAAAAAA.",
