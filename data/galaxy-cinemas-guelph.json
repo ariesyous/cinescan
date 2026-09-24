@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T00:18:30.581Z",
+  "updatedAt": "2026-09-24T01:00:19.812Z",
   "theatre": {
     "id": 7272,
     "name": "Galaxy Cinemas Guelph"
@@ -7611,6 +7611,40 @@
         "SS..DDD.DDDD.DDDD.DDDD.DD.."
       ]
     },
+    "243873": {
+      "totalRows": 13,
+      "totalColumns": 23,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        ".......................",
+        ".SSSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSSS..",
+        ".......................",
+        ".......WCSSCW..WCSSSS..",
+        "....SSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
     "243874": {
       "totalRows": 13,
       "totalColumns": 26,
@@ -10249,7 +10283,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAOOAAAAAAAAAA..",
+                "AA..OOAAAAAAAOOAAAAAAAAAA..",
                 "AA..AAAAAAAAAOOAAAAAAAAAA..",
                 "AA..AAAAAAAAOOOOAAAAAAAAA..",
                 "AA..?AA.AAAA.OOAA.AAAA.AA..",
@@ -10276,7 +10310,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAOOAAAAAAAAAA..",
+                "AA..OOAAAAAAAOOAAAAAAAAAA..",
                 "AA..AAAAAAAAAOOAAAAAAAAAA..",
                 "AA..AAAAAAAAOOOOAAAAAAAAA..",
                 "AA..?AA.AAAA.OOAA.AAAA.AA..",
@@ -10307,7 +10341,7 @@
                 "..AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAA.....",
-                "AAAAAAAAAAAAAAAAAAAA?"
+                "OOAAAAAAAAAAAAAAAAAA?"
               ],
               "layoutKey": "243694"
             }
@@ -10356,15 +10390,15 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=243782&a=0000000001&l=7272&m=the-odyssey&ss=False",
               "seats": [
                 "......................",
-                "...AAAAAAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAAAAA..",
+                "...??????????????????.",
+                "...?????????????????..",
                 "......................",
-                "......AAAAAAA..AAAA...",
-                ".....AAAAAAAAAAAAAA...",
-                ".....AAAAAAAAAAAAAA...",
-                ".....AAAAAAAAAAAAAA...",
-                ".....AAAAAAOAAAAAAA...",
-                "AAAAAAAAAAAAAAOOOAAAAA"
+                "......???????..????...",
+                ".....??????????????...",
+                ".....??????????????...",
+                ".....??????????????...",
+                ".....??????????????...",
+                "??????????????????????"
               ],
               "layoutKey": "243782"
             }
@@ -10391,9 +10425,9 @@
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAA..",
+                "AA..AOOOOAAAAAAAAAAAA..",
                 "AA..AAAAAAOOAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAOOAAAAAAAAA..",
                 "AAAAAAAAAAOOOAAAAAAAAAA"
               ],
               "layoutKey": "243698"
@@ -10424,7 +10458,7 @@
                 "..AAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAA..AA",
-                "OOAAAAAAAOOAAAAAAAAAAA"
+                "OOAAAAAAAOOAAAAAAAOOAA"
               ],
               "layoutKey": "243696"
             }
@@ -10575,7 +10609,7 @@
                 "....OOOOOAAOOAAOAAAAA..",
                 "OO..AAAAOAOOOAAOOOOOA..",
                 "AO..AAOOOOOOOOOOOOOAA..",
-                "AA..AAAAOOOOOOOAAOOOO..",
+                "AA..OOAAOOOOOOOAAOOOO..",
                 "OOAAOOAAOOAOOAAOOOOAAOO"
               ],
               "layoutKey": "243660"
@@ -10896,7 +10930,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAOO..AA",
                 ".AAAAAAAAAAAOOOOAAAAAAAAA..AA",
-                ".AAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAOOOAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAOOOOAAAAA..AA"
               ],
@@ -11542,7 +11576,7 @@
                 "AA..AAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAA..",
                 "AA..AAAAAOOOOOAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAOOAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "243812"
             }
@@ -13124,7 +13158,23 @@
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=243873&a=0000000001&l=7272&m=heart-of-the-beast&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=243873&a=0000000001&l=7272&m=heart-of-the-beast&ss=False",
+              "seats": [
+                ".......................",
+                ".AAAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAA..",
+                ".......................",
+                ".......AAAAAA..AAAAAA..",
+                "....AAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "243873"
             },
             {
               "time": "21:50",
