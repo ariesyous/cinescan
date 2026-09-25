@@ -1,44 +1,10 @@
 {
-  "updatedAt": "2026-09-25T21:03:12.112Z",
+  "updatedAt": "2026-09-25T22:13:36.106Z",
   "theatre": {
     "id": 3140,
     "name": "Galaxy Cinemas Medicine Hat"
   },
   "auditoriums": {
-    "254906": {
-      "totalRows": 13,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null,
-        "H",
-        "J",
-        "K",
-        null
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSS...",
-        "....................",
-        ".....WWCSSSS.SSSSSS.",
-        ".......SSSSS.SSSSSS.",
-        ".......SSSSSSSSSSSS.",
-        "...................."
-      ]
-    },
     "254907": {
       "totalRows": 13,
       "totalColumns": 20,
@@ -989,34 +955,6 @@
         ".......SSSSS.SSSSSS.",
         ".......SSSSSSSSSSSS.",
         "...................."
-      ]
-    },
-    "255162": {
-      "totalRows": 10,
-      "totalColumns": 17,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        ".................",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        "....WWCSSSSSSSSS.",
-        "................."
       ]
     },
     "255163": {
@@ -8276,26 +8214,6 @@
           "runtimeMinutes": 109,
           "sessions": [
             {
-              "time": "15:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255162&a=0000000001&l=3140&m=forgotten-island&ss=False",
-              "seats": [
-                ".................",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                "....AAAAAAAAAAAA.",
-                "................."
-              ],
-              "layoutKey": "255162"
-            },
-            {
               "time": "16:50",
               "formats": [
                 "Regular"
@@ -8303,13 +8221,13 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255647&a=0000000001&l=3140&m=forgotten-island&ss=False",
               "seats": [
                 "..................",
-                "...AAAAAAAAAAAAA..",
+                "...OOOAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAOOAAAAAAA.",
+                ".OOAAAAAAAAAAAAAA.",
+                ".OOAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAA..",
                 ".................."
@@ -8376,10 +8294,10 @@
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".OOAAAAOOAAAAAA.",
-                ".AAAAOOAAAAAAAA.",
+                ".AAAAOOAAAAAOOO.",
                 ".AAA?AAAOOOAAAA.",
                 ".OOOOAAAAAAAAOO.",
-                "..AAAAA?AAAAAA..",
+                "..AAAAA?OOOAAA..",
                 "................"
               ],
               "layoutKey": "255650"
@@ -8423,9 +8341,9 @@
                 "...AAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
-                "...AAAAAAA?AAAAA?.",
-                "...A??AA?AAAAAA?A.",
-                "...?AAAAAAAAA?AAA.",
+                "...AAAAOOA?AOOOA?.",
+                "...A??AA?AAOAAA?A.",
+                "...?AAAOOAAAO?AAO.",
                 "...?AAAA?A?A?AA?A.",
                 "....AA??AA??AAAA..",
                 ".................."
@@ -8466,7 +8384,7 @@
                 ".AAAA.AAAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAOOAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAAA.AAAA.",
                 ".AAAA.AAOOOOOOOAA.AAAA.",
                 ".AAOO.AAAAAAAAAAA.AAAA.",
@@ -8482,29 +8400,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
           "runtimeMinutes": 101,
           "sessions": [
-            {
-              "time": "15:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=254906&a=0000000001&l=3140&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAA...",
-                ".AAAAAAOAAAAAAAAA...",
-                "..AAAAAAOOOAAAAA....",
-                "..AAAAAAAAAAOOAA....",
-                ".AAAAOOAAAAAAAAAA...",
-                "....................",
-                ".....AAAAAAO.OOOAAA.",
-                ".......AAAAA.AAAAAA.",
-                ".......AAAAAAAAAAAA.",
-                "...................."
-              ],
-              "layoutKey": "254906"
-            },
             {
               "time": "18:50",
               "formats": [
@@ -8572,7 +8467,7 @@
                 ".AAAAAAA?AAAAAAAA.",
                 ".A?A?A?A?AAA?AAAA.",
                 ".AA?A?AA??AAAA?AA.",
-                ".A?AAAAA?OAAAAAAA.",
+                ".A?AAAAA?OAAAAAOO.",
                 ".???AAAA?AAAAAAA?.",
                 "..AAA?AA?OOOOO?AA.",
                 ".................."
@@ -8637,7 +8532,7 @@
                 ".OO?A?AA??AAAA?AA.",
                 ".A?AAAAA?AAAAOOOO.",
                 ".???AAAA?AAAAAAA?.",
-                "..AAA?OO?AAAAA?AA.",
+                "..AAA?OO?AAAOO?AA.",
                 ".................."
               ],
               "layoutKey": "255380"
@@ -8663,7 +8558,7 @@
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAOOAAAA.AAAA.",
                 ".AAAA.AAAAAAAAA..AAAA.",
-                ".AAAA.AAAAAAAAA..AAAA.",
+                ".AAAA.AAOOAAAAA..AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAA..AAAAOOAAAA..AAA.",
@@ -8684,7 +8579,7 @@
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAOOOAA.AAAA.",
-                ".AAAA.AAAAOAAAA..AAAA.",
+                ".AAAA.OOAAOAAAA..AAAA.",
                 ".AAAA.AAAAAAAAA..AAAA.",
                 ".AAAA.AAOOAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAA.AAAA.",
@@ -8836,7 +8731,7 @@
                 "AAAA...AAAAAAAAAAAAA...AAAA",
                 "AAAA..AAAAAAAAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAAAAAAAA..AAAA",
-                "AAA...AAAAAAAAAAAAAAA..AAA.",
+                "AAA...AAAAAAAAAAAAAAO..AAA.",
                 "..........................."
               ],
               "layoutKey": "255658"
@@ -8854,7 +8749,7 @@
                 ".AAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAOOOOAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAA..",
@@ -8903,8 +8798,8 @@
                 ".AAAA.AAAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
-                ".AAAA.AAAAAAAAAAA.AAAA.",
+                ".AAAA.AAAAAAAOOAA.AAAA.",
+                ".AAAA.OOAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAAA.AAAA.",
                 ".AAAA.AAAAAAAAAAA.AAAA.",
                 ".AAA..AAAAAAAAAAA..AAA.",
@@ -9316,7 +9211,7 @@
                 ".AAAAAAAAAAAAAAAA...",
                 ".AAAAAAAAAAAAAAAA...",
                 ".AAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA....",
+                "..OOAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 ".AAAAAOOOAAAAAAAA...",
                 "....................",
