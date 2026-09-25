@@ -1,39 +1,11 @@
 {
-  "updatedAt": "2026-09-25T22:12:02.190Z",
+  "updatedAt": "2026-09-25T23:14:10.720Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
   },
   "auditoriums": {
     "123761": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS...SSSSCWWCSSS..SSS",
-        "SCW..................."
-      ]
-    },
-    "125497": {
       "totalRows": 10,
       "totalColumns": 22,
       "rowLabels": [
@@ -411,54 +383,6 @@
         "SS..SSSSSSSS..SS",
         "SS..SSSSSSSS..SS",
         "SS...WCSSSCW..SS"
-      ]
-    },
-    "125523": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSCW.WCSS..SSS",
-        "SCW..............SSS"
-      ]
-    },
-    "125524": {
-      "totalRows": 7,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSCW",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSS..",
-        "SSSCW.WCSSS.."
       ]
     },
     "125525": {
@@ -2040,26 +1964,6 @@
           "runtimeMinutes": 109,
           "sessions": [
             {
-              "time": "15:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125497&a=0000000001&l=1410&m=forgotten-island&ss=False",
-              "seats": [
-                "A??..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAA?AOOAAAA..AAA",
-                "AAA..AAAAOOOOAAAA..AAA",
-                "AAA..AAAAAA?OOOOO..OOA",
-                "AAA..AAAAOOOOAAAA..AAA",
-                "AAA...AAAAAAAAA?A..AAA",
-                "???..................."
-              ],
-              "layoutKey": "125497"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "3D",
@@ -2072,10 +1976,10 @@
                 "AAA..AAAAOOAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..OOOO?OOOOOOO..AAA",
-                "AAA..AAAAOOOOOOAA..AAA",
-                "AAA..AAAAAA?AAOOO..OOO",
-                "AAA..OOOOAAOOAAAA..AAA",
-                "AAA...AAAAAAAAA?A..AAA",
+                "AAA..OOAAOOOOOOAA..AAA",
+                "AAA..AAOOOA?AAOOO..OOO",
+                "AAA..OOOOAAOOAAOO..AAA",
+                "AAA...OOOOAAAAA?A..AAA",
                 "???..................."
               ],
               "layoutKey": "125498"
@@ -2117,8 +2021,8 @@
               "seats": [
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
-                "AA..AAOOOO??..?A",
-                "?A..OOAAOAAA..AA",
+                "AO..AAOOOO??..?A",
+                "?A..OOOOOAAA..AA",
                 "OO...AAOOOAA..AA"
               ],
               "layoutKey": "125525"
@@ -2147,12 +2051,12 @@
               "seats": [
                 "AAA..AAAAAAAAAA..???",
                 "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAA?..AAA",
+                "AAA..AAOOOOOAA?..AAA",
                 "AAA..AAOOOOOOAA..AAA",
                 "AAA..AAOOOOA??A..AAA",
-                "AAA..AAAAOOAAOA..AAA",
+                "AAA..OOOOOOOOOA..AAA",
                 "AAA..AAOOOO?AAA..AAA",
-                "AOO..AAAAA.AAAA..AAA",
+                "AOO..AAAAA.AAOO..AAA",
                 "???..............???"
               ],
               "layoutKey": "125528"
@@ -2165,23 +2069,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "15:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125524&a=0000000001&l=1410&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAA??AAAAAAAA",
-                "AA?AAAAAA?A??",
-                "?AAAAAAAAAAAA",
-                "AAAOOOAAAAAAA",
-                "AAAAAOOAAAAOO",
-                "AOOAAOOOOAA..",
-                "AAAAA.AAAOO.."
-              ],
-              "layoutKey": "125524"
-            },
-            {
               "time": "18:40",
               "formats": [
                 "Recliner"
@@ -2191,10 +2078,10 @@
                 "AAA??AAAAAAAA",
                 "AA?OOOAAA?A??",
                 "?OOAAOOAAAAAA",
-                "OOOAAOOOOAAAA",
-                "OOAAOOOOOOOAA",
-                "AOOOOOOAAOO..",
-                "AAOAA.AAOOO.."
+                "OOOOOOOOOAAAA",
+                "OOOOOOOOOOOOO",
+                "AOOOOOOOOOO..",
+                "OOOAA.AAOOO.."
               ],
               "layoutKey": "125529"
             },
@@ -2223,26 +2110,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "15:15",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125523&a=0000000001&l=1410&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAA..AAAAAAAAAA..???",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAOAAAAA?..AAA",
-                "AAA..AAAAOOAAAA..AAA",
-                "AAA..AOOAAAA??A..AAA",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..OOAAAO?AAA..AAA",
-                "AAA..AAAAA.AAAA..AAA",
-                "???..............???"
-              ],
-              "layoutKey": "125523"
-            },
-            {
               "time": "18:40",
               "formats": [
                 "Recliner"
@@ -2252,7 +2119,7 @@
                 "AAA..AAAAAAAAAA..???",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA?..AAA",
-                "AAA..AAAAAAAAAA..AAA",
+                "AAA..AAAAAAOOAA..AAA",
                 "AAA..AAAAOOA??A..AAA",
                 "AOO..AAAAOOOAOO..AAA",
                 "AAA..AAAAAA?AAA..AAA",
@@ -2293,9 +2160,9 @@
               "seats": [
                 "AAAAA??AAAAAA?",
                 "AAAAAAAAAAAA?A",
-                "AAAAAAAAAAAAAA",
-                "AAAA?OOAAA..AA",
-                "AOOAAAAAAAOOAA",
+                "AAAAAAOOOAAAAA",
+                "AAAA?OOAOO..AA",
+                "AOOAAOOOOAOOAA",
                 "AOOAAAAOOAAAAA",
                 "AA..AA..AA..AA"
               ],
@@ -2311,9 +2178,9 @@
                 "AAAAA??AAAAAA?",
                 "AAAAAAAAAAAA?A",
                 "AAAAAAAAAAAAAA",
-                "AOOA?AAAAA..AA",
+                "AOOA?OOAAA..AA",
                 "AAAAAOOAAAAAAA",
-                "AOOAAAAOOAAAAA",
+                "AOOAAOOAAAAAAA",
                 "AA..AA..AA..AA"
               ],
               "layoutKey": "125531"
@@ -2384,7 +2251,7 @@
                 "AAA..AAAAOOAAAAAA..AAA",
                 "AAA..AAAA?OOOAAAA..AAA",
                 "AAA..AAAOOOOOOOAA..AAA",
-                "AAA..AAAAAA?AAAAA..AAA",
+                "AAA..AOOOAA?AAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA...AAAAAAAAA?A..AAA",
                 "???..................."
@@ -2458,8 +2325,8 @@
               "seats": [
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
-                "AA..AAOOOO??..?A",
-                "?A..AOOOOOAA..AA",
+                "AA..OOOOOO??..?A",
+                "?A..AOOOOOOO..AA",
                 "AA...AAAOOAA..OO"
               ],
               "layoutKey": "125544"
@@ -2657,7 +2524,7 @@
                 "AAAAAAAAAAAA?A",
                 "AAAAAAAAAAAAAA",
                 "AAAA?AAAAA..AA",
-                "AAAAAAAAAAAAAA",
+                "AOOOOOAAAAAAAA",
                 "AAAAAAAAAAAAAA",
                 "AA..AA..AA..AA"
               ],
@@ -2764,7 +2631,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAA?AAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAA?AAAAA..AAA",
+                "AAA..AAOOAA?AAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA...AAAAAAAAA?A..AAA",
                 "???..................."
@@ -2862,7 +2729,7 @@
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
+                "AAAAOOOAAAAAA",
                 "AAAAAAAAAAA..",
                 "AAAAA.AAAAA.."
               ],
@@ -3303,7 +3170,7 @@
                 "?AAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAAOOOAAAAAA",
-                "AAAAAAAAAAA..",
+                "AAAAAAAOOAA..",
                 "AAAAA.AAAAA.."
               ],
               "layoutKey": "125605"
