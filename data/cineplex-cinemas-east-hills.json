@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T03:46:31.175Z",
+  "updatedAt": "2026-09-25T05:57:24.012Z",
   "theatre": {
     "id": 3152,
     "name": "Cineplex Cinemas East Hills"
@@ -423,6 +423,34 @@
         "..SSSSSSSSSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSSSSSSSS..",
         "..DDDD.DDDDDDD.DDDDDDD.DDD.."
+      ]
+    },
+    "59240": {
+      "totalRows": 10,
+      "totalColumns": 26,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..........................",
+        ".....SSCWWCSSSSSSSSSSWC...",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "59358": {
@@ -3655,9 +3683,9 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAOOAAAAAAAAAAA..",
+                "..AAAAAAOOAAOOOOAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOOAAAAAAAAAA..",
-                "..AAAAAAAAAAOOOOAAAAAAAAAA..",
-                "..AAAAAAAAAOOAAAAAAAAAAAAA..",
+                "..AAAAAOOAAOOAAAAAAAAAAAAA..",
                 "..AAA?.AAAAOO?.OOAAAAA.AAA.."
               ],
               "layoutKey": "59384"
@@ -3677,9 +3705,9 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAOOAAAAAAAAAAA..",
+                "..AAAAAAOOAAOOOOAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOOAAAAAAAAAA..",
-                "..AAAAAAAAAAOOOOAAAAAAAAAA..",
-                "..AAAAAAAAAOOAAAAAAAAAAAAA..",
+                "..AAAAAOOAAOOAAAAAAAAAAAAA..",
                 "..AAA?.AAAAOO?.OOAAAAA.AAA.."
               ],
               "layoutKey": "59384"
@@ -3764,9 +3792,9 @@
                 "..................",
                 "..AAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA....",
-                "..AAAAOOOOOOAA....",
+                "..AAAAOOOOOOOO....",
                 "..OOOOAOOOAAAOOO..",
-                ".AOOOOOOOOAAAAOOOO"
+                ".AOOOOOOOOOOAAOOOO"
               ],
               "layoutKey": "59393"
             },
@@ -4368,7 +4396,7 @@
                 ".....AAAAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAOOAAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
@@ -5015,7 +5043,7 @@
                 "..AAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA..",
+                "..AAAAAOOOAAAAAA..",
                 ".AAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "59429"
@@ -5455,7 +5483,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAOOAAAAAAAAAAA..",
                 "..AAA?.AAAAAA?.AAAAAAA.AAA.."
               ],
               "layoutKey": "59447"
@@ -5477,7 +5505,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAOOAAAAAAAAAAA..",
                 "..AAA?.AAAAAA?.AAAAAAA.AAA.."
               ],
               "layoutKey": "59447"
@@ -6536,6 +6564,33 @@
     {
       "date": "2026-10-08",
       "movies": [
+        {
+          "title": "Other Mommy",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38158_320_470.jpg",
+          "runtimeMinutes": 93,
+          "sessions": [
+            {
+              "time": "19:30",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59240&a=0000000001&l=3152&m=other-mommy&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..........................",
+                ".....AAAAAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "59240"
+            }
+          ]
+        },
         {
           "title": "The Social Reckoning",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60152_320_470.jpg",

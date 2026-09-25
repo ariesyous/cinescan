@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T03:46:38.674Z",
+  "updatedAt": "2026-09-25T05:57:29.768Z",
   "theatre": {
     "id": 7290,
     "name": "Cineplex Cinemas Hamilton Mountain"
@@ -3411,6 +3411,54 @@
         "SS..DD.DDDD.DDD.DDDD.DDDD.D",
         "SS..DD.DDDD.DDD.DDDD.DDDD.D",
         "SS..SSSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "204977": {
+      "totalRows": 8,
+      "totalColumns": 16,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "................",
+        "..WCSSCWWCSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS.."
+      ]
+    },
+    "204978": {
+      "totalRows": 8,
+      "totalColumns": 16,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "................",
+        "..WCSSCWWCSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS.."
       ]
     },
     "204982": {
@@ -10316,11 +10364,11 @@
                 "................",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAOOAAAAA..",
-                "..OOOOOOOAAAOO..",
+                "..OOOOOOOAOOOO..",
                 "..OOOOAOOAOOOO..",
                 "..OOOOOOOOOOOO..",
                 "..AOOOOOOOOOOA..",
-                "..AAOOOOOOOOOO.."
+                "..AAOOOOOOOOAA.."
               ],
               "layoutKey": "204437"
             }
@@ -10810,7 +10858,7 @@
                 "...AAAAAAAAAAAAAAAA..AA",
                 "...AAAAAAAAAAAAAAAA..AA",
                 "...AAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAOOAAAAAAAAAA"
+                "AAAAAAAAAAAOOOOOAAAAAAA"
               ],
               "layoutKey": "205251"
             },
@@ -11444,7 +11492,7 @@
                 "..OOOOOOOOOOOO..",
                 "..OOOOOOOOOOOO..",
                 "..OOOOOOOOOOOO..",
-                "..OOAAOOOOOOOO.."
+                "..OOOOOOOOOOOO.."
               ],
               "layoutKey": "204438"
             },
@@ -11461,7 +11509,7 @@
                 "..AAAAAOAAAAAA..",
                 "..AAAAAOOAAAAA..",
                 "..AOOOOOOAAAAA..",
-                "..AAOOOOOAOOOO..",
+                "..OOOOOOOAOOOO..",
                 "..OOOOOOOOAOOO.."
               ],
               "layoutKey": "204439"
@@ -14507,6 +14555,24 @@
           "runtimeMinutes": 93,
           "sessions": [
             {
+              "time": "19:30",
+              "formats": [
+                "4DX"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=204977&a=0000000001&l=7290&m=other-mommy&ss=False",
+              "seats": [
+                "................",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAOOAAAA.."
+              ],
+              "layoutKey": "204977"
+            },
+            {
               "time": "21:10",
               "formats": [
                 "UltraAVX",
@@ -14558,6 +14624,24 @@
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "204976"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "4DX"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=204978&a=0000000001&l=7290&m=other-mommy&ss=False",
+              "seats": [
+                "................",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA.."
+              ],
+              "layoutKey": "204978"
             }
           ]
         }

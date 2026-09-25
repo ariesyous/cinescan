@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T03:48:12.435Z",
+  "updatedAt": "2026-09-25T05:58:37.713Z",
   "theatre": {
     "id": 7138,
     "name": "Galaxy Cinemas Sarnia"
@@ -556,6 +556,44 @@
       ]
     },
     "112515": {
+      "totalRows": 15,
+      "totalColumns": 29,
+      "rowLabels": [
+        null,
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "seatTypes": [
+        ".............................",
+        ".SSSSSSSSSSSSSSSSSSSSSSSS....",
+        ".SSSSSSSSSSSSSSSSSSSSSSSS....",
+        ".............................",
+        "....CWWCSSSSSSWSSSSCWWC......",
+        "..SSSSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSSSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSSSSSSSSSSSSS..SS"
+      ]
+    },
+    "112626": {
       "totalRows": 15,
       "totalColumns": 29,
       "rowLabels": [
@@ -5631,7 +5669,7 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAOOOOOAAAAAA..AA",
                 "AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
-                "AA.AAAA.AAAA.AAAA.AAAA.AA..AA"
+                "AA.AAAA.AAAO.OOAA.AAAA.AA..AA"
               ],
               "layoutKey": "112784"
             },
@@ -5658,7 +5696,7 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAOOOOOAAAAAA..AA",
                 "AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
-                "AA.AAAA.AAAA.AAAA.AAAA.AA..AA"
+                "AA.AAAA.AAAO.OOAA.AAAA.AA..AA"
               ],
               "layoutKey": "112784"
             },
@@ -8243,6 +8281,38 @@
     {
       "date": "2026-10-08",
       "movies": [
+        {
+          "title": "Other Mommy",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38158_320_470.jpg",
+          "runtimeMinutes": 93,
+          "sessions": [
+            {
+              "time": "19:30",
+              "formats": [
+                "Early Access"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=112626&a=0000000001&l=7138&m=other-mommy&ss=False",
+              "seats": [
+                ".............................",
+                ".AAAAAAAAAAAAAAAAAAAAAAAA....",
+                ".AAAAAAAAAAAAAAAAAAAAAAAA....",
+                ".............................",
+                "....AAAAAAAAAAAAAAAAAAA......",
+                "..AAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAAAAAA?A..AA",
+                "..AAAAAAAAAAAA??AAAAAAAAA..AA",
+                "..AAAAAAAAAAAOOAAAAAAAAAA..AA"
+              ],
+              "layoutKey": "112626"
+            }
+          ]
+        },
         {
           "title": "The Social Reckoning",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60152_320_470.jpg",

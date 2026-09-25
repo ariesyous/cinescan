@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T03:47:32.216Z",
+  "updatedAt": "2026-09-25T05:58:09.141Z",
   "theatre": {
     "id": 7241,
     "name": "Cineplex Odeon Clarington Place Cinemas"
@@ -985,6 +985,34 @@
         "................"
       ]
     },
+    "282451": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "....SSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSCW..",
+        "...WCSSSSSSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "....SSSSSSSSSS..",
+        "....SSSSSSSSSS..",
+        ".....WCSSSSCWW..",
+        "................"
+      ]
+    },
     "282471": {
       "totalRows": 8,
       "totalColumns": 16,
@@ -1270,6 +1298,34 @@
         "..SSSSSSSSSSSS..",
         "..SSSSSSSSSSSS..",
         "...WCSSSSSSCWW..",
+        "................"
+      ]
+    },
+    "282646": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSCW..",
+        "...WCSSSSSSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..WWCSSSSSSSCW..",
         "................"
       ]
     },
@@ -4414,7 +4470,7 @@
               "seats": [
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..OOOAAAAAAAA..",
                 "..?AAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "....AAOOAAAAA..",
@@ -5038,7 +5094,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..?AAAAAAAAAA..",
-                "..AAAOOAAAAAA..",
+                "..AAAAAAAAAAA..",
                 "....AAAAOOAAA..",
                 "..............."
               ],
@@ -8255,6 +8311,65 @@
                 "................"
               ],
               "layoutKey": "282033"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "movies": [
+        {
+          "title": "Other Mommy",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38158_320_470.jpg",
+          "runtimeMinutes": 93,
+          "sessions": [
+            {
+              "time": "19:30",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282451&a=0000000001&l=7241&m=other-mommy&ss=False",
+              "seats": [
+                "....AAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..??AAAAAAAAAA..",
+                "....AAAA?AAAAA..",
+                "....AAAAAAAAAA..",
+                ".....AAAAAAAAA..",
+                "................"
+              ],
+              "layoutKey": "282451"
+            }
+          ]
+        },
+        {
+          "title": "The Social Reckoning",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60152_320_470.jpg",
+          "runtimeMinutes": 113,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282646&a=0000000001&l=7241&m=the-social-reckoning&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAAA..",
+                "..AAAAA?AAAAAA..",
+                "..AAAAAAAAAAA?..",
+                "..AAAAAAAAA?AA..",
+                "..AAAAAAAAAAA?..",
+                "..AAAAAAAAAAAA..",
+                "................"
+              ],
+              "layoutKey": "282646"
             }
           ]
         }

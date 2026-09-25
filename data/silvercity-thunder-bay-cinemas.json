@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T03:48:48.941Z",
+  "updatedAt": "2026-09-25T05:59:04.998Z",
   "theatre": {
     "id": 7430,
     "name": "SilverCity Thunder Bay Cinemas"
@@ -1895,6 +1895,40 @@
         "..SSSSSSSSSSSSSS......",
         "..SSSSSSSSSSSSSS..SSSS",
         "SSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
+    "298082": {
+      "totalRows": 13,
+      "totalColumns": 25,
+      "rowLabels": [
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSSSSS...",
+        ".........................",
+        "SS....WWCSSSSSSCWW.......",
+        "SS..SSSSSSSSSSSSSSS......",
+        "SS..SSSSSSSSSSSSSSS......",
+        "SS..SSSSSSSSSSSSSSS......",
+        "SS..SSSSSSSSSSSSSSS......",
+        "SS..SSSSSSSSSSSSSSS..SSSS",
+        "SS..SSSSSSSSSSSSSSS..SSSS",
+        "SS..SSSSSSSSSSSSSSS..SSSS",
+        "SSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "298083": {
@@ -10771,10 +10805,10 @@
                 "....AA..AAAAAAAAAAOOO..AAAAAA",
                 "....AA..AAAAAAAAAAAAA..AAAAAA",
                 "....AA..AAAAAAAAAAAAA..AAAAAA",
-                "....OO..AAAAAAAAAAAAA..AAAAAA",
+                "....OO..OOOOAAAAAAAAA..AAAAAA",
                 "AAAAAA..AAAAAOOOAAAAA..AAAAAA",
                 "AAAAAA..AAAAAOOOAAAAA..AAAAAA",
-                "AAAAAA..OOAAAOOAAOOAA..AAAAAA",
+                "AAAAAA..OOAAAOOAAOOAA..OOAAAA",
                 "AAAAAA..OOOAAOOOOOOOO..AAAAAA",
                 "AAAAOO..OAAAAOAAAAAAA..AAAAAA",
                 "AAAAAAOOOAOOOOOOOOOOOAAAAAOOO"
@@ -18012,6 +18046,36 @@
       "date": "2026-10-08",
       "movies": [
         {
+          "title": "Other Mommy",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38158_320_470.jpg",
+          "runtimeMinutes": 93,
+          "sessions": [
+            {
+              "time": "19:30",
+              "formats": [
+                "Early Access"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=298082&a=0000000001&l=7430&m=other-mommy&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAA??A...",
+                ".........................",
+                "AA....AAAAAAAAAAAA.......",
+                "AA..AAAAAAAAAAAAAAA......",
+                "AA..AAAAAAAAAAAAAAA......",
+                "AA..AAAAAAAAAAAAAAA......",
+                "AA..AAAAAAAAAAAAAAA......",
+                "AA..AAAAAAAAAAAAAAA..AAAA",
+                "AA..AAAAAAAAAAAAAAA..AAAA",
+                "AA..AAAAAAAAAAAAAAA..AAAA",
+                "AAAAAAAAAAAAAAAAAA??AAAAA"
+              ],
+              "layoutKey": "298082"
+            }
+          ]
+        },
+        {
           "title": "The Social Reckoning",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60152_320_470.jpg",
           "runtimeMinutes": 113,
@@ -18034,7 +18098,7 @@
                 "AAAAAA..AAAAAAAAAAAA..AA....",
                 "AAAAAA..AAAAAAAAAAAA..AA....",
                 "AAAAAA..AAAAAAAAAAAA..AAAAAA",
-                "AAAAAA..AAAAAAAAAAAA..AAAAAA",
+                "AAAAAA..AAAAAOOAAAAA..AAAAAA",
                 "AAAAAA..AAAAAAAAAAAA..AAAAAA",
                 "AAAAAA..AAAAAAAAAAAA..AAAAAA",
                 "AAAAAA..AAAAAAAAAAAA..AAAAAA",

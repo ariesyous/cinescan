@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T03:47:54.467Z",
+  "updatedAt": "2026-09-25T05:58:25.377Z",
   "theatre": {
     "id": 3149,
     "name": "Cineplex Odeon Windermere Cinemas and VIP"
@@ -1665,6 +1665,40 @@
         "SS..SSSSSSSSSSSSSSSSSSSSSSSSS",
         "SS..DD.DDDD.DDDD.DDDD.DDDD.DD",
         "....DD.DDDD.DDDD.DDDD.DDDD.DD"
+      ]
+    },
+    "170963": {
+      "totalRows": 13,
+      "totalColumns": 13,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "seatTypes": [
+        "....SS.SS.SS.",
+        ".............",
+        "...CWSSSCW.WC",
+        "...SSSSSSSSSS",
+        "...SSSSSSSSSS",
+        "...SSSSSSSSSS",
+        "...SSSSSSSSSS",
+        "...SSSSSSSSSS",
+        "SS.SSSSSSSSSS",
+        "SS.SSSSSSSSSS",
+        "SS.SSSSSSSSSS",
+        "SS.SS....SSSS",
+        "SS.........SS"
       ]
     },
     "171145": {
@@ -8861,7 +8895,7 @@
                 "AA.AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
-                "AA.AA....AAAA",
+                "AA.OO....AAAA",
                 "AA.........AA"
               ],
               "layoutKey": "171214"
@@ -8915,9 +8949,9 @@
                 "..AAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAOOOOAAAAAA..AA.",
-                "..AAAAAAAAAAAAAAAAAAA..AA.",
+                "..AAAAAAAAAAAAAAAAAOO..AA.",
                 "..AAAAAAAAAA?AAAAAAAA..AA.",
-                "AAAAAAAAAAAOOOAAAAOOAAAAAA"
+                "AAAAAAAAAAAOOOAAAAOOAAAOOO"
               ],
               "layoutKey": "171195"
             },
@@ -9403,7 +9437,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAOOOOAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAA??AAAAAA..AA.",
@@ -9690,7 +9724,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
+                "OO..AAAAAAAAAAOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..OOAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
@@ -9716,7 +9750,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAA",
-                "AA..AAAAAAAAAAOOAAAAAAAAAAAAA",
+                "OO..AAAAAAAAAAOOAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..OOAAAAAAAAAAAAAAAAAAAAAAA",
                 "AA..AAAAAAAAAA??AAAAAAAAAAAAA",
@@ -12288,7 +12322,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAAAAAAAAAA..AA.",
                 "..AAAAAAAAAAAAAAA??AAAAAA..AA.",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAA???"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAOO???"
               ],
               "layoutKey": "171354"
             },
@@ -12782,7 +12816,7 @@
                 ".....AAAAAAAAAA..",
                 ".....AAAAAAAAAA..",
                 ".AA..AAAAAAAAAA..",
-                ".AA..AAAAAAAAAA..",
+                ".AA..OOAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "171344"
@@ -13582,6 +13616,29 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38158_320_470.jpg",
           "runtimeMinutes": 93,
           "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "VIP 18+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=170963&a=0000000001&l=3149&m=other-mommy&ss=False",
+              "seats": [
+                "....AA.AA.AA.",
+                ".............",
+                "...AAAAAAA.AA",
+                "...AAAAAAAAAA",
+                "...AAAAAAAAAA",
+                "...AAAAAAAAAA",
+                "...AAAAAAAAAA",
+                "...AAAAAAAAAA",
+                "AA.AAAAAAAAAA",
+                "AA.AAAAAAAAAA",
+                "AA.AAOOAAAAAA",
+                "AA.AA....AAAA",
+                "AA.........AA"
+              ],
+              "layoutKey": "170963"
+            },
             {
               "time": "19:30",
               "formats": [

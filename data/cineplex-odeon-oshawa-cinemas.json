@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T03:47:47.492Z",
+  "updatedAt": "2026-09-25T05:58:21.124Z",
   "theatre": {
     "id": 7289,
     "name": "Cineplex Odeon Oshawa Cinemas"
@@ -3543,6 +3543,28 @@
         "..DD.DDD.....DDD.DDD.D.."
       ]
     },
+    "258144": {
+      "totalRows": 7,
+      "totalColumns": 20,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "....................",
+        "...SSSSCWWCCWCSCW...",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS.."
+      ]
+    },
     "258381": {
       "totalRows": 11,
       "totalColumns": 24,
@@ -3821,6 +3843,50 @@
         "..SSSSSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSSSS..",
         ".....SSSSS...SSSSSSS...."
+      ]
+    },
+    "258403": {
+      "totalRows": 7,
+      "totalColumns": 20,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "....................",
+        "...WCSSWCCWWCSSSS...",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS.."
+      ]
+    },
+    "258404": {
+      "totalRows": 7,
+      "totalColumns": 20,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "....................",
+        "...WCSSWCCWWCSSSS...",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS.."
       ]
     },
     "258405": {
@@ -10106,7 +10172,7 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..OOOAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOOOOAAAAAAAA..",
                 "..OOAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOOOOOAAAAAA.."
@@ -10353,7 +10419,7 @@
                 ".....AAAAAAAAA....",
                 "...AAAAAAAAAAAA...",
                 "..AAAAAAOOAAAAA...",
-                "..AAOOAOOOOAAAA...",
+                "..AAAAAOOOOAAAA...",
                 "..AA?OOOOOOAAOO...",
                 "..OOOOOAOOAAAAOO.."
               ],
@@ -11051,7 +11117,7 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAOOOAAAAAAAA..",
+                "..AAAAAAAOOOOOAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "258515"
@@ -11577,7 +11643,7 @@
                 "...AAAAAAAAAA...",
                 "..AAAAAAAAAAAA..",
                 "..AAAA?AAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAOOAAAAAA..",
                 "..AAAAAOOOAAAA.."
               ],
               "layoutKey": "258531"
@@ -12213,7 +12279,7 @@
                 "..AAAAAAAAAAAA...",
                 "..AAAAAAAAAAAA...",
                 "..A?AAAAAAAAAA...",
-                "..AAAAAA??AAAA...",
+                "..AAAAAA??OOOO...",
                 "..AAAAAAAAAAAAA.."
               ],
               "layoutKey": "258551"
@@ -16651,6 +16717,23 @@
               "layoutKey": "258119"
             },
             {
+              "time": "18:30",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=258144&a=0000000001&l=7289&m=other-mommy&ss=False",
+              "seats": [
+                "....................",
+                "...AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "258144"
+            },
+            {
               "time": "22:00",
               "formats": [
                 "UltraAVX",
@@ -16703,6 +16786,23 @@
           "runtimeMinutes": 113,
           "sessions": [
             {
+              "time": "16:10",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=258403&a=0000000001&l=7289&m=the-social-reckoning&ss=False",
+              "seats": [
+                "....................",
+                "...AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AA?AAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "258403"
+            },
+            {
               "time": "19:00",
               "formats": [
                 "UltraAVX",
@@ -16723,6 +16823,23 @@
                 ".....A?AAA...?AAAAAA...."
               ],
               "layoutKey": "258402"
+            },
+            {
+              "time": "21:50",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=258404&a=0000000001&l=7289&m=the-social-reckoning&ss=False",
+              "seats": [
+                "....................",
+                "...AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AA?AAAAAAAAAAAAA.."
+              ],
+              "layoutKey": "258404"
             }
           ]
         }

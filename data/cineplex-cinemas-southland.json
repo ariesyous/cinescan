@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T03:47:09.060Z",
+  "updatedAt": "2026-09-25T05:57:51.508Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
@@ -986,6 +986,58 @@
       ]
     },
     "268390": {
+      "totalRows": 9,
+      "totalColumns": 20,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        "....SSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "...WWCCSSSSSSSSSCW..",
+        "...................."
+      ]
+    },
+    "268609": {
+      "totalRows": 9,
+      "totalColumns": 20,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        ".....SSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSS..",
+        "...WWCCSSSSSSSSSCW..",
+        "...................."
+      ]
+    },
+    "268862": {
       "totalRows": 9,
       "totalColumns": 20,
       "rowLabels": [
@@ -6037,7 +6089,7 @@
                 "..AAAAAAAAAAAAA..",
                 "..??AAAAAAAAAAA..",
                 "..AAAAAAAAAAAOO..",
-                "..OOOOAAOOAAAAA..",
+                "..AAOOAAOOOOAAA..",
                 "..AAAAAAOOAAAA?..",
                 "...AAAAAA?AAAOO..",
                 "................."
@@ -6538,7 +6590,7 @@
                 "..?AAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAA?AAAAAA..",
+                "..AAAA?OOAAAA..",
                 "..AAAAA?A??AA..",
                 "..AAAAAAAAAAA..",
                 "..............."
@@ -8809,7 +8861,7 @@
                 "..AAAAA?AAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAA?AAAA..",
-                "..?AAAAAAAAAA..",
+                "..?AAAAOAAAAA..",
                 "..AAAA?AAAAAA..",
                 "..AAAAAAOOAAA..",
                 "..............."
@@ -10656,6 +10708,63 @@
                 "......................"
               ],
               "layoutKey": "268196"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "movies": [
+        {
+          "title": "Other Mommy",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38158_320_470.jpg",
+          "runtimeMinutes": 93,
+          "sessions": [
+            {
+              "time": "19:30",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268609&a=0000000001&l=4108&m=other-mommy&ss=False",
+              "seats": [
+                ".....AAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAA???AAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAA??AAAAA..",
+                "...AAAAAAAAAAAAAAA..",
+                "...................."
+              ],
+              "layoutKey": "268609"
+            }
+          ]
+        },
+        {
+          "title": "The Social Reckoning",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60152_320_470.jpg",
+          "runtimeMinutes": 113,
+          "sessions": [
+            {
+              "time": "19:20",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268862&a=0000000001&l=4108&m=the-social-reckoning&ss=False",
+              "seats": [
+                "....AAAAAAAAAAAA....",
+                "..AAAAAAA?AAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAA?AAA?..",
+                "..AAAAAAAAAA??AAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAA??AAAA..",
+                "...AAAAAAAAAAAAAAA..",
+                "...................."
+              ],
+              "layoutKey": "268862"
             }
           ]
         }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T03:47:53.143Z",
+  "updatedAt": "2026-09-25T05:58:24.865Z",
   "theatre": {
     "id": 7112,
     "name": "Cineplex Odeon Westmount Cinemas and VIP"
@@ -27,6 +27,28 @@
         "..SSSSSSSSSSSSSS....",
         "..SSSSSSSSSSSSSS....",
         "..SSSSSSSSSSSSSSSSS."
+      ]
+    },
+    "237076": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "...............",
+        "..CWWCSSSS.....",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS.."
       ]
     },
     "237080": {
@@ -5460,7 +5482,7 @@
                 "..AAAAAAA?.....",
                 "..AAAAAAAAAAA..",
                 "..?AAAAAAAAAA..",
-                "..OOOOAA?AA?A..",
+                "..OOOOAA?OO?A..",
                 "..AAAAOOAAAAA..",
                 "..AAAAAAAAOOA.."
               ],
@@ -5582,7 +5604,7 @@
                 "..AAAAAAAAAAAAAAA...",
                 "....................",
                 "..AAAAAA.AAOOOOO....",
-                "..OOOOOOOOOAAAOO....",
+                "..OOOOOOOOOOOOOO....",
                 "..OOOOOOOOOOOOOO....",
                 "..OOOOOOOOOOOOOO....",
                 "..OOOOOOOOOOOAOO....",
@@ -5618,7 +5640,7 @@
                 "..AAAAAAAAAAAAAAA...",
                 "....................",
                 "..AAAAAA.AAAAAAA....",
-                "..AAAAAAAOAAAAAA....",
+                "..AAAAAOOOAAAAAA....",
                 "..AAOOOOOOOOOAOO....",
                 "..OAOOOOOOOOOOOO....",
                 "..OOOOOOOOOAOOOO....",
@@ -6424,7 +6446,7 @@
                 "..?AAAAAAAAAA..",
                 "..AAAAOO?AA?A..",
                 "..AAAAAAOOOOA..",
-                "..AAAAAAAAAAA.."
+                "..AAAAAOAAAAA.."
               ],
               "layoutKey": "237498"
             },
@@ -7001,7 +7023,7 @@
                 "..AAAA?AAAAAA..",
                 "..AAAAAAAAAA?..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAAOAAAAA..",
                 "..AAAAAAAAAA?.."
               ],
               "layoutKey": "237508"
@@ -7123,7 +7145,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOOOAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOOOOOAAAAAAAA..",
                 "..AAAAAAAAAAOOAAAAAAAAAA..",
                 "..AA.AA.AAA.AA.AAA.AA.A..."
               ],
@@ -7145,7 +7167,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOOOAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOOOOOAAAAAAAA..",
                 "..AAAAAAAAAAOOAAAAAAAAAA..",
                 "..AA.AA.AAA.AA.AAA.AA.A..."
               ],
@@ -7823,7 +7845,7 @@
                 "..AAAAAA.AAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
-                "..AAAAAAOOOAAAAA....",
+                "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA."
               ],
@@ -9433,7 +9455,7 @@
                 "..?AAAAAAAAAA..",
                 "..AAAAAA?AA?A..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA.."
+                "..AAAAOOAAAAA.."
               ],
               "layoutKey": "237530"
             },
@@ -10064,6 +10086,31 @@
     {
       "date": "2026-10-08",
       "movies": [
+        {
+          "title": "Other Mommy",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38158_320_470.jpg",
+          "runtimeMinutes": 93,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237076&a=0000000001&l=7112&m=other-mommy&ss=False",
+              "seats": [
+                "...............",
+                "..AAAAAAAA.....",
+                "..AAAAAAAAAAA..",
+                "..AAAAAOAAAAA..",
+                "..AAAAOOAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA.."
+              ],
+              "layoutKey": "237076"
+            }
+          ]
+        },
         {
           "title": "The Social Reckoning",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60152_320_470.jpg",
