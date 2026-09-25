@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T23:14:50.272Z",
+  "updatedAt": "2026-09-25T23:48:11.167Z",
   "theatre": {
     "id": 7241,
     "name": "Cineplex Odeon Clarington Place Cinemas"
@@ -957,30 +957,6 @@
         "................"
       ]
     },
-    "282471": {
-      "totalRows": 8,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSS..",
-        "...WCSSSSSSCW...",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "...WCSSSSSSCWW..",
-        "................"
-      ]
-    },
     "282472": {
       "totalRows": 8,
       "totalColumns": 16,
@@ -1728,28 +1704,6 @@
         "..SSSSSSSSSSSS..",
         "..SSSSSSSSSSSS..",
         "...WCSSSSSSCWW..",
-        "................"
-      ]
-    },
-    "282685": {
-      "totalRows": 7,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSS..",
-        "...WCSSSSSSCW...",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "....WCSSSSSCW...",
         "................"
       ]
     },
@@ -4214,7 +4168,7 @@
               "seats": [
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..OOOAAAAAAAA..",
+                "..OOOAAAAOAAA..",
                 "..?AAAOOAAAAA..",
                 "..AAAOOOOOOOA..",
                 "....AAOOAAAAA..",
@@ -4259,7 +4213,7 @@
                 "..AAAAAAAAAAA..",
                 "...AAAAA?AAAA..",
                 "..A?AAAAAAAAA..",
-                "..OOAAAAAAAAA..",
+                "..AAAAAOOAAAA..",
                 "..AA?AAAAAAAA..",
                 "...AAAAAAAAAA..",
                 "..............."
@@ -4287,7 +4241,7 @@
                 "..OOAAAOOAAAAA..",
                 "..??AAAOOAAAAA..",
                 "....OOAA?OOAAA..",
-                "....AOOOOOAAAA..",
+                "....AOOOOOAAOO..",
                 ".....AAAAOOAAA..",
                 "................"
               ],
@@ -4300,24 +4254,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
           "runtimeMinutes": 110,
           "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282471&a=0000000001&l=7241&m=primetime&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAA..",
-                "...AAAAOOAAAA...",
-                "..AAAAAOAAAAOO..",
-                "..OOOOOOOOOOOO..",
-                "..OOOOOOOOAAOO..",
-                "..OOAAAOOAAOOA..",
-                "...AAAOOOOOAAA..",
-                "................"
-              ],
-              "layoutKey": "282471"
-            },
             {
               "time": "21:50",
               "formats": [
@@ -4404,35 +4340,11 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..A?AAAAAAAAA?..",
+                "..A?AAAAAAOOO?..",
                 "...AAA?AAAAAAA..",
                 "................"
               ],
               "layoutKey": "282683"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "19:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282685&a=0000000001&l=7241&m=the-odyssey&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAA..",
-                "...AAAAAAAAAA...",
-                "..AAAAOOAAAAAA..",
-                "..AAOAAAAAAAAA..",
-                "..AAAA?OOOOAAA..",
-                "....AAOOOOAAA...",
-                "................"
-              ],
-              "layoutKey": "282685"
             }
           ]
         },
@@ -4669,7 +4581,7 @@
                 "..AAAAAAAAAAA..",
                 "..?AAAAOOAAAA..",
                 "..OOAAAAAAAAA..",
-                "....AAAAAAAAA..",
+                "....AAOOAAAAA..",
                 "..............."
               ],
               "layoutKey": "282718"
@@ -5447,7 +5359,7 @@
                 "..AAAAAAAAAAA..",
                 "...AAAAA?AAAA..",
                 "..A?AAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAOOOOAAA..",
                 "..OA?AAAAAAAA..",
                 "...AAAAAAAAAA..",
                 "..............."

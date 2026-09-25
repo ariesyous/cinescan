@@ -1,68 +1,10 @@
 {
-  "updatedAt": "2026-09-25T23:13:31.958Z",
+  "updatedAt": "2026-09-25T23:47:03.470Z",
   "theatre": {
     "id": 9121,
     "name": "Cinéma Cineplex Royalmount"
   },
   "auditoriums": {
-    "15235": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...................",
-        "...CW.WCSSSSCW.WC..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "15236": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...................",
-        "..CW.WCSSSCW.WC....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS."
-      ]
-    },
     "15237": {
       "totalRows": 10,
       "totalColumns": 19,
@@ -593,38 +535,6 @@
         "..SSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "15255": {
-      "totalRows": 14,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null,
-        null,
-        "K"
-      ],
-      "seatTypes": [
-        "...................",
-        "..CW.WCSSSCW.WC....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..DD.DDD.DD.DDD.D..",
-        "..DD.DDD.DD.DDD.D..",
-        "..SSSSS.SSSSSSSSSS."
       ]
     },
     "15256": {
@@ -3214,27 +3124,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "19:00",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15235&a=0000000001&l=9121&m=resident-evil-2026&ss=False",
-              "seats": [
-                "...................",
-                "...AA.AAAAOOAA.AA..",
-                "...AOOAOOOO?OOOOO..",
-                "...AOOOOOOOOOAOOA..",
-                "...AOOAOOOOOOOOOO..",
-                "...OOOO?OOOOOOOOO..",
-                "...OOOOOOOOAOOOOO..",
-                ".OOOOOOOOOOOOOOOO..",
-                ".AOOOOOOOOOOOOOOO..",
-                ".OOOOOOAOOOOOOOOOO."
-              ],
-              "layoutKey": "15235"
-            },
-            {
               "time": "21:45",
               "formats": [
                 "Recliner",
@@ -3245,8 +3134,8 @@
                 "...................",
                 "...AA.AAAAAAAA.AA..",
                 "...AAAAAAAA?AAAAA..",
-                "...AAAOOOOOOOOOAA..",
-                "...AOOAOOOOOOOOAA..",
+                "...AAAOOAAOAAAAAA..",
+                "...AOOAOOOOOOOOOO..",
                 "...AAOO?OOOOOOOOA..",
                 "...AOOOOOOOAOOOOA..",
                 ".OOOOOOOOOOOOAOOA..",
@@ -3263,28 +3152,6 @@
           "runtimeMinutes": 101,
           "sessions": [
             {
-              "time": "19:15",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15236&a=0000000001&l=9121&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "...................",
-                "..??.??AOOAA.AA....",
-                "..AAAAAOOOOOOOA....",
-                "..AAAOOOOOOOAOO....",
-                "..OOOOOOOOOOAOO....",
-                "..AOOOOOOOOOOOO....",
-                "..OOOOOOOOOOOOO....",
-                "..OOOOOOOOOOOOOOO..",
-                "..OOOOAOOOOAOOOOO..",
-                "..AOOOOOOOOOOOOOO..",
-                "..OOOOO????OOAOOOO."
-              ],
-              "layoutKey": "15236"
-            },
-            {
               "time": "22:00",
               "formats": [
                 "Recliner",
@@ -3299,9 +3166,9 @@
                 "..AAAAAAOOAAAAA....",
                 "..AAAAAAOOOOAAA....",
                 "..AAAAAAOOAAAOO....",
-                "..OOAAAAOOAAAAAOO..",
+                "..OOAAOOOOAAAAAOO..",
                 "..AOOOOOOOOAAAAAA..",
-                "..AAAAAAOOAAAAAAA..",
+                "..AAAAAOOOAAAAAAA..",
                 "..OOAAA????AAOOAAO."
               ],
               "layoutKey": "15241"
@@ -3329,10 +3196,10 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAOOAAAAAA..",
                 "....AAAAAOOAAAAAA..",
-                "..OOOAAAAOOAOOAAA..",
-                "..AAAAAAOOOOAAAAA..",
+                "..OOOOOAAOOAOOAAA..",
+                "..AAAAAAOOOOAAAOO..",
                 "..OOOOOAAAAAOOOOO..",
-                "OOAAAAAAAOOAAAAAAA?"
+                "AAAAAAAAAOOAAAAAAA?"
               ],
               "layoutKey": "15239"
             }
@@ -3357,8 +3224,8 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAOOAAAAAA..",
                 "...OOAAAAOOOOAAAA..",
-                "...AOOOOOOOAAAAAA..",
-                ".AOOOOOOAAOAAAAAA..",
+                "...AOOOOOOOAOOAAA..",
+                ".AOOOOOOAAOAOOAAA..",
                 ".AAAAAAAOOAAOOAAA..",
                 "AAAAAOOAA?OOAAAAAAA"
               ],
@@ -3415,7 +3282,7 @@
                 "..AAAAAAOOAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
-                "..OOOOOOOAAAAAAAA..",
+                "..AAAAAAOOOOOAAAA..",
                 "..OO.OOO.OO.OOO.A..",
                 "..?A.AOO.OO.OAA.A..",
                 "..AAAAA.AAAAAAAAAA."
@@ -3438,7 +3305,7 @@
                 "..AAAAAAOOAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
-                "..OOOOOOOAAAAAAAA..",
+                "..AAAAAAOOOOOAAAA..",
                 "..OO.OOO.OO.OOO.A..",
                 "..?A.AOO.OO.OAA.A..",
                 "..AAAAA.AAAAAAAAAA."
@@ -3556,22 +3423,7 @@
                 "Recliner",
                 "Laser Projection"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15255&a=0000000004&l=9121&m=lile-de-loubli&ss=False",
-              "seats": [
-                "...................",
-                "..??.??AAA??.??....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAOOOOOOOOOAAA..",
-                "..AAAAAAAAAAAAAAA..",
-                "..AA.AAA.AA.AAA.A..",
-                "..?A.AAA.AA.AAA.A..",
-                "..AAAAA.AAAAAAAAAA."
-              ],
-              "layoutKey": "15255"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15255&a=0000000004&l=9121&m=lile-de-loubli&ss=False"
             },
             {
               "time": "18:15",
@@ -3580,22 +3432,7 @@
                 "Recliner",
                 "Laser Projection"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15255&a=0000000001&l=9121&m=lile-de-loubli&ss=False",
-              "seats": [
-                "...................",
-                "..??.??AAA??.??....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAOOOOOOOOOAAA..",
-                "..AAAAAAAAAAAAAAA..",
-                "..AA.AAA.AA.AAA.A..",
-                "..?A.AAA.AA.AAA.A..",
-                "..AAAAA.AAAAAAAAAA."
-              ],
-              "layoutKey": "15255"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15255&a=0000000001&l=9121&m=lile-de-loubli&ss=False"
             }
           ]
         },
@@ -3639,7 +3476,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAA?AAAAAAAAA..",
-                "...OOOAAOOOOAAAAA..",
+                "...OOOAAOOOOOOAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAA."
@@ -3775,7 +3612,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAOOAAAAA....",
                 "..AAAAAOOOAOOOO....",
-                "..OOOOAAOOOOAAAAA..",
+                "..OOOOOOOOOOAAAAA..",
                 "..AAAAAAOOAAAAAAA..",
                 "..AAAAAAOOAAAAAAA..",
                 "..AAAAA????AAAAAAA."
@@ -3940,9 +3777,9 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAOOAAAAAA..",
-                "...OOOAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
                 ".AAAAAAAOOOAAAAAA..",
-                ".AAAAAAAAAAAAAAAA..",
+                ".AAAAAAAOOOAAAAAA..",
                 "AAAAAAAAA?AAAAAAAAA"
               ],
               "layoutKey": "15251"

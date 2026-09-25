@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T23:13:42.875Z",
+  "updatedAt": "2026-09-25T23:47:03.833Z",
   "theatre": {
     "id": 7269,
     "name": "Cineplex Cinemas Cambridge"
@@ -34,32 +34,6 @@
       ]
     },
     "222786": {
-      "totalRows": 9,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "......................",
-        ".......SSSSSSSS.......",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "...SSCWCCWWCCWCSSSS...",
-        "......................"
-      ]
-    },
-    "222787": {
       "totalRows": 9,
       "totalColumns": 22,
       "rowLabels": [
@@ -476,32 +450,6 @@
       ]
     },
     "222924": {
-      "totalRows": 9,
-      "totalColumns": 26,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "..........................",
-        "...SSSSSSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "........CWCCWWCCWCCWCSSS..",
-        ".........................."
-      ]
-    },
-    "223076": {
       "totalRows": 9,
       "totalColumns": 26,
       "rowLabels": [
@@ -3370,26 +3318,6 @@
           "runtimeMinutes": 109,
           "sessions": [
             {
-              "time": "19:00",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=222787&a=0000000001&l=7269&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                ".......AAAAAAAA.......",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAOOOOOOOAAAOOO..",
-                "..OOOO?AAOOOOOOOAAOO..",
-                "..AAOOAOOOOOOOOOOAAA..",
-                "..AOOOOOOOOOOOOOAAOO..",
-                "...AAAAAAAAAAAAAAOO...",
-                "......................"
-              ],
-              "layoutKey": "222787"
-            },
-            {
               "time": "22:00",
               "formats": [
                 "3D",
@@ -3417,25 +3345,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "19:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223076&a=0000000001&l=7269&m=resident-evil-2026&ss=False",
-              "seats": [
-                "..........................",
-                "...??AAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAOOAAAAAAAAA...",
-                "...OOOOAAOOAOOAAOOOOOOOO..",
-                "...OOOOOOOOOOOOOOOOOOOOO..",
-                "...OOAOOOOOOOOOOOOOOOOOO..",
-                "...OOAOOOOOOOOOOOOOOOOOO..",
-                "........AAAAAAAAAAAAAAOO..",
-                ".........................."
-              ],
-              "layoutKey": "223076"
-            },
-            {
               "time": "22:00",
               "formats": [
                 "Recliner"
@@ -3448,7 +3357,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAOOOOOOOOOOOOOOAAA..",
                 "...AAAOOAOOOOOOOOOOOAAAA..",
-                "...OOOOAAAOOOOOOOOAAAAOO..",
+                "...OOOOAOOOOOOOOOOOOAAOO..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
               ],
@@ -3471,11 +3380,11 @@
                 "..................",
                 "...???AAAAAAAAA...",
                 "....AAAAAAAAAA....",
-                "...AAAAAAAAAAAAA..",
+                "...AAAAAOOOAAAAA..",
                 "..OOOOOOOOOOAAOO..",
                 "..AAOOOOOOAAOOAA..",
-                "..AOOOOOOOOOOAAA..",
-                "..AAOOAOOOOOOOOO..",
+                "..AOOOOAOOOOOOOA..",
+                "..OOOOAOOOOOOOOO..",
                 "...AAAAAAAAAAOO...",
                 ".................."
               ],
@@ -3502,7 +3411,7 @@
                 "AAAA..AAAAAAAAAAAAAA..",
                 "AAAA..AAAOOAAAAAAAAA..",
                 "AAAA..AAAAAOOAAAAAAA..",
-                "OOOA..OOAAAAOOAAAAAA..",
+                "OOOA..OOAAAAOOAAAAOO..",
                 ".......AA.AAAAAAAAA...",
                 "......................"
               ],
@@ -3528,7 +3437,7 @@
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
-                "..AOOOOOOOAAAAAA..",
+                "..AAAAAAAOAAAAAA..",
                 "..AAOOOAAOOAAAAA..",
                 "..OOOOOOAAAAAAAA..",
                 "...AAAAAAAAAAAA...",
@@ -3554,10 +3463,10 @@
                 "......AAAAAAAAAAA.....",
                 "....AAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAA..",
+                "..AAAAAOAAAOOAAAAAAA..",
                 "..AAAAAAAOOOOOAAAAAA..",
-                "..OOOAAAAAAAAAAAAAAA..",
+                "..OOOAAAAAAAAAAAAAOO..",
                 "....AAAAAAAAAAAAAOO...",
                 "......................"
               ],
@@ -3585,9 +3494,9 @@
                 "......................",
                 ".......AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAOOOAAAAAAAA..",
+                "..AAAAAAAOOOOAAAAAAA..",
                 "..AAAA?OOOOOOOAAAAAA..",
-                "..AAAAOOOOOOOAAAAAAA..",
+                "..AAAAOOOOOOOOOAAAAA..",
                 "..AAAAOOOOOOOOAAAAAA..",
                 "...AAAAAAAAAAAAAAAA...",
                 "......................"
@@ -3605,7 +3514,7 @@
                 ".......AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAA?AAAAAAAAAAAAA..",
+                "..AAAA?AAOOOOOOAAAAA..",
                 "..AAOOOAAOOOOAAAAAAA..",
                 "..AAAAOOOOAAAAOOOOOO..",
                 "...AAAAAAAAAAAAAOOO...",
@@ -3626,7 +3535,7 @@
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAA?AAAOOAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAOOAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAA...",
                 "......................"
@@ -3774,9 +3683,9 @@
                 "....AAAAAAAAAA....",
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOOO..",
-                "..AAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOOOOO..",
                 "..OOOOOOAAOAAAAA..",
-                "..AAAAAAOAAAAAOO..",
+                "..OOAAAAOAAAAAOO..",
                 "...AAAAAAAAAAOO...",
                 ".................."
               ],
@@ -3883,7 +3792,7 @@
                 "AAAA..AAAAAAAAAAAAAA..",
                 "AAAA..AAAOOOOOAAAAAA..",
                 "AAAA..AAOOOOOAAAAAAA..",
-                "AAAA..OOAAOOAAAAAAAA..",
+                "OOAA..OOAAOOAAAAAAAA..",
                 ".......AA.AAAAAAAAA...",
                 "......................"
               ],
@@ -4377,8 +4286,8 @@
                 "....AAAAAAAAAA....",
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAA..",
-                "..AAOOOOAOOOAAAA..",
+                "..AAAAAAOOOAAAAA..",
+                "..AAOOOOAAAAAAAA..",
                 "..AAAAAAAOAAAAAA..",
                 "...AAAAAAOOAAAA...",
                 ".................."
@@ -4466,7 +4375,7 @@
                 "AAAA..AAAAAAAAAAAAAA..",
                 "AAAA..AAOOOAAAAAAAAA..",
                 "AAAA..AAAAAOOOOOAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAOOAAAAAAAA..",
                 ".......AA.AAAAAAAAA...",
                 "......................"
               ],
@@ -6121,7 +6030,7 @@
                 "...AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAOAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA...",
                 "......................"
