@@ -2,3 +2,7 @@
 Thumbs.db
 node_modules/
 .env
+# Per-theatre showtime data is published to the `data` branch by the scrape
+# workflow; only the theatre manifest is tracked on master.
+data/*.json
+!data/theatres.json

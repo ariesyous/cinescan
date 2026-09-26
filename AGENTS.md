@@ -18,7 +18,9 @@ Three independent pieces, connected only through the JSON files in `data/`:
    `data/theatres.json` — the manifest every other piece reads.
 2. **`scripts/scrape.mjs`** (run on a schedule by GitHub Actions) reads
    `data/theatres.json`, hits Cineplex's API, and writes one
-   `data/<slug>.json` per theatre.
+   `data/<slug>.json` per theatre. These per-theatre files are published to
+   the **`data` branch**, not committed to `master` (see "Where the data
+   lives" below).
 3. **`index.html`/`app.js`/`style.css`** (served as-is by GitHub Pages) reads
    `data/theatres.json` and the selected theatre's data file client-side.
    Nothing server-side ever touches the frontend files.
@@ -26,6 +28,31 @@ Three independent pieces, connected only through the JSON files in `data/`:
 There's no shared code between the scraper and the frontend — the JSON file
 shape *is* the contract between them. If you change what the scraper writes,
 check `app.js` for what it expects to read, and vice versa.
+
+## Where the data lives
+
+`data/theatres.json` is tracked on `master` like any other source file.
+The per-theatre `data/<slug>.json` files are **not**: they're gitignored on
+`master` and live on a separate `data` branch that holds exactly one
+parentless commit, force-replaced by every scrape run. Nearly every
+theatre's file changes on every run (seat availability is always moving),
+so committing them to `master` ~12 times a day grew the repo's history by
+~10 MB/day; replacing a single commit instead keeps the `data` branch at
+the size of one snapshot and lets GitHub garbage-collect old ones.
+
+- `scrape.yml` overlays the `data` branch's files onto its `master`
+  checkout before scraping (quick mode's carry-forward and the fail-soft
+  "leave the last good file untouched" behavior both read the previous
+  files), then publishes the result back to `data` with
+  `--force-with-lease`.
+- `pages.yml` overlays the same files onto its `master` checkout before
+  uploading the site, so the deployed site looks exactly as it did when the
+  files were committed to `master`.
+- Never merge the `data` branch into `master` or base work on it — it has
+  no shared history and is rewritten every run.
+- Copies of the per-theatre files committed to `master` before this move
+  may still be tracked there. They're frozen (nothing updates them) and
+  always overridden by the overlay, so they're safe to `git rm --cached`.
 
 ## Data model
 
@@ -140,11 +167,13 @@ A "Determine scrape mode" step maps `github.event.schedule` to
 either other cron string → `quick`); for manual `workflow_dispatch` runs it
 uses the `mode` input instead (defaults to `quick`).
 
-After the scraper runs, the workflow commits any changed `data/*.json`
-files as `github-actions[bot]` and pushes. `concurrency: group: scrape` with
-`cancel-in-progress: false` prevents two runs (e.g. a manual dispatch
-overlapping a scheduled one) from racing on that commit/push — a second
-trigger queues instead of running concurrently.
+After the scraper runs, the workflow replaces the `data` branch with a
+single `github-actions[bot]` commit holding the new snapshot (skipped if
+nothing changed; see "Where the data lives" above). `concurrency: group:
+scrape` with `cancel-in-progress: false` prevents two runs (e.g. a manual
+dispatch overlapping a scheduled one) from racing on that push — a second
+trigger queues instead of running concurrently. A successful run then
+triggers `pages.yml` (via `workflow_run`) to redeploy the site.
 
 ### Running it yourself
 
@@ -233,8 +262,9 @@ map:
 - No build step. Don't add bundlers, TypeScript compilation, or frameworks
   unless explicitly asked — the site is meant to stay simple enough to
   deploy by just pushing to `master`.
-- GitHub Pages serves the `master` branch root directly. Any file at repo
-  root is publicly served as-is — this is a public repo, so don't add
+- GitHub Pages is deployed by `.github/workflows/pages.yml` from the
+  `master` checkout (plus the `data` branch's files overlaid into `data/`).
+  Any file at repo root is publicly served as-is — this is a public repo, so don't add
   anything (real API keys beyond the already-public Cineplex one, personal
   data, etc.) that shouldn't be world-readable.
 
@@ -258,15 +288,23 @@ map:
   Cineplex's theatre-list endpoint. Also assigns each theatre's `metro`
   field from a hand-maintained `METRO_CITIES` list — add a city there if a
   metro area's frontend coverage needs to expand.
-- `data/theatres.json`, `data/*.json` — see "Data model" above. Generated;
-  don't hand-edit.
+- `data/theatres.json`, `data/*.json` — see "Where the data lives" and
+  "Data model" above. Generated; don't hand-edit.
 - `.github/workflows/scrape.yml` — see "Schedule" above.
+- `.github/workflows/pages.yml` — deploys the site on pushes to `master` and
+  after each successful scrape.
+- `.github/dependabot.yml` — opens one grouped PR a month when any pinned
+  GitHub Action has a new version, so actions GitHub eventually retires get
+  bumped before they break the scrape or deploy. Merging them is the main
+  routine maintenance the repo needs.
 
 ## Testing changes
 
 - Run `node scripts/scrape.mjs` (or `SCRAPE_MODE=quick node scripts/scrape.mjs`
   for a much faster near-window-only pass) locally to regenerate `data/*.json`
   and sanity-check the output.
+- To get the live data locally without scraping, pull it off the `data`
+  branch: `git fetch origin data && git archive FETCH_HEAD data | tar -x`.
 - Serve the repo root with any static file server (e.g. `npx serve` or
   `python -m http.server`) and open it in a browser to check the UI.
 - There is no automated test suite. When changing scrape/write logic,

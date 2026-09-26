@@ -1,0 +1,12 @@
+# Opens a PR when an action pinned in .github/workflows/ has a new major
+# version, so a version GitHub eventually retires gets bumped before it
+# breaks the scrape or deploy. Grouped so it's at most one PR a month.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]

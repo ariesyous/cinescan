@@ -51,6 +51,28 @@ jobs:
         with:
           ref: ${{ github.ref }}
 
+      # Per-theatre showtime data lives on the `data` branch, not master.
+      # Nearly every theatre's file changes on every run (seat availability
+      # is always moving), so committing it to master grew the repo's history
+      # by ~10 MB/day. The `data` branch instead holds a single commit that
+      # each run replaces, so old snapshots become unreachable and the branch
+      # stays the size of one snapshot.
+      #
+      # Overlay the last published snapshot onto the checkout before
+      # scraping: quick mode's carry-forward of far-future days and the
+      # fail-soft "leave the last good file untouched" behavior both depend
+      # on the previous files being in data/. If the data branch doesn't
+      # exist yet, the checkout's own data/ files are used as-is.
+      - name: Restore previous data
+        id: restore
+        run: |
+          if git fetch --depth=1 origin data; then
+            git archive FETCH_HEAD data | tar -x
+            echo "sha=$(git rev-parse FETCH_HEAD)" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::No data branch yet; starting from the checkout's data/ files"
+          fi
+
       - uses: actions/setup-node@v5
         with:
           node-version: 24
@@ -73,11 +95,25 @@ jobs:
           CINEPLEX_SUBSCRIPTION_KEY: ${{ secrets.CINEPLEX_SUBSCRIPTION_KEY }}
         run: node scripts/scrape.mjs
 
-      - name: Commit changes if any
+      # Replaces the data branch with a single parentless commit holding this
+      # run's snapshot (built in a scratch index so the master checkout is
+      # left alone). theatres.json stays on master, since it's the manifest
+      # a human regenerates and commits. The lease makes the force-push fail
+      # rather than clobber anything that changed on the branch since the
+      # restore step read it.
+      - name: Publish data branch
+        env:
+          PREVIOUS: ${{ steps.restore.outputs.sha }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/*.json
-          git diff --staged --quiet || git commit -m "Update showtimes"
-          git pull --rebase
-          git push
+          export GIT_INDEX_FILE="$RUNNER_TEMP/data-index"
+          rm -f "$GIT_INDEX_FILE"
+          git add -f -- 'data/*.json' ':(exclude)data/theatres.json'
+          tree=$(git write-tree)
+          if [ -n "$PREVIOUS" ] && [ "$tree" = "$(git rev-parse "$PREVIOUS^{tree}")" ]; then
+            echo "No data changes"
+            exit 0
+          fi
+          commit=$(git commit-tree "$tree" -m "Update showtimes")
+          git push --force-with-lease="refs/heads/data:$PREVIOUS" origin "$commit:refs/heads/data"

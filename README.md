@@ -32,7 +32,9 @@ Live at: https://ariesyous.github.io/cinescan/
   run is skipped, leaving its last known-good file untouched, without
   blocking the others.
 - `.github/workflows/scrape.yml` runs the scraper via GitHub Actions and
-  commits the `data/*.json` files when they change. The near window runs 12
+  publishes the per-theatre `data/*.json` files to the `data` branch, which
+  holds a single commit replaced on every run (so a dozen scrapes a day
+  don't pile up in the repo's history). The near window runs 12
   times a day (roughly 8am, 1-10pm, and 1am ET, "quick" mode); the deep
   window only runs once a week (Thursday 1pm ET, "deep" mode, riding along
   with that slot's near-window run), since IMAX advance-sale dates don't
@@ -54,8 +56,10 @@ Live at: https://ariesyous.github.io/cinescan/
   above the calendar lets visitors toggle formats on/off. Past days and
   past showtimes drop off automatically since the scraper's window always
   starts at "today."
-- GitHub Pages deploys straight from the `master` branch root, so a push
-  (including the scraper's own automated commits) redeploys the live site.
+- `.github/workflows/pages.yml` deploys the site to GitHub Pages from
+  `master` plus the `data` branch's files, on every push to `master` and
+  after every successful scrape. To get the live data locally, run
+  `git fetch origin data && git archive FETCH_HEAD data | tar -x`.
 
 Since the Cineplex API is unofficial and reverse-engineered, it may change
 or break without notice — the scraper is written to skip bad/missing days

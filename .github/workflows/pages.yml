@@ -28,6 +28,22 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      # Per-theatre showtime data is published to the `data` branch by the
+      # scrape workflow (see scrape.yml) rather than committed to master;
+      # overlay it onto the checkout so it's part of the deployed site.
+      # Refuse to deploy a site with no showtime data at all.
+      - name: Add showtime data
+        run: |
+          if git fetch --depth=1 origin data; then
+            git archive FETCH_HEAD data | tar -x
+          else
+            echo "::warning::No data branch yet; deploying the checkout's data/ files"
+          fi
+          if ! ls data/*.json | grep -qv '^data/theatres.json$'; then
+            echo "::error::No per-theatre data files to deploy"
+            exit 1
+          fi
+
       - name: Inject Clarity snippet
         env:
           CLARITY_PROJECT_ID: ${{ secrets.CLARITY_PROJECT_ID }}
