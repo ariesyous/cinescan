@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T21:56:39.722Z",
+  "updatedAt": "2026-09-26T22:37:09.885Z",
   "theatre": {
     "id": 6109,
     "name": "Cineplex Cinemas Trinity Drive"
@@ -1229,38 +1229,6 @@
         "SSSSSSSSSSSSSSSSSSSSSSSS.."
       ]
     },
-    "122610": {
-      "totalRows": 12,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        ".......................",
-        ".SSSSSSSSSSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSSSSSSSSSS",
-        ".......................",
-        "....WCSSSSSSSSSSSSCWW..",
-        "...SSSSSSSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "122611": {
       "totalRows": 12,
       "totalColumns": 23,
@@ -1615,40 +1583,6 @@
         "..SSSSSSSSSSSSSSSSSSSSS...",
         "..SSSSSSSSSSSSSSSSSSSSS...",
         "SSSSSSSSSSSSSSSSSSSSSSSS.."
-      ]
-    },
-    "122767": {
-      "totalRows": 13,
-      "totalColumns": 24,
-      "rowLabels": [
-        "BB",
-        "AA",
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSSSSSSSSSSS",
-        "........................",
-        "........................",
-        "...WWWCSSSSSSSSSSSCWWW..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSSSS."
       ]
     },
     "122768": {
@@ -4154,7 +4088,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAAA.....",
                 "...AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAOOAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAAA..",
@@ -4170,28 +4104,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
           "runtimeMinutes": 110,
           "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=122610&a=0000000001&l=6109&m=primetime&ss=False",
-              "seats": [
-                ".......................",
-                ".AAAAAAAAAAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAAAAAAAAAA",
-                ".......................",
-                "....AAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAA.",
-                "...AAAAAAAAOOOAAAAAAAA.",
-                "...AAAAAOAAOOAAOOOAAAA.",
-                "...OOAAAAAAOOAAAAAAAAA.",
-                "...AAAAAOOAAOOAAAOOAAA.",
-                "...AAOOOAAAOOAAAAOOAAA.",
-                "..OOAAOOOOAOAOOOOOOAAOO"
-              ],
-              "layoutKey": "122610"
-            },
             {
               "time": "21:30",
               "formats": [
@@ -4247,36 +4159,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=122767&a=0000000001&l=6109&m=practical-magic-2&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAAAAAAAAAAA",
-                "........................",
-                "........................",
-                "...AAAAAAAAOOAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAOO..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAOOAAAAAAAAA..",
-                "..AAAAAAAAAAAOOAAAAAAA..",
-                "..OOAAAAAAOOOAAOOAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAOO..",
-                "..AAAAAAAAOOOOAAAAAAAA..",
-                "OOAAAOOAAAOOAOOAAAOAAAA."
-              ],
-              "layoutKey": "122767"
-            }
-          ]
-        },
-        {
           "title": "Mirzapur: The Movie (Hindi w/e.s.t.)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62014_320_470.jpg",
           "runtimeMinutes": 195,
@@ -4296,10 +4178,10 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAOOAAOAAOOOAAAAAAA..",
+                "..AAAOOAAOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAOOOAAAAAAA..",
                 "..AAOAAAAOOOAAAAAAAAAA..",
-                ".AAAAAAAAAOOOOOOAAAAAAAA"
+                ".AAOOAAAOOOOOOOOAAAAAAAA"
               ],
               "layoutKey": "122772"
             }
@@ -4567,7 +4449,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "...OOAAAAAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "122791"

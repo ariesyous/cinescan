@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T21:56:24.113Z",
+  "updatedAt": "2026-09-26T22:36:58.121Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -257,32 +257,6 @@
         "SCW..................."
       ]
     },
-    "125533": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSCW.WCSS..SSS",
-        "SCW..............SSS"
-      ]
-    },
     "125534": {
       "totalRows": 9,
       "totalColumns": 20,
@@ -325,28 +299,6 @@
         "SS..SSSSSSSS..SS",
         "SS..SSSSSSSS..SS",
         "SS...WCSSSCW..SS"
-      ]
-    },
-    "125540": {
-      "totalRows": 7,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSCW",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSS..",
-        "SSSCW.WCSSS.."
       ]
     },
     "125541": {
@@ -1610,12 +1562,12 @@
               "seats": [
                 "A??..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
+                "AAA..AAAAOAOAOOOO..AAA",
                 "AAA..OOOAOOOOOOOO..AAA",
                 "AAA..AAOO?OOOOOAA..AAA",
-                "AAA..OOOOAOOOOOOO..AAA",
-                "AOO..OOOOOA?AAOOO..AAA",
-                "AAA..AAAAOOOOOOOO..AAA",
+                "AAA..OOOOAOOOOOOO..OOA",
+                "AOO..OOOOOA?AAOOO..OOA",
+                "AAA..OOOOOOOOOOOO..AAA",
                 "AAA...OOOOAAAAA?A..AAA",
                 "???..................."
               ],
@@ -1633,7 +1585,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAOOAAAAAA..AAA",
-                "AAA..AAAA?OOOAAAA..AAA",
+                "AAA..AAOO?OOOAAAA..AAA",
                 "AAA..AAAOOOOOOOAA..AAA",
                 "AAA..AOOOAA?AAAAA..AAA",
                 "AAA..AAAAOOOOOOAA..AAA",
@@ -1679,7 +1631,7 @@
               "seats": [
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
-                "AA..AAOOOO??..?A",
+                "AA..OOOOOO??..?A",
                 "?A..OOOOAOOO..OO",
                 "AA...AAOOOAA..OO"
               ],
@@ -1693,7 +1645,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125544&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
               "seats": [
                 "AA..AAAAAAAA..OO",
-                "AA..OOA?OOAA..AA",
+                "AA..OOA?OOOO..AA",
                 "OO..OOOOOO??..?A",
                 "?A..OOOOOOOO..OO",
                 "OO...AOOOOAA..OO"
@@ -1712,7 +1664,7 @@
                 "AAA..AAAAAAAAA?..AAA",
                 "AAA..AAOOOOOOOA..AAA",
                 "AAA..AAOOOOA??A..AAA",
-                "AAA..OOOOAAAAAA..AAA",
+                "AAA..OOOOOOOOOO..AAA",
                 "AAA..AAAAOO?AAA..AAA",
                 "AAA..AAAAA.AAAA..AAA",
                 "???..............???"
@@ -1727,23 +1679,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "15:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125540&a=0000000001&l=1410&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAA??AAAAAAAA",
-                "AA?AAAAAA?A??",
-                "?AAAAAAAAAAAA",
-                "AOOOOOOOAOOAO",
-                "AOOAOOOOOOOOO",
-                "AAAOOOOOOAO..",
-                "OOOAA.AAAOO.."
-              ],
-              "layoutKey": "125540"
-            },
-            {
               "time": "18:20",
               "formats": [
                 "Recliner"
@@ -1753,7 +1688,7 @@
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
                 "?AAAAOOAAAAAA",
-                "AAAAAOOOOAAAA",
+                "OOOAAOOOOAAAA",
                 "AAAOOOOAAOOAA",
                 "AAAAAOOOAAA..",
                 "AAAAA.AAOOO.."
@@ -1785,26 +1720,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "15:20",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125533&a=0000000001&l=1410&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAA..AAAAAAAAAA..???",
-                "AAA..OOAAAAAAAA..AAA",
-                "AAA..AAAAAAAAA?..AAA",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..OOAAOOA??A..AAA",
-                "AAA..OOOOOOOOOO..AAA",
-                "AAA..OOOOOO?OAA..AAA",
-                "AAA..AAAAA.AAAA..AAA",
-                "???..............???"
-              ],
-              "layoutKey": "125533"
-            },
-            {
               "time": "18:40",
               "formats": [
                 "Recliner"
@@ -1814,7 +1729,7 @@
                 "AAA..AAAAAAAAAA..???",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA?..AAA",
-                "AAA..AAAAAAAAAA..AAA",
+                "AAA..AAAAOOAAAA..AAA",
                 "AAA..AAAAOOA??A..OOA",
                 "AAA..AOOOAAOOOA..AAA",
                 "AAA..AAAAAO?AAA..AAA",
@@ -1857,7 +1772,7 @@
                 "AAAAAAAAAAAA?A",
                 "AAAAOAAAAAAAAA",
                 "AAAA?OOAAO..AA",
-                "AOOAAAAAAOOAAA",
+                "AOOAAOOAAOOAAA",
                 "AAAAAOOAAAAAAA",
                 "OO..AA..AA..AA"
               ],
@@ -1874,7 +1789,7 @@
                 "AAAAAAAAAAAA?A",
                 "AAAAAAAOOAAAAA",
                 "AAAA?AAAAA..AA",
-                "AOOAAOOAAAAAAA",
+                "AOOAAOOOOOOAAA",
                 "AAAAAAAOOAAAAA",
                 "AA..AA..AA..AA"
               ],
@@ -1998,8 +1913,8 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125554&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
               "seats": [
                 "AA..AAAAAAAA..AA",
-                "AA..AAA?AAAA..AA",
-                "AA..AAAAOO??..?A",
+                "AA..OOO?OOAA..AA",
+                "AA..OOOOOO??..?A",
                 "?A..OOAOOOAA..AA",
                 "AA...AAOOAAA..AA"
               ],
@@ -2749,7 +2664,7 @@
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
                 "AAAAAOOOAAAAA",
-                "AAAAAAAAAAAAA",
+                "AAAAOOOAAAAAA",
                 "AAAAAAAAAAA..",
                 "AAAAA.AAAAA.."
               ],

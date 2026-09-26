@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T21:56:51.416Z",
+  "updatedAt": "2026-09-26T22:37:20.422Z",
   "theatre": {
     "id": 7286,
     "name": "Cineplex Odeon Barrhaven Cinemas"
@@ -1589,40 +1589,6 @@
         "SSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "172373": {
-      "totalRows": 13,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "AA",
-        "BB",
-        "CC",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        ".......................",
-        "......SCW.WCSSSS.WCS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        ".SS...SSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
     "172374": {
       "totalRows": 15,
       "totalColumns": 23,
@@ -1908,72 +1874,6 @@
       ]
     },
     "172382": {
-      "totalRows": 14,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        ".......................",
-        "...SCW.WCSSSSSS.WCS....",
-        "...SSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "172383": {
-      "totalRows": 11,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "....SSSSSSSSSSSSSSSSS..",
-        ".......................",
-        "......SCW.WCSSSS.WCS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        ".SS...SSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "172384": {
       "totalRows": 14,
       "totalColumns": 23,
       "rowLabels": [
@@ -3823,12 +3723,12 @@
                 "..............................",
                 "..AAAAAAAAAA.AAAAAA....AAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA....",
-                "...AAAAOOAAAAAAAAAAAAAAAA.....",
-                "...AAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAOOOOAAAAAAAAAAA....",
+                "..AAAAAAAAAOOOOOAAAAAAAAAA....",
+                "...AAAAOOAAAOOOOAAOOOOAAA.....",
+                "...AAAAAAAAOOOOAAAAAAAAAA.....",
                 "..OOAAAAAAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAOOOAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "172130"
@@ -3865,29 +3765,6 @@
           "runtimeMinutes": 185,
           "sessions": [
             {
-              "time": "18:00",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=172373&a=0000000001&l=7286&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAOAAAAAAAAA..",
-                ".......................",
-                "......AAA.AAAAAA.AAA...",
-                "......AAAAAOAAAAAAAA...",
-                "......AAAAOOOOAAAAAA...",
-                "......?AAAAOOOOAAAAA...",
-                "......AAAOOOOOAAAAAA...",
-                ".AA...AAAAAAAOOOAAAA...",
-                "AAAAAAAAAAAOOOAAAAOOAA."
-              ],
-              "layoutKey": "172373"
-            },
-            {
               "time": "21:00",
               "formats": [
                 "3D"
@@ -3901,10 +3778,10 @@
                 "......AAA.AAAAAA.AAA...",
                 "......AAAAAAAAAAAAAA...",
                 "......AAAAAAAAAAAAAA...",
-                "......OOOAAOAOOOAAAA...",
+                "......OOOAAOAAAAAAAA...",
                 "......AAAAAAAAAAAAAA...",
                 ".AA...AAAAAAAAAAAAAA...",
-                "AAAAAAAAAOOOOOAAAAAAAA."
+                "AAAAAAAAAOOOOOAAAAAOOO."
               ],
               "layoutKey": "172375"
             }
@@ -3928,13 +3805,13 @@
                 "...AAAAAAAAAAAAAAAAAA..",
                 ".......................",
                 "......AAA..AAAAAA.AAA..",
-                "......AAAAOOAAAAAAAAA..",
+                "......AAAAOOAAOOAAAAA..",
                 "......AAAAOOOOOOOAAAA..",
                 "......AAAAAAAAAAAAAAA..",
-                "......AAOOAAOOOOAAAAA..",
-                ".......AAAAOOOOOAAAA...",
-                "OO.....AAAAOOOOAAAAA...",
-                "AA....AAAAAOOAAAAAAOO..",
+                "......AAOOAAOOOOOOOAA..",
+                ".......OOAOOOOOOAAAA...",
+                "OO.....OOAAOOOOAAAAA...",
+                "AA....AAAAAOOAAOOAAOO..",
                 "AA....AAAOOAAOOAAAAAA..",
                 "OOAAAAOAAAOOAAOOAAAAAOO"
               ],
@@ -3985,13 +3862,13 @@
                 "........................",
                 "....AAA.AAAAAAAAA.AAA...",
                 "....AAOAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAOO...",
-                "....AAAOOAAAAAAAAAAAA...",
-                "....AAAOOAAAAAAAAAAAA...",
+                "....AAAOOAAAAAAAAAAOO...",
+                "....AAAOOAAAAAOOAAAAA...",
+                "....AAAOOAAAAAAAAOOOO...",
                 "A?..OOOOAAOOOAAAAAAAA...",
-                "AA..AAAAAAAAAAAAAAAAA...",
-                "AA..OOAAAAAAAAAAAAAAA...",
-                "AAAAAAAAAAOOOOAAAAAAAAAA"
+                "AA..AAAAAAAOAAAAAAAAA...",
+                "AA..OOAAAAAAAAAOOOAAA...",
+                "OOAAAAAAAAOOOOAAAAAAAAAA"
               ],
               "layoutKey": "172380"
             },
@@ -4026,30 +3903,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
           "sessions": [
-            {
-              "time": "18:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=172384&a=0000000001&l=7286&m=practical-magic-2&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                ".......................",
-                "...AAA.AAAAAAAA.AAA....",
-                "...AAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAA....",
-                "...AAAAAAAOOAAAAAOO..AA",
-                "...AAAAAAAAAAAAAAAA..AA",
-                "...AAAAAAAOOAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "172384"
-            },
             {
               "time": "21:50",
               "formats": [
@@ -4094,8 +3947,8 @@
                 ".......................",
                 ".....AAA.AAAAAAAA.AAA..",
                 ".....AAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAA..",
-                ".....AAAAAOOAAAAAAAAA..",
+                ".....AAAAAOOOOAAAAAAA..",
+                ".....AAAAAOOAOOOAAAAA..",
                 ".....AAAOOAAOOAAAAAAA..",
                 "AA...OOAAAOOOAAAAAAAA..",
                 "AA...AAAAOOAAOOOAAAAA..",
@@ -4159,34 +4012,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "172382"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "18:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=172383&a=0000000001&l=7286&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "....AAAAAAAAAAAAAAAAA..",
-                ".......................",
-                "......AAA.AAAAAA.AAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......OOOOOAOAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                ".AA...AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "172383"
             }
           ]
         }

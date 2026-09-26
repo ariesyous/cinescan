@@ -1,39 +1,11 @@
 {
-  "updatedAt": "2026-09-26T21:57:22.259Z",
+  "updatedAt": "2026-09-26T22:37:45.935Z",
   "theatre": {
     "id": 7268,
     "name": "Galaxy Cinemas Waterloo"
   },
   "auditoriums": {
     "276631": {
-      "totalRows": 11,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "..SCW.WCSCWSSCW.WCS....",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..DDD.DDDDD.DDDDDD.DD.."
-      ]
-    },
-    "276632": {
       "totalRows": 11,
       "totalColumns": 23,
       "rowLabels": [
@@ -115,28 +87,6 @@
         "....SSSSSSSSSSSSS..",
         "....SSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "276638": {
-      "totalRows": 7,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..................",
-        "..................",
-        "..SCWSSSSS.WCS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "SSSSSSSSSSSSSSSS.."
       ]
     },
     "276639": {
@@ -1562,11 +1512,11 @@
                 "...................",
                 "....AAA.AAAAA.AAA..",
                 "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....OOOAAOOAAAAAA..",
-                "....AAOAAOOOAAAAA..",
+                "....AAAAAOAAAAAAA..",
+                "....OOOAAOOAOOOAA..",
+                "....AAOAAOOOAAOOA..",
                 "....AAAAAOOAAAAAA..",
-                "OOOOAAAAAAAAAAAAAAA"
+                "OOOOOOAAAAAAAAAAAAA"
               ],
               "layoutKey": "276636"
             },
@@ -1599,55 +1549,6 @@
           "runtimeMinutes": 185,
           "sessions": [
             {
-              "time": "18:00",
-              "formats": [
-                "UltraAVX",
-                "3D",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276632&a=0000000004&l=7268&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOAAAAAAAA..",
-                "..OOOOAOOOOOOOOOOOOAA..",
-                "..OOOOOOOOOOOAOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOOO..",
-                "..AOOOOOOOOOOOOOOOOOO..",
-                "..OOO.OOOOO.OOOOOO.OA.."
-              ],
-              "layoutKey": "276632"
-            },
-            {
-              "time": "18:00",
-              "formats": [
-                "UltraAVX",
-                "3D",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276632&a=0000000001&l=7268&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOAAAAAAAA..",
-                "..OOOOAOOOOOOOOOOOOAA..",
-                "..OOOOOOOOOOOAOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOOO..",
-                "..AOOOOOOOOOOOOOOOOOO..",
-                "..OOO.OOOOO.OOOOOO.OA.."
-              ],
-              "layoutKey": "276632"
-            },
-            {
               "time": "21:50",
               "formats": [
                 "UltraAVX",
@@ -1666,9 +1567,9 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAAA..",
-                "..OOAAAAAOOOOAAOOAAAA..",
+                "..OOAAAAAOOOAAAOOAAAA..",
                 "..AAAAAAAAOOOOAAAAAAA..",
-                "..AAA.OOOOO.OOOOOO.AA.."
+                "..OOO.OOOOO.OOOOOO.AA.."
               ],
               "layoutKey": "276631"
             },
@@ -1690,9 +1591,9 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAAA..",
-                "..OOAAAAAOOOOAAOOAAAA..",
+                "..OOAAAAAOOOAAAOOAAAA..",
                 "..AAAAAAAAOOOOAAAAAAA..",
-                "..AAA.OOOOO.OOOOOO.AA.."
+                "..OOO.OOOOO.OOOOOO.AA.."
               ],
               "layoutKey": "276631"
             }
@@ -1714,10 +1615,10 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "....................",
                 "...AA..AAAAAAAA.AA..",
-                "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAOOAAAAAAA..",
-                "...AAOOAAOOOAAAAAA..",
-                "...AAAAAAOOOOOOOAA..",
+                "...AAAAAAOOAAAAAAA..",
+                "...AAOOAAOOOOOAAOO..",
+                "...AOOOOOOOOOOOOAA..",
                 "AAOAAOOAOOOOOOOAAAOO"
               ],
               "layoutKey": "276648"
@@ -1737,7 +1638,7 @@
                 "...AAAAAAOOAAOOOAA..",
                 "...OOOOAAOOAAOOOOO..",
                 "...OOOOOOAOOOOOOAA..",
-                "AAAAAOOOOOOOAAOOOOOO"
+                "AAAOOOOOOOOOAAOOOOOO"
               ],
               "layoutKey": "276649"
             }
@@ -1759,10 +1660,10 @@
                 "..................",
                 "..AAA.AAAAA.AAA...",
                 "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
+                "..AOOAAAOOOAAAA...",
                 "..OOOOAAOOAAAAO...",
-                "..AAAAOOOOAAOOO...",
-                "AAAAAAAOOAAOOAAA.."
+                "..OOOOOOOOAAOOO...",
+                "AAAOOOOOOAAOOOOA.."
               ],
               "layoutKey": "276644"
             },
@@ -1791,23 +1692,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276638&a=0000000001&l=7268&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..................",
-                "..................",
-                "..AAAAAAAA.AAA....",
-                "..AAAAAAAAAAAA....",
-                "..OOAAAOOAAOOA....",
-                "..AAAOOOOOOOOO....",
-                "AAOOAAOOOOOAAAOO.."
-              ],
-              "layoutKey": "276638"
-            },
             {
               "time": "21:40",
               "formats": [
@@ -1996,7 +1880,7 @@
                 "....OOOOAAOOOOOOO..",
                 "....OOOOAOOAAAAOO..",
                 "....AOOOOOOOOOOOA..",
-                "AAAAAAAAAOOAAAAAAAA"
+                "AAAAAAAAAOOAAAAAAOO"
               ],
               "layoutKey": "276666"
             },
@@ -2748,7 +2632,7 @@
                 "..AAA.AAAAA.AAA...",
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
+                "..OOOOAAAAAAAAA...",
                 "..AAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAA.."
               ],
