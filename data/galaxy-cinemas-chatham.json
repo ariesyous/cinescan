@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T20:34:42.617Z",
+  "updatedAt": "2026-09-26T21:57:12.824Z",
   "theatre": {
     "id": 7297,
     "name": "Galaxy Cinemas Chatham"
@@ -1799,38 +1799,6 @@
         "SSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "110173": {
-      "totalRows": 12,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".......................",
-        "..SSSSSSSSSSSSSSSSSSSS.",
-        ".......................",
-        "..CWCSSSCWWCSCW.WWC....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSS....",
-        "....SSSSSSSSSSSSSSS..SS",
-        "....SSSSSSSSSSSSSSS..SS",
-        "..SSSSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "110182": {
       "totalRows": 11,
       "totalColumns": 22,
@@ -3491,7 +3459,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA.....",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAA.....",
+                "AA..AAAAAAAAAAAOOAAAAAAAAAA.....",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAAA.."
@@ -3543,11 +3511,11 @@
                 "..AAAAAAAAAAAAAAAAA..",
                 ".....................",
                 ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
+                ".....AAOOOAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAOOOAAAAAAA..",
-                ".....AAAAAAOOOAAAAA..",
-                ".AA..AAAAAOOAAAAAAA..",
+                ".....AAOOAAOOOAAAAA..",
+                ".AO..AAAAAOOOAAAOOO..",
                 ".AA..AAOOAAAAAAAAAA..",
                 "AAAAAAAAAAOAAOOOOAAAA"
               ],
@@ -3582,28 +3550,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "16:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=110173&a=0000000001&l=7297&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAAAA.",
-                ".......................",
-                "..AAAAAAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAOOA....",
-                "..AAAAAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAA..AA",
-                "....AAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "110173"
-            },
-            {
               "time": "19:20",
               "formats": [
                 "Regular"
@@ -3617,11 +3563,11 @@
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAOOAAAAAAA....",
                 "....AAAAAOOAAAAAAAA..AA",
                 "....AAAAAOOOAAAAAAA..AA",
                 "..AAAAAAOOOOAAAAAAA..AA",
-                "AAAAAAAAAOOOAAAOOAAAAAA"
+                "AAAAAAAAAOOOOOAAAAAAAAA"
               ],
               "layoutKey": "110169"
             },
@@ -3640,8 +3586,8 @@
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAA..AA",
-                "....AAAAAAAAAAAAAAA..AA",
+                "....AAAAAAAAAAAAAAA..OO",
+                "....AAAAAAAAAAAAAAA..OA",
                 "..AAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -3666,13 +3612,13 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA",
                 ".........................",
                 "....AAAAAAAAAA.AAAAAAAAA.",
-                "....AAOOOAAAAAAAAAAAAAAA.",
+                "....AAOOOAAAAAOOAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAA.",
                 "AA..OOAAAAAAAAOOOAAAAA...",
-                "AA..AAAAAAAAAAAAAAAAAA...",
+                "AA..AAAAAAAOOAAAAAAAAA...",
                 "AA..OOOAAAAAOOAAAAAAAAOO.",
                 "AA..OOAAAAAAOOAAAAAAAAAA.",
                 "AA..AAAOOAAAOOAAAAAAAOOO."
@@ -3725,10 +3671,10 @@
                 "....AAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAA...",
                 "....AAAAAAOAAAAAA...",
-                "....AAAAAAAAAAAAA...",
+                "....AOOAAAAAAAAAA...",
+                "OO..AAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAA...",
-                "AA..AAAAAAAAAAAAA...",
-                "AAAAAAAAAOOOAAAAAAAA"
+                "AAAAOAAAAOOOAAAAAAAO"
               ],
               "layoutKey": "110165"
             },
@@ -3847,12 +3793,12 @@
                 ".AAAAAAAAAAAAAA...",
                 "..................",
                 "..AAAAAAAAAAA.....",
-                "..AAAAAAAAAAA.....",
+                "..AAAAAAAAAOO.....",
                 "..AAAAAAAAAAA.....",
                 "..AAAAAAAAAAA.....",
                 "..AAAAAAAAAAA.....",
                 "..AAAAOOAAAAA..OO.",
-                "AAAAAAAAAAAAAAAAAA"
+                "OOAAAAAAOOAAAAAAAA"
               ],
               "layoutKey": "110167"
             }

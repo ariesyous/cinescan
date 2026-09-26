@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T20:34:33.662Z",
+  "updatedAt": "2026-09-26T21:57:03.822Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
@@ -519,34 +519,6 @@
         "..SSSSSSSSSSS..",
         "..SSSSSSSSSSS..",
         "..WCSSSSSSSCW.."
-      ]
-    },
-    "153703": {
-      "totalRows": 10,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "....................",
-        "....SSSSSSSSSS..SSSS",
-        "...WWCSSSSSSCW..WWCS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "....SSSSSSSSSS..SSSS",
-        "........SSSSSS......"
       ]
     },
     "153705": {
@@ -1736,8 +1708,8 @@
                 "AAAA..AAAAOOOOAAAAAA..",
                 "AAAA..AAAAAAAAAAAAAA..",
                 "A?AA..AAAAAAA?AAA?AA..",
-                "AOOO..AAAAAA?AAAAAAA..",
-                "AA?A..AAA?AAAAAAAAAA..",
+                "AOOO..OOOOAA?AAAAAAA..",
+                "AA?A..AAA?OOOAAAAAAA..",
                 "AAAA..AAAAAAAAAAAAAA..",
                 "AAAA..AAAAAAA?AAA?AA..",
                 "......AAAAAA.AAOOAA?..",
@@ -1775,26 +1747,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "16:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153703&a=0000000001&l=7206&m=resident-evil-2026&ss=False",
-              "seats": [
-                "....................",
-                "....AAAAAAAAAA..AAAA",
-                "...AAAAAAAAAAA..AAAA",
-                "..AAAAAAAAAAAA..AAAA",
-                "..AAAOOAAOOOOO..AAAA",
-                "..AAAAAAAOOOAA..AAAA",
-                "..AAAAAAAOOAAO..AAAA",
-                "..AAAAAAAOOAAA..AAOO",
-                "....OO?AAAAA??..AAAA",
-                "........AAAAAA......"
-              ],
-              "layoutKey": "153703"
-            },
-            {
               "time": "19:20",
               "formats": [
                 "Recliner"
@@ -1806,9 +1758,9 @@
                 "...AAAAAAAAAAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
                 "..AAAAAAAOOAAA..AAAA",
-                "..AAAAAAAAAAOO..AAAA",
-                "..AAAAOOAAAAAA..AAAA",
-                "..AAAAAAOOOAOO..AAAA",
+                "..AAAAAOOAAAOO..AAAA",
+                "..AAAAOOAAAAOO..AAAA",
+                "..AAOOAAOOOAOO..AAAA",
                 "....AA?AAAOO??..AAAA",
                 "........OOOAAA......"
               ],
@@ -1829,7 +1781,7 @@
                 "..AAAAAOOOAAAA..AAAA",
                 "..AAAAAAAOOOAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
-                "....AA?AAAAA??..AAAA",
+                "....AA?OOOAA??..AAAA",
                 "........AAAAAA......"
               ],
               "layoutKey": "153681"
@@ -1849,7 +1801,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153684&a=0000000001&l=7206&m=heart-of-the-beast&ss=False",
               "seats": [
                 "...............",
-                "..A?OOOOAAAAA..",
+                "..A?OOAAOOOOA..",
                 "..OOAOOOOOOOO..",
                 "..OOOOOOOOAOO..",
                 "..OOAOOOOOOOO..",
@@ -1893,7 +1845,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAAAAOAAA..",
                 "..AAA?AAAAAAA..",
                 "..AAAAAAAAAAA.."
               ],
@@ -1932,11 +1884,11 @@
               "seats": [
                 "...............",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAOO..",
                 "..A?AAAOOOOOO..",
                 "..OOOOAAAOO??..",
-                "..AA?AAOOAAAA..",
-                "..AAOOAAAAAAA.."
+                "..OO?AAOOAAAA..",
+                "..AAOOAAOOAAA.."
               ],
               "layoutKey": "153686"
             },
@@ -1974,10 +1926,10 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAOOAAAAA..",
+                "..AAAAOOOAAAA..",
+                "..AAAOOOAAAAA..",
                 "..?AAAAOOAAA?..",
-                "..AAAAAAAAAAA.."
+                "..AAAOOOOAAAA.."
               ],
               "layoutKey": "153685"
             },
@@ -1995,7 +1947,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAOOAAAA..",
                 "..?AAAAAAAAA?..",
-                "..AAAAAAAAAAA.."
+                "..AAAAAOOAAAA.."
               ],
               "layoutKey": "153691"
             }
@@ -2040,9 +1992,9 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..AAAAAOOAAAA..",
-                "..AAAAAAA?AAA..",
+                "..AOAAOOO?AAA..",
                 "..AAOOOOOOOAA..",
-                "..AAAA?AAAAAA..",
+                "..OOAA?OOAAAO..",
                 "..AAAA?A??AAA.."
               ],
               "layoutKey": "153687"
@@ -2342,7 +2294,7 @@
                 "..AAAAAAAAAAA..",
                 "..A?AAAAAAAAA..",
                 "..AAAAOOAAA??..",
-                "..AA?AAAAAAAA..",
+                "..AA?OOOOOOAA..",
                 "..AAAAOOAAAAA.."
               ],
               "layoutKey": "153713"
