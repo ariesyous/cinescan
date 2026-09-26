@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T22:36:58.121Z",
+  "updatedAt": "2026-09-26T23:22:17.326Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -62,34 +62,6 @@
       ]
     },
     "125501": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS...SSSSCWWCSSS..SSS",
-        "SCW..................."
-      ]
-    },
-    "125502": {
       "totalRows": 10,
       "totalColumns": 22,
       "rowLabels": [
@@ -405,28 +377,6 @@
         "SSS..SSSSSSSSSS..SSS",
         "SSS..SSSCW.WCSS..SSS",
         "SCW..............SSS"
-      ]
-    },
-    "125546": {
-      "totalRows": 7,
-      "totalColumns": 14,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSS..CW",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SS..CW..WC..CW"
       ]
     },
     "125547": {
@@ -1554,26 +1504,6 @@
           "runtimeMinutes": 109,
           "sessions": [
             {
-              "time": "15:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125502&a=0000000001&l=1410&m=forgotten-island&ss=False",
-              "seats": [
-                "A??..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAOAOAOOOO..AAA",
-                "AAA..OOOAOOOOOOOO..AAA",
-                "AAA..AAOO?OOOOOAA..AAA",
-                "AAA..OOOOAOOOOOOO..OOA",
-                "AOO..OOOOOA?AAOOO..OOA",
-                "AAA..OOOOOOOOOOOO..AAA",
-                "AAA...OOOOAAAAA?A..AAA",
-                "???..................."
-              ],
-              "layoutKey": "125502"
-            },
-            {
               "time": "18:50",
               "formats": [
                 "3D",
@@ -1584,12 +1514,12 @@
                 "A??..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAOOAAAAAA..AAA",
+                "AAA..AAAAOOOOAAAA..AAA",
                 "AAA..AAOO?OOOAAAA..AAA",
                 "AAA..AAAOOOOOOOAA..AAA",
                 "AAA..AOOOAA?AAAAA..AAA",
                 "AAA..AAAAOOOOOOAA..AAA",
-                "AAA...AAAAAAAAA?A..AAA",
+                "AAA...AOOAAAAAA?A..AAA",
                 "???..................."
               ],
               "layoutKey": "125501"
@@ -1630,10 +1560,10 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125543&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
               "seats": [
                 "AA..AAAAAAAA..AA",
-                "AA..AAA?AAAA..AA",
+                "AA..AAA?AOOO..AA",
                 "AA..OOOOOO??..?A",
                 "?A..OOOOAOOO..OO",
-                "AA...AAOOOAA..OO"
+                "OO...AAOOOAA..OO"
               ],
               "layoutKey": "125543"
             },
@@ -1645,7 +1575,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125544&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
               "seats": [
                 "AA..AAAAAAAA..OO",
-                "AA..OOA?OOOO..AA",
+                "AA..OOA?OOOO..OO",
                 "OO..OOOOOO??..?A",
                 "?A..OOOOOOOO..OO",
                 "OO...AOOOOAA..OO"
@@ -1730,7 +1660,7 @@
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA?..AAA",
                 "AAA..AAAAOOAAAA..AAA",
-                "AAA..AAAAOOA??A..OOA",
+                "AAA..OOOOOOA??A..OOA",
                 "AAA..AOOOAAOOOA..AAA",
                 "AAA..AAAAAO?AAA..AAA",
                 "AAA..AAAAA.AAAA..AAA",
@@ -1762,23 +1692,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "16:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125546&a=0000000001&l=1410&m=the-odyssey&ss=False",
-              "seats": [
-                "AAAAA??AAAAAA?",
-                "AAAAAAAAAAAA?A",
-                "AAAAOAAAAAAAAA",
-                "AAAA?OOAAO..AA",
-                "AOOAAOOAAOOAAA",
-                "AAAAAOOAAAAAAA",
-                "OO..AA..AA..AA"
-              ],
-              "layoutKey": "125546"
-            },
-            {
               "time": "20:05",
               "formats": [
                 "Recliner"
@@ -1788,7 +1701,7 @@
                 "AAAAA??AAAAAA?",
                 "AAAAAAAAAAAA?A",
                 "AAAAAAAOOAAAAA",
-                "AAAA?AAAAA..AA",
+                "AAAA?OOAAA..AA",
                 "AOOAAOOOOOOAAA",
                 "AAAAAAAOOAAAAA",
                 "AA..AA..AA..AA"
@@ -1913,7 +1826,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125554&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
               "seats": [
                 "AA..AAAAAAAA..AA",
-                "AA..OOO?OOAA..AA",
+                "AA..OOO?AAAA..AA",
                 "AA..OOOOOO??..?A",
                 "?A..OOAOOOAA..AA",
                 "AA...AAOOAAA..AA"
@@ -1954,7 +1867,7 @@
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
+                "AAAAAOOAAAAAA",
                 "OOOAAOOOAAAAA",
                 "AAAAAOOAAAA..",
                 "OOAAA.AAAAA.."

@@ -1,41 +1,11 @@
 {
-  "updatedAt": "2026-09-26T22:37:28.627Z",
+  "updatedAt": "2026-09-26T23:22:47.159Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
   },
   "auditoriums": {
     "153482": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "......SSSSCW.WCSSSSS..",
-        "......................"
-      ]
-    },
-    "153483": {
       "totalRows": 11,
       "totalColumns": 22,
       "rowLabels": [
@@ -299,50 +269,6 @@
         "..SSSSSSSSSSSS..SSSS",
         "....SSSSSSSSSS..SSSS",
         "........SSSSSS......"
-      ]
-    },
-    "153683": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
-    "153684": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
       ]
     },
     "153688": {
@@ -1630,28 +1556,6 @@
           "runtimeMinutes": 109,
           "sessions": [
             {
-              "time": "18:30",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153483&a=0000000001&l=7206&m=forgotten-island&ss=False",
-              "seats": [
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAOOOOAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "A?AA..AAAAAAA?AAA?AA..",
-                "AOOO..OOOOAA?AAAAAAA..",
-                "AA?A..AAA?OOOAAAAAAA..",
-                "AAAA..OOAAAAAAAAAAAA..",
-                "AAAA..AAAAAAA?AAA?AA..",
-                "......AAAAAA.AAOOAA?..",
-                "......................"
-              ],
-              "layoutKey": "153483"
-            },
-            {
               "time": "21:30",
               "formats": [
                 "3D",
@@ -1690,13 +1594,13 @@
                 "....................",
                 "....AAAAAAAAAA..AAAA",
                 "...AAAAAAAAAAA..AAAA",
-                "..AAAAAAAAAAAA..AAAA",
-                "..AAAAAAAOOAAA..AAAA",
+                "..AAAAAAOOOOOA..AAAA",
+                "..AAOOOOAOOAAA..AAAA",
                 "..OOOAAOOAAAOO..AAAA",
-                "..AAAAOOAAAAOO..AAAA",
+                "..AOOAOOAOOOOO..AAAA",
                 "..AAOOAAOOOAOO..AAAA",
-                "....AA?OAAOO??..AAAA",
-                "........OOOAAO......"
+                "....OO?OAAOO??..AAOO",
+                "........OOOOOO......"
               ],
               "layoutKey": "153682"
             },
@@ -1728,23 +1632,6 @@
           "runtimeMinutes": 101,
           "sessions": [
             {
-              "time": "18:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153684&a=0000000001&l=7206&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "...............",
-                "..O?OOOOOOOOA..",
-                "..OOOOOOOOOOO..",
-                "..OOOOOOOOAOO..",
-                "..OOOOOOOOOOO..",
-                "..OO?OOOOOOOO..",
-                "..AAOOOOOOOOA.."
-              ],
-              "layoutKey": "153684"
-            },
-            {
               "time": "21:40",
               "formats": [
                 "Recliner"
@@ -1768,23 +1655,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61808_320_470.jpg",
           "runtimeMinutes": 99,
           "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153683&a=0000000001&l=7206&m=the-stunt-driver&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAOAAA..",
-                "..AAA?AAAAAAA..",
-                "..AAAAAAAAAAA.."
-              ],
-              "layoutKey": "153683"
-            },
             {
               "time": "21:15",
               "formats": [
@@ -1846,7 +1716,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAOOOAAAA..",
                 "..AAAAAOOAAAA..",
-                "..?AAAAAAAAA?..",
+                "..?OOAAAAAAA?..",
                 "..AAAAAOOAAAA.."
               ],
               "layoutKey": "153691"
@@ -1972,7 +1842,7 @@
                 "..AAAAAAAAAAAA..AAAA",
                 "..AAAAAAOOAAAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
-                "..AAAAAAAAAAAA..AAAA",
+                "..AAAAAAAAAAAO..AAAA",
                 "....AA?AAAAA??..AAAA",
                 "........AAAAAA......"
               ],
