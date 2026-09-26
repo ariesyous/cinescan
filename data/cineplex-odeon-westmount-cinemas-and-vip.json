@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T03:52:52.522Z",
+  "updatedAt": "2026-09-26T05:58:10.042Z",
   "theatre": {
     "id": 7112,
     "name": "Cineplex Odeon Westmount Cinemas and VIP"
@@ -27,6 +27,50 @@
         "..SSSSSSSSSSSSSS....",
         "..SSSSSSSSSSSSSS....",
         "..SSSSSSSSSSSSSSSSS."
+      ]
+    },
+    "237074": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "...............",
+        "..CWWCSSSS.....",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS.."
+      ]
+    },
+    "237075": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "...............",
+        "..CWWCSSSS.....",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS.."
       ]
     },
     "237076": {
@@ -4838,7 +4882,7 @@
                 "..AAAAAAA?.....",
                 "..AAAAAAAAAAA..",
                 "..?AAAAAAAAAA..",
-                "..AAAAAA?AA?A..",
+                "..AAAAOO?AA?A..",
                 "..AAAAOOAAAAA..",
                 "..AAAAOOAAAAA.."
               ],
@@ -5155,7 +5199,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA.."
+                "..AAAAOOAAAAA.."
               ],
               "layoutKey": "237499"
             },
@@ -5169,7 +5213,7 @@
                 "..AAAAA.AAA.AA.....",
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAA.....",
+                "..AAAAAAOOAAAA.....",
                 "..AAAAAAOOAAAAA..??"
               ],
               "layoutKey": "237551"
@@ -6071,7 +6115,7 @@
                 "...................",
                 "..AAAAA.AAAAAA.....",
                 "..AAAAOOOAAAAA.....",
-                "..AAAAAAAAAAAA.....",
+                "..AAAAAAOAAAAA.....",
                 "..AAAAAOOAAAAA.....",
                 "..AAAAAOOOAAAA.....",
                 "..AAAAAA?AAAOO..???"
@@ -8840,6 +8884,49 @@
     {
       "date": "2026-10-09",
       "movies": [
+        {
+          "title": "Other Mommy",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38158_320_470.jpg",
+          "runtimeMinutes": 93,
+          "sessions": [
+            {
+              "time": "19:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237074&a=0000000001&l=7112&m=other-mommy&ss=False",
+              "seats": [
+                "...............",
+                "..AAAAAAAA.....",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAOAAAAAA.."
+              ],
+              "layoutKey": "237074"
+            },
+            {
+              "time": "22:15",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237075&a=0000000001&l=7112&m=other-mommy&ss=False",
+              "seats": [
+                "...............",
+                "..AAAAAAAA.....",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA.."
+              ],
+              "layoutKey": "237075"
+            }
+          ]
+        },
         {
           "title": "The Social Reckoning",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60152_320_470.jpg",
