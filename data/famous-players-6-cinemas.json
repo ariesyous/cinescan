@@ -1,49 +1,11 @@
 {
-  "updatedAt": "2026-09-27T21:59:51.284Z",
+  "updatedAt": "2026-09-27T22:56:49.004Z",
   "theatre": {
     "id": 1415,
     "name": "Famous Players 6 Cinemas"
   },
   "auditoriums": {
     "148130": {
-      "totalRows": 15,
-      "totalColumns": 25,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K",
-        "L",
-        "M",
-        null
-      ],
-      "seatTypes": [
-        ".........................",
-        ".....SSSSSSSSSSSSSS......",
-        "....SSSSSSSSSSSSSSS......",
-        ".....SSSSSSSSSSSSSS..SSSS",
-        "....SSSSSSSSSSSSSSS..SSSS",
-        "SS...SSSSSSSSSSSSSS..SSSS",
-        "SS..SSSSSSSSSSSSSSS..WWWC",
-        "SS...SSSSSSSSSSSSSS..WWWC",
-        "SS..SSSSSSSSSSSSSSS..SSSS",
-        "SS...SSSSSSSSSSSSSS..SSSS",
-        "SS..SSSSSSSSSSSSSSS..SSSS",
-        "SS...SSSSSSSSSSSSSS..SSSS",
-        "SS..SSSSSSSSSSSSSSS..SSSS",
-        "SS....SSSSSSSSSSCW...SSSS",
-        "........................."
-      ]
-    },
-    "148131": {
       "totalRows": 15,
       "totalColumns": 25,
       "rowLabels": [
@@ -155,80 +117,6 @@
         "SS..SSSSSSSSSSSSSSS..SSSS",
         "SS....SSSSSSSSSSCW...SSSS",
         "........................."
-      ]
-    },
-    "148333": {
-      "totalRows": 16,
-      "totalColumns": 25,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K",
-        "L",
-        "M",
-        "N",
-        null
-      ],
-      "seatTypes": [
-        ".........................",
-        "......SSSSSSSSSSSSSS.....",
-        "......SSSSSSSSSSSSSSS....",
-        "SSSS..SSSSSSSSSSSSSS...SS",
-        "SSSS..SSSSSSSSSSSSSSS..SS",
-        "SSSS..SSSSSSSSSSSSSS...SS",
-        "CWWW..SSSSSSSSSSSSSSS..SS",
-        "CWWW..SSSSSSSSSSSSSS...SS",
-        "SSSS..SSSSSSSSSSSSSSS..SS",
-        "SSSS..SSSSSSSSSSSSSS...SS",
-        "SSSS..SSSSSSSSSSSSSSS..SS",
-        "SSSS..SSSSSSSSSSSSSS...SS",
-        "SSSS..SSSSSSSSSSSSSSS..SS",
-        "SSSS...WCSSSSSSSSSS....SS",
-        "SSSS.....................",
-        "........................."
-      ]
-    },
-    "148335": {
-      "totalRows": 13,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K",
-        null
-      ],
-      "seatTypes": [
-        ".....................",
-        "....SSSSSSSSSSSS.....",
-        "....SSSSSSSSSSSSS....",
-        "SS..SSSSSSSSSSSS...SS",
-        "SS..SSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSS...SS",
-        "SS..SSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSS...SS",
-        "SS..SSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSS...SS",
-        "SS..WCSSSSSCW......SS",
-        "...................SS",
-        "....................."
       ]
     },
     "148337": {
@@ -2544,31 +2432,6 @@
           "runtimeMinutes": 109,
           "sessions": [
             {
-              "time": "15:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=148131&a=0000000001&l=1415&m=forgotten-island&ss=False",
-              "seats": [
-                ".........................",
-                ".....?????AAAAAAAAA......",
-                "....AAAAAAAAAAAAAAA......",
-                ".....AAAAAAAAAAAAAA..AAAA",
-                "....AAAAAAAAAAAAAAA..AAAA",
-                "AA...AAAAAAAAAAAAAA..AAAA",
-                "AA..AAAAAAAAAAAAAAA..AAAA",
-                "AA...AAAAAAA??AAAAA..AAAA",
-                "AA..AAAAA??AAAAAA??..AAAA",
-                "AA...AAAAAAAAOOOOAA..AA??",
-                "AA..?AAAAAAAAAAAAAA..AAAA",
-                "AA...AAAAAAAAAAAAAA..AAAA",
-                "AA..AAAAAAAAAAAAAAA..AAAA",
-                "AA....OAAAAAAAAAAA...AAAA",
-                "........................."
-              ],
-              "layoutKey": "148131"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "3D"
@@ -2616,7 +2479,7 @@
                 "AA..AAAAAAAAAAAAA..AA",
                 "AA..AAAOOOOOAAAA...AA",
                 "AA..?AAAAAAAAAAAA..AA",
-                "AA..OOAAAAAAAOOO...AA",
+                "AA..OOAAAAAAAAAA...AA",
                 "AA....AAAAAOOAA....AA",
                 "AA...................",
                 "....................."
@@ -2671,9 +2534,9 @@
                 "AAAA..AAAAAAAAAAAAAAA..AA",
                 "AAAA...AAAAAAAAAAAAAA..AA",
                 "AAAA..AAAAAAAAAAAAAAA..AA",
-                "AAAA...AAAAAAAAAAAAAA..AA",
+                "AAAA...AAAAAAAAAAAAAA..OO",
                 "AAAA..AAAAAAAAAAAAOOO..AA",
-                "OOOO...AAAAAAAAAAAAAA..AA",
+                "OOOO...OOAAAAAAAAAAAA..AA",
                 "AAAA..AAAAAAAAAAAAAAA..AA",
                 "A?AA.....AAAAAAAAAAAA..AA",
                 "........................."
@@ -2700,14 +2563,14 @@
                 "AA...AAAAAAAAAAAAAA..AAAA",
                 "AA..AAAAAAAAAAAAAAA..AAAA",
                 "AA...AAA??AAAAAAAAA..AAAA",
-                "AA...AAAAAAAAAAAAAA..AAAA",
+                "AA...OAAAAAOOAAAAAA..AAAA",
                 "AA...?AAAAAAAAA??AA..AAAA",
-                "AA..AAAAAAA??AAAAAA..?AAA",
-                "AA...AAAAAAAAAAAAAA..AAAA",
-                "AA..AAAAAAAAAAAAAAA..AAAA",
-                "AA...AAAAAAAAAAAAAA..AAAA",
-                "AA..AAAAAAAAAAAAAA?..AAAA",
-                "OA....AAAAAAAAAAAA...AAAA",
+                "AA..OOOAOAA??AAAAAA..?OAO",
+                "AA...OOOOOOAAOOAAAA..AAAA",
+                "OO..AAAAAAAOOAAAAOO..AAAA",
+                "AA...AAAOOAAAAAAAAA..AAAA",
+                "AA..OOAAAAAAAAAAAA?..AAAA",
+                "OA....AAAOOAAOAAOO...OOAA",
                 "........................."
               ],
               "layoutKey": "148342"
@@ -2744,29 +2607,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
           "sessions": [
-            {
-              "time": "15:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=148335&a=0000000001&l=1415&m=practical-magic-2&ss=False",
-              "seats": [
-                ".....................",
-                "....AAAAAAAAAA??.....",
-                "....AAAAAAAAAAAAA....",
-                "AA..OOAAAAAAAAAA...AA",
-                "AA..AAAAAAAAAAAAA..AA",
-                "AA..AAAAAAAAAAAA...AA",
-                "AA..AAAAOOAAAOOAA..AA",
-                "AA..AAAAAAOOOOAA...AA",
-                "AA..OOOAOOAAAOOAA..AA",
-                "AA..AAAAAAAAAAAA...AA",
-                "AA..AAAAAOOAA......AA",
-                "...................AA",
-                "....................."
-              ],
-              "layoutKey": "148335"
-            },
             {
               "time": "18:20",
               "formats": [
@@ -2822,39 +2662,6 @@
                 "........................."
               ],
               "layoutKey": "148344"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "15:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=148333&a=0000000001&l=1415&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                ".........................",
-                "......AAAAAAAAAA????.....",
-                "......AAAAAAAAAAAAAAA....",
-                "AAAA..AAAAAAAAAAAAAA...AA",
-                "AAAA..AAAAAAAAAAAAAAA..AA",
-                "AAAA..AAAAAAOOOOOOOO...AA",
-                "AAAA..OOOAAAAAOOOOOOA..AA",
-                "AAAA..AAAAAA??OOAAAA...AA",
-                "AAAA..AAAAA??AAAAAAAA..AA",
-                "AAAA..AAAAAAAAAAAAAA...AA",
-                "AAAA..AAAAOOOAAAAAAOO..AA",
-                "AAAA..AAAAAAAAAAAAAA...AA",
-                "AAAA..OOAAAAAAAAAAAAA..AA",
-                "AAAA...AAAAAAAAOOAA....?A",
-                "AAAA.....................",
-                "........................."
-              ],
-              "layoutKey": "148333"
             }
           ]
         }

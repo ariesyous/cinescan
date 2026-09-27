@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T21:59:20.220Z",
+  "updatedAt": "2026-09-27T22:56:12.495Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -171,32 +171,6 @@
         "SCW..............SSS"
       ]
     },
-    "125551": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSCW.WCSS..SSS",
-        "SCW..............SSS"
-      ]
-    },
     "125553": {
       "totalRows": 7,
       "totalColumns": 14,
@@ -256,28 +230,6 @@
       ]
     },
     "125556": {
-      "totalRows": 7,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSCW",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSS..",
-        "SSSCW.WCSSS.."
-      ]
-    },
-    "125557": {
       "totalRows": 7,
       "totalColumns": 13,
       "rowLabels": [
@@ -1169,11 +1121,11 @@
                 "A??..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAA?AOOAAAA..AAA",
-                "AAA..AAAAOOOOAAAA..AAA",
-                "AAA..AAOOAA?AAAOO..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
+                "AAA..AAAAOOOOAAOO..AAA",
+                "AAA..OOAA?AOOAAAA..AAA",
+                "OOO..AAAAOOOOAAAA..AAA",
+                "AAA..OOOOAO?AOOAA..AAA",
+                "AAA..OOOOOOOOOOOO..OOA",
                 "AAA...AOOAAAAAA?A..AAA",
                 "???..................."
               ],
@@ -1215,9 +1167,9 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125555&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
               "seats": [
                 "AA..AAAAAAAA..AA",
-                "AA..AAA?OOAA..AA",
+                "AA..AOO?OOOO..AA",
                 "OO..OOOOOA??..?A",
-                "?A..AOOOOOOO..OO",
+                "?A..OOOOOOOO..OO",
                 "OO...AAOOOAA..OO"
               ],
               "layoutKey": "125555"
@@ -1230,10 +1182,10 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125554&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
               "seats": [
                 "AA..AAAAAOOO..AA",
-                "AA..OOO?OOOO..AA",
+                "AA..OOO?OOOO..OO",
                 "OO..OOOOOO??..?A",
                 "?A..OOAOOOOO..OO",
-                "AA...AAOOAAA..OO"
+                "OA...AAOOAAA..OO"
               ],
               "layoutKey": "125554"
             }
@@ -1245,23 +1197,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "15:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125557&a=0000000001&l=1410&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAA??AAAAAAAA",
-                "AA?AAAAAA?A??",
-                "?AAAAOOAAAAAA",
-                "AAAAAOOAAOOAA",
-                "OOOAAOOOAAAAA",
-                "OOAOOOOOOOO..",
-                "OOAAA.AAAOO.."
-              ],
-              "layoutKey": "125557"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Recliner"
@@ -1271,8 +1206,8 @@
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
                 "?OOAAAAAAAAAA",
-                "OOOOOOOOOAOOO",
-                "AAAAAOOAAAOOO",
+                "OOOOAOOOOAOOO",
+                "AAAOOOOAAAOOO",
                 "AAAAAOOOOOO..",
                 "AOOOA.AAAOO.."
               ],
@@ -1285,26 +1220,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "15:20",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125551&a=0000000001&l=1410&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAA..AAAAAAAAAA..???",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAA?..AAA",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAOAA??A..AAA",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAA?AAA..AAA",
-                "AAA..AAAAA.AAAA..AAA",
-                "???..............???"
-              ],
-              "layoutKey": "125551"
-            },
             {
               "time": "18:40",
               "formats": [
@@ -1343,7 +1258,7 @@
                 "AAAAAAAAAAAAAA",
                 "AAAA?AAAAA..AA",
                 "AOOAOOOOOOOAAA",
-                "AOOAAAAAAAAAAA",
+                "AOOAAAAOOAAAAA",
                 "AA..AA..AA..AA"
               ],
               "layoutKey": "125553"
@@ -1762,7 +1677,7 @@
                 "AAAAAAAAAAAA?A",
                 "AAAAAAAAAAAAAA",
                 "AAAA?OOOAA..AA",
-                "AAAAAAAAAAAAAA",
+                "AAAAAOOAAAAAAA",
                 "AAAAAOOAAAAAAA",
                 "AA..AA..AA..AA"
               ],
@@ -2033,7 +1948,7 @@
                 "AAAAA??AAAAAA?",
                 "AAAAAAAAAAAA?A",
                 "AAAAAAAAAAAAAA",
-                "AAAA?AAAAA..AA",
+                "AAAA?OOAAA..AA",
                 "AAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAA",
                 "AA..AA..AA..AA"

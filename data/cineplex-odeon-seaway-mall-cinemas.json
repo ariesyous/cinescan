@@ -1,40 +1,10 @@
 {
-  "updatedAt": "2026-09-27T21:59:44.830Z",
+  "updatedAt": "2026-09-27T22:56:40.524Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
   },
   "auditoriums": {
-    "153488": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "......SSSSCW.WCSSSSS..",
-        "......................"
-      ]
-    },
     "153489": {
       "totalRows": 11,
       "totalColumns": 22,
@@ -148,72 +118,6 @@
       ]
     },
     "153706": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
-    "153709": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
-    "153710": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
-    "153711": {
       "totalRows": 7,
       "totalColumns": 15,
       "rowLabels": [
@@ -1019,35 +923,6 @@
       "date": "2026-09-27",
       "movies": [
         {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153488&a=0000000001&l=7206&m=forgotten-island&ss=False",
-              "seats": [
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "A?AA..AAAAAAA?AAA?AA..",
-                "AAAA..AAAAAA?AAAAAAA..",
-                "AA?A..AAA?AAAAAAAAAA..",
-                "AOOO..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAA?AAA?AA..",
-                "......AAAOOA.AAAAAA?..",
-                "......................"
-              ],
-              "layoutKey": "153488"
-            }
-          ]
-        },
-        {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
           "runtimeMinutes": 94,
@@ -1063,9 +938,9 @@
                 "....AAAAAOAAAA..AAAA",
                 "...AAAAAAAAAAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
-                "..AAAAAAAOOAAA..AAAA",
-                "..AAAAAAAAAAAA..AAAA",
-                "..AAAAAOOAAOOO..AAAA",
+                "..AAAAOOAOOAAA..AAAA",
+                "..AAAAAOOOAAOO..AAAA",
+                "..AAAOAOOAAOOO..AAAA",
                 "..AAOOAAOOAAAA..AAAA",
                 "....AA?AAAAA??..AAAA",
                 "........OOAAAA......"
@@ -1088,8 +963,8 @@
               "seats": [
                 "...............",
                 "..A?AAAAAAAAA..",
-                "..AAAAAOOAAAA..",
-                "..AOOAOOAAOOO..",
+                "..AOOOOOOOOOO..",
+                "..AOOAOOOOOOO..",
                 "..AOOOOOOOOOA..",
                 "..OO?AOOOOOOO..",
                 "..AAOOOOOOAAA.."
@@ -1115,82 +990,10 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAA?AAAAAAA..",
+                "..AAA?AOOAAAA..",
                 "..AAAAAAAAAAA.."
               ],
               "layoutKey": "153706"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153710&a=0000000001&l=7206&m=practical-magic-2&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..A?AAAAAAAAA..",
-                "..AAAAAAAAA??..",
-                "..AA?AAOOAAAA..",
-                "..AAAAAAAAAAA.."
-              ],
-              "layoutKey": "153710"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153711&a=0000000001&l=7206&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAOOOO..",
-                "..OOAAAOOOOAA..",
-                "..?AAAAAAAOO?..",
-                "..AAAAAOOOAAA.."
-              ],
-              "layoutKey": "153711"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "18:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153709&a=0000000001&l=7206&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAA?AAA..",
-                "..AAAAOOOOAAA..",
-                "..OOAA?AAAOOA..",
-                "..AAAA?A??AAA.."
-              ],
-              "layoutKey": "153709"
             }
           ]
         }
@@ -1272,7 +1075,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AA?AAAAAAAA..",
+                "..AA?AAAAAAOO..",
                 "..AAAAAAAAAAA.."
               ],
               "layoutKey": "153725"
