@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T19:59:29.557Z",
+  "updatedAt": "2026-09-27T20:44:30.376Z",
   "theatre": {
     "id": 7259,
     "name": "Cineplex Odeon Gardiners Road Cinemas"
@@ -1803,28 +1803,6 @@
         "..SSSSSSSSSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSSSSSSSS",
         "...DDDDDDDDDDDDDDDDDDDD..."
-      ]
-    },
-    "300441": {
-      "totalRows": 7,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "...SSSSWCCW.WC..",
-        ".SSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSS"
       ]
     },
     "300442": {
@@ -5203,32 +5181,6 @@
         "...DDDDDDDDDDDDDDDDDDDD..."
       ]
     },
-    "301417": {
-      "totalRows": 9,
-      "totalColumns": 23,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSSS..",
-        ".......................",
-        "......CWWCCWWCCWSSS....",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
     "301418": {
       "totalRows": 11,
       "totalColumns": 27,
@@ -8354,7 +8306,7 @@
                 "....A?AAAAAAAOOAAAAAAAAA...",
                 "....AAAAAAAAOOOOAAAAAAAA...",
                 "AA..AAAOOOOAAAAAAAAAAOOO.AA",
-                "AAAAAAAAAAOOOOOOOAAAAAAAAAA"
+                "AAOOOOAAAAOOOOOOOAAAAAAAAAA"
               ],
               "layoutKey": "301418"
             },
@@ -8408,23 +8360,6 @@
           "runtimeMinutes": 101,
           "sessions": [
             {
-              "time": "15:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=300441&a=0000000001&l=7259&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "...AAAAAAAA.AA..",
-                ".AAAAAAAAAAAAA..",
-                ".OOAAAOOAAAAOO..",
-                ".AOAOOOOOAOOOO..",
-                ".OOOOOOOO?OAOO..",
-                ".OOOAOOOOAOOOO..",
-                "AOAOOOOOOO?OOOOA"
-              ],
-              "layoutKey": "300441"
-            },
-            {
               "time": "18:50",
               "formats": [
                 "Recliner"
@@ -8474,7 +8409,7 @@
               "seats": [
                 "..AAAAAAAA....",
                 "..AAAAAAAAAAA.",
-                "..AAAAAAAAAAA.",
+                "..AAAAOOAAAAA.",
                 "..AAAAOOAAOOA.",
                 "..AAOOAOAAAAA.",
                 "..AAAAOOOOAA.."
@@ -8504,25 +8439,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61808_320_470.jpg",
           "runtimeMinutes": 99,
           "sessions": [
-            {
-              "time": "16:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=301417&a=0000000001&l=7259&m=the-stunt-driver&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAA..",
-                ".......................",
-                "......AAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "301417"
-            },
             {
               "time": "19:10",
               "formats": [
@@ -8614,7 +8530,7 @@
                 ".AAAAAAAAA?AAA..",
                 ".AAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAA..",
-                ".AAAAAOOAAAAAA..",
+                ".AAAAAOOAAAAOO..",
                 ".AAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAA"
               ],
@@ -8680,7 +8596,7 @@
                 "..AAAAAAAAAAA.",
                 "..AAAAAAAAAAA.",
                 "..AAAAAAAAAAA.",
-                "..AA?AAAAAAA.."
+                "..OO?AAAAAAA.."
               ],
               "layoutKey": "301421"
             },
@@ -10089,7 +10005,7 @@
                 "..AA.AAAAAAAA...",
                 "..AAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAA.",
+                "..AAAOOOOOOOAAA.",
                 "..AAOOOOOOOOOAA.",
                 "..AAAAOOAAAAAAA.",
                 "AAAAAAAAAAAAAAAA"

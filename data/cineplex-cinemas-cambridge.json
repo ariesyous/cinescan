@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T19:58:35.509Z",
+  "updatedAt": "2026-09-27T20:43:50.009Z",
   "theatre": {
     "id": 7269,
     "name": "Cineplex Cinemas Cambridge"
@@ -60,32 +60,6 @@
       ]
     },
     "222795": {
-      "totalRows": 9,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "......................",
-        ".......SSSSSSSS.......",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "...SSCWCCWWCCWCSSSS...",
-        "......................"
-      ]
-    },
-    "222796": {
       "totalRows": 9,
       "totalColumns": 22,
       "rowLabels": [
@@ -581,34 +555,6 @@
         "..SSSSSSSSSSSSSSSSSS..",
         "....CWCCWWCCWWCCWSS...",
         "......................"
-      ]
-    },
-    "223115": {
-      "totalRows": 10,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "..................",
-        "...SSSSSSSSSSSS...",
-        "....SSSSSSSSSS....",
-        "...SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS..",
-        "...CWWCCWCCWCSS...",
-        ".................."
       ]
     },
     "223116": {
@@ -2378,25 +2324,6 @@
           "runtimeMinutes": 109,
           "sessions": [
             {
-              "time": "16:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=222796&a=0000000001&l=7269&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                ".......AAAAAAAA.......",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAOOOAAAAAAAA..",
-                "..OOOO?AAAOOOOOAAOOO..",
-                "..AAOOOOAOOOOOOAAOOO..",
-                "..OOOOAAAOOOOOOOOOOO..",
-                "...OOOAAAAAAAAAOOAO...",
-                "......................"
-              ],
-              "layoutKey": "222796"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "3D",
@@ -2454,8 +2381,8 @@
                 "...??AAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAOOAAAAAAAAAA..",
-                "...AAAAAAAAAOOAAAAAAAAAA..",
-                "...AAAAAAAOOAOOAAAOAAAAA..",
+                "...OOAAAAOAAOOAAOOAAAAAA..",
+                "...AAAOOAAOOAOOAAAOAAAAA..",
                 "...OOAAAAAOOAAOOOOOAAAAA..",
                 "........AAAAAAAAAAAAAAOO..",
                 ".........................."
@@ -2494,7 +2421,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAOAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAOOAA..",
+                "...AAAAAAAAOOAAAAAAAOOAA..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
               ],
@@ -2508,26 +2435,6 @@
           "runtimeMinutes": 101,
           "sessions": [
             {
-              "time": "16:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223115&a=0000000001&l=7269&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "..................",
-                "...???AAAAAAAAA...",
-                "....AAAAAAAAAA....",
-                "...AAAAOOOAAAAAA..",
-                "..OOOOOOOOOOOOAA..",
-                "..AAOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOA..",
-                "...AAAAAAOOAAAA...",
-                ".................."
-              ],
-              "layoutKey": "223115"
-            },
-            {
               "time": "18:45",
               "formats": [
                 "Recliner"
@@ -2540,8 +2447,8 @@
                 "...AAAAAOOAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..OOAAAAAAAAAAAA..",
-                "..OOOOOOOOOAAAAA..",
-                "..OOOAAAOOAAOOOO..",
+                "..OOOOOOOOOAAAOO..",
+                "..OOOOOAOOAAOOOO..",
                 "...AAAOOAOOAAOA...",
                 ".................."
               ],
@@ -2560,7 +2467,7 @@
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
-                "..OOOAAAAAAAAAAA..",
+                "..OOOAAAAAAAOOAA..",
                 "..AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAOO...",
                 ".................."
@@ -2585,10 +2492,10 @@
                 "......??????????......",
                 "AAA...AAAAAAAAAAAAA...",
                 "AAA...AAAAAAAAAAAAA...",
-                "AAAA..AAAAAAAAAAAAAA..",
+                "AAAA..AAAAAOOAAAAAAA..",
                 "AAAA..OOOAAAAAAAAAAA..",
                 "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
+                "OOAA..AAAAAAAAAAAAAA..",
                 ".......AA.AAAAAAAAA...",
                 "......................"
               ],
@@ -2805,7 +2712,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAOOAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAOOAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
@@ -2853,7 +2760,7 @@
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAOOAAAAAA..",
-                "..AAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAA..",
                 "...AAAAAAAAAAAA...",
                 ".................."
               ],
@@ -3110,7 +3017,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAA..",
+                "...AOOOOAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAOOOAAAAAAAAA..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
@@ -4186,7 +4093,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAOO..",
+                "...AAAAAAAAAOOAAAAAAAAOO..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
               ],
