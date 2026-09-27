@@ -1,39 +1,11 @@
 {
-  "updatedAt": "2026-09-27T22:56:12.495Z",
+  "updatedAt": "2026-09-27T23:35:43.107Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
   },
   "auditoriums": {
     "123761": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS...SSSSCWWCSSS..SSS",
-        "SCW..................."
-      ]
-    },
-    "125505": {
       "totalRows": 10,
       "totalColumns": 22,
       "rowLabels": [
@@ -1112,26 +1084,6 @@
           "runtimeMinutes": 109,
           "sessions": [
             {
-              "time": "15:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125505&a=0000000001&l=1410&m=forgotten-island&ss=False",
-              "seats": [
-                "A??..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAOOOOAAOO..AAA",
-                "AAA..OOAA?AOOAAAA..AAA",
-                "OOO..AAAAOOOOAAAA..AAA",
-                "AAA..OOOOAO?AOOAA..AAA",
-                "AAA..OOOOOOOOOOOO..OOA",
-                "AAA...AOOAAAAAA?A..AAA",
-                "???..................."
-              ],
-              "layoutKey": "125505"
-            },
-            {
               "time": "18:50",
               "formats": [
                 "3D",
@@ -1166,9 +1118,9 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125555&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
               "seats": [
-                "AA..AAAAAAAA..AA",
-                "AA..AOO?OOOO..AA",
-                "OO..OOOOOA??..?A",
+                "AA..AAOOAAAA..AA",
+                "AA..AOO?OOOO..OO",
+                "OO..OOOOOO??..?A",
                 "?A..OOOOOOOO..OO",
                 "OO...AAOOOAA..OO"
               ],
@@ -1181,10 +1133,10 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125554&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
               "seats": [
-                "AA..AAAAAOOO..AA",
+                "AA..AAOOAOOO..AA",
                 "AA..OOO?OOOO..OO",
                 "OO..OOOOOO??..?A",
-                "?A..OOAOOOOO..OO",
+                "?A..OOOOOOOO..OO",
                 "OA...AAOOAAA..OO"
               ],
               "layoutKey": "125554"
@@ -1557,7 +1509,7 @@
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
                 "AAAAAOOAAAAAA",
-                "AAAAOOOAAAAAA",
+                "AAAAOOOAAOOAA",
                 "AAAOOAAOOAA..",
                 "AAAAA.AAAAA.."
               ],

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T22:56:26.764Z",
+  "updatedAt": "2026-09-27T23:35:55.716Z",
   "theatre": {
     "id": 7199,
     "name": "Cineplex Cinemas Varsity and VIP"
@@ -1885,34 +1885,6 @@
         "CCW.......................WC."
       ]
     },
-    "409588": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...................",
-        ".....WCSSSSCW......",
-        "....SSSSSSSSSSS....",
-        "....SSSSSSSSSSS....",
-        "....SSSSSSSSSSS....",
-        "....SSSSSSSSSSS....",
-        "....SSSSSSSSSSS....",
-        "....SSSSSSSSSSS....",
-        "SS..SSSSSSSSSSS..SS",
-        "SSSSSSS.SSSSSSSSSSS"
-      ]
-    },
     "409594": {
       "totalRows": 10,
       "totalColumns": 19,
@@ -2059,44 +2031,6 @@
         "....SSSSSSSSSSSSSSS....",
         "SS..SSSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSS.SSSSSSS"
-      ]
-    },
-    "409600": {
-      "totalRows": 15,
-      "totalColumns": 24,
-      "rowLabels": [
-        null,
-        "BB",
-        "CC",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K"
-      ],
-      "seatTypes": [
-        "........................",
-        "....SSSSSSSSSSSSSSSS....",
-        "....SSSSSSSSSSSSSSSS....",
-        "........................",
-        ".........WCSSSSCW.......",
-        ".......WCSSSSSSSCW......",
-        "....SSSSSSSSSSSSSSSS....",
-        "....SSSSSSSSSSSSSSSS....",
-        "....SSSSSSSSSSSSSSSS....",
-        "....SSSSSSSSSSSSSSSS....",
-        "....SSSSSSSSSSSSSSSS....",
-        "....SSSSSSSSSSSSSSSS....",
-        "SS..SSSSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "409601": {
@@ -6310,12 +6244,12 @@
                 "........AAAAAAAA........",
                 ".......AAAAAAAAAAA......",
                 ".....AAAAAAAAAAAAAAA....",
-                ".....AAAAAAOOAAAAAAA....",
-                ".....AAOAAOOOOOAAAAA....",
-                ".....AAAOOOOOOOOOOOA....",
-                "....OOAAOOOOOAAOOAAO....",
+                ".....AAOOOOOOAAOOAAA....",
+                ".....AAOAAOOOOOOOOAA....",
+                ".....OOOOOOOOOOOOOOA....",
+                "....OOAAOOOOOOOOOAAO....",
                 "....AAOOAOOOOOOOOAAA....",
-                "AA...AOOOOOOOOOOAAAA..AA",
+                "AA...AOOOOOOOOOOOAAA..AA",
                 "AA...OOAAAOOOOAAOOOO..AA",
                 "AAAAAAAAAOOOOOOOOA???AAA"
               ],
@@ -6380,31 +6314,6 @@
           "runtimeMinutes": 110,
           "sessions": [
             {
-              "time": "19:05",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=409600&a=0000000001&l=7199&m=primetime&ss=False",
-              "seats": [
-                "........................",
-                "....AAAAAAAAAAAAA?AA....",
-                "....OOAOOOAAAAAAOOAA....",
-                "........................",
-                ".........A?OOOOAA.......",
-                ".......AAOOOOOOOAA......",
-                "....OOOOOOOOOOOOOOOO....",
-                "....OOOOOOOOOOOOOOOO....",
-                "....OOOOOOOOOOOOOOOO....",
-                "....OOOOOOOOOOOOOOOO....",
-                "....OOOOOOOOOOOOOOOO....",
-                "....OOOOOOOOOOOOOOOO....",
-                "OO..OOOOOOOOOOOOOOOO..OO",
-                "OA..OOOOOOOOOOOOOOOO..OO",
-                "AOOOOOOOOOOOOOOOOOOOOOOO"
-              ],
-              "layoutKey": "409600"
-            },
-            {
               "time": "20:00",
               "formats": [
                 "VIP 19+"
@@ -6412,12 +6321,12 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=409486&a=0000000001&l=7199&m=primetime&ss=False",
               "seats": [
                 "......",
-                "AAAAAA",
-                "AAAAAA",
-                "AAOOAA",
+                "AAOAAA",
                 "OOOOOO",
                 "OOOOOO",
-                "AAAAOO"
+                "OOOOOO",
+                "OOOOOO",
+                "AAOOOO"
               ],
               "layoutKey": "409486"
             },
@@ -6432,7 +6341,7 @@
                 "AAAAAA",
                 "AAAAAA",
                 "OOOOAA",
-                "AAOOOO",
+                "OOOOOO",
                 "OOOOOO",
                 "OOAAAA"
               ],
@@ -6449,10 +6358,10 @@
                 "AAAAAA",
                 "AAAAAA",
                 "AAAAAA",
-                "AAAAAA",
+                "AAAOAA",
                 "AOO?AA",
-                "AAAAAA",
-                "AAAAAA"
+                "AAAAOO",
+                "AAAAOO"
               ],
               "layoutKey": "409742"
             },
@@ -6471,10 +6380,10 @@
                 ".......AAAAAAAAAAA......",
                 "....AAAAAAAAAAAAAAAA....",
                 "....AAAAAAAAAAAAAAAA....",
-                "....AAAAAOOOOAAOOAAA....",
+                "....AAAAAOOOOAAAAAAA....",
                 "....AAAAAOOOOOOOOOAA....",
-                "....OAAOOAOOOOOOOOOA....",
-                "....AAAAOOOAAOOOOOAA....",
+                "....OAAOOOOOOOOOOOOA....",
+                "....AAAAOOOOOOOOOOAA....",
                 "AA..AAAAOOOAOAAOOAAA..AA",
                 "AA..AAAAAOOOOAAAAAAA..AA",
                 "AAAAAAAOOAAOOOOAAAAAAAAA"
@@ -6536,7 +6445,7 @@
                 "AAAAAAA",
                 ".AAAAAA",
                 "AAAOOAA",
-                ".AAOOAA",
+                ".OOOOAA",
                 ".OOAAAA"
               ],
               "layoutKey": "409487"
@@ -6581,10 +6490,10 @@
                 "......AAAAAAAAAAA......",
                 ".....AAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAA....",
-                ".....AAAAAAAAAAAAAA....",
-                ".....AAAAAAAAAAAAAA....",
-                "....AAAAAOOAAAOOAAA....",
-                "....?AAAAAAAAAAAAAA....",
+                ".....AAAAAOOOAAOOAA....",
+                ".....OAAAAOOAAAAAAA....",
+                "....AAAAAOOAAAOOAAO....",
+                "....?AAAAAAAOAAAAAA....",
                 "AA..?AAAAAAAAAAAAAA..AA",
                 "AAAAAOAAAAAAAAA.AAAAAAA"
               ],
@@ -6613,53 +6522,6 @@
           ]
         },
         {
-          "title": "History of Concrete",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62107_320_470.jpg",
-          "runtimeMinutes": 102,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=409588&a=0000000001&l=7199&m=history-of-concrete&ss=False",
-              "seats": [
-                "...................",
-                ".....AAAAAAAA......",
-                "....AAAAAAAAAAA....",
-                "....AAAAOAAAAAO....",
-                "....OAOOOOOAAAA....",
-                "....OOOOOOOOAOO....",
-                "....OOOOAOOOOOA....",
-                "....OAAOOOOOOOO....",
-                "AO..AAOOAAOOAAA..AO",
-                "OAAAAAA.OOAAAAAOOAA"
-              ],
-              "layoutKey": "409588"
-            },
-            {
-              "time": "21:25",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=409594&a=0000000001&l=7199&m=history-of-concrete&ss=False",
-              "seats": [
-                "...................",
-                ".....AAAAAAAA......",
-                "....AAAAAAAAAAA....",
-                "....AAAAAAAAAAA....",
-                "....AAAAAAAAAAA....",
-                "....AAAAAOAAAAA....",
-                "....AAAOOOOAAAA....",
-                "....AAAAAAAAAAA....",
-                "AA..AAAAAAAAAAA..AA",
-                "AAAAAAA.AAAAAAAAAAA"
-              ],
-              "layoutKey": "409594"
-            }
-          ]
-        },
-        {
           "title": "The Weight",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62071_320_470.jpg",
           "runtimeMinutes": 113,
@@ -6683,6 +6545,33 @@
                 "AAA.AAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "409596"
+            }
+          ]
+        },
+        {
+          "title": "History of Concrete",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62107_320_470.jpg",
+          "runtimeMinutes": 102,
+          "sessions": [
+            {
+              "time": "21:25",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=409594&a=0000000001&l=7199&m=history-of-concrete&ss=False",
+              "seats": [
+                "...................",
+                ".....AAAAAAAA......",
+                "....AAAAAAAAAAA....",
+                "....AAAAAAAAAAA....",
+                "....AAAAAAAAAAA....",
+                "....AAAAAOAAAAA....",
+                "....AAAOOOOAAAA....",
+                "....AAAAAAAAAAA....",
+                "AA..AAAAAAAAAAA..AA",
+                "AAAAAAA.AAAAAAAAAAA"
+              ],
+              "layoutKey": "409594"
             }
           ]
         }
@@ -7890,7 +7779,7 @@
                 "....AAAAAAAAAAAAA?AA....",
                 "....AAAAAAAAAAAAAAAA....",
                 "........................",
-                ".........A?OOAAAA.......",
+                ".........A?AAAAAA.......",
                 ".......AAAOOOOOAAA......",
                 "....OOOOOOOOOOOOOOOO....",
                 "....OOOOOOOOOOOOOOOO....",
@@ -10173,7 +10062,7 @@
                 ".....AAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAA....",
+                "....AAAOOAAAAAAAAAA....",
                 "....?AAAAAAAAAAAAAA....",
                 "AA..?AAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAA.AAAAAAA"
