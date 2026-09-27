@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T20:44:05.869Z",
+  "updatedAt": "2026-09-27T21:59:20.220Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -143,24 +143,6 @@
         "SSS..SSSSSSSSSSSS..SSS",
         "SSS...SSSSCWWCSSS..SSS",
         "SCW..................."
-      ]
-    },
-    "125548": {
-      "totalRows": 5,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSS..SS",
-        "CW..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS...WCSSSCW..SS"
       ]
     },
     "125550": {
@@ -315,28 +297,6 @@
         "SSSSSSSSSSSSS",
         "SSSSSSSSSSS..",
         "SSSCW.WCSSS.."
-      ]
-    },
-    "125558": {
-      "totalRows": 7,
-      "totalColumns": 14,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSS..CW",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SS..CW..WC..CW"
       ]
     },
     "125559": {
@@ -1212,9 +1172,9 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAA?AOOAAAA..AAA",
                 "AAA..AAAAOOOOAAAA..AAA",
-                "AAA..AAOOAA?AAAAA..AAA",
+                "AAA..AAOOAA?AAAOO..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA...AAAAAAAAA?A..AAA",
+                "AAA...AOOAAAAAA?A..AAA",
                 "???..................."
               ],
               "layoutKey": "125505"
@@ -1231,7 +1191,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAA?AAAAAAA..AAA",
+                "AAA..OOOO?AAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAA?AAAOO..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
@@ -1248,21 +1208,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "14:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125548&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
-              "seats": [
-                "AA..AAAAAAAA..AA",
-                "AA..AAA?OOAA..AA",
-                "AA..AAOOOO??..?A",
-                "?A..OOOOOOOO..AA",
-                "OO...AAOOOAA..AA"
-              ],
-              "layoutKey": "125548"
-            },
-            {
               "time": "16:45",
               "formats": [
                 "Recliner"
@@ -1271,9 +1216,9 @@
               "seats": [
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?OOAA..AA",
-                "AA..AAOOOA??..?A",
+                "OO..OOOOOA??..?A",
                 "?A..AOOOOOOO..OO",
-                "OO...AAOOOAA..AA"
+                "OO...AAOOOAA..OO"
               ],
               "layoutKey": "125555"
             },
@@ -1284,9 +1229,9 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125554&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
               "seats": [
-                "AA..AAAAAAAA..AA",
+                "AA..AAAAAOOO..AA",
                 "AA..OOO?OOOO..AA",
-                "AA..OOOOOO??..?A",
+                "OO..OOOOOO??..?A",
                 "?A..OOAOOOOO..OO",
                 "AA...AAOOAAA..OO"
               ],
@@ -1308,11 +1253,11 @@
               "seats": [
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
-                "?AAAAAAAAAAAA",
-                "AAAAAOOAAAAAA",
+                "?AAAAOOAAAAAA",
+                "AAAAAOOAAOOAA",
                 "OOOAAOOOAAAAA",
-                "OOAAAOOAAAA..",
-                "OOAAA.AAAAA.."
+                "OOAOOOOOOOO..",
+                "OOAAA.AAAOO.."
               ],
               "layoutKey": "125557"
             },
@@ -1326,7 +1271,7 @@
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
                 "?OOAAAAAAAAAA",
-                "OOOOOOOOOOOOO",
+                "OOOOOOOOOAOOO",
                 "AAAAAOOAAAOOO",
                 "AAAAAOOOOOO..",
                 "AOOOA.AAAOO.."
@@ -1386,23 +1331,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
           "runtimeMinutes": 172,
           "sessions": [
-            {
-              "time": "14:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125558&a=0000000001&l=1410&m=the-odyssey&ss=False",
-              "seats": [
-                "AAAAA??AAAAAA?",
-                "AAAAAAAAAAAA?A",
-                "AAAAAAAOOAAAAA",
-                "AAAA?OOOAA..AA",
-                "OOAOOOOOOAAOOO",
-                "AAAAAOOOOAAOOO",
-                "AA..AA..AA..AA"
-              ],
-              "layoutKey": "125558"
-            },
             {
               "time": "18:15",
               "formats": [
@@ -1470,7 +1398,7 @@
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
                 "AA..OOOOOO??..?A",
-                "?A..OOAAAOOO..OO",
+                "?A..AAAAAOOO..OO",
                 "AA...AAAAAAA..AA"
               ],
               "layoutKey": "125560"

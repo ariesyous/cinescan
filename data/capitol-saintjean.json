@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T20:43:33.412Z",
+  "updatedAt": "2026-09-27T21:58:47.248Z",
   "theatre": {
     "id": 9190,
     "name": "Capitol Saint-Jean"
@@ -933,28 +933,6 @@
         "SS...SSCW.WC"
       ]
     },
-    "160134": {
-      "totalRows": 8,
-      "totalColumns": 13,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null,
-        "F"
-      ],
-      "seatTypes": [
-        ".............",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "DD.DDD.DDDD.D",
-        "SSSCWWCSSSSS."
-      ]
-    },
     "160139": {
       "totalRows": 8,
       "totalColumns": 13,
@@ -1042,26 +1020,6 @@
         "..CW.WCSSS",
         ".........."
       ]
-    },
-    "160145": {
-      "totalRows": 6,
-      "totalColumns": 10,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null
-      ],
-      "seatTypes": [
-        "..........",
-        "..SSSSSSSS",
-        ".SSSSSSSSS",
-        ".SSSSSSSSS",
-        "..CW.WCSSS",
-        ".........."
-      ]
     }
   },
   "days": [
@@ -1085,7 +1043,7 @@
                 ".AA?AAAAAAAA.",
                 ".?AAAAAAAAAAA",
                 ".AAAAAAAAAAAA",
-                ".AAAAAAAAAAAA",
+                ".AAAAOOOAAAAA",
                 ".AAAAAAAAAAAA",
                 ".AAAAAAAAAAAA",
                 ".............",
@@ -1101,41 +1059,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "16:30",
-              "formats": [
-                "D-BOX",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=160134&a=0000000004&l=9190&m=vf-resident-evil-version-francaise&ss=False",
-              "seats": [
-                ".............",
-                "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
-                "AAAAOO?OAAAOO",
-                "AO.OOO.OOAA.A",
-                "?A?AAAAOOAAA."
-              ],
-              "layoutKey": "160134"
-            },
-            {
-              "time": "16:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=160134&a=0000000001&l=9190&m=vf-resident-evil-version-francaise&ss=False",
-              "seats": [
-                ".............",
-                "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
-                "AAAAOO?OAAAOO",
-                "AO.OOO.OOAA.A",
-                "?A?AAAAOOAAA."
-              ],
-              "layoutKey": "160134"
-            },
-            {
               "time": "19:30",
               "formats": [
                 "D-BOX",
@@ -1147,7 +1070,7 @@
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAOOOOOOAAAA",
-                "AAAAOO?AAOOAA",
+                "AOOAOO?AOOOAA",
                 "AA.AAA.AAAA.A",
                 "?A?AAAAAAOOO."
               ],
@@ -1164,7 +1087,7 @@
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAOOOOOOAAAA",
-                "AAAAOO?AAOOAA",
+                "AOOAOO?AOOOAA",
                 "AA.AAA.AAAA.A",
                 "?A?AAAAAAOOO."
               ],
@@ -1188,7 +1111,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAOOOAAAAAA",
                 "..OOAOOOOOOOAAA",
-                "..OOAAOOOOOOOOO",
+                "..OOOOOOOOOOOOO",
                 "...............",
                 "..AA.AAOOOOOOOA"
               ],
@@ -1247,29 +1170,6 @@
           ]
         },
         {
-          "title": "Shaun le mouton : La bêêête de la ferme",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61444_320_470.jpg",
-          "runtimeMinutes": 81,
-          "sessions": [
-            {
-              "time": "16:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=160145&a=0000000001&l=9190&m=shaun-le-mouton-la-beeete-de-la-ferme&ss=False",
-              "seats": [
-                "..........",
-                "..AAAAAAAA",
-                ".AAAAAAAAA",
-                ".AAAAAAAAA",
-                "..AA.AAAAA",
-                ".........."
-              ],
-              "layoutKey": "160145"
-            }
-          ]
-        },
-        {
           "title": "Insidieux : Hors du plus loin",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61420_320_470.jpg",
           "runtimeMinutes": 106,
@@ -1283,8 +1183,8 @@
               "seats": [
                 "..........",
                 "..AAAAAAAA",
-                ".AAAAAAAAA",
-                ".AAAAAAAAA",
+                ".AAAOOAAAA",
+                ".AAOOOOOAA",
                 "..AA.AAAAA",
                 ".........."
               ],
@@ -1486,7 +1386,7 @@
                 ".AAAAAOOAAAAA",
                 ".AAAAAAAAAAAA",
                 ".AAAAAAAAAAAA",
-                ".AAAAAAAAAAAA",
+                ".AOOAAAAAAAAA",
                 ".............",
                 ".AA.AAAAAAA.."
               ],
@@ -1680,7 +1580,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA",
                 "..AAOOOOOOOAAAA",
-                "..OOAAAOOOOAAAA",
+                "..OOOOOOOOOAAAA",
                 "...............",
                 "..AA.AAOAAAAAAA"
               ],
