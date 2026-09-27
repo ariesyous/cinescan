@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T00:18:10.528Z",
+  "updatedAt": "2026-09-27T01:02:31.369Z",
   "theatre": {
     "id": 5134,
     "name": "Cineplex Cinemas Yarmouth"
@@ -237,80 +237,6 @@
         "..SSSSSSSSSSSSSS....",
         ".SSSSSSSSSSSSSSSSS..",
         "...................."
-      ]
-    },
-    "64000": {
-      "totalRows": 16,
-      "totalColumns": 26,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        "DD",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        null
-      ],
-      "seatTypes": [
-        "..........................",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..........................",
-        "........WCSSSSSSSSSSCW....",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSSS.",
-        ".........................."
-      ]
-    },
-    "64004": {
-      "totalRows": 13,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "...................",
-        "..SSSSSSSSSSSSSSSSS",
-        "..SSSSSSSSSSSSSSSSS",
-        "...................",
-        "...................",
-        ".....WCSSSSSCW.....",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSSS."
       ]
     },
     "64009": {
@@ -1635,39 +1561,6 @@
       "date": "2026-09-26",
       "movies": [
         {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "21:05",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64000&a=0000000001&l=5134&m=forgotten-island&ss=False",
-              "seats": [
-                "..........................",
-                "..?AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..........................",
-                "........AAAAAAAAAAAAAA....",
-                ".....AAAAAAAAOOAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAA?AAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                "...?AAAAAAAAA?A?AAAAAAAAA.",
-                ".........................."
-              ],
-              "layoutKey": "64000"
-            }
-          ]
-        },
-        {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
           "runtimeMinutes": 101,
@@ -1687,43 +1580,13 @@
                 "..AAAAAAAAAAAAAO....",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAOOAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                ".OOOAAAAOOAAAAA?AA..",
+                ".OOOAAAOOOAAAAA?OO..",
                 "...................."
               ],
               "layoutKey": "63999"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "21:35",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64004&a=0000000001&l=5134&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                "..A?AAAAAAAAAAAAAAA",
-                "..AAAAAAAAAAAAAAAAA",
-                "...................",
-                "...................",
-                ".....AAAAAAAAA.....",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "64004"
             }
           ]
         }
