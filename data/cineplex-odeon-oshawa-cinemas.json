@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T22:25:29.415Z",
+  "updatedAt": "2026-09-28T22:53:09.257Z",
   "theatre": {
     "id": 7289,
     "name": "Cineplex Odeon Oshawa Cinemas"
@@ -1707,28 +1707,6 @@
         "..SSSSSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSSSS..",
         "..DD.DDD.....DDD.DDD.D.."
-      ]
-    },
-    "257442": {
-      "totalRows": 7,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "....................",
-        "...SSSSCWWCCWCSCW...",
-        "..SSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS.."
       ]
     },
     "257443": {
@@ -5079,30 +5057,6 @@
         "..SSSSSSSSSSSSS.."
       ]
     },
-    "258566": {
-      "totalRows": 8,
-      "totalColumns": 17,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "......SSSSSS.....",
-        ".................",
-        "....WCSCWWCCWC...",
-        "...SSSSSSSSSSSS..",
-        "...SSSSSSSSSSSS..",
-        "...SSSSSSSSSSSS..",
-        "...SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS.."
-      ]
-    },
     "258567": {
       "totalRows": 6,
       "totalColumns": 16,
@@ -5177,30 +5131,6 @@
         "..SSSSSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSSSS..",
         "..DD.DDD.....DDD.DDD.D.."
-      ]
-    },
-    "258572": {
-      "totalRows": 8,
-      "totalColumns": 17,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        ".....SSSSSS......",
-        ".................",
-        "..CWWCCWCSC......",
-        "..SSSSSSSSSSSS...",
-        "..SSSSSSSSSSSS...",
-        "..SSSSSSSSSSSS...",
-        "..SSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS.."
       ]
     },
     "258573": {
@@ -7297,11 +7227,11 @@
                 ".....AAAAAAAAAAAAAA.....",
                 "........................",
                 "....AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAOAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAOAAAAAAAAA..",
                 "..AAAAAAAOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAOAAAAAAAAA.."
               ],
@@ -7425,23 +7355,6 @@
           "runtimeMinutes": 101,
           "sessions": [
             {
-              "time": "18:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=257442&a=0000000001&l=7289&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "....................",
-                "...AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAOOOOAAAAA..",
-                "..AAAAAAAAOAAAAAAO..",
-                "..AAOOAOOAAAAAAAAA..",
-                "..AAAAAAAOOOAAAAOO.."
-              ],
-              "layoutKey": "257442"
-            },
-            {
               "time": "21:30",
               "formats": [
                 "Recliner"
@@ -7496,7 +7409,7 @@
                 "...AAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAA...",
-                "..AA?AAAAAAAAAA...",
+                "..AA?OOAAAAAAAA...",
                 "..AAAAAAAAAAAAAA.."
               ],
               "layoutKey": "258575"
@@ -7508,24 +7421,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
           "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=258572&a=0000000001&l=7289&m=practical-magic-2&ss=False",
-              "seats": [
-                ".....AAAAAA......",
-                ".................",
-                "..AAAAAAAAA......",
-                "..AAAAAAAAAAAA...",
-                "..AAAAOOOOOOOA...",
-                "..A?AAOOOOOAAA...",
-                "..AAAOOO??OAAA...",
-                "..OOAAAOOOOOOOO.."
-              ],
-              "layoutKey": "258572"
-            },
             {
               "time": "21:40",
               "formats": [
@@ -7592,31 +7487,6 @@
                 "..AAAAAAAAAAAA.."
               ],
               "layoutKey": "258567"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "18:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=258566&a=0000000001&l=7289&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......??????.....",
-                ".................",
-                "....??????????...",
-                "...????????????..",
-                "...????????????..",
-                "...????????????..",
-                "...????????????..",
-                "..?????????????.."
-              ],
-              "layoutKey": "258566"
             }
           ]
         },
@@ -7774,7 +7644,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..OOOOAAAAAAAAAAAA..",
-                "..OOOAAAAAAAAAAAAA..",
+                "..OOOAAAAOOOOAAAAA..",
                 "..AA?AAAAAOOAAAAAA.."
               ],
               "layoutKey": "257827"
@@ -7907,7 +7777,7 @@
                 "...AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AA?AAAAAAAAAAAAA.."
               ],
@@ -7929,7 +7799,7 @@
                 "..AAAAAAAAAOOOAAAAAAAA..",
                 "..AAAAAAOOOOOOOAAAAAAA..",
                 "..AAAAOOOOAOOAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA.."
+                "..AAAAAAAAAOOAAAAAAAAA.."
               ],
               "layoutKey": "258648"
             },
@@ -8096,7 +7966,7 @@
                 "..AAAAAAAOOOOAAAAA..",
                 "..AAAAAAAOOOOAAAAA..",
                 "..OOAOOOOOOOOOOOOO..",
-                "..AAOOOOOOAOOOOOOO..",
+                "..OOOOOOOOAOOOOOOO..",
                 "..OOOOOOOOOAOOOOOO.."
               ],
               "layoutKey": "257445"
@@ -8172,7 +8042,7 @@
                 "..................",
                 ".....AAAAAAAAA....",
                 "...AAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
+                "..AAAAAOOOOOAAA...",
                 "..AAOOOOOOOAAAA...",
                 "..AA?AAOOOOAAAA...",
                 "..OOOOAAOOAAAAOO.."
@@ -8821,7 +8691,7 @@
                 "....................",
                 "...AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAOOOOOAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAOOAAAAAAA.."
