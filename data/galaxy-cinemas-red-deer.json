@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T22:53:19.957Z",
+  "updatedAt": "2026-09-28T23:48:32.224Z",
   "theatre": {
     "id": 3132,
     "name": "Galaxy Cinemas Red Deer"
@@ -3535,7 +3535,7 @@
     },
     "236557": {
       "totalRows": 11,
-      "totalColumns": 21,
+      "totalColumns": 18,
       "rowLabels": [
         null,
         "AA",
@@ -3547,20 +3547,20 @@
         "D",
         "E",
         "F",
-        "G"
+        null
       ],
       "seatTypes": [
-        ".....................",
-        ".SSSSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSSSS.",
-        ".....................",
-        "..SCW..WCSSSSCW.WCS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS.."
+        "..................",
+        ".SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        "..................",
+        "..SCW..WCCW.WCS...",
+        "..SSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSS...",
+        ".................."
       ]
     },
     "236558": {
@@ -4223,36 +4223,6 @@
         "..SSSSSSSSSSSSSSSSS....",
         "..SSSSSSSSSSSSSSSSS....",
         "..SSSSSSSSSSSSSSSSS...."
-      ]
-    },
-    "236579": {
-      "totalRows": 11,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".....................",
-        ".SSSSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSSSS.",
-        ".....................",
-        "..SCW..WCSSSSCW.WCS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS.."
       ]
     },
     "236580": {
@@ -5424,11 +5394,11 @@
                 "..AAA..AAAAAAAAA.AAA.",
                 "..AAAAAAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAOOAAAAAAAA.",
                 "..AAAAAAAA?AAAAAAAAA.",
                 "..AAAAAAAAOOAAAAAAAA.",
-                "...AAAAAAAOOAAAAAAAA.",
-                "...AAAAAAAAAAAAAAOOO.",
+                "...OAAAAAAOOAAAAAAAO.",
+                "...AAAAOOOAAAAAAAOOO.",
                 "..OOOAAOOOOOOOOAAAAA.",
                 "..AAAAAAAAAAAAAAAAAA.",
                 "..AAAAAAAAOOAAAAAAOO.",
@@ -5464,7 +5434,7 @@
                 "?AAAAAAAAOOAAAAAAAAOO",
                 "?AAAAAAAAAAAAAAAAAAAA",
                 "AA.AAA.AAA.AAAA.AAA.A",
-                "AA.AAA.AAA.AAAA.AAA.A",
+                "OO.OAA.AAA.AAAA.AAA.A",
                 "OOOAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "236558"
@@ -5489,7 +5459,7 @@
                 "?AAAAAAAAOOAAAAAAAAOO",
                 "?AAAAAAAAAAAAAAAAAAAA",
                 "AA.AAA.AAA.AAAA.AAA.A",
-                "AA.AAA.AAA.AAAA.AAA.A",
+                "OO.OAA.AAA.AAAA.AAA.A",
                 "OOOAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "236558"
@@ -5548,7 +5518,7 @@
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
-                "..AAAOOAAAAAAAAAAAA....",
+                "..AAAOOAAOOAAAAAAAA....",
                 "..AAAAAAAAOOAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
@@ -5611,7 +5581,7 @@
                 ".AAAAA?AAAAA??AAAAA..",
                 ".AAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAOOAAAAAAAAA..",
                 "....................."
               ],
               "layoutKey": "236562"
@@ -5671,23 +5641,9 @@
                 "..AAAAAAAAAAAAA...",
                 "..AAAAOOOOOAAAA...",
                 "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA..."
+                "..AAAAAOOAAAAAA..."
               ],
               "layoutKey": "236556"
-            }
-          ]
-        },
-        {
-          "title": "Runner",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61219_320_470.jpg",
-          "runtimeMinutes": 98,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=236563&a=0000000001&l=3132&m=runner&ss=False"
             }
           ]
         },
@@ -5703,17 +5659,17 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=236557&a=0000000001&l=3132&m=daniel-and-the-fiery-furnace&ss=False",
               "seats": [
-                ".....................",
-                ".???AAAAAAAAAAAAAAAA.",
-                ".???AAAAAAAAAAAAAAAA.",
-                ".....................",
-                "..???..A??AAAA?.AA?..",
-                "..???AAAAAAAAAAAAA?..",
-                "..???AAOOOOAAAAAAA?..",
-                "..???AAAAAAAAAAAAA?..",
-                "..???AAAAAAAOOOOAA?..",
-                "..???AAAOOOOOOOOAA?..",
-                "..?????????????????.."
+                "..................",
+                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                "..................",
+                "..AAA..AAAA.AAA...",
+                "..AAAAAAAAAAAAA...",
+                "..AAOOOOAAAAAAA...",
+                "..AAAAAAAAAAAAA...",
+                "..AAAAAAAOOOOAA...",
+                "..AAAOOOOOOOOAA...",
+                ".................."
               ],
               "layoutKey": "236557"
             }
@@ -6029,7 +5985,7 @@
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAOOAAAAAAA....",
                 "..AAAAAAAAAAOOOAAAA....",
-                "..AAAAAOOOOAAAAAAAA...."
+                "..AAAAAOOOOAAAAAOAA...."
               ],
               "layoutKey": "236269"
             }
@@ -6283,21 +6239,7 @@
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=236579&a=0000000001&l=3132&m=daniel-and-the-fiery-furnace&ss=False",
-              "seats": [
-                ".....................",
-                ".AAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAA.",
-                ".....................",
-                "..AAA..AAAAAAAA.AAA..",
-                "..AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "236579"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=236579&a=0000000001&l=3132&m=daniel-and-the-fiery-furnace&ss=False"
             },
             {
               "time": "19:30",
@@ -6468,7 +6410,7 @@
                 "..AAAAAAAAAA?AAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAA..",
+                "...AAAAAAOOAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA?AAAA.."
