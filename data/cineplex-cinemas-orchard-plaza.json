@@ -1,39 +1,11 @@
 {
-  "updatedAt": "2026-09-28T01:19:11.773Z",
+  "updatedAt": "2026-09-28T04:02:21.570Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
   },
   "auditoriums": {
     "123761": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS...SSSSCWWCSSS..SSS",
-        "SCW..................."
-      ]
-    },
-    "125506": {
       "totalRows": 10,
       "totalColumns": 22,
       "rowLabels": [
@@ -115,94 +87,6 @@
         "SSS..SSSSSSSSSSSS..SSS",
         "SSS...SSSSCWWCSSS..SSS",
         "SCW..................."
-      ]
-    },
-    "125550": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSS..SSS",
-        "SSS..SSSCW.WCSS..SSS",
-        "SCW..............SSS"
-      ]
-    },
-    "125553": {
-      "totalRows": 7,
-      "totalColumns": 14,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSS..CW",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SS..CW..WC..CW"
-      ]
-    },
-    "125554": {
-      "totalRows": 5,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSS..SS",
-        "CW..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS...WCSSSCW..SS"
-      ]
-    },
-    "125556": {
-      "totalRows": 7,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSCW",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSS..",
-        "SSSCW.WCSSS.."
       ]
     },
     "125559": {
@@ -1058,135 +942,6 @@
   },
   "days": [
     {
-      "date": "2026-09-27",
-      "movies": [
-        {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125506&a=0000000001&l=1410&m=forgotten-island&ss=False",
-              "seats": [
-                "A??..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..OOOO?AAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAA?OAAOO..AAA",
-                "AAA..AAAAOOAAOOOO..AAA",
-                "AAA...OOOOAAAAA?A..AAA",
-                "???..................."
-              ],
-              "layoutKey": "125506"
-            }
-          ]
-        },
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "19:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125554&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
-              "seats": [
-                "AA..OOOOOOOO..AA",
-                "AA..OOO?OOOO..OO",
-                "OO..OOOOOO??..?A",
-                "?A..OOOOOOOO..OO",
-                "OA...AAOOAAA..OO"
-              ],
-              "layoutKey": "125554"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125556&a=0000000001&l=1410&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAA??AAAAAAAA",
-                "AA?AAAAAA?A??",
-                "?OOAAAAAAAAAA",
-                "OOOOOOOOOAOOO",
-                "OAOOOOOOOAOOO",
-                "AOOOOOOOOOO..",
-                "AOOOA.AAAOO.."
-              ],
-              "layoutKey": "125556"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125550&a=0000000001&l=1410&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "AAA..AAAAAAAAAA..???",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAA?..AAA",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAA??A..AAA",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAA?AAA..AAA",
-                "AAA..AAAAA.AAAA..AAA",
-                "???..............???"
-              ],
-              "layoutKey": "125550"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125553&a=0000000001&l=1410&m=the-odyssey&ss=False",
-              "seats": [
-                "AAAAA??AAAAAA?",
-                "AAAAAAOOOAAA?A",
-                "AOOOOOOOOOOAAA",
-                "AOOA?OOOOO..AA",
-                "AOOAOOOOOOOAAA",
-                "AOOOOOOOOOOAAA",
-                "AA..AA..AA..AA"
-              ],
-              "layoutKey": "125553"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-28",
       "movies": [
         {
@@ -1206,7 +961,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAA?AAAAAAA..AAA",
+                "AAA..AAAA?OOOAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAA?AAAOO..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
@@ -1233,7 +988,7 @@
                 "AA..AAA?AAAA..AA",
                 "AA..OOOOOO??..?A",
                 "?A..AAAAAOOO..OO",
-                "AA...AAAAAAA..AA"
+                "AA...AAOOOAA..AA"
               ],
               "layoutKey": "125560"
             }
@@ -1415,7 +1170,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125604&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
               "seats": [
                 "AA..AAAAAAAA..AA",
-                "AA..OOA?AAAA..AA",
+                "AA..OOA?OOOO..AA",
                 "OO..OOOOOO??..?A",
                 "?O..OOOOOOOO..AO",
                 "OO...AAOOAAA..OO"
@@ -1459,7 +1214,7 @@
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
-                "AAAAAOOAAAAAA",
+                "AAAAAOOAAOAAA",
                 "AAAAAAAAAAA..",
                 "AAAAA.AAAAA.."
               ],
@@ -1476,7 +1231,7 @@
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
                 "AAAAAOOAAAAAA",
-                "AAAAOOOAAOOAA",
+                "OOOAOOOAAOOAA",
                 "AAAOOAAOOAA..",
                 "AAAAA.AAAAA.."
               ],
@@ -1537,9 +1292,9 @@
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA?..AAA",
                 "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAA??A..AAA",
+                "AAA..AAAAOOA??A..AAA",
                 "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAA?AAA..AAA",
+                "AAA..AAOOAA?AAA..AAA",
                 "AAA..AAAAA.AAAA..AAA",
                 "???..............???"
               ],
@@ -1646,9 +1401,9 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAA?AAAAAAA..AAA",
-                "AAA..AAAAOOOOOOAA..AAA",
+                "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAA?AAAAA..AAA",
-                "AAA..AAAAOOOOOAAA..AAA",
+                "AAA..AAOOOOOOOAAA..AAA",
                 "AAA...AAAAAAAAA?A..AAA",
                 "???..................."
               ],
@@ -1941,7 +1696,7 @@
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
                 "AA..AAAAAA??..?A",
-                "?A..AAAAAAAA..AA",
+                "?A..AAOOAAAA..AA",
                 "AA...AAAOOAA..AA"
               ],
               "layoutKey": "125569"
