@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T23:35:43.107Z",
+  "updatedAt": "2026-09-28T00:19:50.283Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -166,24 +166,6 @@
       ]
     },
     "125554": {
-      "totalRows": 5,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSS..SS",
-        "CW..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS...WCSSSCW..SS"
-      ]
-    },
-    "125555": {
       "totalRows": 5,
       "totalColumns": 16,
       "rowLabels": [
@@ -1097,8 +1079,8 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..OOOO?AAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAA?AAAOO..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
+                "AAA..AAAAAA?OAAOO..AAA",
+                "AAA..AAAAOOAAOOOO..AAA",
                 "AAA...AAAAAAAAA?A..AAA",
                 "???..................."
               ],
@@ -1112,28 +1094,13 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "16:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125555&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
-              "seats": [
-                "AA..AAOOAAAA..AA",
-                "AA..AOO?OOOO..OO",
-                "OO..OOOOOO??..?A",
-                "?A..OOOOOOOO..OO",
-                "OO...AAOOOAA..OO"
-              ],
-              "layoutKey": "125555"
-            },
-            {
               "time": "19:15",
               "formats": [
                 "Recliner"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125554&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
               "seats": [
-                "AA..AAOOAOOO..AA",
+                "AA..OOOOOOOO..AA",
                 "AA..OOO?OOOO..OO",
                 "OO..OOOOOO??..?A",
                 "?A..OOOOOOOO..OO",
@@ -1159,8 +1126,8 @@
                 "AA?AAAAAA?A??",
                 "?OOAAAAAAAAAA",
                 "OOOOAOOOOAOOO",
-                "AAAOOOOAAAOOO",
-                "AAAAAOOOOOO..",
+                "OAAOOOOAAAOOO",
+                "AAAOOOOOOOO..",
                 "AOOOA.AAAOO.."
               ],
               "layoutKey": "125556"
@@ -1208,9 +1175,9 @@
                 "AAAAA??AAAAAA?",
                 "AAAAAAAAAAAA?A",
                 "AAAAAAAAAAAAAA",
-                "AAAA?AAAAA..AA",
+                "AAAA?OOAAA..AA",
                 "AOOAOOOOOOOAAA",
-                "AOOAAAAOOAAAAA",
+                "AOOOOAAOOOOAAA",
                 "AA..AA..AA..AA"
               ],
               "layoutKey": "125553"
@@ -1450,8 +1417,8 @@
                 "AA..AAAAAAAA..AA",
                 "AA..OOA?AAAA..AA",
                 "OO..OOOOOO??..?A",
-                "?O..OOOOOOOO..AA",
-                "OO...AAOOAAA..AA"
+                "?O..OOOOOOOO..AO",
+                "OO...AAOOAAA..OO"
               ],
               "layoutKey": "125604"
             },
@@ -1777,7 +1744,7 @@
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
+                "AAAAAOOAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAA..",
                 "AAAAA.AAAAA.."
