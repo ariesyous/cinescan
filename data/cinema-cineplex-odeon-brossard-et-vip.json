@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T00:18:16.870Z",
+  "updatedAt": "2026-09-29T00:48:19.162Z",
   "theatre": {
     "id": 9185,
     "name": "Cinéma Cineplex Odeon Brossard et VIP"
@@ -11751,38 +11751,6 @@
         "SSSS.......SSSSSS"
       ]
     },
-    "562960": {
-      "totalRows": 12,
-      "totalColumns": 13,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "....SS.SS.SS.",
-        ".............",
-        "...CW.WCSSSWC",
-        "...SSSSSSSSSS",
-        "...SSSSSSSSSS",
-        "...SSSSSSSSSS",
-        "...SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SSSSSSSSSS",
-        "SS.SS......SS"
-      ]
-    },
     "562961": {
       "totalRows": 16,
       "totalColumns": 29,
@@ -16396,7 +16364,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA?.....",
                 "...AAAAAAAAAAAAAAA??AAAA..AA.",
                 "...AAAAAAAAAA??AAAAAAAAA..AA.",
-                "...AAAAAAAAAAAAAAAAAAAAA..AA.",
+                "...AAAAAAAAAAOOAAAAAAAAA..AA.",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAAA.",
                 "............................."
               ],
@@ -16416,7 +16384,7 @@
                 "....AAAAAAAAAAAA.",
                 "....AAAAAAAAAAAA.",
                 "....?AAAAAAAAAAA.",
-                "A?..AAAAAAAAAAAA.",
+                "A?..AAAAOOOOAAAA.",
                 "AA..AAAAAAAAAAAA.",
                 "AA..AAAAAAAAAAAA.",
                 "AA..AAAAAAAAAAAA.",
@@ -16552,13 +16520,13 @@
                 "...AA.AAAAAAA",
                 "...AAAAAAAAAA",
                 "...AAAAAAAAAA",
-                "...AAAAAAAAAA",
+                "...AAAAOOAAAA",
                 "...AAAAAAAAAA",
                 "AA.AAAAOOOAAA",
-                "AA.AAOO??AAAA",
+                "AA.AAOO??AAOO",
                 "AA.AAOOAAAAAA",
                 "AA.AAOOOOOAAA",
-                "OA.AAOOAAAAAA",
+                "OA.AAOOAOOOAA",
                 "??.......????"
               ],
               "layoutKey": "562951"
@@ -16767,57 +16735,6 @@
           ]
         },
         {
-          "title": "Pauline Julien Femme pays",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61142_320_470.jpg",
-          "runtimeMinutes": 110,
-          "sessions": [
-            {
-              "time": "20:15",
-              "formats": [
-                "VIP 18+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=562960&a=0000000001&l=9185&m=pauline-julien-femme-pays&ss=False",
-              "seats": [
-                "....AA.AA.AA.",
-                ".............",
-                "...AA.AAAAAAA",
-                "...AAAAAAAAAA",
-                "...AAAAAAAAAA",
-                "...AAAAAAAAAA",
-                "...AAAAAAAAAA",
-                "AA.AAAAAAAAAA",
-                "AA.AAA?AAAAAA",
-                "AA.AAAAAAAAAA",
-                "AA.AAAAAAAAAA",
-                "??.??......??"
-              ],
-              "layoutKey": "562960"
-            },
-            {
-              "time": "21:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=562912&a=0000000001&l=9185&m=pauline-julien-femme-pays&ss=False",
-              "seats": [
-                ".......................",
-                "...AAAAAAAAAAAAAAAAA...",
-                ".......................",
-                "......AAA.AAAAA..AAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                ".AAAAAAAAAA?AAAAAAAAAA.",
-                ".......................",
-                ".......................",
-                "......................."
-              ],
-              "layoutKey": "562912"
-            }
-          ]
-        },
-        {
           "title": "La Bataille De Gaulle : Résistance (partie 1)",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61155_320_470.jpg",
           "runtimeMinutes": 158,
@@ -16837,7 +16754,7 @@
                 "...AAAAAAAA?AAAAA......",
                 "...AAAAAAAAAAAAAA......",
                 "...AAAAAAAAAAAAAA......",
-                ".AAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAOAAAAAAAAAAA.",
                 "......................."
               ],
               "layoutKey": "562937"
@@ -16872,6 +16789,35 @@
                 ".........................."
               ],
               "layoutKey": "562904"
+            }
+          ]
+        },
+        {
+          "title": "Pauline Julien Femme pays",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61142_320_470.jpg",
+          "runtimeMinutes": 110,
+          "sessions": [
+            {
+              "time": "21:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=562912&a=0000000001&l=9185&m=pauline-julien-femme-pays&ss=False",
+              "seats": [
+                ".......................",
+                "...AAAAAAAAAAAAAAAAA...",
+                ".......................",
+                "......AAA.AAAAA..AAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                "......AAAAAAAAAAAAAA...",
+                ".AAAAAAAAAA?AAAAAAAAAA.",
+                ".......................",
+                ".......................",
+                "......................."
+              ],
+              "layoutKey": "562912"
             }
           ]
         }
@@ -17410,9 +17356,9 @@
                 "....AAAAAAAAAAAA.",
                 "....AAAAAAAAAAAA.",
                 "....?OOOOOOOOAAA.",
-                "A?..OOOOOOOOOOAA.",
+                "A?..OOAAOOOOOOAA.",
                 "OO..AAOOOOOOOOAA.",
-                "AA..AAAOOOOOOOAA.",
+                "AA..OOOOOOOOOOAA.",
                 "OO..AAAAOOOOAAAA.",
                 "????.......OOO???"
               ],
@@ -17431,7 +17377,7 @@
                 ".....AA.AAAAAAAA..AAA...",
                 ".....AAAAAAAAAAAAAAAA...",
                 ".....AAAAAA??AAAAAAAA...",
-                ".....AAAOOAAOOAAAAAAA...",
+                ".....AAAOOAAOOOOOAAAA...",
                 ".....AAAAAOO?OOAAAAAA...",
                 ".OO..AAOOAAOOOAAOAAAA...",
                 ".AA..AAAOOOOOOOOAAAAA...",
@@ -17807,7 +17753,7 @@
                 "...AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AAAA??AAAA",
-                "AA.AAAAAAAAAA",
+                "AA.AAOOOOAAAA",
                 "AO.AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
                 "??.......????"
@@ -17854,7 +17800,7 @@
                 "AA.AAAAOOAAAA",
                 "AA.AAOO??AAAA",
                 "AA.OOAAAAAAAA",
-                "AA.AAOOOOOOAA",
+                "AA.AAAAOOOOAA",
                 "AA.AAAOOOAAAA",
                 "??.......????"
               ],
@@ -18292,7 +18238,7 @@
                 "...AAA..AAAAAA.AAA......",
                 "...AAAAAAAAAAAAAAA......",
                 "...AAAAAAAAAAAAAAA......",
-                "...AAAAAAAAAAAAAAA......",
+                "...AAAAAAAOOAAAAAA......",
                 "...AAAAAAAAAAAAAAA......",
                 "...AAAAAAAOOAAAAAA..AA..",
                 ".AAAAAAAAAAAAAAAAAAAAAA.",
@@ -19618,7 +19564,7 @@
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "..........................",
                 "......AAA..AAAAAAAA.AAA...",
-                "......AAAAAAAAAAAAAAAAA...",
+                "......AAAAAOOAAAAAAAAAA...",
                 "......AAAAAAAAAAAAAAAAA...",
                 "......AAAAAAAAAAAAAAAAA...",
                 "......AAAAAAA?AAAAAAAAA...",
@@ -23105,7 +23051,7 @@
                 "...AAAAAAAAAAAAAAAAA......",
                 "...AAAAAAAAAAAAAAAAA......",
                 "...AAAAAAAAAAAAAAAAA......",
-                "...AAAAAAAAAAAAAAAAA..AA..",
+                "...AAAAAAAAOOAAAAAAA..AA..",
                 "...AAAAAAAAAAAAAAAAA..AA..",
                 "...AAAAAAAAAAAAAAAAA..AA..",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA.",
@@ -23773,18 +23719,18 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=561958&a=0000000001&l=9185&m=other-mommy&ss=False",
               "seats": [
-                "...AA.?A.AA......",
+                "...OO.OO.OO......",
                 ".................",
-                ".AAAAAAAA..AA....",
-                ".AAAAAAAAAAA?....",
-                ".AAAAAAAAAAAA....",
-                ".AAAAAAAAAAAA....",
-                ".AAAAAAAAAAAA....",
-                ".AAAAAAAO?AAA..AA",
-                ".AAAAAAAAAAAA..AA",
-                ".AAAAAAAAAAAA..AA",
-                ".AAAAAAAAAAAA..AA",
-                "????.......??????"
+                ".OOOOOOOO..OO....",
+                ".OOOOOOOOOOOO....",
+                ".OOOOOOOOOOOO....",
+                ".OOOOOOOOOOOO....",
+                ".OOOOOOOOOOOO....",
+                ".OOOOOOOOOOOO..OO",
+                ".OOOOOOOOOOOO..OO",
+                ".OOOOOOOOOOOO..OO",
+                ".OOOOOOOOOOOO..OO",
+                "OOOO.......OOOOOO"
               ],
               "layoutKey": "561958"
             },
@@ -23847,18 +23793,18 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=561961&a=0000000001&l=9185&m=autre-maman&ss=False",
               "seats": [
                 "..........................",
-                "....AAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....????????????????????..",
+                "....AAAAAAA?AAAAAAA?AA??..",
                 "..........................",
-                "......AAA..AAAAAAAA.AAA...",
-                "......AAAAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAAAAA...",
-                "......AAAAAAA?AAAAAAAAA...",
-                "..AA..AAAA?AA?AAAAAAAAA...",
-                "..AA..AAAAAAAAAAAAAAAAA...",
-                "..A?..AAAAAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAA?AAAAAAA??AA.",
+                "......AAA..AAAAAAAA.AA?...",
+                "......AAAAAAAAAAAAAAAA?...",
+                "......AAAAAA?AAAAAAAAA?...",
+                "......AAAAAAAA?AAAAAAA?...",
+                "......AAAAAAAAAAAAAAAA?...",
+                "..AA..AAAAA?AAAAAAAAAA?...",
+                "..AA..AAAAAAAAAAAAAAAA?...",
+                "..AA..AAAAAAAAAAAAAAAA?...",
+                ".AAAAAAAAAAAAAAAAAAAAA??A.",
                 ".........................."
               ],
               "layoutKey": "561961"

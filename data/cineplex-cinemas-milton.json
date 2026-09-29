@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T00:18:46.809Z",
+  "updatedAt": "2026-09-29T00:48:34.425Z",
   "theatre": {
     "id": 7285,
     "name": "Cineplex Cinemas Milton"
@@ -1601,6 +1601,36 @@
         "SSSSSSSSSSSSSSSSSSSS"
       ]
     },
+    "191088": {
+      "totalRows": 11,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "......................",
+        "..SSSSSSSSSSSSSSSSSSS.",
+        "......................",
+        "....SCWCSCWCCW...WCS..",
+        "....SSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSS..",
+        "SS..SSSSSSSSSSSSSSSS..",
+        "SSSSSSSSSSSSSSSSSSSSSS"
+      ]
+    },
     "191089": {
       "totalRows": 12,
       "totalColumns": 22,
@@ -2375,7 +2405,7 @@
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AOOAAAAAAAAAAAAAAAAAA..",
                 ".AA..AAAAAAAAAAAAOOAAAAAAA..",
                 ".AA..AAAAAAAAAAAAAAAAAAAAA..",
                 "OOAAAAAAAAAAAAAAAAAAAAAAAAAA",
@@ -2484,7 +2514,7 @@
                 ".AAAAAAAAAAAAOOAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAOOOAAAAAAAAAA....",
                 ".AAAAOOAAAAAAAOOOAAAAAAAAAA..AA",
-                ".OOOOAAAAAAAAAOOAAAAAAAAAAA..AA",
+                ".OOOOOAAAAAAAAOOAAAAAAAAAAA..AA",
                 ".AA.AAA.AAAA.AOO.AAA.AAAA.A..AA",
                 ".AA.AAA.AAAA.OOA.AAA.AAAA.?..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA..AA"
@@ -2509,7 +2539,7 @@
                 ".AAAAAAAAAAAAOOAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAOOOAAAAAAAAAA....",
                 ".AAAAOOAAAAAAAOOOAAAAAAAAAA..AA",
-                ".OOOOAAAAAAAAAOOAAAAAAAAAAA..AA",
+                ".OOOOOAAAAAAAAOOAAAAAAAAAAA..AA",
                 ".AA.AAA.AAAA.AOO.AAA.AAAA.A..AA",
                 ".AA.AAA.AAAA.OOA.AAA.AAAA.?..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAA..AA"
@@ -2583,7 +2613,21 @@
               "formats": [
                 "Regular"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=191088&a=0000000001&l=7285&m=heart-of-the-beast&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=191088&a=0000000001&l=7285&m=heart-of-the-beast&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAAA.",
+                "......................",
+                "....AAAAAAAAAA...AAA..",
+                "....AAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAA..",
+                "....AOOOOOOAAAAAAAAA..",
+                "....OOAOAAOOAAAAAAAA..",
+                "OO..OOAAAAOOOAAAAAAA..",
+                "AA..AAAAAAOOOOOOAAAA..",
+                "AAAAAAAOOOOOOOOOOOAAAA"
+              ],
+              "layoutKey": "191088"
             },
             {
               "time": "21:20",
@@ -3255,7 +3299,7 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
-                "....OOOAAAAAAAAAAAAA..",
+                "....OOOAAAOOAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAOOAAAAA"
