@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T21:48:02.813Z",
+  "updatedAt": "2026-09-29T22:56:59.477Z",
   "theatre": {
     "id": 7266,
     "name": "Galaxy Cinemas Sault Ste Marie"
@@ -861,9 +861,49 @@
         "...SSSSSSSSSSSSSSSSS"
       ]
     },
-    "224553": {
+    "224634": {
+      "totalRows": 16,
+      "totalColumns": 25,
+      "rowLabels": [
+        null,
+        "DD",
+        "CC",
+        "BB",
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        ".........................",
+        "..SSSSSSSSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSSSSSSSSS.",
+        ".........................",
+        "..SCW.WCSSSSSSSCW.WCS....",
+        "..SSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSSSS....",
+        "........................."
+      ]
+    },
+    "224660": {
       "totalRows": 14,
-      "totalColumns": 21,
+      "totalColumns": 19,
       "rowLabels": [
         null,
         "EE",
@@ -881,20 +921,20 @@
         "G"
       ],
       "seatTypes": [
-        ".....................",
-        "...SSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSS..",
-        ".....................",
-        ".......WCSSSSSSCW....",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSS."
+        "...................",
+        "..SSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSSS.",
+        "...................",
+        "....WCSSSSSSCW.....",
+        "..SSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSSS."
       ]
     }
   },
@@ -915,54 +955,23 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224249&a=0000000001&l=7266&m=forgotten-island&ss=False",
               "seats": [
                 ".........................",
-                "..AAAAAAAAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAAAAAAAAA.",
+                "..??????????????????????.",
+                "..??????????????????????.",
+                "..??????????????????????.",
+                "..??????????????????????.",
                 ".........................",
-                "..AAA.AAAAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAOOAAAAAAA....",
-                "....AAAAAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA....",
+                "..???.???????????.???....",
+                "..???????????????????....",
+                "..???????????????????....",
+                "..???????????????????....",
+                "..???????????????????....",
+                "....?????????????????....",
+                "....?????????????????....",
+                "..???????????????????....",
+                "..???????????????????....",
                 "........................."
               ],
               "layoutKey": "224249"
-            }
-          ]
-        },
-        {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224553&a=0000000001&l=7266&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                ".....................",
-                "...AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAA..",
-                ".....................",
-                ".......AAAAAAAAAA....",
-                ".....AAOOAAAAAAAAAA..",
-                ".....AOOOAAAAAAAAAA..",
-                ".....AAAAAAOOOAAAAA..",
-                ".....AAAAOOAAAAAAAA..",
-                ".....AAAAAAAAOOAAAA..",
-                "...AAAAAAAOOAAAAAAAA."
-              ],
-              "layoutKey": "224553"
             }
           ]
         },
@@ -990,12 +999,12 @@
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAOOOAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAAOOAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAOOAAAAAAAAAAA.."
+                "...AAAAAAAAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "224550"
             }
@@ -1018,15 +1027,15 @@
                 "..AAAAAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAAAA.",
+                "..AAAAAAAOAAAAAAAAA.",
                 "....................",
-                "..AAA.AAAAAA.AAA....",
-                "..AAAAAAAAAOOOAA....",
-                "..AOAAOOOOAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAOOOOAAAOO....",
-                "..AAAAAAAAAAAAAA....",
-                ".AAAAAAAAOOAAAAAAA.."
+                "..AAA.AAOOAA.AAO....",
+                "..AAOOOAOOAOOOAA....",
+                "..AOOAOOOOOOAAOO....",
+                "..OOOAAAOOAOAOOA....",
+                "..AOOAAOOOOAOOOO....",
+                "..OOOOAAAOOOAAOO....",
+                ".OAAAOOAAOOAOAOOOO.."
               ],
               "layoutKey": "224549"
             }
@@ -1056,7 +1065,7 @@
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAOOOOAAAAA...",
                 "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAOOAA...",
                 ".AAAAAAAOOOOAAAAAA."
               ],
               "layoutKey": "224548"
@@ -1083,10 +1092,10 @@
                 "AAAAAAAAAAAAAAAAA..",
                 "...................",
                 "..AAA.AAAAAA.AAA...",
+                "..AAAAAAOOAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAOOAAAA...",
                 "AAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "224551"
@@ -1115,10 +1124,10 @@
                 "....AAA.AAAAAA.AAA..",
                 "....AAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAA...",
+                ".....AAAAOOOAAAAA...",
                 ".....AAAAAOOAAAAA...",
                 "....AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAA"
+                "...AAAAAAAOAAOOAAOOO"
               ],
               "layoutKey": "224552"
             }
@@ -1641,6 +1650,288 @@
                 "AAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "224105"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224631&a=0000000001&l=7266&m=forgotten-island&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224634&a=0000000001&l=7266&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                ".........................",
+                "..AAAAAAAAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAAAAAAAAA.",
+                ".........................",
+                "..AAA.AAAAAAAAAAA.AAA....",
+                "..AAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAAAA....",
+                "........................."
+              ],
+              "layoutKey": "224634"
+            }
+          ]
+        },
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "19:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224632&a=0000000001&l=7266&m=resident-evil-2026&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Heart of the Beast",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
+          "runtimeMinutes": 101,
+          "sessions": [
+            {
+              "time": "19:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224630&a=0000000001&l=7266&m=heart-of-the-beast&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224633&a=0000000001&l=7266&m=practical-magic-2&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "15:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224647&a=0000000001&l=7266&m=forgotten-island&ss=False"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224635&a=0000000001&l=7266&m=forgotten-island&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "18:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224636&a=0000000001&l=7266&m=avengers-endgame-encore&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "16:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224643&a=0000000001&l=7266&m=resident-evil-2026&ss=False"
+            },
+            {
+              "time": "19:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224639&a=0000000001&l=7266&m=resident-evil-2026&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Heart of the Beast",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
+          "runtimeMinutes": 101,
+          "sessions": [
+            {
+              "time": "16:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224644&a=0000000001&l=7266&m=heart-of-the-beast&ss=False"
+            },
+            {
+              "time": "19:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224640&a=0000000001&l=7266&m=heart-of-the-beast&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224637&a=0000000001&l=7266&m=practical-magic-2&ss=False"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "movies": [
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224655&a=0000000001&l=7266&m=forgotten-island&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224656&a=0000000001&l=7266&m=avengers-endgame-encore&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "19:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224659&a=0000000001&l=7266&m=resident-evil-2026&ss=False"
+            }
+          ]
+        },
+        {
+          "title": "Heart of the Beast",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
+          "runtimeMinutes": 101,
+          "sessions": [
+            {
+              "time": "19:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224660&a=0000000001&l=7266&m=heart-of-the-beast&ss=False",
+              "seats": [
+                "...................",
+                "..AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAA.",
+                "...................",
+                "....AAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAAA."
+              ],
+              "layoutKey": "224660"
+            }
+          ]
+        },
+        {
+          "title": "Practical Magic 2",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
+          "runtimeMinutes": 130,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=224657&a=0000000001&l=7266&m=practical-magic-2&ss=False"
             }
           ]
         }
