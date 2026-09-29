@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T23:47:39.343Z",
+  "updatedAt": "2026-09-29T00:18:18.138Z",
   "theatre": {
     "id": 9186,
     "name": "Cinéma Galaxy Victoriaville"
@@ -42,36 +42,6 @@
       ]
     },
     "138222": {
-      "totalRows": 11,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSSS..",
-        "....................",
-        "..WWCSSCW.WCSSS.....",
-        "..SSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSS.....",
-        "SSSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "138314": {
       "totalRows": 11,
       "totalColumns": 20,
       "rowLabels": [
@@ -1904,6 +1874,36 @@
         "..SSSSSSSSSSSSSSS.....",
         "SSSSSSSSSSSSSSSSSSSSS."
       ]
+    },
+    "140085": {
+      "totalRows": 11,
+      "totalColumns": 20,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "....................",
+        "..SSSSSSSSSSSSSSSS..",
+        "....................",
+        "..WWCSSCW.WCSSS.....",
+        "..SSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSS.....",
+        "SSSSSSSSSSSSSSSSSSS."
+      ]
     }
   },
   "days": [
@@ -2053,7 +2053,7 @@
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA"
+                ".AAAAAAAAAAOOAAAAAAAA"
               ],
               "layoutKey": "140042"
             }
@@ -2135,7 +2135,7 @@
                 "..AAAAAAAAOOAAAAA.....",
                 "..AAAAAAOOAAOOAAA.....",
                 "..AAAAAAAAAAAAAAA.....",
-                "AAOOOAAOOO??AAAAAA?AA."
+                "AAOOOAAAAA??AAAAAA?AA."
               ],
               "layoutKey": "140040"
             }
@@ -2847,6 +2847,39 @@
       ]
     },
     {
+      "date": "2026-10-03",
+      "movies": [
+        {
+          "title": "Così fan tutte (Mozart) Italien avec s.-t.fr. - Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61730_320_470.jpg",
+          "runtimeMinutes": 240,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=140085&a=0000000001&l=9186&m=stf-cosi-fan-tutte-mozart-italien-avec-stfr&ss=True",
+              "seats": [
+                "....................",
+                "..AAAAAAAAAAAAAAAA..",
+                "....................",
+                "..AAAAAAA.AAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "AAAAAAAAAAAAAAAA???."
+              ],
+              "layoutKey": "140085"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-10-04",
       "movies": [
         {
@@ -2937,34 +2970,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "139929"
-            }
-          ]
-        },
-        {
-          "title": "Così fan tutte (Mozart) Italien avec s.-t.fr. - Metropolitan Opera",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61730_320_470.jpg",
-          "runtimeMinutes": 240,
-          "sessions": [
-            {
-              "time": "13:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=138314&a=0000000001&l=9186&m=stf-cosi-fan-tutte-mozart-italien-avec-stfr&ss=True",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAAA..",
-                "....................",
-                "..AAAAAAA.AAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "AAAAAAAAAAAAAAAA???."
-              ],
-              "layoutKey": "138314"
             }
           ]
         }

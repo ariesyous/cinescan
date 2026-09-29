@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T23:48:04.846Z",
+  "updatedAt": "2026-09-29T00:18:46.430Z",
   "theatre": {
     "id": 3146,
     "name": "Cineplex Cinemas Sherwood Park"
@@ -29,6 +29,32 @@
         "....SSSSSSSSSSSSSSSSSSSSSSSS..",
         ".....DD.DDDDD.DDDDD.DDDDD.....",
         "....DDD.DDDDD.DDDDD.DDDDD.DD.."
+      ]
+    },
+    "253117": {
+      "totalRows": 9,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "......................",
+        ".....SSSSSSSSSSSS.....",
+        "......................",
+        "..CW.SSSSSSSSSCW.WC...",
+        "..SSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSSSS...",
+        "SSSSSSSSSSSSSSSSSSSS.."
       ]
     },
     "253118": {
@@ -2127,30 +2153,6 @@
         "..SSSSSSSSSSSSSSS"
       ]
     },
-    "253774": {
-      "totalRows": 8,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "...................",
-        ".....SSSSSSSSS.....",
-        "...................",
-        "...CW.WCSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSSSS"
-      ]
-    },
     "253775": {
       "totalRows": 8,
       "totalColumns": 17,
@@ -3532,8 +3534,8 @@
                 "..AAAAAAAA?AAAAAAAA...",
                 "..AAAAAAA?AAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAA...",
-                "..AAAAAAOOOOAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAA.."
+                "..AAAAAAAAAAAAAAAAA...",
+                "AAAAAAAAAAAAAAOOAAAA.."
               ],
               "layoutKey": "253341"
             }
@@ -3544,24 +3546,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
           "runtimeMinutes": 185,
           "sessions": [
-            {
-              "time": "18:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=253774&a=0000000001&l=3146&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "...................",
-                ".....AAAAAAAAA.....",
-                "...................",
-                "...AA.AAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAAA.",
-                "...AAAAAOOAAAAAAAA.",
-                "...AAAAAOOOOAAAAAA.",
-                "..AAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "253774"
-            },
             {
               "time": "18:30",
               "formats": [
@@ -3577,7 +3561,7 @@
                 "..AAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAA...",
                 "..AAAAAA?AAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAOAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAOAA.."
               ],
               "layoutKey": "253770"
@@ -3635,6 +3619,32 @@
           ]
         },
         {
+          "title": "Heart of the Beast",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
+          "runtimeMinutes": 101,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=253117&a=0000000001&l=3146&m=heart-of-the-beast&ss=False",
+              "seats": [
+                "......................",
+                ".....AAAAAAAAAAAA.....",
+                "......................",
+                "..AA.AAAAAAAAAAA.AA...",
+                "..AAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAAAO...",
+                "..AAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAOOAAAAAAOO...",
+                "AAAAAAAAAAAOOAAAAAAA.."
+              ],
+              "layoutKey": "253117"
+            }
+          ]
+        },
+        {
           "title": "Primetime",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
           "runtimeMinutes": 110,
@@ -3676,8 +3686,8 @@
                 "..................",
                 "....AAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAA..",
+                "...AAAAAOOAAAAAA..",
                 "...AAAAAAAAAAAAA..",
-                "...OOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA.."
               ],
               "layoutKey": "253776"
@@ -3725,8 +3735,8 @@
                 ".................",
                 ".AAAAAAAAAA.AA...",
                 ".AAAAAAAAAAAAA...",
-                ".AAAAAAOOAAAAA...",
-                "AAAOOOOAAAAOOAA.."
+                ".AAAAOOOOAOOAA...",
+                "AAAOOOOAAAAOOOO.."
               ],
               "layoutKey": "253772"
             }
@@ -3937,7 +3947,7 @@
                 "....AAAAAAAAAAOOAAAAAAAAAAAA..",
                 "....AAAAAAAAAAOOAAAAAAAAAAAA..",
                 ".....AA.AOOOA.AOOOA.AAAAA.....",
-                "....AAA.AAAAA.AOOAA.AAAAA.AA.."
+                "....AAA.AAAAO.OOOAA.AAAAA.AA.."
               ],
               "layoutKey": "253777"
             },
@@ -3958,7 +3968,7 @@
                 "....AAAAAAAAAAOOAAAAAAAAAAAA..",
                 "....AAAAAAAAAAOOAAAAAAAAAAAA..",
                 ".....AA.AOOOA.AOOOA.AAAAA.....",
-                "....AAA.AAAAA.AOOAA.AAAAA.AA.."
+                "....AAA.AAAAO.OOOAA.AAAAA.AA.."
               ],
               "layoutKey": "253777"
             }
@@ -3981,7 +3991,7 @@
                 "......................",
                 "..AA.AAAAAAAAAAA.AA...",
                 "..AAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAOOOOOAA...",
                 "..AAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAA.."
@@ -4001,7 +4011,7 @@
                 "..AA.AAAAAAAAAAA.AA...",
                 "..AAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAA...",
-                "..OOOOOOAOOOOOAAAAA...",
+                "..OOOOOOAOOOAAAAAAA...",
                 "..AAOOOOOOOOOOOOAAA...",
                 "AAOOOOAAOOOOAAAAAAOO.."
               ],
@@ -4089,7 +4099,7 @@
                 "...AAAAAAAAAAAAA..",
                 "...AAAAOOOOAAAAA..",
                 "...OOAAAOOAAAAAA..",
-                "..AAAAOOAAAAAAAA.."
+                "..AAAAOOAAAAAOOO.."
               ],
               "layoutKey": "253790"
             }
@@ -4152,7 +4162,7 @@
                 ".AAAAAAAAAAAAAAA.",
                 ".................",
                 ".AAAAAAAAAA.AA...",
-                ".AAAAAAAAAAAAA...",
+                ".AAAAAAAAAOOAA...",
                 ".AAAAAAOOAAAAA...",
                 "AAAAAAAAAAAAAAA.."
               ],
@@ -4311,7 +4321,7 @@
                 "...AA.AAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAAA.",
                 "...AAAAAAAOOAAAAAA.",
-                "...AAAAAAAAAAAAAAA.",
+                "...AAAAAOOAAAAAAAA.",
                 "..AAAAAAAOOOOOOAAAA"
               ],
               "layoutKey": "253828"
@@ -5003,7 +5013,7 @@
                 ".................",
                 ".AAAAAAAAAA.AA...",
                 ".AAAAAAAAAAAAA...",
-                ".AAAOOAAAAAAAA...",
+                ".AAAOOAOOOAAAA...",
                 "AAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "253810"
@@ -6075,14 +6085,14 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=253137&a=0000000001&l=3146&m=verity&ss=False",
               "seats": [
                 "......................",
-                ".....AAAAAAAAAAAA.....",
+                ".....OOOOOOOOOOOO.....",
                 "......................",
-                "..AA.AAAAAAAAAAA.AA...",
-                "..AAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAA.."
+                "..OO.OOOOOOOOOOO.OO...",
+                "..OOOOOOOOOOOOOOOOO...",
+                "..OOOOOOOOOOOOOOOOO...",
+                "..OOOOOOOOOOOOOOOOO...",
+                "..OOOOOOOOOOOOOOOOO...",
+                "OOOOOOOOOOOOOOOOOOOO.."
               ],
               "layoutKey": "253137"
             }
