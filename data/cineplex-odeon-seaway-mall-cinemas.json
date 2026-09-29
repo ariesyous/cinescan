@@ -1,40 +1,10 @@
 {
-  "updatedAt": "2026-09-29T22:56:30.318Z",
+  "updatedAt": "2026-09-29T23:36:41.290Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
   },
   "auditoriums": {
-    "153490": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "......SSSSCW.WCSSSSS..",
-        "......................"
-      ]
-    },
     "153729": {
       "totalRows": 11,
       "totalColumns": 22,
@@ -369,78 +339,6 @@
         "..SSSSSSSSSSSS..SSSS",
         "....SSSSSSSSSS..SSSS",
         "........SSSSSS......"
-      ]
-    },
-    "153744": {
-      "totalRows": 10,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "....................",
-        "....SSSSSSSSSS..SSSS",
-        "...WWCSSSSSSCW..WWCS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "....SSSSSSSSSS..SSSS",
-        "........SSSSSS......"
-      ]
-    },
-    "153748": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
-    "153754": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
       ]
     },
     "153755": {
@@ -2798,115 +2696,6 @@
   },
   "days": [
     {
-      "date": "2026-09-29",
-      "movies": [
-        {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153490&a=0000000001&l=7206&m=forgotten-island&ss=False",
-              "seats": [
-                "????..??????????????..",
-                "????..??????????????..",
-                "????..??????????????..",
-                "????..??????????????..",
-                "????..??????????????..",
-                "????..??????????????..",
-                "????..??????????????..",
-                "????..??????????????..",
-                "????..??????????????..",
-                "......??????.???????..",
-                "......................"
-              ],
-              "layoutKey": "153490"
-            }
-          ]
-        },
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153744&a=0000000001&l=7206&m=resident-evil-2026&ss=False",
-              "seats": [
-                "....................",
-                "....AAAAAAAAAA..AAAA",
-                "...AAAAAOAAAAA..AAAA",
-                "..AAAAAAAAAAAA..OOAA",
-                "..AAAOOAAOOAAO..AAAA",
-                "..OOAAAOOOAOOO..AAAA",
-                "..AAAAOOAAOOOO..AAAA",
-                "..OOAAOOOOOOOO..OOOA",
-                "....OO?AAOOO??..OOAA",
-                "........OOAAOO......"
-              ],
-              "layoutKey": "153744"
-            }
-          ]
-        },
-        {
-          "title": "Heart of the Beast",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 101,
-          "sessions": [
-            {
-              "time": "18:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153748&a=0000000001&l=7206&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "...............",
-                "..A?AOOOAOOAA..",
-                "..OOAAAOOAOOA..",
-                "..AOOOOOOOOOO..",
-                "..AOOOOOOOOOO..",
-                "..OO?OOOOOOOO..",
-                "..AAOOOOOOOOA.."
-              ],
-              "layoutKey": "153748"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "19:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153754&a=0000000001&l=7206&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAA?AAA..",
-                "..AAOOOAAAAAA..",
-                "..AAAA?AAOOAA..",
-                "..AAAA?A??AAA.."
-              ],
-              "layoutKey": "153754"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-30",
       "movies": [
         {
@@ -2982,7 +2771,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAOO..",
-                "..AA?AAAAAAAA..",
+                "..OO?AAAAAAAA..",
                 "..AAAAAOOAAAA.."
               ],
               "layoutKey": "153733"
@@ -4979,7 +4768,7 @@
                 "AAAA..AAAAAA?AAAAAAA..",
                 "AA?A..AAA?AAAAAAAAAA..",
                 "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAA?AAA?AA..",
+                "AAAA..OOAAAAA?AAA?AA..",
                 "......AAAAAA.AAAAAA?..",
                 "......................"
               ],
