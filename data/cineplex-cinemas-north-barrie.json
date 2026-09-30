@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T11:03:44.228Z",
+  "updatedAt": "2026-09-30T17:09:55.620Z",
   "theatre": {
     "id": 7135,
     "name": "Cineplex Cinemas North Barrie"
@@ -6077,36 +6077,6 @@
       "date": "2026-09-30",
       "movies": [
         {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102379&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAOOAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102379"
-            }
-          ]
-        },
-        {
           "title": "Avengers Endgame: Encore",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
           "runtimeMinutes": 185,
@@ -6132,8 +6102,8 @@
                 "..AAA???AAAAAAOOOOAAAAAAAAA..AA",
                 "..AAAAAOOOAAOOOAAAAAAAAAAAA..AA",
                 "..AA.AAAA.OOAO.OOOO.OAAA.AA..AA",
-                "..AA.AAAA.AOOO.OAAA.AAAA.AA..AA",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AA.AAAA.AOOO.OOOO.AAAA.AA..AA",
+                "..AAAAAAAAAAAOOOOAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAOOAAAAAAAAAAA..OO"
               ],
               "layoutKey": "102381"
@@ -6158,8 +6128,8 @@
                 "..AAA???AAAAAAOOOOAAAAAAAAA..AA",
                 "..AAAAAOOOAAOOOAAAAAAAAAAAA..AA",
                 "..AA.AAAA.OOAO.OOOO.OAAA.AA..AA",
-                "..AA.AAAA.AOOO.OAAA.AAAA.AA..AA",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AA.AAAA.AOOO.OOOO.AAAA.AA..AA",
+                "..AAAAAAAAAAAOOOOAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAOOAAAAAAAAAAA..OO"
               ],
               "layoutKey": "102381"
@@ -6182,13 +6152,13 @@
                 "...AAAAAAAAAAAA..",
                 ".................",
                 ".....AA.AA.A.AA..",
-                ".....AAAAAAAAAA..",
+                ".....OOAAAAAAAA..",
                 ".....AAAAAAAAAA..",
                 ".....AAAAAAAAAA..",
                 ".....AOAAAAAAAA..",
                 "AA...AAAAAAAAAA..",
-                "AA...AAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAOO"
+                "AA...AAOOAAAAAA..",
+                "AAAAAAAAOOAAAAAOO"
               ],
               "layoutKey": "102382"
             },
@@ -6211,11 +6181,41 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
-                ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAAAOOAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA"
               ],
               "layoutKey": "102380"
+            }
+          ]
+        },
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102379&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAOOAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAOOAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102379"
             }
           ]
         },
@@ -6267,7 +6267,7 @@
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
                 ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAOOAAAAAAAAA.",
                 "AA...AAAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -6323,7 +6323,7 @@
                 ".AAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA...AA",
+                ".AAAAAAAOOAAAAA...AA",
                 ".AAAAAAAAAAAAAA...AA",
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
@@ -6336,36 +6336,6 @@
     {
       "date": "2026-10-01",
       "movies": [
-        {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102393&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102393"
-            }
-          ]
-        },
         {
           "title": "Avengers Endgame: Encore",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
@@ -6476,6 +6446,36 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA"
               ],
               "layoutKey": "102392"
+            }
+          ]
+        },
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:40",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102393&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102393"
             }
           ]
         },
@@ -6596,199 +6596,6 @@
     {
       "date": "2026-10-02",
       "movies": [
-        {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "15:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102414&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102414"
-            },
-            {
-              "time": "18:15",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102415&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102415"
-            },
-            {
-              "time": "21:10",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102416&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102416"
-            }
-          ]
-        },
-        {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
-          "sessions": [
-            {
-              "time": "15:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102413&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102413"
-            },
-            {
-              "time": "19:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102412&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102412"
-            }
-          ]
-        },
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "16:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102426&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102426"
-            },
-            {
-              "time": "19:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102427&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102427"
-            },
-            {
-              "time": "22:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102428&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102428"
-            }
-          ]
-        },
         {
           "title": "Digger",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
@@ -7002,11 +6809,11 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAAOOOOOAAOOAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAOOOOAAAAAAAAA..AA",
-                ".AAAAAAAAAAOOOOAAAAAAAAA..AA",
-                ".AAAAAAAAAAAAAAAAAAAAAAA..AA"
+                ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
+                ".AAAAAAAAAOOOOAAOOAAOOAA..AA"
               ],
               "layoutKey": "102410"
             },
@@ -7034,6 +6841,199 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA"
               ],
               "layoutKey": "102411"
+            }
+          ]
+        },
+        {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "15:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102413&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102413"
+            },
+            {
+              "time": "19:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102412&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102412"
+            }
+          ]
+        },
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "16:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102426&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102426"
+            },
+            {
+              "time": "19:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102427&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAOOAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102427"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102428&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102428"
+            }
+          ]
+        },
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "15:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102414&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102414"
+            },
+            {
+              "time": "18:15",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102415&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102415"
+            },
+            {
+              "time": "21:10",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102416&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102416"
             }
           ]
         },
@@ -7260,262 +7260,6 @@
       "date": "2026-10-03",
       "movies": [
         {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "12:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102454&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102454"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102431&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAOOOOOOOOOOOOAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102431"
-            },
-            {
-              "time": "18:15",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102436&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102436"
-            },
-            {
-              "time": "21:10",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102448&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102448"
-            }
-          ]
-        },
-        {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
-          "sessions": [
-            {
-              "time": "12:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102458&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAAA..",
-                "....................",
-                "..A.AAAAA.AA.AA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA...AA",
-                "..AAAAAAAAAAAAA...AA",
-                "AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102458"
-            },
-            {
-              "time": "15:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102439&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102439"
-            },
-            {
-              "time": "19:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102449&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102449"
-            }
-          ]
-        },
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "14:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102455&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102455"
-            },
-            {
-              "time": "16:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102437&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102437"
-            },
-            {
-              "time": "19:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102450&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102450"
-            },
-            {
-              "time": "22:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102444&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102444"
-            }
-          ]
-        },
-        {
           "title": "Digger",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
           "runtimeMinutes": 129,
@@ -7539,7 +7283,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAA???AAAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAOAAAAAAAAAAA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
@@ -7565,7 +7309,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 "..AAA???AAAAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAOAAAAAAAAAAA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
                 "..AA.AAAA.AAAA.AAAA.AAAA.AA..AA",
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..AA",
@@ -7838,6 +7582,262 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA"
               ],
               "layoutKey": "102447"
+            }
+          ]
+        },
+        {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "12:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102458&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "....................",
+                "..AAAAAAAAAAAAAAAA..",
+                "....................",
+                "..A.AAAAA.AA.AA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA...AA",
+                "..AAAAAAAAAAAAA...AA",
+                "AAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102458"
+            },
+            {
+              "time": "15:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102439&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102439"
+            },
+            {
+              "time": "19:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102449&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102449"
+            }
+          ]
+        },
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "14:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102455&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102455"
+            },
+            {
+              "time": "16:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102437&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102437"
+            },
+            {
+              "time": "19:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102450&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102450"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102444&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102444"
+            }
+          ]
+        },
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "12:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102454&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102454"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102431&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAOOOOOOOOOOOOAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102431"
+            },
+            {
+              "time": "18:15",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102436&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102436"
+            },
+            {
+              "time": "21:10",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102448&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102448"
             }
           ]
         },
@@ -8129,218 +8129,6 @@
       "date": "2026-10-04",
       "movies": [
         {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "12:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102486&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102486"
-            },
-            {
-              "time": "15:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102469&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102469"
-            },
-            {
-              "time": "18:15",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102464&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102464"
-            }
-          ]
-        },
-        {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
-          "sessions": [
-            {
-              "time": "12:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102482&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102482"
-            },
-            {
-              "time": "15:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102461&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAAA..",
-                "....................",
-                "..A.AAAAA.AA.AA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA...AA",
-                "..AAAAAAAAAAAAA...AA",
-                "AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102461"
-            },
-            {
-              "time": "18:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102471&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAAA..",
-                "....................",
-                ".A.AA.AAA.AA.AA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAA...AA",
-                ".AAAAAAAAAAAAAA...AA",
-                "AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102471"
-            }
-          ]
-        },
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "13:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102485&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102485"
-            },
-            {
-              "time": "16:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102463&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102463"
-            },
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102490&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102490"
-            }
-          ]
-        },
-        {
           "title": "Digger",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
           "runtimeMinutes": 129,
@@ -8589,6 +8377,218 @@
           ]
         },
         {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "12:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102482&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102482"
+            },
+            {
+              "time": "15:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102461&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "....................",
+                "..AAAAAAAAAAAAAAAA..",
+                "....................",
+                "..A.AAAAA.AA.AA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA...AA",
+                "..AAAAAAAAAAAAA...AA",
+                "AAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102461"
+            },
+            {
+              "time": "18:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102471&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "....................",
+                "..AAAAAAAAAAAAAAAA..",
+                "....................",
+                ".A.AA.AAA.AA.AA.....",
+                ".AAAAAAAAAAAAAA.....",
+                ".AAAAAAAAAAAAAA.....",
+                ".AAAAAAAAAAAAAA.....",
+                ".AAAAAAAAAAAAAA.....",
+                ".AAAAAAAAAAAAAA...AA",
+                ".AAAAAAAAAAAAAA...AA",
+                "AAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102471"
+            }
+          ]
+        },
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "13:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102485&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102485"
+            },
+            {
+              "time": "16:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102463&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102463"
+            },
+            {
+              "time": "18:50",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102490&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102490"
+            }
+          ]
+        },
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "12:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102486&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102486"
+            },
+            {
+              "time": "15:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102469&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102469"
+            },
+            {
+              "time": "18:15",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102464&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102464"
+            }
+          ]
+        },
+        {
           "title": "Practical Magic 2",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
@@ -8808,92 +8808,6 @@
       "date": "2026-10-05",
       "movies": [
         {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102498&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102498"
-            }
-          ]
-        },
-        {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102492&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102492"
-            }
-          ]
-        },
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "19:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102493&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102493"
-            }
-          ]
-        },
-        {
           "title": "Digger",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
           "runtimeMinutes": 129,
@@ -8986,6 +8900,92 @@
           ]
         },
         {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102492&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102492"
+            }
+          ]
+        },
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "19:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102493&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102493"
+            }
+          ]
+        },
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102498&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102498"
+            }
+          ]
+        },
+        {
           "title": "Practical Magic 2",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
@@ -9074,157 +9074,6 @@
     {
       "date": "2026-10-06",
       "movies": [
-        {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "15:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102529&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102529"
-            },
-            {
-              "time": "18:45",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102501&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102501"
-            }
-          ]
-        },
-        {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
-          "sessions": [
-            {
-              "time": "15:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102526&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102526"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102507&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102507"
-            }
-          ]
-        },
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "16:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102530&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102530"
-            },
-            {
-              "time": "19:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102506&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102506"
-            }
-          ]
-        },
         {
           "title": "Digger",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
@@ -9389,9 +9238,160 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA",
-                ".AAAAAAAAAAAAAAAAAAAAAAA..AA"
+                ".AAAAAAAAAAAAOAAAAAAAAAA..AA"
               ],
               "layoutKey": "102503"
+            }
+          ]
+        },
+        {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "15:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102526&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102526"
+            },
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102507&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102507"
+            }
+          ]
+        },
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "16:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102530&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102530"
+            },
+            {
+              "time": "19:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102506&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102506"
+            }
+          ]
+        },
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "15:45",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102529&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102529"
+            },
+            {
+              "time": "18:45",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102501&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102501"
             }
           ]
         },
@@ -9548,92 +9548,6 @@
       "date": "2026-10-07",
       "movies": [
         {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102514&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102514"
-            }
-          ]
-        },
-        {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102508&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102508"
-            }
-          ]
-        },
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "19:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102509&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102509"
-            }
-          ]
-        },
-        {
           "title": "Digger",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
           "runtimeMinutes": 129,
@@ -9722,6 +9636,92 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA"
               ],
               "layoutKey": "102512"
+            }
+          ]
+        },
+        {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102508&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102508"
+            }
+          ]
+        },
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "19:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102509&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102509"
+            }
+          ]
+        },
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102514&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102514"
             }
           ]
         },
@@ -9815,92 +9815,6 @@
       "date": "2026-10-08",
       "movies": [
         {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102517&a=0000000001&l=7135&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA..AAAAA.AAA.AA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                ".....AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AA...AAAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102517"
-            }
-          ]
-        },
-        {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102523&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "............................",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAAA...",
-                "............................",
-                ".....AA.AAA..AAAA.AAAA..AA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102523"
-            }
-          ]
-        },
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "19:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102522&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                ".....AA.AAAA.AAAA.AA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "102522"
-            }
-          ]
-        },
-        {
           "title": "Digger",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
           "runtimeMinutes": 129,
@@ -9989,6 +9903,92 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAA..AA"
               ],
               "layoutKey": "102519"
+            }
+          ]
+        },
+        {
+          "title": "Avengers Endgame: Encore",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
+          "runtimeMinutes": 185,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102523&a=0000000001&l=7135&m=avengers-endgame-encore&ss=False",
+              "seats": [
+                "............................",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAAAAAAAAAAAAAA...",
+                "............................",
+                ".....AA.AAA..AAAA.AAAA..AA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102523"
+            }
+          ]
+        },
+        {
+          "title": "Resident Evil",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
+          "runtimeMinutes": 94,
+          "sessions": [
+            {
+              "time": "19:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102522&a=0000000001&l=7135&m=resident-evil-2026&ss=False",
+              "seats": [
+                "......................",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA.AAAA.AAAA.AA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                ".....AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AA...AAAAAAAAAAAAAAA..",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102522"
+            }
+          ]
+        },
+        {
+          "title": "Forgotten Island",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
+          "runtimeMinutes": 109,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "3D"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=102517&a=0000000001&l=7135&m=forgotten-island&ss=False",
+              "seats": [
+                "......................",
+                "...AAAAAAAAAAAAAAAAA..",
+                "......................",
+                ".....AA..AAAAA.AAA.AA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                ".....AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AA...AAAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "102517"
             }
           ]
         },

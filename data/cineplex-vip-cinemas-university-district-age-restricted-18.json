@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T11:04:39.730Z",
+  "updatedAt": "2026-09-30T17:11:29.580Z",
   "theatre": {
     "id": 3157,
     "name": "Cineplex VIP Cinemas University District (age restricted 18+)"
@@ -1326,7 +1326,7 @@
                 "..............",
                 ".AAAAAAA.AA...",
                 ".AAAAAAAAAA...",
-                ".AAAAAAAAAA...",
+                ".AAAAAAAOAA...",
                 ".AAAOOOAAAA...",
                 ".AAAAOOAAAAA..",
                 ".AAAAAAAAA?A..",
@@ -1354,13 +1354,13 @@
                 ".............",
                 ".AAAAAAAAAA..",
                 ".............",
-                ".AAAAAAA.AA..",
+                ".AAAOOAA.AA..",
                 ".OOOOOOOAAA..",
-                ".AAOOOOOAAA..",
+                ".AAOOOOOAOO..",
                 ".OOOOOAOOA?..",
-                ".AAOOOOOOAAA.",
+                ".OOOOOOOOOOA.",
                 ".OOOOOOOOOOO.",
-                ".AOO.....OOOO"
+                ".OOO.....OOOO"
               ],
               "layoutKey": "23370"
             },
@@ -1380,7 +1380,7 @@
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAA?..",
-                ".AAAAOOAAAAA.",
+                ".OOAAOOAAAAA.",
                 ".AAAAAAAAAAA.",
                 ".AAA.....AAAA"
               ],
@@ -1410,7 +1410,7 @@
                 ".AAAAAAAAAA...",
                 ".A?AAA?AAAA...",
                 ".OOOOOOOOOAA..",
-                ".AAAAOOOOAAA..",
+                ".OOOOOOOOAAA..",
                 ".AAAAOOOOAAA..",
                 ".A?OOOOOOAAAA."
               ],
@@ -1430,10 +1430,10 @@
                 "..............",
                 ".AAAAAAA.AA...",
                 ".AAAAAAAAAA...",
-                ".AAAAOOOAAA...",
+                ".OOOOOOOAAA...",
                 ".A?AAA?AAOO...",
-                ".OOOOOOOOAAA..",
-                ".OOAOOOOOAAA..",
+                ".OOOOOOOOOOA..",
+                ".OOAOOOOOOOA..",
                 ".OOAOOOOOOOO..",
                 ".A?OOOOOOOOOA."
               ],
@@ -1513,8 +1513,8 @@
                 ".AAAAAAAA...",
                 ".OOOAOOAA...",
                 ".OOOOOOOO...",
-                ".OOAOOOOAOO.",
-                ".AOOOOOOOAA.",
+                ".OOOOOOOAOO.",
+                ".OOOOOOOOOO.",
                 ".AOO.....OOA"
               ],
               "layoutKey": "23367"
@@ -1526,6 +1526,36 @@
     {
       "date": "2026-10-01",
       "movies": [
+        {
+          "title": "Digger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
+          "runtimeMinutes": 129,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "VIP 18+",
+                "Recliner",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23337&a=0000000001&l=3157&m=digger&ss=False",
+              "seats": [
+                "..............",
+                ".AAAAAAAAAA...",
+                "..............",
+                ".AAAAAAA.AA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAOAAAA...",
+                ".AAAAAAAAAA...",
+                ".AAAAAAAAAAA..",
+                ".AAAOOOOAA?A..",
+                ".AAAAAAAAAAO..",
+                ".AA?AOOAAAAAA."
+              ],
+              "layoutKey": "23337"
+            }
+          ]
+        },
         {
           "title": "Avengers Endgame: Encore",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
@@ -1604,43 +1634,13 @@
                 "............",
                 ".AAAAA.AA...",
                 ".AAAAAAAA...",
-                ".AAOOOOAA...",
-                ".AAAOOOOO...",
+                ".OOOOOOAA...",
+                ".OOAOOOOO...",
                 ".OOOOOOOOOO.",
-                ".OOOOOOOOAA.",
+                ".OOOOOOOOOO.",
                 ".AOO.....OOA"
               ],
               "layoutKey": "23340"
-            }
-          ]
-        },
-        {
-          "title": "Digger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
-          "runtimeMinutes": 129,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "VIP 18+",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=23337&a=0000000001&l=3157&m=digger&ss=False",
-              "seats": [
-                "..............",
-                ".AAAAAAAAAA...",
-                "..............",
-                ".AAAAAAA.AA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAOAAAA...",
-                ".AAAAAAAAAA...",
-                ".AAAAAAAAAAA..",
-                ".AAAOOOOAA?A..",
-                ".AAAAAAAAAAO..",
-                ".AA?AOOAAAAAA."
-              ],
-              "layoutKey": "23337"
             }
           ]
         },
@@ -1796,8 +1796,8 @@
                 "..............",
                 ".AAAAAAA.AA...",
                 ".AAAAAAAAOO...",
-                ".AAAAAAAAAA...",
-                ".OOAAOOAOOO...",
+                ".AAAAOOAAAA...",
+                ".OOAAOOOOOO...",
                 ".OOAOOOOOAAA..",
                 ".AAAAOOAAA?O..",
                 ".AAOOOAOOAAA..",

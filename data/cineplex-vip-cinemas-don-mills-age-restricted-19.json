@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T11:04:40.121Z",
+  "updatedAt": "2026-09-30T17:11:29.002Z",
   "theatre": {
     "id": 7139,
     "name": "Cineplex VIP Cinemas Don Mills (age restricted 19+)"
@@ -2281,8 +2281,8 @@
               "seats": [
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
-                "AAOOOOOOAAAA",
-                "AOAAOOOOOAOO",
+                "AAOOOOOOAAOA",
+                "AOAAOOOOAAOO",
                 "AAOO?AOOAAAA",
                 "............",
                 "..AOOOAAAA..",
@@ -2314,8 +2314,8 @@
                 "AAAAAAOOAA...",
                 "AAAAOOAAAA.AA",
                 "AAAAAAOOAA.AA",
-                "AAAAOOAAAA.AA",
-                "AAAA?AAAAA.AA",
+                "AAAAOOOOAA.AA",
+                "AAAA?AOOAA.AA",
                 "AAAAOOOOAA.AA"
               ],
               "layoutKey": "63531"
@@ -2335,17 +2335,17 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63527&a=0000000001&l=7139&m=primetime&ss=False",
               "seats": [
-                ".AA.AA.AA....",
+                ".AA.OO.AA....",
                 ".............",
                 "AA.AAAAAAA...",
                 "AA?AAAAAAA...",
                 "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "OOAAAAOOAA.AA",
-                "AAAAAOOOAA.AA",
-                "AAOOAAAAAA.AA",
-                "AAAAAAOOAA.AA",
+                "AAAAAAOOAA...",
+                "AAAAAAOOAA...",
+                "OOAAOOOOAA.AA",
+                "AAOOAOOOOA.AA",
+                "AAOOAAOOAA.AA",
+                "AAAAOOOOAA.AA",
                 "AAAAAAAAAA.AA"
               ],
               "layoutKey": "63527"
@@ -2370,10 +2370,10 @@
                 "...AAAAAAA.AA",
                 "...AAAAAAAAAA",
                 "...AAAAAAAAAA",
-                "...AAAAAAAAAA",
+                "...AAAAOOAAAA",
                 "...AA?AAAOOAA",
-                "AA.AAOOAAAAAA",
-                "AA.AAOOOOOAAA",
+                "AA.AAOOAAAAOO",
+                "AA.AAAAOOOAAA",
                 "AA.AAOOAAAAAA",
                 "AA.AAAAOOOOOA",
                 "AA.OOOAAAAAAA"
@@ -2397,9 +2397,9 @@
               "seats": [
                 "AAAAAAAAA?AA",
                 "AAAAAAAAAAAA",
-                "AAAAAAAAAAAA",
+                "AAAAOOOOAAAA",
                 "AAAAAAOOAAAA",
-                "AAOOAAOAAAAA",
+                "AAOOAAAAAAAA",
                 "............",
                 "..AAAAOOAA..",
                 "AAA?OOOAAAA.",
@@ -2565,6 +2565,59 @@
       "date": "2026-10-02",
       "movies": [
         {
+          "title": "Digger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
+          "runtimeMinutes": 129,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "VIP 19+",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63589&a=0000000001&l=7139&m=digger&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAOO.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAA?AAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63589"
+            },
+            {
+              "time": "22:30",
+              "formats": [
+                "VIP 19+",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63593&a=0000000001&l=7139&m=digger&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAA?AAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63593"
+            }
+          ]
+        },
+        {
           "title": "Avengers Endgame: Encore",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
           "runtimeMinutes": 185,
@@ -2681,7 +2734,7 @@
                 "AA?AAAAAAA...",
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
+                "AAAAAAOOAA...",
                 "AAAAAAAAAA.AA",
                 "AAAAAAAAAA.AA",
                 "AAAAAAAAAA.AA",
@@ -2705,66 +2758,13 @@
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA...",
                 "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
+                "AAAAAAAAOO.AA",
                 "AAAAAAAAAA.AA",
                 "AAAAAAAAAA.AA",
                 "AAAAAAAAAA.AA",
                 "AAAAAAAAAA.AA"
               ],
               "layoutKey": "63591"
-            }
-          ]
-        },
-        {
-          "title": "Digger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
-          "runtimeMinutes": 129,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63589&a=0000000001&l=7139&m=digger&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAA?AAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63589"
-            },
-            {
-              "time": "22:30",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63593&a=0000000001&l=7139&m=digger&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAA?AAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63593"
             }
           ]
         },
@@ -2788,7 +2788,7 @@
                 "...AAAAAAAAAA",
                 "...AAAAAAAAAA",
                 "...AA?AAAAAAA",
-                "AA.AAAAAAAAAA",
+                "AA.AAAOOOAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
@@ -2826,6 +2826,105 @@
     {
       "date": "2026-10-03",
       "movies": [
+        {
+          "title": "Digger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
+          "runtimeMinutes": 129,
+          "sessions": [
+            {
+              "time": "12:00",
+              "formats": [
+                "VIP 19+",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63595&a=0000000001&l=7139&m=digger&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAA?AAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63595"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "VIP 19+",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63600&a=0000000001&l=7139&m=digger&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAA?AAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63600"
+            },
+            {
+              "time": "19:00",
+              "formats": [
+                "VIP 19+",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63601&a=0000000001&l=7139&m=digger&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAOO.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAA?AAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63601"
+            },
+            {
+              "time": "22:30",
+              "formats": [
+                "VIP 19+",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63602&a=0000000001&l=7139&m=digger&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAA?AAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63602"
+            }
+          ]
+        },
         {
           "title": "Avengers Endgame: Encore",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
@@ -2866,7 +2965,7 @@
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
-                "AAAA?AAAAAAA",
+                "OOOO?AAAAAAA",
                 "............",
                 "..AAAAAAAA..",
                 "AAAAAAAAAAAA"
@@ -2956,11 +3055,11 @@
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
                 "AAAAAAAAAAAA",
-                "AAAAAAAAAAAA",
+                "AAOOOOOOAAAA",
                 "............",
                 "..AAAAAAAA..",
                 "AAA?AAAAAAA.",
-                "..........AA"
+                "..........OO"
               ],
               "layoutKey": "63606"
             }
@@ -3013,7 +3112,7 @@
                 "AAAAAAAAAA.AA",
                 "AAAAAAAAAA.AA",
                 "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA"
+                "AAAAAAAAAA.OO"
               ],
               "layoutKey": "63603"
             },
@@ -3036,108 +3135,9 @@
                 "AAAAAAAAAA.AA",
                 "AAAAAAAAAA.AA",
                 "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA"
+                "AAAAAAOOAA.AA"
               ],
               "layoutKey": "63604"
-            }
-          ]
-        },
-        {
-          "title": "Digger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
-          "runtimeMinutes": 129,
-          "sessions": [
-            {
-              "time": "12:00",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63595&a=0000000001&l=7139&m=digger&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAA?AAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63595"
-            },
-            {
-              "time": "15:30",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63600&a=0000000001&l=7139&m=digger&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAA?AAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63600"
-            },
-            {
-              "time": "19:00",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63601&a=0000000001&l=7139&m=digger&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAA?AAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63601"
-            },
-            {
-              "time": "22:30",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63602&a=0000000001&l=7139&m=digger&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAA?AAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63602"
             }
           ]
         },
@@ -3161,7 +3161,7 @@
                 "...AAAAAAAAAA",
                 "...AAAAAAAAAA",
                 "...AA?AAAAAAA",
-                "AA.AAAAAAAAAA",
+                "AA.AAOOAAAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
@@ -3186,7 +3186,7 @@
                 "...AA?AAAAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AAAAAAAAAA",
-                "AA.AAAAAAAAAA",
+                "AA.AAAAOOAAAA",
                 "AA.AAAAAAAAAA",
                 "AA.AAAAAAAAAA"
               ],
@@ -3229,6 +3229,79 @@
     {
       "date": "2026-10-04",
       "movies": [
+        {
+          "title": "Digger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
+          "runtimeMinutes": 129,
+          "sessions": [
+            {
+              "time": "13:30",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63662&a=0000000001&l=7139&m=digger&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAA?AAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63662"
+            },
+            {
+              "time": "16:45",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63663&a=0000000001&l=7139&m=digger&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAA?AAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63663"
+            },
+            {
+              "time": "20:00",
+              "formats": [
+                "VIP 19+"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63664&a=0000000001&l=7139&m=digger&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAA?AAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63664"
+            }
+          ]
+        },
         {
           "title": "Avengers Endgame: Encore",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
@@ -3449,79 +3522,6 @@
           ]
         },
         {
-          "title": "Digger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
-          "runtimeMinutes": 129,
-          "sessions": [
-            {
-              "time": "13:30",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63662&a=0000000001&l=7139&m=digger&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAA?AAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63662"
-            },
-            {
-              "time": "16:45",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63663&a=0000000001&l=7139&m=digger&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAA?AAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63663"
-            },
-            {
-              "time": "20:00",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63664&a=0000000001&l=7139&m=digger&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAA?AAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63664"
-            }
-          ]
-        },
-        {
           "title": "Practical Magic 2",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
@@ -3602,6 +3602,36 @@
     {
       "date": "2026-10-05",
       "movies": [
+        {
+          "title": "Digger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
+          "runtimeMinutes": 129,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "VIP 19+",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63627&a=0000000001&l=7139&m=digger&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAA?AAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63627"
+            }
+          ]
+        },
         {
           "title": "Avengers Endgame: Encore",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
@@ -3689,36 +3719,6 @@
           ]
         },
         {
-          "title": "Digger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
-          "runtimeMinutes": 129,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63627&a=0000000001&l=7139&m=digger&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAA?AAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63627"
-            }
-          ]
-        },
-        {
           "title": "Practical Magic 2",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
@@ -3753,6 +3753,59 @@
     {
       "date": "2026-10-06",
       "movies": [
+        {
+          "title": "Digger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
+          "runtimeMinutes": 129,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "VIP 19+",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63639&a=0000000001&l=7139&m=digger&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAA?AAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63639"
+            },
+            {
+              "time": "22:30",
+              "formats": [
+                "VIP 19+",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63634&a=0000000001&l=7139&m=digger&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAA?AAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63634"
+            }
+          ]
+        },
         {
           "title": "Avengers Endgame: Encore",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
@@ -3905,59 +3958,6 @@
           ]
         },
         {
-          "title": "Digger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
-          "runtimeMinutes": 129,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63639&a=0000000001&l=7139&m=digger&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAA?AAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63639"
-            },
-            {
-              "time": "22:30",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63634&a=0000000001&l=7139&m=digger&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAA?AAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63634"
-            }
-          ]
-        },
-        {
           "title": "Practical Magic 2",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
@@ -4015,6 +4015,36 @@
     {
       "date": "2026-10-07",
       "movies": [
+        {
+          "title": "Digger",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
+          "runtimeMinutes": 129,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "VIP 19+",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63630&a=0000000001&l=7139&m=digger&ss=False",
+              "seats": [
+                ".A?.A?.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAA?AAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63630"
+            }
+          ]
+        },
         {
           "title": "Avengers Endgame: Encore",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
@@ -4102,36 +4132,6 @@
           ]
         },
         {
-          "title": "Digger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
-          "runtimeMinutes": 129,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63630&a=0000000001&l=7139&m=digger&ss=False",
-              "seats": [
-                ".A?.A?.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAA?AAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63630"
-            }
-          ]
-        },
-        {
           "title": "Practical Magic 2",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
@@ -4167,36 +4167,6 @@
       "date": "2026-10-08",
       "movies": [
         {
-          "title": "Primetime",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
-          "runtimeMinutes": 110,
-          "sessions": [
-            {
-              "time": "20:00",
-              "formats": [
-                "VIP 19+",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63643&a=0000000001&l=7139&m=primetime&ss=False",
-              "seats": [
-                ".AA.AA.AA....",
-                ".............",
-                "AA.AAAAAAA...",
-                "AA?AAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA...",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA",
-                "AAAAAAAAAA.AA"
-              ],
-              "layoutKey": "63643"
-            }
-          ]
-        },
-        {
           "title": "Digger",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
           "runtimeMinutes": 129,
@@ -4223,6 +4193,36 @@
                 "AAAAAAAAAA.AA"
               ],
               "layoutKey": "63645"
+            }
+          ]
+        },
+        {
+          "title": "Primetime",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
+          "runtimeMinutes": 110,
+          "sessions": [
+            {
+              "time": "20:00",
+              "formats": [
+                "VIP 19+",
+                "Laser Projection"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=63643&a=0000000001&l=7139&m=primetime&ss=False",
+              "seats": [
+                ".AA.AA.AA....",
+                ".............",
+                "AA.AAAAAAA...",
+                "AA?AAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA...",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA",
+                "AAAAAAAAAA.AA"
+              ],
+              "layoutKey": "63643"
             }
           ]
         },
