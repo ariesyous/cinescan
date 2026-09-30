@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T22:55:28.944Z",
+  "updatedAt": "2026-09-30T23:38:21.555Z",
   "theatre": {
     "id": 6107,
     "name": "Cineplex Cinemas Saint John"
@@ -3503,34 +3503,6 @@
         "SSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "171401": {
-      "totalRows": 10,
-      "totalColumns": 24,
-      "rowLabels": [
-        "A",
-        "B",
-        null,
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSSS..",
-        "........................",
-        ".....WCSSSSSSSSSC..W....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSS....",
-        "SSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "171402": {
       "totalRows": 11,
       "totalColumns": 19,
@@ -3559,34 +3531,6 @@
         "..SSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "171412": {
-      "totalRows": 10,
-      "totalColumns": 18,
-      "rowLabels": [
-        "A",
-        "B",
-        null,
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSS.",
-        "..................",
-        "......WCSSSSSC.W..",
-        "....SSSSSSSSSSSS..",
-        "....SSSSSSSSSSSS..",
-        "....SSSSSSSSSSSS..",
-        "....SSSSSSSSSSSS..",
-        "....SSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSS"
       ]
     },
     "171415": {
@@ -9427,7 +9371,7 @@
                 "...AAAAAAAAAOOAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAA..AA",
                 "...AAAAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAAOOO"
+                "AAAAAAAAAAAAOAAAAAAAAAAOOO"
               ],
               "layoutKey": "171461"
             }
@@ -9450,12 +9394,12 @@
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "..........................",
                 "......AAAAAAAAAAAAAAA..A..",
-                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AOOAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAOOAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAOOAAAAAAAAOOAAAAAAA"
+                "....AAAAOOOOAAAAAAAAAAAA..",
+                "....AAAAAAAAAOOAAAAAAAAA..",
+                "AAAAAAAOOAAOOAAAAOOAAOOAAA"
               ],
               "layoutKey": "171419"
             },
@@ -9475,7 +9419,7 @@
                 "....AAAAAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAA.",
-                "....OOOOAAAAAAAAAAAAAAAA.",
+                "....OOOOAAAAOOOOOAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAA.",
                 "AA..AAAAAAAAAAAAAAAAAAAA.",
                 "AA..AAAAAAAAAAAAAAAAAAAA.",
@@ -9503,7 +9447,7 @@
                 ".....AAAAAAAAAA..A....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAA....",
+                "..AOAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
@@ -9559,10 +9503,10 @@
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAOO....",
+                "..AAAAAAAOOAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
-                "A?AAAAAAAAAAAAAAAAAAA"
+                "A?AAAAAAAAAAAAOOAAAAA"
               ],
               "layoutKey": "171428"
             }
@@ -9629,26 +9573,6 @@
           "runtimeMinutes": 99,
           "sessions": [
             {
-              "time": "19:55",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171401&a=0000000001&l=6107&m=the-stunt-driver&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAAA..",
-                "........................",
-                ".....AAAAAAAAAAAA..A....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAOOAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "171401"
-            },
-            {
               "time": "22:25",
               "formats": [
                 "Regular"
@@ -9677,26 +9601,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62071_320_470.jpg",
           "runtimeMinutes": 113,
           "sessions": [
-            {
-              "time": "19:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=171412&a=0000000001&l=6107&m=the-weight&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAA?AA.",
-                "..................",
-                "......AAAAAAAA.A..",
-                "....AAAAAAAAAAAA..",
-                "....AAAAAOOAAAAA..",
-                "....AAAAAAAAAAAA..",
-                "....AAAAAAAAAAAA..",
-                "....AAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "171412"
-            },
             {
               "time": "22:30",
               "formats": [
@@ -9801,7 +9705,7 @@
                 "...AAAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAOOOOOO....",
                 "...AAOOAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAAOOO....",
+                "...AAAAAAAAOOOAAAAAOOO....",
                 "...AAAAOOAAOOAAAAAOOOO..AA",
                 "...OOOAAAOOOOOOOOAAAAA..AA",
                 "OOAAAAOOOAAAOOOAAAAAOOAAAA"
@@ -11208,7 +11112,7 @@
                 "..AAAAAAAAAAAAAAAAAA.",
                 ".....................",
                 ".....AAAAAAAAA..A....",
-                "..AAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAOO....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
@@ -11754,7 +11658,7 @@
                 ".....AAAAAAAAAAAA..A....",
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAA....",
+                "..AOOOOOAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAA....",
                 "..OOOAAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -12105,7 +12009,7 @@
                 "...AAAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAA..AA",
                 "...AAAAAAAAAAAAAAAAAAA..AA",
-                "OOOOOOOOOOOOAAAOAAAAAAAAAA"
+                "OOOOOOOOOOOOAAAOOOOOAAAAAA"
               ],
               "layoutKey": "170490"
             },
@@ -12356,7 +12260,7 @@
                 "....AAAAAAAAAAAA..",
                 "....AAAAAAAAAAAA..",
                 "....AAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAA"
+                "AAAAAAAOOOOOOAAAAA"
               ],
               "layoutKey": "171569"
             },
@@ -13515,7 +13419,7 @@
                 "...AAAAAAAAAAAAAAAAAAA....",
                 "...AAAAAOOAAAAAAAAAAAA..AA",
                 "...AAAAAAOOOOOOAAOOOOO..AA",
-                "AAAAAAAAAOOOOOOOAAOOOOAAAA"
+                "AAAAAAAOOOOOOOOOAAOOOOAAAA"
               ],
               "layoutKey": "170495"
             },
