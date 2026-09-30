@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T01:45:22.574Z",
+  "updatedAt": "2026-09-30T04:19:20.568Z",
   "theatre": {
     "id": 3152,
     "name": "Cineplex Cinemas East Hills"
@@ -171,6 +171,34 @@
         "..SSSSSSSSSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSSSSSSSS..",
         "..DDDD.DDDDDDD.DDDDDDD.DDD.."
+      ]
+    },
+    "59233": {
+      "totalRows": 10,
+      "totalColumns": 26,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..........................",
+        ".....SSCWWCSSSSSSSSSSWC...",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "....SSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSSSSSS..",
+        ".SSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "59240": {
@@ -923,28 +951,6 @@
         "..SSSSSSSSSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSSSSSSSS..",
         "...SSSSSSSSSSSSSSSSSSSSS...."
-      ]
-    },
-    "59455": {
-      "totalRows": 7,
-      "totalColumns": 18,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSS..",
-        "..................",
-        "..SSSSSSSCWWC.....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS"
       ]
     },
     "59458": {
@@ -4260,35 +4266,6 @@
   },
   "days": [
     {
-      "date": "2026-09-29",
-      "movies": [
-        {
-          "title": "Heart of the Beast",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 101,
-          "sessions": [
-            {
-              "time": "19:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59455&a=0000000001&l=3152&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAA..",
-                "..................",
-                "..OOOOOOOOAAA.....",
-                "..OOOOOOOOOOOO....",
-                "..OOOOOOOOOOOO....",
-                "..OOOOOOOOOOOOOO..",
-                ".AOOOOOOOOOOOOOOOO"
-              ],
-              "layoutKey": "59455"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-09-30",
       "movies": [
         {
@@ -4398,7 +4375,7 @@
                 ".....AAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -4488,7 +4465,7 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAOOOOOAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAOOAAAAAAAAAA"
               ],
               "layoutKey": "59465"
             },
@@ -4525,10 +4502,10 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOOAAAAAAAAAAA..",
-                "..AAA?.OAAAAA?.AAAAAAA.AAA.."
+                "..AAA?.OAAAAA?.OOAAAAA.AAA.."
               ],
               "layoutKey": "59460"
             },
@@ -4547,10 +4524,10 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOOAAAAAAAAAAA..",
                 "..AAAAAAAAAAAOOAAAAAAAAAAA..",
-                "..AAA?.OAAAAA?.AAAAAAA.AAA.."
+                "..AAA?.OAAAAA?.OOAAAAA.AAA.."
               ],
               "layoutKey": "59460"
             }
@@ -4592,7 +4569,7 @@
                 "..................",
                 "..AAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA....",
-                "..AAAAAAAAAAAA....",
+                "..AAAAOOOOOAAA....",
                 "..AAOOAAAAAAAAAA..",
                 ".AAAAAAOOOOAAAAAAA"
               ],
@@ -5462,7 +5439,7 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOOAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "59521"
@@ -8575,6 +8552,33 @@
     {
       "date": "2026-10-13",
       "movies": [
+        {
+          "title": "Other Mommy",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38158_320_470.jpg",
+          "runtimeMinutes": 93,
+          "sessions": [
+            {
+              "time": "19:30",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59233&a=0000000001&l=3152&m=other-mommy&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..........................",
+                ".....AAAAAAAAAAAAAAAAAA...",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAAAAAA..",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "59233"
+            }
+          ]
+        },
         {
           "title": "The Social Reckoning",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60152_320_470.jpg",
