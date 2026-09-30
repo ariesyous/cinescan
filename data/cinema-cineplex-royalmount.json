@@ -1,72 +1,10 @@
 {
-  "updatedAt": "2026-09-30T01:07:27.558Z",
+  "updatedAt": "2026-09-30T01:45:07.096Z",
   "theatre": {
     "id": 9121,
     "name": "Cinéma Cineplex Royalmount"
   },
   "auditoriums": {
-    "15311": {
-      "totalRows": 14,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null,
-        null,
-        "K"
-      ],
-      "seatTypes": [
-        "...................",
-        "..CW.WCSSSCW.WC....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..DD.DDD.DD.DDD.D..",
-        "..DD.DDD.DD.DDD.D..",
-        "..SSSSS.SSSSSSSSSS."
-      ]
-    },
-    "15312": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...................",
-        "....CW.WCSSSCW.WC..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "15313": {
       "totalRows": 10,
       "totalColumns": 19,
@@ -4625,62 +4563,6 @@
       "date": "2026-09-29",
       "movies": [
         {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "21:00",
-              "formats": [
-                "3D",
-                "D-BOX",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15311&a=0000000004&l=9121&m=forgotten-island&ss=False",
-              "seats": [
-                "...................",
-                "..??.??AAA??.??....",
-                "..AAAAAAAAAAAAA....",
-                "..?AAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAOOOOOAAAA....",
-                "..AAAAAAOOAAAAA....",
-                "..AAAOAAOOAAAAAAA..",
-                "..?AAAAOOOOAAAAAA..",
-                "..OO.AA?.??.?OA.A..",
-                "..?A.AOA.AO.OAA.A..",
-                "..AAAA?.?OAAAAAAAA."
-              ],
-              "layoutKey": "15311"
-            },
-            {
-              "time": "21:00",
-              "formats": [
-                "3D",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15311&a=0000000001&l=9121&m=forgotten-island&ss=False",
-              "seats": [
-                "...................",
-                "..??.??AAA??.??....",
-                "..AAAAAAAAAAAAA....",
-                "..?AAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAOOOOOAAAA....",
-                "..AAAAAAOOAAAAA....",
-                "..AAAOAAOOAAAAAAA..",
-                "..?AAAAOOOOAAAAAA..",
-                "..OO.AA?.??.?OA.A..",
-                "..?A.AOA.AO.OAA.A..",
-                "..AAAA?.?OAAAAAAAA."
-              ],
-              "layoutKey": "15311"
-            }
-          ]
-        },
-        {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
           "runtimeMinutes": 94,
@@ -4695,14 +4577,14 @@
               "seats": [
                 "...................",
                 "...AA.AAAAAAAA.AA..",
-                "...AAAAAAOO?AAAAA..",
-                "...AAAAOOOOOOAAAA..",
-                "...OOOOOOOOOOOOAA..",
+                "...OOOOOOOO?AAOOO..",
+                "...OOOOOOOOOOOAOA..",
+                "...OOOOOOOOOOOOOO..",
                 "...OOOO?OOOOOOOOA..",
                 "...OOOOOOOOOOOOOO..",
                 ".AOOOOOOOOOOOOOOO..",
                 ".OOOOOOOOOOOOOOOO..",
-                ".OOOOOOO?OOOOOOOOO."
+                ".OOAOOOO?OOOOOOOOO."
               ],
               "layoutKey": "15313"
             }
@@ -4726,44 +4608,14 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
+                "..AAAOOAOOAAAAA....",
                 "..AAAAAAOOAAAAA....",
                 "..AAAAAAOOAAAAAAA..",
-                "..AAAAAAOOOAOOAAA..",
+                "..AAOOOOOOOAOOAAA..",
                 "..AAOAAAOOAAOOAAA..",
                 "..AAAAAA????OOAAOO."
               ],
               "layoutKey": "15314"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "21:20",
-              "formats": [
-                "3D",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15312&a=0000000001&l=9121&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...................",
-                "....??.??AAA??.??..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAOOAAAAAA..",
-                "..AAOAAAAOOAAAAAA..",
-                "..AAAOAAAOOAAAAOO..",
-                "..AAAAAAOOOAAAAAA..",
-                "AAAAAOOAAOAAAOOAAA?"
-              ],
-              "layoutKey": "15312"
             }
           ]
         }
@@ -4995,7 +4847,7 @@
                 "...AAAAAAOOAAAAAO..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAOOAAAAAA..",
-                ".AAAAAAA?AAAAAAAAA."
+                ".AAAAAAA?AAAAAAOOO."
               ],
               "layoutKey": "15326"
             }
@@ -5577,7 +5429,7 @@
                 "...AAAAAAOOAAAAAA..",
                 ".AAAAAAAOOOAAAAAA..",
                 ".AAAAAAAOOOOAAAAA..",
-                "OOAAAAAAA?AAAAAAAAA"
+                "OOAAAAAAA?OAAAAAAAA"
               ],
               "layoutKey": "15336"
             }
@@ -5856,7 +5708,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAA?AAAAAAAAA..",
-                "...AOOAAAAAAAAAAA..",
+                "...AAAAAAOOAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 ".AAAAAAA?AAAAAAAAA."
@@ -6039,7 +5891,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAOOOAAAAAAA..",
+                "..OOAAAOOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAA????AAAAAA."
@@ -6619,7 +6471,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAA..",
                 "..AAAAAA????AAAAAA."
               ],
               "layoutKey": "15390"
