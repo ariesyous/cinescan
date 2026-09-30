@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T21:14:35.133Z",
+  "updatedAt": "2026-09-30T21:49:56.556Z",
   "theatre": {
     "id": 4113,
     "name": "Galaxy Cinemas Moose Jaw"
@@ -509,40 +509,6 @@
         "SSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "129572": {
-      "totalRows": 13,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "......................",
-        "....SSSSSSSSSSSSSS....",
-        "......................",
-        ".....WCSSCWWCSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "129573": {
       "totalRows": 13,
       "totalColumns": 22,
@@ -775,36 +741,6 @@
         "...SSSSSSSSSSSSSS..SS",
         "...SSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "129583": {
-      "totalRows": 11,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "................",
-        ".....WCSSSCW....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS..SS",
-        "..SSSSSSSSSS..SS",
-        "..SSSSSSSSSS..SS",
-        "..SSSSSSSSSS....",
-        "SSSSSSSSSSSSSS.."
       ]
     },
     "129584": {
@@ -3109,11 +3045,11 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAA...",
-                "AA...AAAAAAAAAAAAAA...",
+                "AA...AAAAAAOAAAAAAA...",
+                "AA...AOAAAAAAOOAAAA...",
                 "AA..AAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAA?..",
-                "AAAAAAAAAAAAAAAAAAAAAA"
+                "AA..AAAAAOOAAAAAAAA?..",
+                "AAAAAAAAAAAAOAAAAAAAAA"
               ],
               "layoutKey": "129584"
             },
@@ -3215,7 +3151,7 @@
                 "...AAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAA....",
                 "....AAAAAAAAAAAAAAAA...AA",
-                "....AAAAAAAAAAAAAAAA...AA",
+                "....AAOOAAAAAAAAAAOO...AA",
                 "...AAAAAAAAAAAAAAAAAA..AA",
                 "...AAAAAAAAAAAAAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -3240,7 +3176,7 @@
                 "...AAAAAAAAAAAAAAA..AA",
                 "...AAAAAAAOOOAAAAA..AA",
                 "...AAAAAAAAAAAAAAA..?A",
-                "...AAAAAAAAAAAAAAA..AA",
+                "...AAAAAAAOOAAAAAA..AA",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "129573"
@@ -3252,27 +3188,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
           "runtimeMinutes": 130,
           "sessions": [
-            {
-              "time": "15:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129583&a=0000000001&l=4113&m=practical-magic-2&ss=False",
-              "seats": [
-                "................",
-                ".....AAAAAAA....",
-                "..AAAAAAAAAA....",
-                "..AAAAAAAAAA....",
-                "..AAAAAAAAAA....",
-                "..AAAAAAAAAA....",
-                "..AAAAAOOAAA..AA",
-                "..AAAAAAAAAA..AA",
-                "..AAAAAAAAOO..AA",
-                "..AAAAAAAAAA....",
-                "AAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "129583"
-            },
             {
               "time": "18:30",
               "formats": [
@@ -3323,36 +3238,6 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "129577"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "15:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129572&a=0000000001&l=4113&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......................",
-                "....AAAAAAAAAAAAAA....",
-                "......................",
-                ".....AAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAOOOAAAAAA..AA",
-                "...AAAAAAAAAAAAAAA..AA",
-                "...AAAAAAAOAAAAAAA..?A",
-                "...AAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAOOOOOOOAAAAAAA"
-              ],
-              "layoutKey": "129572"
             }
           ]
         }

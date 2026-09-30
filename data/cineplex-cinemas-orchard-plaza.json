@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T21:13:31.322Z",
+  "updatedAt": "2026-09-30T21:48:34.523Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -339,46 +339,6 @@
         "SSS..SSSSSSSSSS..SSS",
         "SSS..SSSCW.WCSS..SSS",
         "SCW..............SSS"
-      ]
-    },
-    "125592": {
-      "totalRows": 5,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSS..SS",
-        "CW..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS...WCSSSCW..SS"
-      ]
-    },
-    "125593": {
-      "totalRows": 7,
-      "totalColumns": 14,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSS..CW",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SS..CW..WC..CW"
       ]
     },
     "125594": {
@@ -2012,21 +1972,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "14:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125592&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
-              "seats": [
-                "AA..AAAAOOAA..AA",
-                "AA..OOA?OOOO..AA",
-                "OO..OOOOOO??..?A",
-                "?A..OOOOOOOO..OO",
-                "OO...AAOOOAA..OO"
-              ],
-              "layoutKey": "125592"
-            },
-            {
               "time": "16:45",
               "formats": [
                 "Recliner"
@@ -2036,7 +1981,7 @@
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?OOAA..AA",
                 "AA..OOOOOO??..?A",
-                "?A..OOOOAAOO..OO",
+                "?A..OOOOOOOO..OO",
                 "AA...AAOOAAA..OO"
               ],
               "layoutKey": "125588"
@@ -2049,9 +1994,9 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125594&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
               "seats": [
                 "AA..AAAAAAAA..AA",
-                "AA..OOO?OOOO..AA",
-                "AA..OOOOOO??..?A",
-                "?A..OOOOOOOO..OA",
+                "AA..OOO?OOOO..OO",
+                "OO..OOOOOO??..?A",
+                "?A..OOOOOOOO..OO",
                 "OO...AOOOOAA..OO"
               ],
               "layoutKey": "125594"
@@ -2099,7 +2044,7 @@
                 "AAA..AAAAOOOOOOAA..AAA",
                 "AAA..AAAAAA?AAAAA..AAA",
                 "AAA..AOOOOAAAAAAA..AAA",
-                "AAA...AAAAAAAAA?A..AAA",
+                "AAA...OOOAAAAAA?A..AAA",
                 "???..................."
               ],
               "layoutKey": "125584"
@@ -2120,9 +2065,9 @@
               "seats": [
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
-                "?AAAAAAAAAAAA",
+                "?AAAAOOAAAAAA",
                 "AAAAAOOOAAAOO",
-                "AOOAOOOOAAAAA",
+                "AOOAOOOOAOOAA",
                 "AAAAAOOAAAA..",
                 "AAAAA.AAAAA.."
               ],
@@ -2165,7 +2110,7 @@
                 "AAA..AAAAAAAAA?..AAA",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAA??A..AAA",
-                "AAA..AAAAAAAAAA..AAA",
+                "AAA..AAAAOOOAAA..AAA",
                 "AAA..AAAAOO?AAA..AAA",
                 "AAA..AAAAA.AAAA..AAA",
                 "???..............???"
@@ -2199,23 +2144,6 @@
           "runtimeMinutes": 172,
           "sessions": [
             {
-              "time": "14:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125593&a=0000000001&l=1410&m=the-odyssey&ss=False",
-              "seats": [
-                "AAAAA??AAAAAA?",
-                "AAAOOAAAAAAA?A",
-                "AAAAAAAOOAAAAA",
-                "AAAA?OOAAA..AA",
-                "AOOAAOAOOAAAAA",
-                "AAAOOAOAAAAOOA",
-                "AA..AA..AA..AA"
-              ],
-              "layoutKey": "125593"
-            },
-            {
               "time": "18:15",
               "formats": [
                 "Recliner"
@@ -2228,7 +2156,7 @@
                 "AAAO?OOOOO..AA",
                 "OOOAAOOAAAAOOA",
                 "OOAAAAAOOAAAAA",
-                "AA..AA..AA..AA"
+                "OO..AA..AA..AA"
               ],
               "layoutKey": "125587"
             }
@@ -2688,7 +2616,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAA?AAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAOO?AOOOO..AAA",
+                "OOO..AAAAOO?AOOOO..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA...AAAAAAAAA?A..AAA",
                 "???..................."
@@ -3119,7 +3047,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAA?AAOOOOO..AAA",
                 "AAA..AAAAAAOOAAAA..AAA",
-                "AAA..AAAAAA?AAAAA..AAA",
+                "AAA..AAAAAA?AOOOO..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA...AAAAAAAAA?A..AAA",
                 "???..................."

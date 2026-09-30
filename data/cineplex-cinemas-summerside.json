@@ -1,48 +1,10 @@
 {
-  "updatedAt": "2026-09-30T21:13:44.170Z",
+  "updatedAt": "2026-09-30T21:48:51.981Z",
   "theatre": {
     "id": 6160,
     "name": "Cineplex Cinemas Summerside"
   },
   "auditoriums": {
-    "64502": {
-      "totalRows": 15,
-      "totalColumns": 24,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        "DD",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "........................",
-        ".SSSSSSSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSSSSSSS.",
-        "........................",
-        "......WCSSSSSSSSSSSCW...",
-        "..SSSSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSSSS...",
-        "........................"
-      ]
-    },
     "64503": {
       "totalRows": 13,
       "totalColumns": 19,
@@ -72,40 +34,6 @@
         "..SSSSSSSSSSSSSS...",
         "...SSSSSSSSSSSS....",
         "...SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSSS.",
-        "..................."
-      ]
-    },
-    "64504": {
-      "totalRows": 13,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "...................",
-        ".SSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSS.",
-        "...................",
-        ".....WCSSSSSSCW....",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
         "..SSSSSSSSSSSSSS...",
         ".SSSSSSSSSSSSSSSSS.",
         "..................."
@@ -2727,65 +2655,10 @@
       "date": "2026-09-30",
       "movies": [
         {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64504&a=0000000001&l=6160&m=resident-evil-2026&ss=False",
-              "seats": [
-                "...................",
-                ".AAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAA.",
-                "...................",
-                ".....AAAAAAAAAA....",
-                "..AA???AAAAAAAAA...",
-                "..AAAAAAAOAAAAAA...",
-                "..AAAAAAOOOAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                ".AOOAAAAAAAAAAAAOO.",
-                "..................."
-              ],
-              "layoutKey": "64504"
-            }
-          ]
-        },
-        {
           "title": "Forgotten Island",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
           "runtimeMinutes": 109,
           "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64502&a=0000000001&l=6160&m=forgotten-island&ss=False",
-              "seats": [
-                "........................",
-                ".AAAAAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAAAAA.",
-                "........................",
-                "......AAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAOOOOOOOOOOAAAA...",
-                "...AAAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAOOAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAOAAAAAAAAA...",
-                "........................"
-              ],
-              "layoutKey": "64502"
-            },
             {
               "time": "19:00",
               "formats": [
@@ -2802,9 +2675,9 @@
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
+                "..AAAAAAOOAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                ".OOOOAAAAAAAA?AAAA.",
+                ".OOOOAAAAAAAA?AAOO.",
                 "..................."
               ],
               "layoutKey": "64506"
@@ -2828,13 +2701,13 @@
                 ".AAAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAAA.",
                 "...................",
-                ".....AAAAAAAAAA....",
+                ".....AAAAAOAAAA....",
                 "..AAAAAAAAAAAOOO...",
                 "..AAAAAAAOAAAAAA...",
-                "...AAAAAAAAAAAA....",
+                "...AAAAAAAAOOAA....",
                 "...AAOOOOOOAAOO....",
-                "..AAAAAAAAAAAAAA...",
-                ".AAAAAAAAAAAAAAAOO.",
+                "..AOOAAAAAAAAAAA...",
+                ".OOAAAAOOOAAAAAAOO.",
                 "..................."
               ],
               "layoutKey": "64505"
@@ -2862,8 +2735,8 @@
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAOO....",
-                "...AAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA...",
+                "...AAAAOOOAAAAA....",
+                "..AAAAAAAAAAAAOO...",
                 ".OOAAAAAA?AAAAAAAA.",
                 "..................."
               ],
