@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T11:31:23.315Z",
+  "updatedAt": "2026-10-01T17:41:11.622Z",
   "theatre": {
     "id": 3140,
     "name": "Galaxy Cinemas Medicine Hat"
@@ -7810,6 +7810,40 @@
         ".......SSSSSSSSSSSS.",
         "...................."
       ]
+    },
+    "255978": {
+      "totalRows": 13,
+      "totalColumns": 20,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        null,
+        "H",
+        "J",
+        "K",
+        null
+      ],
+      "seatTypes": [
+        "....................",
+        "..SSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSS...",
+        ".SSSSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        ".SSSSSSSSSSSSSSSS...",
+        "....................",
+        ".....WWCSSSS.SSSSSS.",
+        ".......SSSSS.SSSSSS.",
+        ".......SSSSSSSSSSSS.",
+        "...................."
+      ]
     }
   },
   "days": [
@@ -7962,7 +7996,7 @@
                 "...AAAAAAAAAAAAAA.",
                 "...AAAAAAA?AAAAA?.",
                 "...A??AA?AAAAAA?A.",
-                "...?AAAAAAAAA?AAA.",
+                "...?AAAAAOAAA?AAA.",
                 "...?AAAA?A?A?AA?A.",
                 "....AA??AA??AAAA..",
                 ".................."
@@ -8039,7 +8073,7 @@
                 ".AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
+                ".OOAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAA.",
                 "................."
@@ -8217,7 +8251,7 @@
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAOAA..",
                 "................"
               ],
               "layoutKey": "255787"
@@ -9002,7 +9036,7 @@
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAOAAA..",
                 "................"
               ],
               "layoutKey": "255840"
@@ -10169,7 +10203,7 @@
                 ".AAAAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA....",
                 "..OOOOOOOAAAAAAA....",
-                ".AAAAAAAAAAAAAAAA...",
+                ".AAAAOOOOOOOAAAAA...",
                 "....................",
                 ".....AAAAAAA.AAAAAA.",
                 ".......AAAAA.AAAAAA.",
@@ -10838,7 +10872,7 @@
                 "AAAA..AAAAAAAAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAAAAAAAA..AAAA",
                 "AAAA..?AAAAAAAAAAAAAA..AAAA",
-                "AAAA...AAAAAAAAAAAAA...AAAA",
+                "AAAA...AAAAAAOAAAAAA...AAAA",
                 "AAAA...AAAAAAAAAAAAA...AAAA",
                 "AAAA..AAAAAAAAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAAAAAAAA..AAAA",
@@ -11423,7 +11457,7 @@
                 ".AAAAAAAAAAAAAAAA...",
                 ".AAAAAAAAAAAAAAAA...",
                 ".AAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAOAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAA...",
                 "....................",
@@ -11882,6 +11916,29 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
+              "time": "13:00",
+              "formats": [
+                "Stars & Strollers"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=255978&a=0000000001&l=3140&m=verity&ss=False",
+              "seats": [
+                "....................",
+                "..AAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAA...",
+                ".AAAAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                ".AAAAAAAAAAAAAAAA...",
+                "....................",
+                ".....AAAAAAA.AAAAAA.",
+                ".......AAAAA.AAAAAA.",
+                ".......AAAAAAAAAAAA.",
+                "...................."
+              ],
+              "layoutKey": "255978"
+            },
+            {
               "time": "16:15",
               "formats": [
                 "Regular"
@@ -12118,7 +12175,7 @@
                 ".A?A?A?A?AAA?AAAA.",
                 ".AA?A?AA??AAAA?AA.",
                 ".A?AAAAA?AAAAAAAA.",
-                ".???AAAA?AAAAAAA?.",
+                ".???AAAO?AAAAAAA?.",
                 "..AAA?AA?AAAAA?AA.",
                 ".................."
               ],
@@ -12778,7 +12835,7 @@
                 ".AAAAAAAAAAAAAAAA...",
                 ".AAAAAAAAAAAAAAAA...",
                 ".AAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAOAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAA...",
                 "....................",
@@ -13097,7 +13154,7 @@
                 "AAAA..AAAAAAAAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAAAAAAAA..AAAA",
                 "AAAA..?AAAAAAAAAAAAAA..AAAA",
-                "AAAA...AAAAAAAAAAAAA...AAAA",
+                "AAAA...AAAAAAOAAAAAA...AAAA",
                 "AAAA...AAAAAAAAAAAAA...AAAA",
                 "AAAA..AAAAAAAAAAAAAAA..AAAA",
                 "AAAA..AAAAAAAAAAAAAAA..AAAA",
