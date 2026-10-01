@@ -1,84 +1,10 @@
 {
-  "updatedAt": "2026-10-01T22:17:50.727Z",
+  "updatedAt": "2026-10-01T23:06:12.805Z",
   "theatre": {
     "id": 7268,
     "name": "Galaxy Cinemas Waterloo"
   },
   "auditoriums": {
-    "276720": {
-      "totalRows": 7,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..................",
-        "..................",
-        "..SCWSSSSS.WCS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "SSSSSSSSSSSSSSSS.."
-      ]
-    },
-    "276721": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "...................",
-        "..SSSSSSSSSSSSSSS..",
-        "...................",
-        "....SCW.WCSCW.WCS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "276722": {
-      "totalRows": 8,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "..................",
-        "..................",
-        "..SCW.SSSSS.WCS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSS.."
-      ]
-    },
     "276723": {
       "totalRows": 9,
       "totalColumns": 20,
@@ -2467,7 +2393,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOOAAAAAAAA..",
                 "..AAA.AAAAO.OAAAAA.AA.."
               ],
               "layoutKey": "276727"
@@ -2491,7 +2417,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOOAAAAAAAA..",
                 "..AAA.AAAAO.OAAAAA.AA.."
               ],
               "layoutKey": "276727"
@@ -2514,11 +2440,11 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "....................",
                 "...AA..AAAAAAAA.AA..",
-                "...AAAAAAOAAAAAAAA..",
+                "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAOOAAOAAAA..",
-                "...AAAAAOOOOOAAAAA..",
-                "AAAAAAAAAOOOAAAAAAOO"
+                "...OAAAAOOOOOAAOOA..",
+                "OOAAAAAOAOOOAAOOAAOO"
               ],
               "layoutKey": "276723"
             },
@@ -2549,27 +2475,6 @@
           "runtimeMinutes": 109,
           "sessions": [
             {
-              "time": "18:30",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276721&a=0000000001&l=7268&m=forgotten-island&ss=False",
-              "seats": [
-                "...................",
-                "..AAAAAAAAAAAAAAA..",
-                "...................",
-                "....AAA.AAAAA.AAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAOOAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "276721"
-            },
-            {
               "time": "21:10",
               "formats": [
                 "3D",
@@ -2598,24 +2503,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "18:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276722&a=0000000001&l=7268&m=practical-magic-2&ss=False",
-              "seats": [
-                "..................",
-                "..................",
-                "..AAA.AAAAA.AAA...",
-                "..AAAAAAAAAAAAA...",
-                "..AAAAAOOAAAAAA...",
-                "..AAAAOOOOAAAAA...",
-                "..AAAAAAAAAAAAA...",
-                "OOOOAAAAAOAAAAAO.."
-              ],
-              "layoutKey": "276722"
-            },
-            {
               "time": "22:00",
               "formats": [
                 "Recliner"
@@ -2640,23 +2527,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276720&a=0000000001&l=7268&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..................",
-                "..................",
-                "..AAAAAAAA.AAA....",
-                "..AAAAAAAAAAAA....",
-                "..AAAAAAAAAAAA....",
-                "..AAAAAOOAAAAA....",
-                "AAAAAAAOOOOAAAAA.."
-              ],
-              "layoutKey": "276720"
-            },
             {
               "time": "21:30",
               "formats": [
@@ -2752,7 +2622,7 @@
                 "..AAAAAAAOOAAAAAAAAAA..",
                 "..AAAOOOOOOOOOAAAAAOO..",
                 "..AAOOOOOOOOOOOOOOAAA..",
-                "..AAOOAAAAOOOOOOOAAOO..",
+                "..OOOOOOOOOOOOOOOAAOO..",
                 "..OOA.AOOOO.OAAAAA.AO.."
               ],
               "layoutKey": "276772"
@@ -2775,7 +2645,7 @@
                 "..AAAAAAAOOAAAAAAAAAA..",
                 "..AAAOOOOOOOOOAAAAAOO..",
                 "..AAOOOOOOOOOOOOOOAAA..",
-                "..AAOOAAAAOOOOOOOAAOO..",
+                "..OOOOOOOOOOOOOOOAAOO..",
                 "..OOA.AOOOO.OAAAAA.AO.."
               ],
               "layoutKey": "276772"
@@ -3057,7 +2927,7 @@
                 "..................",
                 "..................",
                 "..AAAAAAAA.AAA....",
-                "..OOOOAAOOAAOO....",
+                "..OOOOAAOOAAAA....",
                 "..OOOOOOOOOOOO....",
                 "..OOAOOOOOOOOO....",
                 "OOAOOOOOOOOOOOOO.."
@@ -3074,7 +2944,7 @@
                 "..................",
                 "..................",
                 "..AAAAAAAA.AAA....",
-                "..AAAAAOOAAAAA....",
+                "..AAAOOOOAAAAA....",
                 "..OOAOOOOOOOOA....",
                 "..OOOOAOOOOOOA....",
                 "OOOOOOOOOOOOOOOA.."
@@ -3112,7 +2982,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAOOOAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAAA..",
+                "..AAAAAAAAOOAAOOAAAAA..",
                 "..AAA.AAAAA.AAAAAA.AA.."
               ],
               "layoutKey": "276743"
@@ -3135,7 +3005,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAOOOAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAAA..",
+                "..AAAAAAAAOOAAOOAAAAA..",
                 "..AAA.AAAAA.AAAAAA.AA.."
               ],
               "layoutKey": "276743"
@@ -3341,7 +3211,7 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAOOAAAAAAAA"
               ],
               "layoutKey": "276757"
             }
@@ -3567,7 +3437,7 @@
                 "..................",
                 "..AAA.AAAAA.AAA...",
                 "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
+                "..AAAAAOOOAAAAA...",
                 "..OOOOOOOOOOAAA...",
                 "..AAAAOOOOOOOOO...",
                 "OOOOOOOOOOOOOOOA.."
@@ -4142,8 +4012,8 @@
                 "..AAAAAAAA.AAA....",
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAAAAAAA....",
-                "..AAAAAOOAAAAA....",
-                "AAAAAAAOOOOAAAOO.."
+                "..AAAAAOOAAAOO....",
+                "OOOOOAAOOOOAAAOO.."
               ],
               "layoutKey": "276790"
             },
@@ -4159,7 +4029,7 @@
                 "..AAAAAAAA.AAA....",
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAAAAAAA....",
-                "..AAAOOOOOOOOO....",
+                "..AAAOOOOOOAAA....",
                 "AAAAAOOOOOOOAAAA.."
               ],
               "layoutKey": "276795"
@@ -4590,7 +4460,7 @@
                 "...AAAAAAOOAAAAAAA..",
                 "...AAAAAAOOAAAAAAA..",
                 "...AAAOOOOOOOAAAAA..",
-                "AAAAAOOOOOOOOOAAAAAA"
+                "AAAAAOOOOOOOOOOOAAAA"
               ],
               "layoutKey": "276855"
             },
