@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T17:41:03.220Z",
+  "updatedAt": "2026-10-01T21:41:40.403Z",
   "theatre": {
     "id": 7297,
     "name": "Galaxy Cinemas Chatham"
@@ -4456,6 +4456,38 @@
         ".SS..SSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSSSS"
       ]
+    },
+    "110329": {
+      "totalRows": 12,
+      "totalColumns": 23,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "seatTypes": [
+        ".......................",
+        "..SSSSSSSSSSSSSSSSSSSS.",
+        ".......................",
+        "..CWCSSSCWWCSCW.WWC....",
+        "..SSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSS....",
+        "....SSSSSSSSSSSSSSS..SS",
+        "....SSSSSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSSSSSSS..SS",
+        "SSSSSSSSSSSSSSSSSSSSSSS"
+      ]
     }
   },
   "days": [
@@ -4513,7 +4545,7 @@
                 "....AAAAAAAAAAAAAAA..AA",
                 "....AAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAOOOOOOOOOAAAAAA"
+                "AAAAAAAAOOOOOOOOOAAAAOO"
               ],
               "layoutKey": "110229"
             }
@@ -4575,11 +4607,11 @@
                 "....AAAAAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAAAAAAAAA.",
-                "AA..AAAAAAAAAAAAAAAAAA...",
+                "OO..AAAAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAAAAAA.",
                 "AA..AAAAAAAAAAAAAAAAAAAA.",
-                "AA..AAAAAAAAOOOOAAAAAAAA."
+                "AA..AAAAAAAAOOOOAAAOOAAA."
               ],
               "layoutKey": "110228"
             }
@@ -4772,7 +4804,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAAAOO..",
+                "AA..AOOOOOOAAAAAAAAAAAAAAAAAOO..",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAAA..",
@@ -4958,7 +4990,7 @@
                 "AA..AAAAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAOAAAAAAAAAAA.",
                 "AA..AAAAAAAAAAAAAAAAAAAA.",
-                "AA..AAAAAAAAAAAAAAAAAAAA."
+                "AA..AAAAAAAAOOAAAAAAAAAA."
               ],
               "layoutKey": "110235"
             },
@@ -5162,7 +5194,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAAAAA..",
-                "OO..AAAAAAAAAAAAAAAAAAAAAAAAAA..",
+                "OO..AAAAAAAAAAAOOAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA.....",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAAAOO..",
@@ -8008,6 +8040,40 @@
                 "AA..AAAAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "110144"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "movies": [
+        {
+          "title": "Fresh Meat",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62181_320_470.jpg",
+          "runtimeMinutes": 110,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=110329&a=0000000001&l=7297&m=fresh-meat&ss=False",
+              "seats": [
+                ".......................",
+                "..AAAAAAAAAAAAAAAAAAAA.",
+                ".......................",
+                "..AAAAAAAAAAAAA.AAA....",
+                "..AAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAAAA....",
+                "....AAAAAAAAAAAAAAA..AA",
+                "....AAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAAAA..AA",
+                "AAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "110329"
             }
           ]
         }

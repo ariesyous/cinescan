@@ -1,11 +1,43 @@
 {
-  "updatedAt": "2026-10-01T17:38:47.891Z",
+  "updatedAt": "2026-10-01T21:38:57.231Z",
   "theatre": {
     "id": 9153,
     "name": "Cinéma Cineplex Odeon Carrefour Dorion"
   },
   "auditoriums": {
     "192962": {
+      "totalRows": 12,
+      "totalColumns": 13,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        null,
+        null
+      ],
+      "seatTypes": [
+        ".....SSSSSSS.",
+        "..SSSSSSSSSS.",
+        ".SSSSSSSSSSS.",
+        "..SSSSSSSSSS.",
+        ".SSSSSSSSSSS.",
+        "..SSSSSSSSSS.",
+        ".SSSSSSSSSSS.",
+        "..SSSSSSSSSS.",
+        ".SSSSSSSSSSS.",
+        "......WCSSCW.",
+        ".............",
+        "............."
+      ]
+    },
+    "192963": {
       "totalRows": 12,
       "totalColumns": 13,
       "rowLabels": [
@@ -4452,7 +4484,7 @@
                 "...AAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
+                "..AAAAAAAAAOOOOOO.",
                 ".AAAAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
@@ -7584,6 +7616,40 @@
                 ".................."
               ],
               "layoutKey": "196455"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "movies": [
+        {
+          "title": "Islande à vélo - Au gré du vent – Les aventuriers voyageurs",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61369_320_470.jpg",
+          "runtimeMinutes": 100,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=192963&a=0000000001&l=9153&m=islande-a-velo-au-gre-du-vent-les-aventuriers&ss=False",
+              "seats": [
+                ".....AAAAAAA.",
+                "..AAAAAAAAAA.",
+                ".AAAAAAAAAAA.",
+                "..AAAAAAAAAA.",
+                ".AAAAAAAAAAA.",
+                "..AAAAAAAAAA.",
+                ".AAAAAAAAAAA.",
+                "..AAAAAAAAAA.",
+                ".AAAAAAAAAAA.",
+                "......AAA?AA.",
+                ".............",
+                "............."
+              ],
+              "layoutKey": "192963"
             }
           ]
         }
