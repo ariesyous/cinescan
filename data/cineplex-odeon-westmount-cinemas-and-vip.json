@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T01:43:34.255Z",
+  "updatedAt": "2026-10-01T04:32:37.268Z",
   "theatre": {
     "id": 7112,
     "name": "Cineplex Odeon Westmount Cinemas and VIP"
@@ -1558,6 +1558,28 @@
       ]
     },
     "237530": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "...............",
+        "..CWWCSSSS.....",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS.."
+      ]
+    },
+    "237549": {
       "totalRows": 7,
       "totalColumns": 15,
       "rowLabels": [
@@ -6257,7 +6279,7 @@
                 "..AAAAAAAAAAAAAA....",
                 "..OOOOOOAAOAAAOO....",
                 "..AAAOOOOOOOAAOO....",
-                "..OOOOOOOOOOOOOAAOO."
+                "..OOOOOAAOOOOOOAAOO."
               ],
               "layoutKey": "237474"
             },
@@ -6274,7 +6296,7 @@
                 "..AAAAAAAAAAA..",
                 "..?AAAAAAAAAA..",
                 "..AAAAAA?AA?A..",
-                "..AOOOAAAAAAA..",
+                "..AAAAAAAAAAA..",
                 "..AAAAOOAAAAA.."
               ],
               "layoutKey": "237530"
@@ -6794,7 +6816,7 @@
                 "...AAA.AAAA.AAAAAAAAA...",
                 "...????AAAAAAAAAAAAAA...",
                 "...AAAAAAAAOOAAAAAAAA...",
-                "...AAAAAAAOOOAAAAOOOO...",
+                "...AAAAAOOOOOAAAAOOOO...",
                 "...OOAAOOOOOOOOOOOOOO...",
                 "...OAOOOOAOOOOOOOAAOO...",
                 "OOOOOOOOOOOOOOOOOAAAOO.."
@@ -7037,7 +7059,7 @@
                 "..AAAAA.AAAAAA.....",
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA.....",
-                "..AAOOOOAAAAAA.....",
+                "..AAOOOOOOAAAA.....",
                 "..OOOOOOOOOOAA.....",
                 "..AAOOAA?AAAOO..???"
               ],
@@ -7210,7 +7232,7 @@
                 "..AAAAAAAA",
                 "..AAAAAAAA",
                 "..AAAAAAAA",
-                "??AA?OOOOO"
+                "??OO?OOOOO"
               ],
               "layoutKey": "237751"
             },
@@ -7557,7 +7579,7 @@
                 "...AAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAOOAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAA...",
+                "...AAAAAAAAAOAAAAAAAA...",
                 "AAAAAAAAAAOOOOAAAAAAAA.."
               ],
               "layoutKey": "237587"
@@ -7577,7 +7599,7 @@
                 "...OOAAAAAAAAAAAAAAAA...",
                 "...AAAAOOAAOOAAOOAAAA...",
                 "...OOAAAAAOOOAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAOO.."
+                "AAAAAAAAAAAOOAAAAAAAOO.."
               ],
               "layoutKey": "237586"
             },
@@ -7748,7 +7770,7 @@
                 "....................",
                 "..AAAAAA.AAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAOOAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAOOAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA."
@@ -7887,7 +7909,7 @@
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAOOAAAAA.....",
-                "..AAAAAA?OOAAA..???"
+                "..AAAAOO?OOAAA..???"
               ],
               "layoutKey": "237608"
             },
@@ -8758,7 +8780,7 @@
                 "..AAAAA.AAAAAA.....",
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAA.....",
+                "..AAAAAOOAAAAA.....",
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAA?AAAAA..???"
               ],
@@ -8810,7 +8832,7 @@
                 "..AAAAA.AAAAAA.....",
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA.....",
-                "..AAAAAAAAAAAA.....",
+                "..AAAAAAOAAAAA.....",
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAA?AAAAA..???"
               ],
@@ -9758,8 +9780,8 @@
                 "...AAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAOOOOAAAAAAA...",
                 "...OOAAAAAOOOOOAOOOOO...",
-                "...OOAAOOAAOOAAAAAAAA...",
-                "AAAAAAAAAAAOOAAAAAAAAA.."
+                "...OOAAOOAAOOAAOOAAAA...",
+                "AAAAAAAAAOOOOAAAAAAAAA.."
               ],
               "layoutKey": "237698"
             },
@@ -11814,6 +11836,36 @@
                 ".....AAAAAAAAAAAAAAA......"
               ],
               "layoutKey": "237291"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "movies": [
+        {
+          "title": "Sense and Sensibility",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60481_320_470.jpg",
+          "runtimeMinutes": 132,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237549&a=0000000001&l=7112&m=sense-and-sensibility-2026&ss=False",
+              "seats": [
+                "...............",
+                "..AAAAAAAA.....",
+                "..AAAAAAAAAAA..",
+                "..AAAAAOAAAAA..",
+                "..AAAAOOOAAAA..",
+                "..AAAAOOAAAAA..",
+                "..AAAAAAAAAAA.."
+              ],
+              "layoutKey": "237549"
             }
           ]
         }
