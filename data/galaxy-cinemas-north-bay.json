@@ -1,110 +1,10 @@
 {
-  "updatedAt": "2026-10-01T23:06:06.445Z",
+  "updatedAt": "2026-10-01T23:51:34.191Z",
   "theatre": {
     "id": 7265,
     "name": "Galaxy Cinemas North Bay"
   },
   "auditoriums": {
-    "167802": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "......................",
-        "..SSSSSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSS...",
-        "......................",
-        "..SSSCW......WCSSCW...",
-        ".....SSSSSSSSSSSSSS...",
-        ".....SSSSSSSSSSSSSS...",
-        ".....SSSSSSSSSSSSSS...",
-        ".....SSSSSSSSSSSSSS...",
-        ".....SSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "167804": {
-      "totalRows": 14,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        ".......................",
-        "......SSSSSSSSSSSS.....",
-        "....SSSSSSSSSSSSSSSSSSS",
-        ".......................",
-        "....SSSCW....WCSSSSCW..",
-        "....SSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSS...",
-        "SS..SSSSSSSSSSSSSSSS...",
-        "SS..SSSSSSSSSSSSSSSS...",
-        "SS..SSSSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "167805": {
-      "totalRows": 13,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "......................",
-        ".SSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSS..",
-        "......................",
-        "....SSSCW...WCSSCW....",
-        "....SSSSSSSSSSSSSS....",
-        "....SSSSSSSSSSSSSS....",
-        "....SSSSSSSSSSSSSS....",
-        "....SSSSSSSSSSSSSS....",
-        "....SSSSSSSSSSSSSS....",
-        "SSSSSSSSSSSSSSSSSSSSSS",
-        "......................"
-      ]
-    },
     "167821": {
       "totalRows": 11,
       "totalColumns": 21,
@@ -3530,100 +3430,6 @@
   },
   "days": [
     {
-      "date": "2026-10-01",
-      "movies": [
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "19:10",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167804&a=0000000001&l=7265&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".......................",
-                "......AAAAAAAAAAAA.....",
-                "....AAAAAAAAAAAAAAAAAAA",
-                ".......................",
-                "....AAAAA....AAAAAAAA..",
-                "....AAAAAAAOOOAAAAAA...",
-                "....AAAAAAAAAAAAAAAA...",
-                "....AAAAAAAOAAAAAAAA...",
-                "....AAAAAAOOAAOAAAAA...",
-                "....AAAAAOOOOOAAAAAA...",
-                "AA..AAAAAAOOAAAAAAAA...",
-                "AA..AAAAAAOOOAAAOOAA...",
-                "AA..AAAAAAAAAAAAAAAA...",
-                "AAAAAAOOAAOOAAAAAAAAAA."
-              ],
-              "layoutKey": "167804"
-            }
-          ]
-        },
-        {
-          "title": "Heart of the Beast",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 101,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167802&a=0000000001&l=7265&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAA...",
-                "......................",
-                "..AAAAA......AAAAAA...",
-                ".....OOAAAAAAAAAAAO...",
-                ".....AAAAOAAOOOOOAA...",
-                ".....AAOOAAAAAOOAAA...",
-                ".....OOOOAAOOAOOAOO...",
-                ".....OOOOOOOAAOOAAA...",
-                ".AOOAAOOAAOOAOOAAOOOA."
-              ],
-              "layoutKey": "167802"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "18:50",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167805&a=0000000001&l=7265&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "......................",
-                ".???????????????????..",
-                ".???????????????????..",
-                ".???????????????????..",
-                "......................",
-                "....?????...??????....",
-                "....??????????????....",
-                "....??????????????....",
-                "....??????????????....",
-                "....??????????????....",
-                "....??????????????....",
-                "??????????????????????",
-                "......................"
-              ],
-              "layoutKey": "167805"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-10-02",
       "movies": [
         {
@@ -5988,7 +5794,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAA..",
                 ".........................",
                 ".....AAAAAAA..AAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAOOAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAOOAAAAAAAAAAAA....",
@@ -6015,7 +5821,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAA..",
                 ".........................",
                 ".....AAAAAAA..AAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAOOAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAOOAAAAAAAAAAAA....",
