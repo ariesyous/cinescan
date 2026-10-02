@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T01:53:36.000Z",
+  "updatedAt": "2026-10-02T04:24:10.638Z",
   "theatre": {
     "id": 7269,
     "name": "Cineplex Cinemas Cambridge"
@@ -631,8 +631,8 @@
         ".........................."
       ]
     },
-    "223171": {
-      "totalRows": 9,
+    "223198": {
+      "totalRows": 10,
       "totalColumns": 22,
       "rowLabels": [
         null,
@@ -643,23 +643,25 @@
         "E",
         "F",
         "G",
+        "H",
         null
       ],
       "seatTypes": [
         "......................",
-        ".......SSSSSSSS.......",
+        "......SSSSSSSSSSS.....",
+        "....SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "...SSCWCCWWCCWCSSSS...",
+        "....CWCCWWCCWWCCWSS...",
         "......................"
       ]
     },
-    "223175": {
-      "totalRows": 9,
-      "totalColumns": 26,
+    "223199": {
+      "totalRows": 10,
+      "totalColumns": 22,
       "rowLabels": [
         null,
         "A",
@@ -669,18 +671,48 @@
         "E",
         "F",
         "G",
+        "H",
         null
       ],
       "seatTypes": [
-        "..........................",
-        "...SSSSSSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "........CWCCWWCCWCCWCSSS..",
-        ".........................."
+        "......................",
+        "......SSSSSSSSSSS.....",
+        "....SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "....CWCCWWCCWWCCWSS...",
+        "......................"
+      ]
+    },
+    "223200": {
+      "totalRows": 10,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        "......................",
+        "......SSSSSSSSSSS.....",
+        "....SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "....CWCCWWCCWWCCWSS...",
+        "......................"
       ]
     },
     "223216": {
@@ -4076,64 +4108,6 @@
   },
   "days": [
     {
-      "date": "2026-10-01",
-      "movies": [
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "21:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223175&a=0000000001&l=7269&m=resident-evil-2026&ss=False",
-              "seats": [
-                "..........................",
-                "...??AAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAOAAAA..",
-                "...AAAAAAAAOOOOAAAAAAAAA..",
-                "...AAAAAOOAAOOAAOOAAAAAA..",
-                "...OOOOAAAAAOOAAOOAAOOAA..",
-                "........AAAAAAAAAAAAAAAA..",
-                ".........................."
-              ],
-              "layoutKey": "223175"
-            }
-          ]
-        },
-        {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "21:45",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223171&a=0000000001&l=7269&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                ".......AAAAAAAA.......",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAA...",
-                "......................"
-              ],
-              "layoutKey": "223171"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-10-02",
       "movies": [
         {
@@ -4154,8 +4128,8 @@
                 "...AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAOOAAAAOOAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAA..",
+                "..AAAAOOAAOOAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA...",
                 "......................"
               ],
@@ -4171,7 +4145,7 @@
                 "......................",
                 "......AAAAAAAAAAA.....",
                 "....AAAAAAAAAAAAAA....",
-                "...OOAAAAAAAAAAAAAOO..",
+                "...OOAAAAAAAAAAAOOOO..",
                 "..AOOOOOOOOOOOOOOOOO..",
                 "..OOAOOOOOOOOOOOOAOO..",
                 "..OOOOOOOOOOOOOOOOOA..",
@@ -4220,7 +4194,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAOOOOOOAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAOOAAAAAAAAAA..",
                 "...AAAAAAAAAOOAAAAAAAAAA..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
@@ -4483,11 +4457,11 @@
                 "...???AAAAAAAAA...",
                 "....AAAAAAAAAA....",
                 "...AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAA..",
+                "..AAAOOOAAAAAAAA..",
                 "..OOOAAAOOOOAAAA..",
                 "..AOOOOOOOOOOOOA..",
-                "..AAOOOOOOOOAAAA..",
-                "...AAAAAAAAAAAA...",
+                "..AAOOOOOOOOOOAA..",
+                "...AAAAAAAAAAAO...",
                 ".................."
               ],
               "layoutKey": "223228"
@@ -4502,7 +4476,7 @@
                 "..................",
                 "...???AAAAAAAAA...",
                 "....AOOOOOAAOO....",
-                "...AOOAOOOOAOOOO..",
+                "...AOOAOOOOOOOOO..",
                 "..OOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOO..",
@@ -4595,7 +4569,7 @@
                 "......AAAAAAAAAAA.....",
                 "....AAAAAAAAAAAAAA....",
                 "...AAAAOOOAAAAAAAAAA..",
-                "..AAAAOOOOOOOOAAAAAA..",
+                "..AAAAOOOOOOOOOOAAAA..",
                 "..OOOOOOOOOOOOOOAAOO..",
                 "..OOOOOOOOOOOAOOOOOO..",
                 "..AOOOOOOOOOOOOOOOOA..",
@@ -4964,7 +4938,7 @@
                 "....AAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAOAAAAAAAA..",
                 "..OOOAAAAAAAAAAOAAAA..",
                 "..AAAAAAOOOOOAAAAAAA..",
                 "....AAAAAAAAAAAAAAA...",
@@ -4991,7 +4965,7 @@
                 "....AAAAAAAAAA....",
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
-                "..AAAAAAOOOAAAAA..",
+                "..AAOOOOOOOOOAAA..",
                 "..AAAAOOOOOAOOOO..",
                 "..OOOOOOOOOOAAAA..",
                 "...AAAAAAAAAAOO...",
@@ -5010,7 +4984,7 @@
                 "...???AAAAAAAAA...",
                 "....AAAAAAAAAA....",
                 "...AAAAAAAAAAAAA..",
-                "..AAAAAOOOOOOAAA..",
+                "..AAOOOOOOOOOAAA..",
                 "..OOOOOOOOOOOOOA..",
                 "..OOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOAO..",
@@ -5034,7 +5008,7 @@
                 "..OOOOOOOOOOOOOO..",
                 "..AOOOOOOOOOOOOO..",
                 "..AOOOOOOOOOOOOO..",
-                "...AAAOOAOOAAOO...",
+                "...AAAOOAOOAOOO...",
                 ".................."
               ],
               "layoutKey": "223274"
@@ -5112,7 +5086,7 @@
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAA..",
                 "..AAAAAAOAAOOAAAAAAA..",
-                "..AAAAAAAOOOOOAAAAOO..",
+                "..AAOOAAAOOOOOAAAAOO..",
                 "....AAAAAAAAAAAAAAA...",
                 "......................"
               ],
@@ -5132,7 +5106,7 @@
                 "..AAAAAAAAOOAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAAAA..",
                 "..AAAAOOOOOOOOOOOOAA..",
-                "..AAAAOOAAOOAAAAAAAA..",
+                "..AAAAOOAAOOAAAAAAOO..",
                 "....AAAAAAAAAAAAAAA...",
                 "......................"
               ],
@@ -5152,7 +5126,7 @@
                 "..AAAAAAAAOOOAAAAAAA..",
                 "..OOAAAAAAOOOOAAAAAA..",
                 "..AOOOOOOOOOOAAAAAOO..",
-                "..AAAAAAAAAAOOAAAAAA..",
+                "..OOAAOOAAAAOOAAAAAA..",
                 "....AAAAAAAAAAAAAAA...",
                 "......................"
               ],
@@ -5559,7 +5533,7 @@
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAOOOOAAA..",
-                "..AAAAAAAOOAAAAA..",
+                "..OOOOOOOOOAAAAA..",
                 "..AAAOOOOOOAAOOO..",
                 "...AAAAAAAAAAOO...",
                 ".................."
@@ -5578,7 +5552,7 @@
                 "....AAAAAAAAAA....",
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAOOOOAAAAA..",
-                "..AAAAOOOOOAAAAA..",
+                "..AAAAOOOOOOOOOA..",
                 "..AAOOOOOOOOOOAA..",
                 "..AOOOOOOOOOOAOO..",
                 "...AAAAAAAAAAOA...",
@@ -5597,8 +5571,8 @@
                 "...???AAAAAAAAA...",
                 "....AAAAAAAAAA....",
                 "...AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAA..",
-                "..AAAOOOOOOOOOAA..",
+                "..AAAAAOOOAAAAAA..",
+                "..AOOOOOOOOOOOAA..",
                 "..AAOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOO..",
                 "...AAAAAAAAAOOO...",
@@ -5670,7 +5644,7 @@
                 "....AAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAOOOOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAA...",
@@ -5903,7 +5877,7 @@
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAA..",
+                "..AAAAAOOOOAAAAA..",
                 "..AAAAAOOOAAAAAA..",
                 "...AAAAAAAAAAAA...",
                 ".................."
@@ -6284,7 +6258,7 @@
                 "...???AAAAAAAAA...",
                 "....AAAAAAAAAA....",
                 "...AAAAAAAAAAAAA..",
-                "..AAAAAAOOOOOOOA..",
+                "..AAAOOOOOOOOOOA..",
                 "..OOAOOOOOOOOAAA..",
                 "..OOOOOOOOOOOOOO..",
                 "..AOOOOOOOOOOOOO..",
@@ -6305,9 +6279,9 @@
                 "....AAAAAAAAAA....",
                 "...AAAAAAAAAAAAA..",
                 "..AAAOOOOOOOOAAA..",
-                "..AAAAAAOOOOAAAA..",
                 "..AAAOOOOOOOOOAA..",
-                "..AAOOOOOOOOOOOO..",
+                "..AAAOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOO..",
                 "...AAAAAAAAAAAA...",
                 ".................."
               ],
@@ -6643,7 +6617,7 @@
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAOAAOOOAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAA..",
+                "..AAAAAAAAOOAAOOAAAA..",
                 "....AAAAAAAAAAAAAAA...",
                 "......................"
               ],
@@ -6907,7 +6881,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAOOOOAAAAAAAAA..",
                 "...AAAAAAAAAOOAAAAAAAAOO..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
@@ -7439,6 +7413,78 @@
                 ".........................."
               ],
               "layoutKey": "222944"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "movies": [
+        {
+          "title": "Whalefall",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38472_320_470.jpg",
+          "runtimeMinutes": 106,
+          "sessions": [
+            {
+              "time": "16:10",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223198&a=0000000001&l=7269&m=whalefall&ss=False",
+              "seats": [
+                "......................",
+                "......AAAAAAAAAAA.....",
+                "....AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA...",
+                "......................"
+              ],
+              "layoutKey": "223198"
+            },
+            {
+              "time": "19:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223199&a=0000000001&l=7269&m=whalefall&ss=False",
+              "seats": [
+                "......................",
+                "......AAAAAAAAAAA.....",
+                "....AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..OOAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAOO..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA...",
+                "......................"
+              ],
+              "layoutKey": "223199"
+            },
+            {
+              "time": "21:40",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223200&a=0000000001&l=7269&m=whalefall&ss=False",
+              "seats": [
+                "......................",
+                "......AAAAAAAAAAA.....",
+                "....AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA...",
+                "......................"
+              ],
+              "layoutKey": "223200"
             }
           ]
         }

@@ -1,101 +1,11 @@
 {
-  "updatedAt": "2026-10-02T01:53:59.138Z",
+  "updatedAt": "2026-10-02T04:24:41.598Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
   },
   "auditoriums": {
     "123761": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS...SSSSCWWCSSS..SSS",
-        "SCW..................."
-      ]
-    },
-    "125568": {
-      "totalRows": 7,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSCW",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSS..",
-        "SSSCW.WCSSS.."
-      ]
-    },
-    "125569": {
-      "totalRows": 5,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSS..SS",
-        "CW..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS...WCSSSCW..SS"
-      ]
-    },
-    "125570": {
-      "totalRows": 7,
-      "totalColumns": 14,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSS..CW",
-        "SSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSS",
-        "SS..CW..WC..CW"
-      ]
-    },
-    "125572": {
       "totalRows": 10,
       "totalColumns": 22,
       "rowLabels": [
@@ -1728,109 +1638,6 @@
   },
   "days": [
     {
-      "date": "2026-10-01",
-      "movies": [
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "19:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125569&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
-              "seats": [
-                "AA..AAAAAAAA..AA",
-                "AA..OOO?OOOO..AA",
-                "AA..AOOOOO??..?A",
-                "?A..OOOOOOOO..OO",
-                "OO...AAAOOAA..OO"
-              ],
-              "layoutKey": "125569"
-            }
-          ]
-        },
-        {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "18:45",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125572&a=0000000001&l=1410&m=forgotten-island&ss=False",
-              "seats": [
-                "A??..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAOOOOAAAA..AAA",
-                "AAA..AAAA?AOOAAAA..AAA",
-                "AAA..AAAAAOOOOAAA..AAA",
-                "AAA..AOAAAA?AAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA...AAAAAAAAA?A..AAA",
-                "???..................."
-              ],
-              "layoutKey": "125572"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "19:05",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125568&a=0000000001&l=1410&m=practical-magic-2&ss=False",
-              "seats": [
-                "AAA??AAAAAAAA",
-                "AA?AAAAAA?A??",
-                "?AAOOOOOOAAAA",
-                "AAAOOOOOOOAAA",
-                "OOOOOOOOOOAAA",
-                "OOOAAOAAAOO..",
-                "OOAAA.AAA?A.."
-              ],
-              "layoutKey": "125568"
-            }
-          ]
-        },
-        {
-          "title": "The Odyssey",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37617_320_470.jpg",
-          "runtimeMinutes": 172,
-          "sessions": [
-            {
-              "time": "18:55",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125570&a=0000000001&l=1410&m=the-odyssey&ss=False",
-              "seats": [
-                "AAAAA??AAAAAA?",
-                "AAAAAAAAAAAA?A",
-                "AAAAAAAAAAAAAA",
-                "AAAA?AOAOO..AA",
-                "AAAAAOOAAAAAAA",
-                "AAAOAAAOOAAAAA",
-                "AA..AA..AA..AA"
-              ],
-              "layoutKey": "125570"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-10-02",
       "movies": [
         {
@@ -1851,7 +1658,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAA?AAAAAAA..AAA",
                 "AAA..OOAAAAOOAAAA..AAA",
-                "AAA..AAAAAA?AAAAA..AAA",
+                "AAA..AAAAOO?AAOOO..AAA",
                 "AAA..AAAAOOAAOOAA..AAA",
                 "AAA...AAAAAAAAA?A..AAA",
                 "???..................."
@@ -1868,12 +1675,12 @@
                 "A??..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..OOOOAOOOOOOO..AOO",
-                "AAA..OOOAOOOOOAOO..OOO",
+                "OOO..OOOAOOOOOAOO..OOO",
                 "AAA..OOOO?OOOOOOO..OOA",
                 "AOO..OOOOOOAOOOOA..OOA",
                 "AOO..OOOOOO?OOOOO..OOA",
                 "AOO..OOOOOOOOOOOO..OOA",
-                "AAA...OOOAAAAAA?A..AAA",
+                "AOO...OOOAAAAAO?O..OOA",
                 "???..................."
               ],
               "layoutKey": "125619"
@@ -1891,9 +1698,9 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAA?AAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAA?AAAAA..AAA",
-                "AAA..AAAAAAOOAAAA..AAA",
-                "AOO...AAAAAAAAA?A..AAA",
+                "AAA..AAAAOO?AAOOO..AAA",
+                "AAA..AAOOAAOOAAAA..AAA",
+                "AOO...OOOAAAAAA?A..AAA",
                 "???..................."
               ],
               "layoutKey": "125620"
@@ -1917,7 +1724,7 @@
                 "?AAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAAAOOAAAAAA",
-                "AAAAAAAAAAA..",
+                "AAAAAAAOOAA..",
                 "AAAAA.AAA?A.."
               ],
               "layoutKey": "125610"
@@ -1992,7 +1799,7 @@
                 "AAAAAAAAAAAA?A",
                 "AAAAAAAAAAAAAA",
                 "AAAA?AAAAA..AA",
-                "AAAAAAAAAAAAAA",
+                "OOOOOOOAAAAAAA",
                 "AAAAAAAAAAAAAA",
                 "AA..AA..AA..AA"
               ],
@@ -2105,7 +1912,7 @@
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA?..AAA",
                 "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAA??A..AAA",
+                "AAA..AAAAOOA??A..AAA",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAA?AAA..AAA",
                 "AAA..AAAAA.AAAA..AAA",
@@ -2174,7 +1981,7 @@
                 "AAA..AAAA?OOOAAAA..AAA",
                 "AAA..OOAAOOOOAOOO..AAA",
                 "AAA..OOOOOO?AOOAA..AAA",
-                "AAA..AAAAOOOOAAAA..AAA",
+                "AAA..AAAAOOOOOOOO..AAA",
                 "AOO...AOOAAAAAA?A..AAA",
                 "???..................."
               ],
@@ -2328,7 +2135,7 @@
                 "AAAAAAAAAAAA?A",
                 "AAAAAAAAAAAAAA",
                 "AAAA?AAAAA..AA",
-                "AAAAAAAAAAAAAA",
+                "AAAAAAAAAOOAAA",
                 "AOOAAAAAAAAAAA",
                 "AA..AA..AA..AA"
               ],
@@ -2440,7 +2247,7 @@
                 "AAA..AAAAAAAAAA..???",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA?..AAA",
-                "AAA..AAAAAAAAAA..AAA",
+                "AAA..AAAAOOAAAA..AAA",
                 "AAA..AAAAAAA??A..AAA",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAA?AAA..AAA",
@@ -2608,7 +2415,7 @@
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
-                "AAAAAAAAAAAAA",
+                "AAAAAAAAAAAOO",
                 "AAAAAAAAAAAAA",
                 "AAAAAAAAAAA..",
                 "AAAAA.AAA?A.."
@@ -2828,7 +2635,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAA?AAAAAAA..AAA",
+                "AAA..AAAA?OOOAAAA..AAA",
                 "AAA..AAAAAOOOAAAA..AAA",
                 "AAA..AAAAAA?AAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
