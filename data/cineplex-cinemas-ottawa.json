@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T21:10:58.402Z",
+  "updatedAt": "2026-10-02T21:44:47.812Z",
   "theatre": {
     "id": 7424,
     "name": "Cineplex Cinemas Ottawa"
@@ -6117,36 +6117,6 @@
         "...SSSSSSSSSSSSS..."
       ]
     },
-    "340037": {
-      "totalRows": 11,
-      "totalColumns": 23,
-      "rowLabels": [
-        "AA",
-        "BB",
-        "CC",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "....SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        ".......................",
-        "....SSSSCWWCCWWC.......",
-        "...SSSSSSSSSSSSSS......",
-        "...SSSSSSSSSSSSS.......",
-        "....SSSSSSSSSSSS.......",
-        ".....SSSSSSSSSSS.......",
-        "......SSSSSSSSSS.......",
-        ".....SSSSSSSSSSSSS....."
-      ]
-    },
     "340038": {
       "totalRows": 9,
       "totalColumns": 19,
@@ -12193,7 +12163,7 @@
               "seats": [
                 ".?AAAAAAAAAAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAAAAAAAAAO.",
                 "...........................",
                 "......OOOOAAAOOAAAAAAA.....",
                 ".....OOOOOOOOOOOOOOOOOOO...",
@@ -12218,8 +12188,8 @@
                 "...........................",
                 "......AAAAAAAAAAAAAAAA.....",
                 ".....AAAAAAAAAAAAAAAAAAA...",
-                "......AAOOAAAOOAAAAAAAA....",
-                "......OOAAOOOOOOOOOOOO.....",
+                "......AAOAAAAOOAAAAAAAA....",
+                "......OOOOOOOOOOOOOOOO.....",
                 ".......OOOOOOOOOOOOOOO.....",
                 "........AOOOOOOO?AOOOO.....",
                 ".......OOOOOOOOOOOOOOOO...."
@@ -12284,28 +12254,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "17:10",
-              "formats": [
-                "ScreenX",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=340037&a=0000000001&l=7424&m=resident-evil-2026&ss=False",
-              "seats": [
-                "....???????????????....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                ".......................",
-                "....AAAAAAAAAAAA.......",
-                "...AAAAAAOOOAAAAA......",
-                "...OOAAAAAOOAAAA.......",
-                "....AAAAAOOOAAAA.......",
-                ".....AAAAAOOAAAA.......",
-                "......AAAAOOAAAA.......",
-                ".....AAAAAOOAAAAAA....."
-              ],
-              "layoutKey": "340037"
-            },
-            {
               "time": "19:10",
               "formats": [
                 "Recliner"
@@ -12340,8 +12288,8 @@
                 "....AAAAAAAAAAAA.......",
                 "...AAAAAAAAAAAAAA......",
                 "...AAAAAAAAAAAAA.......",
-                "....AAAAAOOOOOAA.......",
-                ".....OOAAOOOAAAA.......",
+                "....AAOOOOOOOOAA.......",
+                ".....OOAAOOOAOOO.......",
                 "......AAAOOOOOOO.......",
                 ".....OOAAAOOAAOAAA....."
               ],
@@ -12409,12 +12357,12 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 ".......................",
                 "....AAAAAAAAAAAA.......",
-                "...AAAAAAAAAAAAAA......",
+                "...AAAAAAOOAAAAAA......",
                 "...AAAOOOOOOOOOO.......",
                 "....AAAAAOOOAAAA.......",
-                ".....OOAAAAAAAAA.......",
+                ".....OOAAOOOOAAA.......",
                 "......AAAAA?AAAA.......",
-                ".....AAAAAAAAAAAAA....."
+                ".....AAAAAAOOAAAAA....."
               ],
               "layoutKey": "340023"
             },
@@ -12457,10 +12405,10 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAAAAAAAAAAA.",
                 "...........................",
-                "......AAAAAAAAAAAAAOAA.....",
+                "......AAAAAAAOOAAAAOAA.....",
                 ".....AAAAAAAAOOOAAAAAAAA...",
                 "......AAAAAAAAAAAAAAAAA....",
-                ".......OOAOOAAAAAAAAAA.....",
+                ".......OOAOOAAAOOAOOAA.....",
                 ".......AAAAAAAOOAAAAAA.....",
                 "........AAAAAOOAAOOOAA.....",
                 ".......AAAAAAAAAAAAAAAA...."
@@ -12507,12 +12455,12 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAA.",
                 "...........................",
                 "......AAAAAAAAAAAAAAAA.....",
-                ".....AAAAAAAAAAAAAAAAAAA...",
+                ".....AAAAAAAAOOOOOOOAAAA...",
                 "......OOOOOOOOOOOOOAOOO....",
                 ".......OOOOOOOOOOOOOOA.....",
                 ".......OOOOOOOOOOOOOOO.....",
                 "........OOOOOOOOOOOOOO.....",
-                ".......OOAOOOOOOOAOOOOO...."
+                ".......OOOOOOOOOOOOOOOO...."
               ],
               "layoutKey": "340011"
             },
@@ -12605,7 +12553,7 @@
                 "....OOOOOOOOOO.....",
                 ".....OOOOOOOOO.....",
                 ".....OOOOAOOOO.....",
-                "...OOAAAOOAAOOAA..."
+                "...OOAAAOOOAOOAA..."
               ],
               "layoutKey": "340018"
             },
@@ -12648,8 +12596,8 @@
                 "....AAAA.AAAAAA....",
                 "...AAAAAAAAAAAA....",
                 "...???AAAAOOOO.....",
-                "....AAAOOOOAAA.....",
-                ".....AAAOOAAAA.....",
+                "....OOOOOOOAAA.....",
+                ".....OOAOOOOOO.....",
                 "......AAOOOOAA.....",
                 ".....AAAOOAAAAAO..."
               ],
@@ -12694,7 +12642,7 @@
                 "...................",
                 ".....AAAAAAAAAA....",
                 "...AAAAAAAAAAAA....",
-                "...AAAAAAAAAAA.....",
+                "...AAAAAAOOAAA.....",
                 "....AAAOOAAAAA.....",
                 ".....AAOOOOAAA.....",
                 ".....AAAAOOAAA.....",
@@ -12874,7 +12822,7 @@
                 "......AAAAAOOOOAAAAAAA.....",
                 ".......OOOAOOOOAAOOAAA.....",
                 "........OOAOOOOA?OOOAA.....",
-                ".......OOAAAAOOOOOOAAOO...."
+                ".......OOOOOOOOOOOOAAOO...."
               ],
               "layoutKey": "338665"
             },
@@ -12939,7 +12887,7 @@
                 "...................",
                 ".....AAAAAAAAAA....",
                 "...AAAAAAAAAAAAA...",
-                "...AAAAAAAAAAA.....",
+                "...OOOAAAAAAAA.....",
                 "....AAAAAAAAAA.....",
                 ".....AAOOOOAAA.....",
                 ".....AAAAAAAAA.....",
@@ -13054,7 +13002,7 @@
                 "....AAAAAAAAAAAA.......",
                 "...AAAAAAAAAAAAAA......",
                 "...AAAAAAOOOOAAA.......",
-                "....AAAAAOOOOAAA.......",
+                "....OAAAAOOOOAAA.......",
                 ".....AAAAOOOOAAA.......",
                 "......AAAAAAAAAA.......",
                 ".....AAAAAAAAAAAAA....."
@@ -13077,7 +13025,7 @@
                 "....AAAAOOAAAA.....",
                 ".....OOOOOOOOO.....",
                 ".....AAAOOOAAA.....",
-                "...AAAAAAAAAAAAA..."
+                "...AAAAOOOOAAAAA..."
               ],
               "layoutKey": "340094"
             },
@@ -13211,7 +13159,7 @@
                 "....AAAAAAAAAAAA.......",
                 ".....AAAAAOOAAAA.......",
                 "......AAAAA?AAAA.......",
-                ".....AAAAAOOAAAAAA....."
+                ".....OOOAAOOAAAAAA....."
               ],
               "layoutKey": "340080"
             },
@@ -13229,7 +13177,7 @@
                 "....AAOOAAAAAAAA.......",
                 "...AAAAAAAAAAAAAA......",
                 "...AAAAAOOOOOOAA.......",
-                "....AAAAAAOAAAAA.......",
+                "....AAAAAAOAAAOO.......",
                 ".....AAAOOOOOAAA.......",
                 "......AAAAA?OOOO.......",
                 ".....AAAAOOOAAAOOO....."
@@ -13412,7 +13360,7 @@
                 "......AAAAAAAAAAAAAAAAA....",
                 ".......AAAAAAAAAAAAAAA.....",
                 ".......AAAAAAAAAAAAAAA.....",
-                "........AAAAAAAAAAAAAA.....",
+                "........AAAAAOOAAAAAAA.....",
                 ".......AAAAAAAAAAAAAAAA...."
               ],
               "layoutKey": "340095"
@@ -13604,7 +13552,7 @@
                 "...AAAAOOOOAAA.....",
                 "....AAAAOOAAAA.....",
                 ".....AAAOOAAOO.....",
-                ".....OOAAOOOAA.....",
+                ".....OOAAOOOOO.....",
                 "...AAAAAOOOOAAAA..."
               ],
               "layoutKey": "340103"
@@ -13817,8 +13765,8 @@
                 "...AAAAAAAAAAA.....",
                 "....OOAAOOOAAA.....",
                 ".....OOOOOOAOA.....",
-                "......AAOOOOOA.....",
-                ".....OOAAOOOOOOO..."
+                "......OOOOOOOA.....",
+                ".....OOOAOOOOOOO..."
               ],
               "layoutKey": "338656"
             }
@@ -13986,7 +13934,7 @@
                 ".....AAAAAAAAAAAAAAAAAAA...",
                 "......AAAAAAAAAAAAAAAAA....",
                 "......AAAAAAAAAAOOAAAA.....",
-                ".......AAAAAAOOAAAAAAA.....",
+                ".......AAAAAAOOOOOAAAA.....",
                 "........AAAAOOOO?OOOAA.....",
                 ".......OOAAOOOOOOOAAOOO...."
               ],
