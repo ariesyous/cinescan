@@ -1,45 +1,11 @@
 {
-  "updatedAt": "2026-10-02T21:44:57.983Z",
+  "updatedAt": "2026-10-02T22:55:34.857Z",
   "theatre": {
     "id": 5134,
     "name": "Cineplex Cinemas Yarmouth"
   },
   "auditoriums": {
     "64048": {
-      "totalRows": 13,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSSSS.",
-        "....................",
-        ".....WCSSSSSCW......",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSS..",
-        "...................."
-      ]
-    },
-    "64049": {
       "totalRows": 13,
       "totalColumns": 20,
       "rowLabels": [
@@ -105,46 +71,6 @@
         "..SSSSSSSSSSSSSS....",
         ".SSSSSSSSSSSSSSSSS..",
         "...................."
-      ]
-    },
-    "64051": {
-      "totalRows": 16,
-      "totalColumns": 26,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        "DD",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        null
-      ],
-      "seatTypes": [
-        "..........................",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..........................",
-        "........WCSSSSSSSSSSCW....",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSSS.",
-        ".........................."
       ]
     },
     "64052": {
@@ -219,40 +145,6 @@
         "..SSSSSSSSSSSSSS...",
         "..SSSSSSSSSSSSSS...",
         ".SSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "64055": {
-      "totalRows": 13,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "...................",
-        "SSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSS..",
-        "...................",
-        "......WCSSSSSCW....",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS.",
-        "..................."
       ]
     },
     "64056": {
@@ -2310,32 +2202,6 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64051&a=0000000001&l=5134&m=verity&ss=False",
-              "seats": [
-                "..........................",
-                "..?AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..........................",
-                "........AAAAAAAAAAAAAA....",
-                ".....AAAAAAAAAAAAAAAAAOO..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAOOAOAAAAAAAA..",
-                ".....AOOAAAAAAAAOOAAAAAA..",
-                ".....AAAAAAOOOAA?AOOOOOO..",
-                ".....AAAAAAOOOOAAOOAAAAA..",
-                ".....AAOAOOOOAOOOOOOOAAA..",
-                "...?OAOOAAOOO?A?AAOOAAAOO.",
-                ".........................."
-              ],
-              "layoutKey": "64051"
-            },
-            {
               "time": "20:45",
               "formats": [
                 "Regular"
@@ -2354,39 +2220,9 @@
                 "..OOAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
-                ".AAAAAAAAOOAAAAAOO."
+                ".OOAAAAAAOOAAAAAOO."
               ],
               "layoutKey": "64054"
-            }
-          ]
-        },
-        {
-          "title": "Avengers Endgame: Encore",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61978_320_470.jpg",
-          "runtimeMinutes": 185,
-          "sessions": [
-            {
-              "time": "18:35",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64055&a=0000000001&l=5134&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "...................",
-                "??????AAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAA..",
-                "...................",
-                "......AAAAAAAAA....",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAOOAAAAAA..",
-                "...AAAAAOOOOAAAAA..",
-                "...AAAAAAOOAAAOAA..",
-                "...AAAAAAAAAAAAAA..",
-                ".AAAAAAAAOOAAAAAAA.",
-                "..................."
-              ],
-              "layoutKey": "64055"
             }
           ]
         },
@@ -2409,9 +2245,9 @@
                 ".....AAAAAAAAA......",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
+                "..AAAAAOOAAAAAAA....",
                 "..AAAAAAAAAAAAA?....",
-                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAOOAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 ".AAAAAOOAAAAAOOAAA..",
                 "...................."
@@ -2458,29 +2294,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
           "runtimeMinutes": 101,
           "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64049&a=0000000001&l=5134&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAA????.",
-                "....................",
-                ".....AAAAAAAAA......",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                "..AAOOOAOOAAAOOA....",
-                "..OOAAOAAOOAAOOO....",
-                "..AAOOAAOOOAAAOO....",
-                "..AAOOAAOOAAAAOO....",
-                ".OOAOOAAOOAOOOO?AA..",
-                "...................."
-              ],
-              "layoutKey": "64049"
-            },
             {
               "time": "21:00",
               "formats": [
@@ -2579,7 +2392,7 @@
                 ".....AAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
+                ".....AOOAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAA?AAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAA..",
@@ -3573,12 +3386,12 @@
                 "........AAAAAAAAAAAAAA....",
                 ".....AAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
+                ".....AAAAAAOOOOOAAAAAAAA..",
                 ".....AAAAAOOOOOAAAAAAAAA..",
                 ".....AAAAAAAAAAA?AAAAAAA..",
                 ".....AAAAOOOOOOOOOOOAAAA..",
                 ".....AAAAAAOOOOOOOAAAAAA..",
-                "...?OOAAAAAAA?A?AAAAAAAAA.",
+                "...?OOAAAAAAA?A?OOOOAAAAA.",
                 ".........................."
               ],
               "layoutKey": "64099"
