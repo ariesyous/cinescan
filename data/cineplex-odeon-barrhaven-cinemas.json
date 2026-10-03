@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T10:20:22.899Z",
+  "updatedAt": "2026-10-03T15:22:17.277Z",
   "theatre": {
     "id": 7286,
     "name": "Cineplex Odeon Barrhaven Cinemas"
@@ -1335,42 +1335,6 @@
         "SS..SSSSSSSSSSSSSSSSS...",
         "SS..SSSSSSSSSSSSSSSSS...",
         "SSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "172447": {
-      "totalRows": 14,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        ".......................",
-        "...SCW.WCSSSSSS.WCS....",
-        "...SSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSSSS..SS",
-        "...SSSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "172476": {
@@ -4112,40 +4076,6 @@
         "...SSSSSSSSSSSSSSSS..SS",
         "SSSSSSSSSSSSSSSSSSSSSSS"
       ]
-    },
-    "172555": {
-      "totalRows": 13,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "AA",
-        "BB",
-        "CC",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        ".......................",
-        "......SCW.WCSSSS.WCS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSS...",
-        ".SS...SSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSSS."
-      ]
     }
   },
   "days": [
@@ -4170,7 +4100,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAAAAA..",
                 "..............................",
                 "..AAAAAAAAAA.AAAAAA....AAA....",
-                "..AAAAAAAAAAAAAAAAAAAAAAAA....",
+                "..AAAAAAAAAAOOAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "...AAAAAAAAAAAAAAAAAAAAAA.....",
@@ -4273,15 +4203,15 @@
                 "...AAAAAAAAAAAAAAAAAA..",
                 ".......................",
                 "......AAA..AAAAAA.AAA..",
-                "......AAAAAAAAAAAAAAA..",
+                "......AAAAAAOAAAAAAAA..",
                 "......AAAAAAAOAAAAAAA..",
                 "......AAAAAAAAAAAAAAA..",
                 "......AAAAAOOAAAAAAAA..",
                 ".......AAAAAAAAAAAAA...",
-                "AA.....AAAAAAAAAAAAA...",
+                "AA.....OAAAAAAAAAAAA...",
                 "AA....AAAAAAAAAAAAAAA..",
                 "AA....AAAAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
+                "OAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "172483"
             },
@@ -4326,7 +4256,7 @@
                 "......AAAAAAAAAAAAAAA..",
                 "......AAAAAAAAAAAAAAA..",
                 "......AAAAAAAAAAAAAAA..",
-                "......AAAAAAAAAAAAAAA..",
+                "......AAAAAAOOAAAAAAA..",
                 ".......OOAAAAAAAAAAA...",
                 "AA.....AAAAAOOOAAAAA...",
                 "AA....AAOOAAAAAAAAAAA..",
@@ -4546,29 +4476,6 @@
           "runtimeMinutes": 109,
           "sessions": [
             {
-              "time": "10:45",
-              "formats": [
-                "Sensory Friendly"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=172555&a=0000000001&l=7286&m=forgotten-island&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                ".......................",
-                "......AAA.AAAAAA.AAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                "......?AAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                ".AA...AAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAA."
-              ],
-              "layoutKey": "172555"
-            },
-            {
               "time": "12:15",
               "formats": [
                 "Regular"
@@ -4587,7 +4494,7 @@
                 ".....OOOOOOOOOOAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAA..",
+                "AA...AAOOOAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAOOO"
               ],
               "layoutKey": "172497"
@@ -4609,9 +4516,9 @@
                 ".....AAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAA..",
                 ".....OOOOOOOOOOAAAAAA..",
+                "OO...AAAAOOOOOOAAAAAA..",
                 "AA...AAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAA..",
-                "AA...AAAAAAAAAAAAAAAA..",
+                "AA...AAAAAOOAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "172499"
@@ -4728,9 +4635,9 @@
                 "......AAA.AAAAAA.AAA...",
                 "......AAAAAAAAAAAAAA...",
                 "......AAAAAAAAAAAAAA...",
-                "......AAAAAAOOAAAAAA...",
-                "......AAAAAAAAAAAAAA...",
-                ".AA...AAAAAAAAAAAAAA...",
+                "......OOOOAAOOAAAAAA...",
+                "......AAAOOAAAAAAAAA...",
+                ".OO...AAAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAAAAAAAA."
               ],
               "layoutKey": "172491"
@@ -4755,7 +4662,7 @@
                 "A?..AAAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAOOAAAAAAAAAAA"
               ],
               "layoutKey": "172490"
             }
@@ -4835,43 +4742,12 @@
                 "....AAAAAAAAAAAAAAAAA...",
                 "....AAAAAAOOOAAOOAAAA...",
                 "....OAAOOAAOOAAAAAAAA...",
-                "O?..AAAAAAAOOAAAAAAAA...",
+                "O?..AAAAAAAOOAAAAAAOO...",
                 "AA..AAAAAOOOOOOAAAAAA...",
-                "AA..AAAAAAAAAAAAAAAAA...",
+                "OO..AAAAAAAAAAAAAAAAA...",
                 "AAAAAAAAAAAAAAAOOAAAAAAA"
               ],
               "layoutKey": "170636"
-            }
-          ]
-        },
-        {
-          "title": "Coraline - Family Favourites",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/62009_320_470.jpg",
-          "runtimeMinutes": 110,
-          "sessions": [
-            {
-              "time": "11:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=172447&a=0000000001&l=7286&m=coraline-family-favourites&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                ".......................",
-                "...AAA.AAAAAAAA.AAA....",
-                "...AAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAA....",
-                "...AAAAAAAOOAAAAAAA..AA",
-                "...AAAAAAAOOAAAAAAA..AA",
-                "...AAAAAAAAOOAAAAAA..AA",
-                "AAAAAAAAAAOOOAAAAAAAAAA"
-              ],
-              "layoutKey": "172447"
             }
           ]
         }
