@@ -1,118 +1,10 @@
 {
-  "updatedAt": "2026-10-03T00:08:13.585Z",
+  "updatedAt": "2026-10-03T00:58:57.766Z",
   "theatre": {
     "id": 5134,
     "name": "Cineplex Cinemas Yarmouth"
   },
   "auditoriums": {
-    "64048": {
-      "totalRows": 13,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSSSS.",
-        "....................",
-        ".....WCSSSSSCW......",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSS..",
-        "...................."
-      ]
-    },
-    "64050": {
-      "totalRows": 13,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSSSS.",
-        "....................",
-        ".....WCSSSSSCW......",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSS..",
-        "...................."
-      ]
-    },
-    "64052": {
-      "totalRows": 16,
-      "totalColumns": 26,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        "DD",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        null
-      ],
-      "seatTypes": [
-        "..........................",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..........................",
-        "........WCSSSSSSSSSSCW....",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSSS.",
-        ".........................."
-      ]
-    },
     "64056": {
       "totalRows": 13,
       "totalColumns": 20,
@@ -2160,104 +2052,6 @@
   },
   "days": [
     {
-      "date": "2026-10-02",
-      "movies": [
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "20:55",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64048&a=0000000001&l=5134&m=resident-evil-2026&ss=False",
-              "seats": [
-                "....................",
-                "..AA?AAAAAAAAAAAAAA.",
-                "..AAAAAAAOOAAAAAAAA.",
-                "....................",
-                ".....AAAAAAAAA......",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAOOAAAAAAA....",
-                "..AAAAAAAAAAAAA?....",
-                "..AAAOOAAOOAAAAA....",
-                "..AAAAAAAAAOOAAA....",
-                ".OOAAAOOAOOAAOOAAA..",
-                "...................."
-              ],
-              "layoutKey": "64048"
-            }
-          ]
-        },
-        {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "21:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64052&a=0000000001&l=5134&m=forgotten-island&ss=False",
-              "seats": [
-                "..........................",
-                "..?AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..........................",
-                "........AAAAAAAAAAAAAA....",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAA?AAAAAAA..",
-                ".....AAAAAAOOAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                "...?AAAAAAAAA?A?AAAAAAAAA.",
-                ".........................."
-              ],
-              "layoutKey": "64052"
-            }
-          ]
-        },
-        {
-          "title": "Heart of the Beast",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 101,
-          "sessions": [
-            {
-              "time": "21:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64050&a=0000000001&l=5134&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAA????.",
-                "....................",
-                ".....AAAAAAAAA......",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAOOAAAAAA....",
-                "..AAOOAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                ".AAAAAAAOOAAAAA?AA..",
-                "...................."
-              ],
-              "layoutKey": "64050"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-10-03",
       "movies": [
         {
@@ -2332,7 +2126,7 @@
                 ".....AAAAAAAAAAA?AAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAA..",
-                "...?AAAAAAAOO?A?AAAAAAAAA.",
+                "...?OOAAAAAOO?A?AAAAAAAAA.",
                 ".........................."
               ],
               "layoutKey": "64066"
@@ -2877,7 +2671,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
-                ".AAOAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAAA.",
                 "..................."
               ],
               "layoutKey": "64088"

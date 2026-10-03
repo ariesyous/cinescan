@@ -1,38 +1,10 @@
 {
-  "updatedAt": "2026-10-03T00:08:27.460Z",
+  "updatedAt": "2026-10-03T00:59:17.667Z",
   "theatre": {
     "id": 3141,
     "name": "Cineplex Odeon Grande Prairie Cinemas"
   },
   "auditoriums": {
-    "246209": {
-      "totalRows": 10,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".......................",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".CW...SSSSSSSSSSSS..WC."
-      ]
-    },
     "246210": {
       "totalRows": 10,
       "totalColumns": 23,
@@ -4283,88 +4255,6 @@
         "SCW..SSSSSSSSSS..WWC"
       ]
     },
-    "247242": {
-      "totalRows": 11,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "................",
-        ".SSSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSSS",
-        "..WWCSSSSSSSSSSS"
-      ]
-    },
-    "247243": {
-      "totalRows": 9,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "...............",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSSSSS.",
-        "SSSSSSSSSSCWW.."
-      ]
-    },
-    "247244": {
-      "totalRows": 9,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "...............",
-        ".SSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSS",
-        ".SSSSSSSSSSSSSS",
-        "..WWCSSSSSSSSSS"
-      ]
-    },
     "247245": {
       "totalRows": 10,
       "totalColumns": 25,
@@ -7806,11 +7696,11 @@
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAA..AAA",
+                "AAA..AAOOOOOOAA..AAA",
                 "AAA..AAAAAAOOAA..AAA",
                 "AAA..AAOOOOOOAA..AAA",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..OOAAOOAAAA..AAA"
+                "AAA..AAAAOOOOAO..AAA",
+                "AAA..OOAAOOAAOO..AAA"
               ],
               "layoutKey": "246968"
             },
@@ -7843,26 +7733,6 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=246209&a=0000000001&l=3141&m=verity&ss=False",
-              "seats": [
-                ".......................",
-                ".AAA..AAAAAAAAAAAA..AAA",
-                ".AOO..AAOOOOOOOOAA..AAA",
-                ".AOO..OOAAOOOOAAAA..AAA",
-                ".AOO..OOOOOOOOOOOO..OOA",
-                ".AOO..OOOOOOOOOOOO..OOA",
-                ".AOO..AOOOOOOOOOOO..OOA",
-                ".AOO..OOOOOOOOOOOO..OOA",
-                ".OOO..OOOOOOOOOOOO..OOO",
-                ".AA...OOAOOOOOOOOO..AA."
-              ],
-              "layoutKey": "246209"
-            },
-            {
               "time": "21:30",
               "formats": [
                 "Regular"
@@ -7875,7 +7745,7 @@
                 ".AAA..AAAAAAAAAAAA..AAA",
                 ".AAA..AAAAAAAAAAAA..AAA",
                 ".AAA..OOOOOOOOOOOO..AAA",
-                ".AAA..OOOOOOOAAOOO..AAA",
+                ".AOO..OOOOOOOAAOOO..AAA",
                 ".AAA..OOOOOOOOOOOA..AAA",
                 ".AAO..OOOOAOOOOOOO..OOA",
                 ".AA...OOOOOOOOOAOO..AA."
@@ -7928,13 +7798,13 @@
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAOA.",
                 "AAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAAAOO.",
                 "AAAOAAOOOOOAAAA.",
                 "AAOOAAAAAAOOAAA.",
                 "AAAAAAAAAAAAAAA.",
-                "AAAAAAAOOAAAAA.."
+                "OOAAAAAOOAAAAA.."
               ],
               "layoutKey": "247247"
             },
@@ -7966,27 +7836,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
           "runtimeMinutes": 109,
           "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=247242&a=0000000001&l=3141&m=forgotten-island&ss=False",
-              "seats": [
-                "................",
-                ".AAAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAAA",
-                ".AAOOOAAAAAAAAAA",
-                ".AAAAAAAOOOOAAAA",
-                ".AAAAAAAAAAAAAAA",
-                ".OOOOAAOOOOOOOOA",
-                ".AAAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAAA",
-                "..AAAAAOOOAAAOOO"
-              ],
-              "layoutKey": "247242"
-            },
             {
               "time": "21:10",
               "formats": [
@@ -8025,11 +7874,11 @@
                 ".........................",
                 ".AAA...AAAAAAAAAAAA...AAA",
                 ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...OOOAAAAOOAAA...AAA",
-                ".AAA...OOAAAOOOOAAA...OOA",
-                ".AAA...OOAAOOOAOOOO...AAA",
+                ".AAA...AAAAAAAAAAOO...AAA",
+                ".AAA...OOAAAOOOOOOO...OOA",
+                ".AAA...OOOAAAAOOOOA...AAA",
+                ".OOO...OOAAAOOOOAOO...OOA",
+                ".AAA...OOAAAOOAOOOO...AAA",
                 ".AOO...OOAOOOOOAAOO...OAA",
                 ".AA....OOOAOOAOOAOO....AA"
               ],
@@ -8076,10 +7925,10 @@
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
-                ".AAAAAAOOOAAAAAA",
+                ".OOAAAAOOOAAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
-                "..AAAAAAOOAAAAAA"
+                "..AAAAAAOOAAOOAA"
               ],
               "layoutKey": "247246"
             },
@@ -8095,40 +7944,14 @@
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
+                ".AAAAAAAOOAAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
                 ".AAAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAAA",
-                "..AAAAAAAAAAAAAA"
+                "..AAAAAOOAAAAAAA"
               ],
               "layoutKey": "247253"
-            }
-          ]
-        },
-        {
-          "title": "Beware Boiúna",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61889_320_470.jpg",
-          "runtimeMinutes": 104,
-          "sessions": [
-            {
-              "time": "18:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=247243&a=0000000001&l=3141&m=beware-boiuna&ss=False",
-              "seats": [
-                "...............",
-                "AAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAOOO.",
-                "AAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "247243"
             }
           ]
         },
@@ -8149,38 +7972,12 @@
                 "AAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAA.",
+                "AAAAAAOOAAAAAA.",
                 "AAAAAAAAAAAAAA.",
                 "AAAAOOAAAAAAAA.",
                 "OOOAAAOOAAAAA.."
               ],
               "layoutKey": "247250"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=247244&a=0000000001&l=3141&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...............",
-                ".AAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAAAA",
-                ".AAAAAAAAAAAOOO",
-                ".AAAAAOOOAAAOOA",
-                ".AAAAAAAAAAAAAA",
-                "..AAAAAAAAAAAAA"
-              ],
-              "layoutKey": "247244"
             }
           ]
         },
@@ -8227,8 +8024,8 @@
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
-                "AAAAAOOOOAAAAAA.",
-                "AAAOOOOOOOOOOAA.",
+                "AAAAAOOOOOOOOAA.",
+                "OOOOOOOOOOOOOAA.",
                 "OOOOOAOOOOOAOOO.",
                 "OOOOOOOOOOOOOOO.",
                 "OOOOOOOOOOOOOOO.",
@@ -8415,7 +8212,7 @@
                 ".AAA..AAAAAAAAAAAA..AAA",
                 ".AAA..AAAAAAAAAAAA..AAA",
                 ".AAA..AAAAAAAAAAAA..AAA",
-                ".AA...AAAAAAOOAAAA..AA."
+                ".AA...AAAAAAOOAAOO..AA."
               ],
               "layoutKey": "246214"
             }
@@ -8694,7 +8491,7 @@
                 ".AAA...AAAAAAAAAAAA...AAA",
                 ".AAA...AAAAAAAAAAAA...AAA",
                 ".AAA...AAAAAAAAAAAA...AAA",
-                ".AA....AAAAAAAAAAAA....AA"
+                ".AA....OOAAAAAAAAAA....AA"
               ],
               "layoutKey": "247221"
             },
@@ -9092,10 +8889,10 @@
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
-                "AOOOOAOOAAAAAAA.",
+                "AAAAAAOOAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
-                "AAAAAOOOOOOAAA.."
+                "AAAOOOOOOOOAAA.."
               ],
               "layoutKey": "247206"
             }
@@ -10810,7 +10607,7 @@
                 ".AAA...AAAAAAAAAAAA...AAA",
                 ".AAA...AAAAAAAAAAAA...AAA",
                 ".AAA...AAAAAAAAAAAA...AAA",
-                ".AAA...AAAAAAAAAAAA...AAA",
+                ".AAA...AAAAAAAAAAOO...AAA",
                 ".AAA...AAAAAAAAAAAA...AAA",
                 ".AA....AAAAAAAAAAAA....AA"
               ],
