@@ -1,44 +1,10 @@
 {
-  "updatedAt": "2026-10-03T20:29:41.056Z",
+  "updatedAt": "2026-10-03T22:06:04.198Z",
   "theatre": {
     "id": 5134,
     "name": "Cineplex Cinemas Yarmouth"
   },
   "auditoriums": {
-    "64058": {
-      "totalRows": 13,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSSSS.",
-        "..SSSSSSSSSSSSSSSSS.",
-        "....................",
-        ".....WCSSSSSCW......",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS....",
-        ".SSSSSSSSSSSSSSSSS..",
-        "...................."
-      ]
-    },
     "64059": {
       "totalRows": 13,
       "totalColumns": 20,
@@ -139,46 +105,6 @@
         "..SSSSSSSSSSSSSS....",
         ".SSSSSSSSSSSSSSSSS..",
         "...................."
-      ]
-    },
-    "64066": {
-      "totalRows": 16,
-      "totalColumns": 26,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        "CC",
-        "DD",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        null
-      ],
-      "seatTypes": [
-        "..........................",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..........................",
-        "........WCSSSSSSSSSSCW....",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        ".....SSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSSS.",
-        ".........................."
       ]
     },
     "64067": {
@@ -287,40 +213,6 @@
         "..SSSSSSSSSSSSSS...",
         "..SSSSSSSSSSSSSS...",
         ".SSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "64074": {
-      "totalRows": 13,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "...................",
-        "SSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSS..",
-        "...................",
-        "......WCSSSSSCW....",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS.",
-        "..................."
       ]
     },
     "64075": {
@@ -1708,32 +1600,6 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
-              "time": "18:25",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64066&a=0000000001&l=5134&m=verity&ss=False",
-              "seats": [
-                "..........................",
-                "..?AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..........................",
-                "........AAAAAAAAAAAAAA....",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....OOAAAAAAAAAAOOAAAAA..",
-                ".....AAAAAAAAAAA?AAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAAAAAAA..",
-                "...?OOAAAAAOO?A?AAAAAAAAA.",
-                ".........................."
-              ],
-              "layoutKey": "64066"
-            },
-            {
               "time": "18:55",
               "formats": [
                 "Regular"
@@ -1748,11 +1614,11 @@
                 ".....AAAAAAAAA.....",
                 "..AAAAAAAAAAAAOO...",
                 "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
+                "..OOAAAOOOOAAAAA...",
+                "..OOAAAAAOOAAAAA...",
                 "..OOOAAAOOAAAAAA...",
-                "..AAAAAAAAAAAAOO...",
-                ".AAAAAAAAAOOAAAAAA."
+                "..AAAAAOOOAAAAOO...",
+                ".AOOAOOAAAOOAAAAOO."
               ],
               "layoutKey": "64070"
             },
@@ -1807,7 +1673,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
-                ".AAAAAAAOOAAAAAAAA.",
+                ".AAAAAAAOOAAOOAAAA.",
                 "..................."
               ],
               "layoutKey": "64075"
@@ -1819,29 +1685,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
           "runtimeMinutes": 94,
           "sessions": [
-            {
-              "time": "18:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64074&a=0000000001&l=5134&m=resident-evil-2026&ss=False",
-              "seats": [
-                "...................",
-                "??????AAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAA..",
-                "...................",
-                "......AAAAAAAAA....",
-                "...AAAAAAAAAOOOOO..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAOOAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAA.",
-                "..................."
-              ],
-              "layoutKey": "64074"
-            },
             {
               "time": "22:00",
               "formats": [
@@ -1872,29 +1715,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
           "runtimeMinutes": 109,
           "sessions": [
-            {
-              "time": "18:35",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=64058&a=0000000001&l=5134&m=forgotten-island&ss=False",
-              "seats": [
-                "....................",
-                "..AA?AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAAAA.",
-                "....................",
-                ".....AAAAAAAAA......",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAOOAAAAA?....",
-                "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAA..",
-                "...................."
-              ],
-              "layoutKey": "64058"
-            },
             {
               "time": "21:40",
               "formats": [
@@ -1941,8 +1761,8 @@
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 "..OOOOOAAAAAAAAA....",
-                "..AAAAAAAAAOOAAA....",
-                "..AAAAAOOAAAAAAA....",
+                "..AAAAAAOOAOOAAA....",
+                "..OOAAAOOAAAAAAA....",
                 ".AAAAOOAAOOAAAA?AA..",
                 "...................."
               ],
@@ -2334,7 +2154,7 @@
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
+                "..OOOOAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAA?AA..",
@@ -2529,7 +2349,7 @@
                 ".....AAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAAAAAA..",
                 ".....AAAAAAOOOOOAAAAAAAA..",
-                ".....AOAAAOOOOOAAAAAAAAA..",
+                ".....AAAAAOOOOOAAAAAAAAA..",
                 ".....AAAAAAAAAAA?AAAAAAA..",
                 ".....AAAAOOOOOOOOOOOAAAA..",
                 ".....AAAAAAOOOOOOOAAAAAA..",

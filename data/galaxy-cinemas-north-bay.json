@@ -1,46 +1,10 @@
 {
-  "updatedAt": "2026-10-03T20:30:11.422Z",
+  "updatedAt": "2026-10-03T22:06:32.889Z",
   "theatre": {
     "id": 7265,
     "name": "Galaxy Cinemas North Bay"
   },
   "auditoriums": {
-    "167842": {
-      "totalRows": 14,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        ".......................",
-        "........SSSSSSS........",
-        "..SSSSSSSSSSSSSSSSS....",
-        ".......................",
-        "....SSSCW.....WCSSSCW..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSSS..",
-        "SS..SSSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSSS.."
-      ]
-    },
     "167844": {
       "totalRows": 12,
       "totalColumns": 24,
@@ -2383,7 +2347,7 @@
                 "..AOOAAAAAAAAAAAAAAAA....",
                 "..OOAAAAAAOOOOAAOOAAA..AA",
                 "..AAAAAAAAOOOAAAAAAAA..AA",
-                "..AAAAAAAAAOAAAAAAOO?..AA",
+                "..AAAAAAAAAOAAOOAAOO?..AA",
                 "..AA.AAO.O?.OOA.AAA.A..AA",
                 "..AA.AAA.OO.OOO.OOA.A..AA"
               ],
@@ -2410,7 +2374,7 @@
                 "..AOOAAAAAAAAAAAAAAAA....",
                 "..OOAAAAAAOOOOAAOOAAA..AA",
                 "..AAAAAAAAOOOAAAAAAAA..AA",
-                "..AAAAAAAAAOAAAAAAOO?..AA",
+                "..AAAAAAAAAOAAOOAAOO?..AA",
                 "..AA.AAO.O?.OOA.AAA.A..AA",
                 "..AA.AAA.OO.OOO.OOA.A..AA"
               ],
@@ -2509,30 +2473,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "16:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167842&a=0000000001&l=7265&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".......................",
-                "........?AAAAAA........",
-                "..AAAAAAAAAAAAAAAAA....",
-                ".......................",
-                "....AAAAA.....AAAAAAA..",
-                "....AAAAAAAAAAAAAAA??..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAOOAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAOOAAAAAAAA..",
-                "AA..AAAAAAAOOAAAAAAAA..",
-                "AA..AAAAAOAAAAAAAAAAA..",
-                "AAAAAAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "167842"
-            },
-            {
               "time": "19:20",
               "formats": [
                 "Regular"
@@ -2551,7 +2491,7 @@
                 "....OOAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAOOOAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAA..",
+                "AA..AAAAOOOOOOOOAAAAA..",
                 "AAOOAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "167854"
@@ -2601,11 +2541,11 @@
                 "........................",
                 "...AAAAAAA......AAAAA...",
                 "......AAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAOAAAAA...",
-                "......AAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAAA...",
+                "......AAAAAAAOAOAAOOA...",
+                "......OOOOOAAAAAAAAAA...",
+                "......AAAAAAAAAAOOOOA...",
                 "......OOAAAAAAAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAAAAA."
+                "AAAAAAOOAAAOOOOAAOOOAAA."
               ],
               "layoutKey": "167844"
             },
@@ -2651,8 +2591,8 @@
                 "......................",
                 "..AAAAA......AAAAAA...",
                 ".....AAAAAAAAAAAAAA...",
-                ".....AAAAAOOAAAAAAA...",
-                ".....AAAAAAAAAAAAAA...",
+                ".....AAAAAOOAAAAAOO...",
+                ".....AAAAAAAAAAAOOO...",
                 ".....AAAAAAAAAAAAAA...",
                 ".....AAAAAAAAAAAAAA...",
                 ".AAOOAAAAAOOAAOOAAAAA."
@@ -2699,12 +2639,12 @@
                 "....AAAAAAAAAAAAAAAAA",
                 ".....................",
                 "......AAAAA..AAAAAA..",
-                "......AAAAAAAAAAAAAA.",
-                "......AAAAAAAAAAAAAA.",
-                "......AAAAAAAAAAAAAA.",
-                "......AAAAAAAAAAAAAA.",
-                "......AAAAAAAAAAAAAA.",
-                ".OOAAAAAAOOOOAAAOOOOO"
+                "......AAAAAOOAAAAAAA.",
+                "......AAAAAOOAAAAAAA.",
+                "......AAAAAAOOAAAAAA.",
+                "......OAAAOOAAAAOOOO.",
+                "......AAAAAOOOAAAAAA.",
+                ".OOOOOAAAOOOOAAAOOOOO"
               ],
               "layoutKey": "167848"
             }
@@ -3009,7 +2949,7 @@
                 "....AAAAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAA...",
                 "....AAAAAAAOOAAAAAAA...",
-                "....AAAAAAAAAAAAAAAA...",
+                "....AAAAAAAOOAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAA...",
                 "AA..AAAAAAAAAAAAAAAA...",
@@ -3327,7 +3267,7 @@
                 "......AAAAAAAAAAAAAA.",
                 "......AAAAAAAAAAAAAA.",
                 "......AAAAAAAAAAAAAA.",
-                "......AAAAAAAAAAAAAA.",
+                "......AAAAAAOOAAAAAA.",
                 "......AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAAAAAA"
               ],
