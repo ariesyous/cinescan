@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T22:49:34.747Z",
+  "updatedAt": "2026-10-03T23:31:46.601Z",
   "theatre": {
     "id": 1141,
     "name": "Galaxy Cinemas Nanaimo"
@@ -597,28 +597,6 @@
         "........................"
       ]
     },
-    "218114": {
-      "totalRows": 7,
-      "totalColumns": 24,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSS..",
-        "...CWWCSSSSSSSSSSSSWC...",
-        "........................"
-      ]
-    },
     "218115": {
       "totalRows": 7,
       "totalColumns": 24,
@@ -793,28 +771,6 @@
         "..SSSSSSSSSSSSSSSSSSSS..",
         "...CWWCSSSSSSSSSSSSWC...",
         "........................"
-      ]
-    },
-    "218260": {
-      "totalRows": 7,
-      "totalColumns": 17,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..CWWCSSSSSSSS...",
-        "................."
       ]
     },
     "218261": {
@@ -2510,23 +2466,6 @@
           "runtimeMinutes": 129,
           "sessions": [
             {
-              "time": "15:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=218114&a=0000000001&l=1141&m=digger&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAA?AAA..",
-                "..OAOAAAAAAAOOAAAAAAAA..",
-                "..AAAAAAAOOAAAOOAAAAA?..",
-                "...AAAAAAAAAAAAAAAAAA...",
-                "........................"
-              ],
-              "layoutKey": "218114"
-            },
-            {
               "time": "18:45",
               "formats": [
                 "Recliner"
@@ -2615,23 +2554,6 @@
           "runtimeMinutes": 185,
           "sessions": [
             {
-              "time": "16:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=218260&a=0000000001&l=1141&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..A?AAAAAAAAAAA..",
-                "..AAAAAOOOOAAAA..",
-                "..AAAAAA?AAAAAA..",
-                "..AAAAAAAAAAAA...",
-                "................."
-              ],
-              "layoutKey": "218260"
-            },
-            {
               "time": "19:45",
               "formats": [
                 "3D",
@@ -2642,7 +2564,7 @@
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
                 "..A?AAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
+                "..AAAAAAOOAAAAA..",
                 "..AAAAAA?AAAAAA..",
                 "..AAAAAAAAAAAA...",
                 "................."
@@ -2665,8 +2587,8 @@
               "seats": [
                 "..AAAAAAAAAAAAA..",
                 "..AAAOOAA?AAAAA..",
-                "..AAAAAAOOAAAAA..",
-                "..OOOOAOOAAAAAA..",
+                "..AAAAAAOOAOOAA..",
+                "..OOOOAOOAAOOAA..",
                 "..AAAAAOOOAAAAA..",
                 "..AA.AAOOAAAAOO..",
                 "................."
@@ -2685,7 +2607,7 @@
                 "..AAAAAOOOAAAAA..",
                 "..AAAAOOOOOOAAA..",
                 "..OOOAAOOAAAAAA..",
-                "..AA.AAOOOOOOOO..",
+                "..AA.AAOOOOOAAA..",
                 "................."
               ],
               "layoutKey": "218266"
@@ -2723,9 +2645,9 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=218264&a=0000000001&l=1141&m=forgotten-island&ss=False",
               "seats": [
                 "..AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAA..",
-                "..OOOOOAAAAAOAAAAOAAAAA..",
+                "..AAAAAAAAOOOOOAAAAAAAA..",
+                "..AAAAAAAOOOOOOOOAAAAAA..",
+                "..OOOAAAAAAAOAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA...........",
                 "........................."
@@ -2765,13 +2687,13 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=218261&a=0000000001&l=1141&m=heart-of-the-beast&ss=False",
               "seats": [
                 "..???????????..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAOAAA..",
-                "..OOAAAAAAAAA..",
-                "..OOOOOOOOOOO..",
-                "..AAOO?AAOOAA..",
-                "..OOAA..AAAAA..",
+                "..???????????..",
+                "..???????????..",
+                "..???????????..",
+                "..???????????..",
+                "..???????????..",
+                "..???????????..",
+                "..????..?????..",
                 "..............."
               ],
               "layoutKey": "218261"
@@ -2786,10 +2708,10 @@
                 "..???????????..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAOOAAAA..",
-                "..OOOOOAAAAOO..",
-                "..OOOOOOOOAAA..",
-                "..OOAAOOOOOOO..",
-                "..AAAA?AAOOAA..",
+                "..OOOOOOOAAOO..",
+                "..OOOOOOOOOOA..",
+                "..OOOOOOOOOOO..",
+                "..OOOO?OOOOAA..",
                 "..AAAA..AAAAA..",
                 "..............."
               ],
@@ -2914,7 +2836,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAOOAA?AAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAAOOOAAAA..",
                 "...AAAA?AAAAAA..",
                 "................"
               ],
@@ -3244,7 +3166,7 @@
               "seats": [
                 "..???????????..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAOOOAAAA..",
                 "..AAAOOOOOAAA..",
                 "..AAAAOOOAAAA..",
                 "..OOAOOOOOAAA..",

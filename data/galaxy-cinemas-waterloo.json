@@ -1,38 +1,10 @@
 {
-  "updatedAt": "2026-10-03T22:49:41.713Z",
+  "updatedAt": "2026-10-03T23:31:52.332Z",
   "theatre": {
     "id": 7268,
     "name": "Galaxy Cinemas Waterloo"
   },
   "auditoriums": {
-    "276745": {
-      "totalRows": 11,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "..SCW.WCSCWSSCW.WCS....",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..DDD.DDDDD.DDDDDD.DD.."
-      ]
-    },
     "276746": {
       "totalRows": 11,
       "totalColumns": 23,
@@ -82,54 +54,6 @@
         "..SSSSSSSSSSSSS...",
         "..SSSSSSSSSSSSS...",
         "..SSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSS.."
-      ]
-    },
-    "276753": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSSS..",
-        "....................",
-        "...CW..CWSSSSWC.WC..",
-        "...SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "276754": {
-      "totalRows": 7,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..................",
-        "..................",
-        "..SCWSSSSS.WCS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
         "SSSSSSSSSSSSSSSS.."
       ]
     },
@@ -1502,53 +1426,6 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
-              "time": "19:00",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276745&a=0000000004&l=7268&m=verity&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAOOAAAAAAAA..",
-                "..OOOOOOOOOOOOAOOOOOO..",
-                "..OOOOOOOOOOOOOOOAAOO..",
-                "..OOOOOOOOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOOO..",
-                "..OOO.OAOOO.OOOOOO.OO.."
-              ],
-              "layoutKey": "276745"
-            },
-            {
-              "time": "19:00",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276745&a=0000000001&l=7268&m=verity&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAOOAAAAAAAA..",
-                "..OOOOOOOOOOOOAOOOOOO..",
-                "..OOOOOOOOOOOOOOOAAOO..",
-                "..OOOOOOOOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOOO..",
-                "..OOO.OAOOO.OOOOOO.OO.."
-              ],
-              "layoutKey": "276745"
-            },
-            {
               "time": "22:00",
               "formats": [
                 "UltraAVX",
@@ -1565,7 +1442,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAAA..",
                 "..AAAAOOOAAOOAAAAAAAA..",
                 "..AAAAAOOOOOAAOOAAAAA..",
                 "..AAA.AAAAO.OAAAAA.AA.."
@@ -1588,7 +1465,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAAAA..",
                 "..AAAAOOOAAOOAAAAAAAA..",
                 "..AAAAAOOOOOAAOOAAAAA..",
                 "..AAA.AAAAO.OAAAAA.AA.."
@@ -1616,7 +1493,7 @@
                 "....AAA.AAAAA.AAA..",
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
+                "....AAAAOOAAAAAAA..",
                 "....AAAAAAOOAAOAA..",
                 "....AAOOAAAOOAAAA..",
                 "AAAAAAAOOOOAAOOAAAA"
@@ -1638,10 +1515,10 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276759&a=0000000001&l=7268&m=resident-evil-2026&ss=False",
               "seats": [
                 "....................",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAOOOOOAAAAAA..",
                 "....................",
-                "...AA..AAAAAAAA.AA..",
-                "...AAOOAAOOAAOOAAA..",
+                "...AA..AAAOOOAA.AA..",
+                "...OOOOAAOOAAOOOOO..",
                 "...AOOOOOOOOOOOOOA..",
                 "...AOOOOOOOOOOOOOO..",
                 "...OOOOOOOOOOOOOOO..",
@@ -1661,8 +1538,8 @@
                 "..AAAAAAAA.AAA....",
                 "..AAAAAAAAAAAA....",
                 "..AAAAAOOAAAAA....",
-                "..AAOOAOOOOAAA....",
-                "OOOAOOOOOOAOOAAA.."
+                "..AAOOAOOOOAOO....",
+                "OOOAOOOOOOAOOOOA.."
               ],
               "layoutKey": "276761"
             }
@@ -1700,40 +1577,11 @@
           "runtimeMinutes": 150,
           "sessions": [
             {
-              "time": "18:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276754&a=0000000001&l=7268&m=drishyam-the-conclusion-hindi-west&ss=False",
-              "seats": [
-                "..................",
-                "..................",
-                "..AAAAAAOO.AAA....",
-                "..OOOOOOOOOOOO....",
-                "..OOOOOOOOOOOO....",
-                "..OOOOOOOOOOOO....",
-                "OOOOOOOOOOOOOOOO.."
-              ],
-              "layoutKey": "276754"
-            },
-            {
               "time": "21:40",
               "formats": [
                 "Recliner"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276753&a=0000000001&l=7268&m=drishyam-the-conclusion-hindi-west&ss=False",
-              "seats": [
-                "....................",
-                "..OOOAAAOOOOOOOAOO..",
-                "....................",
-                "...AA..AAOOOOAA.AA..",
-                "...OOOOOOAOOOOOOOA..",
-                "...AOOOOOOOOOOOOOO..",
-                "...OOOOOOOOOOOOOOO..",
-                "...OOOOOOOOOOOOOOO..",
-                "OOOOOOOOOOOOOOOOOOOO"
-              ],
-              "layoutKey": "276753"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276753&a=0000000001&l=7268&m=drishyam-the-conclusion-hindi-west&ss=False"
             }
           ]
         }
@@ -1766,7 +1614,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..OOOAOOOOAOOOAAAAAAA..",
-                "..AAAOOAAAOOOOAAAOOOO..",
+                "..OOOOOAAAOOOOAAAOOOO..",
                 "..AAA.OOAAO.OAAAAA.AA.."
               ],
               "layoutKey": "276782"
@@ -1789,7 +1637,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..OOOAOOOOAOOOAAAAAAA..",
-                "..AAAOOAAAOOOOAAAOOOO..",
+                "..OOOOOAAAOOOOAAAOOOO..",
                 "..AAA.OOAAO.OAAAAA.AA.."
               ],
               "layoutKey": "276782"
@@ -2077,7 +1925,7 @@
                 "...AA..AAAAAAAA.AA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAA..",
+                "...AAAAAAOOOAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
@@ -2223,7 +2071,7 @@
                 "..................",
                 "..................",
                 "..AAAAAAAA.AAA....",
-                "..AAAAAAOOOOOO....",
+                "..AAOOAAOOOOOO....",
                 "..OOAOOOOOOOOO....",
                 "..OOOOOOOOOOOA....",
                 "OOOOOOOOOOOOOOOO.."
@@ -2421,7 +2269,7 @@
                 "..AAAAAAAA.AAA....",
                 "..AAAAAAAAAAAA....",
                 "..AAAAAOOAAAAA....",
-                "..OOOOOOOOAAOO....",
+                "..OOOOOOOOOOOO....",
                 "OOOAOOOOOOOOAAAA.."
               ],
               "layoutKey": "276810"

@@ -1,60 +1,10 @@
 {
-  "updatedAt": "2026-10-03T22:49:17.161Z",
+  "updatedAt": "2026-10-03T23:31:29.290Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
   },
   "auditoriums": {
-    "153768": {
-      "totalRows": 10,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "....................",
-        "....SSSSSSSSSS..SSSS",
-        "...WWCSSSSSSCW..WWCS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "..SSSSSSSSSSSS..SSSS",
-        "....SSSSSSSSSS..SSSS",
-        "........SSSSSS......"
-      ]
-    },
-    "153769": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
     "153770": {
       "totalRows": 7,
       "totalColumns": 15,
@@ -171,28 +121,6 @@
         "..WCSSSSSSSCW.."
       ]
     },
-    "153778": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
     "153779": {
       "totalRows": 7,
       "totalColumns": 15,
@@ -213,36 +141,6 @@
         "..SSSSSSSSSSS..",
         "..SSSSSSSSSSS..",
         "..WCSSSSSSSCW.."
-      ]
-    },
-    "153781": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..WWCSSSSSSSSSCW..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "SSSS..SSSSSSSSSSSSSS..",
-        "......SSSSCW.WCSSSSS..",
-        "......................"
       ]
     },
     "153782": {
@@ -1630,23 +1528,6 @@
           "runtimeMinutes": 129,
           "sessions": [
             {
-              "time": "18:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153778&a=0000000001&l=7206&m=digger&ss=False",
-              "seats": [
-                "...............",
-                "..A?AAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAOOOOAAAA..",
-                "..AAAAAAAAAOO..",
-                "..OO?AAAAOOOO..",
-                "..AAAAAAAAAAA.."
-              ],
-              "layoutKey": "153778"
-            },
-            {
               "time": "21:35",
               "formats": [
                 "Recliner"
@@ -1671,27 +1552,6 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
-              "time": "18:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153781&a=0000000001&l=7206&m=verity&ss=False",
-              "seats": [
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAAAAAAAAA..",
-                "AAAA..AAAAAAOOAAAAAA..",
-                "OOAA..AAAAOOOOOOOOAA..",
-                "A?AA..OOOOOOO?OOA?OO..",
-                "AAOO..OOOOOO?OOOOOOA..",
-                "OO?A..OOA?OOOOOOOOOO..",
-                "OOOO..OOOOOOOOOOAAOO..",
-                "OOOO..OOOOOOO?OOA?OO..",
-                "......OOOOOA.AAOOOO?..",
-                "......................"
-              ],
-              "layoutKey": "153781"
-            },
-            {
               "time": "21:30",
               "formats": [
                 "Recliner"
@@ -1705,9 +1565,9 @@
                 "A?AA..AAAAAAA?AAA?AA..",
                 "AAAA..AAAAOO?AAAAAAA..",
                 "AA?O..AAA?OOAAAAAAAA..",
-                "AAAA..OOOAAAAAAAAAAO..",
+                "AAAA..OOOAOOAAAAAAAO..",
                 "AAAA..AAAOOAA?AAA?OO..",
-                "......OOAAAA.AAAAAA?..",
+                "......AAAAAA.AAAAAA?..",
                 "......................"
               ],
               "layoutKey": "153782"
@@ -1720,23 +1580,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "19:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153769&a=0000000001&l=7206&m=resident-evil-2026&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAOOAAOOAA..",
-                "..OOOAAOOAAOO..",
-                "..?OOOOOOAAA?..",
-                "..AAOOOOOOAAA.."
-              ],
-              "layoutKey": "153769"
-            },
-            {
               "time": "21:45",
               "formats": [
                 "Recliner"
@@ -1747,9 +1590,9 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAAOOAAAA..",
                 "..?AAAAAAAAA?..",
-                "..AAAAAAAAAAA.."
+                "..AAAAOOAAAAA.."
               ],
               "layoutKey": "153774"
             }
@@ -1773,8 +1616,8 @@
                 "..AAAAAAAAAAA..",
                 "..A?AAAAAAAAA..",
                 "..AAAAOOOAA??..",
-                "..AA?AAAAAAAA..",
-                "..AAAAAAAAAAA.."
+                "..AA?AOOOAAAA..",
+                "..AAAAAAAOOAA.."
               ],
               "layoutKey": "153772"
             }
@@ -1785,26 +1628,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
           "runtimeMinutes": 101,
           "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153768&a=0000000001&l=7206&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "....................",
-                "....AAAAAAAAAA..AAAA",
-                "...AAAAAAAAAAA..AAAA",
-                "..AAAAAAOOAAOO..AAAA",
-                "..AAAAOOOOOOOA..AAAA",
-                "..AAAAOOOOOOOO..OOAA",
-                "..OOAAOOOOOOOO..OOAA",
-                "..OOOOAAOOOOOO..AAAO",
-                "....OO?OOOOO??..OOAA",
-                "........OOAOOO......"
-              ],
-              "layoutKey": "153768"
-            },
             {
               "time": "21:40",
               "formats": [
@@ -1958,7 +1781,7 @@
                 "AAAA..AAAAAA?AAOOAAA..",
                 "AA?A..AAA?OOOOAAAAAA..",
                 "AAAA..OOAAAAAAAAAAAA..",
-                "AAAA..AAAAAAA?AAA?AA..",
+                "AAAA..AAAAOOO?AAA?AA..",
                 "......OAAAAA.AAAAAA?..",
                 "......................"
               ],
@@ -2441,7 +2264,7 @@
                 "..AAAAAAAAAAAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
                 "..AAAAAAAAAAAA..AAAA",
-                "....AA?AAAAA??..AAAA",
+                "....OO?AAAAA??..AAAA",
                 "........AAAAOO......"
               ],
               "layoutKey": "153823"
@@ -2580,7 +2403,7 @@
                 "AAAA..AAAAAAAAAAAAAA..",
                 "AAAA..AAAOOAAAAAAAAA..",
                 "A?AA..AAAAAAA?AAA?AA..",
-                "AAAA..AAAAAA?AAAAAAA..",
+                "AAAA..AAAAOO?AAAAAAA..",
                 "AA?A..AAA?AAOOOOOAAA..",
                 "AAAA..AAAOOOOOOAAAAA..",
                 "OOOO..OOOOOOO?AAA?OO..",
