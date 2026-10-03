@@ -1,38 +1,10 @@
 {
-  "updatedAt": "2026-10-03T19:42:16.462Z",
+  "updatedAt": "2026-10-03T20:30:15.576Z",
   "theatre": {
     "id": 7268,
     "name": "Galaxy Cinemas Waterloo"
   },
   "auditoriums": {
-    "276744": {
-      "totalRows": 11,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "..SCW.WCSCWSSCW.WCS....",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..DDD.DDDDD.DDDDDD.DD.."
-      ]
-    },
     "276745": {
       "totalRows": 11,
       "totalColumns": 23,
@@ -87,34 +59,6 @@
         "..SSSSSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSSSSS..",
         "..DDD.DDDDD.DDDDDD.DD.."
-      ]
-    },
-    "276747": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "...................",
-        "..SSSSSSSSSSSSSSS..",
-        "...................",
-        "....SCW.WCSCW.WCS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
       ]
     },
     "276749": {
@@ -1636,53 +1580,6 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
-              "time": "16:10",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276744&a=0000000004&l=7268&m=verity&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAOOAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAOO..",
-                "..OOAAAAAAAOOAAAAOOAA..",
-                "..AAAAOOAAAAAAAAAAAOO..",
-                "..OOO.OOAAA.AAAAAA.AA.."
-              ],
-              "layoutKey": "276744"
-            },
-            {
-              "time": "16:10",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276744&a=0000000001&l=7268&m=verity&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAOOAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAOO..",
-                "..OOAAAAAAAOOAAAAOOAA..",
-                "..AAAAOOAAAAAAAAAAAOO..",
-                "..OOO.OOAAA.AAAAAA.AA.."
-              ],
-              "layoutKey": "276744"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "UltraAVX",
@@ -1698,11 +1595,11 @@
                 "..AAA.AAAAAAAAA.AAA....",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAAA..",
-                "..OOOAAAAOOOOOOOOAAOO..",
-                "..AOOAAAOOOOOOOOOOOAA..",
+                "..AAAAAAAAOOOOAAAAAAA..",
+                "..OOOAOOAOOOOOOOOAAOO..",
+                "..OOOAAAOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOOOOOOO..",
-                "..AAO.OAOOO.OOOOAA.OA.."
+                "..AAO.OAOOO.OOOOAA.AA.."
               ],
               "layoutKey": "276745"
             },
@@ -1721,11 +1618,11 @@
                 "..AAA.AAAAAAAAA.AAA....",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAAA..",
-                "..OOOAAAAOOOOOOOOAAOO..",
-                "..AOOAAAOOOOOOOOOOOAA..",
+                "..AAAAAAAAOOOOAAAAAAA..",
+                "..OOOAOOAOOOOOOOOAAOO..",
+                "..OOOAAAOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOOOOOOO..",
-                "..AAO.OAOOO.OOOOAA.OA.."
+                "..AAO.OAOOO.OOOOAA.AA.."
               ],
               "layoutKey": "276745"
             },
@@ -1795,7 +1692,7 @@
                 "..................",
                 "..AAA.AAAAA.AAA...",
                 "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
+                "..AAAAAAOOAAAAA...",
                 "..AAOOAAOOAAAAA...",
                 "..AAAAAOOAAAAAA...",
                 "AAAAAOOOOOAAAAAA.."
@@ -1843,9 +1740,9 @@
                 "...AA..AAAAAAAA.AA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
-                "...AOOOAAAAAAAAAAA..",
-                "...AAAAAAOOAAAAAAA..",
-                "AAAOOOOAAAAAAAAAAAAA"
+                "...AOOOAAAOAAAAAAA..",
+                "...AAAAAAOOAAOAAAA..",
+                "AAAOOOOAAAAOOAAAAAAA"
               ],
               "layoutKey": "276760"
             },
@@ -1861,9 +1758,9 @@
                 "....................",
                 "...AA..AAAAAAAA.AA..",
                 "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAAOOOAAAAA..",
+                "...AAAAAOOOOOAAAAA..",
                 "...AAAOOOOOOAAAAAA..",
-                "...AAAOOOOOOOOOOOO..",
+                "...AOOOOOOOOOOOOOO..",
                 "OOAAAAOOOOOOOOOAAAOO"
               ],
               "layoutKey": "276759"
@@ -1880,8 +1777,8 @@
                 "..AAAAAAAA.AAA....",
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAAAAAAA....",
-                "..AAAAAOOOOAAA....",
-                "OOOAAAAAAAAAAAAA.."
+                "..AAOOAOOOOAAA....",
+                "OOOAAAAOOAAAAAAA.."
               ],
               "layoutKey": "276761"
             }
@@ -1892,27 +1789,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
           "runtimeMinutes": 109,
           "sessions": [
-            {
-              "time": "15:45",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276747&a=0000000001&l=7268&m=forgotten-island&ss=False",
-              "seats": [
-                "...................",
-                "..AAAAAAAAAAAAAAA..",
-                "...................",
-                "....AAA.AAAAA.AAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....OOOOAAOAAAAAA..",
-                "....AAAAOOOAAAAAA..",
-                "....AAAAOOOOOAAAA..",
-                "AAAAAAAAAAAAAAAAAOA"
-              ],
-              "layoutKey": "276747"
-            },
             {
               "time": "18:20",
               "formats": [
@@ -1926,7 +1802,7 @@
                 "....AAA.AAAAA.AAA..",
                 "....AAAAAAAAAAAAA..",
                 "....OOOOAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
+                "....AAAAAOOAAAAAA..",
                 "....OOOOAOOOOOOOA..",
                 "....OOOOOOOOAAOOO..",
                 "AAAAAAAAOOAAAAAAAAA"
@@ -1968,7 +1844,7 @@
               "seats": [
                 "..................",
                 "..................",
-                "..AAAAOOAA.AAA....",
+                "..AAAAOOOO.AAO....",
                 "..OOOOOOOOOOOO....",
                 "..OOOOOOOOOOOO....",
                 "..OOOOOOOOOOOO....",
@@ -1988,7 +1864,7 @@
                 "....................",
                 "...AA..AAOOOOAA.AA..",
                 "...OOOOOOAOOOOOOOA..",
-                "...AOOOOOOOOOOOOOO..",
+                "...OOOOOOOOOOOOOOO..",
                 "...OOOOOOOOOOOOOOO..",
                 "...OOOOOOOOOOOOOOO..",
                 "OOOOOOOOOOOOOOOOOOOO"
@@ -2025,7 +1901,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..OOOAOOOOAOOOAOOAAAA..",
+                "..OOOAOOOOAOOOAAAAAAA..",
                 "..AAAOOAAAOOOOAAAOOOO..",
                 "..AAA.AAAAO.OAAAAA.AA.."
               ],
@@ -2048,7 +1924,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..OOOAOOOOAOOOAOOAAAA..",
+                "..OOOAOOOOAOOOAAAAAAA..",
                 "..AAAOOAAAOOOOAAAOOOO..",
                 "..AAA.AAAAO.OAAAAA.AA.."
               ],
@@ -2214,7 +2090,7 @@
                 "..AAA.AAAAA.AAA...",
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAA...",
+                "..AAAAAOOAAAAAA...",
                 "..AAAAAAAAAAAAA...",
                 "OOOOAAAOOOAAAAAA.."
               ],
@@ -2299,7 +2175,7 @@
                 "...AA..AAAAAAAA.AA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
-                "...AAOAAAOOAAAAAAA..",
+                "...AAAAAAOOAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
@@ -2382,7 +2258,7 @@
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAAAAAAA....",
-                "AAAAAAAAAAAAAAAA.."
+                "AAAAAAAOOOAAAAAA.."
               ],
               "layoutKey": "276780"
             },
@@ -2500,7 +2376,7 @@
                 "..................",
                 "..................",
                 "..AAAAAAAA.AAA....",
-                "..OOOOOOOAAAAA....",
+                "..OOOOOOOOOAAA....",
                 "..OOOOOOOOOOOO....",
                 "..OOOOOOOOOOOO....",
                 "OOOOOOOOOOOOOOOO.."
@@ -2517,7 +2393,7 @@
                 "..................",
                 "..................",
                 "..AAAAAAAA.AAA....",
-                "..AAAAAAAAAAAA....",
+                "..AAAAAAOOAAAA....",
                 "..OOOOOOOOOOOA....",
                 "..AOOOOOOOOOOA....",
                 "AOOOOOOOOOOOOOOO.."
@@ -2946,8 +2822,8 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "....................",
                 "...AA..AAAAAAAA.AA..",
-                "...AAOOOOOOOOOAAAA..",
-                "...OOOOOOOOOOOOAOO..",
+                "...AAOOOOOOOOOOOAA..",
+                "...OOOOOOOOOOOOOOO..",
                 "...OOOOOOOOOOOOOOO..",
                 "...OOOOOOOOOOOOOOO..",
                 "AOOOOOOOOOOOOOOOOOOO"

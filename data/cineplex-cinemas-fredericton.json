@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T19:41:17.551Z",
+  "updatedAt": "2026-10-03T20:29:19.202Z",
   "theatre": {
     "id": 6111,
     "name": "Cineplex Cinemas Fredericton"
@@ -1689,28 +1689,6 @@
         ".............."
       ]
     },
-    "167208": {
-      "totalRows": 7,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..............",
-        "..............",
-        "..SSSSCW..WC..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS.."
-      ]
-    },
     "167212": {
       "totalRows": 6,
       "totalColumns": 15,
@@ -1809,30 +1787,6 @@
         "..SSSSSSSSSSS..",
         "..SSSSSSSCW.W..",
         "..............."
-      ]
-    },
-    "167221": {
-      "totalRows": 8,
-      "totalColumns": 13,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        ".............",
-        "...SSSSSSS...",
-        "..SSSSSSSSS..",
-        "..SSSSSSSSS..",
-        "..SSSSSSSSS..",
-        "..SSSSSSSSS..",
-        "..W.WCSSSSS..",
-        "............."
       ]
     },
     "167222": {
@@ -4525,9 +4479,9 @@
                 "................",
                 "..AAAAAAAAAAAA..",
                 "..AAAAOOOOOOAA..",
-                "..AAAAOOOAAAOO..",
+                "..OOAAOOOAAAOO..",
                 "..AAAOAAOOOOOO..",
-                "..OOAAOOOOAA.A..",
+                "..OOOOOOOOAA.A..",
                 "................"
               ],
               "layoutKey": "166954"
@@ -4543,7 +4497,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
+                "..AAAAOOOAAAAA..",
                 "..AAAAAAOOAA.A..",
                 "................"
               ],
@@ -4557,41 +4511,6 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
-              "time": "16:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167221&a=0000000001&l=6111&m=verity&ss=False",
-              "seats": [
-                ".............",
-                "...AAAAAAA...",
-                "..AAAAOOAAA..",
-                "..OAAAOOOOA..",
-                "..OOOOOOOOO..",
-                "..OOOAOOOOA..",
-                "..A.AAOOAAO..",
-                "............."
-              ],
-              "layoutKey": "167221"
-            },
-            {
-              "time": "17:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167208&a=0000000001&l=6111&m=verity&ss=False",
-              "seats": [
-                "..............",
-                "..............",
-                "..AAAAAA..AA..",
-                "..OOOOOOOOOO..",
-                "..OOOOOOOOOO..",
-                "..AOOOOOOOOO..",
-                "..OOOOOOOOOO.."
-              ],
-              "layoutKey": "167208"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "Recliner"
@@ -4599,10 +4518,10 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166110&a=0000000001&l=6111&m=verity&ss=False",
               "seats": [
                 ".......................",
-                "........AAAOOOOA.......",
+                "........OOAOOOOO.......",
                 "..OOAOOOOAOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOOOOOOO..",
-                "..AOOOOOOOOOOOOOAOOOO..",
+                "..OOOOOOOOOOOOOOOOOOO..",
                 "..OOOOAOOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOOOOOOO..",
                 "........OOAAAAOO......."
@@ -4618,10 +4537,10 @@
               "seats": [
                 "................",
                 "..AAAAAOOAAAAA..",
-                "..OAOOAOOAAAAA..",
+                "..OAOOAOOOOAOO..",
                 "..OOOOOOOAOOOO..",
                 "..OOOOOOOOOAOO..",
-                "..A.AAAOOOOOOO..",
+                "..A.AAOOOOOOOO..",
                 "................"
               ],
               "layoutKey": "167233"
@@ -4637,8 +4556,8 @@
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAOOAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAOOAAAAAAAA..",
-                "..AAAAAOOAAOOAAOOAAAA..",
+                "..AAAAAAAAAOOAAAOOAAA..",
+                "..AAOOAOOAAOOAAOOAAAA..",
                 "..OOOOOAAOOOOOOOAOOAA..",
                 "........OOAAAAAA......."
               ],
@@ -4665,7 +4584,7 @@
                 "..AAAOOOAAAA..",
                 "..OOOOOOOOOO..",
                 "..OOOOOOAOOO..",
-                "..OOOOOOOAOO.."
+                "..OOOOOOOOOO.."
               ],
               "layoutKey": "167228"
             }
@@ -4700,7 +4619,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167232&a=0000000001&l=6111&m=resident-evil-2026&ss=False",
               "seats": [
                 "................",
-                "..AAAAAOOOOOAA..",
+                "..AAAAAOOOOOOA..",
                 "..OOOOOOOOOAOO..",
                 "..AOOOOOOOOOOO..",
                 "..OOOOOOOOOAOO..",
@@ -4717,7 +4636,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167213&a=0000000001&l=6111&m=resident-evil-2026&ss=False",
               "seats": [
                 "...............",
-                "..AAAAAOOAAAA..",
+                "..AOOAAOOAAAA..",
                 "..OOOOOOOOOOO..",
                 "..OOOOOOOOOOO..",
                 "..A.AAOOOOOOO..",
@@ -4743,7 +4662,7 @@
                 ".............",
                 "..AAAAAAAAA..",
                 "..AOOOOOOAA..",
-                "..OOOOOAAAA..",
+                "..OOOOOOOAA..",
                 "..OOOOOOOOO..",
                 "..OOOOOOAOO..",
                 "..OOOOOAA.A..",
@@ -4785,10 +4704,10 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167212&a=0000000001&l=6111&m=heart-of-the-beast&ss=False",
               "seats": [
                 "...............",
-                "..AOOAOOOOAOO..",
                 "..OOOOOOOOOOO..",
                 "..OOOOOOOOOOO..",
-                "..A.AAOOOOOOO..",
+                "..OOOOOOOOOOO..",
+                "..O.OOOOOOOOO..",
                 "..............."
               ],
               "layoutKey": "167212"
@@ -4801,10 +4720,10 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167237&a=0000000001&l=6111&m=heart-of-the-beast&ss=False",
               "seats": [
                 "..............",
-                "..OOAAAAAAOO..",
+                "..OOOOOOAAOO..",
                 "..OOAAOOAAOO..",
                 "..OOOOOOOOOO..",
-                "..A.AAAOOOOO..",
+                "..A.AAOOOOOO..",
                 ".............."
               ],
               "layoutKey": "167237"
@@ -4847,7 +4766,7 @@
                 "..AAAAAAAAAA..",
                 "..AAAOOOOAAA..",
                 "..AAAOOAAAOO..",
-                "..AAAAOOAA.A..",
+                "..OOAAOOAA.A..",
                 ".............."
               ],
               "layoutKey": "167230"
@@ -4908,7 +4827,7 @@
                 "..............",
                 "..OOAOOOOOOO..",
                 "..OOOOOOOOOO..",
-                "..OOOOOOOOOA..",
+                "..OOOOOOOOOO..",
                 "..A.AAOOOOOO..",
                 ".............."
               ],
@@ -4948,7 +4867,7 @@
               "seats": [
                 "..............",
                 "..AAAAOOAAAA..",
-                "..AAAAAAAAAA..",
+                "..OOOAAAAAAA..",
                 "..AAAAOOOAAA..",
                 "..OOOOOOOAAA..",
                 "..OOOOOOOOOO..",
@@ -5056,7 +4975,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..OOOOOOOOOOOOAAAAOOO..",
-                "..OOOOOOAAOOAOOOOOOOO..",
+                "..OOOOOOOOOOAOOOOOOOO..",
                 "..OOOOOOOAOOOOOOOOOOO..",
                 "........OOAAAAAO......."
               ],
@@ -5072,7 +4991,7 @@
                 ".......................",
                 "........AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..OOOAAAAAAOAAAAAAAAA..",
+                "..OOOAAAAAAOAAAAAAAOO..",
                 "..OOOOAAAAAAAAAAAAOOO..",
                 "..OOOOOOOOOOOAAAAAAOO..",
                 "..OOOOOOOOOOOOOOOOOOO..",
@@ -5110,7 +5029,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOOOAAAAAAA..",
-                "..AAAOOOAAAOOOAAAAAAA..",
+                "..AAAOOOAOOOOOAAAAAAA..",
                 "..AAOOOOOOOOOAAAOOAAA..",
                 "........OOAAAAOO......."
               ],
@@ -5616,8 +5535,8 @@
                 "...AAAAAAA...",
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
-                "..OOAAAAAAA..",
-                "..AAOOOOOAA..",
+                "..OOAOOOAAA..",
+                "..AAAAOOOOO..",
                 "..A.AAOOOAA..",
                 "............."
               ],
@@ -6998,7 +6917,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..AAOOAAAAAAAA..",
+                "..OOAAAAAAAAAA..",
                 "..AAAAAAAAAA.A..",
                 "................"
               ],
@@ -7793,7 +7712,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "........AAAAAAAA......."
+                "........OOAAAAAA......."
               ],
               "layoutKey": "166676"
             }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T19:41:28.539Z",
+  "updatedAt": "2026-10-03T20:29:29.501Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -244,24 +244,6 @@
       ]
     },
     "125632": {
-      "totalRows": 5,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSS..SS",
-        "CW..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS...WCSSSCW..SS"
-      ]
-    },
-    "125636": {
       "totalRows": 5,
       "totalColumns": 16,
       "rowLabels": [
@@ -1226,21 +1208,6 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
-              "time": "12:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125636&a=0000000001&l=1410&m=verity&ss=False",
-              "seats": [
-                "AA..AAOOOAAA..AA",
-                "AA..AOA?OOOO..OA",
-                "OA..OOOOOO??..?O",
-                "?O..OOOOOOOO..OO",
-                "AO...OOOOOOA..OA"
-              ],
-              "layoutKey": "125636"
-            },
-            {
               "time": "15:50",
               "formats": [
                 "Recliner"
@@ -1252,7 +1219,7 @@
                 "AAA..AAAOOAAAAAAA..AAA",
                 "AAA..AAAAAAOOAAAA..AAA",
                 "AAA..AAAA?AAAAAAA..AAA",
-                "AAA..AAAAOOOOOOAA..AAA",
+                "AAA..OOOAOOOOOOAA..AAA",
                 "OOO..AAOOOO?OOOOO..AAA",
                 "AAA..OOAAOOOOAAOO..AAA",
                 "AAA...AOOOAAAAA?A..OOA",
@@ -1269,10 +1236,10 @@
               "seats": [
                 "A??..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAOOAOOOAAAA..AAA",
+                "AAA..AAOOAOOOOOOO..OOA",
                 "AOO..OOOAOOOOOOOA..OOA",
                 "AAA..OOOO?OOOOOOO..OOA",
-                "AOO..OOOOOOOOAOOO..OOA",
+                "AOO..OOOOOOOOOOOO..OOA",
                 "OOO..OOOOOO?OOOOO..OOA",
                 "AOO..OOOOOOOOOOOO..OOO",
                 "AOO...AOOOOAAOO?A..OOA",
@@ -1293,7 +1260,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAA?AOOAAAA..AAA",
                 "AAA..AAAAOOAAOOAA..AAA",
-                "AAA..AAAAOO?OOOOO..AAA",
+                "AAA..AAAAOO?AAAAA..AAA",
                 "AAA..OOOOAAOOAAAA..AAA",
                 "AAA...AAAAAAAAA?A..AAA",
                 "???..................."
@@ -1391,10 +1358,10 @@
               "seats": [
                 "AAAAA??AAAAAA?",
                 "AAAAAAAAAAAA?A",
-                "AAAAAAAAAAAAAA",
+                "AOOOAAAAAAAAAA",
                 "AAAA?AAOOO..AA",
                 "AOOOOOOOOOOAAA",
-                "AAAAAAAOOAAAOO",
+                "AAAAOOOOOAAAOO",
                 "AA..AA..AA..AA"
               ],
               "layoutKey": "125683"
@@ -1412,7 +1379,7 @@
                 "AAAAAAAAAAAAAA",
                 "AAAA?AAAAA..AO",
                 "OOOOOOAAAOOAOO",
-                "AOOAAAAAAAAAAA",
+                "AOOAAOOOOAAOOO",
                 "AA..AA..AA..AA"
               ],
               "layoutKey": "125684"
@@ -1451,7 +1418,7 @@
               "seats": [
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
-                "AA..OOAAAA??..?A",
+                "AA..OOAOOO??..?A",
                 "?A..OOOOOOOO..AA",
                 "AA...AAOOAAA..OO"
               ],
@@ -1467,7 +1434,7 @@
                 "AA..AAAAAAAA..AA",
                 "AA..AAO?OOOO..AA",
                 "AA..AAOOOO??..?A",
-                "?A..AAOOOOOO..AA",
+                "?A..OOOOOOOO..AA",
                 "AA...AAAOOAA..AA"
               ],
               "layoutKey": "125632"
@@ -1526,7 +1493,7 @@
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAA??A..AAA",
                 "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAA?AAA..AAA",
+                "AAA..AAOOAA?AAA..AAA",
                 "AAA..AAAAA.AAAA..AAA",
                 "???..............???"
               ],
@@ -1597,8 +1564,8 @@
                 "AAA..AAAAOOOOOAAA..AAA",
                 "AAA..OOAA?OOOOOOO..AAA",
                 "AAA..AAOOOOOOOOAA..AAA",
-                "AAA..AAOOOO?AOOOO..AAA",
-                "OOO..AAOOAAOOOOOO..OOO",
+                "AAA..OOOOOO?AOOOO..AAA",
+                "OOO..OOOOAAOOOOOO..OOO",
                 "OOO...AOOAAAAAA?O..AAA",
                 "???..................."
               ],
@@ -1640,7 +1607,7 @@
                 "?AAAAAAAAAAAA",
                 "AAAAAAAAAAAAA",
                 "AAAAOOOOOAAAA",
-                "AAAAAAAAAAA..",
+                "AAAOOOOAAAA..",
                 "AAAAA.AAA?A.."
               ],
               "layoutKey": "125653"
@@ -1989,7 +1956,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAOOOOAAAA..AAA",
-                "AAA..AAAA?AOOOOOO..AAA",
+                "AAA..OOOA?AOOOOOO..AAA",
                 "AAA..OOOOOOOOOOOO..AAA",
                 "AAA..AAOOOO?AOOOO..AAA",
                 "AAA..OOOOAOOOOOOO..AAA",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T19:41:10.056Z",
+  "updatedAt": "2026-10-03T20:29:11.662Z",
   "theatre": {
     "id": 4115,
     "name": "Cineplex Cinemas at The Centre"
@@ -1405,32 +1405,6 @@
         "..SSSSSSSSSSS.."
       ]
     },
-    "85898": {
-      "totalRows": 9,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...................",
-        "...SSSSSSSSSSSSSS..",
-        "...................",
-        "..SSSSCW..WCSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSSSS"
-      ]
-    },
     "85899": {
       "totalRows": 9,
       "totalColumns": 16,
@@ -1827,32 +1801,6 @@
         "..SSSSSSSSSSSSSS...",
         "..SSSSSSSSSSSSSS...",
         "..SSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "85924": {
-      "totalRows": 9,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "................",
-        "...SSSSSSSSSSS..",
-        "................",
-        "..SSCW..WCSS....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS....",
-        "..SSSSSSSSSS....",
-        "..SS........SSSS"
       ]
     },
     "85925": {
@@ -3996,6 +3944,32 @@
         "..SSSSSSSSSS....",
         "..SS........SSSS"
       ]
+    },
+    "86030": {
+      "totalRows": 9,
+      "totalColumns": 16,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "................",
+        "...SSSSSSSSSSS..",
+        "................",
+        "....SSCW..WCSS..",
+        "....SSSSSSSSSS..",
+        "....SSSSSSSSSS..",
+        "....SSSSSSSSSS..",
+        "....SSSSSSSSSS..",
+        "SSSS........SSSS"
+      ]
     }
   },
   "days": [
@@ -4078,7 +4052,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 "..OOAAAAAAAAAOOAAAAAAAAAA..",
                 "..AAAAAAAAOOOOOOAAAAAAAAA..",
-                "..AAAAAAAAAOOOOAAAAAAAAAA..",
+                "..AAAAAAAAAOOOOAAOOOAAAAA..",
                 "..AA.AAA.AAA.AA.AAA.AAO.O..",
                 "..AA.AAA.AAO.OO.?AA.AAA.A.."
               ],
@@ -4103,7 +4077,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAA..",
                 "..OOAAAAAAAAAOOAAAAAAAAAA..",
                 "..AAAAAAAAOOOOOOAAAAAAAAA..",
-                "..AAAAAAAAAOOOOAAAAAAAAAA..",
+                "..AAAAAAAAAOOOOAAOOOAAAAA..",
                 "..AA.AAA.AAA.AA.AAA.AAO.O..",
                 "..AA.AAA.AAO.OO.?AA.AAA.A.."
               ],
@@ -4187,6 +4161,25 @@
               "layoutKey": "85899"
             },
             {
+              "time": "18:40",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=86030&a=0000000001&l=4115&m=verity&ss=False",
+              "seats": [
+                "................",
+                "...AAAAAAAAAAA..",
+                "................",
+                "....AAAA..AAAA..",
+                "....AAAAAAAAAA..",
+                "....AAAAAAAAAA..",
+                "....AAAAAAAAAA..",
+                "....AAAAAAAAAA..",
+                "A?AA........OOAA"
+              ],
+              "layoutKey": "86030"
+            },
+            {
               "time": "19:00",
               "formats": [
                 "Recliner"
@@ -4217,9 +4210,9 @@
                 "...................",
                 "..AAAAAA..AAAAAA...",
                 "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAOOAAAAA...",
                 "..AAAAAAAOOAOOAA...",
-                "..AAAAOOAAAAAOOO...",
+                "..AAAAOOAOOOOOOO...",
                 "..AAAAOOOOAOOOAAAOO"
               ],
               "layoutKey": "85912"
@@ -4231,25 +4224,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
           "runtimeMinutes": 94,
           "sessions": [
-            {
-              "time": "14:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=85924&a=0000000001&l=4115&m=resident-evil-2026&ss=False",
-              "seats": [
-                "................",
-                "...AAAAAAAAAAA..",
-                "................",
-                "..AAAA..AAAA....",
-                "..AAAAOOAAAA....",
-                "..AAAAOOAAOO....",
-                "..OAAAOOOOOO....",
-                "..OOOAOAAAOO....",
-                "..OO........OOOA"
-              ],
-              "layoutKey": "85924"
-            },
             {
               "time": "16:45",
               "formats": [
@@ -4264,7 +4238,7 @@
                 "..AAAAAAAAAA....",
                 "..AAAAOOAAAA....",
                 "..AAAAAOOAAA....",
-                "..OOAAAAAAAA....",
+                "..OOAAAOOAAA....",
                 "..OO........AAAA"
               ],
               "layoutKey": "85900"
@@ -4282,7 +4256,7 @@
                 "..AAAA..AAAA....",
                 "..AAAAAAAAAA....",
                 "..AAOOOOOOOO....",
-                "..OOAAOOAAOO....",
+                "..OOAAOOOOOO....",
                 "..AOOOOOOOOO....",
                 "..OO........AAAA"
               ],
@@ -4301,7 +4275,7 @@
                 "..AAAA..AAAA....",
                 "..AAAAAAAAAA....",
                 "..AAAAAAAAAA....",
-                "..AAAAAAAAAA....",
+                "..AAAAOOAAAA....",
                 "..AAAAAOOAAA....",
                 "..OO........AAAA"
               ],
@@ -4325,10 +4299,10 @@
                 "..AAAAAAAAAAA..",
                 "...............",
                 "..AAAAA.AAAAA..",
-                "..OOOAAAAAAAA..",
+                "..OOOOOAAAAAA..",
                 "..AAAAAAAAAOO..",
                 "..OOOOOAOOOOO..",
-                "..AAAAAAAAAAA..",
+                "..AAAAOOOAAAA..",
                 "..OOOOOOOAOOO..",
                 "..OOOAAAAAOOO..",
                 "..OOAOOOOOOOO.."
@@ -4347,7 +4321,7 @@
                 "...............",
                 "..AAAAA.AAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAOOOOAAA..",
                 "..AAAAAAAAAAA..",
                 "..OOOAAAAAAAA..",
                 "..AAAAAAOOOAA..",
@@ -4385,25 +4359,6 @@
           "runtimeMinutes": 101,
           "sessions": [
             {
-              "time": "13:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=85898&a=0000000001&l=4115&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "...................",
-                "...AAAAAAAAAAAAAA..",
-                "...................",
-                "..AAAAAA..AAAAAA...",
-                "..OOOAOOAAAAAAAA...",
-                "..AAAOOOAAAAAAAO...",
-                "..OOOAAAOOAAOOAA...",
-                "..AAAOOAOOAAAAOO...",
-                "..AAAAAOOOOOAAAOOOO"
-              ],
-              "layoutKey": "85898"
-            },
-            {
               "time": "16:30",
               "formats": [
                 "Recliner"
@@ -4436,7 +4391,7 @@
                 "..AAAAAAOOAAAAAA...",
                 "..AAAAOOOOAAAAAA...",
                 "..AAOOOAOOOOOOOO...",
-                "..OOOOAAOOOOOOOO...",
+                "..OOOOOOOOOOOOOO...",
                 "..OOOOOOAOOOOOAAAOO"
               ],
               "layoutKey": "85906"
@@ -4478,7 +4433,7 @@
                 "...AAAAAAAAAAA..",
                 "................",
                 "....OOOA..AAAA..",
-                "....OOOAAOOAAA..",
+                "....OOOOOOOAAA..",
                 "....AOOOOOOOOO..",
                 "....AOOOOOOOOO..",
                 "....OOOOOOOOOO..",
@@ -4532,13 +4487,6 @@
               "layoutKey": "85918"
             },
             {
-              "time": "18:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=85901&a=0000000001&l=4115&m=spiderman-brand-new-day&ss=False"
-            },
-            {
               "time": "21:20",
               "formats": [
                 "Recliner"
@@ -4553,7 +4501,7 @@
                 "....AAAAAAAAAA..",
                 "....AAAAAAAAAA..",
                 "....AAAAAAAAAA..",
-                "A?OO........AAAA"
+                "A?OO........OOOO"
               ],
               "layoutKey": "85908"
             }
@@ -4576,10 +4524,10 @@
                 "................",
                 "....AAAA..AAAA..",
                 "....AAAAAAAAAA..",
-                "....AAAAAAAAAA..",
                 "....AAAOOOAAAA..",
+                "....AOOOOOAAAO..",
                 "....AAOOOOOOOO..",
-                "A?OO........AAAA"
+                "A?OO........OOOA"
               ],
               "layoutKey": "85894"
             }
@@ -4768,7 +4716,7 @@
                 "..AAAA..AAAA....",
                 "..AAAAAAAAAA....",
                 "..AAAOOOOAAA....",
-                "..OOAAOOOOAA....",
+                "..OOOOOOOOOO....",
                 "..OOOOOAOOOO....",
                 "OOAA........OOAA"
               ],
@@ -4967,7 +4915,7 @@
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAA...",
+                "..AAAAOOOOOAAAAA...",
                 "..AAAAAAAOAAAAAAAAA"
               ],
               "layoutKey": "85925"
