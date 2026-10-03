@@ -1,42 +1,10 @@
 {
-  "updatedAt": "2026-10-03T22:06:32.889Z",
+  "updatedAt": "2026-10-03T22:49:35.283Z",
   "theatre": {
     "id": 7265,
     "name": "Galaxy Cinemas North Bay"
   },
   "auditoriums": {
-    "167844": {
-      "totalRows": 12,
-      "totalColumns": 24,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "........................",
-        "...SSSSSSSSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSSSSSSSS.",
-        "........................",
-        "...WCSSSSW......WCSSS...",
-        "......SSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSSSSS."
-      ]
-    },
     "167846": {
       "totalRows": 13,
       "totalColumns": 22,
@@ -69,36 +37,6 @@
         "....SSSSSSSSSSSSSS....",
         "SSSSSSSSSSSSSSSSSSSSSS",
         "......................"
-      ]
-    },
-    "167848": {
-      "totalRows": 11,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".....................",
-        "....SSSSSSSSSSSSSSSSS",
-        "....SSSSSSSSSSSSSSSSS",
-        ".....................",
-        "......SSSCW..WCSSCW..",
-        "......SSSSSSSSSSSSSS.",
-        "......SSSSSSSSSSSSSS.",
-        "......SSSSSSSSSSSSSS.",
-        "......SSSSSSSSSSSSSS.",
-        "......SSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "167850": {
@@ -2287,9 +2225,9 @@
                 "......................",
                 "....AAAAA...AAAAAA....",
                 "....AAAAAAAAAAAAAA....",
+                "....AAAAAAOAAAAAAA....",
                 "....AAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAA....",
-                "....AAAAAAAAAAAAAA....",
+                "....AAAAAAOAAAAAAA....",
                 "....AAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAAA",
                 "......................"
@@ -2339,15 +2277,15 @@
                 ".AAAAAAAAAAAAAAAAAAAAAA..",
                 ".........................",
                 ".....AAAAAAA..AAAAAAA....",
-                "..AAAAAAAAOOOOOAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA....",
+                "..AAOOAAAAOOOOOAAAAAA....",
+                "..AAAAAAOOAAAAAAAAAAA....",
+                "..AAOOOOOOOAAOOAAAAAA....",
+                "..AAAAAAAOOOOOAAAAAAA....",
                 "..AAAAAOOOOAAAAAAAAOO....",
-                "..AOOAAAAAAAAAAAAAAAA....",
+                "..AOOAAAAAAAOAAAAAAAA....",
                 "..OOAAAAAAOOOOAAOOAAA..AA",
                 "..AAAAAAAAOOOAAAAAAAA..AA",
-                "..AAAAAAAAAOAAOOAAOO?..AA",
+                "..OOOAAAAAAOAAOOAAOO?..AA",
                 "..AA.AAO.O?.OOA.AAA.A..AA",
                 "..AA.AAA.OO.OOO.OOA.A..AA"
               ],
@@ -2366,15 +2304,15 @@
                 ".AAAAAAAAAAAAAAAAAAAAAA..",
                 ".........................",
                 ".....AAAAAAA..AAAAAAA....",
-                "..AAAAAAAAOOOOOAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAAAA....",
+                "..AAOOAAAAOOOOOAAAAAA....",
+                "..AAAAAAOOAAAAAAAAAAA....",
+                "..AAOOOOOOOAAOOAAAAAA....",
+                "..AAAAAAAOOOOOAAAAAAA....",
                 "..AAAAAOOOOAAAAAAAAOO....",
-                "..AOOAAAAAAAAAAAAAAAA....",
+                "..AOOAAAAAAAOAAAAAAAA....",
                 "..OOAAAAAAOOOOAAOOAAA..AA",
                 "..AAAAAAAAOOOAAAAAAAA..AA",
-                "..AAAAAAAAAOAAOOAAOO?..AA",
+                "..OOOAAAAAAOAAOOAAOO?..AA",
                 "..AA.AAO.O?.OOA.AAA.A..AA",
                 "..AA.AAA.OO.OOO.OOA.A..AA"
               ],
@@ -2486,10 +2424,10 @@
                 "....AAAAA.....AAAAAAA..",
                 "....AAAAAAAAAAAAAAA??..",
                 "....AAAAAAAOOAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAAO..",
                 "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "....OOAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAOOOAAAAAAA..",
+                "....OOAAOOOAAAAOOAAAA..",
+                "OO..AAAAAAAOOOAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAA..",
                 "AA..AAAAOOOOOOOOAAAAA..",
                 "AAOOAAAAAAAAAAAAAAAAA.."
@@ -2527,28 +2465,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
           "runtimeMinutes": 109,
           "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167844&a=0000000001&l=7265&m=forgotten-island&ss=False",
-              "seats": [
-                "........................",
-                "...AAAAAAAAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAAAAAAAA.",
-                "........................",
-                "...AAAAAAA......AAAAA...",
-                "......AAAAAAAAAAAAAAA...",
-                "......AAAAAAAOAOAAOOA...",
-                "......OOOOOAAAAAAAAAA...",
-                "......AAAAAAAAAAOOOOA...",
-                "......OOAAAAAAAAAAAAA...",
-                "AAAAAAOOAAAOOOOAAOOOAAA."
-              ],
-              "layoutKey": "167844"
-            },
             {
               "time": "21:10",
               "formats": [
@@ -2590,11 +2506,11 @@
                 "..AAAAAAAAAAAAAAAAA...",
                 "......................",
                 "..AAAAA......AAAAAA...",
-                ".....AAAAAAAAAAAAAA...",
-                ".....AAAAAOOAAAAAOO...",
-                ".....AAAAAAAAAAAOOO...",
-                ".....AAAAAAAAAAAAAA...",
-                ".....AAAAAAAAAAAAAA...",
+                ".....AAAOAOOOAAAAAA...",
+                ".....AAAOOOOAAAAAOO...",
+                ".....AAAAAAOOAAAOOO...",
+                ".....AAOOOOAOOAAAAA...",
+                ".....AAOOAAOOAAAAAA...",
                 ".AAOOAAAAAOOAAOOAAAAA."
               ],
               "layoutKey": "167860"
@@ -2623,34 +2539,6 @@
           ]
         },
         {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "18:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167848&a=0000000001&l=7265&m=practical-magic-2&ss=False",
-              "seats": [
-                ".....................",
-                "....AAAAAAAAAAAAAAAAA",
-                "....AAAAAAAAAAAAAAAAA",
-                ".....................",
-                "......AAAAA..AAAAAA..",
-                "......AAAAAOOAAAAAAA.",
-                "......AAAAAOOAAAAAAA.",
-                "......AAAAAAOOAAAAAA.",
-                "......OAAAOOAAAAOOOO.",
-                "......AAAAAOOOAAAAAA.",
-                ".OOOOOAAAOOOOAAAOOOOO"
-              ],
-              "layoutKey": "167848"
-            }
-          ]
-        },
-        {
           "title": "Spider-Man: Brand New Day",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
@@ -2667,7 +2555,7 @@
                 "....AAAAAAAAAAAAAAAAA",
                 ".....................",
                 "......AAAAA..AAAAAA..",
-                "......AAAAAAAAAAAAAA.",
+                "......AAAAOOAAAAAAAA.",
                 "......AAAAAAAAAAAAAA.",
                 "......AAAAAAOOAAAAAA.",
                 "......AAAAAAAAAAAAAA.",

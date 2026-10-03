@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T22:05:22.804Z",
+  "updatedAt": "2026-10-03T22:47:56.583Z",
   "theatre": {
     "id": 9153,
     "name": "Cinéma Cineplex Odeon Carrefour Dorion"
@@ -729,58 +729,6 @@
         ".SSSSSSSSSSSSSSSS.",
         ".........WCSSSSCW.",
         ".................."
-      ]
-    },
-    "196727": {
-      "totalRows": 11,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        null
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSS...",
-        ".SSSSSSSSSSS...",
-        "..SSSSSSSSSSSS.",
-        ".SSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSS.",
-        ".SSSSCW........",
-        "..............."
-      ]
-    },
-    "196728": {
-      "totalRows": 7,
-      "totalColumns": 17,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSSSSSSS.",
-        ".SSSSSSSSSS.SSSS.",
-        "...WC.SSS.CW....."
       ]
     },
     "196730": {
@@ -2780,9 +2728,9 @@
                 "..AAAAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAA.",
+                "...AAAAAAAAAOOAAA.",
                 "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAOO.",
                 "........?AAAAAAAA.",
                 "..................",
                 ".................."
@@ -2827,12 +2775,12 @@
               "seats": [
                 "...AAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAOOAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAOAAA.",
-                ".AAAAAAAOOAAAAAAA.",
+                "..AAAAAOOAAAAAAAA.",
+                ".AAAAAAAAOOAAAAAA.",
+                "..AAAOOAAAAAOOAAA.",
+                ".AOOAAAAAOOAAAAAA.",
+                "..AAAAAAOOAAAOAAA.",
+                ".AAAAOAAOOAAAAAOO.",
                 ".........AAAAAAAA.",
                 ".................."
               ],
@@ -2878,7 +2826,7 @@
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAAA.",
                 ".AAAAAOAAAA..",
-                ".AAAAAAAAAAA.",
+                ".AAAAOOOAAAA.",
                 ".AAAAAAAAAA..",
                 ".AAAAAAAAAAA.",
                 ".AAAAA.......",
@@ -2908,7 +2856,7 @@
                 "..AAAAOAAAAA.",
                 ".AAAAAAAAAAA.",
                 "..AAAAAAAAAA.",
-                ".AAAAAAAAOAA.",
+                ".AOOAAAAAOAA.",
                 "......AAA?AA.",
                 ".............",
                 "............."
@@ -2956,8 +2904,8 @@
                 ".AAAAAAAAAAAAAAAA.",
                 "..AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAAAA.",
+                "..AAAAAAOOAAAAAAA.",
+                ".AAAAAAAAAAOOOAAA.",
                 "..AAAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAAAA.",
                 ".........AAAAAAAA.",
@@ -3006,11 +2954,11 @@
                 ".....AAAAAAAAAAAA.",
                 "....AAAAAAAAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
+                "...AAAAAAOOAAAAAA.",
                 "...AAAAAAAAAAAAAA.",
-                "...AAAAAAAAAAAAAA.",
-                "..AAAAAAAAAAAAAAA.",
+                "..OOAAAAOOOAAAAAA.",
                 "...AAAAAAAAAOOAAA.",
-                "..AAAAAAAAAAAAAAA.",
+                "..AAAAAAOOAAAAAAA.",
                 ".........AAAAAAAA.",
                 ".................."
               ],
@@ -3045,23 +2993,6 @@
           "runtimeMinutes": 145,
           "sessions": [
             {
-              "time": "18:20",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196728&a=0000000001&l=9153&m=vf-spiderman-un-jour-nouveau&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAOOO.",
-                ".AAAAAA?AAAAAAAA.",
-                ".AAAAAAAAAAAAAAA.",
-                ".AAAAAA???A.AAAA.",
-                "...A?.AAA.?A....."
-              ],
-              "layoutKey": "196728"
-            },
-            {
               "time": "21:40",
               "formats": [
                 "Regular"
@@ -3085,27 +3016,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61142_320_470.jpg",
           "runtimeMinutes": 110,
           "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196727&a=0000000001&l=9153&m=pauline-julien-femme-pays&ss=False",
-              "seats": [
-                ".AAAAAAAAAAA...",
-                ".AAAAAAAAAAA...",
-                "..AAAAAAAAAAAA.",
-                ".AAAAAAAAAAAA..",
-                ".AAAAAOOAAAAAA.",
-                ".AAAAAAAAAAAA..",
-                ".AAAAAOOAAAAAO.",
-                ".AOOAAOOOAAAA..",
-                ".AAAAAAAAAAAAA.",
-                ".AAAAAA........",
-                "..............."
-              ],
-              "layoutKey": "196727"
-            },
             {
               "time": "21:20",
               "formats": [

@@ -1,42 +1,10 @@
 {
-  "updatedAt": "2026-10-03T22:05:27.273Z",
+  "updatedAt": "2026-10-03T22:48:02.743Z",
   "theatre": {
     "id": 9121,
     "name": "Cinéma Cineplex Royalmount"
   },
   "auditoriums": {
-    "15379": {
-      "totalRows": 14,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null,
-        null,
-        "K"
-      ],
-      "seatTypes": [
-        "...................",
-        "..CW.WCSSSCW.WC....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..DD.DDD.DD.DDD.D..",
-        "..DD.DDD.DD.DDD.D..",
-        "..SSSSS.SSSSSSSSSS."
-      ]
-    },
     "15380": {
       "totalRows": 10,
       "totalColumns": 19,
@@ -93,36 +61,6 @@
         "..SSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "15388": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...................",
-        "..CW.WCSSSCW.WC....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS."
       ]
     },
     "15391": {
@@ -238,36 +176,6 @@
         "...SSSSSSSSSSSSSS..",
         ".SSSSSSSSSSSSSSSS..",
         ".SSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "15399": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...................",
-        "....CW.WCSSSCW.WC..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSSS"
       ]
     },
@@ -2794,27 +2702,6 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
-              "time": "18:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15388&a=0000000001&l=9121&m=verity&ss=False",
-              "seats": [
-                "...................",
-                "..??.??AAAAA.AA....",
-                "..AAAAAOOAAOOAA....",
-                "..OOOOOOOOOOAOO....",
-                "..OOOOOOOOOOAOO....",
-                "..OOOOOOOOOOOOO....",
-                "..OOOOOOOOOOOOO....",
-                "..OOOOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOO..",
-                "..OOOOO?????OOOOOO."
-              ],
-              "layoutKey": "15388"
-            },
-            {
               "time": "21:45",
               "formats": [
                 "Recliner"
@@ -2824,14 +2711,14 @@
                 "...................",
                 "....??.??AAA??.??..",
                 "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAOOAAAAA..",
+                "....AAOOOOAAAAAAA..",
+                "....AAOOOOOOAAAOO..",
                 "....OOOOOOOOOOOOO..",
                 "....OOOOOOOOOOOOA..",
                 "..OOAOOOOOOOOOOOO..",
                 "..OOAOOOOOOOOOOOO..",
                 "..AOOOOOOOOOOOOOO..",
-                "OOOOAOOOOOOOOOAOOO?"
+                "OOAAAOOOOOOOOOOOOO?"
               ],
               "layoutKey": "15387"
             }
@@ -2852,8 +2739,8 @@
               "seats": [
                 "...................",
                 "...AA.AAAAAAAA.AA..",
-                "...AAAAAAAA?AAAAA..",
-                "...OAAOOOOOOAAOOO..",
+                "...AAAAAAOO?AAAAA..",
+                "...OAAOOOOOOOOAOO..",
                 "...OOOOAOOOOOOAOO..",
                 "...OOOO?OOOOOOOOO..",
                 "...OOOOOOOOOOOOOO..",
@@ -2876,69 +2763,13 @@
                 "...AAAAAAAA?AAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAOOOAAAAAA..",
-                "...OOOO?OOOAAAAAA..",
+                "...OOOO?OOOOOAAAA..",
                 "...AOOOOOOOOOOOOA..",
-                ".AAOOAOOOOOOAAAAA..",
+                ".AAOOAOOOOOOOOAAA..",
                 ".AAAAAAOOOOOOAAAA..",
                 ".AOOOOOO?OOOOOOAAA."
               ],
               "layoutKey": "15380"
-            }
-          ]
-        },
-        {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "3D",
-                "D-BOX",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15379&a=0000000004&l=9121&m=forgotten-island&ss=False",
-              "seats": [
-                "...................",
-                "..??.??AAA??.??....",
-                "..AOOOOAAAAAAAA....",
-                "..?AAAOOOOOOOAA....",
-                "..AOOOOOOOOOOOO....",
-                "..OOOOOOOOOOOAA....",
-                "..AOOOOOOOOOAOO....",
-                "..OOOOOOOOOOOOOOO..",
-                "..?AOOOOOOOOAOOOO..",
-                "..OO.OO?.??.?OO.O..",
-                "..?O.OOO.OO.OOO.O..",
-                "..OOOO?.?OOOOOOAOO."
-              ],
-              "layoutKey": "15379"
-            },
-            {
-              "time": "18:30",
-              "formats": [
-                "3D",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15379&a=0000000001&l=9121&m=forgotten-island&ss=False",
-              "seats": [
-                "...................",
-                "..??.??AAA??.??....",
-                "..AOOOOAAAAAAAA....",
-                "..?AAAOOOOOOOAA....",
-                "..AOOOOOOOOOOOO....",
-                "..OOOOOOOOOOOAA....",
-                "..AOOOOOOOOOAOO....",
-                "..OOOOOOOOOOOOOOO..",
-                "..?AOOOOOOOOAOOOO..",
-                "..OO.OO?.??.?OO.O..",
-                "..?O.OOO.OO.OOO.O..",
-                "..OOOO?.?OOOOOOAOO."
-              ],
-              "layoutKey": "15379"
             }
           ]
         },
@@ -2966,7 +2797,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
                 "..?AAAAAAAAAAAAAA..",
-                "..AA.AA?.??.?AA.A..",
+                "..OO.OO?.??.?AA.A..",
                 "..?A.AAO.OO.OAA.A..",
                 "..AAAA?.?AAAAAAAAA."
               ],
@@ -2990,7 +2821,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA..",
                 "..?AAAAAAAAAAAAAA..",
-                "..AA.AA?.??.?AA.A..",
+                "..OO.OO?.??.?AA.A..",
                 "..?A.AAO.OO.OAA.A..",
                 "..AAAA?.?AAAAAAAAA."
               ],
@@ -3013,14 +2844,14 @@
               "seats": [
                 "...................",
                 "...AA.AAAAAAAA.AA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...OOAOOOOOOAAAAA..",
+                "...OOOAAAAAAAAAAA..",
+                "...AOAOOAOOAOOOOO..",
+                "...OOAOOOOOOOOOOO..",
                 "...AOOOOOOOOOOOOA..",
-                "...AOOOOOOOOOOOOO..",
-                ".AOOOOOOOOOOOOOOA..",
-                ".OOOOOOOOOOOOOOAA..",
-                "OOAAOOOOO?OOOOOAAOO"
+                "...AOOOOOOOAOOOOO..",
+                ".OOOOOOOOOOOOOOOA..",
+                ".OOOOOOOOOOOOOOOO..",
+                "OOOOOOOOO?OOOOOOOOO"
               ],
               "layoutKey": "15395"
             },
@@ -3038,7 +2869,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAOOAAAAAAA..",
-                "...OOAAAAOOAAAAOO..",
+                "...OOOOOOOOAAAAOO..",
                 ".AAAAOOAAOOAAAAAA..",
                 ".AAAAAAAAAAOOOAAA..",
                 "AAAAAAAOO?AAAAAAAAA"
@@ -3052,29 +2883,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "3D",
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15399&a=0000000001&l=9121&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...................",
-                "....??.??AAA??.??..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAOOOOAAAAA..",
-                "....AAAAAOOOAAAAA..",
-                "....AOOAAOOAAAAOO..",
-                "..OOAAAAOOOOAAOOO..",
-                "..OOAAOOOOOAAAAAA..",
-                "..AAAAAAAOAAAAAAA..",
-                "OOOAAAAAAAAAAAAOOO?"
-              ],
-              "layoutKey": "15399"
-            },
             {
               "time": "21:00",
               "formats": [
@@ -3090,8 +2898,8 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAOOAAOOAAA....",
-                "..OOOOOOOOAAAAAAA..",
-                "..AAAAAAOOAAAAAAA..",
+                "..AAOOOOOOAAAAAAA..",
+                "..AAAAAAOOAAOOAAA..",
                 "..AAAAAAOOAAAAAAA..",
                 "..AAAOO?????AAAAAA."
               ],
@@ -3165,7 +2973,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAOOOOOOAAA....",
-                "..AAAAAOOOOOOAAAA..",
+                "..OOOAAOOOOOOAAAA..",
                 "..OOAAAAOOOAAAAAA..",
                 "..AAOOAAOOAAAAAAA..",
                 "..AAAOO?????AAAAAA."
@@ -3255,7 +3063,7 @@
                 "...AAAAAAAA?AAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
-                "...AAAA?AAAAAAAAA..",
+                "...AAAA?AAOOAAAAA..",
                 "...AAAAAOOOOAAAAA..",
                 ".AAAAAAAOOOAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
@@ -3551,7 +3359,7 @@
                 "...AA.AAAAAAAA.AA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
+                "...AAAAAAOOAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAOOAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
@@ -3574,7 +3382,7 @@
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAOOAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
+                "...AAAAOOAAAAAAAA..",
                 ".AAAAAAAAOOAAAAAA..",
                 ".AAAAAAAAAAAAAAAA..",
                 "AAAAAAOOO?AAAAAAAAA"
@@ -3668,7 +3476,7 @@
                 "....AAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAAOOAAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAA?"
               ],
@@ -4209,7 +4017,7 @@
                 "...................",
                 "..??.??AAAAA.AA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAOOOOOOOAAA....",
+                "..OOOOOOOOOOAOO....",
                 "..OOAOOOOAOOOOO....",
                 "..OOOOOOOOOOOOO....",
                 "..AOOOOOOOOOOOO....",
@@ -4771,7 +4579,7 @@
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
+                "..AAAAOOOOOAAAA....",
                 "..OOOAAAOOOAAAAAA..",
                 "..AAAAAAAOOAAAAAA..",
                 "..AAAAAAAAAAAAAAA..",

@@ -1,76 +1,10 @@
 {
-  "updatedAt": "2026-10-03T22:06:20.655Z",
+  "updatedAt": "2026-10-03T22:49:17.161Z",
   "theatre": {
     "id": 7206,
     "name": "Cineplex Odeon Seaway Mall Cinemas"
   },
   "auditoriums": {
-    "153765": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
-    "153766": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
-    "153767": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WCSSSSSSSCW.."
-      ]
-    },
     "153768": {
       "totalRows": 10,
       "totalColumns": 20,
@@ -1706,7 +1640,7 @@
                 "..A?AAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAOOOOAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAOO..",
                 "..OO?AAAAOOOO..",
                 "..AAAAAAAAAAA.."
               ],
@@ -1746,10 +1680,10 @@
                 "AAAA..AAAAAAAAAAAAAA..",
                 "AAAA..AAAAAAAAAAAAAA..",
                 "AAAA..AAAAAAOOAAAAAA..",
-                "AAAA..AAAAOOOOAAOOAA..",
+                "OOAA..AAAAOOOOOOOOAA..",
                 "A?AA..OOOOOOO?OOA?OO..",
                 "AAOO..OOOOOO?OOOOOOA..",
-                "AA?A..OOA?OOOOOOOOOA..",
+                "OO?A..OOA?OOOOOOOOOO..",
                 "OOOO..OOOOOOOOOOAAOO..",
                 "OOOO..OOOOOOO?OOA?OO..",
                 "......OOOOOA.AAOOOO?..",
@@ -1773,7 +1707,7 @@
                 "AA?O..AAA?OOAAAAAAAA..",
                 "AAAA..OOOAAAAAAAAAAO..",
                 "AAAA..AAAOOAA?AAA?OO..",
-                "......AAAAAA.AAAAAA?..",
+                "......OOAAAA.AAAAAA?..",
                 "......................"
               ],
               "layoutKey": "153782"
@@ -1795,7 +1729,7 @@
                 "...............",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAOOAAOOAA..",
                 "..OOOAAOOAAOO..",
                 "..?OOOOOOAAA?..",
                 "..AAOOOOOOAAA.."
@@ -1826,24 +1760,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
           "runtimeMinutes": 109,
           "sessions": [
-            {
-              "time": "18:15",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153767&a=0000000001&l=7206&m=forgotten-island&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAOOOOO..",
-                "..AAOOOOOOOOA..",
-                "..A?OOOOOOOOO..",
-                "..OOAAOOOOO??..",
-                "..AA?OOOOOAAA..",
-                "..AAOOOOOAAAA.."
-              ],
-              "layoutKey": "153767"
-            },
             {
               "time": "21:00",
               "formats": [
@@ -1880,11 +1796,11 @@
                 "....AAAAAAAAAA..AAAA",
                 "...AAAAAAAAAAA..AAAA",
                 "..AAAAAAOOAAOO..AAAA",
-                "..AAAAAAAOOOOA..AAAA",
-                "..AAAAOOOOOOOO..AAAA",
+                "..AAAAOOOOOOOA..AAAA",
+                "..AAAAOOOOOOOO..OOAA",
                 "..OOAAOOOOOOOO..OOAA",
-                "..OOAAAAOOOOOO..AAAA",
-                "....OO?OOOOA??..OOAA",
+                "..OOOOAAOOOOOO..AAAO",
+                "....OO?OOOOO??..OOAA",
                 "........OOAOOO......"
               ],
               "layoutKey": "153768"
@@ -1917,23 +1833,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "18:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153766&a=0000000001&l=7206&m=practical-magic-2&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAOOOOAAA..",
-                "..OOOOOOOOAOO..",
-                "..OOA?OOOOAOO..",
-                "..AAOOOOOOAAA.."
-              ],
-              "layoutKey": "153766"
-            },
-            {
               "time": "21:20",
               "formats": [
                 "Recliner"
@@ -1957,23 +1856,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "18:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=153765&a=0000000001&l=7206&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAOOAAAAA..",
-                "..AAOOOOO?AAA..",
-                "..AAAOOOOAAAA..",
-                "..AAOO?OOAAAA..",
-                "..AAAA?A??AAA.."
-              ],
-              "layoutKey": "153765"
-            },
             {
               "time": "21:10",
               "formats": [
@@ -2117,7 +1999,7 @@
                 "A?AA..AAAAAAA?AAA?AA..",
                 "AAAA..AAAAAA?AAAAAAA..",
                 "AA?A..AAA?AAAAAAAAAA..",
-                "AAAA..OOOAAAAAAAAAAA..",
+                "AAAA..AAAOOOAAAAAAAA..",
                 "AAAA..AAAAAAA?AAA?AA..",
                 "......AAAAAA.AAAOOO?..",
                 "......................"
@@ -2401,8 +2283,8 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAA?AAA..",
-                "..AAAOOAAAAAA..",
-                "..AAAA?AAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAA?OOAAAA..",
                 "..AAAA?A??AAA.."
               ],
               "layoutKey": "153811"
