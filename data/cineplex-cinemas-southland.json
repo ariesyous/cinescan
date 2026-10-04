@@ -1,38 +1,10 @@
 {
-  "updatedAt": "2026-10-04T22:17:53.127Z",
+  "updatedAt": "2026-10-04T22:57:06.700Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
   },
   "auditoriums": {
-    "268193": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        null
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        ".....WCWWCSCWWCCW.....",
-        "......................"
-      ]
-    },
     "268194": {
       "totalRows": 10,
       "totalColumns": 22,
@@ -1625,28 +1597,6 @@
         "..SSSSSSSSSSSSS..",
         "...WWCCSSSSSSSS..",
         "................."
-      ]
-    },
-    "269171": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WWCCSSSSSSS..",
-        "..............."
       ]
     },
     "269173": {
@@ -4104,26 +4054,6 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
-              "time": "16:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268193&a=0000000001&l=4108&m=verity&ss=False",
-              "seats": [
-                "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAA??AAAAAA..AA",
-                "AA..A?AA?AAOAAOAAA..AA",
-                "AA..AAAAOOAAOOAAAA..AA",
-                "AA..OOAAAAOOAOOAA?..??",
-                "AA..OO?AAAOOAAAAAA..AA",
-                ".....AAAAAAAAAAAA.....",
-                "......................"
-              ],
-              "layoutKey": "268193"
-            },
-            {
               "time": "19:00",
               "formats": [
                 "Recliner"
@@ -4137,7 +4067,7 @@
                 "AA..A?AA?AAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AOOOOOOOOOOAA?..??",
-                "AA..AA?OOOOOOAAOOA..AA",
+                "AA..AA?OOOOOOAAAAA..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
               ],
@@ -4186,7 +4116,7 @@
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
                 "..??AAAAAAAAAAA..",
-                "..AAAAAAOOAAAOO..",
+                "..AAAAOOOOAAAOO..",
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA?..",
                 "...AAAAAA?AAAAA..",
@@ -4232,7 +4162,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..OOOOOAAAAAA..",
-                "..AAAAA.AAAAA..",
+                "..AAAAA.AAAOO..",
                 "..............."
               ],
               "layoutKey": "269175"
@@ -4344,7 +4274,7 @@
               "seats": [
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
-                "..AAAAA???AAAAA..",
+                "..AAOAA???AAAAA..",
                 "..AAAAAAA??OOOO..",
                 "..??AA?A??AAAAA..",
                 "..AAAAA?AAAAAAA..",
@@ -4352,30 +4282,6 @@
                 "................."
               ],
               "layoutKey": "269179"
-            }
-          ]
-        },
-        {
-          "title": "Coyote vs ACME",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
-          "runtimeMinutes": 103,
-          "sessions": [
-            {
-              "time": "16:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=269171&a=0000000001&l=4108&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "..AAAAA?AAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAOO?OAAA..",
-                "..?OOAOOAAOOA..",
-                "..AAAA?OOAAAA..",
-                "..AAAAOOOOAAA..",
-                "..............."
-              ],
-              "layoutKey": "269171"
             }
           ]
         },

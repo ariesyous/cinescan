@@ -1,76 +1,10 @@
 {
-  "updatedAt": "2026-10-04T22:18:19.854Z",
+  "updatedAt": "2026-10-04T22:57:35.943Z",
   "theatre": {
     "id": 7271,
     "name": "Galaxy Cinemas Midland"
   },
   "auditoriums": {
-    "150461": {
-      "totalRows": 11,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "......................",
-        "...SSSSSSSSSSSSSSSSSS.",
-        "...SSSSSSSSSSSSSSSSSS.",
-        "......................",
-        "....WWCSSSSSSSSCW.....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "150462": {
-      "totalRows": 14,
-      "totalColumns": 27,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...........................",
-        "..SSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSC..WW...",
-        "...........................",
-        ".......WWCSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSSSS...",
-        "......SSSSSSSSSSSSSSSSSS...",
-        "..SS..SSSSSSSSSSSSSSSSSS...",
-        "..SS..SSSSSSSSSSSSSSSSSS...",
-        "..SS..SSSSSSSSSSSSSSSSSS...",
-        ".SSSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "150463": {
       "totalRows": 13,
       "totalColumns": 23,
@@ -1336,48 +1270,17 @@
                 ".AAAAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAAA..",
                 ".......................",
-                ".....AAAAAAAAAAAAAA....",
+                ".....AAAAOOAAAAAAAA....",
+                "....AAAAAAAOOAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAA..",
+                "AA..AAAOOAAAAAAAAAAAA..",
+                "AA..AAAAAAAOOAAAAAAAA..",
                 "?A..AAAAAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAA?"
               ],
               "layoutKey": "150468"
-            }
-          ]
-        },
-        {
-          "title": "Verity",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38401_320_470.jpg",
-          "runtimeMinutes": 117,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=150462&a=0000000001&l=7271&m=verity&ss=False",
-              "seats": [
-                "...........................",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..AA...",
-                "...........................",
-                ".......AAAAAAAAAAAAAAAAA...",
-                "......?A?AAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAAAAAAAAA...",
-                "......AAAAAAAAAAA?AAAAAA...",
-                "......AAAAAAAAAAAAAAAAAA...",
-                "..AA..AAAAAAAAAAAAAAAAAA...",
-                "..AA..AAAAAAAOOAAAAAAAAA...",
-                "..AA..AAAAAAAAAAAAAAAAAA...",
-                ".OOOAAAAAAAAAOOAAAA?AOAAAAA"
-              ],
-              "layoutKey": "150462"
             }
           ]
         },
@@ -1412,34 +1315,6 @@
           ]
         },
         {
-          "title": "Forgotten Island",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
-          "runtimeMinutes": 109,
-          "sessions": [
-            {
-              "time": "18:30",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=150461&a=0000000001&l=7271&m=forgotten-island&ss=False",
-              "seats": [
-                "......................",
-                "...AAAAAAAAAAAAAAAA??.",
-                "...AAAAAAAAAAAAAAAAAA.",
-                "......................",
-                "....AAAAAAAAAAAAA.....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAOOAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...OAAAAAAOOOOOAAA....",
-                "...AAAAAAAA??AAAAA..AA",
-                "OOAAAAAAA?AAAAAAAAAAAA"
-              ],
-              "layoutKey": "150461"
-            }
-          ]
-        },
-        {
           "title": "Heart of the Beast",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
           "runtimeMinutes": 101,
@@ -1455,15 +1330,15 @@
                 ".?AAAAAAAAAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAAAAAAAAA..",
                 ".......................",
-                "....AAAAAAAAAAAAAA.....",
+                "....AAAAAAOOAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAAA....",
+                "..AAOAAAAAOOAAAAAAA....",
                 "..AAAAAAAAAAAAAAAAA..AA",
+                "..AAAAAAAAAAAAAAOOO..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
-                "..AAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAOOAAAAAA?AAAAA"
+                "AAAAAOOAAOOAAAAAA?AAAAA"
               ],
               "layoutKey": "150463"
             }
@@ -1619,7 +1494,7 @@
                 "..AAAAAAAAAAAAAAAAA..A?",
                 "..AAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAOOAAAAAAAAAAA"
               ],
               "layoutKey": "150487"
             }
@@ -2153,7 +2028,7 @@
                 "..AAAAAAAAAAAAAAAAA..A?",
                 "..AAAAAAAAAAAAAAAAA..AA",
                 "..AAAAAAAAAAAAAAAAA..AA",
-                "AAAAAAAAAAAAAAAAAAAAAAA"
+                "OOAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "150488"
             }

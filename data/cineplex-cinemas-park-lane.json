@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T22:17:47.828Z",
+  "updatedAt": "2026-10-04T22:57:00.760Z",
   "theatre": {
     "id": 5143,
     "name": "Cineplex Cinemas Park Lane"
@@ -2407,36 +2407,6 @@
         ".SSSSSSSSSSSSSSSS.."
       ]
     },
-    "128654": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "...................",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        "...................",
-        "..SSSSSCW.CW.WC....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "SSSSSSSSSSSSSSSSS.."
-      ]
-    },
     "128655": {
       "totalRows": 11,
       "totalColumns": 19,
@@ -4737,7 +4707,7 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
-                "....AOOAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAA"
@@ -4766,7 +4736,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
                 ".............................",
                 ".AAAA..AA..AAAA.AAAAAA.AA....",
-                "..AAA..AAAAAAAAAAAAAAAAAA....",
+                "..AAA..AAAAAAAAOOAAAAAAAA....",
                 "..AAA..AAAAAAAAAAAAAAAAAA....",
                 ".AAAA..AAAAAAAAAAAAAAAAAA....",
                 ".AAAA..AOOAAAAAAAAAAAAAAA....",
@@ -4774,7 +4744,7 @@
                 "..AAA..AAAAAAAAAAAAAAAAAA....",
                 ".AAAA..AAAAAAAOOAAAAAAAAA....",
                 "..AAA..AAOAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAOOAAAAAA.."
+                ".AAAAAAAAAAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "128646"
             }
@@ -4819,27 +4789,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
           "runtimeMinutes": 109,
           "sessions": [
-            {
-              "time": "19:40",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=128654&a=0000000001&l=5143&m=forgotten-island&ss=False",
-              "seats": [
-                "...................",
-                ".AAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAA..",
-                "...................",
-                "..AAAAA?A.AA.A?....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAOAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "AAAAAAAAAAAAAAAAA.."
-              ],
-              "layoutKey": "128654"
-            },
             {
               "time": "21:45",
               "formats": [
@@ -4887,10 +4836,10 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAOOAAAAAAAA....",
+                "..AAAAAAAOOAAAAAAA....",
+                "..OOAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAA....",
-                "AAAAAAAAAAAAAAAAAAAA.."
+                "AAAAAAAAAOAAAAAOAAAA.."
               ],
               "layoutKey": "128659"
             },
@@ -4942,8 +4891,8 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAA....",
+                "..AAAAAAAOOAAAAAAA....",
+                "..AAAAAAAAAOAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAA.."
               ],
               "layoutKey": "128660"
@@ -4968,7 +4917,7 @@
                 "....................",
                 "...AAAAAAAAAAA.A....",
                 "..AAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAAOAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAA....",
@@ -5540,7 +5489,7 @@
                 ".AAAA..AAAAAOOOOOAAAAAAAA.....",
                 "AAAAA..AAAAAAOOOOAAOOOAAA.....",
                 "AAAAA..OAAAAAOOOOAAAOOOOO.....",
-                "AAAAAAAAAAAAAAOAAAAOAAAAAAA..."
+                "AAAAAAAAAAOOAAOAAAAOAAAAAAA..."
               ],
               "layoutKey": "128691"
             },

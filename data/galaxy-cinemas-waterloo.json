@@ -1,60 +1,10 @@
 {
-  "updatedAt": "2026-10-04T22:18:23.878Z",
+  "updatedAt": "2026-10-04T22:57:40.133Z",
   "theatre": {
     "id": 7268,
     "name": "Galaxy Cinemas Waterloo"
   },
   "auditoriums": {
-    "276790": {
-      "totalRows": 7,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..................",
-        "..................",
-        "..SCWSSSSS.WCS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "SSSSSSSSSSSSSSSS.."
-      ]
-    },
-    "276791": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "...................",
-        "..SSSSSSSSSSSSSSS..",
-        "...................",
-        "....SCW.WCSCW.WCS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "276792": {
       "totalRows": 11,
       "totalColumns": 23,
@@ -1032,8 +982,8 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAA..",
-                "..OOAAAOOOOOOOOOAAAAA..",
-                "..OOOAAOOAOOOOOAAAAOO..",
+                "..OOOOOOOOOOOOOOAAOAA..",
+                "..OOOAAOOAOOOOOOOAAOO..",
                 "..OOOOOOOOOOOAOOOOOAA..",
                 "..AAO.O?AAO.OAAAAA.AA.."
               ],
@@ -1055,8 +1005,8 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAOOAAAAAAAA..",
-                "..OOAAAOOOOOOOOOAAAAA..",
-                "..OOOAAOOAOOOOOAAAAOO..",
+                "..OOOOOOOOOOOOOOAAOAA..",
+                "..OOOAAOOAOOOOOOOAAOO..",
                 "..OOOOOOOOOOOAOOOOOAA..",
                 "..AAO.O?AAO.OAAAAA.AA.."
               ],
@@ -1080,8 +1030,8 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOAAAAAAAA..",
+                "..AAAAAAAAAAAAAAOOAAA..",
+                "..AAAAAAAAOOOAAAAOOOO..",
                 "..AAA.A?AAA.AAAAAA.AA.."
               ],
               "layoutKey": "276797"
@@ -1103,8 +1053,8 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOOAAAAAAAA..",
+                "..AAAAAAAAAAAAAAOOAAA..",
+                "..AAAAAAAAOOOAAAAOOOO..",
                 "..AAA.A?AAA.AAAAAA.AA.."
               ],
               "layoutKey": "276797"
@@ -1176,7 +1126,7 @@
                 "...AA..AAAAAAAA.AA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
-                "...AOOOAAAAAAAAAAA..",
+                "...AAAAAAAAAAAAAAA..",
                 "...AAAAAOOOAAAAAAA..",
                 "OOAAAAAAAAAAAAAAAAAA"
               ],
@@ -1189,26 +1139,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
           "runtimeMinutes": 109,
           "sessions": [
-            {
-              "time": "18:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276791&a=0000000001&l=7268&m=forgotten-island&ss=False",
-              "seats": [
-                "...................",
-                "..AAAAAAAAAAAAAAA..",
-                "...................",
-                "....AAA.AAAAA.AAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "....AAAAOOOOOOOOO..",
-                "....OOOAAOOAAOOAA..",
-                "....AAAOOAAOOOOAA..",
-                "OOOOAAAAAOOAAOOAAAA"
-              ],
-              "layoutKey": "276791"
-            },
             {
               "time": "21:50",
               "formats": [
@@ -1236,23 +1166,6 @@
           "runtimeMinutes": 150,
           "sessions": [
             {
-              "time": "18:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276790&a=0000000001&l=7268&m=drishyam-the-conclusion-hindi-west&ss=False",
-              "seats": [
-                "..................",
-                "..................",
-                "..AAAAOOOO.AAO....",
-                "..OOOOOOOOOOOO....",
-                "..OOOOOOOOOOOO....",
-                "..OOOOOOOOOOOO....",
-                "OOOOOOOOOOOOOOOO.."
-              ],
-              "layoutKey": "276790"
-            },
-            {
               "time": "21:30",
               "formats": [
                 "Recliner"
@@ -1261,7 +1174,7 @@
               "seats": [
                 "..................",
                 "..................",
-                "..AAAAOOOO.AAA....",
+                "..AAAOOOOO.AAA....",
                 "..AOOOOOOOAOOO....",
                 "..OOOOOOOOOOOO....",
                 "..OOOOOOOOOOOO....",
@@ -1298,7 +1211,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOOOOAAAAAAA..",
                 "..AAAAAAAAOOOAAAAAAAA..",
                 "..AAOOOOOOOOOOOOOOAAA..",
                 "..AAA.A?AAA.AAAAAA.AA.."
@@ -1321,7 +1234,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOOOOAAAAAAA..",
                 "..AAAAAAAAOOOAAAAAAAA..",
                 "..AAOOOOOOOOOOOOOOAAA..",
                 "..AAA.A?AAA.AAAAAA.AA.."
@@ -1375,7 +1288,7 @@
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAOOOOAAAAA..",
-                "...AAAAAAAAAAAAAAA..",
+                "...AAAAAAOOOOAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "276813"

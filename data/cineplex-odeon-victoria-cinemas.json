@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T22:18:11.052Z",
+  "updatedAt": "2026-10-04T22:57:28.476Z",
   "theatre": {
     "id": 1129,
     "name": "Cineplex Odeon Victoria Cinemas"
@@ -125,28 +125,6 @@
         "......SSSSS....SSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "217567": {
-      "totalRows": 7,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...................",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..WWCSSSSSSSSSSSS.."
-      ]
-    },
     "217568": {
       "totalRows": 8,
       "totalColumns": 19,
@@ -245,28 +223,6 @@
         "SS..SSSSSSSSS..SSSS",
         "SS..SSSSSSSSC..WW.C",
         "..................."
-      ]
-    },
-    "217572": {
-      "totalRows": 7,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...................",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "..WWCSSSSSSSSSSSS.."
       ]
     },
     "217576": {
@@ -1203,8 +1159,8 @@
                 "..................................",
                 ".............AAA...AAA.....AA.....",
                 "AAAAAA.......AAAOOAAAA.....AA.????",
-                "AAAAAAA.AAAAOAAAAAAAAAAAAAAAA.???.",
-                "....AAA.AAAAAAAAAAAAAAA?AAAAA.AA..",
+                "AAAAAAA.AAAAOAAAAAOOAAAAAAAAA.???.",
+                "....AAA.AAAAAAAAOOAAAAA?AAAAA.AA..",
                 "......A?AAA....A??AA?AAAAAAAAAAA?A"
               ],
               "layoutKey": "217355"
@@ -1246,9 +1202,9 @@
                 ".....AAAAAAAAAAAAA",
                 "...AAAAAAAAAAAAAAA",
                 "..AAAAAAAAAAAAAAAA",
-                "...AAAAAOAAAAAAAAA",
-                "..AAAAAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA",
+                "...OAAAAOAAAAAAAAA",
+                "..AAAAOOAAAAAAAAAA",
+                "...AAAAAAOAAAAAAAA",
                 "...OAAAAAAAAAAAAAA",
                 "......AAAAAAAAAAAA"
               ],
@@ -1318,7 +1274,7 @@
                 "AA..AAAAAAAAA..AAAA",
                 "AA..OOOOAAAAA..AA?A",
                 "AA..AAAAAOOAA..AAAA",
-                "AA..AAA?AAOOO..AAAA",
+                "AA..AOO?AAOOO..AAAA",
                 "AA..?AOOOOAAA..AA.A",
                 "..................."
               ],
@@ -1350,23 +1306,6 @@
           "runtimeMinutes": 130,
           "sessions": [
             {
-              "time": "15:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217572&a=0000000001&l=1129&m=practical-magic-2&ss=False",
-              "seats": [
-                "...................",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAOOOOAAAAAA..",
-                "..OOAAAAAAAAAAAAA..",
-                "..AAAOOOAAOOAAAOO..",
-                "...AAAAAA?AAAAAAA..",
-                "..AAAA?AAAAAAAAAA.."
-              ],
-              "layoutKey": "217572"
-            },
-            {
               "time": "18:45",
               "formats": [
                 "Recliner"
@@ -1390,23 +1329,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60636_320_470.jpg",
           "runtimeMinutes": 103,
           "sessions": [
-            {
-              "time": "15:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217567&a=0000000001&l=1129&m=coyote-vs-acme-2026&ss=False",
-              "seats": [
-                "...................",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAA?AAAAAAA..",
-                "..AAAAAOOOOAAAAAA..",
-                "..AAAAAOOAAAOOAAA..",
-                "..AAAA?AAOOAAAAOO.."
-              ],
-              "layoutKey": "217567"
-            },
             {
               "time": "19:00",
               "formats": [
@@ -1446,7 +1368,7 @@
                 "A?OOOOOOOOOOO..",
                 "AOOOOOOOAOOAA..",
                 "AOOOOOOOOOOOO..",
-                "OOOOOOOAAAOO?..",
+                "OOOOOOOAOOOO?..",
                 "OOOOOOOOOOOOO..",
                 "O?OOOOOAAA....."
               ],
