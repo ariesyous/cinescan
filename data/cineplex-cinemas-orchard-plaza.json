@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T20:47:45.749Z",
+  "updatedAt": "2026-10-04T22:17:45.575Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -135,28 +135,6 @@
         "SSS..SSSSSSSSSS..SSS",
         "SSS..SSSCW.WCSS..SSS",
         "SCW..............SSS"
-      ]
-    },
-    "125646": {
-      "totalRows": 7,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSCW",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSS..",
-        "SSSCW.WCSSS.."
       ]
     },
     "125651": {
@@ -808,9 +786,9 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..OOOOOOOOOOOO..AAA",
-                "AAA..AAAA?AOOAAAA..AAA",
-                "AAA..OOOAOOOOOOOO..AAA",
-                "AAA..AAOOOA?AOOOO..AAA",
+                "AAA..AAAA?AOOAAAA..OOA",
+                "AAA..OOAAOOOOOOOO..AAA",
+                "AAA..AAOOOO?AOOOO..AAA",
                 "AAA..OOAAOOOOAAOO..AAA",
                 "AAA...AOOAAAAAA?A..OOA",
                 "???..................."
@@ -832,7 +810,7 @@
                 "AOO..OOOOOOOOOOOO..OOO",
                 "AOO..OOOOOO?AOOOO..OOA",
                 "OOO..OOOOOOOOOOOO..OOO",
-                "OOO...AOOAAAAAA?O..OOA",
+                "OOO...OOOAAAAAA?O..OOA",
                 "???..................."
               ],
               "layoutKey": "125642"
@@ -844,23 +822,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
           "runtimeMinutes": 94,
           "sessions": [
-            {
-              "time": "13:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125646&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
-              "seats": [
-                "AAA??AAAAAAAA",
-                "AA?AAAAAA?A??",
-                "?AAAAAAAAAAAA",
-                "AAAAAOOAAAAOO",
-                "AAAOOOOAAAAAA",
-                "AAAOOOOOOAA..",
-                "AAAAA.AAA?A.."
-              ],
-              "layoutKey": "125646"
-            },
             {
               "time": "16:25",
               "formats": [
@@ -889,7 +850,7 @@
                 "AA?AAAAAA?A??",
                 "?AAAAOOAAAAAA",
                 "AAAAAAAAAAAAA",
-                "AAAAAOOAAOAAA",
+                "AAAAAOOAAAAAA",
                 "AAAAAAAAAAA..",
                 "AAAAA.AAA?A.."
               ],
@@ -910,10 +871,10 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125686&a=0000000001&l=1410&m=forgotten-island&ss=False",
               "seats": [
                 "AAAAA??AAAAAA?",
-                "AAAAAAAAAAAA?A",
-                "AAAAAOOOOAAAAA",
-                "AOOO?OOAAA..AA",
-                "AAAAAAOOOOOOOO",
+                "AAAOOAAAAAAA?A",
+                "OOOOOOOOOAAAAA",
+                "AOOO?OOOOA..AA",
+                "OOOAAAOOOOOOOO",
                 "AAAAAOOAAAAAAA",
                 "AA..AA..AA..AA"
               ],
@@ -952,10 +913,10 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125651&a=0000000001&l=1410&m=practical-magic-2&ss=False",
               "seats": [
                 "AA..AAAAAAAA..AA",
-                "AA..OOO?OOOO..AA",
-                "AA..AAAOOOAA..?A",
-                "?A..OOAAOOAA..AA",
-                "AA...AAAAAAA..AA"
+                "AA..AAO?OOOO..AA",
+                "OO..OOAOOOOO..?A",
+                "?A..OOOOOOOO..OO",
+                "AA...AAOOOAA..OO"
               ],
               "layoutKey": "125651"
             },
@@ -969,7 +930,7 @@
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
                 "AA..AAAOOOAA..?A",
-                "?A..AAAAAAOO..AA",
+                "?A..AAAOOOOO..AA",
                 "AA...AAOOOAA..AA"
               ],
               "layoutKey": "125652"
@@ -1021,7 +982,7 @@
               "seats": [
                 "A??..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
+                "AAA..AAAAAOAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAOO?OOOOOAA..AAA",
                 "AAA..AAOOOOOOAAAA..AAA",
@@ -1152,7 +1113,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAA?AAAAAAA..AAA",
-                "AAA..AAAAAAOAAAAA..AAA",
+                "AAA..OOAAAAOAAAAA..AAA",
                 "AAA..AAAAAA?AAAAA..AAA",
                 "AAA..AAAAAAOOAAAA..AAA",
                 "AAA...AAAAAAAAA?A..AAA",
@@ -1215,7 +1176,7 @@
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
                 "AAAAAAOOOAAAA",
-                "AAAAAOOOOOOAA",
+                "OOOAAOOOOOOAA",
                 "AAAAOOOAAAA..",
                 "AAAAA.AAA?A.."
               ],
@@ -1352,7 +1313,7 @@
                 "AAA..AAAAAAA??A..AAA",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAA?AAA..A?A",
-                "AAA..AAAAA.AAAA..AAA",
+                "AAA..AAOAA.AAAA..AAA",
                 "???..............???"
               ],
               "layoutKey": "125665"
