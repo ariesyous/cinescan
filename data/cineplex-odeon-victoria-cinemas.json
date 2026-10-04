@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T22:57:28.476Z",
+  "updatedAt": "2026-10-04T23:48:50.161Z",
   "theatre": {
     "id": 1129,
     "name": "Cineplex Odeon Victoria Cinemas"
@@ -30,30 +30,6 @@
       ]
     },
     "217354": {
-      "totalRows": 8,
-      "totalColumns": 34,
-      "rowLabels": [
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
-        "..SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
-        "..................................",
-        ".............SSS...SSS.....SS.....",
-        "CWWCCW.......SSSSSSSSS.....SS.SSSS",
-        "SSSSSSS.SSSSSSSSSSSSSSSSSSSSS.SSS.",
-        "....SSS.SSSSSSSSSSSSSSSSSSSSS.SS..",
-        "......SSSSS....SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "217355": {
       "totalRows": 8,
       "totalColumns": 34,
       "rowLabels": [
@@ -245,34 +221,6 @@
         "..SSSSSSSSSSSSSSS..",
         "...SSSSSSSSSSSSSS..",
         "..WWCSSSSSSSSSSSS.."
-      ]
-    },
-    "217578": {
-      "totalRows": 10,
-      "totalColumns": 18,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "..................",
-        "......SSSSSSSSSSSS",
-        ".....SSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "..WCSSSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "..SSSSSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "...SSSSSSSSSSSSSSS",
-        "......WWCCSSSSSSSS"
       ]
     },
     "217580": {
@@ -1148,24 +1096,6 @@
           "runtimeMinutes": 129,
           "sessions": [
             {
-              "time": "16:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217355&a=0000000001&l=1129&m=digger&ss=False",
-              "seats": [
-                "..??AAAAAAAAAAAAAAAAAAAAAAAAAAAA??",
-                "..AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "..................................",
-                ".............AAA...AAA.....AA.....",
-                "AAAAAA.......AAAOOAAAA.....AA.????",
-                "AAAAAAA.AAAAOAAAAAOOAAAAAAAAA.???.",
-                "....AAA.AAAAAAAAOOAAAAA?AAAAA.AA..",
-                "......A?AAA....A??AA?AAAAAAAAAAA?A"
-              ],
-              "layoutKey": "217355"
-            },
-            {
               "time": "19:15",
               "formats": [
                 "Recliner"
@@ -1179,7 +1109,7 @@
                 "AAAAAA.......AAAAAAAAA.....AA.????",
                 "AAAAAAA.AAAAAAAAAAAAAAAAAAAAA.???.",
                 "....AAA.AAAAAAAAAAAAAAA?AAAAA.AA..",
-                "......A?AAA....A??AA?AAAAAAAAAAA?A"
+                "......A?AAA....O??AA?AAAAAAAAAAA?A"
               ],
               "layoutKey": "217354"
             }
@@ -1190,26 +1120,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38401_320_470.jpg",
           "runtimeMinutes": 117,
           "sessions": [
-            {
-              "time": "15:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=217578&a=0000000001&l=1129&m=verity&ss=False",
-              "seats": [
-                "..................",
-                "......AAAAAAAAAAAA",
-                ".....AAAAAAAAAAAAA",
-                "...AAAAAAAAAAAAAAA",
-                "..AAAAAAAAAAAAAAAA",
-                "...OAAAAOAAAAAAAAA",
-                "..AAAAOOAAAAAAAAAA",
-                "...AAAAAAOAAAAAAAA",
-                "...OAAAAAAAAAAAAAA",
-                "......AAAAAAAAAAAA"
-              ],
-              "layoutKey": "217578"
-            },
             {
               "time": "18:30",
               "formats": [
@@ -1223,9 +1133,9 @@
                 "...AAAAAAAAAAAAAAA",
                 "..AAAAAAAAOOOAAAAA",
                 "...AAAAOOOOAAAAAAA",
-                "..AAAAAAOOAAAAAAAA",
-                "...AAAAAAAAOOOAAAA",
-                "...AAAAAAAAAAAAAAA",
+                "..AOOOOOOOAAOOAAAA",
+                "...AAAAAAOOOOOAAAA",
+                "...OOOAAAAAAAAAAAA",
                 "......AAAAAAAAAAAA"
               ],
               "layoutKey": "217580"
@@ -1250,7 +1160,7 @@
                 "..AAAAAAAAAAAAAAA..",
                 "..AAAAAAA?AAAAAAA..",
                 "..AAAAAAOOOAAAAAA..",
-                "..AAAAAAOOAAAAAAA..",
+                "..AAAAAAOOAAAAOOA..",
                 "..AAAA?AAAAAAAAAA.."
               ],
               "layoutKey": "217645"
@@ -1272,9 +1182,9 @@
                 "...................",
                 ".A..AAA?AAAA...AAA.",
                 "AA..AAAAAAAAA..AAAA",
-                "AA..OOOOAAAAA..AA?A",
-                "AA..AAAAAOOAA..AAAA",
-                "AA..AOO?AAOOO..AAAA",
+                "AA..OOOOAAOOA..AA?A",
+                "AA..OOAOOOOAA..AAAA",
+                "AA..AOO?OOOOO..AAAA",
                 "AA..?AOOOOAAA..AA.A",
                 "..................."
               ],
@@ -1363,8 +1273,8 @@
               "seats": [
                 "...............",
                 "AAAAAAAAAAA....",
-                "AAAOOOOAAAAA...",
-                "AAOOOOOOOOOO...",
+                "AOOOOOOOOAAA...",
+                "OOOOOOOOOOOO...",
                 "A?OOOOOOOOOOO..",
                 "AOOOOOOOAOOAA..",
                 "AOOOOOOOOOOOO..",
@@ -1550,7 +1460,7 @@
                 "AAAAAAAAAAAA...",
                 "A?AAAAAAAAAAA..",
                 "AAAAAAAAAAAAA..",
-                "AAAAAAAAAAAAA..",
+                "AAAOOAAAAAAAA..",
                 "AAAAAOOOAAOO?..",
                 "AAAAOOOOOAAAA..",
                 "A?AAAAAAAA....."
@@ -1859,7 +1769,7 @@
                 "AAAAAAAAAAA....",
                 "AAAAAAAAAAAA...",
                 "AAAAAAAAAAAA...",
-                "A?OOOOOAAAAAA..",
+                "A?OOOOOOOOOAA..",
                 "OOOOOOOOOOOAA..",
                 "OOOAOOOOOOOOO..",
                 "OOOOOOOOOOOO?..",
@@ -2199,7 +2109,7 @@
                 ".....AAAAAAAAAAAAA",
                 "...AAAAAAAAAAAAAAA",
                 "..AAAAAAAOOAAAAAAA",
-                "...AAAAOOAAAAAAAAA",
+                "...AAAAOOOOAAAAAAA",
                 "..AAAAAAAOOAAAAAAA",
                 "...AAAAAAOAAAAAAAA",
                 "...AAAAAAAAAAAAAAA",
