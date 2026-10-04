@@ -1,10 +1,34 @@
 {
-  "updatedAt": "2026-10-04T02:15:40.124Z",
+  "updatedAt": "2026-10-04T04:40:01.221Z",
   "theatre": {
     "id": 7112,
     "name": "Cineplex Odeon Westmount Cinemas and VIP"
   },
   "auditoriums": {
+    "234273": {
+      "totalRows": 8,
+      "totalColumns": 20,
+      "rowLabels": [
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSSSS...",
+        "....................",
+        "..CWCSCW.WCSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSSSS."
+      ]
+    },
     "237061": {
       "totalRows": 7,
       "totalColumns": 15,
@@ -695,28 +719,6 @@
         ".....SSSSSSSSSSSSSSS......"
       ]
     },
-    "237339": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "...............",
-        "..CWWCSSSS.....",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS.."
-      ]
-    },
     "237340": {
       "totalRows": 7,
       "totalColumns": 15,
@@ -915,7 +917,7 @@
         "..SSSSSSSSSSS.."
       ]
     },
-    "237549": {
+    "237539": {
       "totalRows": 7,
       "totalColumns": 15,
       "rowLabels": [
@@ -937,44 +939,92 @@
         "..SSSSSSSSSSS.."
       ]
     },
-    "237604": {
-      "totalRows": 5,
-      "totalColumns": 19,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..SSSCW.WCC.WC.....",
-        "..SSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSS..SS"
-      ]
-    },
-    "237609": {
+    "237540": {
       "totalRows": 7,
-      "totalColumns": 14,
+      "totalColumns": 15,
       "rowLabels": [
-        "AA",
         null,
         "A",
         "B",
         "C",
         "D",
-        "E"
+        "E",
+        "F"
       ],
       "seatTypes": [
-        ".SSSSSSSSSSS..",
-        "..............",
-        "...CCWW.C.....",
-        ".SSSSSSSS.....",
-        ".SSSSSSSS.....",
-        ".SSSSSSSS.....",
-        ".SSSSSSSSS..SS"
+        "...............",
+        "..CWWCSSSS.....",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS.."
+      ]
+    },
+    "237541": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "...............",
+        "..CWWCSSSS.....",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS.."
+      ]
+    },
+    "237542": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "...............",
+        "..CWWCSSSS.....",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS.."
+      ]
+    },
+    "237549": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "...............",
+        "..CWWCSSSS.....",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS.."
       ]
     },
     "237619": {
@@ -3876,82 +3926,6 @@
   },
   "days": [
     {
-      "date": "2026-10-03",
-      "movies": [
-        {
-          "title": "Digger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
-          "runtimeMinutes": 129,
-          "sessions": [
-            {
-              "time": "22:00",
-              "formats": [
-                "VIP 19+",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237339&a=0000000001&l=7112&m=digger&ss=False",
-              "seats": [
-                "...............",
-                "..????????.....",
-                "..???????????..",
-                "..???????????..",
-                "..???????????..",
-                "..???????????..",
-                "..???????????.."
-              ],
-              "layoutKey": "237339"
-            }
-          ]
-        },
-        {
-          "title": "Beware Boiúna",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61889_320_470.jpg",
-          "runtimeMinutes": 104,
-          "sessions": [
-            {
-              "time": "22:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237604&a=0000000001&l=7112&m=beware-boiuna&ss=False",
-              "seats": [
-                "..?????.???.??.....",
-                "..????????????.....",
-                "..????????????.....",
-                "..????????????.....",
-                "..?????????????..??"
-              ],
-              "layoutKey": "237604"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "22:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237609&a=0000000001&l=7112&m=practical-magic-2&ss=False",
-              "seats": [
-                ".???????????..",
-                "..............",
-                "...????.?.....",
-                ".????????.....",
-                ".????????.....",
-                ".????????.....",
-                ".?????????..??"
-              ],
-              "layoutKey": "237609"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-10-04",
       "movies": [
         {
@@ -4252,7 +4226,7 @@
                 "...AAAAAAAAAAAAAAAAAA...",
                 "...OAAAAAAOOOOAAAAAOO...",
                 "...AAAOOOAOOOOAAOOAAA...",
-                "...OOAAOOOOOOOOOAAAOO...",
+                "...OOOOOOOOOOOOOAAAOO...",
                 "OOOOOOOOOOOOOOOOOAAAOO.."
               ],
               "layoutKey": "237621"
@@ -4530,7 +4504,7 @@
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAOOAAAOO.....",
-                "..AAAAAAAAAAAA.....",
+                "..AAAAAOOAAAAA.....",
                 "..AAAAOO?AAAAA..???"
               ],
               "layoutKey": "237643"
@@ -4566,7 +4540,7 @@
                 "..AAAAAAAOOAAA.....",
                 "..AAAAAOOAAAAA.....",
                 "..AAAAAOOOOAAA.....",
-                "..AAAAAA?OOAAA..???"
+                "..OOOAAA?OOAAA..???"
               ],
               "layoutKey": "237635"
             },
@@ -4581,7 +4555,7 @@
                 "..AAAAA.AAAAAA.....",
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA.....",
-                "..AAAAAAOAAAAA.....",
+                "..AAAAOOOAAAAA.....",
                 "..AAAAOOAAAAAA.....",
                 "..AAAAAA?OOOOA..???"
               ],
@@ -4785,7 +4759,7 @@
                 "..AAAA.AAA",
                 "..AAAAAAAA",
                 "..AAAAAAAA",
-                "..AAAAAAAA",
+                "..AAOOAAAA",
                 "??AA?OOOAA"
               ],
               "layoutKey": "237759"
@@ -4825,7 +4799,7 @@
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAA.....",
                 "..AAAAAOOOOOAA.....",
-                "..AAAAAAOOAAAAA..??"
+                "..AAAAAAOOAAAOO..??"
               ],
               "layoutKey": "237757"
             },
@@ -5806,7 +5780,7 @@
                 "..AAAA?AAAAAA..",
                 "..AAAAAAAAAA?..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAOOOOAAAA..",
                 "..AAAAAAAAAA?.."
               ],
               "layoutKey": "237715"
@@ -6017,7 +5991,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AA.AAA.AA.AAA.AA.A..."
+                "..AA.AA.AAA.OO.AAA.AA.A..."
               ],
               "layoutKey": "237689"
             },
@@ -6039,7 +6013,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AA.AA.AAA.AA.AAA.AA.A..."
+                "..AA.AA.AAA.OO.AAA.AA.A..."
               ],
               "layoutKey": "237689"
             },
@@ -7693,6 +7667,115 @@
                 "..AAAAAAAAAAA.."
               ],
               "layoutKey": "237538"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "movies": [
+        {
+          "title": "Sense and Sensibility",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60481_320_470.jpg",
+          "runtimeMinutes": 132,
+          "sessions": [
+            {
+              "time": "12:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237539&a=0000000001&l=7112&m=sense-and-sensibility-2026&ss=False",
+              "seats": [
+                "...............",
+                "..AAAAAAAA.....",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA.."
+              ],
+              "layoutKey": "237539"
+            },
+            {
+              "time": "15:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237540&a=0000000001&l=7112&m=sense-and-sensibility-2026&ss=False",
+              "seats": [
+                "...............",
+                "..AAAAAAAA.....",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA.."
+              ],
+              "layoutKey": "237540"
+            },
+            {
+              "time": "19:00",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237541&a=0000000001&l=7112&m=sense-and-sensibility-2026&ss=False",
+              "seats": [
+                "...............",
+                "..AAAAAAAA.....",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA.."
+              ],
+              "layoutKey": "237541"
+            },
+            {
+              "time": "22:15",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237542&a=0000000001&l=7112&m=sense-and-sensibility-2026&ss=False",
+              "seats": [
+                "...............",
+                "..AAAAAAAA.....",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA.."
+              ],
+              "layoutKey": "237542"
+            }
+          ]
+        },
+        {
+          "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61726_320_470.jpg",
+          "runtimeMinutes": 210,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=234273&a=0000000001&l=7112&m=est-macbeth-verdi-italian-west-met&ss=True",
+              "seats": [
+                "..AAAAAAAAAAAAAAA...",
+                "....................",
+                "..AAAAAA.AAAAAAA....",
+                "..AAAAAAAAAAAAAA....",
+                "..AAAAAAOAAAAAAO....",
+                "..AAAAOAAAAAAAOO....",
+                "..AAAOOAAOOOAAAA....",
+                "..AAAAAAAOAAAAAAOOO."
+              ],
+              "layoutKey": "234273"
             }
           ]
         }

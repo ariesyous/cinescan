@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T02:14:35.080Z",
+  "updatedAt": "2026-10-04T04:38:29.747Z",
   "theatre": {
     "id": 9190,
     "name": "Capitol Saint-Jean"
@@ -29,6 +29,30 @@
         ".SSSSSSSSSSSS",
         ".............",
         ".CW.WCSSSSS.."
+      ]
+    },
+    "158250": {
+      "totalRows": 8,
+      "totalColumns": 12,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        null,
+        "F"
+      ],
+      "seatTypes": [
+        "............",
+        ".SSSSSSSSSSS",
+        ".SSSSSSSSSSS",
+        ".SSSSSSSSSSS",
+        ".SSSSSSSSSSS",
+        ".SSSSSSSSSSS",
+        "............",
+        "CW.WC...SSSS"
       ]
     },
     "160163": {
@@ -859,30 +883,6 @@
         "CW.WC...SSSS"
       ]
     },
-    "160227": {
-      "totalRows": 8,
-      "totalColumns": 12,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        null,
-        "F"
-      ],
-      "seatTypes": [
-        "............",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        ".SSSSSSSSSSS",
-        "............",
-        "CW.WC...SSSS"
-      ]
-    },
     "160230": {
       "totalRows": 8,
       "totalColumns": 13,
@@ -1274,36 +1274,6 @@
   },
   "days": [
     {
-      "date": "2026-10-03",
-      "movies": [
-        {
-          "title": "Au coeur de la bête",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61577_320_470.jpg",
-          "runtimeMinutes": 104,
-          "sessions": [
-            {
-              "time": "22:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=160227&a=0000000001&l=9190&m=au-coeur-de-la-bete&ss=False",
-              "seats": [
-                "............",
-                ".AAAAAAAAAAA",
-                ".AAAAAAAAAAA",
-                ".AOOAAAOOAAA",
-                ".AAAAOOAAAAA",
-                ".AOOOAAAOOAA",
-                "............",
-                "AA.AA...AA?A"
-              ],
-              "layoutKey": "160227"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-10-04",
       "movies": [
         {
@@ -1633,7 +1603,7 @@
                 "AAAAAAAAAAA.",
                 "AAAAAAAAAAA.",
                 "AAAAAAAAAAA.",
-                "AAAAOOAAAAA.",
+                "AAAAOOAAOOA.",
                 "AAOOAA?AAAA.",
                 "............",
                 "AA...AAAA.A?"
@@ -1922,7 +1892,7 @@
               "seats": [
                 "...............",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA",
+                "..OAAAAAAAAAAAA",
                 "..AAAAAAAAAAAAA",
                 "..AAAAAAAAAAAAA",
                 "...............",
@@ -2667,6 +2637,36 @@
                 ".........."
               ],
               "layoutKey": "160175"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "movies": [
+        {
+          "title": "Macbeth (Verdi) Italien avec s.-t.fr. - Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61725_320_470.jpg",
+          "runtimeMinutes": 210,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=158250&a=0000000001&l=9190&m=stf-macbeth-verdi-italien-avec-stfr-met&ss=True",
+              "seats": [
+                "............",
+                ".AAAAAAAAAAA",
+                ".AAAAAAAAAAA",
+                ".AAAOAAAAAAA",
+                ".OAAOOOAAAAA",
+                ".AAAAAAAAOAA",
+                "............",
+                "AA.AA...OO?A"
+              ],
+              "layoutKey": "158250"
             }
           ]
         }

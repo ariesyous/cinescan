@@ -1,10 +1,38 @@
 {
-  "updatedAt": "2026-10-04T02:14:51.105Z",
+  "updatedAt": "2026-10-04T04:38:53.344Z",
   "theatre": {
     "id": 7269,
     "name": "Cineplex Cinemas Cambridge"
   },
   "auditoriums": {
+    "220993": {
+      "totalRows": 10,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        "......................",
+        "......SSSSSSSSSSS.....",
+        "....SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "....CWCCWWCCWWCCWSS...",
+        "......................"
+      ]
+    },
     "222922": {
       "totalRows": 9,
       "totalColumns": 26,
@@ -1671,60 +1699,6 @@
         ".................."
       ]
     },
-    "223276": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "......................",
-        "......SSSSSSSSSSS.....",
-        "....SSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "....CWCCWWCCWWCCWSS...",
-        "......................"
-      ]
-    },
-    "223281": {
-      "totalRows": 9,
-      "totalColumns": 26,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "..........................",
-        "...SSSSSSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "........CWCCWWCCWCCWCSSS..",
-        ".........................."
-      ]
-    },
     "223294": {
       "totalRows": 9,
       "totalColumns": 22,
@@ -2988,64 +2962,6 @@
   },
   "days": [
     {
-      "date": "2026-10-03",
-      "movies": [
-        {
-          "title": "Verity",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38401_320_470.jpg",
-          "runtimeMinutes": 117,
-          "sessions": [
-            {
-              "time": "22:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223276&a=0000000001&l=7269&m=verity&ss=False",
-              "seats": [
-                "......................",
-                "......AAAAAAAAAAA.....",
-                "....AAAAAAAAAAAAAA....",
-                "...AAAOOAAOOAAAAAAAA..",
-                "..OOAAAAOOOOAAOOAAOO..",
-                "..OOOAOOOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOO..",
-                "..OOOOOOOOOOOOOOOOOO..",
-                "....AAAAAAAAAAAOAOO...",
-                "......................"
-              ],
-              "layoutKey": "223276"
-            }
-          ]
-        },
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "22:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223281&a=0000000001&l=7269&m=resident-evil-2026&ss=False",
-              "seats": [
-                "..........................",
-                "...??AAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAA...",
-                "...OOOOAAOOOOOAAOOOAAAOO..",
-                "...OOOOOOOOOOOOOOOAOOOOO..",
-                "...OOAOOOOOOOOOOOOOOOOOA..",
-                "...AOOAOOOOOOOOOOOOOOOOO..",
-                "........AAAAAAOOAAAAAOOA..",
-                ".........................."
-              ],
-              "layoutKey": "223281"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-10-04",
       "movies": [
         {
@@ -3510,13 +3426,13 @@
               "seats": [
                 "..................",
                 "...???AAAAAAAAA...",
-                "....OOAOOOOOOA....",
+                "....AAAOOOOAAA....",
                 "...AOOOOOOOOOOOA..",
                 "..AOOOOOOOOOOOOA..",
                 "..OOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOA..",
                 "..OOOOOOOOOOOOOO..",
-                "...AAAAAAOOAAOO...",
+                "...AAAOOAOOAAOO...",
                 ".................."
               ],
               "layoutKey": "223299"
@@ -3550,7 +3466,7 @@
               "seats": [
                 "..................",
                 "...???AAAAAAAAA...",
-                "....OOOAOOOOAA....",
+                "....OOOAOOOOOO....",
                 "...OOOAOOOOOOOOO..",
                 "..OOOOOOOOOOOOOO..",
                 "..AOOOOOOOOOOOOO..",
@@ -4221,7 +4137,7 @@
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAOOOOAAOO..",
-                "..AAAAOOOOOOOOOO..",
+                "..OOAAOOOOOOOOOO..",
                 "..AAOOOOOOOOAOOO..",
                 "...AAAOOAAAAAOO...",
                 ".................."
@@ -4237,9 +4153,9 @@
               "seats": [
                 "..................",
                 "...???AAAAAAAAA...",
-                "....AAAOOOOOOO....",
-                "...AOOAOOOOOOOOA..",
-                "..AOOOOOOOOOOOOA..",
+                "....OOOOOOOOOO....",
+                "...OOOOOOOOOOOOA..",
+                "..OOOOOOOOOOOOOA..",
                 "..OOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOO..",
                 "..AOOOOOOOOOOOOO..",
@@ -4546,7 +4462,7 @@
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAOOAAAAAA..",
                 "..OOAAOOOOOOOAAA..",
-                "..AAAAAAOOOAAAAA..",
+                "..AAOOAAOOOAAAAA..",
                 "...AAAAAAAAAAAA...",
                 ".................."
               ],
@@ -5017,7 +4933,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAOOAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
@@ -5466,6 +5382,38 @@
                 "......................"
               ],
               "layoutKey": "223200"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "movies": [
+        {
+          "title": "Macbeth (Verdi) Italian w/e.s.t. – Metropolitan Opera",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61726_320_470.jpg",
+          "runtimeMinutes": 210,
+          "sessions": [
+            {
+              "time": "13:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=220993&a=0000000001&l=7269&m=est-macbeth-verdi-italian-west-met&ss=True",
+              "seats": [
+                "......................",
+                "......AAAAAAAAAAA.....",
+                "....AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAOOAAAAAAAAA..",
+                "....AAAAAAAAAAAAAOO...",
+                "......................"
+              ],
+              "layoutKey": "220993"
             }
           ]
         }
