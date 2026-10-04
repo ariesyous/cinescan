@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T23:30:26.292Z",
+  "updatedAt": "2026-10-04T00:22:42.115Z",
   "theatre": {
     "id": 7269,
     "name": "Cineplex Cinemas Cambridge"
@@ -1725,34 +1725,6 @@
         "......................"
       ]
     },
-    "223277": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        null
-      ],
-      "seatTypes": [
-        "......................",
-        "......SSSSSSSSSSS.....",
-        "....SSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "....CWCCWWCCWWCCWSS...",
-        "......................"
-      ]
-    },
     "223278": {
       "totalRows": 10,
       "totalColumns": 22,
@@ -1807,32 +1779,6 @@
         ".........................."
       ]
     },
-    "223282": {
-      "totalRows": 9,
-      "totalColumns": 26,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "..........................",
-        "...SSSSSSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSSSSSSSS..",
-        "........CWCCWWCCWCCWCSSS..",
-        ".........................."
-      ]
-    },
     "223283": {
       "totalRows": 10,
       "totalColumns": 18,
@@ -1853,6 +1799,34 @@
         "....SSSSSSSSSS....",
         "..SSSSSSSSSSSSS...",
         "..SSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSS..",
+        "...CWWCCWCCWCSS...",
+        ".................."
+      ]
+    },
+    "223285": {
+      "totalRows": 10,
+      "totalColumns": 18,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        "..................",
+        "...SSSSSSSSSSSS...",
+        "....SSSSSSSSSS....",
+        "...SSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSS..",
@@ -3132,26 +3106,6 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
-              "time": "19:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223277&a=0000000001&l=7269&m=verity&ss=False",
-              "seats": [
-                "......................",
-                "......???????????.....",
-                "....??????????????....",
-                "...?????????????????..",
-                "..??????????????????..",
-                "..??????????????????..",
-                "..??????????????????..",
-                "..??????????????????..",
-                "....???????????????...",
-                "......................"
-              ],
-              "layoutKey": "223277"
-            },
-            {
               "time": "22:00",
               "formats": [
                 "Recliner"
@@ -3161,11 +3115,11 @@
                 "......................",
                 "......AAAAAAAAAAA.....",
                 "....AAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAA..",
+                "...AAAAAAAOOAAAAAAAA..",
+                "..AAAAAAAAOOAAAAAAOO..",
                 "..OOAAOOOOOOAAOOAAAO..",
                 "..AAOOAAOOOOOOOOAAOO..",
-                "..OOAAOOOOOOOOOOOOAA..",
+                "..OOOOOOOOOOOOOOOOOO..",
                 "....AAAAAAAAAAAAAOO...",
                 "......................"
               ],
@@ -3179,25 +3133,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "19:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223282&a=0000000001&l=7269&m=resident-evil-2026&ss=False",
-              "seats": [
-                "..........................",
-                "...??AAAAAAAOOOOAAAAAAA...",
-                "...AAAAOOOOOOOOOOOOOOOO...",
-                "...OOOOOOAOOOOAAOOOOOOOO..",
-                "...OOOOOOOOOOOOOOOOOOOOO..",
-                "...OOOOOOOOOOOOOOOOAOOOO..",
-                "...OOOOOOOOOOOOOOOOAOOOO..",
-                "........AAOOAAAAAAAAAAOO..",
-                ".........................."
-              ],
-              "layoutKey": "223282"
-            },
-            {
               "time": "22:00",
               "formats": [
                 "Recliner"
@@ -3207,10 +3142,10 @@
                 "..........................",
                 "...??AAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAOOOOOOAAAAAAAA..",
+                "...AAAAAAAAAOOAAAAAAAAAA..",
+                "...AAAAOOOOOOOOOAAAAAAAA..",
                 "...AAAOOOOOOOOOOOOOAAAAA..",
-                "...AAAAOOAAOOOOAAOOAAAAA..",
+                "...AAAAOOAAOOOOAAOOAAOOO..",
                 "........AAAAAAAAAAAAAOOA..",
                 ".........................."
               ],
@@ -3261,10 +3196,10 @@
                 "......??????????......",
                 "AAA...AAAAAAAAAAAAA...",
                 "AAA...AAAAAAAAAAAAA...",
-                "AAAA..OOAAAAAAAAAAAA..",
-                "AAAA..AAOOOOOOOOOOOA..",
+                "AAAA..OOAAAAOOAAAAAA..",
+                "AOOO..AAOOOOOOOOOOOA..",
                 "AAOO..AOOOOOOOOOOOAA..",
-                "AAOO..AOOOOOOOOOOOOO..",
+                "AAOO..OOOOOOOOOOOOOO..",
                 ".......AA.AAAAAAAAA...",
                 "......................"
               ],
@@ -3309,7 +3244,20 @@
               "formats": [
                 "Recliner"
               ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223285&a=0000000001&l=7269&m=drishyam-the-conclusion-hindi-west&ss=False"
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223285&a=0000000001&l=7269&m=drishyam-the-conclusion-hindi-west&ss=False",
+              "seats": [
+                "..................",
+                "...???OOOOOOOOO...",
+                "....OOOOOOOOOO....",
+                "...OOOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOO..",
+                "..OOOOOOOOOOOOOO..",
+                "...OAAOOAOOAAOO...",
+                ".................."
+              ],
+              "layoutKey": "223285"
             }
           ]
         }
@@ -3336,7 +3284,7 @@
                 "...AAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..OOOOOOAAOOAAAAAOOO..",
-                "..AAAAOOOOOOOOOOOAAA..",
+                "..AAOOOOOOOOOOOOOAAA..",
                 "..OOOOOOOOOOOOOOAAOO..",
                 "....AAAAAAAAAAAAAOO...",
                 "......................"
@@ -3358,7 +3306,7 @@
                 "..AAAAOOOOOOOOAAAAAA..",
                 "..OOAAOOOOOOOOOOOOAA..",
                 "..OOOOOOAAOOAAOOAAOO..",
-                "....AAAAAAAAAAAAAOO...",
+                "....AAAAAAOOAAAAAOO...",
                 "......................"
               ],
               "layoutKey": "223250"
@@ -3424,7 +3372,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
-                "........AAAAAAAAAAAAAAAA..",
+                "........AAAAAAAAAAAAAAOO..",
                 ".........................."
               ],
               "layoutKey": "223296"
@@ -3440,9 +3388,9 @@
                 "...??AAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAOOOAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAA..",
-                "...OOOAAAAAAAAAAAAAAAAAA..",
+                "...OOOAAAAAAOOAAAAAAAAAA..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
               ],
@@ -3523,7 +3471,7 @@
                 ".......AAAAAAAA.......",
                 "..AAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAA?AAAAAAAAAAAAA..",
+                "..AAAA?AAOOOAAAAAAAA..",
                 "..AAOOOOOAAAAAAAAAAA..",
                 "..OOOOAAAOOOOOOOAAAA..",
                 "...AAAAAAAAAAAAAAAA...",
@@ -3781,7 +3729,7 @@
                 "..................",
                 "...???AAAAAAAAA...",
                 "....AAAAAAAAAA....",
-                "...AOOOOOOOOOAAA..",
+                "...AAAOOOOOOOAAA..",
                 "..AOOOOOOOOOOOOA..",
                 "..OOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOA..",
@@ -4246,7 +4194,7 @@
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAOOOOOOAAAAAAAA..",
-                "...AAAAAAAAAOOOAAAAAAAAA..",
+                "...OOOOAAAAAOOOAAAAAAAAA..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
               ],
@@ -4528,7 +4476,7 @@
                 "..................",
                 "...???AAAAAAAAA...",
                 "....AAAOOOOAAA....",
-                "...AAAOOOOOOOOAA..",
+                "...AAAOOOOOOOOOO..",
                 "..OOAOOOOOOOOOOA..",
                 "..AOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOO..",
@@ -5113,7 +5061,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAA..",
+                "...AAAAAAAAAAOOAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
@@ -5199,7 +5147,7 @@
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
-                "..AAAAAAAOOAAOOO..",
+                "..AAAAAOOOOAAOOO..",
                 "...AAAAAAAAAAAA...",
                 ".................."
               ],

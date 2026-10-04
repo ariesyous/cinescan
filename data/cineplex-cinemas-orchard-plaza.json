@@ -1,32 +1,10 @@
 {
-  "updatedAt": "2026-10-03T23:30:51.576Z",
+  "updatedAt": "2026-10-04T00:23:00.770Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
   },
   "auditoriums": {
-    "125623": {
-      "totalRows": 7,
-      "totalColumns": 13,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSCW",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSSSS",
-        "SSSSSSSSSSS..",
-        "SSSCW.WCSSS.."
-      ]
-    },
     "125626": {
       "totalRows": 9,
       "totalColumns": 20,
@@ -1139,23 +1117,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "16:40",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125623&a=0000000001&l=1410&m=resident-evil-2026&ss=False",
-              "seats": [
-                "AAA??AAAAAAAA",
-                "AA?AAAAAA?A??",
-                "?AAAAOOAAAAAA",
-                "AOOAAOOOOAAAA",
-                "AAAOOOOAAAAOO",
-                "AAAOOOOAAOO..",
-                "AAAAA.AAA?A.."
-              ],
-              "layoutKey": "125623"
-            },
-            {
               "time": "19:20",
               "formats": [
                 "Recliner"
@@ -1165,9 +1126,9 @@
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
                 "?AAAAOOAAAAAA",
-                "AAAOOOOOOAAAA",
+                "AAAOOOOOOOOOO",
                 "AAAAAOOAOOOOO",
-                "AAOOOOOOOAA..",
+                "AAOOOOOOOOO..",
                 "AAAAA.AAA?A.."
               ],
               "layoutKey": "125630"
@@ -1182,8 +1143,8 @@
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
-                "AAAAOOOOOOAAA",
-                "AAAAAOOAAOOAA",
+                "AAAAOOOAAAAAA",
+                "OOOAAOOAAOOAA",
                 "OOOAAAOOOAA..",
                 "AAAAA.AAA?A.."
               ],
@@ -1208,8 +1169,8 @@
                 "AAOOOOOAAAAA?A",
                 "AOOOOOOOOOOAAA",
                 "AAAA?OOOOO..AO",
-                "OOOOOOAAAOOAOO",
-                "AOOOOOOOOAAOOO",
+                "OOOOOOAOOOOAOO",
+                "AOOOOOOOOOOOOO",
                 "AA..AA..AA..AA"
               ],
               "layoutKey": "125684"
@@ -1263,7 +1224,7 @@
               "seats": [
                 "AA..AAAAAAAA..AA",
                 "AA..AAA?AAAA..AA",
-                "AA..AAAAAA??..?A",
+                "AA..AAOOAA??..?A",
                 "?A..AAOOAAAA..AA",
                 "AA...AAAAAAA..AA"
               ],
@@ -1287,9 +1248,9 @@
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA?..AAA",
                 "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAA??A..AAA",
-                "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAOOAA?AAA..AAA",
+                "AAA..AAAAOOA??A..AAA",
+                "AAA..AAAAAAAAOO..AAA",
+                "AAA..AAOOOO?AAA..AAA",
                 "AAA..AAAAA.AAAA..AAA",
                 "???..............???"
               ],
@@ -1320,7 +1281,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAA?AAAAAOO..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAA?AAAAA..AAA",
+                "AAA..AAAAAA?OOOAA..AAA",
                 "AAA..AAAAAAOOAAAA..AAA",
                 "AAA...AAAAAAAAA?A..AAA",
                 "???..................."
@@ -1359,7 +1320,7 @@
                 "AAA..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAOOOOOAAA..AAA",
                 "AAA..OOAA?OOOOOOO..AAA",
-                "AAA..AAOOOOOOOOAA..OOO",
+                "AAA..OOOOOOOOOOOO..OOO",
                 "AAA..OOOOOO?AOOOO..AAA",
                 "OOO..OOOOOOOOOOOO..OOO",
                 "OOO...AOOAAAAAA?O..AAA",
@@ -1532,7 +1493,7 @@
                 "AA..AAA?AAAA..AA",
                 "AA..AAAAOO??..?A",
                 "?A..AAAAAAAA..AA",
-                "AA...AAAAAAA..AA"
+                "AA...AAOOOAA..AA"
               ],
               "layoutKey": "125652"
             }

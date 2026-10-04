@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T23:31:02.884Z",
+  "updatedAt": "2026-10-04T00:23:10.393Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
@@ -1679,30 +1679,6 @@
         "................."
       ]
     },
-    "269134": {
-      "totalRows": 8,
-      "totalColumns": 17,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "...WWCCSSSSSSSS..",
-        "................."
-      ]
-    },
     "269136": {
       "totalRows": 7,
       "totalColumns": 15,
@@ -1788,28 +1764,6 @@
         "..SSSSSSSSSSS..",
         "..SSSSSSSSSSS..",
         "..WWCCSSSSSSS..",
-        "..............."
-      ]
-    },
-    "269144": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSCW.WCSSS..",
         "..............."
       ]
     },
@@ -4744,7 +4698,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAOO???AAAAAA..",
-                "..AAAAAAAAOOAAOOAA..",
+                "..AAAAAAOOOOAAOOAA..",
                 "..AAAAOOOAAAAOOAAA..",
                 "..AAAAAAAAA??AAAOO..",
                 "...AAAAAAAAAAAAAAA..",
@@ -4787,7 +4741,7 @@
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAOOOOAAAAA..AA",
-                "AA..OOOOOO??OOOOOO..AA",
+                "AA..OOOOOO??OOOOOO..OO",
                 "OO..A?OO?OOOOOOOOO..OO",
                 "OO..OOOAOOOOOOOOOO..OO",
                 "OO..OOOOOOOOOOOOA?..??",
@@ -4810,8 +4764,8 @@
                 "AA..AAAAAA??AAAAAA..AA",
                 "AA..A?AA?AAAAAAAAA..AA",
                 "AA..AAAAAAOOAAAAAA..AA",
-                "AA..AAAAOOAAAOOAA?..??",
-                "AA..AA?AAAOOAAAAAA..AA",
+                "OA..AOOAOOAAAOOAA?..??",
+                "AA..AA?AAAOOAAOOOO..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
               ],
@@ -4825,25 +4779,6 @@
           "runtimeMinutes": 185,
           "sessions": [
             {
-              "time": "18:05",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=269134&a=0000000001&l=4108&m=avengers-endgame-encore&ss=False",
-              "seats": [
-                "..?????????????..",
-                "..AAA???????AAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAA?AAAAA..",
-                "..AAAAAAA?OOAAA..",
-                "..AAAAAOOAAAAA?..",
-                "...AAAAAAAAAAAA..",
-                "................."
-              ],
-              "layoutKey": "269134"
-            },
-            {
               "time": "21:45",
               "formats": [
                 "3D",
@@ -4856,7 +4791,7 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAA???AAAAAA..",
                 "..AAAAAAOOOAAAAAAA..",
-                "..AAAAAAAAAAAAAAAA..",
+                "..AAAAAAOOOOAAAAAA..",
                 "..AAAAAAAAA??AAAAA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...................."
@@ -4881,7 +4816,7 @@
                 "..AAAAAAAAAAAAA..",
                 "..??AAAAAAAAAAA..",
                 "..AAOOAAAOOAAOO..",
-                "..AAAAAAAAAAAAA..",
+                "..AAAAOOOOAAAAA..",
                 "..OOAAAAOOAAAA?..",
                 "...AAAAOO?AAAAA..",
                 "................."
@@ -4913,24 +4848,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38065_320_470.jpg",
           "runtimeMinutes": 109,
           "sessions": [
-            {
-              "time": "18:00",
-              "formats": [
-                "3D",
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=269144&a=0000000001&l=4108&m=forgotten-island&ss=False",
-              "seats": [
-                "..AAAAAAAAAA?..",
-                "..AAAAAAAAAAA..",
-                "..OOOOOOOOAAA..",
-                "..AAAAOOOOAAA..",
-                "..AAAAAAAOOOO..",
-                "..AAAAA.AAAAA..",
-                "..............."
-              ],
-              "layoutKey": "269144"
-            },
             {
               "time": "21:00",
               "formats": [
@@ -4965,12 +4882,12 @@
               "seats": [
                 "....AAAAAAAAAAAA....",
                 "..AAAAAAA?AAAAAAAA..",
-                "..AAAAAAOOOAAAAAAA..",
-                "..AOOAAAAAAAA?AAA?..",
-                "..AAAAAAOOAA??AAOO..",
-                "..OOAAAAAOOAAOOOOO..",
-                "..AAAOOAAAAA??AAAA..",
-                "...AAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAA..",
+                "..AOOAOOAAOOO?OOA?..",
+                "..AOOAAOOOOO??AAOO..",
+                "..OOAAAOOOOOOOOOOO..",
+                "..OOAOOAAAOO??OOOO..",
+                "...AAAAAOOAAAAAAAA..",
                 "...................."
               ],
               "layoutKey": "269128"
@@ -4986,7 +4903,7 @@
                 "..AAAAAAA?AAAAAAAA..",
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAA?AAA?..",
-                "..AOOAAAAAAA??AAAA..",
+                "..AAAAAAAAAA??AAAA..",
                 "..AAAAAAOOAAAAAAAA..",
                 "..AAAAAAAAAA??AAAA..",
                 "...AAAAAAAAAAAAAAA..",
@@ -5010,10 +4927,10 @@
               "seats": [
                 "..?AAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..OOAOOAAAAAA..",
                 "..OOAA?OOOOOO..",
                 "..AAAOO?A??AA..",
-                "..AAAAOOAAOAA..",
+                "..AAAAOOAAOAO..",
                 "..............."
               ],
               "layoutKey": "269136"
@@ -5053,7 +4970,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAA?AAAAAA?..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAOOAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..............."
               ],
@@ -5093,10 +5010,10 @@
                 "..AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
                 "..AAAAA???AAAAA..",
-                "..AAAAOOO??AAAA..",
-                "..??AA?A??AAAAA..",
-                "..AAAAA?AAOOOAA..",
-                "...AAAAOOAAAAAA..",
+                "..OOOOOOO??OOOO..",
+                "..??OO?A??OOAOO..",
+                "..OOAAA?AAOOOAA..",
+                "...AAAAOOAAAAOO..",
                 "................."
               ],
               "layoutKey": "269130"

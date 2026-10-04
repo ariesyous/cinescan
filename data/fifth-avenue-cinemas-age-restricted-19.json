@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T23:31:39.923Z",
+  "updatedAt": "2026-10-04T00:23:36.034Z",
   "theatre": {
     "id": 1149,
     "name": "Fifth Avenue Cinemas (age restricted 19+)"
@@ -912,28 +912,6 @@
       ]
     },
     "117322": {
-      "totalRows": 7,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        "SSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSS",
-        "SSSSSSSSSSSSSSSS",
-        "SSSSC..SSSS.....",
-        "SSSSC..W.W......"
-      ]
-    },
-    "117323": {
       "totalRows": 7,
       "totalColumns": 16,
       "rowLabels": [
@@ -3348,12 +3326,12 @@
               "seats": [
                 "AAAA...AAAAAA....AAAA",
                 "AAAA...AAAAAAA...AAAA",
-                "AAAA..AAAAAAAA...AAAA",
-                "AAAA..AAAOOAAOO..AAAA",
-                "AAAA..AOOOOOOOA..OOAA",
-                "AAAA..AAOOOOOOO..AAAA",
-                "AAAA..OOOOOOAAA..AAAA",
-                "AAOO..OOAOOAAOO..AAAA",
+                "AAAA..AAAAAOOO...AAAA",
+                "AAAA..OOAAOOAOO..AAAA",
+                "AAAA..AOOOOOOOO..OOAA",
+                "AAAA..OOOOOOOOO..AAAA",
+                "AAAA..OOOOOOOOO..AAAA",
+                "AAOO..OOAOOOOOO..AAAA",
                 "AAAA..AOOOOOOOO..AAAA",
                 "????.............AAAA",
                 "........AAAAA........"
@@ -3396,9 +3374,9 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=117325&a=0000000001&l=1149&m=verity&ss=False",
               "seats": [
                 "AAA..AAAAAAAAA..AAA",
-                "AAA..AAAAAAAAA..AAA",
+                "AAA..AAOAAAAAA..AAA",
                 "AAA..AAOOOOOAA..AAA",
-                "AAA..OOOOOOOOA..AAA",
+                "AAA..OOOOOOOOA..OOA",
                 "OOO..OOOOOOOOO..OOA",
                 "AOO..OOOOOOOOO..OAA",
                 "AAO..OOOOOOAOO..OOA",
@@ -3418,8 +3396,8 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
-                "AAA..AAAAAAAAA..AAA",
-                "AAA..OOAAAAAAA..AAA",
+                "AAA..AAAAOOAAA..AAA",
+                "AAA..OOAAOAAAA..AAA",
                 "AAA..AAAAOOAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AOO..A.A.AAOO......"
@@ -3442,11 +3420,11 @@
               "seats": [
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
-                "AAAAAAA..OOAAA",
+                "OOAAAAA..OOAAA",
                 "AAAAOOO..OOAAA",
                 "AOOOOOO..OOOOA",
-                "AAAOOOO...A.AA",
-                "AAAOOOO.......",
+                "AOOOOOO...A.AA",
+                "OOOOOOO.......",
                 "OOOOOOO......."
               ],
               "layoutKey": "117319"
@@ -3462,7 +3440,7 @@
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
                 "AAAAAAA..AAAAA",
-                "AAAAAOO..OOAAA",
+                "AAAAAOO..OOOOA",
                 "AAAAAAA...A.AA",
                 "AAAAAAA.......",
                 "AAAAAAA......."
@@ -3477,31 +3455,14 @@
           "runtimeMinutes": 110,
           "sessions": [
             {
-              "time": "16:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=117323&a=0000000001&l=1149&m=primetime&ss=False",
-              "seats": [
-                "????????????????",
-                "????????????????",
-                "????????????????",
-                "????????????????",
-                "????????????????",
-                "?????..????.....",
-                "?????..?.?......"
-              ],
-              "layoutKey": "117323"
-            },
-            {
               "time": "19:15",
               "formats": [
                 "Regular"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=117322&a=0000000001&l=1149&m=primetime&ss=False",
               "seats": [
-                "AAAAAAAAAAAAAAAA",
-                "OOAAOOOOOOOOOAAA",
+                "OOOAAAAAAAAAAAAA",
+                "OOOOOOOOOOOOOOOA",
                 "OOOOOOOOOOOOOOOO",
                 "OOOOOOOOOOOOOOOO",
                 "OOOOOOOOOOOOOOOO",
@@ -3520,8 +3481,8 @@
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
-                "AAAOOAAOOOOOOOOA",
-                "AAAOOOOOOOOOOAAA",
+                "AAAOOOOOOOOOOOOA",
+                "AOOOOOOOOOOOOOOA",
                 "AAOOA..AOOO.....",
                 "AAOOA..A.A......"
               ],
@@ -3835,7 +3796,7 @@
               "seats": [
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
-                "AAAAAAOOAAAAAAAA",
+                "AAAAOOOOAAOOOAAA",
                 "AAAOOOOOOOOOOOAA",
                 "OOOOOOOOOAOOOOAA",
                 "AOOOA..OOOA.....",
@@ -4262,7 +4223,7 @@
                 "AAAA..AAAAAAAAA..AAAA",
                 "AAAA..AAAOOOOOO..AAAA",
                 "AAAA..AAOOOOAAA..AAAA",
-                "AAAA..OOOOOOOAA..AAAA",
+                "AAOO..OOOOOOOAA..AAAA",
                 "????.............AAAA",
                 "........AAAAA........"
               ],
@@ -4346,7 +4307,7 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..OOOAAAOOA..AAA",
                 "AAA..OOOOOOOOO..AAA",
-                "AAA..OOOOOOOOO..AAA",
+                "AOO..OOOOOOOOO..AAA",
                 "AAA..OOOOOOOOO..AAA",
                 "OOO..OOOOOOOOO..OOO",
                 "AAA..A.A.AAAO......"
@@ -5239,11 +5200,11 @@
                 ".AAAAA..AAAAAAAAA..AAAAA..",
                 "AAAAA...AAAOOOAAAA..AAAAA.",
                 "AAAAA...OOOOOOOOOAA..AAAAA",
-                "AAAAA...OOOOOOAOOOO..AAAAA",
-                "AAAAO...OOOOOOOOOOO..OOAAA",
-                "AAAAA...OOOOOOOOOOO..OOAAA",
+                "AAAAA...OOOOOOOOOOO..AAAAA",
+                "AAOOO...OOOOOOOOOOO..OOAAA",
+                "AAOOO...OOOOOOOOOOO..OOAAA",
                 "OOOOO...OOOOOOOOOOO..AAAAA",
-                "AAOOO...OOOOOOOOAOO..OOAAA",
+                "AAOOO...OOOOOOOOOOO..OOAAA",
                 "AAAOO....OOOOOOOOOO..OOAAA",
                 "....A....A.AOOOOOOO..OOAAA",
                 "..........................",
@@ -5276,7 +5237,7 @@
                 "AAAAA...AAAAAAAAAA..AAAAA.",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAAA..AAAAA",
-                "AAAAA...AAAAAAAAAAA..AAAAA",
+                "AAAAA...AAAAOOAAAAA..AAAAA",
                 "AAAAA...AAAAOOAAAAA..AAAAA",
                 "AAAAA...AAAAAAOAAAA..AAAAA",
                 "AAAAA...AAAAAAAAAOO..AAAAA",
@@ -5304,7 +5265,7 @@
                 "AAAOO...OOOOOOOOOOO..OOOAA",
                 "AOOOO...OOOOOOAOOOO..OOOAA",
                 "AAAOO...OOOOOOOOOOO..OOOOA",
-                "AAAOO....OOOOOOOOOO..AAAAA",
+                "AAAOO....OOOOOOOOOO..OOAAA",
                 "....A....A.AOOOOOOO..AAAAA",
                 "..........................",
                 "..........................",
