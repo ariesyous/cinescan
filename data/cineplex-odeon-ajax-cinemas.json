@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T01:25:26.964Z",
+  "updatedAt": "2026-10-05T04:25:39.577Z",
   "theatre": {
     "id": 7248,
     "name": "Cineplex Odeon Ajax Cinemas"
@@ -4871,36 +4871,6 @@
         "..................."
       ]
     },
-    "244226": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        null
-      ],
-      "seatTypes": [
-        "...................",
-        "..SSSSSSSSSSSS.....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSS...",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "....WCSSSSSSSSCW...",
-        "..................."
-      ]
-    },
     "244227": {
       "totalRows": 11,
       "totalColumns": 19,
@@ -5268,6 +5238,36 @@
         "...WCSSSSSSSSSCWW...",
         "...................."
       ]
+    },
+    "244250": {
+      "totalRows": 11,
+      "totalColumns": 19,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "...................",
+        "..SSSSSSSSSSSS.....",
+        "..SSSSSSSSSSSSS....",
+        "..SSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSS..",
+        "....WCSSSSSSSSCW...",
+        "..................."
+      ]
     }
   },
   "days": [
@@ -5527,7 +5527,7 @@
                 "....AAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAA..",
-                "..AAAAAAAAOOAAAAA..",
+                "..AAAAAAOOOOAAAAA..",
                 "..AAAAOOOOOOOOAAA..",
                 "...AAAOOOOOOOAAA...",
                 "..................."
@@ -5988,9 +5988,9 @@
                 "..AAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAOOAAAAAA..",
                 "..AAAAAAOOAAAAAAAA..",
-                "..AAA???OOAAAAAAAA..",
+                "..AAA???OOOOAAAAAA..",
                 "..AAAOOOOOOAAOOOOO..",
-                "...AAAOAOOOOAAAAA...",
+                "...AAAOOOOOOOAAAA...",
                 "...................."
               ],
               "layoutKey": "244249"
@@ -6523,34 +6523,6 @@
           ]
         },
         {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "18:40",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=244226&a=0000000001&l=7248&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "...................",
-                "..??AAAAAAAAAA.....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAA...",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAA..",
-                "....AAAAAAAAAAAA...",
-                "..................."
-              ],
-              "layoutKey": "244226"
-            }
-          ]
-        },
-        {
           "title": "Other Mommy",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38158_320_470.jpg",
           "runtimeMinutes": 93,
@@ -6635,6 +6607,27 @@
                 "..................."
               ],
               "layoutKey": "244225"
+            },
+            {
+              "time": "19:15",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=244250&a=0000000001&l=7248&m=drishyam-the-conclusion-hindi-west&ss=False",
+              "seats": [
+                "...................",
+                "..??AAAAAAAAAA.....",
+                "..AAAAAAAAAAAAA....",
+                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAA...",
+                "..................."
+              ],
+              "layoutKey": "244250"
             }
           ]
         }
@@ -8427,7 +8420,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAA?AAAAAAAAAAAAA..",
+                "..AAAAAAA?AAAAAAAAAAAOO..",
                 "..AAAAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAA...",
