@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:37:12.796Z",
+  "updatedAt": "2026-10-06T05:12:46.575Z",
   "theatre": {
     "id": 7112,
     "name": "Cineplex Odeon Westmount Cinemas and VIP"
@@ -962,6 +962,28 @@
       ]
     },
     "237545": {
+      "totalRows": 7,
+      "totalColumns": 15,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "seatTypes": [
+        "...............",
+        "..CWWCSSSS.....",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS..",
+        "..SSSSSSSSSSS.."
+      ]
+    },
+    "237546": {
       "totalRows": 7,
       "totalColumns": 15,
       "rowLabels": [
@@ -2858,7 +2880,7 @@
                 "...????AAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAA...",
-                "...AAAAAAAAAOOOAAAAAA...",
+                "...AAAAOOAAAOOOAAAAAA...",
                 "...AAAAAAAOOOOOOOAAAA...",
                 "AAAAAAAOAAOOOAAAAAAAAA.."
               ],
@@ -3047,7 +3069,7 @@
                 "...AAAA.A.....",
                 ".AAAAAAAA.....",
                 ".OAAAOOAA.....",
-                ".OOAAAAAO.....",
+                ".OOAAAAOO.....",
                 ".??AAA?OOA..??"
               ],
               "layoutKey": "237721"
@@ -4982,7 +5004,7 @@
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAOOAAAAAAA..",
                 "..AAAAAAAAAAA.."
               ],
               "layoutKey": "237537"
@@ -5179,6 +5201,36 @@
                 "..AAAAAAAAAAA.."
               ],
               "layoutKey": "237545"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "movies": [
+        {
+          "title": "Sense and Sensibility",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60481_320_470.jpg",
+          "runtimeMinutes": 132,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=237546&a=0000000001&l=7112&m=sense-and-sensibility-2026&ss=False",
+              "seats": [
+                "...............",
+                "..AAAAAAAA.....",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA..",
+                "..AAAAAAAAAAA.."
+              ],
+              "layoutKey": "237546"
             }
           ]
         }

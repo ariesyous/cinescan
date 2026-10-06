@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:36:59.293Z",
+  "updatedAt": "2026-10-06T05:12:39.004Z",
   "theatre": {
     "id": 7241,
     "name": "Cineplex Odeon Clarington Place Cinemas"
@@ -873,6 +873,34 @@
         "................"
       ]
     },
+    "282643": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSCW..",
+        "...WCSSSSSSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..WWCSSSSSSSCW..",
+        "................"
+      ]
+    },
     "282646": {
       "totalRows": 10,
       "totalColumns": 16,
@@ -1657,6 +1685,34 @@
         "................"
       ]
     },
+    "282804": {
+      "totalRows": 10,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "....SSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSCW..",
+        "...WCSSSSSSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "...WCSSSSSSCWW..",
+        "................"
+      ]
+    },
     "282807": {
       "totalRows": 8,
       "totalColumns": 16,
@@ -1874,6 +1930,30 @@
       ]
     },
     "282817": {
+      "totalRows": 8,
+      "totalColumns": 16,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSS..",
+        "...WCSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "...WWCSSSSSSCW..",
+        "................"
+      ]
+    },
+    "282819": {
       "totalRows": 8,
       "totalColumns": 16,
       "rowLabels": [
@@ -2919,7 +2999,7 @@
                 "..AAAAAAAAAAAA..",
                 "...AAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
-                "..?AAAAAAAAAAA..",
+                "..?AAAAOOAAAAA..",
                 "..AAAAAOOAAAAA..",
                 "..?A?AAAAAAAAA..",
                 "...AAAAAA?AAAA..",
@@ -3052,7 +3132,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAOOAAAAA..",
                 "..AAAAAOOAAAAA..",
-                "..AAAAAAAAAAA...",
+                "..AAAOOAAAAAA...",
                 "................"
               ],
               "layoutKey": "282933"
@@ -5228,6 +5308,90 @@
                 "................"
               ],
               "layoutKey": "282815"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "movies": [
+        {
+          "title": "Street Fighter",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60523_320_470.jpg",
+          "runtimeMinutes": 108,
+          "sessions": [
+            {
+              "time": "19:20",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282643&a=0000000001&l=7241&m=street-fighter-2026&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAAA..",
+                "..AAAAA?AAAAAA..",
+                "..AAAAAAAAAAA?..",
+                "..AAAAAAAAA?AA..",
+                "..AAAAAAAAAAA?..",
+                "..AAAAAAAAAAAA..",
+                "................"
+              ],
+              "layoutKey": "282643"
+            }
+          ]
+        },
+        {
+          "title": "Sense and Sensibility",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60481_320_470.jpg",
+          "runtimeMinutes": 132,
+          "sessions": [
+            {
+              "time": "18:50",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282804&a=0000000001&l=7241&m=sense-and-sensibility-2026&ss=False",
+              "seats": [
+                "....AAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAA???AAA..",
+                "...AAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAA?AAAA..",
+                "..AAAAAAAAAAAA..",
+                "..A?AAAAAAAAAA..",
+                "...AAAAA?AAAAA..",
+                "................"
+              ],
+              "layoutKey": "282804"
+            }
+          ]
+        },
+        {
+          "title": "Whalefall",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38472_320_470.jpg",
+          "runtimeMinutes": 106,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=282819&a=0000000001&l=7241&m=whalefall&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAA..",
+                "...AAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..?AAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..?A?AAAAAAAAA..",
+                "...AAAAAA?AAAA..",
+                "................"
+              ],
+              "layoutKey": "282819"
             }
           ]
         }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:36:19.095Z",
+  "updatedAt": "2026-10-06T05:12:06.421Z",
   "theatre": {
     "id": 7269,
     "name": "Cineplex Cinemas Cambridge"
@@ -772,6 +772,62 @@
       ]
     },
     "223208": {
+      "totalRows": 10,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        "......................",
+        "......SSSSSSSSSSS.....",
+        "....SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "....CWCCWWCCWWCCWSS...",
+        "......................"
+      ]
+    },
+    "223209": {
+      "totalRows": 10,
+      "totalColumns": 22,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        null
+      ],
+      "seatTypes": [
+        "......................",
+        "......SSSSSSSSSSS.....",
+        "....SSSSSSSSSSSSSS....",
+        "...SSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSSSSSSS..",
+        "....CWCCWWCCWWCCWSS...",
+        "......................"
+      ]
+    },
+    "223210": {
       "totalRows": 10,
       "totalColumns": 22,
       "rowLabels": [
@@ -2188,7 +2244,7 @@
                 "...AAAAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAOAAAAAAAAAA..",
+                "...AAAAAAAAAAOAAOOAAAAAA..",
                 "...AAAAAAAAAOOAAAAAAAAAA..",
                 "........AAAAAAAAAAAAAAAA..",
                 ".........................."
@@ -2413,7 +2469,7 @@
                 "...???AAAAAAAAA...",
                 "....AAAAAAAAAA....",
                 "...AAAAAOOOOOAAA..",
-                "..AAAOOOOOOOOAAA..",
+                "..AAAOOOOOOOOOOA..",
                 "..OOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOO..",
                 "..OOOOOOOOOOOOOO..",
@@ -2430,7 +2486,7 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223265&a=0000000001&l=7269&m=drishyam-the-conclusion-hindi-west&ss=False",
               "seats": [
                 "..................",
-                "...???OOOOOOAAA...",
+                "...???OOAAAAAAA...",
                 "....OOOOOOOOOO....",
                 "...OOOOOOOOOOOOA..",
                 "..OOOOOOOOOOOOOO..",
@@ -3102,7 +3158,7 @@
                 "...AAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAA..",
-                "..AAAAAAOAOAAAAA..",
+                "..AAAAAAOAAAAAAA..",
                 "..AAAAAOOOAAAAAA..",
                 "...AAAAAAOOAAAA...",
                 ".................."
@@ -3784,6 +3840,58 @@
                 "......................"
               ],
               "layoutKey": "223208"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "movies": [
+        {
+          "title": "Whalefall",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38472_320_470.jpg",
+          "runtimeMinutes": 106,
+          "sessions": [
+            {
+              "time": "16:10",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223210&a=0000000001&l=7269&m=whalefall&ss=False",
+              "seats": [
+                "......................",
+                "......AAAAAAAAAAA.....",
+                "....AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA...",
+                "......................"
+              ],
+              "layoutKey": "223210"
+            },
+            {
+              "time": "19:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=223209&a=0000000001&l=7269&m=whalefall&ss=False",
+              "seats": [
+                "......................",
+                "......AAAAAAAAAAA.....",
+                "....AAAAAAAAAAAAAA....",
+                "...AAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAAAAAAA..",
+                "....AAAAAAAAAAAAAAA...",
+                "......................"
+              ],
+              "layoutKey": "223209"
             }
           ]
         }

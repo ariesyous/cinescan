@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:36:46.410Z",
+  "updatedAt": "2026-10-06T05:12:29.154Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
@@ -1331,6 +1331,34 @@
         "......................"
       ]
     },
+    "268889": {
+      "totalRows": 10,
+      "totalColumns": 22,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        null
+      ],
+      "seatTypes": [
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        "SS..SSSSSSSSSSSSSS..SS",
+        ".....WCWWCSCWWCCW.....",
+        "......................"
+      ]
+    },
     "268907": {
       "totalRows": 9,
       "totalColumns": 20,
@@ -1624,6 +1652,30 @@
       ]
     },
     "269120": {
+      "totalRows": 8,
+      "totalColumns": 17,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSS..",
+        "..SSSSSSSSSSSSS..",
+        "...WWCCSSSSSSSS..",
+        "................."
+      ]
+    },
+    "269121": {
       "totalRows": 8,
       "totalColumns": 17,
       "rowLabels": [
@@ -4121,7 +4173,7 @@
                 "AA..AAAAAA??AAAAAA..AA",
                 "AA..A?AA?OOOAAAAAA..AA",
                 "AA..AAAAAAAOOOAAAA..AA",
-                "AA..AAAAOOOOOAAAA?..??",
+                "AA..AAAAOOOOOOOOA?..??",
                 "AA..AA?AAAAAAAAAAA..AA",
                 ".....AAAAAAAAAAAA.....",
                 "......................"
@@ -6345,6 +6397,63 @@
                 "................."
               ],
               "layoutKey": "269120"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "movies": [
+        {
+          "title": "Street Fighter",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60523_320_470.jpg",
+          "runtimeMinutes": 108,
+          "sessions": [
+            {
+              "time": "19:20",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268889&a=0000000001&l=4108&m=street-fighter-2026&ss=False",
+              "seats": [
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAA??AAAAAA..AA",
+                "AA..A?AA?AAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAAA..AA",
+                "AA..AAAAAAAAAAAAA?..??",
+                "AA..AA?AAAAAAAAAAA..AA",
+                ".....AAAAAAAAAAAA.....",
+                "......................"
+              ],
+              "layoutKey": "268889"
+            }
+          ]
+        },
+        {
+          "title": "Sense and Sensibility",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60481_320_470.jpg",
+          "runtimeMinutes": 132,
+          "sessions": [
+            {
+              "time": "19:00",
+              "formats": [
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=269121&a=0000000001&l=4108&m=sense-and-sensibility-2026&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAA..",
+                "..AAAAAAAAAAAAA..",
+                "..AAAAA???AAAAA..",
+                "..AAAAAAA??AAAA..",
+                "..??AA?A??AAAAA..",
+                "..AAAAA?AAAAAAA..",
+                "...AAAAAAAAAAAA..",
+                "................."
+              ],
+              "layoutKey": "269121"
             }
           ]
         }

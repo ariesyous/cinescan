@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:36:40.400Z",
+  "updatedAt": "2026-10-06T05:12:24.730Z",
   "theatre": {
     "id": 7312,
     "name": "Cineplex Cinemas Pickering and VIP"
@@ -446,6 +446,34 @@
       ]
     },
     "96001": {
+      "totalRows": 10,
+      "totalColumns": 18,
+      "rowLabels": [
+        null,
+        "AA",
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "..................",
+        ".....SSSSSSSS.....",
+        "..................",
+        "..SWCSSSSCW.WC....",
+        "..SSSSSSSSSSSS....",
+        "..SSSSSSSSSSSS....",
+        "..SSSSSSSSSSSS....",
+        "..SSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSS..SS",
+        "..SSSSSSSSSSSS..SS"
+      ]
+    },
+    "96002": {
       "totalRows": 10,
       "totalColumns": 18,
       "rowLabels": [
@@ -2770,7 +2798,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAOOAAAAAA?AAAA..",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAOOAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAA?AAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAA?AAA..",
@@ -2794,7 +2822,7 @@
                 "....AAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAOOAAAAAA?AAAA..",
-                "AA..AAAAAAAAAAAAAAAAAAAAAAA..",
+                "AA..AAAAAAAAAOOAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAAAAAA..",
                 "AA..AAAAAAAAAAAA?AAAAAAAAAA..",
                 "AA..AAAAAAAAAAAAAAAAAAA?AAA..",
@@ -3076,9 +3104,9 @@
                 "....AAAAAAAAAAAAAAAA..",
                 "....OOAAOOOOOOOOOOAA..",
                 "....AAAOOOOOOAOOOAAA..",
-                "OO..AAAOOOOOOOOAOOOO..",
+                "OO..AOOOOOOOOOOAOOOO..",
                 "OA..OOOOOOOOOOOOOOOO..",
-                "OO..OOA........A?AAA.."
+                "OO..OOA........O?AAA.."
               ],
               "layoutKey": "96142"
             }
@@ -3166,7 +3194,7 @@
                 "..AAAAAAAA.AA....",
                 "..AAAAAAAAAAA....",
                 "..AAAAAAAAAAA....",
-                "..AAOOAAOOAAA....",
+                "..AAOOAAAAAAA....",
                 "..AAAOOAAAAAA..A?",
                 "..AAAA.......AAAA"
               ],
@@ -3246,7 +3274,7 @@
                 "..AAAAAAAA.AA....",
                 "..AAAAAAAAAAA....",
                 "..AAAOAAOOOOA....",
-                "..AAOOOOOAAOO....",
+                "..OOOOOOOOOOO....",
                 "..AAAOOOOOAAA..A?",
                 "..AAAA.......AAAA"
               ],
@@ -3320,7 +3348,7 @@
                 "..OOOOOOOOO....",
                 "..OOOOOOOOO....",
                 "..OOAOOOOOO....",
-                "..OOOAAOOAA....",
+                "..OOOAAOOOO....",
                 "..............."
               ],
               "layoutKey": "96135"
@@ -3342,7 +3370,7 @@
                 "..AAAAAAAAA....",
                 "..AAAAOOAAA....",
                 "..AAAAOOAAA....",
-                "..AAAAAAAAA....",
+                "..AAAAOOAAA....",
                 "..............."
               ],
               "layoutKey": "96140"
@@ -3405,7 +3433,7 @@
                 "....AA.AAAAAA..",
                 "....AAAAAAAAA..",
                 "....OOOOOAAAA..",
-                "....AOOOOAAAA..",
+                "....AOOOOAAOA..",
                 "OO..OOOOOOOAA..",
                 "AAOOOAOOAOOAA.."
               ],
@@ -3424,7 +3452,7 @@
                 "....AA.AAAAAA..",
                 "....AAAAAAAAA..",
                 "....AAAAAAAAA..",
-                "....AAAAAAAAA..",
+                "....AAOOOOAAA..",
                 "AA..AAAOOAAAA..",
                 "AAAAAAAAAAAAA.."
               ],
@@ -3486,7 +3514,7 @@
                 ".....AAAAAAAAA....",
                 "..................",
                 "...AAAAAAAA.AA....",
-                "..AAAAAAAAAAAA....",
+                "..AAAAAAOAAAAA....",
                 "..OOOOOOOOAAOO....",
                 "..AOOOOOOOOOOO....",
                 "..OOOOOOOOOOOO..OO",
@@ -3508,7 +3536,7 @@
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAAAAAAA....",
                 "..AAAAAAOAAAAA....",
-                "..AAAAAOOOOOAA..AA",
+                "..AAAOOOOOOOAA..AA",
                 "OOOOA........?????"
               ],
               "layoutKey": "96144"
@@ -5250,6 +5278,39 @@
                 "..AAAAAAA?AAAA..?A"
               ],
               "layoutKey": "96001"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "movies": [
+        {
+          "title": "Sense and Sensibility",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60481_320_470.jpg",
+          "runtimeMinutes": 132,
+          "sessions": [
+            {
+              "time": "18:30",
+              "formats": [
+                "VIP 19+",
+                "Recliner"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=96002&a=0000000001&l=7312&m=sense-and-sensibility-2026&ss=False",
+              "seats": [
+                "..................",
+                ".....AAAAAAAA.....",
+                "..................",
+                "..AAAAAAAAA.AA....",
+                "..AAAA?AAAAAAA....",
+                "..A?AAAAAAAAAA....",
+                "..AAAAAAAAAAAA....",
+                "..AAAAAAOOAAA?..AA",
+                "..AAAAAAAAAAAA..AA",
+                "..AAAAAAA?AAAA..?A"
+              ],
+              "layoutKey": "96002"
             }
           ]
         }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:36:28.580Z",
+  "updatedAt": "2026-10-06T05:12:15.508Z",
   "theatre": {
     "id": 7290,
     "name": "Cineplex Cinemas Hamilton Mountain"
@@ -3993,6 +3993,54 @@
         "..SSSSSSSSSSSS.."
       ]
     },
+    "205192": {
+      "totalRows": 8,
+      "totalColumns": 16,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "................",
+        "..WCSSCWWCSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS.."
+      ]
+    },
+    "205193": {
+      "totalRows": 8,
+      "totalColumns": 16,
+      "rowLabels": [
+        null,
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "seatTypes": [
+        "................",
+        "..WCSSCWWCSSCW..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS..",
+        "..SSSSSSSSSSSS.."
+      ]
+    },
     "205398": {
       "totalRows": 13,
       "totalColumns": 26,
@@ -6515,7 +6563,7 @@
                 "..AAAAAAAAAAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAOOAAAAAAAAAA....",
                 "..AAAAAAAAAOOOOOOAAAAAAAAA....",
-                "..AAAAAAAAAAOOOAAAAAOOOOAA....",
+                "..AAOOOOOOOAOOOAAAAAOOOOAA....",
                 "..AAAAOOAOOAAOOAAOOAAOOOOO....",
                 "..AAOOAAAAAOOOOAAOOAAAAAOO..OO",
                 "..AAAAAOOOOOOOOAOOOOOOAAOO..OO",
@@ -6745,7 +6793,7 @@
                 ".AA..AAAAOOAAAAA..",
                 ".AA..AAAAAAAAAAA..",
                 ".AA..AAAAAAAAAAA..",
-                "AAAAAOOAAOOAAAAAAA"
+                "AAAAAOOAAOOAAOOAAA"
               ],
               "layoutKey": "205560"
             },
@@ -6895,7 +6943,7 @@
               "seats": [
                 "......................",
                 "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAOOOOAAAAAAA..",
+                "..AAAAAAAOOOOAAAAAOO..",
                 "......................",
                 ".....AAA.AAA..AAOOOO..",
                 ".....OOOOOOOOOOOOAOO..",
@@ -6929,7 +6977,7 @@
                 "....AAAAA..AAA.AAA...",
                 "....AAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAA...",
-                "....AAOOAAOOOAAAAA...",
+                "....AAAAAAOOOAAAAA...",
                 "....OOOOOOOOOOOOOO...",
                 "....AAAAAAAAAAAAAA...",
                 "?AAAAAAAAOOOOOAAAAAAA"
@@ -8041,7 +8089,7 @@
                 ".....AAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAAA..",
-                ".AA..AAAAAAAAAAAAAAA..",
+                ".AA..AAAAAAOOAAAAAAA..",
                 ".AA..AAAAAAAAAAAAAAA..",
                 ".AA..AAAOOOOOOAAAAAA..",
                 "AAAAAAAOOAAAOOAAAAAAAA"
@@ -9011,7 +9059,7 @@
                 "..AAAAAAAAAAAA..",
                 "..AAAAAAAAAAAA..",
                 "..AAAAAOOAAAAA..",
-                "..OOAAAAAAAAAA..",
+                "..OOAAAAAAAOOO..",
                 "..AAAAOAAAAAAA..",
                 "..AAAAOOOOAAAA.."
               ],
@@ -9484,6 +9532,49 @@
     {
       "date": "2026-10-19",
       "movies": [
+        {
+          "title": "Street Fighter",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/60523_320_470.jpg",
+          "runtimeMinutes": 108,
+          "sessions": [
+            {
+              "time": "19:10",
+              "formats": [
+                "4DX"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=205192&a=0000000001&l=7290&m=street-fighter-2026&ss=False",
+              "seats": [
+                "................",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA.."
+              ],
+              "layoutKey": "205192"
+            },
+            {
+              "time": "22:00",
+              "formats": [
+                "4DX"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=205193&a=0000000001&l=7290&m=street-fighter-2026&ss=False",
+              "seats": [
+                "................",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA..",
+                "..AAAAAAAAAAAA.."
+              ],
+              "layoutKey": "205193"
+            }
+          ]
+        },
         {
           "title": "Whalefall",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38472_320_470.jpg",
