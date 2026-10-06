@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T21:27:24.061Z",
+  "updatedAt": "2026-10-06T22:11:06.827Z",
   "theatre": {
     "id": 9153,
     "name": "Cinéma Cineplex Odeon Carrefour Dorion"
@@ -4961,6 +4961,68 @@
         "..............."
       ]
     },
+    "196929": {
+      "totalRows": 12,
+      "totalColumns": 18,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        null,
+        null
+      ],
+      "seatTypes": [
+        "..SSSSSSSSSSSSS...",
+        "..SSSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSS.",
+        ".SSSSSSSSSSSSSSSS.",
+        "........WCSSSSSCW.",
+        "..................",
+        ".................."
+      ]
+    },
+    "196930": {
+      "totalRows": 11,
+      "totalColumns": 18,
+      "rowLabels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        null
+      ],
+      "seatTypes": [
+        ".....SSSSSSSSSSS..",
+        ".....SSSSSSSSSSSS.",
+        "....SSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSS.",
+        "...SSSSSSSSSSSSSS.",
+        "..SSSSSSSSSSSSSSS.",
+        ".........WCSSSSCW.",
+        ".................."
+      ]
+    },
     "196931": {
       "totalRows": 7,
       "totalColumns": 17,
@@ -5234,7 +5296,7 @@
                 ".AAAAAAAAAAAA..",
                 ".AAAAAAAAAAAAA.",
                 ".AOOAAAOOOOOA..",
-                ".OOOOOAAAAAAAA.",
+                ".OOOAAAAAAAAAA.",
                 ".AAAAAA........",
                 "..............."
               ],
@@ -9087,6 +9149,34 @@
           ]
         },
         {
+          "title": "Le jugement social",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61788_320_470.jpg",
+          "runtimeMinutes": 113,
+          "sessions": [
+            {
+              "time": "19:20",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196930&a=0000000001&l=9153&m=le-jugement-social&ss=False",
+              "seats": [
+                ".....AAAAAAAAAAA..",
+                ".....AAAAAAAAAAAA.",
+                "....AAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAA.",
+                ".........AAAAAAAA.",
+                ".................."
+              ],
+              "layoutKey": "196930"
+            }
+          ]
+        },
+        {
           "title": "Pauline Julien Femme pays",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61142_320_470.jpg",
           "runtimeMinutes": 110,
@@ -9111,6 +9201,35 @@
                 "..............."
               ],
               "layoutKey": "196928"
+            }
+          ]
+        },
+        {
+          "title": "Hantée",
+          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61424_320_470.jpg",
+          "runtimeMinutes": 104,
+          "sessions": [
+            {
+              "time": "19:10",
+              "formats": [
+                "Regular"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=196929&a=0000000001&l=9153&m=hantee&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAA...",
+                "..AAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAA.",
+                "...AAAAAAAAAAAAAA.",
+                "..AAAAAAAAAAAAAAA.",
+                ".AAAAAAAAAAAAAAAA.",
+                "........?AAAAAAAA.",
+                "..................",
+                ".................."
+              ],
+              "layoutKey": "196929"
             }
           ]
         }
