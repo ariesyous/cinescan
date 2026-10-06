@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T01:40:46.732Z",
+  "updatedAt": "2026-10-06T02:06:31.986Z",
   "theatre": {
     "id": 3150,
     "name": "SilverCity CrossIron Mills Cinemas and XSCAPE Entertainment Centre"
@@ -348,7 +348,7 @@
       ]
     },
     "129081": {
-      "totalRows": 15,
+      "totalRows": 17,
       "totalColumns": 29,
       "rowLabels": [
         "AA",
@@ -358,8 +358,8 @@
         "B",
         "C",
         "D",
-        "E",
-        "F",
+        null,
+        null,
         "G",
         "H",
         "I",
@@ -375,8 +375,8 @@
         "..SSSSSSSSSSSSSSSSSSSSSS.....",
         "..SSSSSSSSSSSSSSSSSSSSSS.....",
         "..SSSSSSSSSSSSSSSSSSSSSS.....",
-        "....SSSSSSSSSSSSSSSSSS.......",
-        "....SSSSSSSSSSSSSSSSSS.......",
+        "..DDD.DDDD.DDDDD.DDDD.DD.....",
+        "..DDD.DDDD.DDDDD.DDDD.DD.....",
         "..SSSSSSSSSSSSSSSSSSSSSS.....",
         "..SSSSSSSSSSSSSSSSSSSSSS.....",
         "..SSSSSSSSSSSSSSSSSSSSSS...SS",
@@ -1373,38 +1373,6 @@
         "SSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "129345": {
-      "totalRows": 12,
-      "totalColumns": 22,
-      "rowLabels": [
-        null,
-        "AA",
-        "BB",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "......................",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSS..",
-        "......................",
-        "...SCW.SSSSCW..WCS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS....",
-        "...SSSSSSSSSSSSSSS..SS",
-        "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "129421": {
       "totalRows": 17,
       "totalColumns": 29,
@@ -1601,40 +1569,6 @@
     }
   },
   "days": [
-    {
-      "date": "2026-10-05",
-      "movies": [
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "19:45",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129345&a=0000000001&l=3150&m=resident-evil-2026&ss=False",
-              "seats": [
-                "......................",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAA..",
-                "......................",
-                "...AAA.AAAAAA..AAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAAAAAAAAA....",
-                "...AAAAAAAOOAAAAAA....",
-                "...AAAAAAAOAAAAAAA....",
-                "...AAAAAAAAAAOOAAA..AA",
-                "AAAAAAOOAAOOAAAAAAAAAA"
-              ],
-              "layoutKey": "129345"
-            }
-          ]
-        }
-      ]
-    },
     {
       "date": "2026-10-06",
       "movies": [
@@ -2732,7 +2666,7 @@
               "layoutKey": "129077"
             },
             {
-              "time": "16:40",
+              "time": "16:30",
               "formats": [
                 "UltraAVX",
                 "D-BOX"
@@ -2758,7 +2692,7 @@
               "layoutKey": "129075"
             },
             {
-              "time": "16:40",
+              "time": "16:30",
               "formats": [
                 "UltraAVX"
               ],
@@ -2878,7 +2812,7 @@
           "runtimeMinutes": 93,
           "sessions": [
             {
-              "time": "16:40",
+              "time": "16:30",
               "formats": [
                 "UltraAVX",
                 "D-BOX"
@@ -2904,7 +2838,7 @@
               "layoutKey": "129080"
             },
             {
-              "time": "16:40",
+              "time": "16:30",
               "formats": [
                 "UltraAVX"
               ],
@@ -2931,6 +2865,32 @@
             {
               "time": "19:30",
               "formats": [
+                "UltraAVX",
+                "D-BOX"
+              ],
+              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129081&a=0000000004&l=3150&m=other-mommy&ss=False",
+              "seats": [
+                "..AAAAAAAAAAAAAAAAAAAAAAAAA..",
+                ".............................",
+                ".............................",
+                "..AAA.AAAAAAA.AAAA.A.AAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAAAAAAAAAAAAAAAAAAAAA.....",
+                "..AAA.AAAA.AAAAA.AAAA.AA.....",
+                "..AAA.AAAA.AAAAA.AAAA.AA.....",
+                "..AAAAAAAAAAAAAAAAAAAAOO.....",
+                "..AAAAAAAAAAAAAAAAAAAAOO.....",
+                "..AAAAAAAAAAAAAAAAAAAAAA...AA",
+                "..AAAAAAAAAAAAAAAAAAAAAA...AA",
+                "..AAAAAAAAAAAAAAAAAAAAAA...AA",
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+              ],
+              "layoutKey": "129081"
+            },
+            {
+              "time": "19:30",
+              "formats": [
                 "UltraAVX"
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=129081&a=0000000001&l=3150&m=other-mommy&ss=False",
@@ -2942,8 +2902,8 @@
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
                 "..AAAAAAAAAAAAAAAAAAAAAA.....",
-                "....??????????????????.......",
-                "....??????????????????.......",
+                "..AAA.AAAA.AAAAA.AAAA.AA.....",
+                "..AAA.AAAA.AAAAA.AAAA.AA.....",
                 "..AAAAAAAAAAAAAAAAAAAAOO.....",
                 "..AAAAAAAAAAAAAAAAAAAAOO.....",
                 "..AAAAAAAAAAAAAAAAAAAAAA...AA",

@@ -1,38 +1,10 @@
 {
-  "updatedAt": "2026-10-06T01:39:22.272Z",
+  "updatedAt": "2026-10-06T02:05:14.973Z",
   "theatre": {
     "id": 9121,
     "name": "Cinéma Cineplex Royalmount"
   },
   "auditoriums": {
-    "15462": {
-      "totalRows": 10,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...................",
-        "...CW.WCSSSSCW.WC..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "15463": {
       "totalRows": 10,
       "totalColumns": 19,
@@ -59,36 +31,6 @@
         ".SSSSSSSSSSSSSSSS..",
         ".SSSSSSSSSSSSSSSS..",
         ".SSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "15470": {
-      "totalRows": 11,
-      "totalColumns": 19,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "...................",
-        "..CW.WCSSSCW.WC....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSS."
       ]
     },
     "15526": {
@@ -1517,34 +1459,6 @@
       "date": "2026-10-05",
       "movies": [
         {
-          "title": "Verity",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38401_320_470.jpg",
-          "runtimeMinutes": 117,
-          "sessions": [
-            {
-              "time": "21:45",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15470&a=0000000001&l=9121&m=verity&ss=False",
-              "seats": [
-                "...................",
-                "..??.??AAAAA.AA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAA....",
-                "..AAAAAAOOAAAAA....",
-                "..AAOOOOAAAAAAA....",
-                "..AAAAAAOOAAAAA....",
-                "..AAAAAAOOAAAAAAA..",
-                "..AAAAOOOOAAOOAAA..",
-                "..AAAAAAOOAAAAAAA..",
-                "..OOAAA?????AAAAAA."
-              ],
-              "layoutKey": "15470"
-            }
-          ]
-        },
-        {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
           "runtimeMinutes": 94,
@@ -1562,41 +1476,13 @@
                 "...AAAAAAAA?AAAAA..",
                 "...AAAAAAAAAAAAAA..",
                 "...AAAAAAOOAAAAAA..",
-                "...AAAA?OOOAAAAAA..",
+                "...AAAA?OOOAAOOAA..",
                 "...AAAAOOOAAAAAAA..",
-                ".AAAAAAAAAAOOAAAA..",
-                ".AAAAAAOOOOOAAAAA..",
+                ".AAAAAAAOAAOOAAAA..",
+                ".AAAAAOOOOOOAAAAA..",
                 ".AAAAAAA?AAAAAAAAA."
               ],
               "layoutKey": "15463"
-            }
-          ]
-        },
-        {
-          "title": "Heart of the Beast",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 101,
-          "sessions": [
-            {
-              "time": "21:30",
-              "formats": [
-                "Recliner",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=15462&a=0000000001&l=9121&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "...................",
-                "...AA.AAAAAAAA.AA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAA..",
-                "...AAAAAAOOAAAAAA..",
-                "...AAAAAAOOAAAAAA..",
-                "...AOOAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAA..",
-                "AAAAAAAAA?OOAAAAAAA"
-              ],
-              "layoutKey": "15462"
             }
           ]
         }
@@ -1755,9 +1641,9 @@
                 "...................",
                 "...AA.AAAAAAAA.AA..",
                 "...AAAAAAAA?AAAAA..",
-                "...AAAAAAOOAAAAAA..",
+                "...AAAAAAAAAAAAAA..",
                 "...AAAAAAOOOOAAAA..",
-                "...AAAA?OOOOOOOOO..",
+                "...AAAA?OOOOOOAAA..",
                 "...AOOOOOOOOOOAAA..",
                 ".AAAOOOOOOOOOOOAA..",
                 ".AAAAOOOOOOOOOOOA..",
@@ -1783,7 +1669,7 @@
                 "..AAAAAAAOOAAAAAA..",
                 "..AAAAAAAOOAAAAAA..",
                 "..AAAAAAAOOAAAAAA..",
-                "AAAAAOOOOOOOOOAAAA?"
+                "AAAAOOOOOOOOOOAAAA?"
               ],
               "layoutKey": "15544"
             }

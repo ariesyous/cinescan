@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T01:39:38.162Z",
+  "updatedAt": "2026-10-06T02:05:30.427Z",
   "theatre": {
     "id": 7115,
     "name": "Cineplex Cinemas Fairview Mall"
@@ -2021,40 +2021,6 @@
         ".SSSSSSSSSSSSSSSSSSSS"
       ]
     },
-    "256256": {
-      "totalRows": 13,
-      "totalColumns": 20,
-      "rowLabels": [
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        ".SSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS..",
-        "....................",
-        "...SS.WCSSCW..WCS...",
-        "...SSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSS...",
-        "SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "256260": {
       "totalRows": 15,
       "totalColumns": 29,
@@ -2157,38 +2123,6 @@
         "..SSSSSSSSSSSSSSSS....",
         "..SSSSSSSSSSSSSSSS....",
         "SSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "256265": {
-      "totalRows": 12,
-      "totalColumns": 21,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".....................",
-        "..SSSSSSSSSSSSSSSSSS.",
-        ".....................",
-        "..SC.WCSSSCW..WCS....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSSS....",
-        "SSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "256272": {
@@ -4975,13 +4909,13 @@
                 ".....AA.A.AAAAAA.AA..",
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
+                ".....OAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
-                ".....AAAAAAAAAAAAAA..",
+                ".....AAAAAAOAAAAAAA..",
                 ".....AAAAAAAAAAAAOO..",
                 ".....AAAAAAAAAAAAAA..",
                 ".....AAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAA"
+                ".AAAAAAAAAOOAAAAAAAAA"
               ],
               "layoutKey": "256253"
             }
@@ -5023,28 +4957,6 @@
           "runtimeMinutes": 94,
           "sessions": [
             {
-              "time": "21:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=256265&a=0000000001&l=7115&m=resident-evil-2026&ss=False",
-              "seats": [
-                ".....................",
-                "..AAAAAAAAAAAAAAAAAA.",
-                ".....................",
-                "..AA.AAAAAAA..AAA....",
-                "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAOOAAAAAA....",
-                "..AAAAAAAOOAAAAAA....",
-                "..AAAAAAAOOAAAAAA....",
-                "..AAAAAAAOOAAAAAA....",
-                "..AAAAAOOOOOOAAAA....",
-                "..AAAOOAAOOAAAAAA....",
-                "AAAAAAAAAOOAAAAAAAAAA"
-              ],
-              "layoutKey": "256265"
-            },
-            {
               "time": "21:50",
               "formats": [
                 "Regular"
@@ -5052,52 +4964,22 @@
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=256260&a=0000000001&l=7115&m=resident-evil-2026&ss=False",
               "seats": [
                 ".............................",
-                "...AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAAAAA..",
-                "...AAAAAAAAAAAAAAAAAAAAAAAA..",
+                "...????????????????????????..",
+                "...????????????????????????..",
+                "...????????????????????????..",
                 ".............................",
-                "......AAA.AAAAAAAAAA....AAA..",
-                "......AAAAAAAAAAAAAAAAAAAAA..",
-                "......AAAAAAAAAAAAAAAAAAAAA..",
-                "......AAAAAAAAAAAAAAAAAAAAA..",
-                "......AAAAAAAAOOAAAAAAAAAAA..",
-                "......AAAAAAAAAAAAAAAAAAAAA..",
-                "......?AAAAAAAAAAAAAAAAAAAA..",
-                ".AA...AAAAAAAAAAAAAAAAAAAAA..",
-                ".AA...AAAAAAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAAAAAAAAAAAA."
+                "......???.??????????....???..",
+                "......?????????????????????..",
+                "......?????????????????????..",
+                "......?????????????????????..",
+                "......?????????????????????..",
+                "......?????????????????????..",
+                "......?????????????????????..",
+                ".??...?????????????????????..",
+                ".??...?????????????????????..",
+                ".???????????????????????????."
               ],
               "layoutKey": "256260"
-            }
-          ]
-        },
-        {
-          "title": "Heart of the Beast",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
-          "runtimeMinutes": 101,
-          "sessions": [
-            {
-              "time": "21:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=256256&a=0000000001&l=7115&m=heart-of-the-beast&ss=False",
-              "seats": [
-                ".AAAAAAAAAAAAAAAAA..",
-                ".AAAAAAAAAAAAAAAAA..",
-                "....................",
-                "...AA.AAAAAA..AAA...",
-                "...AAOOAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAA...",
-                "...AAAAAAAAAAAAAA...",
-                "...?AAAAOOOAAAAAA...",
-                "...AAAAAAOOAAAAAA...",
-                "...AAAAAAAAAAAAAA...",
-                "...AAAAAOOAAAAAAA...",
-                "AAAAAAAAAAAAAAAAAAAA"
-              ],
-              "layoutKey": "256256"
             }
           ]
         },
@@ -5121,7 +5003,7 @@
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAA....",
+                "..AAAAAAOAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAA....",
                 "AAAAAAAAAAAAAAAAAAAAA"
