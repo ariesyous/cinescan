@@ -1,38 +1,10 @@
 {
-  "updatedAt": "2026-10-06T01:16:00.373Z",
+  "updatedAt": "2026-10-06T01:40:14.201Z",
   "theatre": {
     "id": 3141,
     "name": "Cineplex Odeon Grande Prairie Cinemas"
   },
   "auditoriums": {
-    "246218": {
-      "totalRows": 10,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".......................",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".SSS..SSSSSSSSSSSS..SSS",
-        ".CW...SSSSSSSSSSSS..WC."
-      ]
-    },
     "246219": {
       "totalRows": 10,
       "totalColumns": 23,
@@ -2901,34 +2873,6 @@
         "SSSSSSSSSSSCWW.."
       ]
     },
-    "247295": {
-      "totalRows": 10,
-      "totalColumns": 25,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        ".........................",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".SSS...SSSSSSSSSSSS...SSS",
-        ".CW....SSSSSSSSSSSS....WC"
-      ]
-    },
     "247297": {
       "totalRows": 11,
       "totalColumns": 16,
@@ -4950,26 +4894,6 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=246218&a=0000000001&l=3141&m=verity&ss=False",
-              "seats": [
-                ".......................",
-                ".???..????????????..???",
-                ".???..????????????..???",
-                ".???..????????????..???",
-                ".???..????????????..???",
-                ".???..????????????..???",
-                ".???..????????????..???",
-                ".???..????????????..???",
-                ".???..????????????..???",
-                ".??...????????????..??."
-              ],
-              "layoutKey": "246218"
-            },
-            {
               "time": "21:50",
               "formats": [
                 "Regular"
@@ -5013,7 +4937,7 @@
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAOOAAAA..AAA",
                 "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAA..AAA"
+                "AAA..AAAAOOAAAA..AAA"
               ],
               "layoutKey": "247300"
             }
@@ -5035,12 +4959,12 @@
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAAAA.",
-                "AAAAAAOAAAAAAOO.",
                 "AAAAAAAAOOAAAAA.",
-                "AAAAAAOOAAAAAAA.",
-                "OOAAAAAAAAAAAAA.",
-                "AAAAAAAAAAAAOOO.",
+                "OOAAAAOAOOOAAOO.",
+                "AAAOOAAAOOOOOOA.",
+                "AAAAAAOOAAAAAAO.",
+                "OOAAOAAAOOAAOOA.",
+                "AAAAAOAAAAAAOOO.",
                 "AAAOOAAOOAAAAA.."
               ],
               "layoutKey": "247297"
@@ -5101,26 +5025,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61548_320_470.jpg",
           "runtimeMinutes": 101,
           "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=247295&a=0000000001&l=3141&m=heart-of-the-beast&ss=False",
-              "seats": [
-                ".........................",
-                ".???...????????????...???",
-                ".???...????????????...???",
-                ".???...????????????...???",
-                ".???...????????????...???",
-                ".???...????????????...???",
-                ".???...????????????...???",
-                ".???...????????????...???",
-                ".???...????????????...???",
-                ".??....????????????....??"
-              ],
-              "layoutKey": "247295"
-            },
             {
               "time": "21:50",
               "formats": [
@@ -5436,7 +5340,7 @@
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAA..AAA"
+                "AAA..AAAAOOAAAA..AAA"
               ],
               "layoutKey": "247344"
             }
@@ -5503,9 +5407,9 @@
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
-                "AAOOOAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
+                "AAAAAAAAAAAOOOO.",
                 "AAAAAAAAAAAAAA.."
               ],
               "layoutKey": "247350"
@@ -5901,7 +5805,7 @@
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
-                "AAAAAAOOOAAAOOO.",
+                "AAAAAAOOOAAAAAA.",
                 "AAAAAAAAAAAAAAA.",
                 "AAOOOOOOOOOOOAA.",
                 "OOAAAOOOOOOAAA.."

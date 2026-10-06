@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T01:15:22.203Z",
+  "updatedAt": "2026-10-06T01:39:33.443Z",
   "theatre": {
     "id": 3152,
     "name": "Cineplex Cinemas East Hills"
@@ -1009,34 +1009,6 @@
         "...SSSSSSSSSSSSSSSSSSSSS...."
       ]
     },
-    "59585": {
-      "totalRows": 10,
-      "totalColumns": 26,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..........................",
-        ".....SSCWWCSSSSSSSSSSWC...",
-        "....SSSSSSSSSSSSSSSSSSSS..",
-        "....SSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "59586": {
       "totalRows": 8,
       "totalColumns": 22,
@@ -1081,28 +1053,6 @@
         "....SSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSS..",
         "SSSSSSSSSSSSSSSSSS."
-      ]
-    },
-    "59588": {
-      "totalRows": 7,
-      "totalColumns": 18,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSS..",
-        "..................",
-        "..SSSSSSSCWWC.....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSS....",
-        "..SSSSSSSSSSSSSS..",
-        ".SSSSSSSSSSSSSSSSS"
       ]
     },
     "59591": {
@@ -1759,33 +1709,6 @@
       "date": "2026-10-05",
       "movies": [
         {
-          "title": "Verity",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38401_320_470.jpg",
-          "runtimeMinutes": 117,
-          "sessions": [
-            {
-              "time": "19:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59585&a=0000000001&l=3152&m=verity&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..........................",
-                ".....AAAAAAAAAAAAAAAAAA...",
-                "....AAAAAAAAAAAAAAAAAAAA..",
-                "....OAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAOOAAAAAAAAAA..",
-                "..AAAAAAAAAOOOAAAAAAAAAA..",
-                "..AAAAAAAAAAOOAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAOOOOAA..",
-                ".AAAAAAOOAAAOOAAAAAAAAAAAA"
-              ],
-              "layoutKey": "59585"
-            }
-          ]
-        },
-        {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
           "runtimeMinutes": 94,
@@ -1802,8 +1725,8 @@
                 ".....AAAAAAAAAAAAAA...",
                 "....AAAAAAAAAAAAAAAA..",
                 "....AAAAAOOOOAAAAAAA..",
-                "..OOAAAAOOAAOOAAAAAA..",
-                "..AAAAAAAAOOAAAAAAAA..",
+                "..OOAAAAOOOOOOAAOOAA..",
+                "..AAAAAAAAOOAOOAAAAA..",
                 "OOAAOOAAOOOOOAAAAAAAOO"
               ],
               "layoutKey": "59586"
@@ -1826,35 +1749,11 @@
                 "...................",
                 ".....AAAAAAAAAAAA..",
                 "....AAAAAOOAAAAAA..",
-                "....AAAAAAAAAAAAA..",
-                "..OOAAAAAAAAAAAAA..",
+                "....AAAOOAAOOAAAA..",
+                "..OOAAAOAAAAAAAAA..",
                 "AAAAAAAOOOOAAAAAAA."
               ],
               "layoutKey": "59587"
-            }
-          ]
-        },
-        {
-          "title": "Spider-Man: Brand New Day",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
-          "runtimeMinutes": 145,
-          "sessions": [
-            {
-              "time": "19:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=59588&a=0000000001&l=3152&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAA..",
-                "..................",
-                "..AAAAAAAAAAA.....",
-                "..AAOAAOOOAAAA....",
-                "..AAAAAAOAAAAA....",
-                "..AAAAAAOOAAAAAA..",
-                ".AAAOOOOOAAAAAAAAA"
-              ],
-              "layoutKey": "59588"
             }
           ]
         }
