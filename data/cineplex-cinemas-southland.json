@@ -1,39 +1,11 @@
 {
-  "updatedAt": "2026-10-06T22:11:44.219Z",
+  "updatedAt": "2026-10-06T22:58:50.772Z",
   "theatre": {
     "id": 4108,
     "name": "Cineplex Cinemas Southland"
   },
   "auditoriums": {
     "268196": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        null
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        "SS..SSSSSSSSSSSSSS..SS",
-        ".....WCWWCSCWWCCW.....",
-        "......................"
-      ]
-    },
-    "268197": {
       "totalRows": 10,
       "totalColumns": 22,
       "rowLabels": [
@@ -1442,74 +1414,6 @@
       ]
     },
     "269121": {
-      "totalRows": 8,
-      "totalColumns": 17,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSS..",
-        "...WWCCSSSSSSSS..",
-        "................."
-      ]
-    },
-    "269237": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WWCCSSSSSSS..",
-        "..............."
-      ]
-    },
-    "269243": {
-      "totalRows": 7,
-      "totalColumns": 15,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        null
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..WWCCSSSSSSS..",
-        "..............."
-      ]
-    },
-    "269244": {
       "totalRows": 8,
       "totalColumns": 17,
       "rowLabels": [
@@ -3162,26 +3066,6 @@
           "runtimeMinutes": 117,
           "sessions": [
             {
-              "time": "16:30",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=268197&a=0000000001&l=4108&m=verity&ss=False",
-              "seats": [
-                "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAAA??AAAAAA..AA",
-                "AA..A?AA?AAAAAAAAA..AA",
-                "AA..AAAAAAAAAAAAAA..OO",
-                "AA..AAAAAAOOAAAAA?..??",
-                "AA..AA?AAAAAAAAAAA..AA",
-                ".....AAAAAAAAAAAA.....",
-                "......................"
-              ],
-              "layoutKey": "268197"
-            },
-            {
               "time": "19:15",
               "formats": [
                 "Recliner"
@@ -3191,9 +3075,9 @@
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
                 "AA..AAAAAAAAAAAAAA..AA",
-                "AA..AAAAOO??AAAAAA..AA",
+                "AA..AAAAOO??OOOOAA..AA",
                 "AA..A?AA?AAAAOOAAA..AA",
-                "OO..OOAAAAOOAAAAOO..AA",
+                "OO..OOAAAAOOOOOAOO..AA",
                 "AA..OOOOOOOOAAOOO?..??",
                 "AA..AA?AOOOOOOAAAA..AA",
                 ".....AAAAAAAAAAAA.....",
@@ -3303,8 +3187,8 @@
                 "..AAAAAAAAAAAAA..",
                 "..??AAAAAAAAAAA..",
                 "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA?..",
+                "..OAAAAAAAAAAAA..",
+                "..AAAAAAAAAAOO?..",
                 "...AAAAOO?AAAAA..",
                 "................."
               ],
@@ -3328,7 +3212,7 @@
                 "..AAAAAAAAAA?..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
+                "..AAAAOOOAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAA.AAAAA..",
                 "..............."
@@ -3374,7 +3258,7 @@
                 "..AAAAAAAAAA??AAAA..",
                 "..AAAAAAOOOOAAAAAA..",
                 "..AAAAAAAAAA??AAAA..",
-                "...AAAAAAOOAAAAAAA..",
+                "...AOOAAAOOAAAAAAA..",
                 "...................."
               ],
               "layoutKey": "269248"
@@ -3405,23 +3289,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61936_320_470.jpg",
           "runtimeMinutes": 110,
           "sessions": [
-            {
-              "time": "16:20",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=269243&a=0000000001&l=4108&m=primetime&ss=False",
-              "seats": [
-                "..?AAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..OAAA?AAAAAA..",
-                "..AAAAA?A??AA..",
-                "..AAAAAAAAAAO..",
-                "..............."
-              ],
-              "layoutKey": "269243"
-            },
             {
               "time": "19:05",
               "formats": [
@@ -3464,24 +3331,6 @@
           "runtimeMinutes": 104,
           "sessions": [
             {
-              "time": "16:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=269244&a=0000000001&l=4108&m=beware-boiuna&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAA..",
-                "..AAAAA???AAAAA..",
-                "..AAAAAAA??AAAA..",
-                "..??AA?A??AAAAA..",
-                "..AAAAA?AAAAAAA..",
-                "...AAAAAAAAAAAA..",
-                "................."
-              ],
-              "layoutKey": "269244"
-            },
-            {
               "time": "19:30",
               "formats": [
                 "Recliner"
@@ -3522,23 +3371,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37997_320_470.jpg",
           "runtimeMinutes": 145,
           "sessions": [
-            {
-              "time": "16:10",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=269237&a=0000000001&l=4108&m=spiderman-brand-new-day&ss=False",
-              "seats": [
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAA?AAAAAA?..",
-                "..AOOAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..............."
-              ],
-              "layoutKey": "269237"
-            },
             {
               "time": "18:35",
               "formats": [
@@ -3592,7 +3424,7 @@
                 "..AAAAA?AAAAA..",
                 "..AAAAAAAAAAA..",
                 "..AAAAAA?AAAA..",
-                "..?AAAAAAAAAA..",
+                "..?OOOOAAAAAA..",
                 "..AAAA?AAAAAA..",
                 "..AAAAOOOAAAA..",
                 "..............."

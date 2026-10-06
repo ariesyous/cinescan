@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T22:11:53.653Z",
+  "updatedAt": "2026-10-06T22:59:00.089Z",
   "theatre": {
     "id": 5103,
     "name": "Cineplex Cinemas Sydney"
@@ -3807,38 +3807,6 @@
         "................"
       ]
     },
-    "148886": {
-      "totalRows": 12,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        "CC",
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ],
-      "seatTypes": [
-        ".......................",
-        "......SSSSSSSSSSSSSSSS.",
-        "......SSSSSSSSSSSSSSSS.",
-        "......SSSSSSSSSSSSSSSS.",
-        ".......................",
-        "....SSSSSSSCW..W.WCS...",
-        "....SSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSS...",
-        "....SSSSSSSSSSSSSSSS...",
-        "...SSSSSSSSSSSSSSSSSSS."
-      ]
-    },
     "148887": {
       "totalRows": 12,
       "totalColumns": 23,
@@ -3897,34 +3865,6 @@
         "..SSSSSSSSSSSSSSSS..",
         "..SSSSSSSSSSSSSSSS..",
         ".SSSSSSSSSSSSSSSSSSS"
-      ]
-    },
-    "148893": {
-      "totalRows": 10,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "...............",
-        ".SSSSS...SSSSSS",
-        "SSSSSS...SSSSSS",
-        "SSSSSS...SSSSSS",
-        "SSSSSS...SSSSSS",
-        "SSSSSS...SSSSSS",
-        "SSSSSS...SSSSSS",
-        "SSSSSS...SSSSSS",
-        "SSSSSS...SSSSSS",
-        "CWCW..........."
       ]
     },
     "148894": {
@@ -11784,28 +11724,6 @@
           "runtimeMinutes": 109,
           "sessions": [
             {
-              "time": "19:20",
-              "formats": [
-                "3D"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=148886&a=0000000001&l=5103&m=forgotten-island&ss=False",
-              "seats": [
-                ".......................",
-                "......AAAAAAAAAAAAAAAA.",
-                "......AAAAAAAAAAAAAAAA.",
-                "......AAAAAAAAAAAAAAAA.",
-                ".......................",
-                "....AAAAAAAAA..A.AAA...",
-                "....AAAAAAAAAOOAAAA?...",
-                "....AAAAAAA?AAAAAAAA...",
-                "....AAAAAAAOOAAAAAAA...",
-                "....OAAAAAAAAAAAAAAA...",
-                "....AAAAA?AAAAAAAAAA...",
-                "...AAAAAAOOOOAAAAAAAAA."
-              ],
-              "layoutKey": "148886"
-            },
-            {
               "time": "21:55",
               "formats": [
                 "3D"
@@ -11850,7 +11768,7 @@
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
-                ".AAAAAAAAAAAAAA.",
+                ".AAAAAAOOAAAAAA.",
                 ".AAAAAAAAAAAAAA.",
                 ".AAAAAAAAA...AA.",
                 "................"
@@ -11892,26 +11810,6 @@
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61889_320_470.jpg",
           "runtimeMinutes": 104,
           "sessions": [
-            {
-              "time": "19:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=148893&a=0000000001&l=5103&m=beware-boiuna&ss=False",
-              "seats": [
-                "...............",
-                ".AAAAA...AAAAAA",
-                "AAAAAA...AAAAAA",
-                "AAAAA?...AAAAAA",
-                "AAAAAA...AAAAAA",
-                "AAAAA?...AAAAAA",
-                "AAAAA?...AAAAAA",
-                "AAAAAA...AAAAAA",
-                "AAAAAA...AAAAAA",
-                "AAAA..........."
-              ],
-              "layoutKey": "148893"
-            },
             {
               "time": "22:00",
               "formats": [
@@ -11980,11 +11878,11 @@
                 ".AAAAAAAA.AAAAAA",
                 "AAAAAAAAA.AAAAAA",
                 "AAAAAAAAA.AAAAAA",
-                "..AAAAAAA.AAAAAA",
-                "..AAAAAAA.AAAAAA",
-                "..AAOOAAA.AAAAAA",
-                "..AAAAAOO.OOOAAA",
-                "..AAOOOOO.OOAAAA",
+                "..AAOOOOO.OOOOAA",
+                "..AAAOOOO.OOOOAA",
+                "..AAOOAAA.OOOOOO",
+                "..AOOOAOO.OOOOOO",
+                "..AAOOOOO.OOAOOO",
                 "..AOOOOOO.OOOOOO",
                 "...A.AAA..OOOOOO"
               ],
@@ -12104,7 +12002,7 @@
                 ".AAAAAAAAAAAAAAAAAAA.....",
                 ".AAAAAAAAAAAAAAAAAAA...??",
                 ".AAAAAAAAAAAAAAAAAAA...AA",
-                "AAAAAAAAAAAAAAAAAAAAAAAAA"
+                "OOOOAAAAAAAAAAAAAAAAAAAAA"
               ],
               "layoutKey": "148916"
             }
@@ -12223,7 +12121,7 @@
                 "..AAAAAAAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAAAAA...",
                 "...AAAAAAAAOOAAAAAAAA...",
-                "..AAAAAAAAAAAAAAAAAAAA..",
+                "..AAAAOOOAAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAAA?"
               ],
               "layoutKey": "148897"

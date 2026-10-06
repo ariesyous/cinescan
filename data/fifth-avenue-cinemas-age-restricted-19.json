@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T22:12:21.740Z",
+  "updatedAt": "2026-10-06T22:59:29.476Z",
   "theatre": {
     "id": 1149,
     "name": "Fifth Avenue Cinemas (age restricted 19+)"
@@ -383,30 +383,6 @@
         "SSSSSSSSSSSSSSSS",
         "SSSSC..SSSS.....",
         "SSSSC..W.W......"
-      ]
-    },
-    "117361": {
-      "totalRows": 8,
-      "totalColumns": 14,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS..SSSSS",
-        "SSSSSSS...W.WC",
-        "SSSSSSS.......",
-        "SSSSSSS......."
       ]
     },
     "117362": {
@@ -1905,12 +1881,12 @@
                 "AAAA...AAAAAA....AAAA",
                 "AAAA...AAAAAAA...AAAA",
                 "AAAA..AAAAOAAA...AAAA",
-                "AAAA..AAAAAAAAA..AAAA",
-                "AAAA..AAAAAAAAA..AAAA",
-                "AAAA..AAAOOAAAA..AAAA",
-                "AAAA..AAAAAAAAA..AAAA",
-                "AAAA..AAAAAAAAA..AAAA",
-                "AAAO..OAAAOOAAA..AAAA",
+                "AAAA..AAOOAAAAA..AAAA",
+                "AAAA..OAOOAOAAA..AAAA",
+                "AAAA..AAAOOAAAO..AAAA",
+                "AAAA..OOAAAOOAA..OAAA",
+                "AAAA..AAAOAOOAA..AAAA",
+                "AAAO..OAAAOOAOO..AAAA",
                 "????.............AAAA",
                 "........AAAAA........"
               ],
@@ -1926,10 +1902,10 @@
                 "AAAA...AAAAAA....AAAA",
                 "AAAA...AAAAAAA...AAAA",
                 "AAAA..AAAAAAAA...AAAA",
-                "AAAA..AAAAOOOAA..AAAA",
+                "AAAA..OOOOOOOOO..AAAA",
                 "AAAA..AOOOOOOOO..AAAA",
                 "OAAO..OOOOOOOOO..OOOA",
-                "AAAO..OOOOOOOOO..AAAO",
+                "AOOO..OOOOOOOOO..AOOO",
                 "AAOO..OOOOOOOOO..OOAA",
                 "AAOO..OOOOOOOOO..OOAA",
                 "????.............OOOA",
@@ -1976,9 +1952,9 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..OOAAAAAAA..AAA",
-                "AAA..A?AAAAAAA..AAA",
+                "AAA..A?OOAAAAA..AAA",
                 "AAA..AAAAOAAOO..AAA",
-                "AAA..AAAOOAAAA..AAA",
+                "AAA..OOAOOAOAA..AAA",
                 "AAA..AAAAOOAAO..AAA",
                 "AAA..A.A.AAAA......"
               ],
@@ -1991,7 +1967,7 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=117356&a=0000000001&l=1149&m=verity&ss=False",
               "seats": [
-                "AAA..AAAAAAAAA..OOO",
+                "AAA..AAAAOOAAA..OOO",
                 "OOO..OOOOOOOOO..OOO",
                 "AOO..AOOOOOOOO..OOA",
                 "AOO..OOOOOOOOO..OOO",
@@ -2016,7 +1992,7 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..A?AAOOAAA..AAA",
                 "AAA..AAAAOOAAA..AAA",
-                "AAA..AAAAOOAAA..AAA",
+                "AAA..OOAAOOAAA..AAA",
                 "AAA..OOOOOOOAA..AAA",
                 "AAA..A.A.AAOA......"
               ],
@@ -2030,24 +2006,6 @@
           "runtimeMinutes": 101,
           "sessions": [
             {
-              "time": "15:15",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=117361&a=0000000001&l=1149&m=heart-of-the-beast&ss=False",
-              "seats": [
-                "AAAAAAA..AAAAA",
-                "AAAAAAA..AAAAA",
-                "AAAAAAA..AAAAA",
-                "AAAAAAA..AAAAA",
-                "AAAAAAA..AAOOA",
-                "AAAAOOA...A.AA",
-                "AAAOAAO.......",
-                "AAAAAAA......."
-              ],
-              "layoutKey": "117361"
-            },
-            {
               "time": "18:30",
               "formats": [
                 "Regular"
@@ -2059,9 +2017,9 @@
                 "AAAAAAA..AAAAA",
                 "AAAOOOO..OOAAA",
                 "AAOOOOO..OOOOA",
-                "AAAOOOO...A.AA",
+                "OAAOOOO...A.AA",
                 "AAOOOOO.......",
-                "AAAOOOO......."
+                "AOOOOOO......."
               ],
               "layoutKey": "117362"
             },
@@ -2100,9 +2058,9 @@
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAAAAAAAA",
                 "AAAAAAAAAOAAAAAA",
-                "AAOOOAAOOAAAOOAA",
+                "AAAOOAAOOAAAOOAA",
                 "OOAAAAAAOAAOOAAA",
-                "AAOOA..OOOA.....",
+                "AAOOA..OOOO.....",
                 "AAOOA..A.A......"
               ],
               "layoutKey": "117358"
@@ -2114,7 +2072,7 @@
               ],
               "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=117359&a=0000000001&l=1149&m=primetime&ss=False",
               "seats": [
-                "AAAOOAAOOOAAAAAA",
+                "AAAOOOOOOOAAAAAA",
                 "OOOOOOOOOOOOOOOA",
                 "AOOOOOOOOOOOOAOO",
                 "OOOOOOOOOOOOOOOO",
@@ -2627,7 +2585,7 @@
                 "AAA..AAAAAAAAA..AAA",
                 "AAA..AAOOOOOOO..AAA",
                 "AAA..A?OOOOAAA..AAA",
-                "AAA..AOOOOAOOO..AAA",
+                "AAA..AOOOOAOOO..OOA",
                 "AAA..OOAAOOOAA..AAA",
                 "AAA..AOOOOAAAA..AAA",
                 "OOO..A.A.AAOO......"
