@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:05:39.635Z",
+  "updatedAt": "2026-10-06T02:36:36.742Z",
   "theatre": {
     "id": 1410,
     "name": "Cineplex Cinemas Orchard Plaza"
@@ -33,24 +33,6 @@
         "SCW..................."
       ]
     },
-    "125655": {
-      "totalRows": 5,
-      "totalColumns": 16,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "seatTypes": [
-        "SS..SSSSSSSS..SS",
-        "CW..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS..SSSSSSSS..SS",
-        "SS...WCSSSCW..SS"
-      ]
-    },
     "125656": {
       "totalRows": 7,
       "totalColumns": 13,
@@ -71,34 +53,6 @@
         "SSSSSSSSSSSSS",
         "SSSSSSSSSSS..",
         "SSSCW.WCSSS.."
-      ]
-    },
-    "125657": {
-      "totalRows": 10,
-      "totalColumns": 22,
-      "rowLabels": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J"
-      ],
-      "seatTypes": [
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SCW..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS..SSSSSSSSSSSS..SSS",
-        "SSS...SSSSCWWCSSS..SSS",
-        "SCW..................."
       ]
     },
     "125659": {
@@ -517,33 +471,6 @@
       "date": "2026-10-05",
       "movies": [
         {
-          "title": "Verity",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38401_320_470.jpg",
-          "runtimeMinutes": 117,
-          "sessions": [
-            {
-              "time": "19:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125657&a=0000000001&l=1410&m=verity&ss=False",
-              "seats": [
-                "A??..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAOOOAAAAA..AAA",
-                "AAA..AAAAOOOOOOAA..AAA",
-                "AAA..OOOO?OOOOOOO..AOA",
-                "OOO..OOOOOOOOOOOO..OOA",
-                "OOO..OOOOOO?OOOOO..OOA",
-                "AOO..AAOOOOOOAOOO..OOA",
-                "AAA...OOOAAAAAA?A..AAA",
-                "???..................."
-              ],
-              "layoutKey": "125657"
-            }
-          ]
-        },
-        {
           "title": "Resident Evil",
           "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
           "runtimeMinutes": 94,
@@ -557,35 +484,13 @@
               "seats": [
                 "AAA??AAAAAAAA",
                 "AA?AAAAAA?A??",
-                "?AAAAAAAAAAAA",
+                "?AAAOOOAAOOAA",
                 "OOAOOAOOOAAOO",
-                "AOOAAAAAAOOAA",
+                "AOOOOOOOOOOOO",
                 "AOOAAOOOAOO..",
                 "OOAAA.AAA?A.."
               ],
               "layoutKey": "125656"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "19:15",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=125655&a=0000000001&l=1410&m=practical-magic-2&ss=False",
-              "seats": [
-                "AA..AAAAOOAA..AA",
-                "AA..AAA?OOAA..AA",
-                "AA..OOOOOOOO..?A",
-                "?A..OOOOOOAA..OO",
-                "AA...AAAOOAA..AA"
-              ],
-              "layoutKey": "125655"
             }
           ]
         }
@@ -628,13 +533,13 @@
               "seats": [
                 "A??..AAAAAAAAAAAA..AAA",
                 "AAA..AAAAAAAAAAAA..AAA",
-                "AAA..AAAAOOOOOOOO..AAA",
+                "AAA..AOOOOOOOOOOO..AAA",
                 "AAA..AAOOOOOOOOAA..AAA",
                 "AAA..OOOA?AOOOOOO..OOA",
                 "OOO..OOOOOOOOOOOO..OOA",
-                "AOO..OOOOOO?AOOOO..OOO",
+                "AOO..OOOOOO?OOOOO..OOO",
                 "AOO..OOOOAOOOOOOO..OOA",
-                "OOO...AOOAAAAAA?O..OOO",
+                "OOO...AOOAAAAAA?A..OOO",
                 "???..................."
               ],
               "layoutKey": "125672"
@@ -674,7 +579,7 @@
                 "AA?AAAAAA?A??",
                 "?AAAAAAAAAAAA",
                 "AAAAAAOOOAAAA",
-                "OOOAAOOOOOOAA",
+                "OOOOOOOOOOOAA",
                 "AAAAOOOOOOO..",
                 "AAAAA.AAA?A.."
               ],
