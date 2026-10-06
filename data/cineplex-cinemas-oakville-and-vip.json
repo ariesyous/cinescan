@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T23:37:19.702Z",
+  "updatedAt": "2026-10-06T00:43:36.045Z",
   "theatre": {
     "id": 7273,
     "name": "Cineplex Cinemas Oakville and VIP"
@@ -2441,34 +2441,6 @@
         ".........SSSSSS"
       ]
     },
-    "253693": {
-      "totalRows": 10,
-      "totalColumns": 15,
-      "rowLabels": [
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H"
-      ],
-      "seatTypes": [
-        "....SSSSSSSSSS.",
-        "...............",
-        "....SSSSCW.WCS.",
-        "....SSSSSSSSSS.",
-        "....SSSSSSSSSS.",
-        "....SSSSSSSSSS.",
-        "....SSSSSSSSSS.",
-        "SS..SSSSSSSSSS.",
-        "SS..SSSSSSSSSS.",
-        "SSSSSSSSSSSSSSS"
-      ]
-    },
     "253694": {
       "totalRows": 10,
       "totalColumns": 15,
@@ -2723,38 +2695,6 @@
         "SS..SSSSSSSSSS.",
         "SS..SSSSSSSSSS.",
         "SSSSSSSSSSSSSSS"
-      ]
-    },
-    "253787": {
-      "totalRows": 12,
-      "totalColumns": 26,
-      "rowLabels": [
-        "BB",
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
-      ],
-      "seatTypes": [
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSSSSS..",
-        "..........................",
-        ".SCW.W.CSSSSSSSSCCW.W.....",
-        ".SSSSSSSSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSSSSSSSS.....",
-        ".SSSSSSSSSSSSSSSSSSSS...SS",
-        ".SSSSSSSSSSSSSSSSSSSS...SS",
-        ".SSSSSSSSSSSSSSSSSSSS...SS",
-        "SSSSSSSSSSSSSSSSSSSSSSSSSS"
       ]
     },
     "253788": {
@@ -3836,60 +3776,6 @@
   },
   "days": [
     {
-      "date": "2026-10-05",
-      "movies": [
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "19:30",
-              "formats": [
-                "VIP 19+"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=253693&a=0000000001&l=7273&m=resident-evil-2026&ss=False",
-              "seats": [
-                "....??????????.",
-                "...............",
-                "....AAAAAA.AAA.",
-                "....AAAAAAAAAA.",
-                "....AAAAAAAAAA.",
-                "....AAOOAAAAAA.",
-                "....AAOOOOAAAA.",
-                "AA..AAAAAAAAAO.",
-                "AA..AAOOAAAAAA.",
-                "AAAAAAAAAAOAAAA"
-              ],
-              "layoutKey": "253693"
-            },
-            {
-              "time": "19:30",
-              "formats": [
-                "Regular"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=253787&a=0000000001&l=7273&m=resident-evil-2026&ss=False",
-              "seats": [
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAAAAA..",
-                "..........................",
-                ".AAA.A.AAAAAAAAAAAA.A.....",
-                ".AAAAAAAAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAAAAAAAAAAA.....",
-                ".AAAAAAAAAAA?AAAAAAAA.....",
-                ".AAAAAAAAAAAAAAOOAAAA...AA",
-                ".AAAAAAAAOOAAAAAAAAAA...AA",
-                ".AAAAAAAAAAAAAAAAAAOA...AA",
-                "AAAAAAAAAAAAAOOAAAAAAAAAAA"
-              ],
-              "layoutKey": "253787"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-10-06",
       "movies": [
         {
@@ -3937,7 +3823,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAA....",
+                ".AAAAAAAAAAAOOOAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAA?AAOOAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA..AA",
@@ -3963,7 +3849,7 @@
                 ".AAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA....",
-                ".AAAAAAAAAAAAAAAAAAAAAAAA....",
+                ".AAAAAAAAAAAOOOAAAAAAAAAA....",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA..AA",
                 ".AAAAAAAA?AAOOAAAAAAAAAAA..AA",
                 ".AAAAAAAAAAAAAAAAAAAAAAAA..AA",
@@ -4072,10 +3958,10 @@
                 "....AAAAAAOOOAAAOOAAAAAAAAAAAA.",
                 "....AAAAAAAAAAOOOOAAAAAAAAAAAA.",
                 "....AAAAAAAAAAOOOOOOAAAAAAAAAA.",
-                "OO..AAAOOOAAAAAOOOOOOOOOOOOOAA.",
-                "AA..?AAAAAAAAOOAAOOOAAAAAAAAAA.",
+                "OO..AAAOOOAOOOAOOOOOOOOOOOOOAA.",
+                "AA..?AAAAAAAAOOOOOOOAAAAAAAAAA.",
                 "OO..OAAAAAOOOOOOOOOOAAAAAAAAOO.",
-                "AA..OOOOAAAAAAAOOAAOOAAAAAAAAA.",
+                "OO..OOOOAAAAAAAOOAAOOAAAAAAAAA.",
                 "OO..OOAAAOOAAOOOOOOAAOOOAAAAOO."
               ],
               "layoutKey": "252862"
@@ -4320,8 +4206,8 @@
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
                 "....AAAAAAAAAAAAAAAAAAAA..",
-                "OO..AOOAAAAAOOAAAAAAAAAA..",
-                "AA..AAAAAAAAAAAAAAAAAOOO..",
+                "OO..AAAAAAAAOOAAAAAAAAAA..",
+                "AA..AAAAAAAAOOAAAAAAAOOO..",
                 "AA..AAAAAA?AAAAAAAAAAAAA..",
                 "AAAAAAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -4445,7 +4331,7 @@
                 "..AAAAAAAAAAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA....",
                 "..AOOAAAAAAAAAAAAA....",
-                "..AAAAAAAAAAAAAAAA....",
+                "..AAAAAAAOOAAAAAAA....",
                 "..AAAAAAAAAAAAAAAA..OO",
                 "AAAAAAAAAAAAAAAAAAAAAA"
               ],
@@ -5214,7 +5100,7 @@
                 ".AAAAAAAAAA....",
                 ".AAAAAAAAAA..AA",
                 ".OOAAAAAAAA..AA",
-                "AAAAAAAAAAA..AA",
+                "AAAAAAAOOAA..AA",
                 ".........AAAAAA"
               ],
               "layoutKey": "253290"
@@ -6731,7 +6617,7 @@
                 ".AAAAAAAAAA....",
                 ".AAAAAAAAAA....",
                 ".AAAAAAAAAA..AA",
-                ".AAAAAAOAOO..AA",
+                ".AAAAAAOOOO..AA",
                 "AAAAAAAAAAA..AA",
                 ".........AAAAAA"
               ],

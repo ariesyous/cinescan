@@ -1,64 +1,10 @@
 {
-  "updatedAt": "2026-10-05T23:37:52.860Z",
+  "updatedAt": "2026-10-06T00:44:05.888Z",
   "theatre": {
     "id": 7268,
     "name": "Galaxy Cinemas Waterloo"
   },
   "auditoriums": {
-    "276812": {
-      "totalRows": 11,
-      "totalColumns": 23,
-      "rowLabels": [
-        null,
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        null
-      ],
-      "seatTypes": [
-        ".......................",
-        ".......................",
-        "..SCW.WCSCWSSCW.WCS....",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..SSSSSSSSSSSSSSSSSSS..",
-        "..DDD.DDDDD.DDDDDD.DD.."
-      ]
-    },
-    "276813": {
-      "totalRows": 9,
-      "totalColumns": 20,
-      "rowLabels": [
-        null,
-        "AA",
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F"
-      ],
-      "seatTypes": [
-        "....................",
-        "..SSSSSSSSSSSSSSSS..",
-        "....................",
-        "...CW..CWSSSSWC.WC..",
-        "...SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSS..",
-        "...SSSSSSSSSSSSSSS..",
-        "SSSSSSSSSSSSSSSSSSSS"
-      ]
-    },
     "276837": {
       "totalRows": 8,
       "totalColumns": 18,
@@ -702,91 +648,6 @@
   },
   "days": [
     {
-      "date": "2026-10-05",
-      "movies": [
-        {
-          "title": "Verity",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38401_320_470.jpg",
-          "runtimeMinutes": 117,
-          "sessions": [
-            {
-              "time": "19:30",
-              "formats": [
-                "UltraAVX",
-                "D-BOX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276812&a=0000000004&l=7268&m=verity&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAOOAAOOAAAAAAAAA..",
-                "..AAAOOAAOOOOOOOOOAAA..",
-                "..OOAAOOAAOOOAAOOOOOO..",
-                "..OOOOOOOOOOOOOOOOAAA..",
-                "..AAA.A?OOO.OAAAAA.OO.."
-              ],
-              "layoutKey": "276812"
-            },
-            {
-              "time": "19:30",
-              "formats": [
-                "UltraAVX",
-                "Recliner",
-                "Dolby Atmos",
-                "Laser Projection"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276812&a=0000000001&l=7268&m=verity&ss=False",
-              "seats": [
-                ".......................",
-                ".......................",
-                "..AAA.AAAAAAAAA.AAA....",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAOOAAOOAAAAAAAAA..",
-                "..AAAOOAAOOOOOOOOOAAA..",
-                "..OOAAOOAAOOOAAOOOOOO..",
-                "..OOOOOOOOOOOOOOOOAAA..",
-                "..AAA.A?OOO.OAAAAA.OO.."
-              ],
-              "layoutKey": "276812"
-            }
-          ]
-        },
-        {
-          "title": "Resident Evil",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/37885_320_470.jpg",
-          "runtimeMinutes": 94,
-          "sessions": [
-            {
-              "time": "19:50",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=276813&a=0000000001&l=7268&m=resident-evil-2026&ss=False",
-              "seats": [
-                "....................",
-                "..AAAAAAAAAAAAAAAA..",
-                "....................",
-                "...AA..AAAAAAAA.AA..",
-                "...AAAAAOOOOAAAAAA..",
-                "...AAAAAAOAAOOOOAA..",
-                "...AAOOAOOOOOOOAAA..",
-                "...AAAAOOOOOOAAAAA..",
-                "AAOOAAAAOOOOAAAOOOAA"
-              ],
-              "layoutKey": "276813"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-10-06",
       "movies": [
         {
@@ -909,7 +770,7 @@
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAA...",
                 "..AAAAAAAAAAAAA...",
-                "..OOAAAAAAAAAAA...",
+                "..OOAAAAAAOOAAA...",
                 "AAAAAAAAOAAAAAAA.."
               ],
               "layoutKey": "276854"
@@ -972,7 +833,7 @@
                 "...AA..AAAAAAAA.AA..",
                 "...AAAAAAAAAAAAAAA..",
                 "...AAAAAAAAAAAAAAA..",
-                "...AAAAAAOOAAOOAAA..",
+                "...AAAAOOOOAAOOAAA..",
                 "...AAAAAAOOOOOOOAA..",
                 "AAOOOAAOOOOOOOOOAAAA"
               ],
@@ -1046,7 +907,7 @@
                 "...OOOOOOOOOOOOOOO..",
                 "...OOOOOOOOOOOOOOO..",
                 "...OOOOOOOOOOOOOOO..",
-                "AOOOOOOOOOOOOOOOOOOO"
+                "OOOOOOOOOOOOOOOOOOOO"
               ],
               "layoutKey": "276855"
             },
@@ -1061,7 +922,7 @@
                 "..................",
                 "..AAAAOOOO.AAA....",
                 "..OOOOOOOOOOOA....",
-                "..OOOOOOOOOOOO....",
+                "..OOOOOOOOOAOO....",
                 "..OOOOOOOOOOOO....",
                 "OOOOOOOOOOOOOOOA.."
               ],
@@ -1223,8 +1084,8 @@
                 "..................",
                 "..AAAAAAAA.AAA....",
                 "..AAAAAAAAAAAA....",
-                "..AOOOOOOOOAAA....",
-                "..AOOOAOOOOAOO....",
+                "..AAAOOOOOOAAA....",
+                "..AOOOOOOOOAOO....",
                 "OOOOOOOOOOOOOOOO.."
               ],
               "layoutKey": "276849"
