@@ -31,8 +31,10 @@ Live at: https://ariesyous.github.io/cinescan/
   blocking the others.
 - `.github/workflows/scrape.yml` runs the scraper via GitHub Actions and
   publishes per-theatre files to a `data` branch with one parentless commit
-  that is replaced when the snapshot changes. Only `data/theatres.json`
-  stays tracked on `master`. The near window runs 12
+  that is replaced when the snapshot changes. `data/theatres.json`
+  remains the source manifest on `master`. The existing tracked snapshots
+  are retained for the cutover and stop receiving commits after migration.
+  The near window runs 12
   times a day (roughly 8am, 1-10pm, and 1am ET, "quick" mode); the deep
   window only runs once a week (Thursday 1pm ET, "deep" mode, riding along
   with that slot's near-window run), since IMAX advance-sale dates don't
@@ -82,7 +84,7 @@ manifest or source code. Do not merge it into `master` or base work on it.
 
 The first migrated scrape initializes the `data` branch automatically.
 Both workflows pass the immutable last known-good source commit
-`f846d5bfcdf284f4f7ee8330ae347e8e372c3ac9` to `restore`. That snapshot is
+`2a24e4c840198a78cc4ee7c741ce947c7a775c8c` to `restore`. That snapshot is
 used only when `git ls-remote` proves the branch is absent; network or
 authentication errors stop the run. The first deployment can use those
 same known-good files before the first scrape completes. Publication uses
@@ -93,6 +95,19 @@ Local `restore` without a bootstrap SHA requires the branch to exist.
 A manual bootstrap from known-good local files is also possible with
 `node scripts/data-snapshot.mjs publish ""`; never use an empty lease to
 replace an existing branch.
+
+The source branch retains its existing per-theatre files during the cutover.
+This lets scheduled scrape commits merge cleanly while this PR is open,
+instead of repeatedly conflicting with snapshot deletions. After the
+first migrated scrape and Pages deployment succeed, remove those frozen
+copies from the source index (keeping local copies if needed):
+
+```sh
+git rm --cached -- 'data/*.json' ':(exclude)data/theatres.json'
+```
+
+The new workflows already stop writing these files to source history;
+that follow-up removal only trims the current source checkout.
 
 This stops accumulating reachable scrape history. It does not remove old
 snapshots already in source history or in the research branches; shrinking

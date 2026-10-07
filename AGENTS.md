@@ -19,7 +19,8 @@ Three independent pieces, connected only through the JSON files in `data/`:
 2. **`scripts/scrape.mjs`** (run on a schedule by GitHub Actions) reads
    `data/theatres.json`, hits Cineplex's API, and writes one
    `data/<slug>.json` per theatre. Per-theatre files live on the replaceable
-   `data` branch; only the manifest is tracked on `master`.
+   `data` branch. Existing source snapshots are frozen after the cutover
+   and can then be untracked; the manifest remains on `master`.
 3. **`index.html`/`app.js`/`style.css`** (served as-is by GitHub Pages) reads
    `data/theatres.json` and the selected theatre's data file client-side.
    Nothing server-side ever touches the frontend files.
@@ -31,7 +32,13 @@ check `app.js` for what it expects to read, and vice versa.
 ## Snapshot storage
 
 `data/theatres.json` stays tracked on `master`. Per-theatre JSON files are
-ignored and explicitly removed from the source tree. The `data` branch
+ignored for new additions. Existing tracked snapshots are retained during
+the cutover so automated master updates cannot repeatedly conflict with
+their deletion while the PR is open. Once migrated, they are frozen:
+workflows never commit showtime data to master. After the first migrated
+scrape and Pages deployment pass, remove the frozen source copies with
+`git rm --cached -- 'data/*.json' ':(exclude)data/theatres.json'`.
+The `data` branch
 holds one parentless commit, replaced by each changed scrape snapshot.
 Never merge that branch or base source work on it.
 
@@ -46,7 +53,7 @@ Never merge that branch or base source work on it.
   commit is included. Missing files for newly added theatres do not block
   other successful theatres; publishing zero theatre files is refused.
 - Both workflows pass pre-migration source SHA
-  `f846d5bfcdf284f4f7ee8330ae347e8e372c3ac9` to restore. The first scrape
+  `2a24e4c840198a78cc4ee7c741ce947c7a775c8c` to restore. The first scrape
   seeds the branch automatically from that known-good snapshot; Pages can
   use it before that scrape completes. Restore returns an empty lease only
   when the remote branch is absent. Publication refuses to overwrite a

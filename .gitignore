@@ -3,6 +3,6 @@ Thumbs.db
 node_modules/
 .env
 
-# Only the theatre manifest belongs in source history.
+# Ignore generated snapshots; existing tracked copies stay through cutover.
 data/*.json
 !data/theatres.json
