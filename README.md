@@ -16,23 +16,23 @@ Live at: https://ariesyous.github.io/cinescan/
   theatre opens/closes.
 - `scripts/scrape.mjs` queries Cineplex's (undocumented) theatrical API for
   every theatre in `data/theatres.json` and keeps every movie/format. To
-  keep the daily request volume sane across 152 theatres, it probes in two
+  keep the daily request volume sane across 152 theatres, it probes in three
   phases:
   - **Near window** (~14 days, every theatre): matches Cineplex's normal
     contiguous published window, all formats kept.
-  - **Deep window** (out to 6 months ahead): only for theatres that turned
-    out to have an IMAX screen in the near window, and only keeps IMAX
-    sessions from that far out — this is what catches tentpole IMAX advance
-    ticket sales without probing everywhere for everything. Every other
-    format (ScreenX, 4DX, UltraAVX, VIP, etc.) is only probed within the
-    near window.
+  - **Extended window** (out to 30 days): every theatre, keeping Regular,
+    Laser Projection, IMAX and UltraAVX advance sales.
+  - **Deep window** (out to 6 months): theatres with IMAX or UltraAVX,
+    keeping those premium formats. Other formats stay within the near window.
 
   Each theatre's results are written to its own file under `data/` (e.g.
   `data/cineplex-cinemas-vaughan.json`); a theatre that fails entirely for a
   run is skipped, leaving its last known-good file untouched, without
   blocking the others.
 - `.github/workflows/scrape.yml` runs the scraper via GitHub Actions and
-  commits the `data/*.json` files when they change. The near window runs 12
+  publishes per-theatre files to a `data` branch with one parentless commit
+  that is replaced when the snapshot changes. Only `data/theatres.json`
+  stays tracked on `master`. The near window runs 12
   times a day (roughly 8am, 1-10pm, and 1am ET, "quick" mode); the deep
   window only runs once a week (Thursday 1pm ET, "deep" mode, riding along
   with that slot's near-window run), since IMAX advance-sale dates don't
@@ -54,13 +54,57 @@ Live at: https://ariesyous.github.io/cinescan/
   above the calendar lets visitors toggle formats on/off. Past days and
   past showtimes drop off automatically since the scraper's window always
   starts at "today."
-- GitHub Pages deploys straight from the `master` branch root, so a push
-  (including the scraper's own automated commits) redeploys the live site.
+- GitHub Pages deploys the `master` source plus the latest `data` snapshot
+  after source changes and successful scrapes. Both workflows restore the
+  previous snapshot with `scripts/data-snapshot.mjs`; a restore failure
+  stops the run rather than publishing incomplete data.
 
 Since the Cineplex API is unofficial and reverse-engineered, it may change
 or break without notice — the scraper is written to skip bad/missing days
 rather than overwrite good data with empty results, and to leave a
 theatre's data file untouched entirely if every request for it fails.
+
+## Snapshot storage
+
+From a fresh checkout, restore the live data before serving the site or
+running a scrape:
+
+```sh
+node scripts/data-snapshot.mjs restore
+```
+
+The scrape workflow restores the previous snapshot before fetching anything, so
+quick runs retain advance-sale dates and a failed theatre retains its last
+good file. Publication uses a separate Git index and an explicit
+`--force-with-lease`: a stale run cannot overwrite a newer snapshot. The
+`data` branch contains only current manifest theatre files, never the
+manifest or source code. Do not merge it into `master` or base work on it.
+
+The first migrated scrape initializes the `data` branch automatically.
+Both workflows pass the immutable last known-good source commit
+`f846d5bfcdf284f4f7ee8330ae347e8e372c3ac9` to `restore`. That snapshot is
+used only when `git ls-remote` proves the branch is absent; network or
+authentication errors stop the run. The first deployment can use those
+same known-good files before the first scrape completes. Publication uses
+an empty lease for initialization, refusing to overwrite a concurrently
+created branch. Once `data` exists, restore always uses that branch.
+
+Local `restore` without a bootstrap SHA requires the branch to exist.
+A manual bootstrap from known-good local files is also possible with
+`node scripts/data-snapshot.mjs publish ""`; never use an empty lease to
+replace an existing branch.
+
+This stops accumulating reachable scrape history. It does not remove old
+snapshots already in source history or in the research branches; shrinking
+that history is a separate migration. Superseded data commits become
+unreachable, but GitHub's physical garbage-collection timing is outside
+this workflow's control.
+
+Run the storage regression tests without contacting Cineplex:
+
+```sh
+node --test tests/data-snapshot.test.mjs
+```
 
 ## License
 

@@ -27,6 +27,17 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: master
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+
+      # Deployment and scraping consume the same validated snapshot.
+      - name: Add showtime data
+        # Allows the first deployment before the first migrated scrape.
+        run: node scripts/data-snapshot.mjs restore f846d5bfcdf284f4f7ee8330ae347e8e372c3ac9
 
       - name: Inject Clarity snippet
         env:

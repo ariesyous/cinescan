@@ -2,3 +2,7 @@
 Thumbs.db
 node_modules/
 .env
+
+# Only the theatre manifest belongs in source history.
+data/*.json
+!data/theatres.json

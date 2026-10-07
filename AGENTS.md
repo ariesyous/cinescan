@@ -18,7 +18,8 @@ Three independent pieces, connected only through the JSON files in `data/`:
    `data/theatres.json` — the manifest every other piece reads.
 2. **`scripts/scrape.mjs`** (run on a schedule by GitHub Actions) reads
    `data/theatres.json`, hits Cineplex's API, and writes one
-   `data/<slug>.json` per theatre.
+   `data/<slug>.json` per theatre. Per-theatre files live on the replaceable
+   `data` branch; only the manifest is tracked on `master`.
 3. **`index.html`/`app.js`/`style.css`** (served as-is by GitHub Pages) reads
    `data/theatres.json` and the selected theatre's data file client-side.
    Nothing server-side ever touches the frontend files.
@@ -26,6 +27,40 @@ Three independent pieces, connected only through the JSON files in `data/`:
 There's no shared code between the scraper and the frontend — the JSON file
 shape *is* the contract between them. If you change what the scraper writes,
 check `app.js` for what it expects to read, and vice versa.
+
+## Snapshot storage
+
+`data/theatres.json` stays tracked on `master`. Per-theatre JSON files are
+ignored and explicitly removed from the source tree. The `data` branch
+holds one parentless commit, replaced by each changed scrape snapshot.
+Never merge that branch or base source work on it.
+
+- `scripts/data-snapshot.mjs restore` fetches and validates the snapshot,
+  then restores per-theatre files without changing the manifest or index.
+  Fetch/validation failures stop scraping and deployment. The optional
+  immutable bootstrap SHA is used only if remote ref lookup returns exit
+  code 2 (branch absent), never on network/authentication failure.
+- `scripts/data-snapshot.mjs publish <previous-sha>` validates current
+  manifest theatre files and publishes from a separate index using an
+  explicit force-with-lease. No source, manifest, obsolete theatre or parent
+  commit is included. Missing files for newly added theatres do not block
+  other successful theatres; publishing zero theatre files is refused.
+- Both workflows pass pre-migration source SHA
+  `f846d5bfcdf284f4f7ee8330ae347e8e372c3ac9` to restore. The first scrape
+  seeds the branch automatically from that known-good snapshot; Pages can
+  use it before that scrape completes. Restore returns an empty lease only
+  when the remote branch is absent. Publication refuses to overwrite a
+  concurrently created branch. Once initialized, the bootstrap is ignored.
+- Local restore without a bootstrap SHA requires the data branch to exist.
+  A manual initialization with known-good local files can use
+  `node scripts/data-snapshot.mjs publish ""`. Never replace an existing
+  branch with an empty lease.
+- Restore before a local scrape or preview. Quick-mode carry-forward and
+  failed-theatre preservation both require the prior files on disk.
+- Replacement stops growing reachable scrape history; it does not remove
+  historical source snapshots. GitHub controls physical garbage collection
+  of superseded snapshots. History cleanup, including research branches,
+  is a separate task.
 
 ## Data model
 
@@ -140,8 +175,11 @@ A "Determine scrape mode" step maps `github.event.schedule` to
 either other cron string → `quick`); for manual `workflow_dispatch` runs it
 uses the `mode` input instead (defaults to `quick`).
 
-After the scraper runs, the workflow commits any changed `data/*.json`
-files as `github-actions[bot]` and pushes. `concurrency: group: scrape` with
+Before scraping, the workflow restores the previous `data` snapshot. After
+a successful scrape, it replaces that branch with one parentless
+`github-actions[bot]` commit, unless the tree is unchanged. Manual scrape
+runs on source branches other than `master` are skipped. `concurrency:
+group: scrape` with
 `cancel-in-progress: false` prevents two runs (e.g. a manual dispatch
 overlapping a scheduled one) from racing on that commit/push — a second
 trigger queues instead of running concurrently.
@@ -233,7 +271,8 @@ map:
 - No build step. Don't add bundlers, TypeScript compilation, or frameworks
   unless explicitly asked — the site is meant to stay simple enough to
   deploy by just pushing to `master`.
-- GitHub Pages serves the `master` branch root directly. Any file at repo
+- GitHub Pages deploys the `master` checkout plus the restored `data`
+  snapshot using `.github/workflows/pages.yml`. Any file at repo
   root is publicly served as-is — this is a public repo, so don't add
   anything (real API keys beyond the already-public Cineplex one, personal
   data, etc.) that shouldn't be world-readable.
@@ -264,12 +303,18 @@ map:
 
 ## Testing changes
 
+- Restore live data with `node scripts/data-snapshot.mjs restore` before
+  local scraping or serving.
+- Run `node --test tests/data-snapshot.test.mjs` to check snapshot
+  replacement, restoration, race refusal and invalid-data refusal against
+  temporary local Git remotes. The Storage checks workflow runs these in CI.
 - Run `node scripts/scrape.mjs` (or `SCRAPE_MODE=quick node scripts/scrape.mjs`
   for a much faster near-window-only pass) locally to regenerate `data/*.json`
   and sanity-check the output.
 - Serve the repo root with any static file server (e.g. `npx serve` or
   `python -m http.server`) and open it in a browser to check the UI.
-- There is no automated test suite. When changing scrape/write logic,
+- Storage has focused regression tests; the scraper/UI have no automated
+  suite. When changing scrape/write logic,
   spot-check a real theatre's `data/<slug>.json` diff (especially around
   `SCRAPE_MODE=quick`'s carry-forward behavior — deep-window days shouldn't
   disappear or duplicate across a quick run) rather than trusting it blind.
