@@ -1,0 +1,27 @@
+name: Storage checks
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/data-snapshot.mjs'
+      - 'tests/data-snapshot.test.mjs'
+      - '.github/workflows/**'
+  push:
+    branches: [master]
+    paths:
+      - 'scripts/data-snapshot.mjs'
+      - 'tests/data-snapshot.test.mjs'
+      - '.github/workflows/**'
+
+permissions:
+  contents: read
+
+jobs:
+  storage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - run: node --test tests/data-snapshot.test.mjs

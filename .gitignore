@@ -2,3 +2,7 @@
 Thumbs.db
 node_modules/
 .env
+
+# Ignore generated snapshots; existing tracked copies stay through cutover.
+data/*.json
+!data/theatres.json

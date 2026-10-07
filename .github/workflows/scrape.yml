@@ -39,14 +39,11 @@ concurrency:
 
 jobs:
   scrape:
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     timeout-minutes: 240
     steps:
-      # Ref (not the default github.sha) so a run that queues behind the
-      # `scrape` concurrency group checks out whatever landed while it
-      # waited, rather than the stale commit that was HEAD when it was
-      # triggered — otherwise its own commit rebases against unrelated
-      # concurrent changes and can conflict.
+      # Use the current code when a scheduled run has waited in the queue.
       - uses: actions/checkout@v5
         with:
           ref: ${{ github.ref }}
@@ -54,6 +51,16 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 24
+
+      # Quick-mode carry-forward and failed-theatre preservation require
+      # the previous snapshot. A restore failure must stop publication.
+      - name: Restore previous data
+        id: restore
+        run: |
+          # This immutable pre-migration snapshot is used only if the data
+          # branch does not exist yet, never when fetching it fails.
+          sha=$(node scripts/data-snapshot.mjs restore 2a24e4c840198a78cc4ee7c741ce947c7a775c8c)
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
 
       - name: Determine scrape mode
         id: mode
@@ -73,11 +80,10 @@ jobs:
           CINEPLEX_SUBSCRIPTION_KEY: ${{ secrets.CINEPLEX_SUBSCRIPTION_KEY }}
         run: node scripts/scrape.mjs
 
-      - name: Commit changes if any
+      - name: Publish data snapshot
+        env:
+          PREVIOUS_SNAPSHOT: ${{ steps.restore.outputs.sha }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/*.json
-          git diff --staged --quiet || git commit -m "Update showtimes"
-          git pull --rebase
-          git push
+          node scripts/data-snapshot.mjs publish "$PREVIOUS_SNAPSHOT"
