@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T01:14:40.888Z",
+  "updatedAt": "2026-10-07T01:55:06.931Z",
   "theatre": {
     "id": 6111,
     "name": "Cineplex Cinemas Fredericton"
@@ -1215,28 +1215,6 @@
         "........SSCWWWCS......."
       ]
     },
-    "166964": {
-      "totalRows": 7,
-      "totalColumns": 16,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        null
-      ],
-      "seatTypes": [
-        "................",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSSSSS..",
-        "..SSSSSSSSCW.W..",
-        "................"
-      ]
-    },
     "167143": {
       "totalRows": 7,
       "totalColumns": 16,
@@ -1925,46 +1903,6 @@
         "..SSSSSSSSSS..",
         "..SSSSSSCW.W..",
         ".............."
-      ]
-    },
-    "167313": {
-      "totalRows": 6,
-      "totalColumns": 14,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null
-      ],
-      "seatTypes": [
-        "..............",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..SSSSSSSSSS..",
-        "..W.WCSSSSSS..",
-        ".............."
-      ]
-    },
-    "167314": {
-      "totalRows": 6,
-      "totalColumns": 15,
-      "rowLabels": [
-        null,
-        "A",
-        "B",
-        "C",
-        "D",
-        null
-      ],
-      "seatTypes": [
-        "...............",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSSSSS..",
-        "..SSSSSSSCW.W..",
-        "..............."
       ]
     },
     "167315": {
@@ -6730,81 +6668,6 @@
   },
   "days": [
     {
-      "date": "2026-10-06",
-      "movies": [
-        {
-          "title": "Digger",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38459_320_470.jpg",
-          "runtimeMinutes": 129,
-          "sessions": [
-            {
-              "time": "22:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=166964&a=0000000001&l=6111&m=digger&ss=False",
-              "seats": [
-                "................",
-                "..AAAAAAAAAAAA..",
-                "..AAAAAAAAAAAA..",
-                "..AAAAOOOAAAAA..",
-                "..AAAAAOOOOAAA..",
-                "..AAAAOOAAAA.A..",
-                "................"
-              ],
-              "layoutKey": "166964"
-            }
-          ]
-        },
-        {
-          "title": "Beware Boiúna",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/61889_320_470.jpg",
-          "runtimeMinutes": 104,
-          "sessions": [
-            {
-              "time": "22:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167314&a=0000000001&l=6111&m=beware-boiuna&ss=False",
-              "seats": [
-                "...............",
-                "..AAAAAAAAAAA..",
-                "..AAAAAAAAAAA..",
-                "..AAAAOAAOAAA..",
-                "..AAOOAAAAA.A..",
-                "..............."
-              ],
-              "layoutKey": "167314"
-            }
-          ]
-        },
-        {
-          "title": "Practical Magic 2",
-          "poster": "https://mediafiles.cineplex.com/Central/Film/Posters/38160_320_470.jpg",
-          "runtimeMinutes": 130,
-          "sessions": [
-            {
-              "time": "22:00",
-              "formats": [
-                "Recliner"
-              ],
-              "ticketUrl": "https://apis.cineplex.com/prod/cpx/theatrical/deeplink?s=167313&a=0000000001&l=6111&m=practical-magic-2&ss=False",
-              "seats": [
-                "..............",
-                "..AAAAAAAAAA..",
-                "..AAAAAAAAAA..",
-                "..AAAAAOOAAA..",
-                "..A.AAAAAOOA..",
-                ".............."
-              ],
-              "layoutKey": "167313"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-10-07",
       "movies": [
         {
@@ -7004,7 +6867,7 @@
                 ".............",
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
-                "..AAAAAAAAA..",
+                "..OAAAOOAAA..",
                 "..AAOOOOAAA..",
                 "..AAOOOOOAA..",
                 "..AAAAAAA.A..",
@@ -7070,7 +6933,7 @@
                 ".............",
                 "...AAAAAAA...",
                 "..AAAAAAAAA..",
-                "..AAAAAAAAA..",
+                "..AAAAOOAAA..",
                 "..AAAAAAAAA..",
                 "..AAAAAAAAA..",
                 "..A.AAAAAAA..",
@@ -8075,7 +7938,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAOOOOAAOOOAAAAAAOO..",
-                "..OOOOOAOOAOOAAAAOOOO..",
+                "..OOOOOAOOAOOOOAAOOOO..",
                 "..OOOAAAOOOOOOOOAAAOO..",
                 "........OOAAAAAA......."
               ],
@@ -8351,7 +8214,7 @@
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
                 "..AAAAAAAAAA..",
-                "..AAAAAAAA.A..",
+                "..AAAOOOAA.A..",
                 ".............."
               ],
               "layoutKey": "167438"
@@ -9566,7 +9429,7 @@
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
                 "..AAAAAAAAAAAAAAAAAAA..",
-                "..AAAAAAAAAAAAAAAAAAA..",
+                "..OOOAAAAAAAAAAAAAAAA..",
                 "........AAAAAAAA......."
               ],
               "layoutKey": "166679"
