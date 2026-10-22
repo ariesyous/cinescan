@@ -677,7 +677,10 @@ a.session:hover {
 .movie-filter[hidden],
 .movie-theatre[hidden],
 .movie-province[hidden],
-.movie-combos li[hidden] {
+.movie-combos li[hidden],
+.movie-grid > li[hidden],
+.movie-index-section[hidden],
+.format-badge[hidden] {
   display: none;
 }
 
@@ -702,6 +705,50 @@ a.session:hover {
   margin: 1.25rem 0 0.5rem;
   font-size: 1rem;
   color: var(--accent);
+}
+
+.movie-province {
+  border-bottom: 1px solid #2a2e37;
+}
+
+.movie-province summary {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.6rem 0.25rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.movie-province summary::-webkit-details-marker {
+  display: none;
+}
+
+.movie-province summary::before {
+  content: "▸";
+  color: var(--muted);
+  transition: transform 0.15s;
+}
+
+.movie-province[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.movie-province summary:hover h2 {
+  text-decoration: underline;
+}
+
+.movie-province summary h2 {
+  margin: 0;
+}
+
+.movie-province-count {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.movie-province[open] .movie-theatres {
+  padding-bottom: 0.75rem;
 }
 
 .movie-theatres,

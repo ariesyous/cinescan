@@ -27,9 +27,11 @@ Four pieces, connected only through the JSON files in `data/`:
    copies the frontend and data into `_site/` and adds SEO pages on top:
    a static page per theatre at `theatres/<slug>/` (own title, description,
    canonical, JSON-LD, now-playing list), a static page per movie at
-   `movies/<slug>/` (every theatre showing it, grouped by province, with
-   each format combination's dates; `movie.js` adds a format filter), a
-   `movies/` index (now playing / coming soon), a footer directory of every
+   `movies/<slug>/` (every theatre showing it, with each format
+   combination's dates, in collapsible province sections ordered by how
+   many theatres show it; releases at ≤6 theatres or in one province start
+   expanded), a `movies/` index (now playing / coming soon), both with a
+   `movie.js` format filter, a footer directory of every
    theatre, `404.html` and `sitemap.xml`. Only dates from today (Toronto)
    onward count. It rewrites `index.html` via the
    `<!--SITE_HEAD-->`/`<!--SITE_NAV-->`/`<!--THEATRE_DIRECTORY-->`
@@ -310,9 +312,13 @@ map:
 
 ## Layout reference
 
-- `movie.js` — format filter for the generated movie pages (not loaded by
-  `index.html`). Narrows the theatre list and adds `?formats=` to the URL
-  and to theatre links, which `app.js`'s format filter reads.
+- `movie.js` — format filter for the generated movie pages and `movies/`
+  index (not loaded by `index.html`). Narrows the theatre list or movie
+  cards and adds `?formats=` to the URL and to theatre/movie links, which
+  `app.js`'s and its own filters read. On movie pages it also remembers
+  the province a visitor last opened (`localStorage` key
+  `cinescan:province`, set only from summary clicks so auto-opened
+  sections never overwrite it) and reopens it on other movie pages.
 - `index.html`, `style.css`, `app.js` — the frontend. Plain HTML/CSS/vanilla
   JS on purpose. `app.js` builds a three-level drill-down picker from
   `data/theatres.json`: region buttons (GTA/Montreal/Vancouver/Everywhere

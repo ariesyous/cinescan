@@ -113,8 +113,10 @@ test("builds a page per movie across theatres, and a movies index", (t) => {
   assert.doesNotMatch(page, /<script src="app.js">/);
   assert.match(page, /All 3 Cineplex theatres in Canada/); // shared footer
 
-  // Grouped by province, with each format combination's own dates.
+  // Grouped by province (ties by name), with each format combination's own
+  // dates; a small release starts expanded.
   assert.ok(page.indexOf("<h2>Ontario</h2>") < page.indexOf("<h2>Quebec</h2>"));
+  assert.match(page, /<details class="movie-province" data-province="QC" open>\n      <summary><h2>Quebec<\/h2> <span class="movie-province-count">1 theatre<\/span><\/summary>/);
   assert.match(page, /<a href="theatres\/petit-ecran\/" data-theatre-link>Petit Écran<\/a> <span class="movie-theatre-city">Montréal<\/span>/);
   assert.match(page, /<li data-formats="Regular">.*Jan 2 · 2 days<\/span><\/li>/);
   assert.match(page, /<li data-formats="3D\|Regular">.*only<\/span><\/li>/);
@@ -134,9 +136,45 @@ test("builds a page per movie across theatres, and a movies index", (t) => {
   assert.ok(index.indexOf("<h2>Coming soon</h2>") < index.indexOf('href="movies/advance-sale/"'));
   assert.match(index, /Opens Fri, Dec 18 · 1 theatre/);
 
+  // Format filter chips count movies; cards carry what movie.js filters on.
+  assert.match(index, /<div id="movie-filter" class="format-filter movie-filter" hidden>/);
+  assert.match(index, /data-tag="Regular">Regular <span class="chip-count">1<\/span>/);
+  assert.match(index, /data-tag="UltraAVX">UltraAVX <span class="chip-count">1<\/span>/);
+  assert.match(index, /<li data-formats="Regular\|3D\|IMAX" data-counts="\{&quot;IMAX&quot;:1,&quot;Regular&quot;:2,&quot;3D&quot;:1\}" data-opens="">/);
+  assert.match(index, /data-opens="Opens Fri, Dec 18">/);
+
   const notFound = read(root, "404.html");
   assert.match(notFound, /<base href="\/cinescan\/" \/>/);
   assert.match(notFound, /<a href="movies\/">Browse movies now playing<\/a>/);
+});
+
+test("collapses wide releases, biggest province first, and hides extra badges", (t) => {
+  const root = fixture(t);
+  const theatres = [];
+  const formats = ["Regular", "IMAX", "UltraAVX", "ScreenX", "4DX", "70mm"];
+  for (const [i, province] of ["ON", "ON", "QC", "QC", "QC", "SK", "AB"].entries()) {
+    const slug = `theatre-${i}`;
+    theatres.push({ id: 100 + i, slug, name: `Theatre ${i}`, city: `City ${i}`, province, metro: null, file: `data/${slug}.json` });
+    writeFileSync(path.join(root, `data/${slug}.json`), JSON.stringify({
+      updatedAt: "2026-10-07T00:00:00.000Z",
+      days: [{ date: today, movies: [{ title: "Wide Release", sessions: formats.map((f) => ({ time: "19:00", formats: [f] })) }] }],
+    }));
+  }
+  writeFileSync(path.join(root, "data/theatres.json"), JSON.stringify(theatres));
+  assert.equal(run(root, "out").status, 0);
+
+  const page = read(root, "movies/wide-release/index.html");
+  const order = [...page.matchAll(/data-province="(\w+)"/g)].map((m) => m[1]);
+  assert.deepEqual(order, ["QC", "ON", "AB", "SK"]);
+  assert.doesNotMatch(page, /<details[^>]* open>/);
+  assert.match(page, /<h2>Quebec<\/h2> <span class="movie-province-count">3 theatres<\/span>/);
+
+  // Top four premium formats show, the rest wait for movie.js to reveal them.
+  const index = read(root, "movies/index.html");
+  const badges = [...index.matchAll(/<span class="format-badge [^"]*" data-tag="([^"]+)"( data-extra hidden)?>/g)];
+  assert.deepEqual(badges.map((m) => [m[1], Boolean(m[2])]), [
+    ["4DX", false], ["70mm", false], ["IMAX", false], ["ScreenX", false], ["UltraAVX", true],
+  ]);
 });
 
 test("fails when index.html no longer has a placeholder", (t) => {
