@@ -152,6 +152,20 @@ function formatDayLabel(dateStr) {
   });
 }
 
+// Same as movieSlug in scripts/build-site.mjs, which generates the
+// movies/<slug>/ pages these titles link to; keep the two identical.
+function movieSlug(title) {
+  return (
+    title
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/&/g, " and ")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "movie"
+  );
+}
+
 // Turns a raw Cineplex format tag ("Laser Projection", "VIP 18+") into a
 // CSS-safe class suffix ("laser-projection", "vip-18").
 function tagSlug(tag) {
@@ -193,7 +207,16 @@ function renderMovie(movie, visibleSessions) {
 
   const title = document.createElement("p");
   title.className = "movie-title";
-  title.textContent = movie.title;
+  // Movie pages only exist in the deployed build (see PATH_ROUTING).
+  if (PATH_ROUTING) {
+    const link = document.createElement("a");
+    link.href = `movies/${movieSlug(movie.title)}/`;
+    link.title = "Every theatre showing this movie";
+    link.textContent = movie.title;
+    title.appendChild(link);
+  } else {
+    title.textContent = movie.title;
+  }
   info.appendChild(title);
 
   const sessions = document.createElement("div");

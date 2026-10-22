@@ -59,7 +59,9 @@ Live at: https://ariesyous.github.io/cinescan/
 - GitHub Pages deploys the `master` source plus the latest `data` snapshot
   after source changes and successful scrapes. At deploy time,
   `scripts/build-site.mjs` also generates a search-friendly page per theatre
-  (`/cinescan/theatres/<slug>/`), a footer directory of all theatres, and
+  (`/cinescan/theatres/<slug>/`), a page per movie listing every theatre
+  showing it by format and date (`/cinescan/movies/<slug>/`, indexed at
+  `/cinescan/movies/`), a footer directory of all theatres, and
   `sitemap.xml` (submit it in Google Search Console). Both workflows restore the
   previous snapshot with `scripts/data-snapshot.mjs`; a restore failure
   stops the run rather than publishing incomplete data.

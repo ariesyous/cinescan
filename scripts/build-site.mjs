@@ -7,14 +7,17 @@
 //   description, canonical URL, structured data and a crawlable now-playing
 //   list. Each is the same app as index.html (app.js swaps in the full
 //   calendar on load), so these are real entry points, not doorway pages.
+// - A static page per movie at movies/<slug>/ listing every theatre showing
+//   it, with each format combination's dates, plus a movies/ index. These
+//   don't load app.js; movie.js adds a format filter on top.
 // - A crawlable directory of every theatre in each page's footer, since the
 //   region picker is built from buttons rather than links.
-// - sitemap.xml listing the home page and every theatre page. GitHub Pages
-//   project sites can't serve a root robots.txt, so submit it via Google
-//   Search Console instead.
+// - sitemap.xml listing every page. GitHub Pages project sites can't serve a
+//   root robots.txt, so submit it via Google Search Console instead.
 //
 // Every generated page carries <meta name="cinescan-routing" content="path">,
-// which tells app.js to use theatres/<slug>/ URLs instead of ?theatre=<slug>.
+// which tells app.js to use theatres/<slug>/ URLs instead of ?theatre=<slug>
+// and to link movie titles to their movies/<slug>/ pages.
 //
 // Run from the repo root after `data-snapshot.mjs restore`. A theatre whose
 // data file is missing still gets a page, just without a now-playing list.
@@ -25,7 +28,7 @@ import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const SITE_URL = "https://ariesyous.github.io/cinescan/";
-const COPY = ["app.js", "style.css", "assets", "data"];
+const COPY = ["app.js", "movie.js", "style.css", "assets", "data"];
 
 const PROVINCE_NAMES = {
   AB: "Alberta",
@@ -69,6 +72,12 @@ function replaceOnce(html, pattern, replacement, label) {
   return out;
 }
 
+function extract(html, pattern, label) {
+  const match = html.match(pattern);
+  if (!match) throw new Error(`index.html: couldn't find ${label}; update build-site.mjs to match`);
+  return match[0];
+}
+
 function setMeta(html, key, value) {
   const pattern = new RegExp(`(<meta\\s+(?:name|property)="${key}"\\s+content=")[^"]*(")`);
   return replaceOnce(html, pattern, (_, start, end) => start + escapeHtml(value) + end, `meta ${key}`);
@@ -105,6 +114,36 @@ function injectSiteHead(html, baseHref, structuredData) {
   );
 }
 
+// A page that shares index.html's <head> (analytics, styles, social tags),
+// brand line and footer, but has its own body instead of the theatre app.
+function staticPage(template, { title, description, url, baseHref, structuredData, heading, intro, main }) {
+  const brand = extract(template, /<p class="brand">[\s\S]*?<\/p>/, "brand line");
+  const footer = extract(template, /<footer class="site-footer">[\s\S]*?<\/footer>/, "site footer");
+  let html = setPageMeta(template, { title, description, url });
+  html = injectSiteHead(html, baseHref, structuredData);
+  return replaceOnce(
+    html,
+    /<body>[\s\S]*<\/body>/,
+    () =>
+      [
+        `<body>`,
+        `  <header>`,
+        `    ${brand}`,
+        `    <h1>${heading}</h1>`,
+        intro,
+        `  </header>`,
+        ``,
+        `  ${main}`,
+        ``,
+        `  ${footer}`,
+        ``,
+        `  <script src="movie.js"></script>`,
+        `</body>`,
+      ].join("\n"),
+    "<body>"
+  );
+}
+
 // ["a", "b", "c"] -> "a, b and c"
 function listJoin(items) {
   return items.length < 2 ? items.join("") : `${items.slice(0, -1).join(", ")} and ${items.at(-1)}`;
@@ -118,18 +157,78 @@ function theatrePath(theatre) {
   return `theatres/${theatre.slug}/`;
 }
 
+// Same as movieSlug in app.js, which links calendar titles to these pages;
+// keep the two identical. Titles that slug the same share one page.
+function movieSlug(title) {
+  return (
+    title
+      .normalize("NFD")
+      .replace(/[̀-ͯ]/g, "")
+      .toLowerCase()
+      .replace(/&/g, " and ")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "movie"
+  );
+}
+
+function moviePath(slug) {
+  return `movies/${slug}/`;
+}
+
+// Same as tagSlug in app.js, for the shared .tag-* badge colours.
+function tagSlug(tag) {
+  return tag
+    .toLowerCase()
+    .replace(/\+/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function renderBadges(formats) {
+  const badges = formats.map(
+    (tag) => `<span class="format-badge tag-${tagSlug(tag)}">${escapeHtml(tag)}</span>`
+  );
+  return `<span class="format-badges">${badges.join("")}</span>`;
+}
+
 // "YYYY-MM-DD" for today in Toronto, matching the dates the scraper writes.
 function todayInToronto() {
   return new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" });
 }
 
-function formatDate(dateStr) {
+function formatDate(dateStr, { weekday = true } = {}) {
   return new Date(`${dateStr}T00:00:00Z`).toLocaleDateString("en-CA", {
     timeZone: "UTC",
-    weekday: "short",
+    ...(weekday ? { weekday: "short" } : {}),
     month: "short",
     day: "numeric",
   });
+}
+
+function formatDateRange(dates) {
+  const first = dates[0];
+  const last = dates.at(-1);
+  if (first === last) return `${formatDate(first)} only`;
+  const range = `${formatDate(first, { weekday: false })} – ${formatDate(last, { weekday: false })}`;
+  return `${range} · ${dates.length} days`;
+}
+
+function formatRuntime(minutes) {
+  if (!minutes) return "";
+  const h = Math.floor(minutes / 60);
+  const m = minutes % 60;
+  return h ? `${h}h${m ? ` ${m}m` : ""}` : `${m}m`;
+}
+
+// Tags sorted by how often they occur, most common first.
+function byFrequency(counts) {
+  return [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .map(([tag]) => tag);
+}
+
+function bump(counts, key, by = 1) {
+  counts.set(key, (counts.get(key) || 0) + by);
 }
 
 // One entry per movie still showing today or later, with every format it
@@ -149,7 +248,7 @@ function summarizeMovies(data, today) {
       for (const session of movie.sessions) {
         for (const tag of session.formats) {
           entry.formats.add(tag);
-          formatCounts.set(tag, (formatCounts.get(tag) || 0) + 1);
+          bump(formatCounts, tag);
         }
       }
     }
@@ -157,10 +256,67 @@ function summarizeMovies(data, today) {
   const sorted = [...movies.values()].sort(
     (a, b) => a.firstDate.localeCompare(b.firstDate) || a.title.localeCompare(b.title)
   );
-  const formats = [...formatCounts.entries()]
-    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-    .map(([tag]) => tag);
-  return { movies: sorted, formats };
+  return { movies: sorted, formats: byFrequency(formatCounts) };
+}
+
+// Every movie showing today or later across all theatres, keyed by slug:
+// which theatres show it, and on which dates in each format combination.
+function collectMovies(theatres, dataBySlug, today) {
+  const movies = new Map();
+  for (const theatre of theatres) {
+    const data = dataBySlug.get(theatre.slug);
+    for (const day of data?.days ?? []) {
+      if (day.date < today) continue;
+      for (const movie of day.movies) {
+        const slug = movieSlug(movie.title);
+        let entry = movies.get(slug);
+        if (!entry) {
+          entry = {
+            slug,
+            titleCounts: new Map(),
+            poster: "",
+            runtimeMinutes: 0,
+            dates: new Set(),
+            updatedAt: "",
+            theatres: new Map(),
+            formatTheatres: new Map(), // tag -> Set of theatre slugs
+          };
+          movies.set(slug, entry);
+        }
+        bump(entry.titleCounts, movie.title);
+        entry.poster ||= movie.poster || "";
+        entry.runtimeMinutes ||= movie.runtimeMinutes || 0;
+        entry.dates.add(day.date);
+        if (data.updatedAt > entry.updatedAt) entry.updatedAt = data.updatedAt;
+
+        let showing = entry.theatres.get(theatre.slug);
+        if (!showing) {
+          showing = { theatre, combos: new Map() };
+          entry.theatres.set(theatre.slug, showing);
+        }
+        for (const session of movie.sessions) {
+          const formats = [...session.formats].sort();
+          const key = formats.join("|");
+          if (!showing.combos.has(key)) showing.combos.set(key, { formats, dates: new Set() });
+          showing.combos.get(key).dates.add(day.date);
+          for (const tag of formats) {
+            if (!entry.formatTheatres.has(tag)) entry.formatTheatres.set(tag, new Set());
+            entry.formatTheatres.get(tag).add(theatre.slug);
+          }
+        }
+      }
+    }
+  }
+  for (const entry of movies.values()) {
+    entry.title = byFrequency(entry.titleCounts)[0];
+    entry.sortedDates = [...entry.dates].sort();
+    const formatCounts = new Map(
+      [...entry.formatTheatres].map(([tag, slugs]) => [tag, slugs.size])
+    );
+    entry.formats = byFrequency(formatCounts);
+    entry.formatCounts = formatCounts;
+  }
+  return movies;
 }
 
 function renderNowPlaying(theatre, movies, today) {
@@ -171,7 +327,8 @@ function renderNowPlaying(theatre, movies, today) {
       movie.firstDate > today
         ? ` <span class="now-playing-date">from ${escapeHtml(formatDate(movie.firstDate))}</span>`
         : "";
-    return `        <li><span class="now-playing-title">${escapeHtml(movie.title)}</span> <span class="now-playing-formats">${escapeHtml(formats)}</span>${from}</li>`;
+    const href = moviePath(movieSlug(movie.title));
+    return `        <li><a class="now-playing-title" href="${href}">${escapeHtml(movie.title)}</a> <span class="now-playing-formats">${escapeHtml(formats)}</span>${from}</li>`;
   });
   return [
     `<section class="now-playing">`,
@@ -183,20 +340,19 @@ function renderNowPlaying(theatre, movies, today) {
   ].join("\n");
 }
 
-function renderDirectory(theatres) {
-  const byProvince = new Map();
-  for (const t of theatres) {
-    const key = t.province || "";
-    if (!byProvince.has(key)) byProvince.set(key, []);
-    byProvince.get(key).push(t);
+function groupByProvince(items, provinceOf) {
+  const groups = new Map();
+  for (const item of items) {
+    const key = provinceOf(item) || "";
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(item);
   }
-  const provinces = [...byProvince.keys()].sort((a, b) =>
-    provinceName(a).localeCompare(provinceName(b))
-  );
+  return [...groups.entries()].sort((a, b) => provinceName(a[0]).localeCompare(provinceName(b[0])));
+}
 
-  const groups = provinces.map((province) => {
-    const links = byProvince
-      .get(province)
+function renderDirectory(theatres) {
+  const groups = groupByProvince(theatres, (t) => t.province).map(([province, list]) => {
+    const links = list
       .sort((a, b) => a.name.localeCompare(b.name))
       .map((t) => {
         const city = t.city ? ` <span class="theatre-directory-city">${escapeHtml(t.city)}</span>` : "";
@@ -274,6 +430,200 @@ function theatrePage(template, theatre, data, today) {
   return html;
 }
 
+function moviePage(template, movie) {
+  const url = SITE_URL + moviePath(movie.slug);
+  const theatreCount = movie.theatres.size;
+  const premium = movie.formats.filter((tag) => tag !== "Regular").slice(0, 4);
+  const title = `${movie.title} — Cineplex Showtimes in Canada | CineScan`;
+  let description = `Where to watch ${movie.title} at Cineplex: ${theatreCount} ${theatreCount === 1 ? "theatre" : "theatres"} across Canada`;
+  if (premium.length > 0) description += `, including ${listJoin(premium)}`;
+  description += ". Compare formats and dates by theatre.";
+
+  const facts = [
+    `Playing at ${theatreCount} ${theatreCount === 1 ? "theatre" : "theatres"}`,
+    formatRuntime(movie.runtimeMinutes),
+    formatDateRange(movie.sortedDates).replace(/ · \d+ days$/, ""),
+  ].filter(Boolean);
+  const poster = movie.poster
+    ? `    <img class="movie-hero-poster" src="${escapeHtml(movie.poster)}" alt="${escapeHtml(movie.title)} poster" />\n`
+    : "";
+  const chips = movie.formats.map(
+    (tag) =>
+      `      <button type="button" class="format-chip tag-${tagSlug(tag)}" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)} <span class="chip-count">${movie.formatCounts.get(tag)}</span></button>`
+  );
+  const intro = [
+    `    <div class="movie-hero">`,
+    poster + `      <p class="movie-hero-facts">${facts.map(escapeHtml).join(" · ")}</p>`,
+    `    </div>`,
+    `    <div id="movie-filter" class="format-filter movie-filter" hidden>`,
+    `      <button type="button" class="format-clear-btn">All formats</button>`,
+    ...chips,
+    `    </div>`,
+    `    <p id="movie-count" class="updated"></p>`,
+  ].join("\n");
+
+  const showings = [...movie.theatres.values()];
+  const provinces = groupByProvince(showings, (s) => s.theatre.province).map(([province, list]) => {
+    const rows = list
+      .sort(
+        (a, b) =>
+          (a.theatre.city || "").localeCompare(b.theatre.city || "") ||
+          a.theatre.name.localeCompare(b.theatre.name)
+      )
+      .map(({ theatre, combos }) => {
+        const comboRows = [...combos.values()]
+          .map((combo) => ({ ...combo, sortedDates: [...combo.dates].sort() }))
+          .sort(
+            (a, b) =>
+              a.sortedDates[0].localeCompare(b.sortedDates[0]) ||
+              a.formats.join().localeCompare(b.formats.join())
+          )
+          .map(
+            (combo) =>
+              `            <li data-formats="${escapeHtml(combo.formats.join("|"))}">${renderBadges(combo.formats)} <span class="movie-dates">${escapeHtml(formatDateRange(combo.sortedDates))}</span></li>`
+          );
+        const city = theatre.city ? ` <span class="movie-theatre-city">${escapeHtml(theatre.city)}</span>` : "";
+        return [
+          `        <li class="movie-theatre">`,
+          `          <p class="movie-theatre-name"><a href="${theatrePath(theatre)}" data-theatre-link>${escapeHtml(theatre.name)}</a>${city}</p>`,
+          `          <ul class="movie-combos">`,
+          ...comboRows,
+          `          </ul>`,
+          `        </li>`,
+        ].join("\n");
+      });
+    return [
+      `    <section class="movie-province">`,
+      `      <h2>${escapeHtml(provinceName(province))}</h2>`,
+      `      <ul class="movie-theatres">`,
+      ...rows,
+      `      </ul>`,
+      `    </section>`,
+    ].join("\n");
+  });
+
+  return staticPage(template, {
+    title,
+    description,
+    url,
+    baseHref: "../../",
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "Movie",
+      name: movie.title,
+      url,
+      ...(movie.poster ? { image: movie.poster } : {}),
+      ...(movie.runtimeMinutes ? { duration: `PT${movie.runtimeMinutes}M` } : {}),
+    },
+    heading: `${escapeHtml(movie.title)} <span class="heading-sub">at Cineplex theatres in Canada</span>`,
+    intro,
+    main: [`<main class="movie-page">`, ...provinces, `  </main>`].join("\n"),
+  });
+}
+
+function renderMovieCard(movie, today) {
+  const count = movie.theatres.size;
+  const meta = [
+    movie.sortedDates[0] > today ? `Opens ${formatDate(movie.sortedDates[0])}` : "",
+    `${count} ${count === 1 ? "theatre" : "theatres"}`,
+  ].filter(Boolean);
+  const premium = movie.formats.filter((tag) => tag !== "Regular").slice(0, 4);
+  const poster = movie.poster
+    ? `<img src="${escapeHtml(movie.poster)}" alt="" loading="lazy" />`
+    : `<span class="movie-card-noposter"></span>`;
+  return [
+    `      <li><a class="movie-card" href="${moviePath(movie.slug)}">`,
+    `        ${poster}`,
+    `        <span class="movie-card-title">${escapeHtml(movie.title)}</span>`,
+    `        <span class="movie-card-meta">${escapeHtml(meta.join(" · "))}</span>`,
+    premium.length ? `        ${renderBadges(premium)}` : "",
+    `      </a></li>`,
+  ]
+    .filter(Boolean)
+    .join("\n");
+}
+
+function moviesIndexPage(template, movies, today) {
+  const url = SITE_URL + "movies/";
+  const all = [...movies.values()];
+  const nowPlaying = all
+    .filter((m) => m.sortedDates[0] <= today)
+    .sort((a, b) => b.theatres.size - a.theatres.size || a.title.localeCompare(b.title));
+  const comingSoon = all
+    .filter((m) => m.sortedDates[0] > today)
+    .sort(
+      (a, b) =>
+        a.sortedDates[0].localeCompare(b.sortedDates[0]) ||
+        b.theatres.size - a.theatres.size ||
+        a.title.localeCompare(b.title)
+    );
+
+  const title = "Movies Playing at Cineplex in Canada | CineScan";
+  const description =
+    `${nowPlaying.length} movies now playing and ${comingSoon.length} coming soon at Cineplex theatres across Canada. ` +
+    "See which theatres show each one in IMAX, UltraAVX, ScreenX, 4DX and more.";
+
+  const section = (heading, list) =>
+    list.length === 0
+      ? ""
+      : [
+          `    <section class="movie-index-section">`,
+          `      <h2>${heading}</h2>`,
+          `      <ul class="movie-grid">`,
+          ...list.map((m) => renderMovieCard(m, today)),
+          `      </ul>`,
+          `    </section>`,
+        ].join("\n");
+
+  return staticPage(template, {
+    title,
+    description,
+    url,
+    baseHref: "../",
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: "Movies playing at Cineplex in Canada",
+      url,
+      itemListElement: [...nowPlaying, ...comingSoon].map((m, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: SITE_URL + moviePath(m.slug),
+      })),
+    },
+    heading: "Movies at Cineplex theatres in Canada",
+    intro: `    <p class="refresh-note">Pick a movie to see every theatre showing it, by format and date.</p>`,
+    main: [
+      `<main class="movie-index">`,
+      section("Now playing", nowPlaying),
+      section("Coming soon", comingSoon),
+      `  </main>`,
+    ]
+      .filter(Boolean)
+      .join("\n"),
+  });
+}
+
+// GitHub Pages serves this for any missing path, e.g. a movie whose run
+// ended since someone shared or bookmarked its page. It can be served at
+// any depth, so its <base> is the site's absolute path.
+function notFoundPage(template) {
+  return staticPage(template, {
+    title: "Page not found | CineScan",
+    description: "This page doesn't exist, or the movie has finished its run.",
+    url: SITE_URL + "404.html",
+    baseHref: new URL(SITE_URL).pathname,
+    structuredData: { "@context": "https://schema.org", "@type": "WebPage", name: "Page not found" },
+    heading: "Page not found",
+    intro: `    <p class="refresh-note">This page doesn't exist, or the movie has finished its run.</p>`,
+    main: [
+      `<main class="movie-page not-found">`,
+      `    <p><a href="movies/">Browse movies now playing</a> or <a href="./">pick a theatre</a>.</p>`,
+      `  </main>`,
+    ].join("\n"),
+  });
+}
+
 function homePage(template) {
   return injectSiteHead(template, "./", {
     "@context": "https://schema.org",
@@ -307,6 +657,12 @@ async function readJson(file) {
   }
 }
 
+async function writePage(outDir, pagePath, html) {
+  const dir = path.join(outDir, pagePath);
+  await mkdir(dir, { recursive: true });
+  await writeFile(path.join(dir, "index.html"), html);
+}
+
 async function main() {
   const outDir = path.resolve(process.argv[2] || "_site");
   const rel = path.relative(process.cwd(), outDir);
@@ -328,34 +684,57 @@ async function main() {
     await cp(entry, path.join(outDir, entry), { recursive: true });
   }
 
-  const directory = renderDirectory(theatres);
-  const withDirectory = replaceOnce(
-    template,
-    /<!--THEATRE_DIRECTORY-->/,
-    () => directory,
-    "<!--THEATRE_DIRECTORY--> placeholder"
-  );
-
-  const entries = [];
-  let missing = 0;
+  const dataBySlug = new Map();
   for (const theatre of theatres) {
     const data = await readJson(theatre.file);
-    if (!data) missing++;
-    const dir = path.join(outDir, theatrePath(theatre));
-    await mkdir(dir, { recursive: true });
-    await writeFile(path.join(dir, "index.html"), theatrePage(withDirectory, theatre, data, today));
-    entries.push({ url: SITE_URL + theatrePath(theatre), lastmod: data?.updatedAt });
+    if (data) dataBySlug.set(theatre.slug, data);
+  }
+  const movies = collectMovies(theatres, dataBySlug, today);
+
+  let shared = replaceOnce(
+    template,
+    /<!--THEATRE_DIRECTORY-->/,
+    () => renderDirectory(theatres),
+    "<!--THEATRE_DIRECTORY--> placeholder"
+  );
+  shared = replaceOnce(
+    shared,
+    /<!--SITE_NAV-->/,
+    () => `<span class="brand-nav"> &middot; <a href="movies/">Browse movies</a></span>`,
+    "<!--SITE_NAV--> placeholder"
+  );
+
+  const theatreEntries = [];
+  for (const theatre of theatres) {
+    const data = dataBySlug.get(theatre.slug);
+    await writePage(outDir, theatrePath(theatre), theatrePage(shared, theatre, data, today));
+    theatreEntries.push({ url: SITE_URL + theatrePath(theatre), lastmod: data?.updatedAt });
   }
 
-  const latest = entries.map((e) => e.lastmod).filter(Boolean).sort().at(-1);
-  entries.unshift({ url: SITE_URL, lastmod: latest });
+  const movieEntries = [];
+  for (const movie of movies.values()) {
+    await writePage(outDir, moviePath(movie.slug), moviePage(shared, movie));
+    movieEntries.push({ url: SITE_URL + moviePath(movie.slug), lastmod: movie.updatedAt });
+  }
+  await writePage(outDir, "movies/", moviesIndexPage(shared, movies, today));
 
-  await writeFile(path.join(outDir, "index.html"), homePage(withDirectory));
-  await writeFile(path.join(outDir, "sitemap.xml"), sitemap(entries));
+  const latest = theatreEntries.map((e) => e.lastmod).filter(Boolean).sort().at(-1);
+  await writeFile(path.join(outDir, "index.html"), homePage(shared));
+  await writeFile(path.join(outDir, "404.html"), notFoundPage(shared));
+  await writeFile(
+    path.join(outDir, "sitemap.xml"),
+    sitemap([
+      { url: SITE_URL, lastmod: latest },
+      { url: SITE_URL + "movies/", lastmod: latest },
+      ...movieEntries,
+      ...theatreEntries,
+    ])
+  );
 
+  const missing = theatres.length - dataBySlug.size;
   console.log(
-    `Built ${theatres.length} theatre pages into ${rel}` +
-      (missing ? ` (${missing} without data files)` : "")
+    `Built ${theatres.length} theatre pages and ${movies.size} movie pages into ${rel}` +
+      (missing ? ` (${missing} theatres without data files)` : "")
   );
 }
 

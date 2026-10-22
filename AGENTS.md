@@ -26,14 +26,22 @@ Four pieces, connected only through the JSON files in `data/`:
 4. **`scripts/build-site.mjs`** (run only by `.github/workflows/pages.yml`)
    copies the frontend and data into `_site/` and adds SEO pages on top:
    a static page per theatre at `theatres/<slug>/` (own title, description,
-   canonical, JSON-LD, now-playing list), a footer directory of every
-   theatre, and `sitemap.xml`. It rewrites `index.html` via the
-   `<!--SITE_HEAD-->`/`<!--THEATRE_DIRECTORY-->` placeholders and a few
-   regexes (title, meta tags, canonical, `#theatre-name`, `<main>`), and
-   fails the deploy if any no longer match. Generated pages carry
+   canonical, JSON-LD, now-playing list), a static page per movie at
+   `movies/<slug>/` (every theatre showing it, grouped by province, with
+   each format combination's dates; `movie.js` adds a format filter), a
+   `movies/` index (now playing / coming soon), a footer directory of every
+   theatre, `404.html` and `sitemap.xml`. Only dates from today (Toronto)
+   onward count. It rewrites `index.html` via the
+   `<!--SITE_HEAD-->`/`<!--SITE_NAV-->`/`<!--THEATRE_DIRECTORY-->`
+   placeholders and a few regexes (title, meta tags, canonical,
+   `#theatre-name`, `<main>`, brand line, footer, `<body>` for movie
+   pages), and fails the deploy if any no longer match. Generated pages carry
    `<meta name="cinescan-routing" content="path">` and a `<base>` pointing
-   at the site root; `app.js` then uses `theatres/<slug>/` URLs, while the
-   raw checkout keeps using `?theatre=<slug>`.
+   at the site root; `app.js` then uses `theatres/<slug>/` URLs and links
+   calendar movie titles to `movies/<slug>/`, while the raw checkout keeps
+   using `?theatre=<slug>` with unlinked titles. `movieSlug` and `tagSlug`
+   are duplicated in `app.js` and `build-site.mjs`; keep each pair
+   identical. Titles that slug the same share a movie page.
 
 There's no shared code between the scraper and the frontend — the JSON file
 shape *is* the contract between them. If you change what the scraper writes,
@@ -295,13 +303,16 @@ map:
   and `build-site.mjs`; keep them identical.
 - GitHub Pages deploys `_site/` (built from the `master` checkout plus
   the restored `data` snapshot) using `.github/workflows/pages.yml`. Only
-  `app.js`, `style.css`, `assets/`, `data/` and the generated HTML/sitemap
+  `app.js`, `movie.js`, `style.css`, `assets/`, `data/` and the generated HTML/sitemap
   are published, and anything in them is publicly served as-is — this is a public repo, so don't add
   anything (real API keys beyond the already-public Cineplex one, personal
   data, etc.) that shouldn't be world-readable.
 
 ## Layout reference
 
+- `movie.js` — format filter for the generated movie pages (not loaded by
+  `index.html`). Narrows the theatre list and adds `?formats=` to the URL
+  and to theatre links, which `app.js`'s format filter reads.
 - `index.html`, `style.css`, `app.js` — the frontend. Plain HTML/CSS/vanilla
   JS on purpose. `app.js` builds a three-level drill-down picker from
   `data/theatres.json`: region buttons (GTA/Montreal/Vancouver/Everywhere
