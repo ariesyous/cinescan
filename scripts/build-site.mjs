@@ -9,7 +9,8 @@
 //   calendar on load), so these are real entry points, not doorway pages.
 // - A static page per movie at movies/<slug>/ listing every theatre showing
 //   it, with each format combination's dates, plus a movies/ index. These
-//   don't load app.js; movie.js adds a format filter on top.
+//   don't load app.js; movie.js adds format filters (and, on movie pages,
+//   reopens the visitor's province) on top.
 // - A crawlable directory of every theatre in each page's footer, since the
 //   region picker is built from buttons rather than links.
 // - sitemap.xml listing every page. GitHub Pages project sites can't serve a
@@ -430,6 +431,27 @@ function theatrePage(template, theatre, data, today) {
   return html;
 }
 
+// Format chips for movie.js, hidden until it wires them up. `counts` maps
+// each tag to the number shown on its chip.
+function renderFormatFilter(formats, counts) {
+  const chips = formats.map(
+    (tag) =>
+      `      <button type="button" class="format-chip tag-${tagSlug(tag)}" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)} <span class="chip-count">${counts.get(tag)}</span></button>`
+  );
+  return [
+    `    <div id="movie-filter" class="format-filter movie-filter" hidden>`,
+    `      <button type="button" class="format-clear-btn">All formats</button>`,
+    ...chips,
+    `    </div>`,
+    `    <p id="movie-count" class="updated"></p>`,
+  ].join("\n");
+}
+
+// Provinces showing a movie are collapsed, biggest first (by theatres
+// showing it), so a wide release isn't one long scroll; movie.js reopens
+// the province a visitor last opened. Small releases start expanded.
+const OPEN_ALL_MAX_THEATRES = 6;
+
 function moviePage(template, movie) {
   const url = SITE_URL + moviePath(movie.slug);
   const theatreCount = movie.theatres.size;
@@ -447,23 +469,19 @@ function moviePage(template, movie) {
   const poster = movie.poster
     ? `    <img class="movie-hero-poster" src="${escapeHtml(movie.poster)}" alt="${escapeHtml(movie.title)} poster" />\n`
     : "";
-  const chips = movie.formats.map(
-    (tag) =>
-      `      <button type="button" class="format-chip tag-${tagSlug(tag)}" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)} <span class="chip-count">${movie.formatCounts.get(tag)}</span></button>`
-  );
   const intro = [
     `    <div class="movie-hero">`,
     poster + `      <p class="movie-hero-facts">${facts.map(escapeHtml).join(" · ")}</p>`,
     `    </div>`,
-    `    <div id="movie-filter" class="format-filter movie-filter" hidden>`,
-    `      <button type="button" class="format-clear-btn">All formats</button>`,
-    ...chips,
-    `    </div>`,
-    `    <p id="movie-count" class="updated"></p>`,
+    renderFormatFilter(movie.formats, movie.formatCounts),
   ].join("\n");
 
   const showings = [...movie.theatres.values()];
-  const provinces = groupByProvince(showings, (s) => s.theatre.province).map(([province, list]) => {
+  const groups = groupByProvince(showings, (s) => s.theatre.province).sort(
+    (a, b) => b[1].length - a[1].length
+  );
+  const open = groups.length === 1 || theatreCount <= OPEN_ALL_MAX_THEATRES ? " open" : "";
+  const provinces = groups.map(([province, list]) => {
     const rows = list
       .sort(
         (a, b) =>
@@ -492,13 +510,14 @@ function moviePage(template, movie) {
           `        </li>`,
         ].join("\n");
       });
+    const count = `${list.length} ${list.length === 1 ? "theatre" : "theatres"}`;
     return [
-      `    <section class="movie-province">`,
-      `      <h2>${escapeHtml(provinceName(province))}</h2>`,
+      `    <details class="movie-province" data-province="${escapeHtml(province)}"${open}>`,
+      `      <summary><h2>${escapeHtml(provinceName(province))}</h2> <span class="movie-province-count">${count}</span></summary>`,
       `      <ul class="movie-theatres">`,
       ...rows,
       `      </ul>`,
-      `    </section>`,
+      `    </details>`,
     ].join("\n");
   });
 
@@ -521,22 +540,31 @@ function moviePage(template, movie) {
   });
 }
 
+// data-formats/data-counts let movie.js filter cards by format and show how
+// many theatres play the movie in each selected one.
 function renderMovieCard(movie, today) {
   const count = movie.theatres.size;
-  const meta = [
-    movie.sortedDates[0] > today ? `Opens ${formatDate(movie.sortedDates[0])}` : "",
-    `${count} ${count === 1 ? "theatre" : "theatres"}`,
-  ].filter(Boolean);
-  const premium = movie.formats.filter((tag) => tag !== "Regular").slice(0, 4);
+  const opens = movie.sortedDates[0] > today ? `Opens ${formatDate(movie.sortedDates[0])}` : "";
+  const meta = [opens, `${count} ${count === 1 ? "theatre" : "theatres"}`].filter(Boolean);
+  // The top four premium formats show; movie.js reveals the rest when
+  // they're filtered for, so a card always shows why it matched.
+  const badges = movie.formats
+    .filter((tag) => tag !== "Regular")
+    .map(
+      (tag, i) =>
+        `<span class="format-badge tag-${tagSlug(tag)}" data-tag="${escapeHtml(tag)}"${i >= 4 ? " data-extra hidden" : ""}>${escapeHtml(tag)}</span>`
+    );
   const poster = movie.poster
     ? `<img src="${escapeHtml(movie.poster)}" alt="" loading="lazy" />`
     : `<span class="movie-card-noposter"></span>`;
+  const counts = JSON.stringify(Object.fromEntries(movie.formatCounts));
   return [
-    `      <li><a class="movie-card" href="${moviePath(movie.slug)}">`,
+    `      <li data-formats="${escapeHtml(movie.formats.join("|"))}" data-counts="${escapeHtml(counts)}" data-opens="${escapeHtml(opens)}">` +
+      `<a class="movie-card" href="${moviePath(movie.slug)}">`,
     `        ${poster}`,
     `        <span class="movie-card-title">${escapeHtml(movie.title)}</span>`,
     `        <span class="movie-card-meta">${escapeHtml(meta.join(" · "))}</span>`,
-    premium.length ? `        ${renderBadges(premium)}` : "",
+    badges.length ? `        <span class="format-badges">${badges.join("")}</span>` : "",
     `      </a></li>`,
   ]
     .filter(Boolean)
@@ -557,6 +585,9 @@ function moviesIndexPage(template, movies, today) {
         b.theatres.size - a.theatres.size ||
         a.title.localeCompare(b.title)
     );
+
+  const movieCounts = new Map(); // tag -> number of movies playing in it
+  for (const movie of all) for (const tag of movie.formats) bump(movieCounts, tag);
 
   const title = "Movies Playing at Cineplex in Canada | CineScan";
   const description =
@@ -592,7 +623,10 @@ function moviesIndexPage(template, movies, today) {
       })),
     },
     heading: "Movies at Cineplex theatres in Canada",
-    intro: `    <p class="refresh-note">Pick a movie to see every theatre showing it, by format and date.</p>`,
+    intro: [
+      `    <p class="refresh-note">Pick a movie to see every theatre showing it, by format and date.</p>`,
+      renderFormatFilter(byFrequency(movieCounts), movieCounts),
+    ].join("\n"),
     main: [
       `<main class="movie-index">`,
       section("Now playing", nowPlaying),

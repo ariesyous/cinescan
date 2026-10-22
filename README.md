@@ -60,8 +60,10 @@ Live at: https://ariesyous.github.io/cinescan/
   after source changes and successful scrapes. At deploy time,
   `scripts/build-site.mjs` also generates a search-friendly page per theatre
   (`/cinescan/theatres/<slug>/`), a page per movie listing every theatre
-  showing it by format and date (`/cinescan/movies/<slug>/`, indexed at
-  `/cinescan/movies/`), a footer directory of all theatres, and
+  showing it by format and date, in collapsible province sections that
+  remember the visitor's province (`/cinescan/movies/<slug>/`, indexed at
+  `/cinescan/movies/`, which can be filtered by format), a footer
+  directory of all theatres, and
   `sitemap.xml` (submit it in Google Search Console). Both workflows restore the
   previous snapshot with `scripts/data-snapshot.mjs`; a restore failure
   stops the run rather than publishing incomplete data.
