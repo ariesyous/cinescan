@@ -12,7 +12,7 @@ for a user-facing overview.
 
 ## Architecture
 
-Three independent pieces, connected only through the JSON files in `data/`:
+Four pieces, connected only through the JSON files in `data/`:
 
 1. **`scripts/fetch-theatres.mjs`** (run manually, not scheduled) builds
    `data/theatres.json` — the manifest every other piece reads.
@@ -21,9 +21,19 @@ Three independent pieces, connected only through the JSON files in `data/`:
    `data/<slug>.json` per theatre. Per-theatre files live on the replaceable
    `data` branch. Existing source snapshots are frozen after the cutover
    and can then be untracked; the manifest remains on `master`.
-3. **`index.html`/`app.js`/`style.css`** (served as-is by GitHub Pages) reads
+3. **`index.html`/`app.js`/`style.css`** (servable as-is) reads
    `data/theatres.json` and the selected theatre's data file client-side.
-   Nothing server-side ever touches the frontend files.
+4. **`scripts/build-site.mjs`** (run only by `.github/workflows/pages.yml`)
+   copies the frontend and data into `_site/` and adds SEO pages on top:
+   a static page per theatre at `theatres/<slug>/` (own title, description,
+   canonical, JSON-LD, now-playing list), a footer directory of every
+   theatre, and `sitemap.xml`. It rewrites `index.html` via the
+   `<!--SITE_HEAD-->`/`<!--THEATRE_DIRECTORY-->` placeholders and a few
+   regexes (title, meta tags, canonical, `#theatre-name`, `<main>`), and
+   fails the deploy if any no longer match. Generated pages carry
+   `<meta name="cinescan-routing" content="path">` and a `<base>` pointing
+   at the site root; `app.js` then uses `theatres/<slug>/` URLs, while the
+   raw checkout keeps using `?theatre=<slug>`.
 
 There's no shared code between the scraper and the frontend — the JSON file
 shape *is* the contract between them. If you change what the scraper writes,
@@ -277,10 +287,16 @@ map:
   in `style.css`).
 - No build step. Don't add bundlers, TypeScript compilation, or frameworks
   unless explicitly asked — the site is meant to stay simple enough to
-  deploy by just pushing to `master`.
-- GitHub Pages deploys the `master` checkout plus the restored `data`
-  snapshot using `.github/workflows/pages.yml`. Any file at repo
-  root is publicly served as-is — this is a public repo, so don't add
+  deploy by just pushing to `master`. `build-site.mjs` only adds generated
+  pages at deploy time; the checkout must keep working when served as-is.
+- The landing page (no theatre in the URL) shows the default theatre but
+  keeps the home URL and title, so search engines index it as the home
+  page. Theatre titles are `<name> Showtimes | CineScan` in both `app.js`
+  and `build-site.mjs`; keep them identical.
+- GitHub Pages deploys `_site/` (built from the `master` checkout plus
+  the restored `data` snapshot) using `.github/workflows/pages.yml`. Only
+  `app.js`, `style.css`, `assets/`, `data/` and the generated HTML/sitemap
+  are published, and anything in them is publicly served as-is — this is a public repo, so don't add
   anything (real API keys beyond the already-public Cineplex one, personal
   data, etc.) that shouldn't be world-readable.
 
@@ -300,6 +316,7 @@ map:
   selected theatre's data file; session chips carry `session.formats` as
   color-coded badges, toggled by the filter bar.
 - `scripts/scrape.mjs` — see "Operating the scraper" and "Seat data" above.
+- `scripts/build-site.mjs` — see "Architecture" above.
 - `scripts/fetch-theatres.mjs` — regenerates `data/theatres.json` from
   Cineplex's theatre-list endpoint. Also assigns each theatre's `metro`
   field from a hand-maintained `METRO_CITIES` list — add a city there if a
@@ -315,6 +332,11 @@ map:
 - Run `node --test tests/data-snapshot.test.mjs` to check snapshot
   replacement, restoration, race refusal and invalid-data refusal against
   temporary local Git remotes. The Storage checks workflow runs these in CI.
+- Run `node --test tests/build-site.test.mjs` after changing `index.html`
+  or `build-site.mjs`; it builds against the real template. The Site checks
+  workflow runs it in CI. To preview the deployed shape, run
+  `node scripts/build-site.mjs _site` and serve `_site/` under a
+  `/cinescan/` path.
 - Run `node scripts/scrape.mjs` (or `SCRAPE_MODE=quick node scripts/scrape.mjs`
   for a much faster near-window-only pass) locally to regenerate `data/*.json`
   and sanity-check the output.

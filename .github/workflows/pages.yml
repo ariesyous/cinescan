@@ -60,11 +60,15 @@ jobs:
           path.write_text(path.read_text().replace("<!--CLARITY_SNIPPET-->", snippet))
           PY
 
+      # Per-theatre pages, footer directory and sitemap.xml for search engines.
+      - name: Build site
+        run: node scripts/build-site.mjs _site
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
       - name: Deploy to GitHub Pages
         id: deployment

@@ -1,0 +1,35 @@
+name: Site checks
+
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'app.js'
+      - 'style.css'
+      - 'assets/**'
+      - 'scripts/build-site.mjs'
+      - 'tests/build-site.test.mjs'
+      - '.github/workflows/site-checks.yml'
+  push:
+    branches: [master]
+    paths:
+      - 'index.html'
+      - 'app.js'
+      - 'style.css'
+      - 'assets/**'
+      - 'scripts/build-site.mjs'
+      - 'tests/build-site.test.mjs'
+      - '.github/workflows/site-checks.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - run: node --test tests/build-site.test.mjs

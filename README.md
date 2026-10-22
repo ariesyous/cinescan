@@ -57,7 +57,10 @@ Live at: https://ariesyous.github.io/cinescan/
   past showtimes drop off automatically since the scraper's window always
   starts at "today."
 - GitHub Pages deploys the `master` source plus the latest `data` snapshot
-  after source changes and successful scrapes. Both workflows restore the
+  after source changes and successful scrapes. At deploy time,
+  `scripts/build-site.mjs` also generates a search-friendly page per theatre
+  (`/cinescan/theatres/<slug>/`), a footer directory of all theatres, and
+  `sitemap.xml` (submit it in Google Search Console). Both workflows restore the
   previous snapshot with `scripts/data-snapshot.mjs`; a restore failure
   stops the run rather than publishing incomplete data.
 
