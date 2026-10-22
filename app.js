@@ -12,6 +12,14 @@ const theatreListEl = document.getElementById("theatre-list");
 
 const DEFAULT_THEATRE_ID = 7402; // Scotiabank Theatre Toronto
 
+// Deployed pages (built by scripts/build-site.mjs) have a static page per
+// theatre at theatres/<slug>/ and a <base> pointing at the site root, so
+// theatre URLs use those paths. index.html served straight from a checkout
+// has no such pages and uses ?theatre=<slug> instead.
+const PATH_ROUTING =
+  document.querySelector('meta[name="cinescan-routing"]')?.content === "path";
+const HOME_TITLE = document.title;
+
 const REGIONS = [
   { key: "GTA", label: "GTA" },
   { key: "Montreal", label: "Montreal" },
@@ -511,7 +519,8 @@ function renderNav(theatres = allTheatres) {
 // the filter to everything, which is what picking a theatre normally does.
 // `drill: false` loads the theatre's showtimes without auto-drilling the
 // nav into its region/area, leaving the top-level region buttons showing --
-// used for the no-slug landing page.
+// used for the no-slug landing page, which also keeps its own URL and title
+// so the home page doesn't present itself as the default theatre's page.
 function selectTheatre(theatre, theatres, { push = true, formats = null, drill = true } = {}) {
   currentTheatreId = theatre.id;
   currentRegion = drill ? regionForTheatre(theatre) : null;
@@ -522,8 +531,13 @@ function selectTheatre(theatre, theatres, { push = true, formats = null, drill =
   pendingUrlFormats = formats;
   loadTheatre(theatre, theatres);
 
-  const url = new URL(location.href);
-  url.searchParams.set("theatre", theatre.slug);
+  if (!drill) {
+    document.title = HOME_TITLE;
+    return;
+  }
+  document.title = `${theatre.name} Showtimes | CineScan`;
+
+  const url = theatreUrl(theatre.slug);
   if (formats) {
     url.searchParams.set("formats", formats.join(","));
   } else {
@@ -639,7 +653,6 @@ function setupTheatrePicker(theatres) {
 
 async function loadTheatre(theatre, theatres) {
   theatreNameEl.textContent = `Showtimes at ${theatre.name}`;
-  document.title = `CineScan — ${theatre.name}`;
   calendarEl.innerHTML = '<p class="loading">Loading showtimes&hellip;</p>';
   formatFilterEl.innerHTML = "";
   updatedEl.textContent = "";
@@ -678,6 +691,48 @@ function parseFormatsParam(params) {
   return raw ? raw.split(",") : null;
 }
 
+function theatreUrl(slug) {
+  const url = new URL(location.href);
+  if (PATH_ROUTING) {
+    url.pathname = new URL(`theatres/${slug}/`, document.baseURI).pathname;
+    url.searchParams.delete("theatre");
+  } else {
+    url.searchParams.set("theatre", slug);
+  }
+  return url;
+}
+
+function slugFromPath() {
+  if (!PATH_ROUTING) return null;
+  const rootPath = new URL(document.baseURI).pathname;
+  const match =
+    location.pathname.startsWith(rootPath) &&
+    location.pathname.slice(rootPath.length).match(/^theatres\/([^/]+)\/(?:index\.html)?$/);
+  return match ? match[1] : null;
+}
+
+// Whether this document was served as a theatre's own page, and so carries
+// that theatre's title/description/canonical rather than the home page's.
+const STARTED_ON_THEATRE_PAGE = Boolean(slugFromPath());
+
+function showTheatreFromLocation() {
+  // The ?theatre= fallback also keeps links shared before path routing
+  // working; selectTheatre then rewrites them to the theatre's path.
+  const slug = slugFromPath() || new URLSearchParams(location.search).get("theatre");
+  const urlTheatre = slug && allTheatres.find((t) => t.slug === slug);
+  if (!urlTheatre && STARTED_ON_THEATRE_PAGE) {
+    location.reload(); // e.g. Back to the home URL: load the real home page
+    return;
+  }
+  const theatre =
+    urlTheatre || allTheatres.find((t) => t.id === DEFAULT_THEATRE_ID) || allTheatres[0];
+  selectTheatre(theatre, allTheatres, {
+    push: false,
+    formats: parseFormatsParam(new URLSearchParams(location.search)),
+    drill: Boolean(urlTheatre),
+  });
+}
+
 async function main() {
   try {
     const res = await fetch("data/theatres.json", { cache: "no-store" });
@@ -687,25 +742,8 @@ async function main() {
 
     setupTheatrePicker(theatres);
 
-    window.addEventListener("popstate", () => {
-      const params = new URLSearchParams(location.search);
-      const slug = params.get("theatre");
-      const theatre = slug && allTheatres.find((t) => t.slug === slug);
-      if (theatre) {
-        selectTheatre(theatre, allTheatres, { push: false, formats: parseFormatsParam(params) });
-      }
-    });
-
-    const urlParams = new URLSearchParams(location.search);
-    const urlSlug = urlParams.get("theatre");
-    const urlTheatre = urlSlug && theatres.find((t) => t.slug === urlSlug);
-    const defaultTheatre =
-      urlTheatre || theatres.find((t) => t.id === DEFAULT_THEATRE_ID) || theatres[0];
-    selectTheatre(defaultTheatre, theatres, {
-      push: false,
-      formats: urlTheatre ? parseFormatsParam(urlParams) : null,
-      drill: Boolean(urlTheatre),
-    });
+    window.addEventListener("popstate", showTheatreFromLocation);
+    showTheatreFromLocation();
   } catch (err) {
     calendarEl.innerHTML = `<p class="error">Couldn't load theatres: ${err.message}</p>`;
   }
