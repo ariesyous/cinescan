@@ -32,9 +32,8 @@ Live at: https://ariesyous.github.io/cinescan/
 - `.github/workflows/scrape.yml` runs the scraper via GitHub Actions and
   publishes per-theatre files to a `data` branch with one parentless commit
   that is replaced when the snapshot changes. `data/theatres.json`
-  remains the source manifest on `master`. The existing tracked snapshots
-  are retained for the cutover and stop receiving commits after migration.
-  The near window runs 12
+  remains the source manifest on `master`; per-theatre files are not
+  tracked there. The near window runs 12
   times a day (roughly 8am, 1-10pm, and 1am ET, "quick" mode); the deep
   window only runs once a week (Thursday 1pm ET, "deep" mode, riding along
   with that slot's near-window run), since IMAX advance-sale dates don't
@@ -103,18 +102,10 @@ A manual bootstrap from known-good local files is also possible with
 `node scripts/data-snapshot.mjs publish ""`; never use an empty lease to
 replace an existing branch.
 
-The source branch retains its existing per-theatre files during the cutover.
-This lets scheduled scrape commits merge cleanly while this PR is open,
-instead of repeatedly conflicting with snapshot deletions. After the
-first migrated scrape and Pages deployment succeed, remove those frozen
-copies from the source index (keeping local copies if needed):
-
-```sh
-git rm --cached -- 'data/*.json' ':(exclude)data/theatres.json'
-```
-
-The new workflows already stop writing these files to source history;
-that follow-up removal only trims the current source checkout.
+`master` tracks only `data/theatres.json`; the per-theatre files that
+used to be committed there were untracked once the `data` branch was
+serving the site, and `.gitignore` keeps new ones out. Pulling that change
+removes them from an existing checkout, so run `restore` afterwards.
 
 This stops accumulating reachable scrape history. It does not remove old
 snapshots already in source history or in the research branches; shrinking

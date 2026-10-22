@@ -4,6 +4,6 @@ node_modules/
 _site/
 .env
 
-# Ignore generated snapshots; existing tracked copies stay through cutover.
+# Per-theatre snapshots live on the data branch; only the manifest is tracked.
 data/*.json
 !data/theatres.json

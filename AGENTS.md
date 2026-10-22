@@ -18,9 +18,8 @@ Four pieces, connected only through the JSON files in `data/`:
    `data/theatres.json` — the manifest every other piece reads.
 2. **`scripts/scrape.mjs`** (run on a schedule by GitHub Actions) reads
    `data/theatres.json`, hits Cineplex's API, and writes one
-   `data/<slug>.json` per theatre. Per-theatre files live on the replaceable
-   `data` branch. Existing source snapshots are frozen after the cutover
-   and can then be untracked; the manifest remains on `master`.
+   `data/<slug>.json` per theatre. Per-theatre files live only on the
+   replaceable `data` branch; the manifest remains on `master`.
 3. **`index.html`/`app.js`/`style.css`** (servable as-is) reads
    `data/theatres.json` and the selected theatre's data file client-side.
 4. **`scripts/build-site.mjs`** (run only by `.github/workflows/pages.yml`)
@@ -51,14 +50,11 @@ check `app.js` for what it expects to read, and vice versa.
 
 ## Snapshot storage
 
-`data/theatres.json` stays tracked on `master`. Per-theatre JSON files are
-ignored for new additions. Existing tracked snapshots are retained during
-the cutover so automated master updates cannot repeatedly conflict with
-their deletion while the PR is open. Once migrated, they are frozen:
-workflows never commit showtime data to master. After the first migrated
-scrape and Pages deployment pass, remove the frozen source copies with
-`git rm --cached -- 'data/*.json' ':(exclude)data/theatres.json'`.
-The `data` branch
+`data/theatres.json` is the only file under `data/` tracked on `master`.
+Per-theatre JSON files are ignored there (`.gitignore`) and workflows never
+commit showtime data to `master`; the copies committed before the
+migration were untracked once the `data` branch was serving the site. Don't
+re-add them. The `data` branch
 holds one parentless commit, replaced by each changed scrape snapshot.
 Never merge that branch or base source work on it.
 
