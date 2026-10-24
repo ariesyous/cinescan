@@ -30,7 +30,7 @@ import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const SITE_URL = "https://cinescan.app/";
-const COPY = ["app.js", "movie.js", "style.css", "assets", "data"];
+const COPY = ["app.js", "movie.js", "landing.js", "seat-map.js", "style.css", "assets", "data"];
 
 // Deliberate pilot, not a cross-product of cities and formats. Expand only
 // after Search Console has enough data to review these pages' usefulness.
@@ -147,6 +147,7 @@ function staticPage(template, { title, description, url, baseHref, structuredDat
         ``,
         `  ${footer}`,
         ``,
+        ...(script === "landing.js" ? [`  <script src="seat-map.js"></script>`] : []),
         ...(script ? [`  <script src="${script}"></script>`] : []),
         `</body>`,
       ].join("\n"),
@@ -696,10 +697,10 @@ function collectLandingSessions(page, theatres, dataBySlug, today) {
     const data = dataBySlug.get(theatre.slug);
     // Include all in-scope snapshots, even when their results are empty.
     if (data?.updatedAt > updatedAt) updatedAt = data.updatedAt;
-    for (const day of data?.days ?? []) {
+    for (const [dayIndex, day] of (data?.days ?? []).entries()) {
       if (day.date < today) continue;
-      for (const movie of day.movies) {
-        for (const session of movie.sessions) {
+      for (const [movieIndex, movie] of day.movies.entries()) {
+        for (const [sessionIndex, session] of movie.sessions.entries()) {
           if (page.format && !session.formats.includes(page.format)) continue;
           if (!/^\d{2}:\d{2}$/.test(session.time)) continue;
           const slug = movieSlug(movie.title);
@@ -711,8 +712,9 @@ function collectLandingSessions(page, theatres, dataBySlug, today) {
           const combos = showings.get(theatre.slug).combos;
           const formats = [...session.formats].sort();
           const key = formats.join("|");
-          if (!combos.has(key)) combos.set(key, { formats, times: [] });
-          combos.get(key).times.push(session.time);
+          if (!combos.has(key)) combos.set(key, { formats, sessions: [] });
+          combos.get(key).sessions.push({ session, pointer: [dayIndex, movieIndex, sessionIndex],
+            hasSeats: Boolean(session.seats && data.auditoriums?.[session.layoutKey]) });
           movieSlugs.add(slug);
           theatreSlugs.add(theatre.slug);
         }
@@ -740,8 +742,13 @@ function landingPage(template, page, results, today) {
           `          <section class="landing-theatre">`,
           `            <h4><a href="${theatrePath(theatre)}${formatQuery}">${escapeHtml(theatre.name)}</a> <span class="movie-theatre-city">${escapeHtml([theatre.city, theatre.province].filter(Boolean).join(", "))}</span></h4>`,
           `            <ul class="landing-sessions">`,
-          ...[...combos.values()].sort((a, b) => a.formats.join().localeCompare(b.formats.join())).map(({ formats, times }) =>
-            `              <li>${renderBadges(formats)} <span class="landing-times">${times.sort().map((time) => `<time datetime="${date}T${time}">${time}</time>`).join(" ")}</span></li>`),
+          ...[...combos.values()].sort((a, b) => a.formats.join().localeCompare(b.formats.join())).map(({ formats, sessions }) =>
+            `              <li>${renderBadges(formats)} <span class="landing-times">${sessions.sort((a, b) => a.session.time.localeCompare(b.session.time)).map(({ session, pointer, hasSeats }) => {
+              const href = /^https:\/\//.test(session.ticketUrl || "") ? session.ticketUrl : theatrePath(theatre) + formatQuery;
+              const target = /^https:\/\//.test(href) ? ' target="_blank" rel="noopener"' : "";
+              const preview = hasSeats ? ` data-file="${escapeHtml(theatre.file)}" data-session="${pointer.join(",")}" data-layout="${escapeHtml(session.layoutKey)}"` : "";
+              return `<a class="session${hasSeats ? " has-seats" : ""}" href="${escapeHtml(href)}"${target}${preview}><time datetime="${date}T${session.time}">${session.time}</time></a>`;
+            }).join(" ")}</span></li>`),
           `            </ul>`,
           `          </section>`,
         ].join("\n")),
@@ -764,7 +771,7 @@ function landingPage(template, page, results, today) {
     intro: [
       `    <p class="refresh-note">${page.city ? "Cineplex theatres in Toronto city limits, including North York and Scarborough; surrounding GTA cities are excluded." : "4DX sessions at Cineplex theatres across Canada."}</p>`,
       `    <p class="refresh-note">Dates from ${escapeHtml(formatDate(today))}, ${today.slice(0, 4)} onward (Toronto date). Times are in each theatre's local time, in 24-hour format. Today's earlier sessions may still appear.</p>`,
-      `    <p class="refresh-note">Snapshot data refreshes multiple times per day. Select a theatre for its calendar, tickets and seat availability.</p>`,
+      `    <p class="refresh-note">Hover or focus a time to preview seats where available. On touch screens, tap once for seats and again for tickets. Select a theatre for its full calendar. Snapshot data refreshes multiple times per day.</p>`,
       `    <p class="updated">${movieSlugs.size} movies · ${theatreSlugs.size} theatres · ${dates.length} dates${updatedAt ? ` · Latest snapshot: <time datetime="${escapeHtml(updatedAt)}">${escapeHtml(updatedAt.replace("T", " ").replace(/\.\d+Z$/, " UTC"))}</time>` : ""}</p>`,
     ].join("\n"),
     main: [
@@ -782,7 +789,7 @@ function landingPage(template, page, results, today) {
       ]),
       `  </main>`,
     ].join("\n"),
-    script: null, // Native disclosure controls work without JavaScript.
+    script: "landing.js", // Times, links and disclosure controls also work without JS.
   });
 }
 

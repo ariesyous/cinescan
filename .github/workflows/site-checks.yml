@@ -6,10 +6,13 @@ on:
       - 'index.html'
       - 'app.js'
       - 'movie.js'
+      - 'landing.js'
+      - 'seat-map.js'
       - 'style.css'
       - 'assets/**'
       - 'scripts/build-site.mjs'
       - 'tests/build-site.test.mjs'
+      - 'tests/seat-preview.test.mjs'
       - '.github/workflows/site-checks.yml'
   push:
     branches: [master]
@@ -17,10 +20,13 @@ on:
       - 'index.html'
       - 'app.js'
       - 'movie.js'
+      - 'landing.js'
+      - 'seat-map.js'
       - 'style.css'
       - 'assets/**'
       - 'scripts/build-site.mjs'
       - 'tests/build-site.test.mjs'
+      - 'tests/seat-preview.test.mjs'
       - '.github/workflows/site-checks.yml'
 
 permissions:
@@ -34,4 +40,4 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 24
-      - run: node --test tests/build-site.test.mjs
+      - run: node --test tests/build-site.test.mjs tests/seat-preview.test.mjs

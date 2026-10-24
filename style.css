@@ -491,6 +491,7 @@ a.session:hover {
 
 .seat-legend {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 0.5rem;
   font-size: 0.72rem;
@@ -929,6 +930,27 @@ a.session:hover {
   flex-wrap: wrap;
   align-items: center;
   gap: 0.35rem 0.65rem;
+}
+
+.landing-times .session {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 48px;
+  font-size: 0.9rem;
+}
+
+.session.seat-preview-active,
+.session:focus-visible {
+  background: var(--accent);
+  color: #fff;
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}
+
+#landing-seat-preview {
+  width: min(90vw, 320px);
 }
 
 .landing-sessions li + li {

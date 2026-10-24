@@ -52,8 +52,13 @@ Four pieces, connected only through the JSON files in `data/`:
    movie, theatre and format combination so a movie's other formats never
    leak in. Render actual local 24-hour times from dates >= Toronto today;
    today's earlier sessions may remain. Native date disclosure controls
-   and date-jump links work without JS; these pages load neither `app.js`
-   nor `movie.js`. Preserve stable canonical routes, shared footer links
+   and date-jump links work without JS; `landing.js` adds date auto-opening
+   and seat previews without loading `app.js` or `movie.js`. Seat previews
+   lazily cache a theatre's existing JSON and validate date/time/layoutKey
+   against the generated session indices before displaying it. Keep the
+   shared grid renderer in `seat-map.js` aligned across calendar/landing
+   pages. Desktop hover/focus and first-touch preview/second-touch ticket
+   navigation must keep working. Preserve stable canonical routes, shared footer links
    and sitemap entries even when empty, with useful broader browsing links
    and no claim that an empty snapshot means a format is unavailable.
    Don't expand the pilot until Search Console provides a usable baseline
@@ -319,7 +324,7 @@ map:
   and `build-site.mjs`; keep them identical.
 - GitHub Pages deploys `_site/` (built from the `master` checkout plus
   the restored `data` snapshot) using `.github/workflows/pages.yml`. Only
-  `app.js`, `movie.js`, `style.css`, `assets/`, `data/` and the generated HTML,
+  `app.js`, `movie.js`, `landing.js`, `seat-map.js`, `style.css`, `assets/`, `data/` and the generated HTML,
   sitemap and robots.txt are published at https://cinescan.app/. Anything in
   them is publicly served as-is — this is a public repo, so don't add
   anything (real API keys beyond the already-public Cineplex one, personal
@@ -334,6 +339,10 @@ map:
   the province a visitor last opened (`localStorage` key
   `cinescan:province`, set only from summary clicks so auto-opened
   sections never overwrite it) and reopens it on other movie pages.
+- `seat-map.js` — shared snapshot seat-grid/legend renderer, loaded before
+  `app.js` in the raw checkout and before `landing.js` on generated pilot
+  pages. `landing.js` handles lazy loading, highlighting, dismissal and
+  date jumps; it never requests Cineplex APIs.
 - `index.html`, `style.css`, `app.js` — the frontend. Plain HTML/CSS/vanilla
   JS on purpose. `app.js` builds a three-level drill-down picker from
   `data/theatres.json`: region buttons (GTA/Montreal/Vancouver/Everywhere
@@ -369,6 +378,9 @@ map:
   workflow runs it in CI. To preview the deployed shape, run
   `node scripts/build-site.mjs _site` and serve `_site/` at the server root
   (matching https://cinescan.app/).
+- Run `node --test tests/seat-preview.test.mjs` after changing seat previews.
+  These cover touch navigation, cache/race handling, unavailable snapshots
+  and the shared seat renderer; Site checks runs both test files.
 - Run `node scripts/scrape.mjs` (or `SCRAPE_MODE=quick node scripts/scrape.mjs`
   for a much faster near-window-only pass) locally to regenerate `data/*.json`
   and sanity-check the output.

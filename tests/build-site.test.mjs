@@ -17,7 +17,7 @@ const read = (root, file) => readFileSync(path.join(root, "out", file), "utf8");
 function fixture(t) {
   const root = mkdtempSync(path.join(tmpdir(), "cinescan-site-test-"));
   t.after(() => rmSync(root, { recursive: true, force: true }));
-  for (const entry of ["index.html", "app.js", "movie.js", "style.css", "assets"]) {
+  for (const entry of ["index.html", "app.js", "movie.js", "landing.js", "seat-map.js", "style.css", "assets"]) {
     cpSync(path.join(repo, entry), path.join(root, entry), { recursive: true });
   }
   mkdirSync(path.join(root, "data"));
@@ -94,7 +94,7 @@ test("builds theatre pages, home page and sitemap", (t) => {
     assert.ok(!html.includes("ariesyous.github.io"));
   }
 
-  for (const copied of ["app.js", "movie.js", "style.css", "assets/favicon.svg", "data/big-screen.json"]) {
+  for (const copied of ["app.js", "movie.js", "landing.js", "seat-map.js", "style.css", "assets/favicon.svg", "data/big-screen.json"]) {
     assert.ok(existsSync(path.join(root, "out", copied)), copied);
   }
 });
@@ -191,8 +191,8 @@ test("curated landing pages keep actual times with the matching city, date and f
     { date: "2000-01-01", movies: [{ title: "Expired IMAX", sessions: [{ time: "23:59", formats: ["IMAX", "4DX"] }] }] },
     { date: today, movies: [
       { title: 'Shared <Movie> & "Friends"', sessions: [
-        { time: "21:45", formats: ["IMAX", "3D"] },
-        { time: "10:05", formats: ["3D", "IMAX"] },
+        { time: "21:45", formats: ["IMAX", "3D"], layoutKey: "late", seats: ["AO"], ticketUrl: "https://example.test/ticket?one=1&two=2" },
+        { time: "10:05", formats: ["3D", "IMAX"], layoutKey: "early", seats: ["AA"] },
         { time: "14:20", formats: ["Regular"] },
         { time: "16:30", formats: ["4DX", "3D"] },
       ] },
@@ -201,6 +201,7 @@ test("curated landing pages keep actual times with the matching city, date and f
     ] },
     { date: "2099-12-18", movies: [{ title: "Advance IMAX", sessions: [{ time: "00:15", formats: ["IMAX"] }] }] },
   ];
+  data.auditoriums = { early: { totalColumns: 2, seatTypes: ["SS"] }, late: { totalColumns: 2, seatTypes: ["SD"] } };
   writeFileSync(file, JSON.stringify(data));
   // Same movie and format outside Toronto must not leak into city pages.
   const outside = path.join(root, "data/petit-ecran.json");
@@ -244,6 +245,12 @@ test("curated landing pages keep actual times with the matching city, date and f
   assert.match(imax, /local time, in 24-hour format/);
   assert.equal((main(imax).match(/<details[^>]* open>/g) || []).length, 1);
   assert.doesNotMatch(imax, /<script src="(?:app|movie).js"/);
+  assert.match(imax, /<script src="seat-map.js"><\/script>\n  <script src="landing.js"><\/script>/);
+  assert.match(main(imax), /data-session="1,0,1" data-layout="early"><time[^>]+>10:05/);
+  assert.match(main(imax), /data-session="1,0,0" data-layout="late"><time[^>]+>21:45/);
+  assert.match(main(imax), /href="https:\/\/example.test\/ticket\?one=1&amp;two=2"/);
+  assert.match(main(imax), /href="cities\/toronto\/imax\/#date-2099-12-18"/);
+  assert.match(main(imax), /id="date-2099-12-18"/);
 
   const sitemap = read(root, "sitemap.xml");
   const paths = ["cities/toronto/", "cities/toronto/imax/", "formats/4dx/"];
