@@ -3,7 +3,7 @@ import { spawnSync } from "node:child_process";
 import { cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import test from "node:test";
 
 const repo = fileURLToPath(new URL("..", import.meta.url));
@@ -81,7 +81,7 @@ test("builds theatre pages, home page and sitemap", (t) => {
   assert.match(home, /All 3 Cineplex theatres in Canada/);
 
   const sitemap = read(root, "sitemap.xml");
-  assert.equal(sitemap.match(/<url>/g).length, 7);
+  assert.equal(sitemap.match(/<url>/g).length, 10);
   assert.match(sitemap, new RegExp(`<loc>${SITE}</loc><lastmod>2026-10-08T00:00:00.000Z</lastmod>`));
   assert.match(sitemap, new RegExp(`<loc>${SITE}movies/</loc>`));
   assert.match(sitemap, new RegExp(`<loc>${SITE}movies/now-showing/</loc><lastmod>2026-10-08T00:00:00.000Z</lastmod>`));
@@ -181,6 +181,120 @@ test("collapses wide releases, biggest province first, and hides extra badges", 
   assert.deepEqual(badges.map((m) => [m[1], Boolean(m[2])]), [
     ["4DX", false], ["70mm", false], ["IMAX", false], ["ScreenX", false], ["UltraAVX", true],
   ]);
+});
+
+test("curated landing pages keep actual times with the matching city, date and format", (t) => {
+  const root = fixture(t);
+  const file = path.join(root, "data/big-screen.json");
+  const data = JSON.parse(readFileSync(file, "utf8"));
+  data.days = [
+    { date: "2000-01-01", movies: [{ title: "Expired IMAX", sessions: [{ time: "23:59", formats: ["IMAX", "4DX"] }] }] },
+    { date: today, movies: [
+      { title: 'Shared <Movie> & "Friends"', sessions: [
+        { time: "21:45", formats: ["IMAX", "3D"] },
+        { time: "10:05", formats: ["3D", "IMAX"] },
+        { time: "14:20", formats: ["Regular"] },
+        { time: "16:30", formats: ["4DX", "3D"] },
+      ] },
+      { title: "Regular Only", sessions: [{ time: "18:15", formats: ["Regular"] }] },
+      { title: "No Sessions", sessions: [] },
+    ] },
+    { date: "2099-12-18", movies: [{ title: "Advance IMAX", sessions: [{ time: "00:15", formats: ["IMAX"] }] }] },
+  ];
+  writeFileSync(file, JSON.stringify(data));
+  // Same movie and format outside Toronto must not leak into city pages.
+  const outside = path.join(root, "data/petit-ecran.json");
+  writeFileSync(outside, JSON.stringify({ updatedAt: "2026-10-08T00:00:00.000Z", days: [
+    { date: today, movies: [{ title: 'Shared <Movie> & "Friends"', sessions: [
+      { time: "22:22", formats: ["IMAX"] }, { time: "23:23", formats: ["4DX"] },
+    ] }] },
+  ] }));
+  const manifest = path.join(root, "data/theatres.json");
+  const theatres = JSON.parse(readFileSync(manifest, "utf8"));
+  theatres.push({ ...theatres[2], id: 4, slug: "gta-cinema", name: "GTA Cinema", city: "Vaughan", province: "ON", metro: "GTA", file: "data/gta-cinema.json" });
+  writeFileSync(manifest, JSON.stringify(theatres));
+  writeFileSync(path.join(root, "data/gta-cinema.json"), JSON.stringify({days: [
+    {date: today, movies: [{title: "Outside City", sessions: [{time: "20:20", formats: ["IMAX"]}]}]},
+  ]}));
+  assert.equal(run(root, "out").status, 0);
+
+  const toronto = read(root, "cities/toronto/index.html");
+  const imax = read(root, "cities/toronto/imax/index.html");
+  const fourDx = read(root, "formats/4dx/index.html");
+  const main = (html) => html.match(/<main class="landing-page">[\s\S]*?<\/main>/)[0];
+  assert.match(main(toronto), /Regular Only/);
+  assert.match(main(toronto), /14:20/);
+  assert.match(main(toronto), /16:30/);
+  assert.match(main(toronto), /Shared &lt;Movie&gt; &amp; &quot;Friends&quot;/);
+  assert.match(main(imax), new RegExp(`<time datetime="${today}T10:05">10:05</time>`));
+  assert.ok(main(imax).indexOf("10:05") < main(imax).indexOf("21:45"));
+  assert.match(main(imax), /2099-12-18T00:15/);
+  assert.match(main(imax), /tag-3d">3D/);
+  assert.match(main(imax), /href="theatres\/big-screen\/\?formats=IMAX"/);
+  assert.match(main(imax), /href="movies\/shared-movie-and-friends\/\?formats=IMAX"/);
+  assert.doesNotMatch(main(imax), /14:20|16:30|22:22|23:23|Regular Only|Outside City|No Sessions|Expired IMAX/);
+  assert.doesNotMatch(main(toronto), /22:22|23:23|Outside City|No Sessions|Expired IMAX/);
+  assert.match(main(fourDx), /16:30/);
+  assert.match(main(fourDx), /23:23/);
+  assert.match(main(fourDx), /Montréal, QC/);
+  assert.doesNotMatch(main(fourDx), /10:05|21:45|14:20|22:22|Advance IMAX|Expired IMAX/);
+  assert.match(imax, /<base href="\.\.\/\.\.\/\.\.\/"/);
+  assert.match(toronto, /<base href="\.\.\/\.\.\/"/);
+  assert.match(imax, /<title>IMAX showtimes in Toronto \| CineScan<\/title>/);
+  assert.match(imax, /local time, in 24-hour format/);
+  assert.equal((main(imax).match(/<details[^>]* open>/g) || []).length, 1);
+  assert.doesNotMatch(imax, /<script src="(?:app|movie).js"/);
+
+  const sitemap = read(root, "sitemap.xml");
+  const paths = ["cities/toronto/", "cities/toronto/imax/", "formats/4dx/"];
+  for (const [index, pagePath] of paths.entries()) {
+    const html = [toronto, imax, fourDx][index];
+    assert.ok(html.includes(`<link rel="canonical" href="${SITE}${pagePath}" />`));
+    assert.ok(html.includes(`<meta property="og:url" content="${SITE}${pagePath}"`));
+    assert.ok(html.includes(`href="${pagePath}" aria-current="page"`));
+    assert.ok(sitemap.includes(`<loc>${SITE}${pagePath}</loc>`));
+    for (const source of ["index.html", "movies/index.html", "movies/shared-movie-and-friends/index.html", "theatres/big-screen/index.html"]) {
+      assert.ok(read(root, source).includes(`href="${pagePath}"`), source);
+    }
+  }
+  assert.equal((sitemap.match(/<loc>[^<]+\/(?:cities|formats)\//g) || []).length, 3);
+});
+
+test("empty and missing snapshots retain useful pilot routes and broader navigation", (t) => {
+  const root = fixture(t);
+  for (const file of ["big-screen", "petit-ecran"]) rmSync(path.join(root, `data/${file}.json`));
+  assert.equal(run(root, "out").status, 0);
+  for (const route of ["cities/toronto/", "cities/toronto/imax/", "formats/4dx/"]) {
+    const page = read(root, `${route}index.html`);
+    assert.match(page, /No matching showtimes in this snapshot/);
+    assert.match(page, /does not mean a theatre is closed/);
+    assert.match(page, /0 movies · 0 theatres · 0 dates/);
+    assert.match(page, /href="movies\/">Browse all movies/);
+    assert.match(page, /href="\.\/">check a theatre calendar/);
+    assert.doesNotMatch(page, /<details class="landing-day"/);
+    assert.ok(read(root, "sitemap.xml").includes(`<loc>${SITE}${route}</loc>`));
+  }
+});
+
+test("landing-page date cutoff follows Toronto midnight, even when the host uses UTC", (t) => {
+  const root = fixture(t);
+  writeFileSync(path.join(root, "data/big-screen.json"), JSON.stringify({ days: [
+    { date: "2030-05-30", movies: [{title: "Too Old", sessions: [{ time: "19:00", formats: ["IMAX"] }]}] },
+    { date: "2030-05-31", movies: [{title: "Toronto Today", sessions: [{ time: "00:01", formats: ["IMAX"] }]}] },
+    { date: "2030-06-01", movies: [{title: "Tomorrow", sessions: [{ time: "19:00", formats: ["IMAX"] }]}] },
+  ] }));
+  const clock = path.join(root, "clock.mjs");
+  for (const [instant, includesMay31] of [["2030-06-01T03:59:00Z", true], ["2030-06-01T04:01:00Z", false]]) {
+    writeFileSync(clock, `const OriginalDate = Date; globalThis.Date = class extends OriginalDate {
+      constructor(...args) { super(...(args.length ? args : [${JSON.stringify(instant)}])); }
+    };`);
+    const result = spawnSync(process.execPath, ["--import", pathToFileURL(clock).href, script, "out"], { cwd: root, encoding: "utf8", env: { ...process.env, TZ: "UTC" } });
+    assert.equal(result.status, 0, result.stderr);
+    const page = read(root, "cities/toronto/imax/index.html");
+    assert.equal(page.includes("Toronto Today"), includesMay31, instant);
+    assert.ok(page.includes("Tomorrow"));
+    assert.ok(!page.includes("Too Old"));
+  }
 });
 
 test("fails when index.html no longer has a placeholder", (t) => {

@@ -11,6 +11,8 @@
 //   it, with each format combination's dates, plus a movies/ index. These
 //   don't load app.js; movie.js adds format filters (and, on movie pages,
 //   reopens the visitor's province) on top.
+// - Three curated city/format pages with actual session times, using native
+//   date disclosure controls. LANDING_PAGES defines the bounded pilot.
 // - A crawlable directory of every theatre in each page's footer, since the
 //   region picker is built from buttons rather than links.
 // - sitemap.xml listing every page and a root robots.txt advertising it.
@@ -29,6 +31,14 @@ import path from "node:path";
 
 const SITE_URL = "https://cinescan.app/";
 const COPY = ["app.js", "movie.js", "style.css", "assets", "data"];
+
+// Deliberate pilot, not a cross-product of cities and formats. Expand only
+// after Search Console has enough data to review these pages' usefulness.
+const LANDING_PAGES = [
+  { path: "cities/toronto/", heading: "Toronto movie showtimes", city: "Toronto", province: "ON" },
+  { path: "cities/toronto/imax/", heading: "IMAX showtimes in Toronto", city: "Toronto", province: "ON", format: "IMAX" },
+  { path: "formats/4dx/", heading: "4DX movies and showtimes in Canada", format: "4DX" },
+];
 
 const PROVINCE_NAMES = {
   AB: "Alberta",
@@ -116,7 +126,7 @@ function injectSiteHead(html, baseHref, structuredData) {
 
 // A page that shares index.html's <head> (analytics, styles, social tags),
 // brand line and footer, but has its own body instead of the theatre app.
-function staticPage(template, { title, description, url, baseHref, structuredData, heading, intro, main }) {
+function staticPage(template, { title, description, url, baseHref, structuredData, heading, intro, main, script = "movie.js" }) {
   const brand = extract(template, /<p class="brand">[\s\S]*?<\/p>/, "brand line");
   const footer = extract(template, /<footer class="site-footer">[\s\S]*?<\/footer>/, "site footer");
   let html = setPageMeta(template, { title, description, url });
@@ -137,7 +147,7 @@ function staticPage(template, { title, description, url, baseHref, structuredDat
         ``,
         `  ${footer}`,
         ``,
-        `  <script src="movie.js"></script>`,
+        ...(script ? [`  <script src="${script}"></script>`] : []),
         `</body>`,
       ].join("\n"),
     "<body>"
@@ -667,6 +677,115 @@ function homePage(template) {
   });
 }
 
+function renderLandingNav(currentPath) {
+  return `<nav class="landing-nav" aria-label="Browse showtimes">${LANDING_PAGES.map((page) =>
+    `<a href="${page.path}"${page.path === currentPath ? ' aria-current="page"' : ""}>${escapeHtml(page.heading)}</a>`
+  ).join(" ")}</nav>`;
+}
+
+// Keep each time attached to its date, movie, theatre and exact format
+// combination. Filtering happens before grouping so other sessions of the
+// same movie never leak into a format-specific answer.
+function collectLandingSessions(page, theatres, dataBySlug, today) {
+  const days = new Map();
+  const movieSlugs = new Set();
+  const theatreSlugs = new Set();
+  let updatedAt = "";
+  for (const theatre of theatres) {
+    if (page.city && (theatre.city !== page.city || theatre.province !== page.province)) continue;
+    const data = dataBySlug.get(theatre.slug);
+    // Include all in-scope snapshots, even when their results are empty.
+    if (data?.updatedAt > updatedAt) updatedAt = data.updatedAt;
+    for (const day of data?.days ?? []) {
+      if (day.date < today) continue;
+      for (const movie of day.movies) {
+        for (const session of movie.sessions) {
+          if (page.format && !session.formats.includes(page.format)) continue;
+          if (!/^\d{2}:\d{2}$/.test(session.time)) continue;
+          const slug = movieSlug(movie.title);
+          if (!days.has(day.date)) days.set(day.date, new Map());
+          const movies = days.get(day.date);
+          if (!movies.has(slug)) movies.set(slug, { slug, title: movie.title, theatres: new Map() });
+          const showings = movies.get(slug).theatres;
+          if (!showings.has(theatre.slug)) showings.set(theatre.slug, { theatre, combos: new Map() });
+          const combos = showings.get(theatre.slug).combos;
+          const formats = [...session.formats].sort();
+          const key = formats.join("|");
+          if (!combos.has(key)) combos.set(key, { formats, times: [] });
+          combos.get(key).times.push(session.time);
+          movieSlugs.add(slug);
+          theatreSlugs.add(theatre.slug);
+        }
+      }
+    }
+  }
+  return { days, movieSlugs, theatreSlugs, updatedAt };
+}
+
+function landingPage(template, page, results, today) {
+  const { days, movieSlugs, theatreSlugs, updatedAt } = results;
+  const url = SITE_URL + page.path;
+  const description = `${page.heading} at Cineplex: compare movies, theatres, formats, dates and actual session times from the latest snapshot.`;
+  const formatQuery = page.format ? `?formats=${encodeURIComponent(page.format)}` : "";
+  const dates = [...days.keys()].sort();
+  const sections = dates.map((date, index) => {
+    const movies = [...days.get(date).values()].sort((a, b) => a.title.localeCompare(b.title));
+    const rows = movies.map((movie) => {
+      const theatres = [...movie.theatres.values()].sort((a, b) =>
+        (a.theatre.city || "").localeCompare(b.theatre.city || "") || a.theatre.name.localeCompare(b.theatre.name));
+      return [
+        `        <section class="landing-movie">`,
+        `          <h3><a href="${moviePath(movie.slug)}${formatQuery}">${escapeHtml(movie.title)}</a></h3>`,
+        ...theatres.map(({ theatre, combos }) => [
+          `          <section class="landing-theatre">`,
+          `            <h4><a href="${theatrePath(theatre)}${formatQuery}">${escapeHtml(theatre.name)}</a> <span class="movie-theatre-city">${escapeHtml([theatre.city, theatre.province].filter(Boolean).join(", "))}</span></h4>`,
+          `            <ul class="landing-sessions">`,
+          ...[...combos.values()].sort((a, b) => a.formats.join().localeCompare(b.formats.join())).map(({ formats, times }) =>
+            `              <li>${renderBadges(formats)} <span class="landing-times">${times.sort().map((time) => `<time datetime="${date}T${time}">${time}</time>`).join(" ")}</span></li>`),
+          `            </ul>`,
+          `          </section>`,
+        ].join("\n")),
+        `        </section>`,
+      ].join("\n");
+    });
+    return [
+      `    <details class="landing-day" id="date-${date}"${index === 0 ? " open" : ""}>`,
+      `      <summary><h2><time datetime="${date}">${escapeHtml(formatDate(date))}, ${date.slice(0, 4)}</time></h2> <span>${movies.length} ${movies.length === 1 ? "movie" : "movies"}</span></summary>`,
+      ...rows,
+      `    </details>`,
+    ].join("\n");
+  });
+  return staticPage(template, {
+    title: `${page.heading} | CineScan`, description, url,
+    baseHref: "../".repeat(page.path.split("/").length - 1),
+    structuredData: { "@context": "https://schema.org", "@type": "CollectionPage", name: page.heading, url, description,
+      ...(updatedAt ? { dateModified: updatedAt } : {}) },
+    heading: escapeHtml(page.heading),
+    intro: [
+      `    <p class="refresh-note">${page.city ? "Cineplex theatres in Toronto city limits, including North York and Scarborough; surrounding GTA cities are excluded." : "4DX sessions at Cineplex theatres across Canada."}</p>`,
+      `    <p class="refresh-note">Dates from ${escapeHtml(formatDate(today))}, ${today.slice(0, 4)} onward (Toronto date). Times are in each theatre's local time, in 24-hour format. Today's earlier sessions may still appear.</p>`,
+      `    <p class="refresh-note">Snapshot data refreshes multiple times per day. Select a theatre for its calendar, tickets and seat availability.</p>`,
+      `    <p class="updated">${movieSlugs.size} movies · ${theatreSlugs.size} theatres · ${dates.length} dates${updatedAt ? ` · Latest snapshot: <time datetime="${escapeHtml(updatedAt)}">${escapeHtml(updatedAt.replace("T", " ").replace(/\.\d+Z$/, " UTC"))}</time>` : ""}</p>`,
+    ].join("\n"),
+    main: [
+      `<main class="landing-page">`,
+      renderLandingNav(page.path),
+      ...(dates.length > 1 ? [
+        `    <details class="landing-date-picker"><summary>Jump to a date (${dates.length} available)</summary>`,
+        `      <nav class="landing-nav" aria-label="Available dates">${dates.map((date) => `<a href="${page.path}#date-${date}">${escapeHtml(formatDate(date))}, ${date.slice(0, 4)}</a>`).join(" ")}</nav>`,
+        `    </details>`,
+      ] : []),
+      ...(sections.length ? sections : [
+        `    <section class="landing-empty"><h2>No matching showtimes in this snapshot</h2>`,
+        `      <p>No ${page.format ? escapeHtml(page.format) + " " : ""}sessions are listed for ${page.city ? "Toronto" : "Canada"} from today onward. Schedules can be added later, and a missing listing does not mean a theatre is closed or a format is unavailable.</p>`,
+        `      <p><a href="movies/">Browse all movies</a> or <a href="./">check a theatre calendar</a>, and check back after the next update.</p></section>`,
+      ]),
+      `  </main>`,
+    ].join("\n"),
+    script: null, // Native disclosure controls work without JavaScript.
+  });
+}
+
 function sitemap(entries) {
   const urls = entries.map(({ url, lastmod }) => {
     const mod = lastmod ? `<lastmod>${escapeHtml(lastmod)}</lastmod>` : "";
@@ -727,7 +846,7 @@ async function main() {
   let shared = replaceOnce(
     template,
     /<!--THEATRE_DIRECTORY-->/,
-    () => renderDirectory(theatres),
+    () => renderLandingNav() + "\n    " + renderDirectory(theatres),
     "<!--THEATRE_DIRECTORY--> placeholder"
   );
   shared = replaceOnce(
@@ -751,6 +870,13 @@ async function main() {
   }
   await writePage(outDir, "movies/", moviesIndexPage(shared, movies, today));
 
+  const landingEntries = [];
+  for (const page of LANDING_PAGES) {
+    const results = collectLandingSessions(page, theatres, dataBySlug, today);
+    await writePage(outDir, page.path, landingPage(shared, page, results, today));
+    landingEntries.push({ url: SITE_URL + page.path, lastmod: results.updatedAt });
+  }
+
   const latest = theatreEntries.map((e) => e.lastmod).filter(Boolean).sort().at(-1);
   await writeFile(path.join(outDir, "index.html"), homePage(shared));
   await writeFile(path.join(outDir, "404.html"), notFoundPage(shared));
@@ -761,6 +887,7 @@ async function main() {
       { url: SITE_URL + "movies/", lastmod: latest },
       ...movieEntries,
       ...theatreEntries,
+      ...landingEntries,
     ])
   );
 

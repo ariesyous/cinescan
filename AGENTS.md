@@ -45,6 +45,20 @@ Four pieces, connected only through the JSON files in `data/`:
    are duplicated in `app.js` and `build-site.mjs`; keep each pair
    identical. Titles that slug the same share a movie page.
 
+   The curated city/format pilot adds exactly `cities/toronto/`,
+   `cities/toronto/imax/` and `formats/4dx/` from `LANDING_PAGES` in the
+   generator. Toronto means manifest city `Toronto`, province `ON`, not
+   the GTA metro. Filter individual sessions before grouping by date,
+   movie, theatre and format combination so a movie's other formats never
+   leak in. Render actual local 24-hour times from dates >= Toronto today;
+   today's earlier sessions may remain. Native date disclosure controls
+   and date-jump links work without JS; these pages load neither `app.js`
+   nor `movie.js`. Preserve stable canonical routes, shared footer links
+   and sitemap entries even when empty, with useful broader browsing links
+   and no claim that an empty snapshot means a format is unavailable.
+   Don't expand the pilot until Search Console provides a usable baseline
+   and its search performance has been reviewed (issue #7 follow-up).
+
 There's no shared code between the scraper and the frontend — the JSON file
 shape *is* the contract between them. If you change what the scraper writes,
 check `app.js` for what it expects to read, and vice versa.
