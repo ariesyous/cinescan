@@ -491,6 +491,7 @@ a.session:hover {
 
 .seat-legend {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 0.5rem;
   font-size: 0.72rem;
@@ -835,6 +836,57 @@ a.session:hover {
 .movie-card-meta {
   font-size: 0.72rem;
   color: var(--muted);
+}
+
+/* Pilot pages reuse .calendar, .day-card, .movie and .session unchanged. */
+.landing-nav {
+  margin: 0.75rem 0;
+}
+
+.landing-nav a {
+  text-decoration: none;
+}
+
+.landing-theatre + .landing-theatre {
+  margin-top: 0.65rem;
+}
+
+.landing-theatre-name {
+  margin: 0 0 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 400;
+  overflow-wrap: break-word;
+}
+
+.landing-theatre-name a {
+  color: var(--muted);
+}
+
+.landing-date-select {
+  display: block;
+  max-width: 260px;
+  margin: 0.35rem auto 0;
+}
+
+.landing-poster-placeholder {
+  width: 56px;
+  height: 82px;
+  border-radius: 6px;
+  background: #333;
+  flex-shrink: 0;
+}
+
+.session.seat-preview-active {
+  background: var(--accent);
+  color: #fff;
+}
+
+#landing-seat-preview {
+  width: min(90vw, 320px);
+}
+
+.landing-empty a {
+  color: var(--accent);
 }
 
 .not-found {
