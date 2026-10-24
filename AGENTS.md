@@ -32,8 +32,8 @@ Four pieces, connected only through the JSON files in `data/`:
    many theatres show it; releases at ≤6 theatres or in one province start
    expanded), a `movies/` index (now playing / coming soon), both with a
    `movie.js` format filter, a footer directory of every
-   theatre, `404.html` and `sitemap.xml`. Only dates from today (Toronto)
-   onward count. It rewrites `index.html` via the
+   theatre, `404.html`, `sitemap.xml` and `robots.txt`. Only dates from today
+   (Toronto) onward count. It rewrites `index.html` via the
    `<!--SITE_HEAD-->`/`<!--SITE_NAV-->`/`<!--THEATRE_DIRECTORY-->`
    placeholders and a few regexes (title, meta tags, canonical,
    `#theatre-name`, `<main>`, brand line, footer, `<body>` for movie
@@ -305,8 +305,9 @@ map:
   and `build-site.mjs`; keep them identical.
 - GitHub Pages deploys `_site/` (built from the `master` checkout plus
   the restored `data` snapshot) using `.github/workflows/pages.yml`. Only
-  `app.js`, `movie.js`, `style.css`, `assets/`, `data/` and the generated HTML/sitemap
-  are published, and anything in them is publicly served as-is — this is a public repo, so don't add
+  `app.js`, `movie.js`, `style.css`, `assets/`, `data/` and the generated HTML,
+  sitemap and robots.txt are published at https://cinescan.app/. Anything in
+  them is publicly served as-is — this is a public repo, so don't add
   anything (real API keys beyond the already-public Cineplex one, personal
   data, etc.) that shouldn't be world-readable.
 
@@ -352,8 +353,8 @@ map:
 - Run `node --test tests/build-site.test.mjs` after changing `index.html`
   or `build-site.mjs`; it builds against the real template. The Site checks
   workflow runs it in CI. To preview the deployed shape, run
-  `node scripts/build-site.mjs _site` and serve `_site/` under a
-  `/cinescan/` path.
+  `node scripts/build-site.mjs _site` and serve `_site/` at the server root
+  (matching https://cinescan.app/).
 - Run `node scripts/scrape.mjs` (or `SCRAPE_MODE=quick node scripts/scrape.mjs`
   for a much faster near-window-only pass) locally to regenerate `data/*.json`
   and sanity-check the output.

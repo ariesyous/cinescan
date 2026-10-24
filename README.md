@@ -5,7 +5,7 @@ theatre in Canada — every movie, every format (Regular, IMAX, UltraAVX,
 ScreenX, 4DX, VIP, and their modifiers like 3D, D-BOX, Laser Projection,
 Dolby Atmos) — filterable and visually distinguishable by format.
 
-Live at: https://ariesyous.github.io/cinescan/
+Live at: https://cinescan.app/
 
 ## How it works
 
@@ -59,12 +59,12 @@ Live at: https://ariesyous.github.io/cinescan/
 - GitHub Pages deploys the `master` source plus the latest `data` snapshot
   after source changes and successful scrapes. At deploy time,
   `scripts/build-site.mjs` also generates a search-friendly page per theatre
-  (`/cinescan/theatres/<slug>/`), a page per movie listing every theatre
+  (`/theatres/<slug>/`), a page per movie listing every theatre
   showing it by format and date, in collapsible province sections that
-  remember the visitor's province (`/cinescan/movies/<slug>/`, indexed at
-  `/cinescan/movies/`, which can be filtered by format), a footer
+  remember the visitor's province (`/movies/<slug>/`, indexed at
+  `/movies/`, which can be filtered by format), a footer
   directory of all theatres, and
-  `sitemap.xml` (submit it in Google Search Console). Both workflows restore the
+  `sitemap.xml`, advertised by `robots.txt`. Both workflows restore the
   previous snapshot with `scripts/data-snapshot.mjs`; a restore failure
   stops the run rather than publishing incomplete data.
 
@@ -72,6 +72,30 @@ Since the Cineplex API is unofficial and reverse-engineered, it may change
 or break without notice — the scraper is written to skip bad/missing days
 rather than overwrite good data with empty results, and to leave a
 theatre's data file untouched entirely if every request for it fails.
+
+## Custom domain
+
+GitHub Pages still hosts the site; Cloudflare manages DNS for `cinescan.app`.
+The repository's **Settings → Pages → Custom domain** must be `cinescan.app`,
+with **Enforce HTTPS** enabled once GitHub has issued its certificate.
+Cloudflare DNS uses these records, both with **DNS only** proxy status:
+
+| Type | Name | Target | TTL |
+| --- | --- | --- | --- |
+| CNAME | `@` | `ariesyous.github.io` | Auto |
+| CNAME | `www` | `ariesyous.github.io` | Auto |
+
+Cloudflare flattens the apex CNAME into GitHub Pages' IP addresses. GitHub
+redirects `www.cinescan.app` and the old GitHub Pages URL to `cinescan.app`,
+preserving page paths. DNS targets must exclude the repository's `/cinescan/`
+path. The site is published through GitHub Actions, so a repository `CNAME`
+file is ignored; the Pages custom-domain setting controls the domain.
+
+`index.html` and `scripts/build-site.mjs` use `https://cinescan.app/` for
+canonical URLs, social previews, structured data and the sitemap. Preview
+the deployable site with `node scripts/build-site.mjs _site` and serve
+`_site/` at the server root. The sitemap is at
+https://cinescan.app/sitemap.xml.
 
 ## Snapshot storage
 

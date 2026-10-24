@@ -8,7 +8,7 @@ import test from "node:test";
 
 const repo = fileURLToPath(new URL("..", import.meta.url));
 const script = path.join(repo, "scripts/build-site.mjs");
-const SITE = "https://ariesyous.github.io/cinescan/";
+const SITE = "https://cinescan.app/";
 const run = (cwd, ...args) => spawnSync(process.execPath, [script, ...args], { cwd, encoding: "utf8" });
 const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" });
 const read = (root, file) => readFileSync(path.join(root, "out", file), "utf8");
@@ -87,6 +87,12 @@ test("builds theatre pages, home page and sitemap", (t) => {
   assert.match(sitemap, new RegExp(`<loc>${SITE}movies/now-showing/</loc><lastmod>2026-10-08T00:00:00.000Z</lastmod>`));
   assert.match(sitemap, new RegExp(`<loc>${SITE}theatres/no-data/</loc></url>`));
   assert.doesNotMatch(sitemap, /gone-already/);
+  assert.equal(read(root, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}sitemap.xml\n`);
+
+  for (const html of [home, page, bare, read(root, "movies/index.html"), read(root, "movies/now-showing/index.html")]) {
+    assert.ok(html.includes(`content="${SITE}assets/cinescan-social-preview.jpg"`));
+    assert.ok(!html.includes("ariesyous.github.io"));
+  }
 
   for (const copied of ["app.js", "movie.js", "style.css", "assets/favicon.svg", "data/big-screen.json"]) {
     assert.ok(existsSync(path.join(root, "out", copied)), copied);
@@ -144,7 +150,7 @@ test("builds a page per movie across theatres, and a movies index", (t) => {
   assert.match(index, /data-opens="Opens Fri, Dec 18">/);
 
   const notFound = read(root, "404.html");
-  assert.match(notFound, /<base href="\/cinescan\/" \/>/);
+  assert.match(notFound, /<base href="\/" \/>/);
   assert.match(notFound, /<a href="movies\/">Browse movies now playing<\/a>/);
 });
 

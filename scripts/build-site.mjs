@@ -13,8 +13,7 @@
 //   reopens the visitor's province) on top.
 // - A crawlable directory of every theatre in each page's footer, since the
 //   region picker is built from buttons rather than links.
-// - sitemap.xml listing every page. GitHub Pages project sites can't serve a
-//   root robots.txt, so submit it via Google Search Console instead.
+// - sitemap.xml listing every page and a root robots.txt advertising it.
 //
 // Every generated page carries <meta name="cinescan-routing" content="path">,
 // which tells app.js to use theatres/<slug>/ URLs instead of ?theatre=<slug>
@@ -28,7 +27,7 @@
 import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-const SITE_URL = "https://ariesyous.github.io/cinescan/";
+const SITE_URL = "https://cinescan.app/";
 const COPY = ["app.js", "movie.js", "style.css", "assets", "data"];
 
 const PROVINCE_NAMES = {
@@ -763,6 +762,11 @@ async function main() {
       ...movieEntries,
       ...theatreEntries,
     ])
+  );
+
+  await writeFile(
+    path.join(outDir, "robots.txt"),
+    `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}sitemap.xml\n`
   );
 
   const missing = theatres.length - dataBySlug.size;
