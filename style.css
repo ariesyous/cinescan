@@ -838,128 +838,51 @@ a.session:hover {
   color: var(--muted);
 }
 
-/* The curated city/format pages are readable with no JavaScript. */
-.landing-page {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 1rem 2rem;
-  overflow-wrap: anywhere;
-}
-
+/* Pilot pages reuse .calendar, .day-card, .movie and .session unchanged. */
 .landing-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.35rem 1rem;
-  margin: 1rem 0;
-  font-size: 0.85rem;
+  margin: 0.75rem 0;
 }
 
 .landing-nav a {
-  color: var(--accent);
-  padding: 0.5rem 0;
-}
-
-.landing-nav [aria-current] {
-  color: var(--text);
-  font-weight: 700;
-}
-
-.landing-day {
-  border-bottom: 1px solid #2a2e37;
-}
-
-.landing-day > summary {
-  padding: 0.9rem 0;
-  cursor: pointer;
-}
-
-.landing-date-picker > summary {
-  cursor: pointer;
-  padding: 0.9rem 0;
-  color: var(--accent);
-}
-
-.landing-day h2 {
-  display: inline;
-  font-size: 1.05rem;
-}
-
-.landing-day > summary > span {
-  color: var(--muted);
-  font-size: 0.8rem;
-  margin-left: 0.5rem;
-}
-
-.landing-movie {
-  background: var(--card-bg);
-  border-radius: 10px;
-  padding: 0.8rem;
-  margin: 0 0 0.75rem;
-}
-
-.landing-movie h3 {
-  margin: 0 0 0.75rem;
-  font-size: 1rem;
-}
-
-.landing-movie a {
-  color: var(--text);
+  text-decoration: none;
 }
 
 .landing-theatre + .landing-theatre {
-  border-top: 1px solid #2a2e37;
-  padding-top: 0.65rem;
   margin-top: 0.65rem;
 }
 
-.landing-theatre h4 {
+.landing-theatre-name {
   margin: 0 0 0.35rem;
-  font-size: 0.85rem;
+  font-size: 0.72rem;
+  font-weight: 400;
+  overflow-wrap: break-word;
 }
 
-.landing-sessions {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.landing-theatre-name a {
+  color: var(--muted);
 }
 
-.landing-sessions li,
-.landing-times {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.35rem 0.65rem;
+.landing-date-select {
+  display: block;
+  max-width: 260px;
+  margin: 0.35rem auto 0;
 }
 
-.landing-times .session {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 44px;
-  min-width: 48px;
-  font-size: 0.9rem;
+.landing-poster-placeholder {
+  width: 56px;
+  height: 82px;
+  border-radius: 6px;
+  background: #333;
+  flex-shrink: 0;
 }
 
-.session.seat-preview-active,
-.session:focus-visible {
+.session.seat-preview-active {
   background: var(--accent);
   color: #fff;
-  outline: 2px solid var(--text);
-  outline-offset: 2px;
 }
 
 #landing-seat-preview {
   width: min(90vw, 320px);
-}
-
-.landing-sessions li + li {
-  margin-top: 0.45rem;
-}
-
-.landing-times {
-  font-size: 0.9rem;
-  font-variant-numeric: tabular-nums;
 }
 
 .landing-empty a {

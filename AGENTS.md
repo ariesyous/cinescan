@@ -50,9 +50,12 @@ Four pieces, connected only through the JSON files in `data/`:
    generator. Toronto means manifest city `Toronto`, province `ON`, not
    the GTA metro. Filter individual sessions before grouping by date,
    movie, theatre and format combination so a movie's other formats never
-   leak in. Render actual local 24-hour times from dates >= Toronto today;
-   today's earlier sessions may remain. Native date disclosure controls
-   and date-jump links work without JS; `landing.js` adds date auto-opening
+   leak in. Render actual local times from dates >= Toronto today;
+   today's earlier sessions may remain. Reuse the existing `.calendar`,
+   `.day-card`, `.movie`, poster, `.session-wrap` and `.session` styling,
+   including AM/PM labels and badges under each time. Don't create a
+   separate visual system for these pages. The full calendar works without
+   JS; `landing.js` adds a compact date selector and hash navigation
    and seat previews without loading `app.js` or `movie.js`. Seat previews
    lazily cache a theatre's existing JSON and validate date/time/layoutKey
    against the generated session indices before displaying it. Keep the

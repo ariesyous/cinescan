@@ -190,7 +190,7 @@ test("curated landing pages keep actual times with the matching city, date and f
   data.days = [
     { date: "2000-01-01", movies: [{ title: "Expired IMAX", sessions: [{ time: "23:59", formats: ["IMAX", "4DX"] }] }] },
     { date: today, movies: [
-      { title: 'Shared <Movie> & "Friends"', sessions: [
+      { title: 'Shared <Movie> & "Friends"', poster: "https://example.test/shared.jpg", sessions: [
         { time: "21:45", formats: ["IMAX", "3D"], layoutKey: "late", seats: ["AO"], ticketUrl: "https://example.test/ticket?one=1&two=2" },
         { time: "10:05", formats: ["3D", "IMAX"], layoutKey: "early", seats: ["AA"] },
         { time: "14:20", formats: ["Regular"] },
@@ -222,12 +222,12 @@ test("curated landing pages keep actual times with the matching city, date and f
   const toronto = read(root, "cities/toronto/index.html");
   const imax = read(root, "cities/toronto/imax/index.html");
   const fourDx = read(root, "formats/4dx/index.html");
-  const main = (html) => html.match(/<main class="landing-page">[\s\S]*?<\/main>/)[0];
+  const main = (html) => html.match(/<main class="calendar landing-page">[\s\S]*?<\/main>/)[0];
   assert.match(main(toronto), /Regular Only/);
   assert.match(main(toronto), /14:20/);
   assert.match(main(toronto), /16:30/);
   assert.match(main(toronto), /Shared &lt;Movie&gt; &amp; &quot;Friends&quot;/);
-  assert.match(main(imax), new RegExp(`<time datetime="${today}T10:05">10:05</time>`));
+  assert.match(main(imax), new RegExp(`<time datetime="${today}T10:05">10:05 AM</time>`));
   assert.ok(main(imax).indexOf("10:05") < main(imax).indexOf("21:45"));
   assert.match(main(imax), /2099-12-18T00:15/);
   assert.match(main(imax), /tag-3d">3D/);
@@ -242,14 +242,19 @@ test("curated landing pages keep actual times with the matching city, date and f
   assert.match(imax, /<base href="\.\.\/\.\.\/\.\.\/"/);
   assert.match(toronto, /<base href="\.\.\/\.\.\/"/);
   assert.match(imax, /<title>IMAX showtimes in Toronto \| CineScan<\/title>/);
-  assert.match(imax, /local time, in 24-hour format/);
-  assert.equal((main(imax).match(/<details[^>]* open>/g) || []).length, 1);
+  assert.match(imax, /Times are local to each theatre/);
+  assert.equal((main(imax).match(/class="day-card"/g) || []).length, 2);
+  assert.match(main(imax), /class="movie"/);
+  assert.match(main(imax), /class="movie-info"/);
+  assert.match(main(imax), /<img src="https:\/\/example.test\/shared.jpg" alt="" loading="lazy" \/>/);
+  assert.match(main(imax), /class="movie-title"/);
+  assert.match(main(imax), /class="session-wrap"><a class="session has-seats"[^>]*><time[^>]*>10:05 AM<\/time><\/a><span class="format-badges">/);
   assert.doesNotMatch(imax, /<script src="(?:app|movie).js"/);
   assert.match(imax, /<script src="seat-map.js"><\/script>\n  <script src="landing.js"><\/script>/);
   assert.match(main(imax), /data-session="1,0,1" data-layout="early"><time[^>]+>10:05/);
-  assert.match(main(imax), /data-session="1,0,0" data-layout="late"><time[^>]+>21:45/);
+  assert.match(main(imax), /data-session="1,0,0" data-layout="late"><time[^>]+>9:45 PM/);
   assert.match(main(imax), /href="https:\/\/example.test\/ticket\?one=1&amp;two=2"/);
-  assert.match(main(imax), /href="cities\/toronto\/imax\/#date-2099-12-18"/);
+  assert.match(imax, /<option value="date-2099-12-18">/);
   assert.match(main(imax), /id="date-2099-12-18"/);
 
   const sitemap = read(root, "sitemap.xml");

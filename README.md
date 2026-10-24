@@ -85,10 +85,12 @@ The deploy-time generator also produces three curated landing pages:
 
 Each page includes actual session times grouped by date, movie, theatre
 and exact format combination, with movie and theatre-calendar links.
-The first date starts expanded; native disclosure controls and a date-jump
-directory work without JavaScript. All dates from today in Toronto onward
+Pages reuse the theatre calendar's day cards, poster rows, compact AM/PM
+time chips and per-session format badges. A compact date selector jumps
+between days; the full calendar and its links work without JavaScript.
+All dates from today in Toronto onward
 are included, including advance sales already present in the snapshot.
-Times use each theatre's local time in 24-hour format; today's earlier
+Times use each theatre's local time; today's earlier
 sessions may remain until the next date. Format-specific links carry the
 format selection into the calendar or movie page.
 

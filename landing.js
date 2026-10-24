@@ -65,7 +65,11 @@
       // if the JSON indices have changed since this HTML was loaded.
       if (!layout || !session.seats || String(session.layoutKey) !== chip.dataset.layout ||
           `${day.date}T${session.time}` !== expected) throw new Error("Session changed");
-      renderSeatMap(popover, session, layout, data.updatedAt);
+      const updatedAtLabel = data.updatedAt ? new Date(data.updatedAt).toLocaleString("en-US", {
+        timeZone: "America/Toronto", year: "numeric", month: "short", day: "numeric",
+        hour: "numeric", minute: "2-digit", timeZoneName: "short",
+      }) : "";
+      renderSeatMap(popover, session, layout, updatedAtLabel);
     } catch {
       if (token !== request) return;
       popover.textContent = "Seat map unavailable in this snapshot. Open the theatre calendar to check again.";
@@ -99,21 +103,20 @@
     if (activeChip && !popover.hidden) position(activeChip);
   });
 
+  const datePicker = document.getElementById("landing-date");
   function openDate() {
     const target = document.getElementById(location.hash.slice(1));
-    if (target?.classList.contains("landing-day")) {
-      target.open = true;
+    if (target?.classList.contains("day-card")) {
+      if (datePicker) datePicker.value = target.id;
       target.scrollIntoView();
     }
   }
-  for (const link of document.querySelectorAll(".landing-date-picker a")) {
-    link.addEventListener("click", () => {
-      const target = document.getElementById(new URL(link.href).hash.slice(1));
-      if (target) target.open = true;
-      link.closest("details").open = false;
-      hide();
-    });
-  }
+  datePicker?.addEventListener("change", () => {
+    if (!datePicker.value) return;
+    location.hash = datePicker.value;
+    hide();
+    openDate();
+  });
   window.addEventListener("hashchange", openDate);
   openDate();
 })();
