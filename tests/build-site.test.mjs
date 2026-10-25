@@ -222,7 +222,7 @@ test("curated landing pages keep actual times with the matching city, date and f
   const toronto = read(root, "cities/toronto/index.html");
   const imax = read(root, "cities/toronto/imax/index.html");
   const fourDx = read(root, "formats/4dx/index.html");
-  const main = (html) => html.match(/<main class="calendar landing-page">[\s\S]*?<\/main>/)[0];
+  const main = (html) => html.match(/<main class="landing-page">[\s\S]*?<\/main>/)[0];
   assert.match(main(toronto), /Regular Only/);
   assert.match(main(toronto), /14:20/);
   assert.match(main(toronto), /16:30/);
@@ -243,18 +243,30 @@ test("curated landing pages keep actual times with the matching city, date and f
   assert.match(toronto, /<base href="\.\.\/\.\.\/"/);
   assert.match(imax, /<title>IMAX showtimes in Toronto \| CineScan<\/title>/);
   assert.match(imax, /Times are local to each theatre/);
-  assert.equal((main(imax).match(/class="day-card"/g) || []).length, 2);
-  assert.match(main(imax), /class="movie"/);
-  assert.match(main(imax), /class="movie-info"/);
-  assert.match(main(imax), /<img src="https:\/\/example.test\/shared.jpg" alt="" loading="lazy" \/>/);
+  assert.equal((main(imax).match(/class="landing-day"/g) || []).length, 2);
+  assert.match(main(imax), /class="landing-movie"/);
+  assert.match(main(imax), /<img class="landing-poster" src="https:\/\/example.test\/shared.jpg" alt="" loading="lazy" \/>/);
   assert.match(main(imax), /class="movie-title"/);
-  assert.match(main(imax), /class="session-wrap"><a class="session has-seats"[^>]*><time[^>]*>10:05 AM<\/time><\/a><span class="format-badges">/);
+  assert.match(main(imax), /class="movie-theatre-name"><a href="theatres\/big-screen\/\?formats=IMAX">Big Screen &amp; VIP<\/a><\/h4>/);
+  assert.match(main(fourDx), /class="movie-theatre-city">Montréal, QC</);
+  // A format page's own format is on every time, so it is neither badged nor offered as a filter.
+  assert.match(main(imax), /class="session-wrap" data-formats="3D\|IMAX"><a class="session has-seats"[^>]*><time[^>]*>10:05 AM<\/time><\/a><span class="format-badges"><span class="format-badge tag-3d">3D<\/span><\/span><\/div>/);
+  assert.match(main(imax), /data-formats="IMAX"><a class="session"[^>]*><time[^>]*>12:15 AM<\/time><\/a><\/div>/);
+  assert.doesNotMatch(main(imax), /format-badge tag-imax/);
+  assert.match(main(toronto), /format-badge tag-imax/);
+  assert.match(imax, /<div id="landing-filter" class="format-filter landing-filter" hidden>/);
+  assert.match(imax, /data-tag="3D"/);
+  assert.doesNotMatch(imax, /data-tag="IMAX"/);
+  assert.match(toronto, /data-tag="IMAX"/);
+  assert.match(toronto, /data-tag="Regular"/);
   assert.doesNotMatch(imax, /<script src="(?:app|movie).js"/);
   assert.match(imax, /<script src="seat-map.js"><\/script>\n  <script src="landing.js"><\/script>/);
   assert.match(main(imax), /data-session="1,0,1" data-layout="early"><time[^>]+>10:05/);
   assert.match(main(imax), /data-session="1,0,0" data-layout="late"><time[^>]+>9:45 PM/);
   assert.match(main(imax), /href="https:\/\/example.test\/ticket\?one=1&amp;two=2"/);
-  assert.match(imax, /<option value="date-2099-12-18">/);
+  // Date links include the path, since a bare hash would resolve against <base>.
+  assert.match(imax, /<a class="landing-date" href="cities\/toronto\/imax\/#date-2099-12-18"><span>[^<]+<\/span><strong>Dec 18 2099<\/strong><\/a>/);
+  assert.match(main(imax), /<h2><time datetime="2099-12-18">[^<]+, 2099<\/time><\/h2>/);
   assert.match(main(imax), /id="date-2099-12-18"/);
 
   const sitemap = read(root, "sitemap.xml");
@@ -283,7 +295,7 @@ test("empty and missing snapshots retain useful pilot routes and broader navigat
     assert.match(page, /0 movies · 0 theatres · 0 dates/);
     assert.match(page, /href="movies\/">Browse all movies/);
     assert.match(page, /href="\.\/">check a theatre calendar/);
-    assert.doesNotMatch(page, /<details class="landing-day"/);
+    assert.doesNotMatch(page, /class="landing-(?:day|dates|filter)"/);
     assert.ok(read(root, "sitemap.xml").includes(`<loc>${SITE}${route}</loc>`));
   }
 });

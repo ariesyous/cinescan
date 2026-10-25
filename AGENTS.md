@@ -49,14 +49,18 @@ Four pieces, connected only through the JSON files in `data/`:
    `cities/toronto/imax/` and `formats/4dx/` from `LANDING_PAGES` in the
    generator. Toronto means manifest city `Toronto`, province `ON`, not
    the GTA metro. Filter individual sessions before grouping by date,
-   movie, theatre and format combination so a movie's other formats never
-   leak in. Render actual local times from dates >= Toronto today;
-   today's earlier sessions may remain. Reuse the existing `.calendar`,
-   `.day-card`, `.movie`, poster, `.session-wrap` and `.session` styling,
-   including AM/PM labels and badges under each time. Don't create a
-   separate visual system for these pages. The full calendar works without
-   JS; `landing.js` adds a compact date selector and hash navigation
-   and seat previews without loading `app.js` or `movie.js`. Seat previews
+   movie and theatre so a movie's other formats never leak in. Render
+   actual local times from dates >= Toronto today; today's earlier
+   sessions may remain. A city has far too many times for the theatre
+   calendar's side-by-side day cards, so each date is a grid of movie
+   cards (busiest first, poster row like the calendar's) with a row of
+   `.session` chips per theatre, named with the movie pages'
+   `.movie-theatre-name`/`.movie-theatre-city`. Badges under each time
+   omit the page's own format. Every date stays in the HTML and the date
+   strip's links work as anchors without JS; `landing.js` shows one date
+   at a time, adds a format filter (`?formats=`, as on the other pages)
+   and seat previews without loading `app.js` or `movie.js`. Date links
+   include the page path, since a bare `#hash` resolves against `<base>`. Seat previews
    lazily cache a theatre's existing JSON and validate date/time/layoutKey
    against the generated session indices before displaying it. Keep the
    shared grid renderer in `seat-map.js` aligned across calendar/landing
@@ -344,8 +348,9 @@ map:
   sections never overwrite it) and reopens it on other movie pages.
 - `seat-map.js` — shared snapshot seat-grid/legend renderer, loaded before
   `app.js` in the raw checkout and before `landing.js` on generated pilot
-  pages. `landing.js` handles lazy loading, highlighting, dismissal and
-  date jumps; it never requests Cineplex APIs.
+  pages. `landing.js` handles lazy loading, highlighting, dismissal,
+  the one-date-at-a-time view and the format filter; it never requests
+  Cineplex APIs.
 - `index.html`, `style.css`, `app.js` — the frontend. Plain HTML/CSS/vanilla
   JS on purpose. `app.js` builds a three-level drill-down picker from
   `data/theatres.json`: region buttons (GTA/Montreal/Vancouver/Everywhere

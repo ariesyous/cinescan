@@ -83,11 +83,13 @@ The deploy-time generator also produces three curated landing pages:
 - `/cities/toronto/imax/` — only sessions tagged `IMAX` at those theatres.
 - `/formats/4dx/` — only sessions tagged `4DX` across Canada.
 
-Each page includes actual session times grouped by date, movie, theatre
-and exact format combination, with movie and theatre-calendar links.
-Pages reuse the theatre calendar's day cards, poster rows, compact AM/PM
-time chips and per-session format badges. A compact date selector jumps
-between days; the full calendar and its links work without JavaScript.
+Each page includes actual session times grouped by date, movie and
+theatre, with movie and theatre-calendar links. A strip of dates shows one
+day at a time as a grid of movie cards, busiest first, each with a row of
+the theatre calendar's AM/PM time chips and format badges per theatre
+(format pages leave out their own format's badge). Format chips narrow the
+times, as on theatre and movie pages. Without JavaScript every date is
+listed in order and the date strip jumps between them.
 All dates from today in Toronto onward
 are included, including advance sales already present in the snapshot.
 Times use each theatre's local time; today's earlier

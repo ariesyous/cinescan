@@ -103,20 +103,109 @@
     if (activeChip && !popover.hidden) position(activeChip);
   });
 
-  const datePicker = document.getElementById("landing-date");
-  function openDate() {
-    const target = document.getElementById(location.hash.slice(1));
-    if (target?.classList.contains("day-card")) {
-      if (datePicker) datePicker.value = target.id;
-      target.scrollIntoView();
+  // One date at a time, picked from the date strip or the URL hash. Without
+  // this script every date is listed in order and the strip links jump.
+  const dayEls = [...document.querySelectorAll(".landing-day")];
+  const dateStrip = document.querySelector(".landing-dates");
+  const dateLinks = [...document.querySelectorAll(".landing-date")];
+  function showDay(id) {
+    const dayEl = dayEls.find((el) => el.id === id) ?? dayEls[0];
+    if (!dayEl) return;
+    hide();
+    for (const el of dayEls) el.hidden = el !== dayEl;
+    for (const link of dateLinks) {
+      if (link.hash !== `#${dayEl.id}`) {
+        link.removeAttribute("aria-current");
+        continue;
+      }
+      link.setAttribute("aria-current", "date");
+      // Centre it in the strip without scrolling the page.
+      dateStrip.scrollLeft = link.offsetLeft - (dateStrip.clientWidth - link.offsetWidth) / 2;
     }
   }
-  datePicker?.addEventListener("change", () => {
-    if (!datePicker.value) return;
-    location.hash = datePicker.value;
+  for (const link of dateLinks) {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const url = new URL(location.href);
+      url.hash = link.hash;
+      history.replaceState(history.state, "", url);
+      showDay(link.hash.slice(1));
+    });
+  }
+  window.addEventListener("hashchange", () => showDay(location.hash.slice(1)));
+  showDay(location.hash.slice(1));
+
+  // Format chips narrow the times to sessions in any selected format, and
+  // carry the selection in the URL like the theatre and movie filters.
+  const filterEl = document.getElementById("landing-filter");
+  if (!filterEl) return;
+  const chips = [...filterEl.querySelectorAll(".format-chip")];
+  const allBtn = filterEl.querySelector(".format-clear-btn");
+  const knownTags = new Set(chips.map((chip) => chip.dataset.tag));
+  const urlFormats = new URLSearchParams(location.search).get("formats");
+  let selected = new Set((urlFormats || "").split(",").filter((tag) => knownTags.has(tag)));
+  const plural = (n, word) => `${n} ${word}${n === 1 ? "" : "s"}`;
+  // Links on format pages already name that page's format; others follow the chips.
+  const links = [...document.querySelectorAll(".landing-movie a:not(.session)")]
+    .filter((link) => !new URL(link.href).searchParams.has("formats"));
+
+  function apply() {
+    for (const chip of chips) chip.classList.toggle("active", selected.has(chip.dataset.tag));
+    allBtn.classList.toggle("active", selected.size === 0);
+    const url = new URL(location.href);
+    if (selected.size) url.searchParams.set("formats", [...selected].join(","));
+    else url.searchParams.delete("formats");
+    history.replaceState(history.state, "", url);
     hide();
-    openDate();
+
+    for (const wrap of document.querySelectorAll(".landing-times .session-wrap")) {
+      wrap.hidden = selected.size > 0 && !wrap.dataset.formats.split("|").some((tag) => selected.has(tag));
+    }
+    for (const dayEl of dayEls) {
+      let movies = 0;
+      for (const movieEl of dayEl.querySelectorAll(".landing-movie")) {
+        let theatres = 0;
+        let times = 0;
+        for (const theatreEl of movieEl.querySelectorAll(".landing-theatre")) {
+          const shown = theatreEl.querySelectorAll(".session-wrap:not([hidden])").length;
+          theatreEl.hidden = shown === 0;
+          if (shown) theatres++;
+          times += shown;
+        }
+        movieEl.hidden = theatres === 0;
+        if (theatres) movies++;
+        movieEl.querySelector(".landing-movie-meta").textContent =
+          `${plural(theatres, "theatre")} · ${plural(times, "showtime")}`;
+      }
+      let note = dayEl.querySelector(".landing-no-match");
+      if (!movies && !note) {
+        note = document.createElement("p");
+        note.className = "landing-no-match";
+        note.textContent = "No showtimes in the selected formats on this date.";
+        dayEl.appendChild(note);
+      }
+      if (note) note.hidden = movies > 0;
+      dateLinks.find((link) => link.hash === `#${dayEl.id}`)?.classList.toggle("landing-date-empty", !movies);
+    }
+    for (const link of links) {
+      const target = new URL(link.href);
+      if (selected.size) target.searchParams.set("formats", [...selected].join(","));
+      else target.searchParams.delete("formats");
+      link.href = target;
+    }
+  }
+
+  for (const chip of chips) {
+    chip.addEventListener("click", () => {
+      if (selected.has(chip.dataset.tag)) selected.delete(chip.dataset.tag);
+      else selected.add(chip.dataset.tag);
+      apply();
+    });
+  }
+  allBtn.addEventListener("click", () => {
+    selected = new Set();
+    apply();
   });
-  window.addEventListener("hashchange", openDate);
-  openDate();
+  filterEl.hidden = false;
+  apply();
 })();
