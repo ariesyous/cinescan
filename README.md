@@ -73,6 +73,55 @@ or break without notice — the scraper is written to skip bad/missing days
 rather than overwrite good data with empty results, and to leave a
 theatre's data file untouched entirely if every request for it fails.
 
+## City and format showtimes pilot
+
+The deploy-time generator also produces three curated landing pages:
+
+- `/cities/toronto/` — all formats at theatres whose manifest city is
+  Toronto, Ontario (including North York and Scarborough, excluding other
+  GTA cities).
+- `/cities/toronto/imax/` — only sessions tagged `IMAX` at those theatres.
+- `/formats/4dx/` — only sessions tagged `4DX` across Canada.
+
+Each page includes actual session times grouped by date, movie and
+theatre, with movie and theatre-calendar links. A strip of dates shows one
+day at a time as a grid of movie cards, busiest first, each with a row of
+the theatre calendar's AM/PM time chips and format badges per theatre
+(format pages leave out their own format's badge). Format chips narrow the
+times, as on theatre and movie pages. Without JavaScript every date is
+listed in order and the date strip jumps between them.
+All dates from today in Toronto onward
+are included, including advance sales already present in the snapshot.
+Times use each theatre's local time; today's earlier
+sessions may remain until the next date. Format-specific links carry the
+format selection into the calendar or movie page.
+
+Time chips also highlight and preview the snapshot seat map where seat
+data exists: hover or focus on desktop; tap once for seats and again for
+tickets on touch screens. Escape or a tap outside dismisses the preview.
+`landing.js` loads a theatre's existing JSON only on interaction and caches
+it for the page; `seat-map.js` renders the same seat grid as the theatre
+calendar. Times and ticket/calendar links remain usable without JavaScript.
+If a snapshot load fails or a session changed, the preview explains that
+the seat map is unavailable rather than displaying another session's seats.
+
+These stable routes keep their canonical URLs and sitemap entries when
+empty. They explain that no matching sessions are listed in the snapshot,
+without implying the format or theatre is unavailable, and offer broader
+movie/calendar browsing. The generator adds links to the pilot from every
+generated page's footer. The raw checkout still works without generating
+these pages. No scraper windows, coverage or requests change.
+
+Run `node --test tests/build-site.test.mjs tests/seat-preview.test.mjs`, restore the live snapshot with
+`node scripts/data-snapshot.mjs restore`, then build and serve `_site/` to
+preview. Only these three pages are generated; additional combinations
+require a separate decision after reviewing the pilot's search performance.
+As of the October 24, 2026 audit in issue #6, Search Console had no usable
+Canadian query/position baseline and its reports were still processing.
+Issue #7's performance criterion remains a follow-up: after deployment,
+compare Canadian impressions, clicks, queries and positions for the three
+canonical routes against the first usable baseline before expanding.
+
 ## Custom domain
 
 GitHub Pages still hosts the site; Cloudflare manages DNS for `cinescan.app`.
