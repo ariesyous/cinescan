@@ -45,32 +45,6 @@ Four pieces, connected only through the JSON files in `data/`:
    are duplicated in `app.js` and `build-site.mjs`; keep each pair
    identical. Titles that slug the same share a movie page.
 
-   The curated city/format pilot adds exactly `cities/toronto/`,
-   `cities/toronto/imax/` and `formats/4dx/` from `LANDING_PAGES` in the
-   generator. Toronto means manifest city `Toronto`, province `ON`, not
-   the GTA metro. Filter individual sessions before grouping by date,
-   movie and theatre so a movie's other formats never leak in. Render
-   actual local times from dates >= Toronto today; today's earlier
-   sessions may remain. A city has far too many times for the theatre
-   calendar's side-by-side day cards, so each date is a grid of movie
-   cards (busiest first, poster row like the calendar's) with a row of
-   `.session` chips per theatre, named with the movie pages'
-   `.movie-theatre-name`/`.movie-theatre-city`. Badges under each time
-   omit the page's own format. Every date stays in the HTML and the date
-   strip's links work as anchors without JS; `landing.js` shows one date
-   at a time, adds a format filter (`?formats=`, as on the other pages)
-   and seat previews without loading `app.js` or `movie.js`. Date links
-   include the page path, since a bare `#hash` resolves against `<base>`. Seat previews
-   lazily cache a theatre's existing JSON and validate date/time/layoutKey
-   against the generated session indices before displaying it. Keep the
-   shared grid renderer in `seat-map.js` aligned across calendar/landing
-   pages. Desktop hover/focus and first-touch preview/second-touch ticket
-   navigation must keep working. Preserve stable canonical routes, shared footer links
-   and sitemap entries even when empty, with useful broader browsing links
-   and no claim that an empty snapshot means a format is unavailable.
-   Don't expand the pilot until Search Console provides a usable baseline
-   and its search performance has been reviewed (issue #7 follow-up).
-
 There's no shared code between the scraper and the frontend — the JSON file
 shape *is* the contract between them. If you change what the scraper writes,
 check `app.js` for what it expects to read, and vice versa.
@@ -331,7 +305,7 @@ map:
   and `build-site.mjs`; keep them identical.
 - GitHub Pages deploys `_site/` (built from the `master` checkout plus
   the restored `data` snapshot) using `.github/workflows/pages.yml`. Only
-  `app.js`, `movie.js`, `landing.js`, `seat-map.js`, `style.css`, `assets/`, `data/` and the generated HTML,
+  `app.js`, `movie.js`, `style.css`, `assets/`, `data/` and the generated HTML,
   sitemap and robots.txt are published at https://cinescan.app/. Anything in
   them is publicly served as-is — this is a public repo, so don't add
   anything (real API keys beyond the already-public Cineplex one, personal
@@ -346,11 +320,6 @@ map:
   the province a visitor last opened (`localStorage` key
   `cinescan:province`, set only from summary clicks so auto-opened
   sections never overwrite it) and reopens it on other movie pages.
-- `seat-map.js` — shared snapshot seat-grid/legend renderer, loaded before
-  `app.js` in the raw checkout and before `landing.js` on generated pilot
-  pages. `landing.js` handles lazy loading, highlighting, dismissal,
-  the one-date-at-a-time view and the format filter; it never requests
-  Cineplex APIs.
 - `index.html`, `style.css`, `app.js` — the frontend. Plain HTML/CSS/vanilla
   JS on purpose. `app.js` builds a three-level drill-down picker from
   `data/theatres.json`: region buttons (GTA/Montreal/Vancouver/Everywhere
@@ -386,9 +355,6 @@ map:
   workflow runs it in CI. To preview the deployed shape, run
   `node scripts/build-site.mjs _site` and serve `_site/` at the server root
   (matching https://cinescan.app/).
-- Run `node --test tests/seat-preview.test.mjs` after changing seat previews.
-  These cover touch navigation, cache/race handling, unavailable snapshots
-  and the shared seat renderer; Site checks runs both test files.
 - Run `node scripts/scrape.mjs` (or `SCRAPE_MODE=quick node scripts/scrape.mjs`
   for a much faster near-window-only pass) locally to regenerate `data/*.json`
   and sanity-check the output.
