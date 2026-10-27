@@ -4,8 +4,8 @@
 // top of it:
 //
 // - A static page per theatre at theatres/<slug>/ with its own title,
-//   description, canonical URL, structured data and a crawlable now-playing
-//   list. Each is the same app as index.html (app.js swaps in the full
+//   description, canonical URL, structured data and dated session times.
+//   Each is the same app as index.html (app.js swaps in the full
 //   calendar on load), so these are real entry points, not doorway pages.
 // - A static page per movie at movies/<slug>/ listing every theatre showing
 //   it, with each format combination's dates, plus a movies/ index. These
@@ -20,7 +20,7 @@
 // and to link movie titles to their movies/<slug>/ pages.
 //
 // Run from the repo root after `data-snapshot.mjs restore`. A theatre whose
-// data file is missing still gets a page, just without a now-playing list.
+// data file is missing still gets a page, with an explicit unavailable message.
 //
 //   node scripts/build-site.mjs [out-dir]
 
@@ -319,25 +319,41 @@ function collectMovies(theatres, dataBySlug, today) {
   return movies;
 }
 
-function renderNowPlaying(theatre, movies, today) {
-  if (movies.length === 0) return "";
-  const items = movies.map((movie) => {
-    const formats = [...movie.formats].sort().join(" · ");
-    const from =
-      movie.firstDate > today
-        ? ` <span class="now-playing-date">from ${escapeHtml(formatDate(movie.firstDate))}</span>`
-        : "";
-    const href = moviePath(movieSlug(movie.title));
-    return `        <li><a class="now-playing-title" href="${href}">${escapeHtml(movie.title)}</a> <span class="now-playing-formats">${escapeHtml(formats)}</span>${from}</li>`;
+// Same AM/PM labels as app.js; the stored clock time is local to the theatre.
+function formatTimeLabel(timeStr) {
+  const [h, m] = timeStr.split(":").map(Number);
+  return `${h % 12 || 12}:${String(m).padStart(2, "0")} ${h < 12 ? "AM" : "PM"}`;
+}
+
+function snapshotLabel(data) {
+  if (!data) return "Showtime snapshot unavailable.";
+  if (!data.updatedAt || !Number.isFinite(Date.parse(data.updatedAt))) return "Snapshot update time unavailable.";
+  const label = new Date(data.updatedAt).toLocaleString("en-US", {
+    timeZone: "America/Toronto", year: "numeric", month: "short", day: "numeric",
+    hour: "numeric", minute: "2-digit", timeZoneName: "short",
   });
-  return [
-    `<section class="now-playing">`,
-    `      <h2>Now playing at ${escapeHtml(theatre.name)}</h2>`,
-    `      <ul>`,
-    ...items,
-    `      </ul>`,
-    `    </section>`,
-  ].join("\n");
+  return `Snapshot last updated ${label}`;
+}
+
+function renderShowtimes(data, today) {
+  const days = (data?.days ?? []).filter((day) => day.date >= today)
+    .sort((a, b) => a.date.localeCompare(b.date));
+  const cards = days.map((day) => {
+    const movies = day.movies.filter((movie) => movie.sessions.length).map((movie) => {
+      const sessions = [...movie.sessions].sort((a, b) => a.time.localeCompare(b.time)).map((session) => {
+        const time = `<time datetime="${escapeHtml(day.date)}T${escapeHtml(session.time)}">${formatTimeLabel(session.time)}</time>`;
+        const chip = session.ticketUrl
+          ? `<a class="session" href="${escapeHtml(session.ticketUrl)}" target="_blank" rel="noopener">${time}</a>`
+          : `<span class="session">${time}</span>`;
+        return `<div class="session-wrap">${chip}${renderBadges(session.formats)}</div>`;
+      });
+      const poster = movie.poster ? `<img src="${escapeHtml(movie.poster)}" alt="" loading="lazy" />` : "";
+      return `<div class="movie">${poster}<div class="movie-info"><h3 class="movie-title"><a href="${moviePath(movieSlug(movie.title))}">${escapeHtml(movie.title)}</a></h3><div class="sessions">${sessions.join("")}</div></div></div>`;
+    });
+    if (!movies.length) return "";
+    return `<section class="day-card" data-date="${escapeHtml(day.date)}"><h2><time datetime="${escapeHtml(day.date)}">${escapeHtml(formatDate(day.date))}, ${day.date.slice(0, 4)}</time></h2>\n${movies.join("\n")}\n</section>`;
+  }).filter(Boolean);
+  return cards.length ? cards.join("\n") : `<p class="empty">${data ? "No current or upcoming showtimes are listed in this snapshot." : "No showtime snapshot is available for this theatre."} This does not mean the theatre is closed. <a href="movies/">Browse movies</a> or choose another theatre below.</p>`;
 }
 
 function groupByProvince(items, provinceOf) {
@@ -418,15 +434,14 @@ function theatrePage(template, theatre, data, today) {
     () => `<h1 id="theatre-name">Showtimes at ${escapeHtml(theatre.name)}</h1>`,
     "theatre-name heading"
   );
-  const nowPlaying = renderNowPlaying(theatre, movies, today);
-  if (nowPlaying) {
-    html = replaceOnce(
-      html,
-      /(<main id="calendar" class="calendar">[\s\S]*?)(\n\s*<\/main>)/,
-      (_, start, end) => `${start}\n    ${nowPlaying}${end}`,
-      "calendar <main>"
-    );
-  }
+  html = replaceOnce(html, /<p id="updated" class="updated"><\/p>/,
+    () => `<p id="updated" class="updated">${escapeHtml(snapshotLabel(data))}</p>`, "updated paragraph");
+  html = replaceOnce(
+    html,
+    /<main id="calendar" class="calendar">[\s\S]*?<\/main>/,
+    () => `<main id="calendar" class="calendar" data-snapshot-theatre="${theatre.slug}">\n${renderShowtimes(data, today)}\n  </main>`,
+    "calendar <main>"
+  );
   return html;
 }
 
@@ -780,3 +795,4 @@ main().catch((err) => {
   console.error(err.message);
   process.exit(1);
 });
+

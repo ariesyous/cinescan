@@ -3,7 +3,7 @@ import { spawnSync } from "node:child_process";
 import { cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import test from "node:test";
 
 const repo = fileURLToPath(new URL("..", import.meta.url));
@@ -63,8 +63,9 @@ test("builds theatre pages, home page and sitemap", (t) => {
   assert.match(page, /<meta name="cinescan-routing" content="path" \/>/);
   assert.match(page, /2 movies, including IMAX and UltraAVX screenings/);
   assert.match(page, /<h1 id="theatre-name">Showtimes at Big Screen &amp; VIP<\/h1>/);
-  assert.match(page, /<a class="now-playing-title" href="movies\/now-showing\/">Now Showing<\/a> <span class="now-playing-formats">IMAX · Regular<\/span><\/li>/);
-  assert.match(page, /href="movies\/advance-sale\/">Advance &lt;Sale&gt;<\/a>.*from /);
+  assert.match(page, /href="movies\/now-showing\/">Now Showing<\/a>/);
+  assert.match(page, new RegExp(`<time datetime="${today}T19:00">7:00 PM</time>`));
+  assert.match(page, /href="movies\/advance-sale\/">Advance &lt;Sale&gt;<\/a>/);
   assert.doesNotMatch(page, /Gone Already/);
   assert.match(page, /"addressRegion": "ON"/);
   assert.match(page, /<a href="theatres\/no-data\/">No Data Cinema<\/a>/);
@@ -72,7 +73,8 @@ test("builds theatre pages, home page and sitemap", (t) => {
 
   const bare = read(root, "theatres/no-data/index.html");
   assert.doesNotMatch(bare, /now-playing/);
-  assert.match(bare, /<p class="loading">/);
+  assert.match(bare, /No showtime snapshot is available/);
+  assert.doesNotMatch(bare, /Loading showtimes/);
 
   const home = read(root, "index.html");
   assert.match(home, /<base href="\.\/" \/>/);
@@ -202,4 +204,101 @@ test("refuses to build over the source tree", (t) => {
     assert.match(result.stderr, /Refusing to build/);
   }
   assert.ok(existsSync(path.join(root, "index.html")));
+});
+
+
+const calendar = (html) => html.match(/<main id="calendar"[\s\S]*?<\/main>/)[0];
+
+test("initial HTML contains ordered dates, local times, per-session formats and usable links", (t) => {
+  const root = fixture(t);
+  writeFileSync(path.join(root, "data/big-screen.json"), JSON.stringify({
+    updatedAt: "2020-01-02T01:30:00Z",
+    days: [
+      { date: "2099-12-18", movies: [{ title: "Advance", sessions: [{ time: "00:15", formats: ["UltraAVX"] }] }] },
+      { date: "2000-01-01", movies: [{ title: "Expired", sessions: [{ time: "23:59", formats: ["IMAX"] }] }] },
+      { date: today, movies: [
+        { title: 'Movie <One> & "Friends"', sessions: [
+          { time: "21:45", formats: ["IMAX", "3D"], ticketUrl: "https://example.test/tickets?a=1&b=2", seats: ["AA"], layoutKey: "123" },
+          { time: "12:00", formats: ["Regular"] },
+          { time: "10:05", formats: ["Laser Projection", "D-BOX"] },
+        ] },
+        { title: "No Sessions", sessions: [] },
+      ] },
+      { date: "2099-12-19", movies: [] },
+    ],
+  }));
+  const result = run(root, "out");
+  assert.equal(result.status, 0, result.stderr);
+  const page = read(root, "theatres/big-screen/index.html");
+  const html = calendar(page);
+  assert.match(html, /data-snapshot-theatre="big-screen"/);
+  assert.match(html, /Movie &lt;One&gt; &amp; &quot;Friends&quot;/);
+  assert.match(html, /href="movies\/movie-one-and-friends\/"/);
+  assert.match(html, /href="https:\/\/example.test\/tickets\?a=1&amp;b=2" target="_blank" rel="noopener"/);
+  for (const [time, label] of [["10:05", "10:05 AM"], ["12:00", "12:00 PM"], ["21:45", "9:45 PM"]]) {
+    assert.ok(html.includes(`<time datetime="${today}T${time}">${label}</time>`));
+  }
+  assert.match(html, /<span class="session"><time datetime="2099-12-18T00:15">12:15 AM<\/time><\/span>/);
+  assert.ok(html.indexOf("T10:05") < html.indexOf("T12:00"));
+  assert.ok(html.indexOf("T12:00") < html.indexOf("T21:45"));
+  assert.ok(html.indexOf("T21:45") < html.indexOf("2099-12-18"));
+  assert.match(html, /9:45 PM<\/time><\/a><span class="format-badges"><span class="format-badge tag-imax">IMAX<\/span><span class="format-badge tag-3d">3D/);
+  assert.match(html, /tag-laser-projection">Laser Projection/);
+  assert.match(html, /tag-d-box">D-BOX/);
+  assert.doesNotMatch(html, /Expired|No Sessions|2099-12-19|Loading|has-seats|hidden|now-playing/);
+  assert.match(page, /Snapshot last updated Jan 1, 2020, 8:30 PM EST/);
+  assert.match(page, /Times are local to the theatre/);
+  assert.match(page, /some dates may be retained from earlier snapshots/);
+  assert.match(page, /Confirm showtimes and current seat availability with Cineplex/);
+  assert.match(page, /<script src="app.js"><\/script>/);
+  assert.doesNotMatch(read(root, "sitemap.xml"), /\/(?:cities|formats)\//);
+});
+
+test("missing, empty, expired and undated snapshots have honest fallback and freshness text", (t) => {
+  const root = fixture(t);
+  for (const [data, message] of [
+    [null, "No showtime snapshot is available"],
+    [{ days: [], updatedAt: "2020-01-01T00:00:00Z" }, "No current or upcoming showtimes"],
+    [{ days: [{ date: "2000-01-01", movies: [{ title: "Expired", sessions: [{ time: "19:00", formats: [] }] }] }] }, "No current or upcoming showtimes"],
+    [{ days: [], updatedAt: "invalid" }, "No current or upcoming showtimes"],
+  ]) {
+    const file = path.join(root, "data/big-screen.json");
+    if (data) writeFileSync(file, JSON.stringify(data));
+    else rmSync(file);
+    const result = run(root, "out");
+    assert.equal(result.status, 0, result.stderr);
+    const page = read(root, "theatres/big-screen/index.html");
+    assert.ok(calendar(page).includes(message));
+    assert.match(calendar(page), /does not mean the theatre is closed/);
+    assert.match(calendar(page), /href="movies\/"/);
+    assert.doesNotMatch(calendar(page), /class="day-card"|Expired|Loading/);
+    assert.match(page, data === null ? /Showtime snapshot unavailable/ : data.updatedAt === "2020-01-01T00:00:00Z" ? /Snapshot last updated Dec 31, 2019/ : /Snapshot update time unavailable/);
+    assert.doesNotMatch(page, /Invalid Date/);
+  }
+});
+
+test("theatre cutoff follows Toronto midnight in summer and winter regardless of host timezone", (t) => {
+  const root = fixture(t);
+  const clock = path.join(root, "clock.mjs");
+  for (const [date, before, after] of [
+    ["2030-05-31", "2030-06-01T03:59:00Z", "2030-06-01T04:01:00Z"],
+    ["2030-01-31", "2030-02-01T04:59:00Z", "2030-02-01T05:01:00Z"],
+  ]) {
+    writeFileSync(path.join(root, "data/big-screen.json"), JSON.stringify({ days: [
+      { date, movies: [{ title: "Toronto Today", sessions: [{ time: "00:01", formats: ["Regular"] }] }] },
+      { date: "2099-01-01", movies: [{ title: "Future", sessions: [{ time: "19:00", formats: ["Regular"] }] }] },
+    ] }));
+    for (const [instant, included] of [[before, true], [after, false]]) {
+      writeFileSync(clock, `const OriginalDate = Date; globalThis.Date = class extends OriginalDate {
+        constructor(...args) { super(...(args.length ? args : [${JSON.stringify(instant)}])); }
+      };`);
+      const result = spawnSync(process.execPath, ["--import", pathToFileURL(clock).href, script, "out"], {
+        cwd: root, encoding: "utf8", env: { ...process.env, TZ: "Asia/Tokyo" },
+      });
+      assert.equal(result.status, 0, result.stderr);
+      const html = calendar(read(root, "theatres/big-screen/index.html"));
+      assert.equal(html.includes("Toronto Today"), included, instant);
+      assert.ok(html.includes("Future"));
+    }
+  }
 });

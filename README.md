@@ -73,6 +73,25 @@ or break without notice — the scraper is written to skip bad/missing days
 rather than overwrite good data with empty results, and to leave a
 theatre's data file untouched entirely if every request for it fails.
 
+## Theatre showtimes without JavaScript
+
+Generated theatre pages include current and upcoming session dates, local
+AM/PM times, movie links, per-session format badges and ticket links from
+the restored snapshot. Dates before today in Toronto are excluded; today's
+earlier sessions remain. No seat counts or live-availability claims are
+rendered. The snapshot's own update timestamp is shown, and the page notes
+that some dates can be retained from earlier snapshots.
+
+The existing calendar replaces this fallback after loading successfully.
+If the manifest or theatre fetch fails, the generated answer remains usable;
+switching theatres clears the previous answer and ignores late responses.
+A missing snapshot or one with no remaining sessions has an explicit message
+and browsing links. The raw checkout still runs without a site build.
+
+Run `node --test tests/build-site.test.mjs tests/app.test.mjs` for generated
+HTML and enhancement regressions. The app tests use a small DOM double;
+mobile layout and real browser interactions still need a browser spot-check.
+
 ## Custom domain
 
 GitHub Pages still hosts the site; Cloudflare manages DNS for `cinescan.app`.
@@ -155,3 +174,4 @@ node --test tests/data-snapshot.test.mjs
 ## License
 
 MIT — see [LICENSE](LICENSE).
+

@@ -10,6 +10,7 @@ on:
       - 'assets/**'
       - 'scripts/build-site.mjs'
       - 'tests/build-site.test.mjs'
+      - 'tests/app.test.mjs'
       - '.github/workflows/site-checks.yml'
   push:
     branches: [master]
@@ -21,6 +22,7 @@ on:
       - 'assets/**'
       - 'scripts/build-site.mjs'
       - 'tests/build-site.test.mjs'
+      - 'tests/app.test.mjs'
       - '.github/workflows/site-checks.yml'
 
 permissions:
@@ -34,4 +36,5 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 24
-      - run: node --test tests/build-site.test.mjs
+      - run: node --test tests/build-site.test.mjs tests/app.test.mjs
+

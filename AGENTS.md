@@ -26,7 +26,7 @@ Four pieces, connected only through the JSON files in `data/`:
 4. **`scripts/build-site.mjs`** (run only by `.github/workflows/pages.yml`)
    copies the frontend and data into `_site/` and adds SEO pages on top:
    a static page per theatre at `theatres/<slug>/` (own title, description,
-   canonical, JSON-LD, now-playing list), a static page per movie at
+   canonical, JSON-LD, dated session times), a static page per movie at
    `movies/<slug>/` (every theatre showing it, with each format
    combination's dates, in collapsible province sections ordered by how
    many theatres show it; releases at ≤6 theatres or in one province start
@@ -350,8 +350,10 @@ map:
 - Run `node --test tests/data-snapshot.test.mjs` to check snapshot
   replacement, restoration, race refusal and invalid-data refusal against
   temporary local Git remotes. The Storage checks workflow runs these in CI.
-- Run `node --test tests/build-site.test.mjs` after changing `index.html`
-  or `build-site.mjs`; it builds against the real template. The Site checks
+- Run `node --test tests/build-site.test.mjs tests/app.test.mjs` after changing `index.html`
+  or `build-site.mjs`/`app.js`; the build tests use the real template and
+  app tests exercise enhancement, request races, filters and seat events with
+  a minimal DOM double (not a browser layout test). The Site checks
   workflow runs it in CI. To preview the deployed shape, run
   `node scripts/build-site.mjs _site` and serve `_site/` at the server root
   (matching https://cinescan.app/).
@@ -365,3 +367,4 @@ map:
   spot-check a real theatre's `data/<slug>.json` diff (especially around
   `SCRAPE_MODE=quick`'s carry-forward behavior — deep-window days shouldn't
   disappear or duplicate across a quick run) rather than trusting it blind.
+

@@ -285,10 +285,12 @@ function renderDay(day, visibleMovies) {
 }
 
 function renderCalendar() {
+  hideSeatPopover();
+  delete calendarEl.dataset.snapshotTheatre;
   calendarEl.innerHTML = "";
 
   if (!currentDays || currentDays.length === 0) {
-    calendarEl.innerHTML = '<p class="empty">No showtimes found right now.</p>';
+    calendarEl.innerHTML = '<p class="empty">No current or upcoming showtimes are listed in this snapshot.</p>';
     return;
   }
 
@@ -674,21 +676,50 @@ function setupTheatrePicker(theatres) {
   });
 }
 
+// Keep the generated answer until enhancement succeeds. Never retain another
+// theatre's fallback, or let a slower previous request overwrite a new choice.
+let theatreRequest = 0;
+
+function showLoadError(message) {
+  const error = document.createElement("p");
+  error.className = "error";
+  error.textContent = message;
+  if (calendarEl.dataset.snapshotTheatre) {
+    calendarEl.querySelector(".error")?.remove();
+    calendarEl.appendChild(error);
+  } else {
+    calendarEl.replaceChildren(error);
+  }
+}
+
 async function loadTheatre(theatre, theatres) {
+  const request = ++theatreRequest;
   theatreNameEl.textContent = `Showtimes at ${theatre.name}`;
-  calendarEl.innerHTML = '<p class="loading">Loading showtimes&hellip;</p>';
+  hideSeatPopover();
+  updatedAtLabel = "";
+  auditoriums = {};
+  currentDays = [];
+  const keepSnapshot = calendarEl.dataset.snapshotTheatre === theatre.slug;
+  if (!keepSnapshot) {
+    delete calendarEl.dataset.snapshotTheatre;
+    calendarEl.innerHTML = '<p class="loading">Loading showtimes&hellip;</p>';
+    updatedEl.textContent = "";
+  }
   formatFilterEl.innerHTML = "";
-  updatedEl.textContent = "";
 
   try {
     const res = await fetch(theatre.file, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
+    if (request !== theatreRequest) return;
 
     auditoriums = data.auditoriums || {};
-    currentDays = data.days || [];
+    const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" });
+    currentDays = (data.days || []).filter((day) => day.date >= today)
+      .sort((a, b) => a.date.localeCompare(b.date));
 
-    if (data.updatedAt) {
+    updatedEl.textContent = "Snapshot update time unavailable.";
+    if (data.updatedAt && Number.isFinite(Date.parse(data.updatedAt))) {
       const formatted = new Date(data.updatedAt).toLocaleString("en-US", {
         timeZone: "America/Toronto",
         year: "numeric",
@@ -698,14 +729,15 @@ async function loadTheatre(theatre, theatres) {
         minute: "2-digit",
         timeZoneName: "short",
       });
-      updatedEl.textContent = `Last updated ${formatted}`;
+      updatedEl.textContent = `Snapshot last updated ${formatted}`;
       updatedAtLabel = formatted;
     }
 
     renderFormatFilter();
     renderCalendar();
   } catch (err) {
-    calendarEl.innerHTML = `<p class="error">Couldn't load showtimes: ${err.message}</p>`;
+    if (request !== theatreRequest) return;
+    showLoadError(`Couldn't load the interactive calendar: ${err.message}`);
   }
 }
 
@@ -756,7 +788,19 @@ function showTheatreFromLocation() {
   });
 }
 
+// A cached generated page may cross Toronto midnight before JS starts.
+function pruneGeneratedDates() {
+  if (!calendarEl.dataset.snapshotTheatre) return;
+  const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" });
+  const cards = [...calendarEl.querySelectorAll("[data-date]")];
+  for (const card of cards) if (card.dataset.date < today) card.remove();
+  if (cards.length && !calendarEl.querySelector("[data-date]")) {
+    calendarEl.innerHTML = '<p class="empty">No current or upcoming showtimes are listed in this snapshot.</p>';
+  }
+}
+
 async function main() {
+  pruneGeneratedDates();
   try {
     const res = await fetch("data/theatres.json", { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -768,8 +812,9 @@ async function main() {
     window.addEventListener("popstate", showTheatreFromLocation);
     showTheatreFromLocation();
   } catch (err) {
-    calendarEl.innerHTML = `<p class="error">Couldn't load theatres: ${err.message}</p>`;
+    showLoadError(`Couldn't load theatres: ${err.message}`);
   }
 }
 
 main();
+
