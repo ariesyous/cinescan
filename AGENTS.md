@@ -368,6 +368,9 @@ map:
 - `data/theatres.json`, `data/*.json` — see "Data model" above. Generated;
   don't hand-edit.
 - `.github/workflows/scrape.yml` — see "Schedule" above.
+- `.github/dependabot.yml` — opens one grouped PR a month when any pinned
+  GitHub Action has a new version, so actions GitHub eventually retires get
+  bumped before they break the scrape or deploy.
 
 ## Testing changes
 
