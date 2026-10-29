@@ -94,6 +94,12 @@ test("builds theatre pages, home page and sitemap", (t) => {
     assert.ok(!html.includes("ariesyous.github.io"));
   }
 
+  // app.js builds the date bar and search combobox inside elements the template provides.
+  for (const html of [home, page, bare]) {
+    assert.match(html, /<nav id="date-bar" class="date-bar" aria-label="Jump to a date" hidden><\/nav>/);
+    assert.match(html, /<input\s+id="theatre-search"[^>]*role="combobox"/);
+  }
+
   for (const copied of ["app.js", "movie.js", "style.css", "assets/favicon.svg", "data/big-screen.json"]) {
     assert.ok(existsSync(path.join(root, "out", copied)), copied);
   }
@@ -202,4 +208,34 @@ test("refuses to build over the source tree", (t) => {
     assert.match(result.stderr, /Refusing to build/);
   }
   assert.ok(existsSync(path.join(root, "index.html")));
+});
+
+test("collapses a long format filter behind a toggle, and leaves a short one alone", (t) => {
+  const short = fixture(t);
+  assert.equal(run(short, "out").status, 0);
+  for (const file of ["movies/index.html", "movies/now-showing/index.html"]) {
+    const page = read(short, file);
+    assert.match(page, /<div class="movie-filter-wrap">/, file);
+    assert.doesNotMatch(page, /filter-toggle/, file);
+  }
+
+  const long = fixture(t);
+  const formats = ["Regular", "IMAX", "UltraAVX", "ScreenX", "4DX", "70mm", "3D"];
+  writeFileSync(path.join(long, "data/theatres.json"), JSON.stringify([
+    { id: 100, slug: "wide", name: "Wide", city: "City", province: "ON", metro: null, file: "data/wide.json" },
+  ]));
+  writeFileSync(path.join(long, "data/wide.json"), JSON.stringify({
+    updatedAt: "2026-10-07T00:00:00.000Z",
+    days: [{ date: today, movies: [{ title: "Wide Release", sessions: formats.map((f) => ({ time: "19:00", formats: [f] })) }] }],
+  }));
+  assert.equal(run(long, "out").status, 0);
+  for (const file of ["movies/index.html", "movies/wide-release/index.html"]) {
+    const page = read(long, file);
+    assert.match(page, /<div class="movie-filter-wrap collapsible">/, file);
+    assert.match(page, /<button type="button" id="movie-filter-toggle" class="filter-toggle" aria-expanded="false" aria-controls="movie-filter" hidden>/, file);
+    assert.match(page, /<span class="filter-toggle-state">All formats<\/span>/, file);
+    // movie.js still finds the same filter element and chips inside the wrapper.
+    assert.match(page, /<div id="movie-filter" class="format-filter movie-filter" hidden>/, file);
+    assert.equal(page.match(/class="format-chip /g).length, formats.length, file);
+  }
 });

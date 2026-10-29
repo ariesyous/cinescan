@@ -430,17 +430,33 @@ function theatrePage(template, theatre, data, today) {
   return html;
 }
 
+// A filter with this many chips fills several rows of a phone's screen before
+// any movie, so there it starts collapsed behind a one-line toggle that shows
+// the current selection (movie.js wires it up; wider screens show the chips).
+const COLLAPSE_FILTER_MIN_FORMATS = 7;
+
 // Format chips for movie.js, hidden until it wires them up. `counts` maps
 // each tag to the number shown on its chip.
 function renderFormatFilter(formats, counts) {
   const chips = formats.map(
     (tag) =>
-      `      <button type="button" class="format-chip tag-${tagSlug(tag)}" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)} <span class="chip-count">${counts.get(tag)}</span></button>`
+      `        <button type="button" class="format-chip tag-${tagSlug(tag)}" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)} <span class="chip-count">${counts.get(tag)}</span></button>`
   );
+  const collapsible = formats.length >= COLLAPSE_FILTER_MIN_FORMATS;
+  const toggle = collapsible
+    ? [
+        `      <button type="button" id="movie-filter-toggle" class="filter-toggle" aria-expanded="false" aria-controls="movie-filter" hidden>`,
+        `        <span class="filter-toggle-label">Format</span> <span class="filter-toggle-state">All formats</span> <span class="filter-toggle-caret" aria-hidden="true">▾</span>`,
+        `      </button>`,
+      ]
+    : [];
   return [
-    `    <div id="movie-filter" class="format-filter movie-filter" hidden>`,
-    `      <button type="button" class="format-clear-btn">All formats</button>`,
+    `    <div class="movie-filter-wrap${collapsible ? " collapsible" : ""}">`,
+    ...toggle,
+    `      <div id="movie-filter" class="format-filter movie-filter" hidden>`,
+    `        <button type="button" class="format-clear-btn">All formats</button>`,
     ...chips,
+    `      </div>`,
     `    </div>`,
     `    <p id="movie-count" class="updated"></p>`,
   ].join("\n");
