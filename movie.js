@@ -35,6 +35,14 @@ function withFormats(href, selected) {
   return url;
 }
 
+// What the collapsed filter's toggle says is selected: "All formats", or
+// the first couple of tags, e.g. "IMAX, 4DX +1".
+function selectionSummary(selected) {
+  if (selected.size === 0) return "All formats";
+  const tags = [...selected];
+  return tags.length > 2 ? `${tags.slice(0, 2).join(", ")} +${tags.length - 2}` : tags.join(", ");
+}
+
 // Wires up the chips and calls onChange(selected) with the selected tags
 // (empty means everything) on load and after every change.
 function setupFormatFilter(onChange) {
@@ -44,9 +52,20 @@ function setupFormatFilter(onChange) {
   const urlFormats = new URLSearchParams(location.search).get("formats");
   let selected = new Set((urlFormats || "").split(",").filter((tag) => knownTags.has(tag)));
 
+  // Only a long filter has a toggle (see COLLAPSE_FILTER_MIN_FORMATS in
+  // build-site.mjs); on phones it hides the chips until opened.
+  const toggle = document.getElementById("movie-filter-toggle");
+  const stateEl = toggle?.querySelector(".filter-toggle-state");
+
   function apply() {
-    for (const chip of chips) chip.classList.toggle("active", selected.has(chip.dataset.tag));
+    for (const chip of chips) {
+      const on = selected.has(chip.dataset.tag);
+      chip.classList.toggle("active", on);
+      chip.setAttribute("aria-pressed", String(on));
+    }
     allBtn.classList.toggle("active", selected.size === 0);
+    allBtn.setAttribute("aria-pressed", String(selected.size === 0));
+    if (stateEl) stateEl.textContent = selectionSummary(selected);
     history.replaceState(history.state, "", withFormats(location.href, selected));
     onChange(selected);
   }
@@ -63,6 +82,14 @@ function setupFormatFilter(onChange) {
     selected = new Set();
     apply();
   });
+
+  if (toggle) {
+    const wrap = filterEl.closest(".movie-filter-wrap");
+    toggle.hidden = false;
+    toggle.addEventListener("click", () => {
+      toggle.setAttribute("aria-expanded", String(wrap.classList.toggle("open")));
+    });
+  }
 
   filterEl.hidden = false;
   apply();

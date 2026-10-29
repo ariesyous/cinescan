@@ -5,12 +5,36 @@ const theatreSearchEl = document.getElementById("theatre-search");
 const theatreSearchClearEl = document.getElementById("theatre-search-clear");
 const theatreDropdownEl = document.getElementById("theatre-dropdown");
 const formatFilterEl = document.getElementById("format-filter");
+const dateBarEl = document.getElementById("date-bar");
 const regionButtonsEl = document.getElementById("region-buttons");
 const breadcrumbEl = document.getElementById("breadcrumb");
 const areaButtonsEl = document.getElementById("area-buttons");
 const theatreListEl = document.getElementById("theatre-list");
 
 const DEFAULT_THEATRE_ID = 7402; // Scotiabank Theatre Toronto
+
+// The theatre a visitor last picked, reopened when they next arrive at the
+// home page. A per-browser convenience, so storage failures are ignored.
+const THEATRE_KEY = "cinescan:theatre";
+
+function readStoredTheatre() {
+  try {
+    const stored = JSON.parse(localStorage.getItem(THEATRE_KEY));
+    return stored && typeof stored.slug === "string" && typeof stored.name === "string"
+      ? stored
+      : null;
+  } catch {
+    return null;
+  }
+}
+
+function storeTheatre(theatre) {
+  try {
+    localStorage.setItem(THEATRE_KEY, JSON.stringify({ slug: theatre.slug, name: theatre.name }));
+  } catch {
+    // Private mode or blocked storage: the page still works, just forgets.
+  }
+}
 
 // Deployed pages (built by scripts/build-site.mjs) have a static page per
 // theatre at theatres/<slug>/ and a <base> pointing at the site root, so
@@ -40,9 +64,32 @@ const PROVINCE_NAMES = {
   SK: "Saskatchewan",
 };
 
+// Which day it is at a theatre depends on where the theatre is, not where
+// the visitor is. Everything but Saskatchewan observes daylight saving.
+const PROVINCE_TIME_ZONES = {
+  AB: "America/Edmonton",
+  BC: "America/Vancouver",
+  MB: "America/Winnipeg",
+  NB: "America/Moncton",
+  NL: "America/St_Johns",
+  NS: "America/Halifax",
+  ON: "America/Toronto",
+  PE: "America/Halifax",
+  QC: "America/Toronto",
+  SK: "America/Regina",
+};
+
+// "YYYY-MM-DD" for today at the theatre, matching the dates the scraper writes.
+function todayAt(theatre) {
+  const timeZone = PROVINCE_TIME_ZONES[theatre.province] || "America/Toronto";
+  return new Date().toLocaleDateString("en-CA", { timeZone });
+}
+
 let auditoriums = {};
 let updatedAtLabel = "";
 let currentDays = [];
+let currentToday = "";
+// Formats the visitor picked; empty means every format (same as movie.js).
 let selectedTags = new Set();
 
 let allTheatres = [];
@@ -64,11 +111,21 @@ function hideSeatPopover() {
   activeSeatChip = null;
 }
 
-function renderSeatPopover(session, chipEl) {
+function renderSeatPopover(session, chipEl, movie) {
   const layout = auditoriums[session.layoutKey];
   if (!layout || !session.seats) return;
 
   seatPopover.innerHTML = "";
+
+  const endLabel = endTimeLabel(session.time, movie.runtimeMinutes);
+  if (endLabel) {
+    // Showtime plus runtime: previews and ads run before the film, so the
+    // real finish is later than this.
+    const when = document.createElement("p");
+    when.className = "seat-when";
+    when.innerHTML = `<strong>Ends about ${endLabel}</strong> <span>${formatRuntime(movie.runtimeMinutes)} film, previews extra</span>`;
+    seatPopover.appendChild(when);
+  }
 
   const grid = document.createElement("div");
   grid.className = "seat-grid";
@@ -113,6 +170,15 @@ function renderSeatPopover(session, chipEl) {
     seatPopover.appendChild(caption);
   }
 
+  // On touch the first tap opens this preview instead of the ticket page
+  // (see renderMovie), which isn't obvious until someone's tapped twice.
+  if (!supportsHover && session.ticketUrl) {
+    const hint = document.createElement("p");
+    hint.className = "seat-hint";
+    hint.textContent = "Tap the time again to open tickets ↗";
+    seatPopover.appendChild(hint);
+  }
+
   seatPopover.hidden = false;
 
   const chipRect = chipEl.getBoundingClientRect();
@@ -132,7 +198,7 @@ document.addEventListener("click", (e) => {
     hideSeatPopover();
   }
   if (!theatreDropdownEl.hidden && !e.target.closest(".theatre-picker")) {
-    theatreDropdownEl.hidden = true;
+    setDropdownOpen(false);
   }
 });
 
@@ -141,6 +207,23 @@ function formatTimeLabel(timeStr) {
   const period = h < 12 ? "AM" : "PM";
   const hour12 = h % 12 || 12;
   return `${hour12}:${String(m).padStart(2, "0")} ${period}`;
+}
+
+// "2h 5m", for a runtime in minutes. Also in scripts/build-site.mjs, which
+// shows it on movie pages and can't share code with this file.
+function formatRuntime(minutes) {
+  const h = Math.floor(minutes / 60);
+  const m = minutes % 60;
+  return h ? `${h}h${m ? ` ${m}m` : ""}` : `${m}m`;
+}
+
+// When a session ends if the film starts at its listed time, e.g. "12:45 AM"
+// ("" when the runtime isn't known). It can land after midnight.
+function endTimeLabel(timeStr, runtimeMinutes) {
+  if (!runtimeMinutes) return "";
+  const [h, m] = timeStr.split(":").map(Number);
+  const end = (h * 60 + m + runtimeMinutes) % (24 * 60);
+  return formatTimeLabel(`${Math.floor(end / 60)}:${String(end % 60).padStart(2, "0")}`);
 }
 
 function formatDayLabel(dateStr) {
@@ -189,7 +272,7 @@ function renderFormatBadges(formats) {
 }
 
 function sessionVisible(session) {
-  return session.formats.some((t) => selectedTags.has(t));
+  return selectedTags.size === 0 || session.formats.some((t) => selectedTags.has(t));
 }
 
 function renderMovie(movie, visibleSessions) {
@@ -238,9 +321,9 @@ function renderMovie(movie, visibleSessions) {
     if (session.seats && auditoriums[session.layoutKey]) {
       chip.classList.add("has-seats");
       if (supportsHover) {
-        chip.addEventListener("mouseenter", () => renderSeatPopover(session, chip));
+        chip.addEventListener("mouseenter", () => renderSeatPopover(session, chip, movie));
         chip.addEventListener("mouseleave", hideSeatPopover);
-        chip.addEventListener("focus", () => renderSeatPopover(session, chip));
+        chip.addEventListener("focus", () => renderSeatPopover(session, chip, movie));
         chip.addEventListener("blur", hideSeatPopover);
       } else {
         // Touch: first tap previews the seat map, a second tap on the same
@@ -251,7 +334,7 @@ function renderMovie(movie, visibleSessions) {
         chip.addEventListener("click", (e) => {
           if (activeSeatChip !== chip) {
             e.preventDefault();
-            renderSeatPopover(session, chip);
+            renderSeatPopover(session, chip, movie);
             activeSeatChip = chip;
           } else {
             activeSeatChip = null;
@@ -272,6 +355,8 @@ function renderMovie(movie, visibleSessions) {
 function renderDay(day, visibleMovies) {
   const card = document.createElement("section");
   card.className = "day-card";
+  card.id = dayId(day.date);
+  card.dataset.date = day.date;
 
   const heading = document.createElement("h2");
   heading.textContent = formatDayLabel(day.date);
@@ -289,10 +374,11 @@ function renderCalendar() {
 
   if (!currentDays || currentDays.length === 0) {
     calendarEl.innerHTML = '<p class="empty">No showtimes found right now.</p>';
+    renderDateBar([]);
     return;
   }
 
-  let renderedAny = false;
+  const renderedDates = [];
   for (const day of currentDays) {
     const visibleMovies = [];
     for (const movie of day.movies) {
@@ -301,13 +387,169 @@ function renderCalendar() {
     }
     if (visibleMovies.length === 0) continue;
     calendarEl.appendChild(renderDay(day, visibleMovies));
-    renderedAny = true;
+    renderedDates.push(day.date);
   }
 
-  if (!renderedAny) {
+  if (renderedDates.length === 0) {
     calendarEl.innerHTML = '<p class="empty">No showtimes match the selected formats.</p>';
   }
+  renderDateBar(renderedDates);
 }
+
+// The date bar is a sticky strip with a chip for each day on show, so a
+// visitor can jump to a day instead of scrolling past every day before it.
+// It follows the page as it scrolls: chips for the days on screen are marked
+// and the first of them is active. It only lists days that have showtimes
+// under the current format filter, which also shows when a format plays.
+const MIN_DAYS_FOR_DATE_BAR = 3;
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+let activeDate = null;
+let dateBarLocked = false; // while a chip's own scroll runs, so it isn't overridden midway
+let dateBarLockTimer = 0;
+let dateBarFrame = 0;
+
+function dayId(date) {
+  return `day-${date}`;
+}
+
+function renderDateBar(dates) {
+  const show = dates.length >= MIN_DAYS_FOR_DATE_BAR;
+  dateBarEl.hidden = !show;
+  document.documentElement.classList.toggle("has-date-bar", show);
+  dateBarEl.innerHTML = "";
+  activeDate = null;
+  if (!show) return;
+
+  const track = document.createElement("div");
+  track.className = "date-bar-track";
+  let month = "";
+  for (const date of dates) {
+    const day = new Date(date + "T00:00:00");
+    if (date.slice(0, 7) !== month) {
+      month = date.slice(0, 7);
+      const label = document.createElement("span");
+      label.className = "date-bar-month";
+      label.textContent = day.toLocaleDateString(undefined, { month: "short" });
+      track.appendChild(label);
+    }
+
+    const isToday = date === currentToday;
+    const chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "date-chip";
+    chip.dataset.date = date;
+    chip.classList.toggle("is-today", isToday);
+    chip.classList.toggle("is-past", date < currentToday);
+    chip.setAttribute(
+      "aria-label",
+      day.toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" }) +
+        (isToday ? ", today" : "")
+    );
+
+    const weekday = document.createElement("span");
+    weekday.className = "date-chip-weekday";
+    weekday.textContent = isToday ? "Today" : day.toLocaleDateString(undefined, { weekday: "short" });
+    const num = document.createElement("span");
+    num.className = "date-chip-day";
+    num.textContent = day.getDate();
+    chip.append(weekday, num);
+
+    chip.addEventListener("click", () => jumpToDate(date));
+    track.appendChild(chip);
+  }
+  dateBarEl.appendChild(track);
+  updateDateBar();
+}
+
+function jumpToDate(date) {
+  const card = document.getElementById(dayId(date));
+  if (!card) return;
+  setActiveDate(date);
+  dateBarLocked = true;
+  clearTimeout(dateBarLockTimer);
+  dateBarLockTimer = setTimeout(unlockDateBar, 600);
+  card.scrollIntoView({ behavior: reduceMotion.matches ? "auto" : "smooth", block: "start" });
+
+  // Carry keyboard and screen reader focus along, and flash the card: on a
+  // wide screen it's one of several in the row that scrolls into place.
+  card.tabIndex = -1;
+  card.focus({ preventScroll: true });
+  card.classList.remove("flash");
+  void card.offsetWidth; // so the animation restarts if it was still running
+  card.classList.add("flash");
+  card.addEventListener("animationend", () => card.classList.remove("flash"), { once: true });
+}
+
+function unlockDateBar() {
+  dateBarLocked = false;
+  updateDateBar({ keepActive: true });
+}
+
+function setActiveDate(date) {
+  if (date === activeDate) return;
+  activeDate = date;
+  for (const chip of dateBarEl.querySelectorAll(".date-chip")) {
+    const on = chip.dataset.date === date;
+    chip.classList.toggle("active", on);
+    if (on) {
+      chip.setAttribute("aria-current", "date");
+      keepChipInView(chip);
+    } else {
+      chip.removeAttribute("aria-current");
+    }
+  }
+}
+
+// Scrolls the bar sideways to centre a chip that's near, or past, its edge.
+function keepChipInView(chip) {
+  const track = chip.parentElement;
+  const t = track.getBoundingClientRect();
+  const c = chip.getBoundingClientRect();
+  const margin = c.width * 1.5;
+  if (c.left < t.left + margin || c.right > t.right - margin) {
+    track.scrollBy({
+      left: c.left - t.left - (t.width - c.width) / 2,
+      behavior: reduceMotion.matches ? "auto" : "smooth",
+    });
+  }
+}
+
+// Marks the chips for the days on screen and, unless a chip was just used,
+// makes the first of them the active one.
+function updateDateBar({ keepActive = false } = {}) {
+  if (dateBarEl.hidden) return;
+  const barBottom = dateBarEl.getBoundingClientRect().bottom;
+  const cards = [...calendarEl.querySelectorAll(".day-card")];
+  const onScreen = new Set();
+  for (const card of cards) {
+    const rect = card.getBoundingClientRect();
+    if (rect.bottom > barBottom + 4 && rect.top < window.innerHeight) onScreen.add(card.dataset.date);
+  }
+  // Nothing on screen means the calendar is entirely below the fold or scrolled past.
+  const first =
+    [...onScreen][0] ??
+    (cards[0].getBoundingClientRect().top >= window.innerHeight ? cards[0] : cards.at(-1)).dataset.date;
+
+  for (const chip of dateBarEl.querySelectorAll(".date-chip")) {
+    chip.classList.toggle("in-view", onScreen.has(chip.dataset.date));
+  }
+  if (!keepActive) setActiveDate(first);
+}
+
+function onPageScroll() {
+  if (dateBarLocked) {
+    clearTimeout(dateBarLockTimer);
+    dateBarLockTimer = setTimeout(unlockDateBar, 150);
+    return;
+  }
+  if (dateBarFrame) return;
+  dateBarFrame = requestAnimationFrame(() => {
+    dateBarFrame = 0;
+    updateDateBar();
+  });
+}
+window.addEventListener("scroll", onPageScroll, { passive: true });
+window.addEventListener("resize", onPageScroll);
 
 function renderFormatFilter() {
   const tags = new Set();
@@ -320,11 +562,12 @@ function renderFormatFilter() {
   }
 
   const sortedTags = [...tags].sort();
-  if (pendingUrlFormats) {
-    selectedTags = new Set(sortedTags.filter((t) => pendingUrlFormats.includes(t)));
-  } else {
-    selectedTags = new Set(sortedTags);
-  }
+  // Like the movie pages: picking formats shows just those, and picking none
+  // (or all of them) shows everything.
+  selectedTags = new Set(
+    pendingUrlFormats ? sortedTags.filter((t) => pendingUrlFormats.includes(t)) : []
+  );
+  if (selectedTags.size === sortedTags.length) selectedTags.clear();
   pendingUrlFormats = null;
 
   formatFilterEl.innerHTML = "";
@@ -332,27 +575,27 @@ function renderFormatFilter() {
 
   const chips = [];
 
-  const clearBtn = document.createElement("button");
-  clearBtn.type = "button";
-  clearBtn.className = "format-clear-btn";
-  formatFilterEl.appendChild(clearBtn);
+  const allBtn = document.createElement("button");
+  allBtn.type = "button";
+  allBtn.className = "format-clear-btn";
+  allBtn.textContent = "All formats";
+  formatFilterEl.appendChild(allBtn);
 
-  function updateClearBtnLabel() {
-    clearBtn.textContent = selectedTags.size === 0 ? "Select All" : "Clear All";
-  }
-
-  function updateChipsFromSelection() {
+  function updateFilterButtons() {
+    allBtn.classList.toggle("active", selectedTags.size === 0);
+    allBtn.setAttribute("aria-pressed", String(selectedTags.size === 0));
     for (const chip of chips) {
-      chip.classList.toggle("active", selectedTags.has(chip.dataset.tag));
+      const on = selectedTags.has(chip.dataset.tag);
+      chip.classList.toggle("active", on);
+      chip.setAttribute("aria-pressed", String(on));
     }
   }
 
-  // A "formats" URL param is only meaningful as a proper subset of what's
-  // available -- everything selected is the default, so that's the same
-  // as no filter at all and the param is omitted for a cleaner URL.
+  // The "formats" URL param only exists while the filter is narrowed, so
+  // the default view keeps a clean URL.
   function syncFormatsToUrl() {
     const url = new URL(location.href);
-    if (selectedTags.size === sortedTags.length) {
+    if (selectedTags.size === 0) {
       url.searchParams.delete("formats");
     } else {
       url.searchParams.set("formats", [...selectedTags].join(","));
@@ -360,16 +603,15 @@ function renderFormatFilter() {
     history.replaceState(history.state, "", url);
   }
 
-  clearBtn.addEventListener("click", () => {
-    if (selectedTags.size === 0) {
-      selectedTags = new Set(sortedTags);
-    } else {
-      selectedTags.clear();
-    }
-    updateChipsFromSelection();
-    updateClearBtnLabel();
+  function applyFilter() {
+    updateFilterButtons();
     syncFormatsToUrl();
     renderCalendar();
+  }
+
+  allBtn.addEventListener("click", () => {
+    selectedTags.clear();
+    applyFilter();
   });
 
   for (const tag of sortedTags) {
@@ -377,25 +619,18 @@ function renderFormatFilter() {
     chip.type = "button";
     chip.dataset.tag = tag;
     chip.className = `format-chip tag-${tagSlug(tag)}`;
-    chip.classList.toggle("active", selectedTags.has(tag));
     chip.textContent = tag;
     chip.addEventListener("click", () => {
-      if (selectedTags.has(tag)) {
-        selectedTags.delete(tag);
-        chip.classList.remove("active");
-      } else {
-        selectedTags.add(tag);
-        chip.classList.add("active");
-      }
-      updateClearBtnLabel();
-      syncFormatsToUrl();
-      renderCalendar();
+      if (selectedTags.has(tag)) selectedTags.delete(tag);
+      else selectedTags.add(tag);
+      if (selectedTags.size === sortedTags.length) selectedTags.clear();
+      applyFilter();
     });
     chips.push(chip);
     formatFilterEl.appendChild(chip);
   }
 
-  updateClearBtnLabel();
+  updateFilterButtons();
 }
 
 // Which region a theatre belongs to, and its "area" label within that
@@ -515,7 +750,7 @@ function renderTheatreList(theatres) {
     btn.className = "theatre-list-item";
     if (theatre.id === currentTheatreId) btn.classList.add("active");
     btn.textContent = theatre.name;
-    btn.addEventListener("click", () => selectTheatre(theatre, theatres));
+    btn.addEventListener("click", () => selectTheatre(theatre, theatres, { remember: true }));
     theatreListEl.appendChild(btn);
   }
 }
@@ -544,7 +779,14 @@ function renderNav(theatres = allTheatres) {
 // nav into its region/area, leaving the top-level region buttons showing --
 // used for the no-slug landing page, which also keeps its own URL and title
 // so the home page doesn't present itself as the default theatre's page.
-function selectTheatre(theatre, theatres, { push = true, formats = null, drill = true } = {}) {
+// `remember: true` (the pickers' own choices, not loads from a URL) saves the
+// theatre to open next time the visitor arrives at the home page.
+function selectTheatre(
+  theatre,
+  theatres,
+  { push = true, formats = null, drill = true, remember = false } = {}
+) {
+  if (remember) storeTheatre(theatre);
   currentTheatreId = theatre.id;
   currentRegion = drill ? regionForTheatre(theatre) : null;
   currentArea = drill ? areaForTheatre(theatre) : null;
@@ -582,6 +824,50 @@ function normalize(str) {
     .toLowerCase();
 }
 
+// The dropdown works as a combobox: focus stays in the search box while the
+// arrow keys move a highlight through the options (aria-activedescendant),
+// and Enter picks the highlighted one. Typing highlights the first match, so
+// type-and-Enter goes straight to the top result.
+let activeOption = -1;
+
+function dropdownOptions() {
+  return [...theatreDropdownEl.querySelectorAll(".theatre-option")];
+}
+
+function setDropdownOpen(open) {
+  theatreDropdownEl.hidden = !open;
+  theatreSearchEl.setAttribute("aria-expanded", String(open));
+  if (!open) setActiveOption(-1);
+}
+
+function setActiveOption(index, { scroll = false } = {}) {
+  activeOption = index;
+  const options = dropdownOptions();
+  options.forEach((option, i) => {
+    option.classList.toggle("active", i === index);
+    option.setAttribute("aria-selected", String(i === index));
+  });
+  const option = options[index];
+  if (!option) {
+    theatreSearchEl.removeAttribute("aria-activedescendant");
+    return;
+  }
+  theatreSearchEl.setAttribute("aria-activedescendant", option.id);
+  if (scroll) {
+    // Scroll the list rather than the page, keeping the province heading
+    // in view above the first option of each group.
+    const heading = option.previousElementSibling?.matches(".theatre-group-heading")
+      ? option.previousElementSibling
+      : option;
+    const bottom = option.offsetTop + option.offsetHeight;
+    if (heading.offsetTop < theatreDropdownEl.scrollTop) {
+      theatreDropdownEl.scrollTop = heading.offsetTop;
+    } else if (bottom > theatreDropdownEl.scrollTop + theatreDropdownEl.clientHeight) {
+      theatreDropdownEl.scrollTop = bottom - theatreDropdownEl.clientHeight;
+    }
+  }
+}
+
 function renderTheatreDropdown(theatres, query) {
   theatreDropdownEl.innerHTML = "";
   const q = normalize(query.trim());
@@ -594,8 +880,11 @@ function renderTheatreDropdown(theatres, query) {
   if (matches.length === 0) {
     const empty = document.createElement("p");
     empty.className = "theatre-dropdown-empty";
+    empty.setAttribute("role", "option"); // a listbox may only hold options and groups
+    empty.setAttribute("aria-disabled", "true");
     empty.textContent = "No theatres match.";
     theatreDropdownEl.appendChild(empty);
+    setActiveOption(-1);
     return;
   }
 
@@ -612,28 +901,38 @@ function renderTheatreDropdown(theatres, query) {
     return nameA.localeCompare(nameB);
   });
 
+  let optionCount = 0;
   for (const province of provinces) {
     const group = document.createElement("div");
     group.className = "theatre-group";
+    group.setAttribute("role", "group");
+    group.setAttribute("aria-labelledby", `theatre-group-${province}`);
 
     const heading = document.createElement("p");
     heading.className = "theatre-group-heading";
+    heading.id = `theatre-group-${province}`;
     heading.textContent = PROVINCE_NAMES[province] || province;
     group.appendChild(heading);
 
     for (const theatre of byProvince.get(province).sort((a, b) => a.name.localeCompare(b.name))) {
+      const index = optionCount++;
       const item = document.createElement("button");
       item.type = "button";
+      item.id = `theatre-option-${theatre.id}`;
       item.className = "theatre-option";
+      item.setAttribute("role", "option");
+      item.tabIndex = -1;
       item.textContent = theatre.city ? `${theatre.name} — ${theatre.city}` : theatre.name;
+      item.addEventListener("mouseenter", () => setActiveOption(index));
       item.addEventListener("click", () => {
-        theatreDropdownEl.hidden = true;
-        selectTheatre(theatre, theatres);
+        setDropdownOpen(false);
+        selectTheatre(theatre, theatres, { remember: true });
       });
       group.appendChild(item);
     }
     theatreDropdownEl.appendChild(group);
   }
+  setActiveOption(q ? 0 : -1);
 }
 
 function updateSearchClearVisibility() {
@@ -643,11 +942,11 @@ function updateSearchClearVisibility() {
 function setupTheatrePicker(theatres) {
   theatreSearchEl.addEventListener("focus", () => {
     renderTheatreDropdown(theatres, theatreSearchEl.value);
-    theatreDropdownEl.hidden = false;
+    setDropdownOpen(true);
   });
   theatreSearchEl.addEventListener("input", () => {
     renderTheatreDropdown(theatres, theatreSearchEl.value);
-    theatreDropdownEl.hidden = false;
+    setDropdownOpen(true);
     updateSearchClearVisibility();
   });
   // relatedTarget is the element about to receive focus, so a click on a
@@ -655,13 +954,34 @@ function setupTheatrePicker(theatres) {
   // and doesn't hide the dropdown out from under the click.
   theatreSearchEl.addEventListener("focusout", (e) => {
     if (!theatreDropdownEl.contains(e.relatedTarget)) {
-      theatreDropdownEl.hidden = true;
+      setDropdownOpen(false);
     }
   });
   theatreSearchEl.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
-      theatreDropdownEl.hidden = true;
+      setDropdownOpen(false);
       theatreSearchEl.blur();
+    } else if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      const wasClosed = theatreDropdownEl.hidden;
+      if (wasClosed) {
+        renderTheatreDropdown(theatres, theatreSearchEl.value);
+        setDropdownOpen(true);
+      }
+      const count = dropdownOptions().length;
+      if (count === 0) return;
+      const step = e.key === "ArrowDown" ? 1 : -1;
+      const from = wasClosed ? -1 : activeOption;
+      // No highlight yet: Down starts at the first option, Up at the last.
+      const next = from === -1 ? (step === 1 ? 0 : count - 1) : (from + step + count) % count;
+      setActiveOption(next, { scroll: true });
+    } else if (e.key === "Enter" && !e.isComposing && !theatreDropdownEl.hidden) {
+      const option = dropdownOptions()[activeOption];
+      if (option) {
+        e.preventDefault();
+        option.click();
+        theatreSearchEl.blur(); // closes the on-screen keyboard
+      }
     }
   });
 
@@ -669,7 +989,7 @@ function setupTheatrePicker(theatres) {
     theatreSearchEl.value = "";
     updateSearchClearVisibility();
     renderTheatreDropdown(theatres, "");
-    theatreDropdownEl.hidden = false;
+    setDropdownOpen(true);
     theatreSearchEl.focus();
   });
 }
@@ -678,6 +998,7 @@ async function loadTheatre(theatre, theatres) {
   theatreNameEl.textContent = `Showtimes at ${theatre.name}`;
   calendarEl.innerHTML = '<p class="loading">Loading showtimes&hellip;</p>';
   formatFilterEl.innerHTML = "";
+  renderDateBar([]);
   updatedEl.textContent = "";
 
   try {
@@ -687,6 +1008,7 @@ async function loadTheatre(theatre, theatres) {
 
     auditoriums = data.auditoriums || {};
     currentDays = data.days || [];
+    currentToday = todayAt(theatre);
 
     if (data.updatedAt) {
       const formatted = new Date(data.updatedAt).toLocaleString("en-US", {
@@ -747,16 +1069,32 @@ function showTheatreFromLocation() {
     location.reload(); // e.g. Back to the home URL: load the real home page
     return;
   }
+  // Without a theatre in the URL, a returning visitor gets the one they last
+  // picked, shown like any theatre page (nav drilled in, URL and title to
+  // match). Everyone else, crawlers included, gets the default under the
+  // home URL.
+  const stored = !urlTheatre && readStoredTheatre();
+  const remembered = stored && allTheatres.find((t) => t.slug === stored.slug);
   const theatre =
-    urlTheatre || allTheatres.find((t) => t.id === DEFAULT_THEATRE_ID) || allTheatres[0];
+    urlTheatre ||
+    remembered ||
+    allTheatres.find((t) => t.id === DEFAULT_THEATRE_ID) ||
+    allTheatres[0];
   selectTheatre(theatre, allTheatres, {
     push: false,
     formats: parseFormatsParam(new URLSearchParams(location.search)),
-    drill: Boolean(urlTheatre),
+    drill: Boolean(urlTheatre || remembered),
   });
 }
 
 async function main() {
+  // The heading still says the default theatre until the list below loads,
+  // which would flash the wrong name at a returning visitor.
+  const stored = readStoredTheatre();
+  if (stored && !slugFromPath() && !new URLSearchParams(location.search).get("theatre")) {
+    theatreNameEl.textContent = `Showtimes at ${stored.name}`;
+  }
+
   try {
     const res = await fetch("data/theatres.json", { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);

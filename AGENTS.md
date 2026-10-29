@@ -293,16 +293,26 @@ map:
 - Format tags are Cineplex's raw `experienceTypes` strings, used as-is
   rather than mapped to a smaller taxonomy — new tags Cineplex adds show up
   automatically as filterable/badge-able without code changes (falling back
-  to a neutral badge color until a `--tag-*` CSS variable is added for them
-  in `style.css`).
+  to a neutral badge color until a `--tag-*` CSS variable and a `.tag-*`
+  rule are added for them in `style.css`). Text on a tag color is white, or
+  `--tag-ink-dark` on the light ones (set per tag with `--tag-ink`); keep
+  each pairing at least 4.5:1, since the badges are small.
 - No build step. Don't add bundlers, TypeScript compilation, or frameworks
   unless explicitly asked — the site is meant to stay simple enough to
   deploy by just pushing to `master`. `build-site.mjs` only adds generated
   pages at deploy time; the checkout must keep working when served as-is.
 - The landing page (no theatre in the URL) shows the default theatre but
   keeps the home URL and title, so search engines index it as the home
-  page. Theatre titles are `<name> Showtimes | CineScan` in both `app.js`
+  page. The one exception is a returning visitor: picking a theatre in the
+  pickers saves it (`localStorage` key `cinescan:theatre`, a `{slug, name}`
+  JSON value; loads from a URL never overwrite it), and the next bare visit
+  opens it like that theatre's own page, URL and title included. Crawlers
+  and first-time visitors have no saved theatre, so they still get the
+  default. Theatre titles are `<name> Showtimes | CineScan` in both `app.js`
   and `build-site.mjs`; keep them identical.
+- `body` must not be `overflow-x: hidden` (it's `clip`; only `html` is
+  hidden): that makes `body` a scroll container and the date bar's
+  `position: sticky` then never sticks to the viewport.
 - GitHub Pages deploys `_site/` (built from the `master` checkout plus
   the restored `data` snapshot) using `.github/workflows/pages.yml`. Only
   `app.js`, `movie.js`, `style.css`, `assets/`, `data/` and the generated HTML,
@@ -316,7 +326,11 @@ map:
 - `movie.js` — format filter for the generated movie pages and `movies/`
   index (not loaded by `index.html`). Narrows the theatre list or movie
   cards and adds `?formats=` to the URL and to theatre/movie links, which
-  `app.js`'s and its own filters read. On movie pages it also remembers
+  `app.js`'s and its own filters read. Selecting nothing shows everything,
+  and the theatre page's filter works the same way. A filter with
+  `COLLAPSE_FILTER_MIN_FORMATS` or more chips gets a toggle from
+  `build-site.mjs` that `movie.js` wires up; on phones the chips stay hidden
+  until it's opened, and it shows the current selection. On movie pages it also remembers
   the province a visitor last opened (`localStorage` key
   `cinescan:province`, set only from summary clicks so auto-opened
   sections never overwrite it) and reopens it on other movie pages.
@@ -330,9 +344,21 @@ map:
   alternate way to jump straight to a theatre, kept in sync via
   `selectTheatre`. Scotiabank Theatre Toronto is the default shown on load,
   matched by `theatreId` 7402 (not by slug, since slugs are auto-generated).
+  The search box is an ARIA combobox: arrow keys move a highlight
+  (`setActiveOption`, `aria-activedescendant`), typing highlights the first
+  match and Enter picks the highlighted option.
   Also builds the format filter bar and renders the calendar from the
   selected theatre's data file; session chips carry `session.formats` as
-  color-coded badges, toggled by the filter bar.
+  color-coded badges, narrowed by the filter bar (`selectedTags`: empty
+  means every format). `renderDateBar` builds the sticky date strip from
+  the days that survive the filter (so it also shows which days a format
+  plays); chips scroll to `#day-<date>` cards, and a scroll listener keeps
+  the active chip in step (`updateDateBar`) without touching the URL.
+  "Today" is the date in the theatre's own time zone
+  (`PROVINCE_TIME_ZONES`), not the visitor's. Sessions with a seat map open
+  it on hover, or on the first tap on touch screens (which says so in the
+  popover); it also gives roughly when the film ends, from the showtime plus
+  `runtimeMinutes` (previews not included).
 - `scripts/scrape.mjs` — see "Operating the scraper" and "Seat data" above.
 - `scripts/build-site.mjs` — see "Architecture" above.
 - `scripts/fetch-theatres.mjs` — regenerates `data/theatres.json` from

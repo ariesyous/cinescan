@@ -49,20 +49,25 @@ Live at: https://cinescan.app/
   Else, then cities (or provinces, under Everywhere Else), then a
   persistent list of that area's theatres so you can switch between them
   without re-navigating — plus a breadcrumb to jump back up, and a search
-  box as a quick alternate way to jump straight to a theatre (Scotiabank
-  Theatre Toronto shown by default). It then fetches the selected theatre's
-  data file and renders it as a responsive calendar. Every session shows
-  color-coded badges for its raw Cineplex format tags, and a filter bar
-  above the calendar lets visitors toggle formats on/off. Past days and
-  past showtimes drop off automatically since the scraper's window always
-  starts at "today."
+  box as a quick alternate way to jump straight to a theatre (type and press
+  Enter for the first match, or use the arrow keys). Scotiabank Theatre
+  Toronto is shown by default; a returning visitor's home page opens the
+  theatre they last picked instead. It then fetches the selected theatre's
+  data file and renders it as a responsive calendar, with a sticky strip of
+  dates above it to jump to a day. Every session shows color-coded badges
+  for its raw Cineplex format tags, and a filter bar above the calendar
+  narrows it to the formats a visitor picks (none picked shows everything).
+  Hovering a showtime (or tapping it, on a touch screen) previews its seat
+  map and roughly when it ends. Past days and past showtimes drop off
+  automatically since the scraper's window always starts at "today."
 - GitHub Pages deploys the `master` source plus the latest `data` snapshot
   after source changes and successful scrapes. At deploy time,
   `scripts/build-site.mjs` also generates a search-friendly page per theatre
   (`/theatres/<slug>/`), a page per movie listing every theatre
   showing it by format and date, in collapsible province sections that
   remember the visitor's province (`/movies/<slug>/`, indexed at
-  `/movies/`, which can be filtered by format), a footer
+  `/movies/`, which can be filtered by format, with a long filter
+  collapsed behind a toggle on phones), a footer
   directory of all theatres, and
   `sitemap.xml`, advertised by `robots.txt`. Both workflows restore the
   previous snapshot with `scripts/data-snapshot.mjs`; a restore failure

@@ -65,6 +65,11 @@
         type="text"
         placeholder="Or search all theatres by name or city&hellip;"
         autocomplete="off"
+        role="combobox"
+        aria-label="Search theatres by name or city"
+        aria-autocomplete="list"
+        aria-expanded="false"
+        aria-controls="theatre-dropdown"
       />
       <button
         id="theatre-search-clear"
@@ -73,13 +78,15 @@
         aria-label="Clear search"
         hidden
       >&times;</button>
-      <div id="theatre-dropdown" class="theatre-dropdown" hidden></div>
+      <div id="theatre-dropdown" class="theatre-dropdown" role="listbox" hidden></div>
     </div>
     <p class="refresh-note">Data refreshes multiple times per day.</p>
     <p id="updated" class="updated"></p>
   </header>
 
-  <div id="format-filter" class="format-filter"></div>
+  <div id="format-filter" class="format-filter" role="group" aria-label="Filter by format"></div>
+
+  <nav id="date-bar" class="date-bar" aria-label="Jump to a date" hidden></nav>
 
   <main id="calendar" class="calendar">
     <p class="loading">Loading showtimes&hellip;</p>
