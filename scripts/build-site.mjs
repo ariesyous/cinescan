@@ -10,7 +10,12 @@
 // - A static page per movie at movies/<slug>/ listing every theatre showing
 //   it, with each format combination's dates, plus a movies/ index. These
 //   don't load app.js; movie.js adds format filters (and, on movie pages,
-//   reopens the visitor's province) on top.
+//   reopens the visitor's province) on top. Each movie page also gets a
+//   movies/<slug>/showtimes.json with every session's time and ticket link,
+//   which movie.js fetches to list showtimes under each theatre, so the
+//   page itself stays small and crawlable. Hovering a time previews its seat
+//   map (seatmap.js, which movie pages load first), read from the theatre's
+//   own data file only when asked.
 // - A crawlable directory of every theatre in each page's footer, since the
 //   region picker is built from buttons rather than links.
 // - sitemap.xml listing every page and a root robots.txt advertising it.
@@ -28,7 +33,7 @@ import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const SITE_URL = "https://cinescan.app/";
-const COPY = ["app.js", "movie.js", "style.css", "assets", "data"];
+const COPY = ["app.js", "movie.js", "seatmap.js", "style.css", "assets", "data"];
 
 const PROVINCE_NAMES = {
   AB: "Alberta",
@@ -41,6 +46,21 @@ const PROVINCE_NAMES = {
   PE: "Prince Edward Island",
   QC: "Quebec",
   SK: "Saskatchewan",
+};
+
+// Same as PROVINCE_TIME_ZONES in app.js, which uses it to find today at a
+// theatre; here it tells movie.js which sessions have already started.
+const PROVINCE_TIME_ZONES = {
+  AB: "America/Edmonton",
+  BC: "America/Vancouver",
+  MB: "America/Winnipeg",
+  NB: "America/Moncton",
+  NL: "America/St_Johns",
+  NS: "America/Halifax",
+  ON: "America/Toronto",
+  PE: "America/Halifax",
+  QC: "America/Toronto",
+  SK: "America/Regina",
 };
 
 function escapeHtml(str) {
@@ -116,7 +136,11 @@ function injectSiteHead(html, baseHref, structuredData) {
 
 // A page that shares index.html's <head> (analytics, styles, social tags),
 // brand line and footer, but has its own body instead of the theatre app.
-function staticPage(template, { title, description, url, baseHref, structuredData, heading, intro, main }) {
+// `scripts` are the page's own, in the order they load.
+function staticPage(
+  template,
+  { title, description, url, baseHref, structuredData, heading, intro, main, scripts = ["movie.js"] }
+) {
   const brand = extract(template, /<p class="brand">[\s\S]*?<\/p>/, "brand line");
   const footer = extract(template, /<footer class="site-footer">[\s\S]*?<\/footer>/, "site footer");
   let html = setPageMeta(template, { title, description, url });
@@ -137,7 +161,7 @@ function staticPage(template, { title, description, url, baseHref, structuredDat
         ``,
         `  ${footer}`,
         ``,
-        `  <script src="movie.js"></script>`,
+        ...scripts.map((src) => `  <script src="${src}"></script>`),
         `</body>`,
       ].join("\n"),
     "<body>"
@@ -173,6 +197,10 @@ function movieSlug(title) {
 
 function moviePath(slug) {
   return `movies/${slug}/`;
+}
+
+function showtimesPath(slug) {
+  return `${moviePath(slug)}showtimes.json`;
 }
 
 // Same as tagSlug in app.js, for the shared .tag-* badge colours.
@@ -291,14 +319,19 @@ function collectMovies(theatres, dataBySlug, today) {
 
         let showing = entry.theatres.get(theatre.slug);
         if (!showing) {
-          showing = { theatre, combos: new Map() };
+          showing = { theatre, combos: new Map(), days: new Map() }; // days: date -> sessions
           entry.theatres.set(theatre.slug, showing);
         }
+        if (!showing.days.has(day.date)) showing.days.set(day.date, []);
         for (const session of movie.sessions) {
           const formats = [...session.formats].sort();
           const key = formats.join("|");
           if (!showing.combos.has(key)) showing.combos.set(key, { formats, dates: new Set() });
           showing.combos.get(key).dates.add(day.date);
+          // Whether the theatre's page can show this session's seats, for movie.js
+          // to know which times to offer a seat map on.
+          const seats = Boolean(session.seats && data.auditoriums?.[session.layoutKey]);
+          showing.days.get(day.date).push({ time: session.time, formats, ticketUrl: session.ticketUrl, seats });
           for (const tag of formats) {
             if (!entry.formatTheatres.has(tag)) entry.formatTheatres.set(tag, new Set());
             entry.formatTheatres.get(tag).add(theatre.slug);
@@ -317,6 +350,52 @@ function collectMovies(theatres, dataBySlug, today) {
     entry.formatCounts = formatCounts;
   }
   return movies;
+}
+
+// The contents of movies/<slug>/showtimes.json, which movie.js turns into
+// showtimes under each theatre on the movie's page:
+//
+//   { updatedAt, combos: [["IMAX", "3D"], ...],
+//     theatres: { <theatre slug>: { tz, days: { "YYYY-MM-DD": [[time, combo, ticketUrl, 1], ...] } } } }
+//
+// `combo` indexes `combos` (the formats a session plays in, sorted, the same
+// keys as the page's data-formats), and `ticketUrl` is left off when a
+// session has none. A trailing 1 says the session has a seat map, which
+// movie.js reads from the theatre's data file only if someone hovers the time
+// (it can only find the session there by its ticket link, so a session with
+// no link is never marked). Sessions are in time order, days in date order.
+// Only the fields movie.js lists are kept; the seats themselves would make
+// every file several times bigger.
+function movieShowtimes(movie) {
+  const combos = [];
+  const comboIndex = new Map();
+  const theatres = {};
+  for (const { theatre, days } of movie.theatres.values()) {
+    const byDate = {};
+    for (const date of [...days.keys()].sort()) {
+      byDate[date] = days
+        .get(date)
+        .sort((a, b) => a.time.localeCompare(b.time))
+        .map((session) => {
+          const key = session.formats.join("|");
+          if (!comboIndex.has(key)) {
+            comboIndex.set(key, combos.length);
+            combos.push(session.formats);
+          }
+          // Only web links: movie.js uses these as hrefs.
+          const url = /^https:\/\//.test(session.ticketUrl || "") ? session.ticketUrl : null;
+          const row = [session.time, comboIndex.get(key)];
+          if (url) row.push(url);
+          if (url && session.seats) row.push(1);
+          return row;
+        });
+    }
+    theatres[theatre.slug] = {
+      tz: PROVINCE_TIME_ZONES[theatre.province] || "America/Toronto",
+      days: byDate,
+    };
+  }
+  return { updatedAt: movie.updatedAt, combos, theatres };
 }
 
 function renderNowPlaying(theatre, movies, today) {
@@ -436,8 +515,9 @@ function theatrePage(template, theatre, data, today) {
 const COLLAPSE_FILTER_MIN_FORMATS = 7;
 
 // Format chips for movie.js, hidden until it wires them up. `counts` maps
-// each tag to the number shown on its chip.
-function renderFormatFilter(formats, counts) {
+// each tag to the number shown on its chip. `search` adds a box under them
+// for narrowing the list by name (movie pages with many theatres).
+function renderFormatFilter(formats, counts, { search = false } = {}) {
   const chips = formats.map(
     (tag) =>
       `        <button type="button" class="format-chip tag-${tagSlug(tag)}" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)} <span class="chip-count">${counts.get(tag)}</span></button>`
@@ -458,7 +538,12 @@ function renderFormatFilter(formats, counts) {
     ...chips,
     `      </div>`,
     `    </div>`,
-    `    <p id="movie-count" class="updated"></p>`,
+    ...(search
+      ? [
+          `    <input id="movie-search" class="theatre-search movie-search" type="search" placeholder="Find a theatre or city&hellip;" aria-label="Find a theatre or city" autocomplete="off" hidden />`,
+        ]
+      : []),
+    `    <p id="movie-count" class="updated" aria-live="polite"></p>`,
   ].join("\n");
 }
 
@@ -466,6 +551,9 @@ function renderFormatFilter(formats, counts) {
 // showing it), so a wide release isn't one long scroll; movie.js reopens
 // the province a visitor last opened. Small releases start expanded.
 const OPEN_ALL_MAX_THEATRES = 6;
+
+// Movie pages for more theatres than this get a box to find one by name.
+const SEARCH_MIN_THEATRES = 12;
 
 function moviePage(template, movie) {
   const url = SITE_URL + moviePath(movie.slug);
@@ -488,7 +576,7 @@ function moviePage(template, movie) {
     `    <div class="movie-hero">`,
     poster + `      <p class="movie-hero-facts">${facts.map(escapeHtml).join(" · ")}</p>`,
     `    </div>`,
-    renderFormatFilter(movie.formats, movie.formatCounts),
+    renderFormatFilter(movie.formats, movie.formatCounts, { search: theatreCount > SEARCH_MIN_THEATRES }),
   ].join("\n");
 
   const showings = [...movie.theatres.values()];
@@ -517,7 +605,7 @@ function moviePage(template, movie) {
           );
         const city = theatre.city ? ` <span class="movie-theatre-city">${escapeHtml(theatre.city)}</span>` : "";
         return [
-          `        <li class="movie-theatre">`,
+          `        <li class="movie-theatre" data-theatre="${escapeHtml(theatre.slug)}">`,
           `          <p class="movie-theatre-name"><a href="${theatrePath(theatre)}" data-theatre-link>${escapeHtml(theatre.name)}</a>${city}</p>`,
           `          <ul class="movie-combos">`,
           ...comboRows,
@@ -551,7 +639,16 @@ function moviePage(template, movie) {
     },
     heading: `${escapeHtml(movie.title)} <span class="heading-sub">at Cineplex theatres in Canada</span>`,
     intro,
-    main: [`<main class="movie-page">`, ...provinces, `  </main>`].join("\n"),
+    main: [
+      // A direct child of <body>, like the theatre page's date bar, so it can
+      // stick to the top while the theatres scroll past. movie.js fills it.
+      `<nav id="movie-day-bar" class="date-bar movie-day-bar" aria-label="Show a single day" hidden></nav>`,
+      ``,
+      `  <main class="movie-page" data-movie="${escapeHtml(movie.slug)}" data-showtimes="${showtimesPath(movie.slug)}">`,
+      ...provinces,
+      `  </main>`,
+    ].join("\n"),
+    scripts: ["seatmap.js", "movie.js"],
   });
 }
 
@@ -763,6 +860,7 @@ async function main() {
   const movieEntries = [];
   for (const movie of movies.values()) {
     await writePage(outDir, moviePath(movie.slug), moviePage(shared, movie));
+    await writeFile(path.join(outDir, showtimesPath(movie.slug)), JSON.stringify(movieShowtimes(movie)));
     movieEntries.push({ url: SITE_URL + moviePath(movie.slug), lastmod: movie.updatedAt });
   }
   await writePage(outDir, "movies/", moviesIndexPage(shared, movies, today));
