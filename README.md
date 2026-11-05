@@ -64,7 +64,10 @@ Live at: https://cinescan.app/
   `scripts/build-site.mjs` also generates a search-friendly page per theatre
   (`/theatres/<slug>/`), a page per movie listing every theatre
   showing it by format and date, in collapsible province sections that
-  remember the visitor's province (`/movies/<slug>/`, indexed at
+  remember the visitor's province, with each theatre's showtimes (ticket
+  links that preview the seat map the same way) under it, a strip of days to
+  look at just one and, for wide releases, a box to find a theatre
+  (`/movies/<slug>/`, indexed at
   `/movies/`, which can be filtered by format, with a long filter
   collapsed behind a toggle on phones), a footer
   directory of all theatres, and

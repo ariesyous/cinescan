@@ -5,6 +5,8 @@ const theatreSearchEl = document.getElementById("theatre-search");
 const theatreSearchClearEl = document.getElementById("theatre-search-clear");
 const theatreDropdownEl = document.getElementById("theatre-dropdown");
 const formatFilterEl = document.getElementById("format-filter");
+const movieFilterEl = document.getElementById("movie-filter-bar");
+const movieSelectEl = document.getElementById("movie-select");
 const dateBarEl = document.getElementById("date-bar");
 const regionButtonsEl = document.getElementById("region-buttons");
 const breadcrumbEl = document.getElementById("breadcrumb");
@@ -91,112 +93,27 @@ let currentDays = [];
 let currentToday = "";
 // Formats the visitor picked; empty means every format (same as movie.js).
 let selectedTags = new Set();
+// The one movie to show, as its movieSlug; null means every movie. Movie pages
+// link here with ?movie=, so a visitor lands on that movie's showtimes
+// instead of hunting for them among everything else playing.
+let selectedMovie = null;
 
 let allTheatres = [];
 let currentRegion = null; // "GTA" | "Montreal" | "Vancouver" | "other" | null
 let currentArea = null; // city name, or province code when currentRegion === "other"
 let currentTheatreId = null;
+// Whether the area's list of theatres shows once a theatre is picked. It stays
+// open while a visitor is flipping through that list, but a theatre reached
+// any other way (a link, the search box, last visit) starts with it folded
+// away, since up to 40 stacked buttons would push the showtimes off screen.
+let theatreListOpen = true;
 let pendingUrlFormats = null; // format tags to seed the next renderFormatFilter() from
+let pendingUrlMovie = null; // movie slug to seed the next renderMovieSelect() from
 
-const seatPopover = document.createElement("div");
-seatPopover.className = "seat-popover";
-seatPopover.hidden = true;
-document.body.appendChild(seatPopover);
-
-const supportsHover = window.matchMedia("(hover: hover)").matches;
-let activeSeatChip = null;
-
-function hideSeatPopover() {
-  seatPopover.hidden = true;
-  activeSeatChip = null;
-}
-
-function renderSeatPopover(session, chipEl, movie) {
-  const layout = auditoriums[session.layoutKey];
-  if (!layout || !session.seats) return;
-
-  seatPopover.innerHTML = "";
-
-  const endLabel = endTimeLabel(session.time, movie.runtimeMinutes);
-  if (endLabel) {
-    // Showtime plus runtime: previews and ads run before the film, so the
-    // real finish is later than this.
-    const when = document.createElement("p");
-    when.className = "seat-when";
-    when.innerHTML = `<strong>Ends about ${endLabel}</strong> <span>${formatRuntime(movie.runtimeMinutes)} film, previews extra</span>`;
-    seatPopover.appendChild(when);
-  }
-
-  const grid = document.createElement("div");
-  grid.className = "seat-grid";
-  grid.style.gridTemplateColumns = `repeat(${layout.totalColumns}, 1fr)`;
-  session.seats.forEach((rowStr, rowIndex) => {
-    const typeStr = layout.seatTypes?.[rowIndex] ?? "";
-    for (let col = 0; col < rowStr.length; col++) {
-      const ch = rowStr[col];
-      const typeCh = typeStr[col] ?? "S";
-      const cell = document.createElement("span");
-      cell.className =
-        "seat " +
-        (ch === "A"
-          ? typeCh === "W" || typeCh === "C"
-            ? "seat-available-accessible"
-            : typeCh === "D"
-            ? "seat-available-dbox"
-            : "seat-available"
-          : ch === "O"
-          ? "seat-occupied"
-          : "seat-none");
-      grid.appendChild(cell);
-    }
-  });
-  seatPopover.appendChild(grid);
-
-  const hasDbox = (layout.seatTypes ?? []).some((row) => row.includes("D"));
-  const legend = document.createElement("div");
-  legend.className = "seat-legend";
-  legend.innerHTML = `
-    <span><span class="seat-swatch seat-available"></span> Available</span>
-    <span><span class="seat-swatch seat-available-accessible"></span> Accessible</span>
-    ${hasDbox ? '<span><span class="seat-swatch seat-available-dbox"></span> D-BOX</span>' : ""}
-    <span><span class="seat-swatch seat-occupied"></span> Occupied</span>
-  `;
-  seatPopover.appendChild(legend);
-
-  if (updatedAtLabel) {
-    const caption = document.createElement("p");
-    caption.className = "seat-caption";
-    caption.textContent = `Seats as of ${updatedAtLabel}`;
-    seatPopover.appendChild(caption);
-  }
-
-  // On touch the first tap opens this preview instead of the ticket page
-  // (see renderMovie), which isn't obvious until someone's tapped twice.
-  if (!supportsHover && session.ticketUrl) {
-    const hint = document.createElement("p");
-    hint.className = "seat-hint";
-    hint.textContent = "Tap the time again to open tickets ↗";
-    seatPopover.appendChild(hint);
-  }
-
-  seatPopover.hidden = false;
-
-  const chipRect = chipEl.getBoundingClientRect();
-  const popRect = seatPopover.getBoundingClientRect();
-  let left = chipRect.left + window.scrollX;
-  let top = chipRect.bottom + window.scrollY + 6;
-  if (left + popRect.width > window.scrollX + document.documentElement.clientWidth - 8) {
-    left = window.scrollX + document.documentElement.clientWidth - popRect.width - 8;
-  }
-  if (left < window.scrollX + 8) left = window.scrollX + 8;
-  seatPopover.style.left = `${left}px`;
-  seatPopover.style.top = `${top}px`;
-}
+// The seat map previews that open over showtimes are in seatmap.js, which
+// the page loads first (movie pages share it).
 
 document.addEventListener("click", (e) => {
-  if (!seatPopover.hidden && !seatPopover.contains(e.target) && !e.target.closest(".session")) {
-    hideSeatPopover();
-  }
   if (!theatreDropdownEl.hidden && !e.target.closest(".theatre-picker")) {
     setDropdownOpen(false);
   }
@@ -207,23 +124,6 @@ function formatTimeLabel(timeStr) {
   const period = h < 12 ? "AM" : "PM";
   const hour12 = h % 12 || 12;
   return `${hour12}:${String(m).padStart(2, "0")} ${period}`;
-}
-
-// "2h 5m", for a runtime in minutes. Also in scripts/build-site.mjs, which
-// shows it on movie pages and can't share code with this file.
-function formatRuntime(minutes) {
-  const h = Math.floor(minutes / 60);
-  const m = minutes % 60;
-  return h ? `${h}h${m ? ` ${m}m` : ""}` : `${m}m`;
-}
-
-// When a session ends if the film starts at its listed time, e.g. "12:45 AM"
-// ("" when the runtime isn't known). It can land after midnight.
-function endTimeLabel(timeStr, runtimeMinutes) {
-  if (!runtimeMinutes) return "";
-  const [h, m] = timeStr.split(":").map(Number);
-  const end = (h * 60 + m + runtimeMinutes) % (24 * 60);
-  return formatTimeLabel(`${Math.floor(end / 60)}:${String(end % 60).padStart(2, "0")}`);
 }
 
 function formatDayLabel(dateStr) {
@@ -275,6 +175,10 @@ function sessionVisible(session) {
   return selectedTags.size === 0 || session.formats.some((t) => selectedTags.has(t));
 }
 
+function movieVisible(movie) {
+  return selectedMovie === null || movieSlug(movie.title) === selectedMovie;
+}
+
 function renderMovie(movie, visibleSessions) {
   const el = document.createElement("div");
   el.className = "movie";
@@ -293,7 +197,11 @@ function renderMovie(movie, visibleSessions) {
   // Movie pages only exist in the deployed build (see PATH_ROUTING).
   if (PATH_ROUTING) {
     const link = document.createElement("a");
-    link.href = `movies/${movieSlug(movie.title)}/`;
+    const href = new URL(`movies/${movieSlug(movie.title)}/`, document.baseURI);
+    // The movie page reads the same "formats" param, so the formats picked
+    // here narrow it too.
+    if (selectedTags.size) href.searchParams.set("formats", [...selectedTags].join(","));
+    link.href = href;
     link.title = "Every theatre showing this movie";
     link.textContent = movie.title;
     title.appendChild(link);
@@ -318,29 +226,17 @@ function renderMovie(movie, visibleSessions) {
       chip.target = "_blank";
       chip.rel = "noopener";
     }
-    if (session.seats && auditoriums[session.layoutKey]) {
-      chip.classList.add("has-seats");
-      if (supportsHover) {
-        chip.addEventListener("mouseenter", () => renderSeatPopover(session, chip, movie));
-        chip.addEventListener("mouseleave", hideSeatPopover);
-        chip.addEventListener("focus", () => renderSeatPopover(session, chip, movie));
-        chip.addEventListener("blur", hideSeatPopover);
-      } else {
-        // Touch: first tap previews the seat map, a second tap on the same
-        // chip follows the ticket link. mouseenter isn't used here since
-        // touch browsers fire a synthetic one right before "click", which
-        // would otherwise make the popover look "already open" and let the
-        // very first tap fall through to the ticket page.
-        chip.addEventListener("click", (e) => {
-          if (activeSeatChip !== chip) {
-            e.preventDefault();
-            renderSeatPopover(session, chip, movie);
-            activeSeatChip = chip;
-          } else {
-            activeSeatChip = null;
-          }
-        });
-      }
+    // A time with a seat map previews it on hover, or on the first tap on a
+    // touch screen (see seatmap.js). A page cached from before that script
+    // existed just goes without.
+    if (session.seats && auditoriums[session.layoutKey] && typeof SeatMap !== "undefined") {
+      SeatMap.attach(chip, () => ({
+        layout: auditoriums[session.layoutKey],
+        seats: session.seats,
+        time: session.time,
+        runtimeMinutes: movie.runtimeMinutes,
+        asOf: updatedAtLabel,
+      }));
     }
     chipWrap.appendChild(chip);
     chipWrap.appendChild(renderFormatBadges(session.formats));
@@ -382,6 +278,7 @@ function renderCalendar() {
   for (const day of currentDays) {
     const visibleMovies = [];
     for (const movie of day.movies) {
+      if (!movieVisible(movie)) continue;
       const sessions = movie.sessions.filter(sessionVisible);
       if (sessions.length > 0) visibleMovies.push({ movie, sessions });
     }
@@ -551,10 +448,81 @@ function onPageScroll() {
 window.addEventListener("scroll", onPageScroll, { passive: true });
 window.addEventListener("resize", onPageScroll);
 
+// The "formats" and "movie" URL params only exist while that filter is
+// narrowed, so the default view keeps a clean URL.
+function syncFiltersToUrl() {
+  const url = new URL(location.href);
+  if (selectedTags.size === 0) {
+    url.searchParams.delete("formats");
+  } else {
+    url.searchParams.set("formats", [...selectedTags].join(","));
+  }
+  if (selectedMovie === null) {
+    url.searchParams.delete("movie");
+  } else {
+    url.searchParams.set("movie", selectedMovie);
+  }
+  history.replaceState(history.state, "", url);
+}
+
+// Every movie on show at the theatre, as [slug, title] in title order. Titles
+// that slug the same are one movie (and share a movie page).
+function theatreMovies() {
+  const bySlug = new Map();
+  for (const day of currentDays) {
+    for (const movie of day.movies) {
+      const slug = movieSlug(movie.title);
+      if (!bySlug.has(slug)) bySlug.set(slug, movie.title);
+    }
+  }
+  return [...bySlug].sort((a, b) => a[1].localeCompare(b[1]));
+}
+
+// Fills the movie picker from the theatre's showtimes and starts it on the
+// movie in the URL, if the theatre is showing it. With only one movie on
+// there is nothing to pick between, so the picker stays hidden.
+function renderMovieSelect() {
+  if (!movieSelectEl) {
+    // A page whose HTML predates the picker (cached, say): no filter, no crash.
+    selectedMovie = null;
+    pendingUrlMovie = null;
+    return;
+  }
+  const movies = theatreMovies();
+  selectedMovie =
+    movies.length > 1 && movies.some(([slug]) => slug === pendingUrlMovie) ? pendingUrlMovie : null;
+  pendingUrlMovie = null;
+
+  movieSelectEl.innerHTML = "";
+  const all = document.createElement("option");
+  all.value = "";
+  all.textContent = `All movies (${movies.length})`;
+  movieSelectEl.appendChild(all);
+  for (const [slug, title] of movies) {
+    const option = document.createElement("option");
+    option.value = slug;
+    option.textContent = title;
+    movieSelectEl.appendChild(option);
+  }
+  movieSelectEl.value = selectedMovie ?? "";
+  movieFilterEl.hidden = movies.length < 2;
+}
+
+movieSelectEl?.addEventListener("change", () => {
+  selectedMovie = movieSelectEl.value || null;
+  // The format chips are the ones this movie plays in, so rebuild them, keeping
+  // whichever of the chosen formats it still has.
+  pendingUrlFormats = [...selectedTags];
+  renderFormatFilter();
+  syncFiltersToUrl();
+  renderCalendar();
+});
+
 function renderFormatFilter() {
   const tags = new Set();
   for (const day of currentDays) {
     for (const movie of day.movies) {
+      if (!movieVisible(movie)) continue;
       for (const session of movie.sessions) {
         for (const tag of session.formats) tags.add(tag);
       }
@@ -591,21 +559,9 @@ function renderFormatFilter() {
     }
   }
 
-  // The "formats" URL param only exists while the filter is narrowed, so
-  // the default view keeps a clean URL.
-  function syncFormatsToUrl() {
-    const url = new URL(location.href);
-    if (selectedTags.size === 0) {
-      url.searchParams.delete("formats");
-    } else {
-      url.searchParams.set("formats", [...selectedTags].join(","));
-    }
-    history.replaceState(history.state, "", url);
-  }
-
   function applyFilter() {
     updateFilterButtons();
-    syncFormatsToUrl();
+    syncFiltersToUrl();
     renderCalendar();
   }
 
@@ -730,6 +686,7 @@ function renderAreaButtons() {
     btn.textContent = areaLabel(currentRegion, key);
     btn.addEventListener("click", () => {
       currentArea = key;
+      theatreListOpen = true; // they're here to choose a theatre
       renderNav();
     });
     areaButtonsEl.appendChild(btn);
@@ -744,13 +701,34 @@ function renderTheatreList(theatres) {
     .filter((t) => regionForTheatre(t) === currentRegion && areaForTheatre(t) === currentArea)
     .sort((a, b) => a.name.localeCompare(b.name));
 
+  // A theatre is already showing and the list isn't wanted: one button in its
+  // place that brings it back (nothing, if it'd only list that theatre).
+  const showing = inArea.some((t) => t.id === currentTheatreId);
+  if (showing && !theatreListOpen) {
+    if (inArea.length > 1) {
+      const toggle = document.createElement("button");
+      toggle.type = "button";
+      toggle.className = "theatre-list-toggle";
+      toggle.textContent = `Other theatres in ${areaLabel(currentRegion, currentArea)} (${inArea.length - 1}) ▾`;
+      toggle.addEventListener("click", () => {
+        theatreListOpen = true;
+        renderTheatreList(theatres);
+        theatreListEl.querySelector(".theatre-list-item.active")?.focus({ preventScroll: true });
+      });
+      theatreListEl.appendChild(toggle);
+    }
+    return;
+  }
+
   for (const theatre of inArea) {
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "theatre-list-item";
     if (theatre.id === currentTheatreId) btn.classList.add("active");
     btn.textContent = theatre.name;
-    btn.addEventListener("click", () => selectTheatre(theatre, theatres, { remember: true }));
+    btn.addEventListener("click", () =>
+      selectTheatre(theatre, theatres, { remember: true, keepList: true })
+    );
     theatreListEl.appendChild(btn);
   }
 }
@@ -775,6 +753,9 @@ function renderNav(theatres = allTheatres) {
 // (an array of tag strings) seeds the format filter -- e.g. from a shared
 // link -- instead of the default "everything selected"; omitting it resets
 // the filter to everything, which is what picking a theatre normally does.
+// `movie` (a movie slug) does the same for the movie picker, which is what a
+// movie page's theatre links use. `keepList: true` (a pick from the area's own
+// theatre list) leaves that list open; otherwise it folds up (theatreListOpen).
 // `drill: false` loads the theatre's showtimes without auto-drilling the
 // nav into its region/area, leaving the top-level region buttons showing --
 // used for the no-slug landing page, which also keeps its own URL and title
@@ -784,16 +765,18 @@ function renderNav(theatres = allTheatres) {
 function selectTheatre(
   theatre,
   theatres,
-  { push = true, formats = null, drill = true, remember = false } = {}
+  { push = true, formats = null, movie = null, drill = true, remember = false, keepList = false } = {}
 ) {
   if (remember) storeTheatre(theatre);
   currentTheatreId = theatre.id;
   currentRegion = drill ? regionForTheatre(theatre) : null;
   currentArea = drill ? areaForTheatre(theatre) : null;
+  theatreListOpen = keepList;
   theatreSearchEl.value = theatre.name;
   updateSearchClearVisibility();
   renderNav(theatres);
   pendingUrlFormats = formats;
+  pendingUrlMovie = movie;
   loadTheatre(theatre, theatres);
 
   if (!drill) {
@@ -807,6 +790,11 @@ function selectTheatre(
     url.searchParams.set("formats", formats.join(","));
   } else {
     url.searchParams.delete("formats");
+  }
+  if (movie) {
+    url.searchParams.set("movie", movie);
+  } else {
+    url.searchParams.delete("movie");
   }
   if (push) {
     history.pushState({ theatreSlug: theatre.slug }, "", url);
@@ -998,6 +986,7 @@ async function loadTheatre(theatre, theatres) {
   theatreNameEl.textContent = `Showtimes at ${theatre.name}`;
   calendarEl.innerHTML = '<p class="loading">Loading showtimes&hellip;</p>';
   formatFilterEl.innerHTML = "";
+  if (movieFilterEl) movieFilterEl.hidden = true;
   renderDateBar([]);
   updatedEl.textContent = "";
 
@@ -1024,6 +1013,7 @@ async function loadTheatre(theatre, theatres) {
       updatedAtLabel = formatted;
     }
 
+    renderMovieSelect();
     renderFormatFilter();
     renderCalendar();
   } catch (err) {
@@ -1080,9 +1070,11 @@ function showTheatreFromLocation() {
     remembered ||
     allTheatres.find((t) => t.id === DEFAULT_THEATRE_ID) ||
     allTheatres[0];
+  const params = new URLSearchParams(location.search);
   selectTheatre(theatre, allTheatres, {
     push: false,
-    formats: parseFormatsParam(new URLSearchParams(location.search)),
+    formats: parseFormatsParam(params),
+    movie: params.get("movie"),
     drill: Boolean(urlTheatre || remembered),
   });
 }

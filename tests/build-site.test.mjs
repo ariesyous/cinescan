@@ -5,6 +5,7 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import test from "node:test";
+import vm from "node:vm";
 
 const repo = fileURLToPath(new URL("..", import.meta.url));
 const script = path.join(repo, "scripts/build-site.mjs");
@@ -17,7 +18,7 @@ const read = (root, file) => readFileSync(path.join(root, "out", file), "utf8");
 function fixture(t) {
   const root = mkdtempSync(path.join(tmpdir(), "cinescan-site-test-"));
   t.after(() => rmSync(root, { recursive: true, force: true }));
-  for (const entry of ["index.html", "app.js", "movie.js", "style.css", "assets"]) {
+  for (const entry of ["index.html", "app.js", "movie.js", "seatmap.js", "style.css", "assets"]) {
     cpSync(path.join(repo, entry), path.join(root, entry), { recursive: true });
   }
   mkdirSync(path.join(root, "data"));
@@ -100,7 +101,7 @@ test("builds theatre pages, home page and sitemap", (t) => {
     assert.match(html, /<input\s+id="theatre-search"[^>]*role="combobox"/);
   }
 
-  for (const copied of ["app.js", "movie.js", "style.css", "assets/favicon.svg", "data/big-screen.json"]) {
+  for (const copied of ["app.js", "movie.js", "seatmap.js", "style.css", "assets/favicon.svg", "data/big-screen.json"]) {
     assert.ok(existsSync(path.join(root, "out", copied)), copied);
   }
 });
@@ -238,4 +239,260 @@ test("collapses a long format filter behind a toggle, and leaves a short one alo
     assert.match(page, /<div id="movie-filter" class="format-filter movie-filter" hidden>/, file);
     assert.equal(page.match(/class="format-chip /g).length, formats.length, file);
   }
+});
+
+test("writes each movie's showtimes beside its page, and marks the page for movie.js", (t) => {
+  const root = fixture(t);
+  writeFileSync(path.join(root, "data/petit-ecran.json"), JSON.stringify({
+    updatedAt: "2026-10-08T00:00:00.000Z",
+    auditoriums: { 77: { totalRows: 1, totalColumns: 2, rowLabels: ["A"], seatTypes: ["SS"] } },
+    days: [
+      { date: "2000-01-01", movies: [{ title: "Now Showing", sessions: [{ time: "10:00", formats: ["Regular"] }] }] },
+      {
+        date: today,
+        movies: [{
+          title: "Now Shówing",
+          sessions: [
+            { time: "21:15", formats: ["Regular"], ticketUrl: "https://tickets.test/b" },
+            { time: "19:00", formats: ["IMAX", "3D"], ticketUrl: "https://tickets.test/a", layoutKey: "77", seats: ["AO"] },
+            { time: "20:00", formats: ["Regular"], ticketUrl: "javascript:alert(1)", layoutKey: "77", seats: ["AO"] },
+            { time: "22:30", formats: ["Regular"], ticketUrl: "https://tickets.test/c", layoutKey: "404", seats: ["AO"] },
+          ],
+        }],
+      },
+      { date: "2099-01-02", movies: [{ title: "Now Showing", sessions: [{ time: "09:30", formats: ["Regular"] }] }] },
+    ],
+  }));
+  assert.equal(run(root, "out").status, 0);
+
+  // One entry per theatre showing it: sessions in time order, formats as
+  // indexes into `combos`, no past days, and no link that isn't a web link.
+  // A trailing 1 marks a session whose seat map the theatre's file has, which
+  // needs both a web link (movie.js finds the seats by it) and a layout for
+  // its seats: the 20:00 session has no usable link and 22:30 no layout.
+  const showtimes = JSON.parse(read(root, "movies/now-showing/showtimes.json"));
+  assert.equal(showtimes.updatedAt, "2026-10-08T00:00:00.000Z");
+  assert.deepEqual(showtimes.combos, [["IMAX", "Regular"], ["3D", "IMAX"], ["Regular"]]);
+  assert.deepEqual(Object.keys(showtimes.theatres), ["big-screen", "petit-ecran"]);
+  assert.deepEqual(showtimes.theatres["big-screen"], {
+    tz: "America/Toronto",
+    days: { [today]: [["19:00", 0]] },
+  });
+  assert.deepEqual(showtimes.theatres["petit-ecran"], {
+    tz: "America/Toronto",
+    days: {
+      [today]: [
+        ["19:00", 1, "https://tickets.test/a", 1],
+        ["20:00", 2],
+        ["21:15", 2, "https://tickets.test/b"],
+        ["22:30", 2, "https://tickets.test/c"],
+      ],
+      "2099-01-02": [["09:30", 2]],
+    },
+  });
+  assert.ok(existsSync(path.join(root, "out/movies/advance-sale/showtimes.json")));
+  assert.ok(!existsSync(path.join(root, "out/movies/gone-already")));
+  assert.doesNotMatch(read(root, "sitemap.xml"), /showtimes\.json/);
+
+  // The hooks movie.js finds its way around by. The day strip must sit
+  // outside <header> to stick to the top as the page scrolls.
+  const page = read(root, "movies/now-showing/index.html");
+  assert.match(page, /<nav id="movie-day-bar" class="date-bar movie-day-bar" aria-label="Show a single day" hidden><\/nav>/);
+  assert.match(page, /<main class="movie-page" data-movie="now-showing" data-showtimes="movies\/now-showing\/showtimes.json">/);
+  assert.match(page, /<li class="movie-theatre" data-theatre="petit-ecran">/);
+  assert.ok(page.indexOf("</header>") < page.indexOf('id="movie-day-bar"'));
+  assert.ok(page.indexOf('id="movie-day-bar"') < page.indexOf('<main class="movie-page"'));
+  assert.doesNotMatch(read(root, "movies/index.html"), /movie-day-bar/);
+});
+
+// movie.js is a browser script, but with no page to set up it only defines
+// functions, so its showtime logic can be exercised here.
+function loadMovieScript() {
+  const context = { document: { getElementById: () => null, querySelector: () => null }, location: { search: "" } };
+  vm.createContext(context);
+  vm.runInContext(readFileSync(path.join(repo, "movie.js"), "utf8"), context);
+  // Results come from another realm, which deepStrictEqual won't compare.
+  const plain = (value) => JSON.parse(JSON.stringify(value));
+  return { ...context, plain };
+}
+
+test("movie.js lists a theatre's showtimes by day and format", () => {
+  const { theatreDays, plain } = loadMovieScript();
+  const combos = [["Regular"], ["3D", "IMAX"], ["Stars & Strollers"]];
+  const entry = {
+    tz: "America/Toronto",
+    days: {
+      "2026-11-03": [["19:00", 0]],
+      "2026-11-04": [["13:00", 0, "https://tickets.test/1", 1], ["16:00", 0], ["19:30", 1, "https://tickets.test/2", 1]],
+      "2026-11-06": [["20:00", 1], ["11:00", 2]],
+    },
+  };
+  const now = { date: "2026-11-04", time: "17:00" };
+
+  // Days before today at the theatre are dropped, and today's finished
+  // sessions are marked; rows are one format combination each, earliest first.
+  // Sessions marked in the file as having a seat map say so.
+  assert.deepEqual(plain(theatreDays(entry, combos, new Set(), now)), [
+    {
+      date: "2026-11-04",
+      today: true,
+      rows: [
+        { formats: ["Regular"], sessions: [
+          { time: "13:00", url: "https://tickets.test/1", seats: true, past: true },
+          { time: "16:00", seats: false, past: true },
+        ] },
+        { formats: ["3D", "IMAX"], sessions: [{ time: "19:30", url: "https://tickets.test/2", seats: true, past: false }] },
+      ],
+    },
+    {
+      date: "2026-11-06",
+      today: false,
+      rows: [
+        { formats: ["Stars & Strollers"], sessions: [{ time: "11:00", seats: false, past: false }] },
+        { formats: ["3D", "IMAX"], sessions: [{ time: "20:00", seats: false, past: false }] },
+      ],
+    },
+  ]);
+
+  // Chosen formats keep any session in at least one of them, and a day left
+  // with nothing drops out.
+  const imax = plain(theatreDays(entry, combos, new Set(["IMAX"]), now));
+  assert.deepEqual(imax.map((day) => [day.date, day.rows.map((row) => row.formats.join("+"))]), [
+    ["2026-11-04", ["3D+IMAX"]],
+    ["2026-11-06", ["3D+IMAX"]],
+  ]);
+  const strollers = plain(theatreDays(entry, combos, new Set(["Stars & Strollers"]), now));
+  assert.deepEqual(strollers.map((day) => day.date), ["2026-11-06"]);
+  assert.deepEqual(plain(theatreDays(entry, combos, new Set(["4DX"]), now)), []);
+
+  // Once today is over at the theatre it's no longer listed.
+  const tomorrow = plain(theatreDays(entry, combos, new Set(), { date: "2026-11-05", time: "00:10" }));
+  assert.deepEqual(tomorrow.map((day) => day.date), ["2026-11-06"]);
+});
+
+test("movie.js reads the clock where the theatre is", () => {
+  const { clockAt, formatTimeLabel, formatDayLabel, plain } = loadMovieScript();
+
+  // 02:30 UTC on Nov 5 is still the evening of Nov 4 in Saskatchewan, which
+  // keeps UTC-6 all year (zones that observe daylight saving would make this
+  // test depend on the time zone database), but already the 5th in Tokyo.
+  const instant = new Date("2026-11-05T02:30:00Z");
+  assert.deepEqual(plain(clockAt("America/Regina", instant)), { date: "2026-11-04", time: "20:30" });
+  assert.deepEqual(plain(clockAt("Asia/Tokyo", instant)), { date: "2026-11-05", time: "11:30" });
+  // Midnight is 00:00, never 24:00, so it compares correctly with showtimes.
+  assert.deepEqual(plain(clockAt("UTC", new Date("2026-11-05T00:00:00Z"))), { date: "2026-11-05", time: "00:00" });
+
+  assert.equal(formatTimeLabel("14:10"), "2:10 PM");
+  assert.equal(formatTimeLabel("00:05"), "12:05 AM");
+  assert.equal(formatTimeLabel("12:00"), "12:00 PM");
+  assert.equal(formatDayLabel("2026-11-05"), "Thu, Nov 5");
+});
+
+test("movie pages and the theatre page load seatmap.js before the script that uses it", (t) => {
+  const root = fixture(t);
+  assert.equal(run(root, "out").status, 0);
+  assert.ok(existsSync(path.join(root, "out/seatmap.js")));
+
+  // Each page's own scripts in the order they load (the analytics tag isn't one).
+  const scripts = (html) => [...html.matchAll(/<script src="([^"]+)"><\/script>/g)].map((m) => m[1]);
+  assert.deepEqual(scripts(read(root, "index.html")), ["seatmap.js", "app.js"]);
+  assert.deepEqual(scripts(read(root, "theatres/big-screen/index.html")), ["seatmap.js", "app.js"]);
+  assert.deepEqual(scripts(read(root, "movies/now-showing/index.html")), ["seatmap.js", "movie.js"]);
+  // No times to hover on these.
+  assert.deepEqual(scripts(read(root, "movies/index.html")), ["movie.js"]);
+  assert.deepEqual(scripts(read(root, "404.html")), ["movie.js"]);
+});
+
+// seatmap.js is a browser script too, but it touches nothing on the page until
+// a map is shown, so its helpers can be exercised here.
+function loadSeatMap() {
+  const context = {};
+  vm.createContext(context);
+  vm.runInContext(readFileSync(path.join(repo, "seatmap.js"), "utf8"), context);
+  return vm.runInContext("SeatMap", context);
+}
+
+test("seatmap.js works out when a film ends and how each seat looks", () => {
+  const { endTimeLabel, formatRuntime, seatClass } = loadSeatMap();
+
+  assert.equal(endTimeLabel("19:30", 125), "9:35 PM");
+  assert.equal(endTimeLabel("23:30", 125), "1:35 AM"); // after midnight
+  assert.equal(endTimeLabel("12:00", 60), "1:00 PM");
+  assert.equal(endTimeLabel("19:30", 0), ""); // runtime unknown
+  assert.equal(formatRuntime(125), "2h 5m");
+  assert.equal(formatRuntime(120), "2h");
+  assert.equal(formatRuntime(45), "45m");
+
+  // Only an available seat shows what kind it is; "?" and "." both draw nothing.
+  assert.equal(seatClass("A", "S"), "seat seat-available");
+  assert.equal(seatClass("A", "W"), "seat seat-available-accessible");
+  assert.equal(seatClass("A", "C"), "seat seat-available-accessible");
+  assert.equal(seatClass("A", "D"), "seat seat-available-dbox");
+  assert.equal(seatClass("O", "D"), "seat seat-occupied");
+  assert.equal(seatClass("?", "S"), "seat seat-none");
+  assert.equal(seatClass(".", "."), "seat seat-none");
+});
+
+test("movie.js finds a session's seat map by its ticket link", () => {
+  const { indexSeatFile, plain } = loadMovieScript();
+  const layout = { totalRows: 1, totalColumns: 3, rowLabels: ["A"], seatTypes: ["SDS"] };
+  const file = indexSeatFile({
+    updatedAt: "2026-11-04T22:03:00.000Z",
+    auditoriums: { 160721: layout },
+    days: [{
+      date: "2026-11-04",
+      movies: [{
+        title: "Gueule d'Argile",
+        runtimeMinutes: 105,
+        sessions: [
+          // One showing sold as two areas, regular and D-BOX: the same seats under different links.
+          { time: "19:15", formats: ["D-BOX", "Recliner"], ticketUrl: "https://tickets.test/dbox", layoutKey: "160721", seats: ["AOA"] },
+          { time: "19:15", formats: ["Recliner"], ticketUrl: "https://tickets.test/regular", layoutKey: "160721", seats: ["AOA"] },
+          // No seat map: sold out, or one whose layout didn't come through.
+          { time: "21:00", formats: ["Recliner"], ticketUrl: "https://tickets.test/sold-out" },
+          { time: "22:00", formats: ["Recliner"], ticketUrl: "https://tickets.test/no-layout", layoutKey: "999", seats: ["AOA"] },
+        ],
+      }],
+    }],
+  });
+
+  assert.deepEqual([...file.bySession.keys()], ["https://tickets.test/dbox", "https://tickets.test/regular"]);
+  assert.deepEqual(plain(file.bySession.get("https://tickets.test/regular")), { layout, seats: ["AOA"], runtimeMinutes: 105 });
+  // When the seats were last scraped, in Toronto time like the theatre page says it.
+  assert.match(file.asOf, /^Nov 4, 2026, 5:03\sPM EST$/);
+
+  const empty = indexSeatFile({});
+  assert.equal(empty.bySession.size, 0);
+  assert.equal(empty.asOf, "");
+});
+
+test("every theatre's data file is data/<slug>.json, where movie.js looks for its seat maps", () => {
+  const theatres = JSON.parse(readFileSync(path.join(repo, "data/theatres.json"), "utf8"));
+  assert.ok(theatres.length > 0);
+  for (const theatre of theatres) assert.equal(theatre.file, `data/${theatre.slug}.json`, theatre.slug);
+});
+
+test("movie pages for many theatres get a box to find one by name", (t) => {
+  const withTheatres = (count) => {
+    const root = fixture(t);
+    const theatres = [];
+    for (let i = 0; i < count; i++) {
+      const slug = `theatre-${i}`;
+      theatres.push({ id: 100 + i, slug, name: `Theatre ${i}`, city: `City ${i}`, province: "ON", metro: null, file: `data/${slug}.json` });
+      writeFileSync(path.join(root, `data/${slug}.json`), JSON.stringify({
+        updatedAt: "2026-10-07T00:00:00.000Z",
+        days: [{ date: today, movies: [{ title: "Wide Release", sessions: [{ time: "19:00", formats: ["Regular"] }] }] }],
+      }));
+    }
+    writeFileSync(path.join(root, "data/theatres.json"), JSON.stringify(theatres));
+    assert.equal(run(root, "out").status, 0);
+    return read(root, "movies/wide-release/index.html");
+  };
+
+  // The box sits between the format chips and the count it updates, and
+  // starts hidden like the chips, for movie.js to show.
+  const many = withTheatres(13);
+  assert.match(many, /<input id="movie-search" class="theatre-search movie-search" type="search" [^>]*aria-label="Find a theatre or city"[^>]* hidden \/>\n    <p id="movie-count" class="updated" aria-live="polite"><\/p>/);
+  assert.ok(many.indexOf('id="movie-filter"') < many.indexOf('id="movie-search"'));
+  assert.doesNotMatch(withTheatres(12), /movie-search/);
 });

@@ -29,7 +29,11 @@ Four pieces, connected only through the JSON files in `data/`:
    `movies/<slug>/` (every theatre showing it, with each format
    combination's dates, in collapsible province sections ordered by how
    many theatres show it; releases at ≤6 theatres or in one province start
-   expanded), a `movies/` index (now playing / coming soon), both with a
+   expanded) plus a `movies/<slug>/showtimes.json` beside it (every
+   session's time, format combination and ticket link, plus a mark on
+   sessions that have a seat map, which `movie.js` turns into showtimes
+   under each theatre; the page itself stays dates-only so it's small and
+   crawlable), a `movies/` index (now playing / coming soon), both with a
    `movie.js` format filter, a footer directory of every
    theatre, `404.html`, `sitemap.xml` and `robots.txt`. Only dates from today
    (Toronto) onward count. It rewrites `index.html` via the
@@ -40,9 +44,12 @@ Four pieces, connected only through the JSON files in `data/`:
    `<meta name="cinescan-routing" content="path">` and a `<base>` pointing
    at the site root; `app.js` then uses `theatres/<slug>/` URLs and links
    calendar movie titles to `movies/<slug>/`, while the raw checkout keeps
-   using `?theatre=<slug>` with unlinked titles. `movieSlug` and `tagSlug`
-   are duplicated in `app.js` and `build-site.mjs`; keep each pair
-   identical. Titles that slug the same share a movie page.
+   using `?theatre=<slug>` with unlinked titles. `movieSlug`, `tagSlug` and
+   `PROVINCE_TIME_ZONES` are duplicated in `app.js` and `build-site.mjs`;
+   keep each pair identical. (`movie.js` likewise repeats `app.js`'s
+   `formatTimeLabel`, `normalize` and "Last updated" time format, and
+   `seatmap.js` repeats `formatTimeLabel`; `formatRuntime` is in `seatmap.js`
+   and `build-site.mjs`.) Titles that slug the same share a movie page.
 
 There's no shared code between the scraper and the frontend — the JSON file
 shape *is* the contract between them. If you change what the scraper writes,
@@ -253,6 +260,15 @@ map:
 - Seat-layout fetches are deduped per `vistaSessionId` within a run
   (`getLayout`'s promise cache) since layout is static per showtime while
   availability isn't.
+- Movie pages preview seat maps too, but the seats aren't in their
+  `showtimes.json` (several times its size, for a few visitors' benefit).
+  The build only marks the sessions that have one (`seats` plus an
+  `auditoriums` entry, the theatre page's own test), and the first hover at a
+  theatre has `movie.js` fetch its `data/<slug>.json` and find each
+  session's seats by ticket link. Not by `layoutKey`: one showing can appear
+  twice, as separate regular and D-BOX areas, with the same `layoutKey` and
+  seats but different links (about one session in ten). The data path comes
+  from the slug, which a test checks against `data/theatres.json`.
 
 ## Constraints to respect
 
@@ -311,8 +327,9 @@ map:
   `position: sticky` then never sticks to the viewport.
 - GitHub Pages deploys `_site/` (built from the `master` checkout plus
   the restored `data` snapshot) using `.github/workflows/pages.yml`. Only
-  `app.js`, `movie.js`, `style.css`, `assets/`, `data/` and the generated HTML,
-  sitemap and robots.txt are published at https://cinescan.app/. Anything in
+  `app.js`, `movie.js`, `seatmap.js`, `style.css`, `assets/`, `data/` and the
+  generated HTML, per-movie `showtimes.json`, sitemap and robots.txt are
+  published at https://cinescan.app/. Anything in
   them is publicly served as-is — this is a public repo, so don't add
   anything (real API keys beyond the already-public Cineplex one, personal
   data, etc.) that shouldn't be world-readable.
@@ -330,12 +347,34 @@ map:
   the province a visitor last opened (`localStorage` key
   `cinescan:province`, set only from summary clicks so auto-opened
   sections never overwrite it) and reopens it on other movie pages.
+  Movie pages also fetch their `showtimes.json` (`data-showtimes` on
+  `<main>`) and replace each theatre's date ranges with its showtimes by
+  day and format, as ticket links (`theatreDays`; sessions already started
+  at the theatre are dimmed, using the theatre's own clock via `clockAt`).
+  A time marked as having a seat map previews it on hover or first tap, like
+  the theatre page, with the seats read from that theatre's own
+  `data/<slug>.json` the first time one of its times is asked for
+  (`seatMapFor`, `indexSeatFile`); started sessions get no preview.
+  "All days" lists each theatre's next `DAYS_SHOWN` days with a "more days"
+  button; the sticky day strip under the filter (`#movie-day-bar`, a direct
+  child of `<body>` so it can stick, with the day in `?date=`) narrows every
+  theatre to one day, and only offers days that have showtimes in the
+  chosen formats. Pages for more than `SEARCH_MIN_THEATRES` theatres also get
+  a box that narrows the list by theatre or city name. Few theatres left
+  after filtering (`OPEN_ALL_MAX_THEATRES`), or any search, opens every
+  province. If the JSON can't be loaded the page's own date ranges stay,
+  still filterable by format. Theatre links get `?movie=<slug>` so the
+  theatre's page opens on that movie (see `app.js`).
 - `index.html`, `style.css`, `app.js` — the frontend. Plain HTML/CSS/vanilla
   JS on purpose. `app.js` builds a three-level drill-down picker from
   `data/theatres.json`: region buttons (GTA/Montreal/Vancouver/Everywhere
   Else, from `metro`) → area buttons (city, or province under Everywhere
-  Else) → a persistent theatre list for that area, with a breadcrumb to jump
+  Else) → a theatre list for that area, with a breadcrumb to jump
   back up (`currentRegion`/`currentArea` state, `renderNav`/`selectTheatre`).
+  The list stays open while a visitor flips through it, but a theatre
+  reached any other way (a link, the search box, a saved theatre) folds it
+  behind an "Other theatres in …" button (`theatreListOpen`), since up to 40
+  stacked buttons push the showtimes off a phone's screen.
   A search box (`renderTheatreDropdown`/`setupTheatrePicker`) is an
   alternate way to jump straight to a theatre, kept in sync via
   `selectTheatre`. Scotiabank Theatre Toronto is the default shown on load,
@@ -346,15 +385,31 @@ map:
   Also builds the format filter bar and renders the calendar from the
   selected theatre's data file; session chips carry `session.formats` as
   color-coded badges, narrowed by the filter bar (`selectedTags`: empty
-  means every format). `renderDateBar` builds the sticky date strip from
-  the days that survive the filter (so it also shows which days a format
-  plays); chips scroll to `#day-<date>` cards, and a scroll listener keeps
-  the active chip in step (`updateDateBar`) without touching the URL.
+  means every format). A "Movie" picker above it (`renderMovieSelect`,
+  `selectedMovie`, the `?movie=<movieSlug>` param that movie pages link
+  with) narrows the calendar to one movie, and the format chips to the ones
+  that movie plays in; like `formats`, the param only seeds the filter on a
+  URL load, and picking a theatre resets it. `renderDateBar` builds the
+  sticky date strip from the days that survive the filter (so it also shows
+  which days a format plays); chips scroll to `#day-<date>` cards, and a
+  scroll listener keeps the active chip in step (`updateDateBar`) without
+  touching the URL.
   "Today" is the date in the theatre's own time zone
-  (`PROVINCE_TIME_ZONES`), not the visitor's. Sessions with a seat map open
-  it on hover, or on the first tap on touch screens (which says so in the
-  popover); it also gives roughly when the film ends, from the showtime plus
-  `runtimeMinutes` (previews not included).
+  (`PROVINCE_TIME_ZONES`), not the visitor's. Sessions with a seat map
+  preview it on hover, or on the first tap on touch screens (see
+  `seatmap.js`).
+- `seatmap.js` — the seat map preview, shared by the theatre page and movie
+  pages (not the `movies/` index) and loaded before `app.js`/`movie.js`.
+  `SeatMap.attach(chip, load)` opens one floating map for the whole page on
+  hover or keyboard focus, or on the first tap on a touch screen (a second
+  tap follows the ticket link, and the map says so). `load` returns the map,
+  a promise of it (the popover says "Loading" only if that takes a moment)
+  or null for none. It also gives roughly when the film ends, from the
+  showtime plus `runtimeMinutes` (previews not included), and sits above the
+  time when it wouldn't fit below. It touches no DOM until a map is first
+  shown, so tests can load it in `node:vm`. `app.js` and `movie.js` check
+  that `SeatMap` exists, so a page cached from before this file was added
+  just has no previews.
 - `scripts/scrape.mjs` — see "Operating the scraper" and "Seat data" above.
 - `scripts/build-site.mjs` — see "Architecture" above.
 - `scripts/fetch-theatres.mjs` — regenerates `data/theatres.json` from
@@ -375,11 +430,17 @@ map:
 - Run `node --test tests/data-snapshot.test.mjs` to check snapshot
   replacement, restoration, race refusal and invalid-data refusal against
   temporary local Git remotes. The Storage checks workflow runs these in CI.
-- Run `node --test tests/build-site.test.mjs` after changing `index.html`
-  or `build-site.mjs`; it builds against the real template. The Site checks
-  workflow runs it in CI. To preview the deployed shape, run
-  `node scripts/build-site.mjs _site` and serve `_site/` at the server root
-  (matching https://cinescan.app/).
+- Run `node --test tests/build-site.test.mjs` after changing `index.html`,
+  `movie.js`, `seatmap.js` or `build-site.mjs`; it builds against the real
+  template, and runs the pure functions of `movie.js` (showtimes, seat-file
+  lookup) and `seatmap.js` in a `node:vm` context (they only define
+  functions when the page has no filter element, or until a map is shown, so
+  there's no DOM to fake). The Site checks workflow runs it in CI. To
+  preview the deployed shape, run `node scripts/build-site.mjs _site` and
+  serve `_site/` at the server root (matching https://cinescan.app/). Hover
+  and tap behavior isn't covered: hover a showtime on a movie page and on a
+  theatre page, and with the browser's Mobile viewport check that a first
+  tap previews the seats and a second opens tickets.
 - Run `node scripts/scrape.mjs` (or `SCRAPE_MODE=quick node scripts/scrape.mjs`
   for a much faster near-window-only pass) locally to regenerate `data/*.json`
   and sanity-check the output.
