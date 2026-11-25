@@ -10,6 +10,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -22,6 +23,9 @@ jobs:
   deploy:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
+    # Earlier attempts can leave artifacts attached to the same workflow run.
+    env:
+      PAGES_ARTIFACT_NAME: github-pages-${{ github.run_attempt }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -67,9 +71,35 @@ jobs:
       - uses: actions/configure-pages@v6
 
       - uses: actions/upload-pages-artifact@v5
+        id: upload
         with:
+          name: ${{ env.PAGES_ARTIFACT_NAME }}
           path: _site
+
+      # GitHub's artifact listing can lag behind a successful upload.
+      - name: Wait for Pages artifact
+        shell: bash
+        timeout-minutes: 2
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact_id }}
+        run: |
+          : "${ARTIFACT_ID:?Pages upload did not return an artifact ID}"
+          endpoint="repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?name=$PAGES_ARTIFACT_NAME"
+          for attempt in {1..12}; do
+            sleep 5
+            if visible_id=$(gh api "$endpoint" --jq '.artifacts[] | select(.expired == false) | .id') &&
+              [[ "$visible_id" == "$ARTIFACT_ID" ]]; then
+              echo "Pages artifact $ARTIFACT_ID is available."
+              exit 0
+            fi
+            echo "Waiting for Pages artifact $ARTIFACT_ID (check $attempt of 12)."
+          done
+          echo "::error::Pages artifact $ARTIFACT_ID did not appear in the artifact list."
+          exit 1
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          artifact_name: ${{ env.PAGES_ARTIFACT_NAME }}
